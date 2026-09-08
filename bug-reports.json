@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-08T21:00:04.100573+00:00",
+  "generated_at": "2026-09-08T22:20:38.939413+00:00",
   "reports": [
+    {
+      "id": 8,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1547008446325329951",
+      "reported_by": "734768348201615400",
+      "reported_by_name": "ɯoʇdǝɟ",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-08T22:20:38.931202+00:00",
+      "fixed_at": null,
+      "category": "Wrestling",
+      "question_type": "standard",
+      "question_text": "Which wrestler uses the catchphrase \"This is for all the ladies who wanna be me and all the men who come to see me\"?",
+      "correct_answers": [
+        "myr26v3NtP4KyjLzww=="
+      ]
+    },
     {
       "id": 7,
       "guild_id": "861055530638114836",
