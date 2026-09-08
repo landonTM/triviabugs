@@ -1,9 +1,11 @@
 {
-  "generated_at": "2026-09-08T19:39:00.578801+00:00",
+  "generated_at": "2026-09-08T20:58:02.287131+00:00",
   "reports": [
     {
       "id": 7,
       "guild_id": 861055530638114836,
+      "channel_id": 864342930076860426,
+      "message_id": 1546968079974666241,
       "reported_by": 734768348201615400,
       "reported_by_name": "ɯoʇdǝɟ",
       "method": "reaction",
@@ -20,6 +22,8 @@
     {
       "id": 6,
       "guild_id": 861055530638114836,
+      "channel_id": 942608239361687572,
+      "message_id": 1546743290379112522,
       "reported_by": 433990857063137282,
       "reported_by_name": "landon",
       "method": "reaction",
@@ -36,6 +40,8 @@
     {
       "id": 5,
       "guild_id": 890466886540738621,
+      "channel_id": 1539490560652611605,
+      "message_id": 1546742654698651709,
       "reported_by": 433990857063137282,
       "reported_by_name": "landon",
       "method": "reaction",
@@ -52,6 +58,8 @@
     {
       "id": 4,
       "guild_id": 861055530638114836,
+      "channel_id": 942608239361687572,
+      "message_id": 1546708821672464408,
       "reported_by": 433990857063137282,
       "reported_by_name": "landon",
       "method": "reaction",
@@ -68,6 +76,8 @@
     {
       "id": 2,
       "guild_id": 861055530638114836,
+      "channel_id": 942608239361687572,
+      "message_id": 1546676133003796482,
       "reported_by": 433990857063137282,
       "reported_by_name": "landon",
       "method": "reaction",
