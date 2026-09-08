@@ -42,10 +42,17 @@
   }
   main.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 64px}
 
-  header.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:26px}
-  .header-spacer{flex:0 0 84px}
-  .header-title{flex:1;min-width:0;text-align:center}
-  .header-controls{flex:0 0 auto;display:flex;gap:8px}
+  /* position:relative + centered text + right-pinned absolute controls,
+     rather than a flex row balanced with a matching spacer -- that
+     approach broke down whenever header.top wrapped (small screens),
+     since header-controls would drop onto its own line and the lock
+     popover (absolute, relative to header-controls) would then be
+     positioned relative to wherever that line ended up instead of the
+     page's top-right corner. Anchoring to header.top itself instead is
+     correct at every viewport width with no separate mobile override. */
+  header.top{position:relative;text-align:center;padding:4px 92px 0;margin-bottom:26px}
+  .header-title{min-width:0}
+  .header-controls{position:absolute;top:0;right:0;display:flex;gap:8px}
   h1{font-size:clamp(22px,4vw,30px);margin:0 0 4px;letter-spacing:-.01em}
   .subtitle{color:var(--text-muted);font-size:13.5px;margin:0}
   .theme-btn{
@@ -82,6 +89,12 @@
   .stat b{display:block;font-size:24px;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
   .stat span{color:var(--text-muted);font-size:12.5px}
   .stat.p0 b{color:var(--p0)}
+  /* A separate sibling block, not a spanning item inside .stats-row's grid
+     -- a grid-column:1/-1 item inside that auto-fit grid touches every
+     column track, which stops auto-fit from collapsing the empty ones and
+     left the real stat cards squashed to one side instead of stretching
+     to fill the row. */
+  .sevblock{margin:10px 0}
 
   .sevbar{display:flex;height:10px;border-radius:6px;overflow:hidden;margin-top:10px;border:1px solid var(--border)}
   .sevbar div{height:100%}
@@ -114,14 +127,15 @@
   .controls{
     position:sticky;top:0;z-index:5;background:var(--bg);
     padding:12px 0;margin-top:18px;
-    display:flex;justify-content:center;gap:8px;flex-wrap:wrap;
+    display:flex;justify-content:center;gap:6px;flex-wrap:wrap;
   }
   .controls::after{content:"";position:absolute;left:-16px;right:-16px;bottom:-1px;height:1px;background:var(--border)}
   .controls select,.controls input{
-    font:inherit;font-size:14px;padding:9px 11px;border:1px solid var(--border);border-radius:8px;
+    font:inherit;font-size:13.5px;padding:8px 8px;border:1px solid var(--border);border-radius:8px;
     background:var(--surface);color:var(--text);
   }
   .controls input[type=search]{flex:0 1 320px;min-width:180px}
+  .controls input[type=search].search-compact{flex:0 1 170px;min-width:120px}
   .controls select{flex:0 0 auto}
   .controls select:disabled{opacity:.45}
 
@@ -185,9 +199,12 @@
   .method-icon{font-size:13px}
 
   @media (max-width:640px){
-    header.top{flex-wrap:wrap}
-    .header-spacer{display:none}
-    .header-title{flex:1 1 100%;text-align:left}
+    header.top{padding:2px 82px 0}
+    .theme-btn{width:32px;height:32px;font-size:14px}
+    .header-controls{gap:6px}
+    .lock-popover{width:calc(100vw - 48px);max-width:280px}
+    .tabs{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch}
+    .tab{flex:0 0 auto;padding:10px 12px;font-size:13px;white-space:nowrap}
     .controls{flex-direction:column;align-items:stretch}
     /* flex-basis applies to the main axis -- in column mode that's height,
        so the row-mode "flex:1 1 220px" (meant to size width) would instead
@@ -196,6 +213,11 @@
        actually win -- a plain ".controls input" rule here is weaker and
        gets silently outranked regardless of which is inside the media query. */
     .controls select,.controls input,.controls input[type=search]{width:100%;flex:0 0 auto}
+    /* .search-compact's own specificity (0,3,1) beats the rule just above
+       (0,2,1) outside a media query, so it needs its own explicit mobile
+       override here too or it'd stay pinned at ~170px instead of
+       stretching full-width like the rest of the stacked controls. */
+    .controls input[type=search].search-compact{width:100%;flex:0 0 auto}
     table.cov{font-size:12px}
   }
   @media print{
@@ -207,12 +229,11 @@
 <body>
 <main class="wrap">
   <header class="top">
-    <div class="header-spacer" aria-hidden="true"></div>
     <div class="header-title">
       <h1>Trivia Questions Bug Tracker</h1>
       <p class="subtitle" id="subtitle">Loading…</p>
     </div>
-    <div class="header-controls" style="position:relative">
+    <div class="header-controls">
       <button class="theme-btn" id="lockBtn" title="Unlock answers" aria-label="Unlock answers">🔒</button>
       <div id="lockPopover" class="lock-popover" hidden>
         <p style="margin:0 0 8px;font-size:13px;color:var(--text-muted)">Enter the password to reveal answers on this device. This is a spoiler gate, not real security — see the note below once unlocked.</p>
@@ -242,16 +263,17 @@
 
   <div id="app" hidden>
     <div class="stats-row" id="stats"></div>
+    <div class="stat sevblock" id="statsSeverity"></div>
 
     <div class="lock-note">🔒 Answers are hidden by default — click the lock icon above to unlock.</div>
 
     <div class="controls">
+      <input id="search" class="search-compact" type="search" placeholder="Search…" aria-label="Search audit">
       <select id="mode" aria-label="View">
         <option value="findings">Findings &amp; candidates</option>
         <option value="inventory">All question inventory</option>
         <option value="images">Unverified image inventory</option>
       </select>
-      <input id="search" type="search" placeholder="Search question, answer, issue, file or line…" aria-label="Search audit">
       <select id="file" aria-label="File"><option value="">All files</option></select>
       <select id="severity" aria-label="Severity">
         <option value="">All severities</option>
@@ -300,16 +322,17 @@
 
   <div id="ccApp" hidden>
     <div class="stats-row" id="ccStats"></div>
+    <div class="stat sevblock" id="ccStatsSeverity"></div>
 
     <div class="lock-note">🔒 Answers are hidden by default — click the lock icon above to unlock.</div>
 
     <div class="controls">
+      <input id="ccSearch" class="search-compact" type="search" placeholder="Search…" aria-label="Search custom category audit">
       <select id="ccMode" aria-label="View">
         <option value="findings">Findings &amp; candidates</option>
         <option value="inventory">All question inventory</option>
         <option value="images">Unverified image inventory</option>
       </select>
-      <input id="ccSearch" type="search" placeholder="Search question, answer, issue, category or file…" aria-label="Search custom category audit">
       <select id="ccCategory" aria-label="Category"><option value="">All categories</option></select>
       <select id="ccSeverity" aria-label="Severity">
         <option value="">All severities</option>
@@ -429,7 +452,6 @@
 
   <div id="reassignApp" hidden>
     <div class="stats-row" id="reassignStats"></div>
-    <div class="notice" id="reassignPolicy"></div>
 
     <div class="controls">
       <input id="reassignSearch" type="search" placeholder="Search question, answer, or category…" aria-label="Search category suggestions">
@@ -531,6 +553,18 @@
     const hide = v => `<span class="answer-hidden" title="Unlock to reveal">•••• hidden</span>`;
     const show = v => esc(unscrambleOne(v, keyBytes));
     const fn = unlocked && keyBytes ? show : hide;
+    return Array.isArray(value) ? value.map(fn).join(" / ") : fn(value);
+  }
+  // other-categories-audit.json (Custom Categories + Reassignments) stores
+  // its answers as plain text, unlike trivia-audit.json's scrambled ones --
+  // this keeps the same lock/unlock spoiler-gate UX without running them
+  // through the XOR unscramble meant for the other file's format (which
+  // corrupts already-plain text into garbage or "(unreadable)").
+  function revealPlain(value){
+    if (value == null) return value;
+    const hide = () => `<span class="answer-hidden" title="Unlock to reveal">•••• hidden</span>`;
+    const show = v => esc(v);
+    const fn = unlocked ? show : hide;
     return Array.isArray(value) ? value.map(fn).join(" / ") : fn(value);
   }
 
@@ -679,7 +713,12 @@
 
         const fixedFindingList = ((FF && FF.findings) || []).map(f => {
           const fid = f.finding_id;
-          let category = null, question_text = null, correct_answers = null, badgeLabel = "🔎 Tracked Bug";
+          // trivia-audit.json's answers are scrambled (XOR + base64, see
+          // utils/answer_lock.py); other-categories-audit.json's are plain
+          // text -- this flag tells the card template which reveal
+          // function to use so N-/C- answers don't get corrupted by an
+          // unscramble pass they were never encoded for.
+          let category = null, question_text = null, correct_answers = null, badgeLabel = "🔎 Tracked Bug", answersFormat = "scrambled";
           if (fid.startsWith("C-")) {
             const found = categoryFindingById.get(fid.replace(/^C-/, "N-"));
             const q = found ? lookupCustomQuestion(found.question_id) : null;
@@ -687,6 +726,7 @@
             question_text = q ? q.question : null;
             correct_answers = q ? q.answers : null;
             badgeLabel = "🔁 Reassignment";
+            answersFormat = "plain";
           } else if (fid.startsWith("N-")) {
             const found = customFindingById.get(fid);
             const inv = found ? customInventoryById.get(found.question_id) : null;
@@ -694,6 +734,7 @@
             question_text = inv ? inv.question : null;
             correct_answers = inv ? inv.answers : null;
             badgeLabel = "🔎 Custom audit";
+            answersFormat = "plain";
           } else {
             const found = yamlFindingById.get(fid);
             category = found ? found.category : null;
@@ -701,7 +742,7 @@
             correct_answers = found ? found.current_answers : null;
           }
           return {
-            kind: "finding", id: fid, status: "fixed", category,
+            kind: "finding", id: fid, status: "fixed", category, answersFormat,
             reported_by: "tracker", reported_by_name: "Tracker",
             fixed_at: f.fixed_at, question_text, correct_answers, badgeLabel,
           };
@@ -779,7 +820,7 @@
             <span style="margin-left:auto;color:var(--text-muted)">${r.kind === "finding" ? "" : `Reported by <b>${esc(r.reported_by_name)}</b> · `}${ids.dateLabel} ${timeAgo(r[ids.dateField])}</span>
           </div>
           ${r.question_text ? `<h3 class="q">${esc(r.question_text)}</h3>` : "<p><i>Question no longer exists in the database.</i></p>"}
-          ${r.correct_answers ? `<p><b>Current answers</b>${reveal(r.correct_answers)}</p>` : ""}
+          ${r.correct_answers ? `<p><b>Current answers</b>${r.answersFormat === "plain" ? revealPlain(r.correct_answers) : reveal(r.correct_answers)}</p>` : ""}
         </article>
       `).join("") || "<p style='color:var(--text-muted);padding:24px 0;text-align:center'>No matches.</p>";
     }
@@ -827,12 +868,12 @@
       ["Images unverified", D.stats.image_entries],
     ].map(([label, val, cls]) =>
       `<div class="stat ${cls||''}"><b>${val.toLocaleString()}</b><span>${esc(label)}</span></div>`
-    ).join("") + `<div class="stat" style="grid-column:1/-1">
+    ).join("");
+    $("statsSeverity").innerHTML = `
         <span>Severity breakdown</span>
         <div class="sevbar">${["P0","P1","P2"].map(k => sev[k] ? `<div style="width:${sev[k]/sevTotal*100}%;background:var(--${k.toLowerCase()})"></div>` : "").join("")}</div>
         <div class="sevlegend">${["P0","P1","P2"].filter(k=>sev[k]).map(k =>
-          `<span><i style="background:var(--${k.toLowerCase()})"></i>${k}: ${sev[k].toLocaleString()}</span>`).join("")}</div>
-      </div>`;
+          `<span><i style="background:var(--${k.toLowerCase()})"></i>${k}: ${sev[k].toLocaleString()}</span>`).join("")}</div>`;
 
     for (const name of D.coverage.map(c => c.file)) $("file").add(new Option(name, name));
     for (const name of Object.keys(D.stats.evidence_counts)) $("evidence").add(new Option(name, name));
@@ -988,12 +1029,12 @@
       ["Images unverified", D.stats.images],
     ].map(([label, val, cls]) =>
       `<div class="stat ${cls||''}"><b>${val.toLocaleString()}</b><span>${esc(label)}</span></div>`
-    ).join("") + `<div class="stat" style="grid-column:1/-1">
+    ).join("");
+    $("ccStatsSeverity").innerHTML = `
         <span>Severity breakdown</span>
         <div class="sevbar">${["P0","P1","P2"].map(k => sev[k] ? `<div style="width:${sev[k]/sevTotal*100}%;background:var(--${k.toLowerCase()})"></div>` : "").join("")}</div>
         <div class="sevlegend">${["P0","P1","P2"].filter(k=>sev[k]).map(k =>
-          `<span><i style="background:var(--${k.toLowerCase()})"></i>${k}: ${sev[k].toLocaleString()}</span>`).join("")}</div>
-      </div>`;
+          `<span><i style="background:var(--${k.toLowerCase()})"></i>${k}: ${sev[k].toLocaleString()}</span>`).join("")}</div>`;
 
     for (const name of [...new Set(D.coverage.map(c => c.category))].sort()) $("ccCategory").add(new Option(name, name));
     for (const name of Object.keys(D.stats.evidence).sort()) $("ccEvidence").add(new Option(name, name));
@@ -1055,7 +1096,7 @@
               ${loc ? `<button class="copybtn" data-copy="${loc}">Copy ref</button>` : ""}
             </div>
             <h3 class="q">${inv ? esc(inv.question) : "(question no longer in inventory)"}</h3>
-            ${inv ? `<p><b>Current answers</b>${reveal(inv.answers)}</p>` : ""}
+            ${inv ? `<p><b>Current answers</b>${revealPlain(inv.answers)}</p>` : ""}
             <p><b>Finding</b>${esc(r.issue)}</p>
             <p><b>Proposed action</b>${esc(r.fix)}</p>
             ${r.sources && r.sources.length ? `<p class="sourcelinks">${r.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗</a>`).join("")}</p>` : ""}
@@ -1082,7 +1123,7 @@
             <button class="copybtn" data-copy="${esc(r.file)}:${r.line}">Copy ref</button>
           </div>
           <h3 class="q">${esc(r.question)}</h3>
-          <p><b>Current answers</b>${reveal(r.answers)}</p>
+          <p><b>Current answers</b>${revealPlain(r.answers)}</p>
           ${subs}
         </article>`;
       }).join("") || "<p style='color:var(--text-muted);padding:24px 0;text-align:center'>No matches.</p>";
@@ -1129,7 +1170,6 @@
     $("reassignTabCount").textContent = items.length;
 
     const cr = D.category_review;
-    $("reassignPolicy").innerHTML = `<b>Editorial policy</b>${esc(cr.policy)}`;
     $("reassignStats").innerHTML = [
       ["Suggestions", items.length],
       ["Current categories", Object.keys(cr.by_current).length],
@@ -1174,7 +1214,7 @@
             ${loc ? `<button class="copybtn" data-copy="${loc}">Copy ref</button>` : ""}
           </div>
           <h3 class="q">${q ? esc(q.question) : "(question no longer found)"}</h3>
-          ${q ? `<p><b>Current answers</b>${reveal(q.answers)}</p>` : ""}
+          ${q ? `<p><b>Current answers</b>${revealPlain(q.answers)}</p>` : ""}
           <p><b>Suggestion</b>${esc(r.issue)}</p>
           <p><b>Proposed action</b>${esc(r.fix)}</p>
         </article>`;
