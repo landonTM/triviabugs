@@ -1,14 +1,63 @@
 {
-  "generated_at": "2026-09-08T00:18:55.626156+00:00",
+  "generated_at": "2026-09-08T04:45:44.699350+00:00",
   "reports": [
+    {
+      "id": 6,
+      "guild_id": 861055530638114836,
+      "reported_by": 433990857063137282,
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-08T04:45:44.690883+00:00",
+      "fixed_at": null,
+      "category": "Computers",
+      "question_type": "standard",
+      "question_text": "Which subnet mask would be used as the classful mask for the IP address 192.135.250.27?",
+      "correct_answers": [
+        "/W2qt6fY0qRKnnOogA=="
+      ]
+    },
+    {
+      "id": 5,
+      "guild_id": 890466886540738621,
+      "reported_by": 433990857063137282,
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-08T04:43:10.343984+00:00",
+      "fixed_at": null,
+      "category": "World Capitals",
+      "question_type": "standard",
+      "question_text": "What is the capital of Morocco?",
+      "correct_answers": [
+        "nTn9+OE="
+      ]
+    },
+    {
+      "id": 4,
+      "guild_id": 861055530638114836,
+      "reported_by": 433990857063137282,
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "fixed",
+      "reported_at": "2026-09-08T02:28:44.440698+00:00",
+      "fixed_at": "2026-09-08T02:30:20.155203+00:00",
+      "category": "General Knowledge",
+      "question_type": "standard",
+      "question_text": "Which reggae singing star died 11th May 1981?",
+      "correct_answers": [
+        "jTf9udiMleYd0g=="
+      ]
+    },
     {
       "id": 2,
       "guild_id": 861055530638114836,
       "reported_by": 433990857063137282,
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-08T00:18:55.617075+00:00",
+      "fixed_at": "2026-09-08T02:23:55.853626+00:00",
       "category": "Logos",
       "question_type": "standard",
       "question_text": "What logo is this?",
