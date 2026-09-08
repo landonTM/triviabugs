@@ -817,6 +817,7 @@
             ${r.kind === "finding"
               ? `<span class="badge">${esc(r.badgeLabel || "🔎 Tracked Bug")}</span>`
               : `<span class="badge"><span class="method-icon">${r.method === "reaction" ? "🐛" : "🖱️"}</span> ${r.method === "reaction" ? "Reaction" : "Command"}</span>`}
+            <button class="copybtn" data-copy="${esc(r.id)}">Copy ID</button>
             <span style="margin-left:auto;color:var(--text-muted)">${r.kind === "finding" ? "" : `Reported by <b>${esc(r.reported_by_name)}</b> · `}${ids.dateLabel} ${timeAgo(r[ids.dateField])}</span>
           </div>
           ${r.question_text ? `<h3 class="q">${esc(r.question_text)}</h3>` : "<p><i>Question no longer exists in the database.</i></p>"}
@@ -827,6 +828,15 @@
     let searchTimer = null;
     $(ids.idPrefix + "Search").addEventListener("input", () => { clearTimeout(searchTimer); searchTimer = setTimeout(filterList, 150); });
     for (const suffix of ["User", "Sort"]) $(ids.idPrefix + suffix).addEventListener("change", filterList);
+    $(ids.idPrefix + "Results").addEventListener("click", e => {
+      const btn = e.target.closest(".copybtn");
+      if (!btn) return;
+      navigator.clipboard?.writeText(btn.dataset.copy).then(() => {
+        const old = btn.textContent;
+        btn.textContent = "Copied!";
+        setTimeout(() => { btn.textContent = old; }, 1200);
+      }).catch(() => {});
+    });
     filterList();
     return filterList;
   }
@@ -928,6 +938,7 @@
               ${severityBadge(r.priority)}
               <span class="badge">${esc(r.evidence)}</span>
               <span class="badge">${esc(r.category)}</span>
+              <button class="copybtn" data-copy="${esc(r.id)}">Copy ID</button>
               <button class="copybtn" data-copy="${esc(r.file)}:${r.line}">Copy ref</button>
             </div>
             <h3 class="q">${esc(r.question)}</h3>
@@ -1093,6 +1104,7 @@
               <span class="badge">${esc(r.evidence)}</span>
               <span class="badge">${esc(r.kind)}</span>
               ${inv ? `<span class="badge">${esc(inv.category)}</span>` : ""}
+              <button class="copybtn" data-copy="${esc(r.id)}">Copy ID</button>
               ${loc ? `<button class="copybtn" data-copy="${loc}">Copy ref</button>` : ""}
             </div>
             <h3 class="q">${inv ? esc(inv.question) : "(question no longer in inventory)"}</h3>
@@ -1211,6 +1223,7 @@
             <span class="loc">${esc(displayId(r.id))}${loc ? " · " + loc : ""}</span>
             <span class="badge">${esc(r.current_category)} → ${esc(r.destination)}</span>
             <span class="badge">${esc(r.evidence)}</span>
+            <button class="copybtn" data-copy="${esc(displayId(r.id))}">Copy ID</button>
             ${loc ? `<button class="copybtn" data-copy="${loc}">Copy ref</button>` : ""}
           </div>
           <h3 class="q">${q ? esc(q.question) : "(question no longer found)"}</h3>
