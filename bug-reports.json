@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T02:28:44.448756+00:00",
+  "generated_at": "2026-09-08T02:30:20.164351+00:00",
   "reports": [
     {
       "id": 4,
@@ -7,9 +7,9 @@
       "reported_by": 433990857063137282,
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-08T02:28:44.440698+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-08T02:30:20.155203+00:00",
       "category": "General Knowledge",
       "question_type": "standard",
       "question_text": "Which reggae singing star died 11th May 1981?",
