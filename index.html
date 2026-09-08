@@ -114,14 +114,14 @@
   .controls{
     position:sticky;top:0;z-index:5;background:var(--bg);
     padding:12px 0;margin-top:18px;
-    display:flex;gap:8px;flex-wrap:wrap;
+    display:flex;justify-content:center;gap:8px;flex-wrap:wrap;
   }
   .controls::after{content:"";position:absolute;left:-16px;right:-16px;bottom:-1px;height:1px;background:var(--border)}
   .controls select,.controls input{
     font:inherit;font-size:14px;padding:9px 11px;border:1px solid var(--border);border-radius:8px;
     background:var(--surface);color:var(--text);
   }
-  .controls input[type=search]{flex:1 1 220px;min-width:180px}
+  .controls input[type=search]{flex:0 1 320px;min-width:180px}
   .controls select{flex:0 0 auto}
   .controls select:disabled{opacity:.45}
 
@@ -152,6 +152,14 @@
     border-radius:6px;padding:3px 8px;font-size:11.5px;cursor:pointer;font:inherit;
   }
   .copybtn:hover{background:var(--surface-2);color:var(--text)}
+
+  /* Used by Tracked Bugs, Custom Categories and Reassignments cards --
+     centers each card's badge row and heading instead of left-aligning
+     them; body paragraphs (findings/answers text) stay left-aligned since
+     centering prose hurts readability. */
+  .center-card .meta{justify-content:center}
+  .center-card .meta .copybtn{margin-left:0}
+  .center-card h3.q{text-align:center}
 
   h3.q{font-size:15.5px;line-height:1.5;white-space:pre-wrap;margin:6px 0 10px;font-weight:650}
   article.card p{margin:6px 0;white-space:pre-wrap;font-size:13.5px}
@@ -584,6 +592,26 @@
   // populated once fixed-findings.json loads, used to hide them from the
   // Tracked Bugs tab (see filter()/render() in init()).
   let fixedFindingIds = new Set();
+  // Set by init(D)/initCustom(D) as each of the two audit files loads --
+  // whichever finishes second renders the combined, accurate subtitle;
+  // if the custom-categories file fails to load, the YAML-only wording
+  // stays as a graceful fallback.
+  let subtitleAudit = null, subtitleCustom = null;
+  function updateSubtitle(){
+    if (!subtitleAudit) return;
+    const q1 = subtitleAudit.stats.entries, q2 = subtitleCustom ? subtitleCustom.stats.entries : 0;
+    const f1 = subtitleAudit.stats.findings, f2 = subtitleCustom ? subtitleCustom.stats.findings : 0;
+    if (!subtitleCustom) {
+      $("subtitle").textContent =
+        `${subtitleAudit.coverage.length} YAML files · ${q1.toLocaleString()} questions · last synced ${subtitleAudit.audit_date}`;
+      return;
+    }
+    const proposals = subtitleCustom.category_review.proposals;
+    $("subtitle").textContent =
+      `${(q1 + q2).toLocaleString()} questions tracked across YAML and custom categories · ` +
+      `${(f1 + f2).toLocaleString()} findings + ${proposals.toLocaleString()} category suggestions · ` +
+      `last synced ${subtitleAudit.audit_date}`;
+  }
   const PANELS = ["audit", "custom", "reports", "reassign", "fixed"];
   const PANEL_IDS = {audit: "auditPanel", custom: "customPanel", reports: "reportsPanel", fixed: "fixedPanel", reassign: "reassignPanel"};
   const BTN_IDS = {audit: "tabAuditBtn", custom: "tabCustomBtn", reports: "tabReportsBtn", fixed: "tabFixedBtn", reassign: "tabReassignBtn"};
@@ -781,8 +809,8 @@
   function init(D){
     $("loading").hidden = true;
     $("app").hidden = false;
-    $("subtitle").textContent =
-      `${D.coverage.length} YAML files · ${D.stats.entries.toLocaleString()} questions · snapshot reviewed ${D.audit_date} · originals unchanged`;
+    subtitleAudit = D;
+    updateSubtitle();
 
     const findingById = new Map(D.findings.map(f => [f.id, f]));
     const imageSet = new Set(D.image_inventory.map(x => x.file + ":" + x.line));
@@ -853,7 +881,7 @@
 
       $("results").innerHTML = shown.slice(start, start + size).map(r => {
         if (mode === "findings") {
-          return `<article class="card ${(r.priority||'').toLowerCase()}">
+          return `<article class="card center-card ${(r.priority||'').toLowerCase()}">
             <div class="meta">
               <span class="loc">${esc(r.id)} · ${esc(r.file)}:${r.line}</span>
               ${severityBadge(r.priority)}
@@ -881,7 +909,7 @@
           : r.finding_ids.length
             ? "<p><b>Recorded findings</b>All fixed ✅</p>"
             : "<p><b>Recorded findings</b>None — not a correctness certification.</p>";
-        return `<article class="card">
+        return `<article class="card center-card">
           <div class="meta">
             <span class="loc">${esc(r.file)}:${r.line}</span>
             <button class="copybtn" data-copy="${esc(r.file)}:${r.line}">Copy ref</button>
@@ -943,6 +971,8 @@
   function initCustom(D){
     $("ccLoading").hidden = true;
     $("ccApp").hidden = false;
+    subtitleCustom = D;
+    updateSubtitle();
 
     const inventoryById = new Map(D.inventory.map(x => [x.id, x]));
     const findingById = new Map(D.findings.map(f => [f.id, f]));
@@ -1015,7 +1045,7 @@
         if (mode === "findings") {
           const inv = inventoryById.get(r.question_id);
           const loc = inv ? `${esc(inv.file)}:${inv.line}` : "";
-          return `<article class="card ${(r.severity||'').toLowerCase()}">
+          return `<article class="card center-card ${(r.severity||'').toLowerCase()}">
             <div class="meta">
               <span class="loc">${esc(r.id)}${loc ? " · " + loc : ""}</span>
               ${severityBadge(r.severity)}
@@ -1044,7 +1074,7 @@
           : r.finding_ids.length
             ? "<p><b>Recorded findings</b>All fixed ✅</p>"
             : "<p><b>Recorded findings</b>None — not a correctness certification.</p>";
-        return `<article class="card">
+        return `<article class="card center-card">
           <div class="meta">
             <span class="loc">${esc(r.file)}:${r.line}</span>
             <span class="badge">${esc(r.category)}</span>
@@ -1136,7 +1166,7 @@
       $("reassignResults").innerHTML = shown.slice(start, start + size).map(r => {
         const q = lookupQuestion(r.question_id);
         const loc = q ? `${esc(q.file)}:${q.line}` : "";
-        return `<article class="card p1">
+        return `<article class="card center-card p1">
           <div class="meta">
             <span class="loc">${esc(displayId(r.id))}${loc ? " · " + loc : ""}</span>
             <span class="badge">${esc(r.current_category)} → ${esc(r.destination)}</span>
