@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Trivia Question Audit</title>
+<title>Trivia Questions Bug Tracker</title>
 <style>
   :root{
     --bg:#f4f6f8; --surface:#ffffff; --surface-2:#eef1f4; --border:#dbe2e8;
@@ -42,7 +42,10 @@
   }
   main.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 64px}
 
-  header.top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:18px}
+  header.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:26px}
+  .header-spacer{flex:0 0 84px}
+  .header-title{flex:1;min-width:0;text-align:center}
+  .header-controls{flex:0 0 auto;display:flex;gap:8px}
   h1{font-size:clamp(22px,4vw,30px);margin:0 0 4px;letter-spacing:-.01em}
   .subtitle{color:var(--text-muted);font-size:13.5px;margin:0}
   .theme-btn{
@@ -60,7 +63,7 @@
   .lock-note{background:var(--accent-weak);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:8px;padding:10px 14px;margin:10px 0;font-size:13px;color:var(--text-muted)}
   .answer-hidden{opacity:.6;font-style:italic;cursor:default}
 
-  .tabs{display:flex;gap:6px;margin-bottom:18px;border-bottom:1px solid var(--border)}
+  .tabs{display:flex;justify-content:center;gap:6px;margin-bottom:18px;border-bottom:1px solid var(--border)}
   .tab{
     font:inherit;font-size:14px;font-weight:600;padding:10px 16px;border:none;background:none;color:var(--text-muted);
     cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;
@@ -74,14 +77,15 @@
   .tab.active .tabcount{background:var(--accent-weak);color:var(--accent)}
 
   .stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:16px 0}
-  .stat{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow)}
+  .stat{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);text-align:center;transition:transform .12s,box-shadow .12s}
+  .stat:hover{transform:translateY(-1px);box-shadow:0 2px 4px rgba(20,28,36,.08), 0 4px 14px rgba(20,28,36,.06)}
   .stat b{display:block;font-size:24px;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
   .stat span{color:var(--text-muted);font-size:12.5px}
   .stat.p0 b{color:var(--p0)}
 
   .sevbar{display:flex;height:10px;border-radius:6px;overflow:hidden;margin-top:10px;border:1px solid var(--border)}
   .sevbar div{height:100%}
-  .sevlegend{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;font-size:12px;color:var(--text-muted)}
+  .sevlegend{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:8px;font-size:12px;color:var(--text-muted)}
   .sevlegend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:middle}
 
   .notice{background:var(--accent-weak);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:8px;padding:12px 16px;margin:10px 0;font-size:14px}
@@ -173,6 +177,9 @@
   .method-icon{font-size:13px}
 
   @media (max-width:640px){
+    header.top{flex-wrap:wrap}
+    .header-spacer{display:none}
+    .header-title{flex:1 1 100%;text-align:left}
     .controls{flex-direction:column;align-items:stretch}
     /* flex-basis applies to the main axis -- in column mode that's height,
        so the row-mode "flex:1 1 220px" (meant to size width) would instead
@@ -192,11 +199,12 @@
 <body>
 <main class="wrap">
   <header class="top">
-    <div>
-      <h1>Trivia Question Audit</h1>
+    <div class="header-spacer" aria-hidden="true"></div>
+    <div class="header-title">
+      <h1>Trivia Questions Bug Tracker</h1>
       <p class="subtitle" id="subtitle">Loading…</p>
     </div>
-    <div style="display:flex;gap:8px;position:relative">
+    <div class="header-controls" style="position:relative">
       <button class="theme-btn" id="lockBtn" title="Unlock answers" aria-label="Unlock answers">🔒</button>
       <div id="lockPopover" class="lock-popover" hidden>
         <p style="margin:0 0 8px;font-size:13px;color:var(--text-muted)">Enter the password to reveal answers on this device. This is a spoiler gate, not real security — see the note below once unlocked.</p>
@@ -214,8 +222,8 @@
     <button class="tab active" id="tabAuditBtn" role="tab" aria-selected="true" aria-controls="auditPanel">Tracked Bugs</button>
     <button class="tab" id="tabCustomBtn" role="tab" aria-selected="false" aria-controls="customPanel">Custom Categories</button>
     <button class="tab" id="tabReportsBtn" role="tab" aria-selected="false" aria-controls="reportsPanel">Live Reports<span class="tabcount" id="reportsTabCount" hidden>0</span></button>
-    <button class="tab" id="tabFixedBtn" role="tab" aria-selected="false" aria-controls="fixedPanel">Fixed<span class="tabcount" id="fixedTabCount" hidden>0</span></button>
     <button class="tab" id="tabReassignBtn" role="tab" aria-selected="false" aria-controls="reassignPanel">Reassignments<span class="tabcount" id="reassignTabCount" hidden>0</span></button>
+    <button class="tab" id="tabFixedBtn" role="tab" aria-selected="false" aria-controls="fixedPanel">Fixed<span class="tabcount" id="fixedTabCount" hidden>0</span></button>
   </nav>
 
   <section id="auditPanel">
@@ -227,7 +235,7 @@
   <div id="app" hidden>
     <div class="stats-row" id="stats"></div>
 
-    <div class="lock-note">🔒 Answers are hidden by default — click the lock icon above to unlock. Note this only masks the dedicated answer fields: a finding's own explanation (its "Finding"/"Proposed action" text) occasionally states the correct answer directly as part of the reasoning, even while locked.</div>
+    <div class="lock-note">🔒 Answers are hidden by default — click the lock icon above to unlock.</div>
 
     <div class="controls">
       <select id="mode" aria-label="View">
@@ -285,7 +293,7 @@
   <div id="ccApp" hidden>
     <div class="stats-row" id="ccStats"></div>
 
-    <div class="lock-note">🔒 Answers are hidden by default — click the lock icon above to unlock. Note this only masks the dedicated answer fields: a finding's own explanation (its "Finding"/"Proposed action" text) occasionally states the correct answer directly as part of the reasoning, even while locked.</div>
+    <div class="lock-note">🔒 Answers are hidden by default — click the lock icon above to unlock.</div>
 
     <div class="controls">
       <select id="ccMode" aria-label="View">
@@ -576,7 +584,7 @@
   // populated once fixed-findings.json loads, used to hide them from the
   // Tracked Bugs tab (see filter()/render() in init()).
   let fixedFindingIds = new Set();
-  const PANELS = ["audit", "custom", "reports", "fixed", "reassign"];
+  const PANELS = ["audit", "custom", "reports", "reassign", "fixed"];
   const PANEL_IDS = {audit: "auditPanel", custom: "customPanel", reports: "reportsPanel", fixed: "fixedPanel", reassign: "reassignPanel"};
   const BTN_IDS = {audit: "tabAuditBtn", custom: "tabCustomBtn", reports: "tabReportsBtn", fixed: "tabFixedBtn", reassign: "tabReassignBtn"};
   function showTab(name){
@@ -643,7 +651,7 @@
 
         const fixedFindingList = ((FF && FF.findings) || []).map(f => {
           const fid = f.finding_id;
-          let category = null, question_text = null, correct_answers = null, badgeLabel = "🔎 Codex audit";
+          let category = null, question_text = null, correct_answers = null, badgeLabel = "🔎 Tracked Bug";
           if (fid.startsWith("C-")) {
             const found = categoryFindingById.get(fid.replace(/^C-/, "N-"));
             const q = found ? lookupCustomQuestion(found.question_id) : null;
@@ -666,7 +674,7 @@
           }
           return {
             kind: "finding", id: fid, status: "fixed", category,
-            reported_by: "codex-audit", reported_by_name: "Codex audit",
+            reported_by: "tracker", reported_by_name: "Tracker",
             fixed_at: f.fixed_at, question_text, correct_answers, badgeLabel,
           };
         });
@@ -738,7 +746,7 @@
             <span class="status-badge ${esc(r.status)}">${esc(r.status)}</span>
             ${r.category ? `<span class="badge">${esc(r.category)}</span>` : ""}
             ${r.kind === "finding"
-              ? `<span class="badge">${esc(r.badgeLabel || "🔎 Codex audit")}</span>`
+              ? `<span class="badge">${esc(r.badgeLabel || "🔎 Tracked Bug")}</span>`
               : `<span class="badge"><span class="method-icon">${r.method === "reaction" ? "🐛" : "🖱️"}</span> ${r.method === "reaction" ? "Reaction" : "Command"}</span>`}
             <span style="margin-left:auto;color:var(--text-muted)">${r.kind === "finding" ? "" : `Reported by <b>${esc(r.reported_by_name)}</b> · `}${ids.dateLabel} ${timeAgo(r[ids.dateField])}</span>
           </div>
