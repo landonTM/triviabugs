@@ -818,6 +818,7 @@
               ? `<span class="badge">${esc(r.badgeLabel || "🔎 Tracked Bug")}</span>`
               : `<span class="badge"><span class="method-icon">${r.method === "reaction" ? "🐛" : "🖱️"}</span> ${r.method === "reaction" ? "Reaction" : "Command"}</span>`}
             <button class="copybtn" data-copy="${esc(r.id)}">Copy ID</button>
+            ${r.kind !== "finding" && r.message_id ? `<button class="copybtn" data-copy="https://discord.com/channels/${r.guild_id}/${r.channel_id}/${r.message_id}">Copy ref</button>` : ""}
             <span style="margin-left:auto;color:var(--text-muted)">${r.kind === "finding" ? "" : `Reported by <b>${esc(r.reported_by_name)}</b> · `}${ids.dateLabel} ${timeAgo(r[ids.dateField])}</span>
           </div>
           ${r.question_text ? `<h3 class="q">${esc(r.question_text)}</h3>` : "<p><i>Question no longer exists in the database.</i></p>"}
