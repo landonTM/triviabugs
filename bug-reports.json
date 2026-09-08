@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T04:45:44.699350+00:00",
+  "generated_at": "2026-09-08T04:57:39.293296+00:00",
   "reports": [
     {
       "id": 6,
@@ -23,9 +23,9 @@
       "reported_by": 433990857063137282,
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-08T04:43:10.343984+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-08T04:57:39.282150+00:00",
       "category": "World Capitals",
       "question_type": "standard",
       "question_text": "What is the capital of Morocco?",
