@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T03:28:37.455035+00:00",
+  "generated_at": "2026-09-09T03:28:47.924233+00:00",
   "reports": [
     {
       "id": 14,
@@ -92,9 +92,9 @@
       "reported_by": "794420965387403265",
       "reported_by_name": "Huh",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-08T22:51:48.830828+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-09T03:28:47.916789+00:00",
       "category": "Slogans",
       "question_type": "standard",
       "question_text": "Everything you always wanted in a beer. And less.",
