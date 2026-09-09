@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T02:48:45.622862+00:00",
+  "generated_at": "2026-09-09T03:28:37.455035+00:00",
   "reports": [
     {
       "id": 14,
@@ -79,7 +79,7 @@
       "fixed_at": null,
       "category": "Wrestling",
       "question_type": "standard",
-      "question_text": "What is the name of Seth Rollins' submission finishing move?",
+      "question_text": "What is the name of Kazuchika Okada's submission move?",
       "correct_answers": [
         "gjfx/OzNpOYR2w=="
       ]
@@ -146,14 +146,14 @@
       "reported_by": "734768348201615400",
       "reported_by_name": "ɯoʇdǝɟ",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-08T19:39:00.570612+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-09T03:28:37.445607+00:00",
       "category": "Wrestling",
       "question_type": "standard",
       "question_text": "Which wrestler uses the catchphrase \"Get these hands\"?",
       "correct_answers": [
-        "hDf58LWmjuQf2DLp3g=="
+        "jSr+7PvNtP4KxDHr0aU="
       ]
     },
     {
