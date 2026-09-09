@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T22:31:10.855882+00:00",
+  "generated_at": "2026-09-09T23:39:01.244550+00:00",
   "reports": [
     {
       "id": 17,
@@ -45,9 +45,9 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-09T20:18:25.983353+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-09T23:39:01.236964+00:00",
       "category": "Harry Potter",
       "question_type": "standard",
       "question_text": "How many goal posts are there on a Quidditch pitch?",
@@ -63,9 +63,9 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-09T02:48:45.614148+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-09T23:39:01.234474+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "To what realm is Thor banished?",
