@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T03:36:32.897064+00:00",
+  "generated_at": "2026-09-09T03:36:40.394564+00:00",
   "reports": [
     {
       "id": 14,
@@ -27,9 +27,9 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-08T23:04:30.683622+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-09T03:36:40.386992+00:00",
       "category": "Music",
       "question_type": "standard",
       "question_text": "What group had a UK top ten hit in May 1990 with a cover version of U2's \"I Still Haven't Found What I'm Looking For\"?",
