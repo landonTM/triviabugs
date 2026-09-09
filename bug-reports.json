@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T03:29:02.671792+00:00",
+  "generated_at": "2026-09-09T03:36:25.706366+00:00",
   "reports": [
     {
       "id": 14,
@@ -32,7 +32,7 @@
       "fixed_at": null,
       "category": "Music",
       "question_type": "standard",
-      "question_text": "Who had a top ten hit in May 1990 with \"I Still Haven't Found What I'm Looking For\"?",
+      "question_text": "What group had a UK top ten hit in May 1990 with a cover version of U2's \"I Still Haven't Found What I'm Looking For\"?",
       "correct_answers": [
         "mzD6udaFjucd2A=="
       ]
@@ -117,7 +117,7 @@
       "question_type": "standard",
       "question_text": "What is the term for a basketball shot attempted from beyond the three-point line?",
       "correct_answers": [
-        "mzDt/PDAt+URxTLjwg=="
+        "mzDt/PDNt+URxTKm46PjAg=="
       ]
     },
     {
@@ -128,14 +128,14 @@
       "reported_by": "734768348201615400",
       "reported_by_name": "ɯoʇdǝɟ",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-08T22:20:38.931202+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-09T03:36:25.696945+00:00",
       "category": "Wrestling",
       "question_type": "standard",
       "question_text": "Which wrestler uses the catchphrase \"This is for all the ladies who wanna be me and all the men who come to see me\"?",
       "correct_answers": [
-        "myr26v3NtP4KyjLzww=="
+        "nDn99fA="
       ]
     },
     {
