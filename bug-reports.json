@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T03:28:47.924233+00:00",
+  "generated_at": "2026-09-09T03:28:54.150768+00:00",
   "reports": [
     {
       "id": 14,
@@ -74,9 +74,9 @@
       "reported_by": "734768348201615400",
       "reported_by_name": "ɯoʇdǝɟ",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-08T22:52:38.800177+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-09T03:28:54.143249+00:00",
       "category": "Wrestling",
       "question_type": "standard",
       "question_text": "What is the name of Kazuchika Okada's submission move?",
