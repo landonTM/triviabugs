@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-09T20:37:21.059229+00:00",
+  "generated_at": "2026-09-09T22:31:10.855882+00:00",
   "reports": [
+    {
+      "id": 17,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1547373737509261375",
+      "reported_by": "795847206719717386",
+      "reported_by_name": "𝔬𝔟𝔡𝔯𝔦𝔰",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-09T22:31:10.847804+00:00",
+      "fixed_at": null,
+      "category": "Wrestling",
+      "question_type": "standard",
+      "question_text": "What is the name of WWE's annual pay-per-view in which the Raw and SmackDown world champions fight to become undisputed champion?",
+      "correct_answers": [
+        "jCrw7vvNre8Pzio="
+      ]
+    },
     {
       "id": 16,
       "guild_id": "861055530638114836",
@@ -34,7 +52,7 @@
       "question_type": "standard",
       "question_text": "How many goal posts are there on a Quidditch pitch?",
       "correct_answers": [
-        "vDHn"
+        "+Q=="
       ]
     },
     {
