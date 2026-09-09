@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T03:36:25.706366+00:00",
+  "generated_at": "2026-09-09T03:36:32.897064+00:00",
   "reports": [
     {
       "id": 14,
@@ -110,9 +110,9 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-08T22:50:58.338875+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-09T03:36:32.889464+00:00",
       "category": "Sports",
       "question_type": "standard",
       "question_text": "What is the term for a basketball shot attempted from beyond the three-point line?",
