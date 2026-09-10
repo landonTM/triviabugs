@@ -621,11 +621,19 @@
   })();
 
   // ---------- tabs ----------
-  let reportsLoaded = false;
   // IDs of Codex-audit findings (e.g. "F1416") marked fixed via /fixed --
   // populated once fixed-findings.json loads, used to hide them from the
   // Tracked Bugs tab (see filter()/render() in init()).
   let fixedFindingIds = new Set();
+  // Fired immediately at page load (not deferred until the user visits a
+  // non-"audit" tab) -- fixed-findings.json is small and fetches fast, so
+  // starting it in parallel with trivia-audit.json means fixedFindingIds
+  // is populated before init()'s first render in practice. Without this,
+  // the Tracked Bugs tab's very first render always ran against an empty
+  // fixedFindingIds (nothing filtered out yet), showing an inflated
+  // "matching findings" count that only corrected itself once the user
+  // visited another tab and came back.
+  loadReports();
   // Set by init(D)/initCustom(D) as each of the two audit files loads --
   // whichever finishes second renders the combined, accurate subtitle;
   // if the custom-categories file fails to load, the YAML-only wording
@@ -656,7 +664,6 @@
       $(BTN_IDS[p]).classList.toggle("active", active);
       $(BTN_IDS[p]).setAttribute("aria-selected", String(active));
     }
-    if (name !== "audit" && !reportsLoaded) { reportsLoaded = true; loadReports(); }
   }
   for (const p of PANELS) $(BTN_IDS[p]).addEventListener("click", () => showTab(p));
 
