@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-12T05:48:49.204726+00:00",
+  "generated_at": "2026-09-12T05:49:08.093215+00:00",
   "reports": [
+    {
+      "id": 43,
+      "guild_id": "861055530638114836",
+      "channel_id": "1547066139891212328",
+      "message_id": "1548208817710563419",
+      "reported_by": "433990857063137282",
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-12T05:49:08.090632+00:00",
+      "fixed_at": null,
+      "category": "Marvel",
+      "question_type": "standard",
+      "question_text": "How many Infinity Stones does Thanos seek?",
+      "correct_answers": [
+        "nDHn"
+      ]
+    },
     {
       "id": 42,
       "guild_id": "861055530638114836",
