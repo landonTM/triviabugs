@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-11T18:12:55.569758+00:00",
+  "generated_at": "2026-09-12T05:32:28.320580+00:00",
   "reports": [
+    {
+      "id": 23,
+      "guild_id": "861055530638114836",
+      "channel_id": "1547066139891212328",
+      "message_id": "1548204616619921489",
+      "reported_by": "433990857063137282",
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-12T05:32:28.312736+00:00",
+      "fixed_at": null,
+      "category": "Marvel",
+      "question_type": "standard",
+      "question_text": "Which hero makes his MCU debut during the airport battle after being recruited by Tony Stark?",
+      "correct_answers": [
+        "nCj2/fCfyscZxQ=="
+      ]
+    },
     {
       "id": 22,
       "guild_id": "861055530638114836",
