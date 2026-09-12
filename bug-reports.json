@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-12T17:18:40.726398+00:00",
+  "generated_at": "2026-09-12T17:29:38.329024+00:00",
   "reports": [
+    {
+      "id": 46,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1548385060841979987",
+      "reported_by": "433990857063137282",
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-12T17:29:38.325408+00:00",
+      "fixed_at": null,
+      "category": "Music",
+      "question_type": "standard",
+      "question_text": "Rossini composed an overture about what legendary character? William The Conqueror, William Tell or King Arthur?",
+      "correct_answers": [
+        "mDHz9fyMiqoszirq"
+      ]
+    },
     {
       "id": 45,
       "guild_id": "861055530638114836",
