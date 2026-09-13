@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-13T02:43:28.375837+00:00",
+  "generated_at": "2026-09-13T23:34:59.647015+00:00",
   "reports": [
+    {
+      "id": 48,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1548839228597739592",
+      "reported_by": "433990857063137282",
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-13T23:34:59.642204+00:00",
+      "fixed_at": null,
+      "category": "Entertainment",
+      "question_type": "standard",
+      "question_text": "What film is generally considered the worst film ever made?",
+      "correct_answers": [
+        "jizr+PaGx+UeizLu1evHH0fIs3kHibFoZhr3tIs="
+      ]
+    },
     {
       "id": 47,
       "guild_id": "861055530638114836",
@@ -564,12 +582,10 @@
       "status": "fixed",
       "reported_at": "2026-09-09T20:37:21.051274+00:00",
       "fixed_at": "2026-09-10T00:17:56.383518+00:00",
-      "category": "General Knowledge",
-      "question_type": "standard",
-      "question_text": "How old is a horse when it changes from a filly to a mare?",
-      "correct_answers": [
-        "+w=="
-      ]
+      "category": null,
+      "question_type": null,
+      "question_text": null,
+      "correct_answers": null
     },
     {
       "id": 15,
