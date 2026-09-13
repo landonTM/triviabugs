@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T17:38:52.915616+00:00",
+  "generated_at": "2026-09-13T02:43:28.375837+00:00",
   "reports": [
     {
       "id": 47,
@@ -9,14 +9,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T17:38:52.912129+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.372156+00:00",
       "category": "Wrestling",
       "question_type": "standard",
       "question_text": "In kayfabe, what is Kane's storyline relationship to The Undertaker?",
       "correct_answers": [
-        "jSrw7f2IlQ=="
+        "hznz/7WvleUMwyP0"
       ]
     },
     {
@@ -27,12 +27,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T17:29:38.325408+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.370731+00:00",
       "category": "Music",
       "question_type": "standard",
-      "question_text": "Rossini composed an overture about what legendary character? William The Conqueror, William Tell or King Arthur?",
+      "question_text": "Rossini composed an overture about what legendary character?",
       "correct_answers": [
         "mDHz9fyMiqoszirq"
       ]
@@ -45,14 +45,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T17:18:40.723711+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.369137+00:00",
       "category": "General Knowledge",
       "question_type": "standard",
       "question_text": "In which city was Martin Luther King assassinated in 1968?",
       "correct_answers": [
-        "gj3y6f2ElKZY/yPo3q7/BU7B"
+        "gj3y6f2ElA=="
       ]
     },
     {
@@ -63,14 +63,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T17:14:58.001980+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.367642+00:00",
       "category": "General Knowledge",
       "question_type": "standard",
-      "question_text": "How long is a MLS soccer match?",
+      "question_text": "In minutes, how long is a typical MLS soccer match?",
       "correct_answers": [
-        "9mi/1PyDlA=="
+        "9mg="
       ]
     },
     {
@@ -81,14 +81,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:49:08.090632+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.366068+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "How many Infinity Stones does Thanos seek?",
       "correct_answers": [
-        "nDHn"
+        "+Q=="
       ]
     },
     {
@@ -99,14 +99,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:48:49.201454+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.364384+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "How many years pass after the Avengers kill Thanos at the beginning of Endgame?",
       "correct_answers": [
-        "iTHp/A=="
+        "+g=="
       ]
     },
     {
@@ -117,12 +117,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:47:09.605318+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.362782+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "What criminal eventually appears in a mechanical rhinoceros suit?",
+      "question_text": "In The Amazing Spider-Man 2, what is the name of the criminal who eventually appears in a mechanical rhinoceros suit?",
       "correct_answers": [
         "jjT68uaIjqor0jL11b3lFUM="
       ]
@@ -135,12 +135,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:46:48.069422+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.361173+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "What corporation employs Curt Connors and plays a major role in the films?",
+      "question_text": "In The Amazing Spider-Man films, what corporation employs Curt Connors?",
       "correct_answers": [
         "gCv89ued"
       ]
@@ -153,12 +153,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:45:27.190226+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.359555+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "Where does the climactic Earth battle take place?",
+      "question_text": "In Avengers: Infinity War, where does the climactic Earth battle take place?",
       "correct_answers": [
         "mDn0+PuJhg=="
       ]
@@ -171,14 +171,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:45:07.180722+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.357984+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "Which Infinity Stone does Loki surrender to Thanos at the beginning of the film?",
       "correct_answers": [
-        "nCj++vDNtP4XxSM="
+        "nCj++vA="
       ]
     },
     {
@@ -189,12 +189,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:44:35.507566+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.356218+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "Who is Liz's father?",
+      "question_text": "In Spider-Man: Homecoming, what is the name of Liz's father?",
       "correct_answers": [
         "jjzt8PSDx94XxCvjww=="
       ]
@@ -207,15 +207,13 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:43:50.312163+00:00",
-      "fixed_at": null,
-      "category": "Marvel",
-      "question_type": "standard",
-      "question_text": "What small alien does the team protect during the opening battle?",
-      "correct_answers": [
-        "jTn94LWqleUX3w=="
-      ]
+      "fixed_at": "2026-09-13T02:43:28.354417+00:00",
+      "category": null,
+      "question_type": null,
+      "question_text": null,
+      "correct_answers": null
     },
     {
       "id": 35,
@@ -225,12 +223,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:43:28.653609+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.352686+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "Where does the major airport battle take place?",
+      "question_text": "In Captain America: Civil War, where does the major airport battle take place?",
       "correct_answers": [
         "gz326e+EgKcwyirq1evNH1nUuXlT"
       ]
@@ -243,12 +241,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:42:51.426139+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.350954+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "What fictional Eastern European country is the site of the final battle?",
+      "question_text": "In Avengers: Age of Ultron, what fictional Eastern European country is the site of the final battle?",
       "correct_answers": [
         "nDf09uOEhg=="
       ]
@@ -261,12 +259,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:42:23.805442+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.348480+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "Who disguises herself as a World Security Council member during the climax?",
+      "question_text": "In Captain America: The Winter Soldier, who disguises themself as a World Security Council member during the climax?",
       "correct_answers": [
         "gTnr+OaFhqoqxCvn3qTqEA=="
       ]
@@ -279,12 +277,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:42:02.908014+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.346742+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "What food do the Avengers silently eat together in the post-credits scene?",
+      "question_text": "In The Avengers, what food do the Avengers silently eat together in the post-credits scene?",
       "correct_answers": [
         "nDD+7vSfius="
       ]
@@ -297,12 +295,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:41:41.189195+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.344953+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "What city is the site of the Avengers' final battle?",
+      "question_text": "In The Avengers, what city is the site of the Avengers' final battle?",
       "correct_answers": [
         "gT3oucyCleFY6C/yyQ=="
       ]
@@ -315,14 +313,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:40:27.170225+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.343126+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "In which issue of Tomb of Dracula did Blade debut?",
       "correct_answers": [
-        "hivs7PDNxLtI"
+        "/mg="
       ]
     },
     {
@@ -333,12 +331,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:39:16.534071+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.341362+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "What cat-like alien creature does Carol encounter on Earth?",
+      "question_text": "What is the name of the cat-like alien creature Carol encounter on Earth?",
       "correct_answers": [
         "iDfw6vA="
       ]
@@ -351,14 +349,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:38:05.017521+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.339767+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "In what issue did the Punisher first appear?",
       "correct_answers": [
-        "jgvSubbc1bM="
+        "mzD6udSAhvARxSGm47vlEk7W+0ZGs/4mNlyh"
       ]
     },
     {
@@ -369,14 +367,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:37:34.406956+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.338162+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "In what issue did Venom make his first full appearance?",
       "correct_answers": [
-        "jgvSubbe17o="
+        "mzD6udSAhvARxSGm47vlEk7W+0ZGs/4mNF6o"
       ]
     },
     {
@@ -387,14 +385,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:37:10.620668+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.336443+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "In what issue did Wolverine make his first full appearance?",
       "correct_answers": [
-        "hy3z8rXO1rJJ"
+        "mzD6udyDhPgdzy/k3K6sPl7IvSsE7OY0"
       ]
     },
     {
@@ -405,15 +403,13 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:35:14.692866+00:00",
-      "fixed_at": null,
-      "category": "Marvel",
-      "question_type": "standard",
-      "question_text": "What nickname does Thor use for Valkyrie before learning more about her?",
-      "correct_answers": [
-        "nDvt+OWdgvhYmnK0"
-      ]
+      "fixed_at": "2026-09-13T02:43:28.334800+00:00",
+      "category": null,
+      "question_type": null,
+      "question_text": null,
+      "correct_answers": null
     },
     {
       "id": 24,
@@ -423,12 +419,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:34:05.710619+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.333210+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "What superhero identity does Sam Wilson use?",
+      "question_text": "What superhero identity does Sam Wilson use prior to Avengers: Endgame?",
       "correct_answers": [
         "iTnz+vqD"
       ]
@@ -441,12 +437,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-12T05:32:28.312736+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.331525+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "Which hero makes his MCU debut during the airport battle after being recruited by Tony Stark?",
+      "question_text": "Which hero makes his MCU debut when Tony Stark visits his apartment before the Civil War airport battle?",
       "correct_answers": [
         "nCj2/fCfyscZxQ=="
       ]
@@ -459,12 +455,12 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-11T18:12:55.561643+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.329686+00:00",
       "category": "Entertainment",
       "question_type": "standard",
-      "question_text": "What came out of Milton's head?",
+      "question_text": "In Milton the Monster, what came out of Milton's head?",
       "correct_answers": [
         "nCz6+Pg="
       ]
@@ -477,14 +473,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-11T16:40:18.893678+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.327975+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "What is the name of Maria Rambeau's daughter?",
       "correct_answers": [
-        "gjfx8PaMx9gZxiTj0b4="
+        "gjfx8PaM"
       ]
     },
     {
@@ -495,9 +491,9 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-11T16:24:38.168585+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.326251+00:00",
       "category": "General Knowledge",
       "question_type": "standard",
       "question_text": "How many hours are there in a year?",
@@ -513,14 +509,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-10T21:27:17.374162+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-13T02:43:28.324486+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "How many Infinity Gems are traditionally collected for the Infinity Gauntlet?",
       "correct_answers": [
-        "nDHn"
+        "+Q=="
       ]
     },
     {
@@ -531,15 +527,13 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-10T21:23:15.808927+00:00",
-      "fixed_at": null,
-      "category": "Marvel",
-      "question_type": "standard",
-      "question_text": "In what comic issue did the Fantastic Four first appear?",
-      "correct_answers": [
-        "iTnx7fSek+MbiwDpxbmsVRo="
-      ]
+      "fixed_at": "2026-09-13T02:43:28.321798+00:00",
+      "category": null,
+      "question_type": null,
+      "question_text": null,
+      "correct_answers": null
     },
     {
       "id": 17,
