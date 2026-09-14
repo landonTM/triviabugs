@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-14T01:46:08.062464+00:00",
+  "generated_at": "2026-09-14T01:56:51.493639+00:00",
   "reports": [
+    {
+      "id": 50,
+      "guild_id": "890466886540738621",
+      "channel_id": "1539491501564895283",
+      "message_id": "1548875137808474204",
+      "reported_by": "433990857063137282",
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-14T01:56:51.490027+00:00",
+      "fixed_at": null,
+      "category": "Marvel",
+      "question_type": "standard",
+      "question_text": "What is Pietro Maximoff's relationship to Wanda?",
+      "correct_answers": [
+        "my/297WPleUMwyP0"
+      ]
+    },
     {
       "id": 49,
       "guild_id": "890466886540738621",
