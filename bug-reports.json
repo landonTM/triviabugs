@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-13T23:34:59.647015+00:00",
+  "generated_at": "2026-09-14T01:46:08.062464+00:00",
   "reports": [
+    {
+      "id": 49,
+      "guild_id": "890466886540738621",
+      "channel_id": "1539491501564895283",
+      "message_id": "1548872402547638394",
+      "reported_by": "433990857063137282",
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-14T01:46:08.058640+00:00",
+      "fixed_at": null,
+      "category": "Marvel",
+      "question_type": "standard",
+      "question_text": "Which Infinity Stone is embedded in Vision's forehead?",
+      "correct_answers": [
+        "gjHx/bW+k+UWzg=="
+      ]
+    },
     {
       "id": 48,
       "guild_id": "861055530638114836",
