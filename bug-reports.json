@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-15T16:32:36.618089+00:00",
+  "generated_at": "2026-09-15T21:50:16.199410+00:00",
   "reports": [
+    {
+      "id": 57,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1549537808782336002",
+      "reported_by": "734768348201615400",
+      "reported_by_name": "ɯoʇdǝɟ",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-15T21:50:16.194892+00:00",
+      "fixed_at": null,
+      "category": "General Knowledge",
+      "question_type": "standard",
+      "question_text": "Complete the name of the American Football team: 'Washington ...........'?",
+      "correct_answers": [
+        "nT376v6Eifk="
+      ]
+    },
     {
       "id": 56,
       "guild_id": "861055530638114836",
