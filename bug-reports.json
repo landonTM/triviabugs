@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-15T21:50:51.699574+00:00",
+  "generated_at": "2026-09-15T22:07:52.797241+00:00",
   "reports": [
+    {
+      "id": 59,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1549542274692681860",
+      "reported_by": "433990857063137282",
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-15T22:07:52.793291+00:00",
+      "fixed_at": null,
+      "category": "House of the Dragon",
+      "question_type": "standard",
+      "question_text": "In what type of religious building does Rhaenyra secretly meet Alicent in King's Landing during Season 2?",
+      "correct_answers": [
+        "jnjs/OWZ"
+      ]
+    },
     {
       "id": 58,
       "guild_id": "861055530638114836",
