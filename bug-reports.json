@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-09-15T22:07:52.797241+00:00",
+  "generated_at": "2026-09-15T22:13:04.831377+00:00",
   "reports": [
+    {
+      "id": 60,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1549543304931319941",
+      "reported_by": "794420965387403265",
+      "reported_by_name": "Scanner",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-15T22:13:04.827087+00:00",
+      "fixed_at": null,
+      "category": "Wrestling",
+      "question_type": "insane",
+      "question_text": "AEW World Champions",
+      "correct_answers": [
+        "hTfxudiCn+Yd0g==",
+        "ghLZ",
+        "hD3x9+zNqOcdzCc=",
+        "7RD+9/KAhuRaiwfi0aasJkrDsw==",
+        "jDDt8ObNre8KwiXu3w==",
+        "nDny9vTNreUd",
+        "nC/66+OIx9kM2S/l26ftGE8=",
+        "jBW/yeCDjA==",
+        "jSrm+PvNo+sWwiPqw6Ti",
+        "iznt++zNpuYUwig=",
+        "mDHz9bWilPoKzif/"
+      ]
+    },
     {
       "id": 59,
       "guild_id": "861055530638114836",
