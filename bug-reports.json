@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-15T04:01:30.784540+00:00",
+  "generated_at": "2026-09-15T04:10:34.379678+00:00",
   "reports": [
+    {
+      "id": 54,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1549271103296372777",
+      "reported_by": "794420965387403265",
+      "reported_by_name": "Scanner",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-15T04:10:34.376077+00:00",
+      "fixed_at": null,
+      "category": "Disney",
+      "question_type": "standard",
+      "question_text": "In Tangled, what kind is the name of the chameleon?",
+      "correct_answers": [
+        "nzns+vSB"
+      ]
+    },
     {
       "id": 53,
       "guild_id": "861055530638114836",
