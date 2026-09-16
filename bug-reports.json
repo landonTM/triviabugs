@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T22:58:05.749957+00:00",
+  "generated_at": "2026-09-16T16:44:08.087510+00:00",
   "reports": [
     {
       "id": 61,
@@ -9,58 +9,58 @@
       "reported_by": "794420965387403265",
       "reported_by_name": "Scanner",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-15T22:58:05.746076+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-16T16:44:08.083652+00:00",
       "category": "General Knowledge",
       "question_type": "insane",
-      "question_text": "Every US President",
+      "question_text": "Every US President (First and Last name)",
       "correct_answers": [
-        "mDns8fyDgP4XxQ==",
+        "iD3w6/KIx90Z2C7v3qz4GUU=",
         "hTf397Wsg+sV2A==",
-        "hT35//CflOUW",
-        "gjn78OaCiQ==",
-        "gjfx6/qI",
+        "mzDw9PSex8AdzSDjwrjjGA==",
+        "hTny/ObNquscwjXp3g==",
+        "hTny/ObNquUW2Snj",
         "hTf397W8kuMWyD+m8a/tG1g=",
-        "hTn88uaCiQ==",
-        "mTnxudeYle8W",
+        "jjb76/Cax8AZyC3136U=",
+        "gjnt7fyDx9wZxWbExbnpGA==",
         "mDHz9fyMiqowzij0yevEF1nWv3hIsw==",
-        "myHz/Oc=",
-        "nzfz8g==",
-        "mznm9fqf",
-        "iTHz9fiCle8=",
-        "nzH66/aI",
-        "jS388fSDhuQ=",
-        "gzHx+vqBiQ==",
+        "hTf397W5nuYd2Q==",
+        "hTny/ObNt+UUwA==",
+        "lTn88fSfnqosyj/q37k=",
+        "gjHz9fSfg6o+wirq3aT+Ew==",
+        "iSr+9/6BjuRY+y/jwqjp",
+        "hTny/ObNpf8bwyfo0aU=",
+        "jjrt+P2Miqo0wijl36fi",
         "jjb76/Cax8AXwyj136U=",
-        "iCr+9+E=",
-        "hznm/OY=",
-        "iDnt//yIi+4=",
-        "jirr8eCf",
-        "jDT67/CBhuQc",
+        "mjTm6uaIlKo/2SfoxA==",
+        "nS3r8fCfgeUKz2bO0bLpBQ==",
+        "hTny/ObNoOsKzS/j3K8=",
+        "jDD66uGIlao52TLuxbk=",
+        "iCrw7/Cfx8kUzjDj3KriEg==",
         "jT3x8/SAjuRY4yf0wqL/GUU=",
-        "gjvU8PuBgvM=",
+        "mDHz9fyMiqo1yA3v3qfpDw==",
         "mzD69vGCle9Y+Snpw676E0fQ",
-        "mzn57Q==",
-        "mDHz6vqD",
-        "hznt/fyDgA==",
-        "jDfw9fyJgO8=",
-        "hzfw7/Cf",
+        "mDHz9fyMiqosyiDy",
+        "mDfw/eeCkKovwir136U=",
+        "mDnt6/CDx8IZ2SLv3qw=",
+        "jDnz7/yDx8kXxCrv1Kzp",
+        "hz3t+/Cfk6owxCnw1bk=",
         "iSr+9/6BjuRY72im4qTjBU7Ss2dT",
-        "myrq9PSD",
-        "ijHs/PuFiP0d2Q==",
-        "hD3x9/CJng==",
+        "hznt6+zNs/gNxifo",
+        "iy/2/v2Zx88R2CPo2KT7E1k=",
+        "hTf397WmguQWziL/",
         "gyHx/fqDx8hWiwzp2KX/GUU=",
-        "gTHn9vs=",
-        "iTft/Q==",
-        "jDnt7fCf",
-        "nT3+/vSD",
+        "nTH88fSfg6o2wj7p3g==",
+        "iD3t+PmJx8wX2SI=",
+        "hTHy9OzNpOsK3yP0",
+        "nTfx+PmJx9gdyiHn3g==",
         "iD3w6/KIx8JWixGokIn5BUM=",
-        "jDT29+GCiQ==",
+        "jTHz9bWui+MW3yno",
         "iD3w6/KIx91WiwTzw6M=",
-        "gDr+9PQ=",
-        "myrq9OU=",
-        "jTH7/Ps="
+        "jTnt+PaGx8Uayivn",
+        "izfx+PmJx94K3iv2",
+        "hTf6udeEg+8W"
       ]
     },
     {
@@ -71,9 +71,9 @@
       "reported_by": "794420965387403265",
       "reported_by_name": "Scanner",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-15T22:13:04.827087+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-16T16:44:08.081997+00:00",
       "category": "Wrestling",
       "question_type": "insane",
       "question_text": "AEW World Champions",
@@ -99,14 +99,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-15T22:07:52.793291+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-16T16:44:08.080367+00:00",
       "category": "House of the Dragon",
       "question_type": "standard",
       "question_text": "In what type of religious building does Rhaenyra secretly meet Alicent in King's Landing during Season 2?",
       "correct_answers": [
-        "jnjs/OWZ"
+        "nD3v7Q=="
       ]
     },
     {
@@ -117,9 +117,9 @@
       "reported_by": "795847206719717386",
       "reported_by_name": "𝔬𝔟𝔡𝔯𝔦𝔰",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-15T21:50:51.696622+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-16T16:44:08.078582+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "What accident severely damages Stephen Strange's hands?",
@@ -135,14 +135,14 @@
       "reported_by": "734768348201615400",
       "reported_by_name": "ɯoʇdǝɟ",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-15T21:50:16.194892+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-16T16:44:08.076978+00:00",
       "category": "General Knowledge",
       "question_type": "standard",
       "question_text": "Complete the name of the American Football team: 'Washington ...........'?",
       "correct_answers": [
-        "nT376v6Eifk="
+        "jDfy9PSDg+8K2A=="
       ]
     },
     {
@@ -153,14 +153,14 @@
       "reported_by": "794420965387403265",
       "reported_by_name": "Scanner",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-15T16:32:36.615133+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-16T16:44:08.075253+00:00",
       "category": "Sports",
       "question_type": "standard",
       "question_text": "_________ Raiders (NFL)",
       "correct_answers": [
-        "gDn09fSDgw=="
+        "gznsucOIgOsL"
       ]
     },
     {
@@ -171,15 +171,13 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-15T16:28:07.458726+00:00",
-      "fixed_at": null,
-      "category": "World Capitals",
-      "question_type": "standard",
-      "question_text": "What is the capital of the Vatican City (Holy See)?",
-      "correct_answers": [
-        "mTnr8PaMiao7wjL/"
-      ]
+      "fixed_at": "2026-09-16T16:44:08.073415+00:00",
+      "category": null,
+      "question_type": null,
+      "question_text": null,
+      "correct_answers": null
     },
     {
       "id": 54,
@@ -189,12 +187,12 @@
       "reported_by": "794420965387403265",
       "reported_by_name": "Scanner",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-15T04:10:34.376077+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-16T16:44:08.071771+00:00",
       "category": "Disney",
       "question_type": "standard",
-      "question_text": "In Tangled, what kind is the name of the chameleon?",
+      "question_text": "In Tangled, what is the name of the chameleon?",
       "correct_answers": [
         "nzns+vSB"
       ]
@@ -207,14 +205,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-15T04:01:30.781652+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-16T16:44:08.069842+00:00",
       "category": "Disney",
       "question_type": "standard",
       "question_text": "During the battle with Aladdin, what type of animal does Jafar transform himself into?",
       "correct_answers": [
-        "jnjc9vefhg=="
+        "jDf96/Q="
       ]
     },
     {
@@ -225,15 +223,13 @@
       "reported_by": "794420965387403265",
       "reported_by_name": "Scanner",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-15T04:00:52.431209+00:00",
-      "fixed_at": null,
-      "category": "Whos That Pokemon (Gen 3)",
-      "question_type": "standard",
-      "question_text": "Who's that Pokémon?",
-      "correct_answers": [
-        "hjTz7PiElO8="
-      ]
+      "fixed_at": "2026-09-16T16:44:08.067953+00:00",
+      "category": null,
+      "question_type": null,
+      "question_text": null,
+      "correct_answers": null
     },
     {
       "id": 51,
@@ -243,14 +239,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-15T03:34:53.159660+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-16T16:44:08.065349+00:00",
       "category": "Family Guy",
       "question_type": "standard",
       "question_text": "What is Glenn Quagmire's occupation?",
       "correct_answers": [
-        "jjHt9fyDgqoIwirpxA=="
+        "nzHz9uE="
       ]
     },
     {
@@ -261,14 +257,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-14T01:56:51.490027+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-16T16:44:08.063447+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "What is Pietro Maximoff's relationship to Wanda?",
       "correct_answers": [
-        "my/297WPleUMwyP0"
+        "jSrw7f2IlQ=="
       ]
     },
     {
@@ -279,14 +275,14 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-14T01:46:08.058640+00:00",
-      "fixed_at": null,
+      "fixed_at": "2026-09-16T16:44:08.061515+00:00",
       "category": "Marvel",
       "question_type": "standard",
       "question_text": "Which Infinity Stone is embedded in Vision's forehead?",
       "correct_answers": [
-        "gjHx/bW+k+UWzg=="
+        "gjHx/Q=="
       ]
     },
     {
@@ -297,15 +293,13 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-13T23:34:59.642204+00:00",
-      "fixed_at": null,
-      "category": "Entertainment",
-      "question_type": "standard",
-      "question_text": "What film is generally considered the worst film ever made?",
-      "correct_answers": [
-        "jizr+PaGx+UeizLu1evHH0fIs3kHibFoZhr3tIs="
-      ]
+      "fixed_at": "2026-09-16T16:44:08.058091+00:00",
+      "category": null,
+      "question_type": null,
+      "question_text": null,
+      "correct_answers": null
     },
     {
       "id": 47,
