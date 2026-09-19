@@ -1,6 +1,31 @@
 {
-  "generated_at": "2026-09-19T22:14:35.654982+00:00",
+  "generated_at": "2026-09-19T22:20:59.131864+00:00",
   "reports": [
+    {
+      "id": 72,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1550994745327624353",
+      "reported_by": "433990857063137282",
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-19T22:20:59.127459+00:00",
+      "fixed_at": null,
+      "category": "Harry Potter",
+      "question_type": "insane",
+      "question_text": "Harry Potter movies",
+      "correct_answers": [
+        "hznt6+zNt+UM3yP0kKriEgvQvm4HjrF3ZAvqtIqRcpycLPD38A==",
+        "hznt6+zNt+UM3yP0kKriEgvQvm4HnrZkagz9o9jZZ5ycPfzr8JmU",
+        "hznt6+zNt+UM3yP0kKriEgvQvm4HjaxsdAH2tIqWbtrvGeXy9I+G5A==",
+        "hznt6+zNt+UM3yP0kKriEgvQvm4HmrFnawvs8ZfQIfqmKvo=",
+        "hznt6+zNt+UM3yP0kKriEgvQvm4HkqxhYhy4vp6WddSqeM/x+oiJ4wA=",
+        "hznt6+zNt+UM3yP0kKriEgvQvm4Hlb9pYUPavZfZZZyfKvb39og=",
+        "hznt6+zNt+UM3yP0kKriEgvQvm4Hmbtkcwb0qNj+YNCjN+jqtb2G+AyLdw==",
+        "hznt6+zNt+UM3yP0kKriEgvQvm4Hmbtkcwb0qNj+YNCjN+jqtb2G+AyLdA=="
+      ]
+    },
     {
       "id": 71,
       "guild_id": "861055530638114836",
