@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-20T19:52:00.349230+00:00",
+  "generated_at": "2026-09-20T20:03:42.166020+00:00",
   "reports": [
+    {
+      "id": 74,
+      "guild_id": "861055530638114836",
+      "channel_id": "1547066139891212328",
+      "message_id": "1551322963264143434",
+      "reported_by": "433990857063137282",
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-20T20:03:42.162302+00:00",
+      "fixed_at": null,
+      "category": "Marvel",
+      "question_type": "standard",
+      "question_text": "Which Infinity Stone is the Aether later revealed to be?",
+      "correct_answers": [
+        "nT3+9fyZnqor3yno1Q=="
+      ]
+    },
     {
       "id": 73,
       "guild_id": "861055530638114836",
