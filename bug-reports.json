@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-19T22:20:59.131864+00:00",
+  "generated_at": "2026-09-20T19:52:00.349230+00:00",
   "reports": [
+    {
+      "id": 73,
+      "guild_id": "861055530638114836",
+      "channel_id": "1547066139891212328",
+      "message_id": "1551320016933359618",
+      "reported_by": "433990857063137282",
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-20T19:52:00.345365+00:00",
+      "fixed_at": null,
+      "category": "Marvel",
+      "question_type": "standard",
+      "question_text": "What alien technology does Toomes' crew salvage and turn into weapons?",
+      "correct_answers": [
+        "jDD27fSYleNY3yPl2KXjGkTDrw=="
+      ]
+    },
     {
       "id": 72,
       "guild_id": "861055530638114836",
