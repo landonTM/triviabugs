@@ -1,0 +1,3372 @@
+{
+  "user_id": 795847206719717386,
+  "level": {
+    "level": 39,
+    "xp_into_level": 32883,
+    "xp_for_level": 53000,
+    "progress": 0.6204339622641509,
+    "maxed": false
+  },
+  "total_xp": 777383,
+  "period_stats": {
+    "daily_points": 0,
+    "daily_correct": 0,
+    "weekly_points": 2556,
+    "weekly_correct": 1495,
+    "monthly_points": 5395,
+    "monthly_correct": 3090,
+    "yearly_points": 5501,
+    "yearly_correct": 3149,
+    "alltime_points": 5501,
+    "alltime_correct": 3149
+  },
+  "stats_row": {
+    "user_id": 795847206719717386,
+    "guild_id": 861055530638114836,
+    "total_points": 3576,
+    "questions_right": 1224,
+    "questions_wrong": 0,
+    "wins": 1224,
+    "current_streak": 2,
+    "best_streak": 22,
+    "games_played": 43,
+    "insane_guesses": 971,
+    "day_streak": 7,
+    "last_played_date": "2026-09-21",
+    "total_xp": 777383,
+    "game_wins": 21,
+    "achievement_best_streak": 14
+  },
+  "best_streak": 22,
+  "fastest_guess": {
+    "response_time_ms": 2525,
+    "question_text": "What is Randy Orton's finishing move called?",
+    "category": "Wrestling",
+    "correct_answers": [
+      "RKO"
+    ]
+  },
+  "best_category": {
+    "category": "Wrestling",
+    "points": 751,
+    "correct": 529
+  },
+  "best_insane_round": {
+    "question_text": "Name all countries",
+    "category": "Geography",
+    "guesses": 30
+  },
+  "total_insane_correct": 1925,
+  "average_guess_ms": 20205.13480392157,
+  "activity": {
+    "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
+    "active_days": 22
+  },
+  "spelling_accuracy": {
+    "exact_count": 2213,
+    "total": 2550
+  },
+  "achievements": {
+    "catalog": [
+      {
+        "key": "win_daily_trivia",
+        "category": "standard",
+        "name": "Winner, Winner, Trivia Dinner",
+        "description": "Win a game of the daily trivia",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 0,
+        "reward_xp": 2500
+      },
+      {
+        "key": "start_and_win",
+        "category": "standard",
+        "name": "Captain's Call",
+        "description": "Start a trivia game and win it",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 1,
+        "reward_xp": 2000
+      },
+      {
+        "key": "play_halloween",
+        "category": "standard",
+        "name": "Trick or Trivia",
+        "description": "Play a game of trivia on Halloween",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 2,
+        "reward_xp": 5000
+      },
+      {
+        "key": "play_christmas",
+        "category": "standard",
+        "name": "Sleigh the Trivia",
+        "description": "Play a game of trivia on Christmas",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 3,
+        "reward_xp": 5000
+      },
+      {
+        "key": "insane_find_all",
+        "category": "standard",
+        "name": "Total Recall",
+        "description": "Help find every answer in an insane round",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 4,
+        "reward_xp": 3500
+      },
+      {
+        "key": "correct_under_3s",
+        "category": "standard",
+        "name": "Lightning Reflexes",
+        "description": "Get a question correct in under 3 seconds",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 5,
+        "reward_xp": 2500
+      },
+      {
+        "key": "flawless_game",
+        "category": "standard",
+        "name": "Flawless Victory",
+        "description": "Get every question correct in a game of trivia",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 6,
+        "reward_xp": 7500
+      },
+      {
+        "key": "win_a_game",
+        "category": "standard",
+        "name": "First Blood",
+        "description": "Win a game of trivia",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 7,
+        "reward_xp": 500
+      },
+      {
+        "key": "place_last",
+        "category": "standard",
+        "name": "Wooden Spoon",
+        "description": "Place last in a game of trivia",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 8,
+        "reward_xp": 500
+      },
+      {
+        "key": "end_streak_5",
+        "category": "standard",
+        "name": "Buzzkill",
+        "description": "End someone's streak of 5 or more",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 9,
+        "reward_xp": 2000
+      },
+      {
+        "key": "play_50_games",
+        "category": "standard",
+        "name": "Regular",
+        "description": "Play 50 games of trivia",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 10,
+        "reward_xp": 5000
+      },
+      {
+        "key": "play_100_games",
+        "category": "standard",
+        "name": "Trivia Veteran",
+        "description": "Play 100 games of trivia",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 11,
+        "reward_xp": 10000
+      },
+      {
+        "key": "report_bug",
+        "category": "standard",
+        "name": "Bug Hunter",
+        "description": "Report a bugged question",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 12,
+        "reward_xp": 1500
+      },
+      {
+        "key": "id_pokemon",
+        "category": "standard",
+        "name": "Who's That Pokémon?!",
+        "description": "Successfully identify who that Pokémon is",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 13,
+        "reward_xp": 2500
+      },
+      {
+        "key": "spelling_bee",
+        "category": "standard",
+        "name": "Spelling Bee",
+        "description": "Win a game maintaining 100% spelling accuracy",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 14,
+        "reward_xp": 5000
+      },
+      {
+        "key": "win_50_question_game",
+        "category": "standard",
+        "name": "Marathon Winner",
+        "description": "Win a game of 50 or more questions",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 15,
+        "reward_xp": 5000
+      },
+      {
+        "key": "correct_last_5s",
+        "category": "standard",
+        "name": "Buzzer Beater",
+        "description": "Get a question correct within the last 5 seconds",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 16,
+        "reward_xp": 2000
+      },
+      {
+        "key": "play_3_days",
+        "category": "standard",
+        "name": "Habit Forming",
+        "description": "Play 3 days in a row",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 17,
+        "reward_xp": 2500
+      },
+      {
+        "key": "play_7_days",
+        "category": "standard",
+        "name": "One Week Wonder",
+        "description": "Play 7 days in a row",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 18,
+        "reward_xp": 5000
+      },
+      {
+        "key": "equip_cosmetic",
+        "category": "standard",
+        "name": "Dressed to Impress",
+        "description": "Equip your first cosmetic",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 19,
+        "reward_xp": 500
+      },
+      {
+        "key": "all_cosmetic_slots",
+        "category": "standard",
+        "name": "Full Glow-Up",
+        "description": "Change every cosmetic slot from its default",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 20,
+        "reward_xp": 1000
+      },
+      {
+        "key": "use_xp_boost",
+        "category": "standard",
+        "name": "Turbo Mode",
+        "description": "Use an XP boost",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 21,
+        "reward_xp": 1000
+      },
+      {
+        "key": "answer_twice",
+        "category": "standard",
+        "name": "Déjà Vu",
+        "description": "Answer the same question correctly twice",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 22,
+        "reward_xp": 3000
+      },
+      {
+        "key": "win_others_game",
+        "category": "standard",
+        "name": "Party Crasher",
+        "description": "Win a game of trivia someone else started",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 23,
+        "reward_xp": 2000
+      },
+      {
+        "key": "win_one_category",
+        "category": "standard",
+        "name": "Specialist",
+        "description": "Win a game of trivia with only one category",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 24,
+        "reward_xp": 1500
+      },
+      {
+        "key": "win_first_duel",
+        "category": "standard",
+        "name": "First Challenge",
+        "description": "Win your first Trivia Duel",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 25,
+        "reward_xp": 500
+      },
+      {
+        "key": "duel_win_as_challenger",
+        "category": "standard",
+        "name": "Challenger's Triumph",
+        "description": "Win a duel as the one who issued the challenge",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 26,
+        "reward_xp": 750
+      },
+      {
+        "key": "duel_win_as_opponent",
+        "category": "standard",
+        "name": "Defender's Triumph",
+        "description": "Win a duel as the one who was challenged",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 27,
+        "reward_xp": 750
+      },
+      {
+        "key": "duel_first_loss",
+        "category": "standard",
+        "name": "Humble Beginnings",
+        "description": "Lose your first duel",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 28,
+        "reward_xp": 250
+      },
+      {
+        "key": "duel_giant_slayer",
+        "category": "standard",
+        "name": "Giant Slayer",
+        "description": "Win a duel against a higher-level opponent",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 29,
+        "reward_xp": 1500
+      },
+      {
+        "key": "duel_nail_biter",
+        "category": "standard",
+        "name": "Nail-Biter",
+        "description": "Win a duel decided by exactly one round",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 30,
+        "reward_xp": 1500
+      },
+      {
+        "key": "duel_tiebreaker_win",
+        "category": "standard",
+        "name": "Nerves of Steel",
+        "description": "Win a duel via the sudden-death tiebreaker",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 31,
+        "reward_xp": 2000
+      },
+      {
+        "key": "duel_social",
+        "category": "standard",
+        "name": "Social Duelist",
+        "description": "Duel 5 different opponents",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 32,
+        "reward_xp": 2000
+      },
+      {
+        "key": "duel_best_of_10_win",
+        "category": "standard",
+        "name": "Marathon Duelist",
+        "description": "Win a Best of 10 duel",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 33,
+        "reward_xp": 2500
+      },
+      {
+        "key": "duel_comeback",
+        "category": "standard",
+        "name": "Comeback Kid",
+        "description": "Win a duel after trailing at some point",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 34,
+        "reward_xp": 2500
+      },
+      {
+        "key": "duel_perfect_sweep",
+        "category": "standard",
+        "name": "Clean Sweep",
+        "description": "Win a duel without your opponent winning a single round",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 35,
+        "reward_xp": 3000
+      },
+      {
+        "key": "duel_rival_slayer",
+        "category": "standard",
+        "name": "Rival Slayer",
+        "description": "Beat the same opponent 3 times in a row",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 36,
+        "reward_xp": 5000
+      },
+      {
+        "key": "duel_spelling_bee",
+        "category": "standard",
+        "name": "Duel Spelling Bee",
+        "description": "Win a duel with every correct guess spelled exactly right",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 37,
+        "reward_xp": 5000
+      },
+      {
+        "key": "hardcore_win",
+        "category": "standard",
+        "name": "Hardcore Hero",
+        "description": "Win a game of Hardcore trivia",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 38,
+        "reward_xp": 2500
+      },
+      {
+        "key": "hardcore_spelling",
+        "category": "standard",
+        "name": "Precision Under Fire",
+        "description": "Win a Hardcore game with 100% spelling accuracy",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 39,
+        "reward_xp": 7500
+      },
+      {
+        "key": "hardcore_marathon",
+        "category": "standard",
+        "name": "Hardcore Marathon",
+        "description": "Win a Hardcore game of 50 or more rounds",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 40,
+        "reward_xp": 10000
+      },
+      {
+        "key": "hardcore_perfectionist",
+        "category": "standard",
+        "name": "Hardcore Perfectionist",
+        "description": "Win a 50+ round Hardcore game, all enabled categories, with 100% spelling accuracy",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 41,
+        "reward_xp": 25000
+      },
+      {
+        "key": "quickfire_win",
+        "category": "standard",
+        "name": "Quickfire Champion",
+        "description": "Win a Quickfire game",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 42,
+        "reward_xp": 1500
+      },
+      {
+        "key": "quickfire_marathon",
+        "category": "standard",
+        "name": "Rapid Fire Marathon",
+        "description": "Win a 100-round Quickfire game",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 43,
+        "reward_xp": 10000
+      },
+      {
+        "key": "quickfire_perfectionist",
+        "category": "standard",
+        "name": "Blink and You'll Miss It",
+        "description": "Win a 100-round Quickfire game, all enabled categories, with 100% spelling accuracy",
+        "tier_level": null,
+        "threshold": null,
+        "locked": false,
+        "sort_order": 44,
+        "reward_xp": 25000
+      },
+      {
+        "key": "points_25",
+        "category": "points",
+        "name": "Trivia Rookie",
+        "description": "Reach 25 points",
+        "tier_level": 1,
+        "threshold": 25,
+        "locked": false,
+        "sort_order": 45,
+        "reward_xp": 2000
+      },
+      {
+        "key": "points_50",
+        "category": "points",
+        "name": "Quiz Apprentice",
+        "description": "Reach 50 points",
+        "tier_level": 2,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 46,
+        "reward_xp": 5000
+      },
+      {
+        "key": "points_75",
+        "category": "points",
+        "name": "Knowledge Seeker",
+        "description": "Reach 75 points",
+        "tier_level": 3,
+        "threshold": 75,
+        "locked": false,
+        "sort_order": 47,
+        "reward_xp": 7000
+      },
+      {
+        "key": "points_100",
+        "category": "points",
+        "name": "Trivia Scholar",
+        "description": "Reach 100 points",
+        "tier_level": 4,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 48,
+        "reward_xp": 10000
+      },
+      {
+        "key": "points_250",
+        "category": "points",
+        "name": "Fact Finder Extraordinaire",
+        "description": "Reach 250 points",
+        "tier_level": 5,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 49,
+        "reward_xp": 15000
+      },
+      {
+        "key": "points_500",
+        "category": "points",
+        "name": "Trivia Expert",
+        "description": "Reach 500 points",
+        "tier_level": 6,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 50,
+        "reward_xp": 30000
+      },
+      {
+        "key": "points_750",
+        "category": "points",
+        "name": "Trivia Master",
+        "description": "Reach 750 points",
+        "tier_level": 7,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 51,
+        "reward_xp": 60000
+      },
+      {
+        "key": "points_1000",
+        "category": "points",
+        "name": "Trivia Grandmaster",
+        "description": "Reach 1,000 points",
+        "tier_level": 8,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 52,
+        "reward_xp": 80000
+      },
+      {
+        "key": "wins_5",
+        "category": "wins",
+        "name": "First Victories",
+        "description": "Reach 5 wins",
+        "tier_level": 1,
+        "threshold": 5,
+        "locked": false,
+        "sort_order": 53,
+        "reward_xp": 2000
+      },
+      {
+        "key": "wins_15",
+        "category": "wins",
+        "name": "On a Roll",
+        "description": "Reach 15 wins",
+        "tier_level": 2,
+        "threshold": 15,
+        "locked": false,
+        "sort_order": 54,
+        "reward_xp": 5000
+      },
+      {
+        "key": "wins_30",
+        "category": "wins",
+        "name": "Seasoned Winner",
+        "description": "Reach 30 wins",
+        "tier_level": 3,
+        "threshold": 30,
+        "locked": false,
+        "sort_order": 55,
+        "reward_xp": 7000
+      },
+      {
+        "key": "wins_50",
+        "category": "wins",
+        "name": "Half Century Club",
+        "description": "Reach 50 wins",
+        "tier_level": 4,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 56,
+        "reward_xp": 10000
+      },
+      {
+        "key": "wins_75",
+        "category": "wins",
+        "name": "Elite Competitor",
+        "description": "Reach 75 wins",
+        "tier_level": 5,
+        "threshold": 75,
+        "locked": false,
+        "sort_order": 57,
+        "reward_xp": 15000
+      },
+      {
+        "key": "wins_100",
+        "category": "wins",
+        "name": "Century Club",
+        "description": "Reach 100 wins",
+        "tier_level": 6,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 58,
+        "reward_xp": 30000
+      },
+      {
+        "key": "wins_250",
+        "category": "wins",
+        "name": "Trivia Champion",
+        "description": "Reach 250 wins",
+        "tier_level": 7,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 59,
+        "reward_xp": 60000
+      },
+      {
+        "key": "wins_500",
+        "category": "wins",
+        "name": "Trivia Legend",
+        "description": "Reach 500 wins",
+        "tier_level": 8,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 60,
+        "reward_xp": 80000
+      },
+      {
+        "key": "streak_10",
+        "category": "streak",
+        "name": "Hot Streak",
+        "description": "Reach 10 question streak",
+        "tier_level": 1,
+        "threshold": 10,
+        "locked": false,
+        "sort_order": 61,
+        "reward_xp": 2000
+      },
+      {
+        "key": "streak_15",
+        "category": "streak",
+        "name": "On Fire",
+        "description": "Reach 15 question streak",
+        "tier_level": 2,
+        "threshold": 15,
+        "locked": false,
+        "sort_order": 62,
+        "reward_xp": 5000
+      },
+      {
+        "key": "streak_20",
+        "category": "streak",
+        "name": "Blazing",
+        "description": "Reach 20 question streak",
+        "tier_level": 3,
+        "threshold": 20,
+        "locked": false,
+        "sort_order": 63,
+        "reward_xp": 7000
+      },
+      {
+        "key": "streak_25",
+        "category": "streak",
+        "name": "Unstoppable",
+        "description": "Reach 25 question streak",
+        "tier_level": 4,
+        "threshold": 25,
+        "locked": false,
+        "sort_order": 64,
+        "reward_xp": 10000
+      },
+      {
+        "key": "streak_50",
+        "category": "streak",
+        "name": "Streak God",
+        "description": "Reach 50 question streak",
+        "tier_level": 5,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 65,
+        "reward_xp": 15000
+      },
+      {
+        "key": "streak_75",
+        "category": "streak",
+        "name": "Untouchable",
+        "description": "Reach 75 question streak",
+        "tier_level": 6,
+        "threshold": 75,
+        "locked": false,
+        "sort_order": 66,
+        "reward_xp": 30000
+      },
+      {
+        "key": "streak_100",
+        "category": "streak",
+        "name": "Centurion Streak",
+        "description": "Reach 100 question streak",
+        "tier_level": 7,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 67,
+        "reward_xp": 60000
+      },
+      {
+        "key": "streak_250",
+        "category": "streak",
+        "name": "Legendary Streak",
+        "description": "Reach 250 question streak",
+        "tier_level": 8,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 68,
+        "reward_xp": 80000
+      },
+      {
+        "key": "insane_5",
+        "category": "insane",
+        "name": "Insane Rookie",
+        "description": "Reach 5 insane round guesses",
+        "tier_level": 1,
+        "threshold": 5,
+        "locked": false,
+        "sort_order": 69,
+        "reward_xp": 2000
+      },
+      {
+        "key": "insane_10",
+        "category": "insane",
+        "name": "Insane Enthusiast",
+        "description": "Reach 10 insane round guesses",
+        "tier_level": 2,
+        "threshold": 10,
+        "locked": false,
+        "sort_order": 70,
+        "reward_xp": 5000
+      },
+      {
+        "key": "insane_15",
+        "category": "insane",
+        "name": "Insane Adept",
+        "description": "Reach 15 insane round guesses",
+        "tier_level": 3,
+        "threshold": 15,
+        "locked": false,
+        "sort_order": 71,
+        "reward_xp": 7000
+      },
+      {
+        "key": "insane_20",
+        "category": "insane",
+        "name": "Insane Veteran",
+        "description": "Reach 20 insane round guesses",
+        "tier_level": 4,
+        "threshold": 20,
+        "locked": false,
+        "sort_order": 72,
+        "reward_xp": 10000
+      },
+      {
+        "key": "insane_25",
+        "category": "insane",
+        "name": "Insane Expert",
+        "description": "Reach 25 insane round guesses",
+        "tier_level": 5,
+        "threshold": 25,
+        "locked": false,
+        "sort_order": 73,
+        "reward_xp": 15000
+      },
+      {
+        "key": "insane_30",
+        "category": "insane",
+        "name": "Insane Master",
+        "description": "Reach 30 insane round guesses",
+        "tier_level": 6,
+        "threshold": 30,
+        "locked": false,
+        "sort_order": 74,
+        "reward_xp": 30000
+      },
+      {
+        "key": "insane_35",
+        "category": "insane",
+        "name": "Insane Legend",
+        "description": "Reach 35 insane round guesses",
+        "tier_level": 7,
+        "threshold": 35,
+        "locked": false,
+        "sort_order": 75,
+        "reward_xp": 60000
+      },
+      {
+        "key": "insane_40",
+        "category": "insane",
+        "name": "Absolutely Insane",
+        "description": "Reach 40 insane round guesses",
+        "tier_level": 8,
+        "threshold": 40,
+        "locked": false,
+        "sort_order": 76,
+        "reward_xp": 80000
+      },
+      {
+        "key": "duelwins_5",
+        "category": "duelwins",
+        "name": "Duel Novice",
+        "description": "Reach 5 duel wins",
+        "tier_level": 1,
+        "threshold": 5,
+        "locked": false,
+        "sort_order": 77,
+        "reward_xp": 2000
+      },
+      {
+        "key": "duelwins_10",
+        "category": "duelwins",
+        "name": "Duel Challenger",
+        "description": "Reach 10 duel wins",
+        "tier_level": 2,
+        "threshold": 10,
+        "locked": false,
+        "sort_order": 78,
+        "reward_xp": 5000
+      },
+      {
+        "key": "duelwins_25",
+        "category": "duelwins",
+        "name": "Duel Veteran",
+        "description": "Reach 25 duel wins",
+        "tier_level": 3,
+        "threshold": 25,
+        "locked": false,
+        "sort_order": 79,
+        "reward_xp": 7000
+      },
+      {
+        "key": "duelwins_50",
+        "category": "duelwins",
+        "name": "Duel Expert",
+        "description": "Reach 50 duel wins",
+        "tier_level": 4,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 80,
+        "reward_xp": 10000
+      },
+      {
+        "key": "duelwins_75",
+        "category": "duelwins",
+        "name": "Duel Champion",
+        "description": "Reach 75 duel wins",
+        "tier_level": 5,
+        "threshold": 75,
+        "locked": false,
+        "sort_order": 81,
+        "reward_xp": 15000
+      },
+      {
+        "key": "duelwins_100",
+        "category": "duelwins",
+        "name": "Duel Master",
+        "description": "Reach 100 duel wins",
+        "tier_level": 6,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 82,
+        "reward_xp": 30000
+      },
+      {
+        "key": "duelwins_200",
+        "category": "duelwins",
+        "name": "Duel Legend",
+        "description": "Reach 200 duel wins",
+        "tier_level": 7,
+        "threshold": 200,
+        "locked": false,
+        "sort_order": 83,
+        "reward_xp": 60000
+      },
+      {
+        "key": "duelwins_300",
+        "category": "duelwins",
+        "name": "Duel Grandmaster",
+        "description": "Reach 300 duel wins",
+        "tier_level": 8,
+        "threshold": 300,
+        "locked": false,
+        "sort_order": 84,
+        "reward_xp": 80000
+      },
+      {
+        "key": "duelstreak_3",
+        "category": "duelstreak",
+        "name": "Warming Up",
+        "description": "Reach 3 consecutive duel wins",
+        "tier_level": 1,
+        "threshold": 3,
+        "locked": false,
+        "sort_order": 85,
+        "reward_xp": 2000
+      },
+      {
+        "key": "duelstreak_5",
+        "category": "duelstreak",
+        "name": "Hot Hand",
+        "description": "Reach 5 consecutive duel wins",
+        "tier_level": 2,
+        "threshold": 5,
+        "locked": false,
+        "sort_order": 86,
+        "reward_xp": 5000
+      },
+      {
+        "key": "duelstreak_10",
+        "category": "duelstreak",
+        "name": "On a Tear",
+        "description": "Reach 10 consecutive duel wins",
+        "tier_level": 3,
+        "threshold": 10,
+        "locked": false,
+        "sort_order": 87,
+        "reward_xp": 7000
+      },
+      {
+        "key": "duelstreak_15",
+        "category": "duelstreak",
+        "name": "Dominant",
+        "description": "Reach 15 consecutive duel wins",
+        "tier_level": 4,
+        "threshold": 15,
+        "locked": false,
+        "sort_order": 88,
+        "reward_xp": 10000
+      },
+      {
+        "key": "duelstreak_20",
+        "category": "duelstreak",
+        "name": "Relentless",
+        "description": "Reach 20 consecutive duel wins",
+        "tier_level": 5,
+        "threshold": 20,
+        "locked": false,
+        "sort_order": 89,
+        "reward_xp": 15000
+      },
+      {
+        "key": "duelstreak_30",
+        "category": "duelstreak",
+        "name": "Reign of Terror",
+        "description": "Reach 30 consecutive duel wins",
+        "tier_level": 6,
+        "threshold": 30,
+        "locked": false,
+        "sort_order": 90,
+        "reward_xp": 30000
+      },
+      {
+        "key": "duelstreak_50",
+        "category": "duelstreak",
+        "name": "Unbeatable",
+        "description": "Reach 50 consecutive duel wins",
+        "tier_level": 7,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 91,
+        "reward_xp": 60000
+      },
+      {
+        "key": "duelstreak_75",
+        "category": "duelstreak",
+        "name": "Duel Deity",
+        "description": "Reach 75 consecutive duel wins",
+        "tier_level": 8,
+        "threshold": 75,
+        "locked": false,
+        "sort_order": 92,
+        "reward_xp": 80000
+      },
+      {
+        "key": "disney_50",
+        "category": "disney",
+        "name": "Disney Rookie",
+        "description": "Reach 50 correct Disney answers",
+        "tier_level": 1,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 93,
+        "reward_xp": 10000
+      },
+      {
+        "key": "disney_100",
+        "category": "disney",
+        "name": "Disney Devotee",
+        "description": "Reach 100 correct Disney answers",
+        "tier_level": 2,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 94,
+        "reward_xp": 25000
+      },
+      {
+        "key": "disney_250",
+        "category": "disney",
+        "name": "Mouseketeer",
+        "description": "Reach 250 correct Disney answers",
+        "tier_level": 3,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 95,
+        "reward_xp": 50000
+      },
+      {
+        "key": "disney_500",
+        "category": "disney",
+        "name": "Animation Buff",
+        "description": "Reach 500 correct Disney answers",
+        "tier_level": 4,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 96,
+        "reward_xp": 100000
+      },
+      {
+        "key": "disney_750",
+        "category": "disney",
+        "name": "Disney Scholar",
+        "description": "Reach 750 correct Disney answers",
+        "tier_level": 5,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 97,
+        "reward_xp": 150000
+      },
+      {
+        "key": "disney_1000",
+        "category": "disney",
+        "name": "Disney Expert",
+        "description": "Reach 1,000 correct Disney answers",
+        "tier_level": 6,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 98,
+        "reward_xp": 250000
+      },
+      {
+        "key": "disney_2500",
+        "category": "disney",
+        "name": "Disney Master",
+        "description": "Reach 2,500 correct Disney answers",
+        "tier_level": 7,
+        "threshold": 2500,
+        "locked": false,
+        "sort_order": 99,
+        "reward_xp": 500000
+      },
+      {
+        "key": "disney_5000",
+        "category": "disney",
+        "name": "Disney Legend",
+        "description": "Reach 5,000 correct Disney answers",
+        "tier_level": 8,
+        "threshold": 5000,
+        "locked": false,
+        "sort_order": 100,
+        "reward_xp": 1000000
+      },
+      {
+        "key": "gk_50",
+        "category": "gk",
+        "name": "GK Rookie",
+        "description": "Reach 50 correct General Knowledge answers",
+        "tier_level": 1,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 101,
+        "reward_xp": 10000
+      },
+      {
+        "key": "gk_100",
+        "category": "gk",
+        "name": "Quiz Novice",
+        "description": "Reach 100 correct General Knowledge answers",
+        "tier_level": 2,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 102,
+        "reward_xp": 25000
+      },
+      {
+        "key": "gk_250",
+        "category": "gk",
+        "name": "Fact Finder",
+        "description": "Reach 250 correct General Knowledge answers",
+        "tier_level": 3,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 103,
+        "reward_xp": 50000
+      },
+      {
+        "key": "gk_500",
+        "category": "gk",
+        "name": "Knowledge Seeker",
+        "description": "Reach 500 correct General Knowledge answers",
+        "tier_level": 4,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 104,
+        "reward_xp": 100000
+      },
+      {
+        "key": "gk_750",
+        "category": "gk",
+        "name": "GK Scholar",
+        "description": "Reach 750 correct General Knowledge answers",
+        "tier_level": 5,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 105,
+        "reward_xp": 150000
+      },
+      {
+        "key": "gk_1000",
+        "category": "gk",
+        "name": "GK Expert",
+        "description": "Reach 1,000 correct General Knowledge answers",
+        "tier_level": 6,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 106,
+        "reward_xp": 250000
+      },
+      {
+        "key": "gk_2500",
+        "category": "gk",
+        "name": "GK Master",
+        "description": "Reach 2,500 correct General Knowledge answers",
+        "tier_level": 7,
+        "threshold": 2500,
+        "locked": false,
+        "sort_order": 107,
+        "reward_xp": 500000
+      },
+      {
+        "key": "gk_5000",
+        "category": "gk",
+        "name": "Walking Encyclopedia",
+        "description": "Reach 5,000 correct General Knowledge answers",
+        "tier_level": 8,
+        "threshold": 5000,
+        "locked": false,
+        "sort_order": 108,
+        "reward_xp": 1000000
+      },
+      {
+        "key": "got_50",
+        "category": "got",
+        "name": "Sworn Sword",
+        "description": "Reach 50 correct Game of Thrones answers",
+        "tier_level": 1,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 109,
+        "reward_xp": 10000
+      },
+      {
+        "key": "got_100",
+        "category": "got",
+        "name": "Hand of the King",
+        "description": "Reach 100 correct Game of Thrones answers",
+        "tier_level": 2,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 110,
+        "reward_xp": 25000
+      },
+      {
+        "key": "got_250",
+        "category": "got",
+        "name": "Master of Whispers",
+        "description": "Reach 250 correct Game of Thrones answers",
+        "tier_level": 3,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 111,
+        "reward_xp": 50000
+      },
+      {
+        "key": "got_500",
+        "category": "got",
+        "name": "Warden of the Realm",
+        "description": "Reach 500 correct Game of Thrones answers",
+        "tier_level": 4,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 112,
+        "reward_xp": 100000
+      },
+      {
+        "key": "got_750",
+        "category": "got",
+        "name": "Lord of the Seven Kingdoms",
+        "description": "Reach 750 correct Game of Thrones answers",
+        "tier_level": 5,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 113,
+        "reward_xp": 150000
+      },
+      {
+        "key": "got_1000",
+        "category": "got",
+        "name": "King in the North",
+        "description": "Reach 1,000 correct Game of Thrones answers",
+        "tier_level": 6,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 114,
+        "reward_xp": 250000
+      },
+      {
+        "key": "got_2500",
+        "category": "got",
+        "name": "Breaker of Chains",
+        "description": "Reach 2,500 correct Game of Thrones answers",
+        "tier_level": 7,
+        "threshold": 2500,
+        "locked": false,
+        "sort_order": 115,
+        "reward_xp": 500000
+      },
+      {
+        "key": "got_5000",
+        "category": "got",
+        "name": "Iron Throne Claimant",
+        "description": "Reach 5,000 correct Game of Thrones answers",
+        "tier_level": 8,
+        "threshold": 5000,
+        "locked": false,
+        "sort_order": 116,
+        "reward_xp": 1000000
+      },
+      {
+        "key": "marvel_50",
+        "category": "marvel",
+        "name": "Marvel Recruit",
+        "description": "Reach 50 correct Marvel answers",
+        "tier_level": 1,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 117,
+        "reward_xp": 10000
+      },
+      {
+        "key": "marvel_100",
+        "category": "marvel",
+        "name": "S.H.I.E.L.D. Agent",
+        "description": "Reach 100 correct Marvel answers",
+        "tier_level": 2,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 118,
+        "reward_xp": 25000
+      },
+      {
+        "key": "marvel_250",
+        "category": "marvel",
+        "name": "Avenger in Training",
+        "description": "Reach 250 correct Marvel answers",
+        "tier_level": 3,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 119,
+        "reward_xp": 50000
+      },
+      {
+        "key": "marvel_500",
+        "category": "marvel",
+        "name": "Marvel Buff",
+        "description": "Reach 500 correct Marvel answers",
+        "tier_level": 4,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 120,
+        "reward_xp": 100000
+      },
+      {
+        "key": "marvel_750",
+        "category": "marvel",
+        "name": "Marvel Scholar",
+        "description": "Reach 750 correct Marvel answers",
+        "tier_level": 5,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 121,
+        "reward_xp": 150000
+      },
+      {
+        "key": "marvel_1000",
+        "category": "marvel",
+        "name": "Marvel Expert",
+        "description": "Reach 1,000 correct Marvel answers",
+        "tier_level": 6,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 122,
+        "reward_xp": 250000
+      },
+      {
+        "key": "marvel_2500",
+        "category": "marvel",
+        "name": "Marvel Master",
+        "description": "Reach 2,500 correct Marvel answers",
+        "tier_level": 7,
+        "threshold": 2500,
+        "locked": false,
+        "sort_order": 123,
+        "reward_xp": 500000
+      },
+      {
+        "key": "marvel_5000",
+        "category": "marvel",
+        "name": "True Believer",
+        "description": "Reach 5,000 correct Marvel answers",
+        "tier_level": 8,
+        "threshold": 5000,
+        "locked": false,
+        "sort_order": 124,
+        "reward_xp": 1000000
+      },
+      {
+        "key": "sports_50",
+        "category": "sports",
+        "name": "Sports Rookie",
+        "description": "Reach 50 correct Sports answers",
+        "tier_level": 1,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 125,
+        "reward_xp": 10000
+      },
+      {
+        "key": "sports_100",
+        "category": "sports",
+        "name": "Weekend Warrior",
+        "description": "Reach 100 correct Sports answers",
+        "tier_level": 2,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 126,
+        "reward_xp": 25000
+      },
+      {
+        "key": "sports_250",
+        "category": "sports",
+        "name": "Armchair Athlete",
+        "description": "Reach 250 correct Sports answers",
+        "tier_level": 3,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 127,
+        "reward_xp": 50000
+      },
+      {
+        "key": "sports_500",
+        "category": "sports",
+        "name": "Sports Buff",
+        "description": "Reach 500 correct Sports answers",
+        "tier_level": 4,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 128,
+        "reward_xp": 100000
+      },
+      {
+        "key": "sports_750",
+        "category": "sports",
+        "name": "Sports Scholar",
+        "description": "Reach 750 correct Sports answers",
+        "tier_level": 5,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 129,
+        "reward_xp": 150000
+      },
+      {
+        "key": "sports_1000",
+        "category": "sports",
+        "name": "Sports Expert",
+        "description": "Reach 1,000 correct Sports answers",
+        "tier_level": 6,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 130,
+        "reward_xp": 250000
+      },
+      {
+        "key": "sports_2500",
+        "category": "sports",
+        "name": "Sports Master",
+        "description": "Reach 2,500 correct Sports answers",
+        "tier_level": 7,
+        "threshold": 2500,
+        "locked": false,
+        "sort_order": 131,
+        "reward_xp": 500000
+      },
+      {
+        "key": "sports_5000",
+        "category": "sports",
+        "name": "Sports Legend",
+        "description": "Reach 5,000 correct Sports answers",
+        "tier_level": 8,
+        "threshold": 5000,
+        "locked": false,
+        "sort_order": 132,
+        "reward_xp": 1000000
+      },
+      {
+        "key": "wrestling_50",
+        "category": "wrestling",
+        "name": "Jobber",
+        "description": "Reach 50 correct Wrestling answers",
+        "tier_level": 1,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 133,
+        "reward_xp": 10000
+      },
+      {
+        "key": "wrestling_100",
+        "category": "wrestling",
+        "name": "Mid-Carder",
+        "description": "Reach 100 correct Wrestling answers",
+        "tier_level": 2,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 134,
+        "reward_xp": 25000
+      },
+      {
+        "key": "wrestling_250",
+        "category": "wrestling",
+        "name": "Tag Team Specialist",
+        "description": "Reach 250 correct Wrestling answers",
+        "tier_level": 3,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 135,
+        "reward_xp": 50000
+      },
+      {
+        "key": "wrestling_500",
+        "category": "wrestling",
+        "name": "Rising Star",
+        "description": "Reach 500 correct Wrestling answers",
+        "tier_level": 4,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 136,
+        "reward_xp": 100000
+      },
+      {
+        "key": "wrestling_750",
+        "category": "wrestling",
+        "name": "Main Eventer",
+        "description": "Reach 750 correct Wrestling answers",
+        "tier_level": 5,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 137,
+        "reward_xp": 150000
+      },
+      {
+        "key": "wrestling_1000",
+        "category": "wrestling",
+        "name": "World Champion",
+        "description": "Reach 1,000 correct Wrestling answers",
+        "tier_level": 6,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 138,
+        "reward_xp": 250000
+      },
+      {
+        "key": "wrestling_2500",
+        "category": "wrestling",
+        "name": "Hall of Famer",
+        "description": "Reach 2,500 correct Wrestling answers",
+        "tier_level": 7,
+        "threshold": 2500,
+        "locked": false,
+        "sort_order": 139,
+        "reward_xp": 500000
+      },
+      {
+        "key": "wrestling_5000",
+        "category": "wrestling",
+        "name": "GOAT",
+        "description": "Reach 5,000 correct Wrestling answers",
+        "tier_level": 8,
+        "threshold": 5000,
+        "locked": false,
+        "sort_order": 140,
+        "reward_xp": 1000000
+      },
+      {
+        "key": "geo_50",
+        "category": "geo",
+        "name": "Map Novice",
+        "description": "Reach 50 correct Geography answers",
+        "tier_level": 1,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 141,
+        "reward_xp": 10000
+      },
+      {
+        "key": "geo_100",
+        "category": "geo",
+        "name": "Globetrotter",
+        "description": "Reach 100 correct Geography answers",
+        "tier_level": 2,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 142,
+        "reward_xp": 25000
+      },
+      {
+        "key": "geo_250",
+        "category": "geo",
+        "name": "Geography Buff",
+        "description": "Reach 250 correct Geography answers",
+        "tier_level": 3,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 143,
+        "reward_xp": 50000
+      },
+      {
+        "key": "geo_500",
+        "category": "geo",
+        "name": "Cartography Fan",
+        "description": "Reach 500 correct Geography answers",
+        "tier_level": 4,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 144,
+        "reward_xp": 100000
+      },
+      {
+        "key": "geo_750",
+        "category": "geo",
+        "name": "Geography Scholar",
+        "description": "Reach 750 correct Geography answers",
+        "tier_level": 5,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 145,
+        "reward_xp": 150000
+      },
+      {
+        "key": "geo_1000",
+        "category": "geo",
+        "name": "Geography Expert",
+        "description": "Reach 1,000 correct Geography answers",
+        "tier_level": 6,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 146,
+        "reward_xp": 250000
+      },
+      {
+        "key": "geo_2500",
+        "category": "geo",
+        "name": "Geography Master",
+        "description": "Reach 2,500 correct Geography answers",
+        "tier_level": 7,
+        "threshold": 2500,
+        "locked": false,
+        "sort_order": 147,
+        "reward_xp": 500000
+      },
+      {
+        "key": "geo_5000",
+        "category": "geo",
+        "name": "World Wanderer",
+        "description": "Reach 5,000 correct Geography answers",
+        "tier_level": 8,
+        "threshold": 5000,
+        "locked": false,
+        "sort_order": 148,
+        "reward_xp": 1000000
+      },
+      {
+        "key": "pokemon_50",
+        "category": "pokemon",
+        "name": "Pokemon Trainer",
+        "description": "Reach 50 correct Pokemon answers",
+        "tier_level": 1,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 149,
+        "reward_xp": 10000
+      },
+      {
+        "key": "pokemon_100",
+        "category": "pokemon",
+        "name": "Pokedex Novice",
+        "description": "Reach 100 correct Pokemon answers",
+        "tier_level": 2,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 150,
+        "reward_xp": 25000
+      },
+      {
+        "key": "pokemon_250",
+        "category": "pokemon",
+        "name": "Gym Challenger",
+        "description": "Reach 250 correct Pokemon answers",
+        "tier_level": 3,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 151,
+        "reward_xp": 50000
+      },
+      {
+        "key": "pokemon_500",
+        "category": "pokemon",
+        "name": "Pokemon Buff",
+        "description": "Reach 500 correct Pokemon answers",
+        "tier_level": 4,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 152,
+        "reward_xp": 100000
+      },
+      {
+        "key": "pokemon_750",
+        "category": "pokemon",
+        "name": "Pokemon Scholar",
+        "description": "Reach 750 correct Pokemon answers",
+        "tier_level": 5,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 153,
+        "reward_xp": 150000
+      },
+      {
+        "key": "pokemon_1000",
+        "category": "pokemon",
+        "name": "Pokemon Expert",
+        "description": "Reach 1,000 correct Pokemon answers",
+        "tier_level": 6,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 154,
+        "reward_xp": 250000
+      },
+      {
+        "key": "pokemon_2500",
+        "category": "pokemon",
+        "name": "Pokemon Master",
+        "description": "Reach 2,500 correct Pokemon answers",
+        "tier_level": 7,
+        "threshold": 2500,
+        "locked": false,
+        "sort_order": 155,
+        "reward_xp": 500000
+      },
+      {
+        "key": "pokemon_5000",
+        "category": "pokemon",
+        "name": "Pokemon Champion",
+        "description": "Reach 5,000 correct Pokemon answers",
+        "tier_level": 8,
+        "threshold": 5000,
+        "locked": false,
+        "sort_order": 156,
+        "reward_xp": 1000000
+      },
+      {
+        "key": "videogames_50",
+        "category": "videogames",
+        "name": "Player One",
+        "description": "Reach 50 correct Video Game answers",
+        "tier_level": 1,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 157,
+        "reward_xp": 10000
+      },
+      {
+        "key": "videogames_100",
+        "category": "videogames",
+        "name": "Button Masher",
+        "description": "Reach 100 correct Video Game answers",
+        "tier_level": 2,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 158,
+        "reward_xp": 25000
+      },
+      {
+        "key": "videogames_250",
+        "category": "videogames",
+        "name": "Casual Gamer",
+        "description": "Reach 250 correct Video Game answers",
+        "tier_level": 3,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 159,
+        "reward_xp": 50000
+      },
+      {
+        "key": "videogames_500",
+        "category": "videogames",
+        "name": "Speedrunner",
+        "description": "Reach 500 correct Video Game answers",
+        "tier_level": 4,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 160,
+        "reward_xp": 100000
+      },
+      {
+        "key": "videogames_750",
+        "category": "videogames",
+        "name": "Achievement Hunter",
+        "description": "Reach 750 correct Video Game answers",
+        "tier_level": 5,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 161,
+        "reward_xp": 150000
+      },
+      {
+        "key": "videogames_1000",
+        "category": "videogames",
+        "name": "Boss Slayer",
+        "description": "Reach 1,000 correct Video Game answers",
+        "tier_level": 6,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 162,
+        "reward_xp": 250000
+      },
+      {
+        "key": "videogames_2500",
+        "category": "videogames",
+        "name": "Gaming Veteran",
+        "description": "Reach 2,500 correct Video Game answers",
+        "tier_level": 7,
+        "threshold": 2500,
+        "locked": false,
+        "sort_order": 163,
+        "reward_xp": 500000
+      },
+      {
+        "key": "videogames_5000",
+        "category": "videogames",
+        "name": "Video Game Legend",
+        "description": "Reach 5,000 correct Video Game answers",
+        "tier_level": 8,
+        "threshold": 5000,
+        "locked": false,
+        "sort_order": 164,
+        "reward_xp": 1000000
+      },
+      {
+        "key": "entertainment_50",
+        "category": "entertainment",
+        "name": "Extra",
+        "description": "Reach 50 correct Entertainment answers",
+        "tier_level": 1,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 165,
+        "reward_xp": 10000
+      },
+      {
+        "key": "entertainment_100",
+        "category": "entertainment",
+        "name": "Bit Player",
+        "description": "Reach 100 correct Entertainment answers",
+        "tier_level": 2,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 166,
+        "reward_xp": 25000
+      },
+      {
+        "key": "entertainment_250",
+        "category": "entertainment",
+        "name": "Supporting Actor",
+        "description": "Reach 250 correct Entertainment answers",
+        "tier_level": 3,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 167,
+        "reward_xp": 50000
+      },
+      {
+        "key": "entertainment_500",
+        "category": "entertainment",
+        "name": "Series Regular",
+        "description": "Reach 500 correct Entertainment answers",
+        "tier_level": 4,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 168,
+        "reward_xp": 100000
+      },
+      {
+        "key": "entertainment_750",
+        "category": "entertainment",
+        "name": "Scene Stealer",
+        "description": "Reach 750 correct Entertainment answers",
+        "tier_level": 5,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 169,
+        "reward_xp": 150000
+      },
+      {
+        "key": "entertainment_1000",
+        "category": "entertainment",
+        "name": "Leading Star",
+        "description": "Reach 1,000 correct Entertainment answers",
+        "tier_level": 6,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 170,
+        "reward_xp": 250000
+      },
+      {
+        "key": "entertainment_2500",
+        "category": "entertainment",
+        "name": "A-Lister",
+        "description": "Reach 2,500 correct Entertainment answers",
+        "tier_level": 7,
+        "threshold": 2500,
+        "locked": false,
+        "sort_order": 171,
+        "reward_xp": 500000
+      },
+      {
+        "key": "entertainment_5000",
+        "category": "entertainment",
+        "name": "Pop Culture Icon",
+        "description": "Reach 5,000 correct Entertainment answers",
+        "tier_level": 8,
+        "threshold": 5000,
+        "locked": false,
+        "sort_order": 172,
+        "reward_xp": 1000000
+      },
+      {
+        "key": "movies_50",
+        "category": "movies",
+        "name": "Popcorn Fan",
+        "description": "Reach 50 correct Movies answers",
+        "tier_level": 1,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 173,
+        "reward_xp": 10000
+      },
+      {
+        "key": "movies_100",
+        "category": "movies",
+        "name": "Ticket Holder",
+        "description": "Reach 100 correct Movies answers",
+        "tier_level": 2,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 174,
+        "reward_xp": 25000
+      },
+      {
+        "key": "movies_250",
+        "category": "movies",
+        "name": "Matinee Regular",
+        "description": "Reach 250 correct Movies answers",
+        "tier_level": 3,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 175,
+        "reward_xp": 50000
+      },
+      {
+        "key": "movies_500",
+        "category": "movies",
+        "name": "Film Buff",
+        "description": "Reach 500 correct Movies answers",
+        "tier_level": 4,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 176,
+        "reward_xp": 100000
+      },
+      {
+        "key": "movies_750",
+        "category": "movies",
+        "name": "Cinephile",
+        "description": "Reach 750 correct Movies answers",
+        "tier_level": 5,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 177,
+        "reward_xp": 150000
+      },
+      {
+        "key": "movies_1000",
+        "category": "movies",
+        "name": "Critics' Choice",
+        "description": "Reach 1,000 correct Movies answers",
+        "tier_level": 6,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 178,
+        "reward_xp": 250000
+      },
+      {
+        "key": "movies_2500",
+        "category": "movies",
+        "name": "Director's Cut",
+        "description": "Reach 2,500 correct Movies answers",
+        "tier_level": 7,
+        "threshold": 2500,
+        "locked": false,
+        "sort_order": 179,
+        "reward_xp": 500000
+      },
+      {
+        "key": "movies_5000",
+        "category": "movies",
+        "name": "Movie Legend",
+        "description": "Reach 5,000 correct Movies answers",
+        "tier_level": 8,
+        "threshold": 5000,
+        "locked": false,
+        "sort_order": 180,
+        "reward_xp": 1000000
+      },
+      {
+        "key": "music_50",
+        "category": "music",
+        "name": "Air Guitarist",
+        "description": "Reach 50 correct Music answers",
+        "tier_level": 1,
+        "threshold": 50,
+        "locked": false,
+        "sort_order": 181,
+        "reward_xp": 10000
+      },
+      {
+        "key": "music_100",
+        "category": "music",
+        "name": "Opening Act",
+        "description": "Reach 100 correct Music answers",
+        "tier_level": 2,
+        "threshold": 100,
+        "locked": false,
+        "sort_order": 182,
+        "reward_xp": 25000
+      },
+      {
+        "key": "music_250",
+        "category": "music",
+        "name": "Roadie",
+        "description": "Reach 250 correct Music answers",
+        "tier_level": 3,
+        "threshold": 250,
+        "locked": false,
+        "sort_order": 183,
+        "reward_xp": 50000
+      },
+      {
+        "key": "music_500",
+        "category": "music",
+        "name": "Chart Climber",
+        "description": "Reach 500 correct Music answers",
+        "tier_level": 4,
+        "threshold": 500,
+        "locked": false,
+        "sort_order": 184,
+        "reward_xp": 100000
+      },
+      {
+        "key": "music_750",
+        "category": "music",
+        "name": "Headliner",
+        "description": "Reach 750 correct Music answers",
+        "tier_level": 5,
+        "threshold": 750,
+        "locked": false,
+        "sort_order": 185,
+        "reward_xp": 150000
+      },
+      {
+        "key": "music_1000",
+        "category": "music",
+        "name": "Platinum Artist",
+        "description": "Reach 1,000 correct Music answers",
+        "tier_level": 6,
+        "threshold": 1000,
+        "locked": false,
+        "sort_order": 186,
+        "reward_xp": 250000
+      },
+      {
+        "key": "music_2500",
+        "category": "music",
+        "name": "Hall of Fame Inductee",
+        "description": "Reach 2,500 correct Music answers",
+        "tier_level": 7,
+        "threshold": 2500,
+        "locked": false,
+        "sort_order": 187,
+        "reward_xp": 500000
+      },
+      {
+        "key": "music_5000",
+        "category": "music",
+        "name": "Music Legend",
+        "description": "Reach 5,000 correct Music answers",
+        "tier_level": 8,
+        "threshold": 5000,
+        "locked": false,
+        "sort_order": 188,
+        "reward_xp": 1000000
+      }
+    ],
+    "unlocked": {
+      "points_25": "2026-09-15 16:27:01.741737+00:00",
+      "correct_last_5s": "2026-09-15 16:29:17.763059+00:00",
+      "insane_5": "2026-09-15 16:30:35.352313+00:00",
+      "insane_find_all": "2026-09-15 16:30:43.665481+00:00",
+      "answer_twice": "2026-09-15 16:34:48.322216+00:00",
+      "correct_under_3s": "2026-09-15 16:35:12.834479+00:00",
+      "insane_10": "2026-09-15 16:36:39.395839+00:00",
+      "points_50": "2026-09-15 16:41:04.520065+00:00",
+      "insane_15": "2026-09-15 16:44:05.864842+00:00",
+      "insane_20": "2026-09-15 16:44:17.080709+00:00",
+      "insane_25": "2026-09-15 16:44:33.820708+00:00",
+      "insane_30": "2026-09-15 16:44:51.178140+00:00",
+      "win_a_game": "2026-09-15 16:45:15.506243+00:00",
+      "start_and_win": "2026-09-15 16:45:15.507836+00:00",
+      "equip_cosmetic": "2026-09-15 17:01:30.160676+00:00",
+      "points_75": "2026-09-15 17:36:50.735711+00:00",
+      "insane_35": "2026-09-15 17:52:12.333794+00:00",
+      "points_100": "2026-09-15 18:02:55.336625+00:00",
+      "insane_40": "2026-09-15 18:06:52.988203+00:00",
+      "id_pokemon": "2026-09-15 18:11:49.913567+00:00",
+      "win_50_question_game": "2026-09-15 21:36:01.123995+00:00",
+      "report_bug": "2026-09-15 21:50:52.706405+00:00",
+      "points_250": "2026-09-15 23:09:44.509273+00:00",
+      "win_others_game": "2026-09-15 23:35:32.649325+00:00",
+      "win_one_category": "2026-09-15 23:35:32.650876+00:00",
+      "spelling_bee": "2026-09-15 23:35:32.652332+00:00",
+      "all_cosmetic_slots": "2026-09-15 23:43:48.255415+00:00",
+      "end_streak_5": "2026-09-16 00:09:32.069313+00:00",
+      "wins_5": "2026-09-16 00:51:20.747929+00:00",
+      "place_last": "2026-09-16 12:12:21.245236+00:00",
+      "points_500": "2026-09-17 01:02:19.760970+00:00",
+      "flawless_game": "2026-09-17 01:04:22.592420+00:00",
+      "play_3_days": "2026-09-17 14:20:09.878767+00:00",
+      "streak_10": "2026-09-17 23:24:36.960870+00:00",
+      "points_750": "2026-09-18 18:14:43.858602+00:00",
+      "use_xp_boost": "2026-09-19 01:06:45.582499+00:00",
+      "geo_50": "2026-09-19 01:30:01.311274+00:00",
+      "points_1000": "2026-09-19 01:49:03.840735+00:00",
+      "wrestling_50": "2026-09-19 02:41:10.560681+00:00",
+      "wins_15": "2026-09-19 03:07:16.585858+00:00",
+      "geo_100": "2026-09-19 03:36:45.178484+00:00",
+      "gk_50": "2026-09-19 16:55:36.666431+00:00",
+      "wrestling_100": "2026-09-19 17:54:33.565815+00:00",
+      "gk_100": "2026-09-20 18:37:16.248294+00:00",
+      "win_daily_trivia": "2026-09-20 18:50:55.433141+00:00",
+      "play_7_days": "2026-09-21 22:23:07.243086+00:00"
+    },
+    "baselines": {
+      "points": 1991,
+      "wins": 0,
+      "insane": 0
+    },
+    "category_counts": {
+      "disney": 48,
+      "entertainment": 0,
+      "geo": 123,
+      "gk": 119,
+      "got": 36,
+      "marvel": 39,
+      "movies": 0,
+      "music": 0,
+      "pokemon": 17,
+      "sports": 15,
+      "videogames": 0,
+      "wrestling": 132,
+      "duelwins": 0,
+      "duelstreak": 0
+    }
+  },
+  "duel_stats": null,
+  "kirkening_crownings": [
+    {
+      "channel_id": 864342930076860426,
+      "message_id": 1547641338999087276,
+      "crowned_at": "2026-09-10 16:14:09.581124+00:00"
+    },
+    {
+      "channel_id": 864342930076860426,
+      "message_id": 1547686747134107758,
+      "crowned_at": "2026-09-10 19:14:35.775571+00:00"
+    }
+  ],
+  "cosmetics": [
+    {
+      "cosmetic_type": "footer",
+      "key": "default",
+      "label": "Poo & Trin Footer",
+      "unlock_level": 1,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "started",
+      "label": "Started Footer",
+      "unlock_level": 5,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "hosted",
+      "label": "Hosted Footer",
+      "unlock_level": 12,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "approved",
+      "label": "Approved Footer",
+      "unlock_level": 18,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "powered",
+      "label": "Powered Footer",
+      "unlock_level": 25,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "courtesy",
+      "label": "Courtesy Footer",
+      "unlock_level": 32,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "compliments",
+      "label": "Compliments Footer",
+      "unlock_level": 38,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "sponsors",
+      "label": "Sponsors Footer",
+      "unlock_level": 44,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "directed",
+      "label": "Directed Footer",
+      "unlock_level": 51,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "dominated",
+      "label": "Dominated Footer",
+      "unlock_level": 58,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "vanquished",
+      "label": "Vanquished Footer",
+      "unlock_level": 65,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "masterpiece",
+      "label": "Masterpiece Footer",
+      "unlock_level": 73,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "premier",
+      "label": "Premiere Footer",
+      "unlock_level": 83,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "exclusive",
+      "label": "Exclusive Footer",
+      "unlock_level": 99,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "default",
+      "label": "Trivia Emoji Pack",
+      "unlock_level": 1,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "hustler",
+      "label": "Hustler Emoji Pack",
+      "unlock_level": 4,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "breadwinner",
+      "label": "Bread Winner Emoji Pack",
+      "unlock_level": 8,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "dog",
+      "label": "Dog Emoji Pack",
+      "unlock_level": 12,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "foodie",
+      "label": "Foodie Emoji Pack",
+      "unlock_level": 16,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "nerd",
+      "label": "Nerd Emoji Pack",
+      "unlock_level": 20,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "oceanic",
+      "label": "Oceanic Emoji Pack",
+      "unlock_level": 23,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "poo",
+      "label": "Poo Emoji Pack",
+      "unlock_level": 24,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "safari",
+      "label": "Safari Emoji Pack",
+      "unlock_level": 27,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "sweettooth",
+      "label": "Sweet Tooth Emoji Pack",
+      "unlock_level": 32,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "lover",
+      "label": "Lover Emoji Pack",
+      "unlock_level": 35,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "cat",
+      "label": "Cat Emoji Pack",
+      "unlock_level": 39,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "jeopardybot",
+      "label": "Jeopardy Bot Emoji Pack",
+      "unlock_level": 43,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "lucky",
+      "label": "Lucky Emoji Pack",
+      "unlock_level": 47,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "angel",
+      "label": "Angel Emoji Pack",
+      "unlock_level": 51,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "bot",
+      "label": "Bot Emoji Pack",
+      "unlock_level": 55,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "rockstar",
+      "label": "Rockstar Emoji Pack",
+      "unlock_level": 58,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "toxic",
+      "label": "Toxic Emoji Pack",
+      "unlock_level": 62,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "devil",
+      "label": "Devil Emoji Pack",
+      "unlock_level": 65,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "fire",
+      "label": "Fire Emoji Pack",
+      "unlock_level": 68,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "arcade",
+      "label": "Arcade Emoji Pack",
+      "unlock_level": 72,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "meme",
+      "label": "Meme Emoji Pack",
+      "unlock_level": 74,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "magic",
+      "label": "Magic Emoji Pack",
+      "unlock_level": 78,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "starry",
+      "label": "Starry Emoji Pack",
+      "unlock_level": 81,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "kings",
+      "label": "King's Emoji Pack",
+      "unlock_level": 85,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "diamond",
+      "label": "Diamond Emoji Pack",
+      "unlock_level": 88,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "goat",
+      "label": "GOAT Emoji Pack",
+      "unlock_level": 91,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "royalty",
+      "label": "Royalty Emoji Pack",
+      "unlock_level": 95,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "champion",
+      "label": "Champion Emoji Pack",
+      "unlock_level": 99,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "default",
+      "label": "Standard Response Theme",
+      "unlock_level": 1,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "robot",
+      "label": "Robot Response Theme",
+      "unlock_level": 10,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "shakespearean",
+      "label": "Shakespearean Response Theme",
+      "unlock_level": 20,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "cowboy",
+      "label": "Cowboy Response Theme",
+      "unlock_level": 30,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "lolcat",
+      "label": "LOLCAT Response Theme",
+      "unlock_level": 40,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "passiveaggressive",
+      "label": "Sassy Response Theme",
+      "unlock_level": 50,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "valleygirl",
+      "label": "Valley Girl Response Theme",
+      "unlock_level": 60,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "pirate",
+      "label": "Pirate Response Theme",
+      "unlock_level": 70,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "caveman",
+      "label": "Caveman Response Theme",
+      "unlock_level": 80,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "alien",
+      "label": "Alien Response Theme",
+      "unlock_level": 90,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "default",
+      "label": "Default Embed",
+      "unlock_level": 1,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "lime",
+      "label": "Lime Embed",
+      "unlock_level": 2,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "olive",
+      "label": "Olive Embed",
+      "unlock_level": 6,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "mustard",
+      "label": "Mustard Embed",
+      "unlock_level": 7,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "chocolate",
+      "label": "Chocolate Embed",
+      "unlock_level": 11,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "brickred",
+      "label": "Brick Red Embed",
+      "unlock_level": 14,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "slategrey",
+      "label": "Slate Grey Embed",
+      "unlock_level": 17,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "coral",
+      "label": "Coral Embed",
+      "unlock_level": 19,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "sunsetorange",
+      "label": "Sunset Orange Embed",
+      "unlock_level": 22,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "amber",
+      "label": "Amber Embed",
+      "unlock_level": 26,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "cyan",
+      "label": "Cyan Embed",
+      "unlock_level": 27,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "skyblue",
+      "label": "Sky Blue Embed",
+      "unlock_level": 31,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "mint",
+      "label": "Mint Embed",
+      "unlock_level": 34,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "hotpink",
+      "label": "Hot Pink Embed",
+      "unlock_level": 37,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "blush",
+      "label": "Blush Embed",
+      "unlock_level": 39,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "periwinkle",
+      "label": "Periwinkle Embed",
+      "unlock_level": 42,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "teal",
+      "label": "Teal Embed",
+      "unlock_level": 46,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "rose",
+      "label": "Rose Embed",
+      "unlock_level": 48,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "steelblue",
+      "label": "Steel Blue Embed",
+      "unlock_level": 51,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "crimsonred",
+      "label": "Crimson Red Embed",
+      "unlock_level": 54,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "lavender",
+      "label": "Lavender Embed",
+      "unlock_level": 57,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "turquoise",
+      "label": "Turquoise Embed",
+      "unlock_level": 59,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "goldenyellow",
+      "label": "Golden Yellow Embed",
+      "unlock_level": 62,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "magenta",
+      "label": "Magenta Embed",
+      "unlock_level": 64,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "emeraldgreen",
+      "label": "Emerald Green Embed",
+      "unlock_level": 66,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "forestgreen",
+      "label": "Forest Green Embed",
+      "unlock_level": 69,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "orchid",
+      "label": "Orchid Embed",
+      "unlock_level": 72,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "bronze",
+      "label": "Bronze Embed",
+      "unlock_level": 76,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "maroon",
+      "label": "Maroon Embed",
+      "unlock_level": 77,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "charcoal",
+      "label": "Charcoal Embed",
+      "unlock_level": 81,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "copper",
+      "label": "Copper Embed",
+      "unlock_level": 84,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "navy",
+      "label": "Navy Embed",
+      "unlock_level": 86,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "silver",
+      "label": "Silver Embed",
+      "unlock_level": 89,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "indigo",
+      "label": "Indigo Embed",
+      "unlock_level": 92,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "pearlwhite",
+      "label": "Pearl White Embed",
+      "unlock_level": 96,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "royalpurple",
+      "label": "Royal Purple Embed",
+      "unlock_level": 97,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "embedcolor",
+      "key": "jetblack",
+      "label": "Jet Black Embed",
+      "unlock_level": 99,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "default",
+      "label": "Default MVP",
+      "unlock_level": 1,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "canal",
+      "label": "Canal MVP",
+      "unlock_level": 3,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "epicvictory",
+      "label": "Epic Victory MVP",
+      "unlock_level": 9,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "offoutttyl",
+      "label": "Off Out Ttyl MVP",
+      "unlock_level": 13,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "whattamaneuver",
+      "label": "WHATTAMANEUVER MVP",
+      "unlock_level": 18,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "tomorrowusee",
+      "label": "tomorrow u see MVP",
+      "unlock_level": 21,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "rabbit",
+      "label": "Rabbit MVP",
+      "unlock_level": 24,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "careful",
+      "label": "Careful MVP",
+      "unlock_level": 28,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "noanswer",
+      "label": "No Answer MVP",
+      "unlock_level": 29,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "funung",
+      "label": "Funung MVP",
+      "unlock_level": 33,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "deeney",
+      "label": "Deeney MVP",
+      "unlock_level": 36,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "term",
+      "label": "Term MVP",
+      "unlock_level": 38,
+      "unlocked": true,
+      "source": "level"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "magneto",
+      "label": "Magneto MVP",
+      "unlock_level": 41,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "birdsofprey",
+      "label": "Birds of Prey MVP",
+      "unlock_level": 44,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "bourbons",
+      "label": "Bourbons MVP",
+      "unlock_level": 49,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "ahshit",
+      "label": "Ah shit MVP",
+      "unlock_level": 50,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "lion",
+      "label": "Lion MVP",
+      "unlock_level": 52,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "fear",
+      "label": "Fear MVP",
+      "unlock_level": 53,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "boy",
+      "label": "Boy MVP",
+      "unlock_level": 55,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "itisnow",
+      "label": "IT IS NOW! MVP",
+      "unlock_level": 56,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "free",
+      "label": "Free MVP",
+      "unlock_level": 57,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "letterboxd",
+      "label": "Letterboxd MVP",
+      "unlock_level": 61,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "war",
+      "label": "War MVP",
+      "unlock_level": 63,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "honor",
+      "label": "Honor MVP",
+      "unlock_level": 65,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "victory",
+      "label": "Victory MVP",
+      "unlock_level": 66,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "beating",
+      "label": "Beating MVP",
+      "unlock_level": 67,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "gambit",
+      "label": "Gambit MVP",
+      "unlock_level": 68,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "illbeback",
+      "label": "I'll be back MVP",
+      "unlock_level": 70,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "makeyourselffamous",
+      "label": "Make yourself Famous MVP",
+      "unlock_level": 71,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "dragon",
+      "label": "Dragon MVP",
+      "unlock_level": 73,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "keptyouwaitinghuh",
+      "label": "Kept You Waiting, Huh? MVP",
+      "unlock_level": 75,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "solskjaer",
+      "label": "Solskjaer MVP",
+      "unlock_level": 77,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "slaveobeys",
+      "label": "Slave Obeys MVP",
+      "unlock_level": 79,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "boyhooddream",
+      "label": "Boyhood Dream MVP",
+      "unlock_level": 80,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "nottoday",
+      "label": "Not Today MVP",
+      "unlock_level": 82,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "allday",
+      "label": "All Day MVP",
+      "unlock_level": 83,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "stopme",
+      "label": "Stop Me MVP",
+      "unlock_level": 84,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "power",
+      "label": "Power MVP",
+      "unlock_level": 85,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "brokeninhalf",
+      "label": "Broken in Half MVP",
+      "unlock_level": 86,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "rigged",
+      "label": "Rigged MVP",
+      "unlock_level": 87,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "smile",
+      "label": "Smile MVP",
+      "unlock_level": 88,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "heistofthecentury",
+      "label": "Heist of the Century MVP",
+      "unlock_level": 89,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "avengersassemble",
+      "label": "Avengers Assemble MVP",
+      "unlock_level": 90,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "tellher",
+      "label": "Tell Her MVP",
+      "unlock_level": 91,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "gameofthrones",
+      "label": "Game of Thrones MVP",
+      "unlock_level": 92,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "thanos",
+      "label": "Thanos MVP",
+      "unlock_level": 93,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "forthehead",
+      "label": "For The Head MVP",
+      "unlock_level": 94,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "conquered",
+      "label": "Conquered MVP",
+      "unlock_level": 95,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "oppenheimer",
+      "label": "Oppenheimer MVP",
+      "unlock_level": 96,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "death",
+      "label": "Death MVP",
+      "unlock_level": 97,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "inevitable",
+      "label": "Inevitable MVP",
+      "unlock_level": 98,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "patience",
+      "label": "Patience MVP",
+      "unlock_level": null,
+      "unlocked": true,
+      "source": "grant"
+    }
+  ]
+}
