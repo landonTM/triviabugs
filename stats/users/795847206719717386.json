@@ -2,17 +2,17 @@
   "user_id": 795847206719717386,
   "level": {
     "level": 39,
-    "xp_into_level": 33687,
+    "xp_into_level": 40937,
     "xp_for_level": 53000,
-    "progress": 0.6356037735849056,
+    "progress": 0.7723962264150943,
     "maxed": false
   },
-  "total_xp": 778187,
+  "total_xp": 785437,
   "period_stats": {
     "daily_points": 11,
     "daily_correct": 5,
-    "weekly_points": 2393,
-    "weekly_correct": 1401,
+    "weekly_points": 2330,
+    "weekly_correct": 1357,
     "monthly_points": 5406,
     "monthly_correct": 3095,
     "yearly_points": 5512,
@@ -33,7 +33,7 @@
     "insane_guesses": 971,
     "day_streak": 8,
     "last_played_date": "2026-09-22",
-    "total_xp": 778187,
+    "total_xp": 785437,
     "game_wins": 21,
     "achievement_best_streak": 14
   },
@@ -2194,7 +2194,11 @@
       "wrestling_100": "2026-09-19 17:54:33.565815+00:00",
       "gk_100": "2026-09-20 18:37:16.248294+00:00",
       "win_daily_trivia": "2026-09-20 18:50:55.433141+00:00",
-      "play_7_days": "2026-09-21 22:23:07.243086+00:00"
+      "play_7_days": "2026-09-21 22:23:07.243086+00:00",
+      "win_first_duel": "2026-09-22 20:48:55.504291+00:00",
+      "duel_win_as_opponent": "2026-09-22 20:48:55.506664+00:00",
+      "duel_tiebreaker_win": "2026-09-22 20:48:55.508137+00:00",
+      "duel_comeback": "2026-09-22 20:48:55.509586+00:00"
     },
     "baselines": {
       "points": 1991,
@@ -2214,11 +2218,18 @@
       "sports": 15,
       "videogames": 0,
       "wrestling": 132,
-      "duelwins": 0,
-      "duelstreak": 0
+      "duelwins": 1,
+      "duelstreak": 1
     }
   },
-  "duel_stats": null,
+  "duel_stats": {
+    "guild_id": 861055530638114836,
+    "user_id": 795847206719717386,
+    "wins": 1,
+    "losses": 0,
+    "current_streak": 1,
+    "best_streak": 1
+  },
   "kirkening_crownings": [
     {
       "channel_id": 864342930076860426,
