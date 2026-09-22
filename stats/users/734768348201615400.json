@@ -2,39 +2,39 @@
   "user_id": 734768348201615400,
   "level": {
     "level": 36,
-    "xp_into_level": 31049,
+    "xp_into_level": 36875,
     "xp_for_level": 47000,
-    "progress": 0.6606170212765957,
+    "progress": 0.7845744680851063,
     "maxed": false
   },
-  "total_xp": 628549,
+  "total_xp": 634375,
   "period_stats": {
-    "daily_points": 104,
-    "daily_correct": 74,
-    "weekly_points": 1703,
-    "weekly_correct": 1017,
-    "monthly_points": 4334,
-    "monthly_correct": 2407,
-    "yearly_points": 4533,
-    "yearly_correct": 2550,
-    "alltime_points": 4533,
-    "alltime_correct": 2550
+    "daily_points": 137,
+    "daily_correct": 98,
+    "weekly_points": 1726,
+    "weekly_correct": 1038,
+    "monthly_points": 4367,
+    "monthly_correct": 2431,
+    "yearly_points": 4566,
+    "yearly_correct": 2574,
+    "alltime_points": 4566,
+    "alltime_correct": 2574
   },
   "stats_row": {
     "user_id": 734768348201615400,
     "guild_id": 861055530638114836,
-    "total_points": 2871,
-    "questions_right": 888,
+    "total_points": 2885,
+    "questions_right": 893,
     "questions_wrong": 0,
-    "wins": 888,
-    "current_streak": 6,
+    "wins": 893,
+    "current_streak": 1,
     "best_streak": 14,
-    "games_played": 33,
-    "insane_guesses": 733,
-    "day_streak": 7,
-    "last_played_date": "2026-09-21",
-    "total_xp": 628549,
-    "game_wins": 16,
+    "games_played": 34,
+    "insane_guesses": 752,
+    "day_streak": 8,
+    "last_played_date": "2026-09-22",
+    "total_xp": 634375,
+    "game_wins": 17,
     "achievement_best_streak": 14
   },
   "best_streak": 14,
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 1662,
-  "average_guess_ms": 16193.323198198197,
+  "total_insane_correct": 1681,
+  "average_guess_ms": 16229.347144456888,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 24
   },
   "spelling_accuracy": {
-    "exact_count": 1467,
-    "total": 1768
+    "exact_count": 1490,
+    "total": 1792
   },
   "achievements": {
     "catalog": [
@@ -2198,16 +2198,16 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 12,
+      "disney": 27,
       "entertainment": 2,
       "geo": 92,
-      "gk": 96,
+      "gk": 97,
       "got": 0,
       "marvel": 2,
-      "movies": 0,
+      "movies": 1,
       "music": 3,
       "pokemon": 4,
-      "sports": 30,
+      "sports": 31,
       "videogames": 3,
       "wrestling": 109,
       "duelwins": 0,
