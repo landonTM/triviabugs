@@ -2145,16 +2145,19 @@
     {
       "channel_id": 1341045183621365780,
       "message_id": 1547570338148384829,
+      "message_content": null,
       "crowned_at": "2026-09-10 11:32:01.416150+00:00"
     },
     {
       "channel_id": 867824721511972865,
       "message_id": 1547621438083825744,
+      "message_content": null,
       "crowned_at": "2026-09-10 14:55:04.911394+00:00"
     },
     {
       "channel_id": 1389789430902165605,
       "message_id": 1547727533288726729,
+      "message_content": null,
       "crowned_at": "2026-09-10 21:56:40.712784+00:00"
     }
   ],
