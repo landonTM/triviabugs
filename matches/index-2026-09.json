@@ -69,6 +69,19 @@
       "opponent_score": 2,
       "decided_by_tiebreaker": false,
       "ended_at": "2026-09-22 20:36:19.926989+00:00"
+    },
+    {
+      "id": 4,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "734768348201615400",
+      "opponent_id": "795847206719717386",
+      "format": 3,
+      "winner_id": "795847206719717386",
+      "challenger_score": 1,
+      "opponent_score": 1,
+      "decided_by_tiebreaker": true,
+      "ended_at": "2026-09-22 20:48:54.824055+00:00"
     }
   ]
 }
