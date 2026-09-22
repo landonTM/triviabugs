@@ -1,0 +1,253 @@
+{
+  "game": {
+    "id": 2,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 10,
+    "rounds_played": 10,
+    "categories": [
+      "Sports"
+    ],
+    "started_by": "734768348201615400",
+    "winner_id": "734768348201615400",
+    "started_at": "2026-09-22 20:30:17.179236+00:00",
+    "ended_at": "2026-09-22 20:35:22.181706+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 4410,
+      "mode": "standard",
+      "round_started_at": "2026-09-22 20:30:17.859235+00:00",
+      "round_ended_at": "2026-09-22 20:31:03.492724+00:00",
+      "winner_id": 734768348201615400,
+      "category": "Sports",
+      "question_text": "Who was the first professional football player?",
+      "correct_answers": [
+        "William Heffelfinger"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 45616,
+      "exact_match": true,
+      "points_awarded": 1,
+      "answered_at": "2026-09-22 20:31:03.488446+00:00"
+    },
+    {
+      "round_id": 4411,
+      "mode": "standard",
+      "round_started_at": "2026-09-22 20:31:14.215242+00:00",
+      "round_ended_at": "2026-09-22 20:31:27.909401+00:00",
+      "winner_id": 734768348201615400,
+      "category": "Sports",
+      "question_text": "_________ Raptors (NBA)",
+      "correct_answers": [
+        "Toronto"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 13680,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-22 20:31:27.906007+00:00"
+    },
+    {
+      "round_id": 4412,
+      "mode": "standard",
+      "round_started_at": "2026-09-22 20:31:39.234098+00:00",
+      "round_ended_at": "2026-09-22 20:31:53.550212+00:00",
+      "winner_id": 734768348201615400,
+      "category": "Sports",
+      "question_text": "What fruit-and-cream dish is traditionally associated with Wimbledon?",
+      "correct_answers": [
+        "Strawberries and cream"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 14301,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-22 20:31:53.545959+00:00"
+    },
+    {
+      "round_id": 4413,
+      "mode": "standard",
+      "round_started_at": "2026-09-22 20:32:03.760604+00:00",
+      "round_ended_at": "2026-09-22 20:32:28.947570+00:00",
+      "winner_id": 734768348201615400,
+      "category": "Sports",
+      "question_text": "Which American player won the longest match in tennis history at Wimbledon in 2010, against Nicolas Mahut?",
+      "correct_answers": [
+        "John Isner"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 25172,
+      "exact_match": true,
+      "points_awarded": 2,
+      "answered_at": "2026-09-22 20:32:28.944105+00:00"
+    },
+    {
+      "round_id": 4414,
+      "mode": "standard",
+      "round_started_at": "2026-09-22 20:32:39.224921+00:00",
+      "round_ended_at": "2026-09-22 20:33:39.458455+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Toe Blake ended his playing career after a collision with what player?",
+      "correct_answers": [
+        "Bill Juzda"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    },
+    {
+      "round_id": 4415,
+      "mode": "standard",
+      "round_started_at": "2026-09-22 20:33:49.766094+00:00",
+      "round_ended_at": "2026-09-22 20:34:01.224837+00:00",
+      "winner_id": 734768348201615400,
+      "category": "Sports",
+      "question_text": "How many periods are in a standard NHL hockey game?",
+      "correct_answers": [
+        "3"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 11444,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-22 20:34:01.221354+00:00"
+    },
+    {
+      "round_id": 4416,
+      "mode": "standard",
+      "round_started_at": "2026-09-22 20:34:11.517824+00:00",
+      "round_ended_at": "2026-09-22 20:34:16.054545+00:00",
+      "winner_id": 734768348201615400,
+      "category": "Sports",
+      "question_text": "Who is Manchester United's leading appearance maker?",
+      "correct_answers": [
+        "Ryan Giggs"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 4523,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-22 20:34:16.051093+00:00"
+    },
+    {
+      "round_id": 4417,
+      "mode": "standard",
+      "round_started_at": "2026-09-22 20:34:27.001987+00:00",
+      "round_ended_at": "2026-09-22 20:34:33.400013+00:00",
+      "winner_id": 734768348201615400,
+      "category": "Sports",
+      "question_text": "Who won the 1994 San Marino Grand Prix, the race in which Ayrton Senna was killed?",
+      "correct_answers": [
+        "Michael Schumacher"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 6385,
+      "exact_match": false,
+      "points_awarded": 4,
+      "answered_at": "2026-09-22 20:34:33.396673+00:00"
+    },
+    {
+      "round_id": 4418,
+      "mode": "standard",
+      "round_started_at": "2026-09-22 20:34:43.729687+00:00",
+      "round_ended_at": "2026-09-22 20:34:47.943419+00:00",
+      "winner_id": 734768348201615400,
+      "category": "Sports",
+      "question_text": "_________ Reds (MLB)",
+      "correct_answers": [
+        "Cincinnati"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 4201,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-22 20:34:47.940079+00:00"
+    },
+    {
+      "round_id": 4419,
+      "mode": "insane",
+      "round_started_at": "2026-09-22 20:34:58.110844+00:00",
+      "round_ended_at": "2026-09-22 20:35:11.574458+00:00",
+      "winner_id": null,
+      "category": "Wrestling",
+      "question_text": "Queen of the Ring Winners",
+      "correct_answers": [
+        "Zelina Vega",
+        "Nia Jax",
+        "Jade Cargill",
+        "Iyo Sky"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 4189,
+      "exact_match": true,
+      "points_awarded": 1,
+      "answered_at": "2026-09-22 20:35:02.303620+00:00"
+    },
+    {
+      "round_id": 4419,
+      "mode": "insane",
+      "round_started_at": "2026-09-22 20:34:58.110844+00:00",
+      "round_ended_at": "2026-09-22 20:35:11.574458+00:00",
+      "winner_id": null,
+      "category": "Wrestling",
+      "question_text": "Queen of the Ring Winners",
+      "correct_answers": [
+        "Zelina Vega",
+        "Nia Jax",
+        "Jade Cargill",
+        "Iyo Sky"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 6728,
+      "exact_match": true,
+      "points_awarded": 1,
+      "answered_at": "2026-09-22 20:35:04.842311+00:00"
+    },
+    {
+      "round_id": 4419,
+      "mode": "insane",
+      "round_started_at": "2026-09-22 20:34:58.110844+00:00",
+      "round_ended_at": "2026-09-22 20:35:11.574458+00:00",
+      "winner_id": null,
+      "category": "Wrestling",
+      "question_text": "Queen of the Ring Winners",
+      "correct_answers": [
+        "Zelina Vega",
+        "Nia Jax",
+        "Jade Cargill",
+        "Iyo Sky"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 8687,
+      "exact_match": true,
+      "points_awarded": 1,
+      "answered_at": "2026-09-22 20:35:06.801314+00:00"
+    },
+    {
+      "round_id": 4419,
+      "mode": "insane",
+      "round_started_at": "2026-09-22 20:34:58.110844+00:00",
+      "round_ended_at": "2026-09-22 20:35:11.574458+00:00",
+      "winner_id": null,
+      "category": "Wrestling",
+      "question_text": "Queen of the Ring Winners",
+      "correct_answers": [
+        "Zelina Vega",
+        "Nia Jax",
+        "Jade Cargill",
+        "Iyo Sky"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 13455,
+      "exact_match": true,
+      "points_awarded": 1,
+      "answered_at": "2026-09-22 20:35:11.569446+00:00"
+    }
+  ]
+}
