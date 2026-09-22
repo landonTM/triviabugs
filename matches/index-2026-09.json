@@ -26,6 +26,20 @@
       "opponent_score": 0,
       "decided_by_tiebreaker": true,
       "ended_at": "2026-09-22 02:56:51.202520+00:00"
+    },
+    {
+      "id": 1,
+      "kind": "game",
+      "mode": "daily",
+      "channel_id": "864342930076860426",
+      "total_rounds": 50,
+      "rounds_played": 50,
+      "categories": null,
+      "started_by": null,
+      "winner_id": "734768348201615400",
+      "started_at": "2026-09-22 18:00:10.691934+00:00",
+      "ended_at": "2026-09-22 18:56:31.179485+00:00",
+      "end_reason": "completed"
     }
   ]
 }
