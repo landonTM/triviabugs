@@ -1,0 +1,53 @@
+{
+  "match": {
+    "id": 3,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "734768348201615400",
+    "format": 3,
+    "winner_id": "734768348201615400",
+    "challenger_score": 1,
+    "opponent_score": 2,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-22 20:36:19.926989+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 12490,
+      "answered_at": "2026-09-22 20:36:19.929166+00:00",
+      "category": "Disney",
+      "question_text": "What form does Maleficent transform herself into in order to fight Prince Phillip?",
+      "correct_answers": [
+        "Dragon"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 734768348201615400,
+      "response_time_ms": 3268,
+      "answered_at": "2026-09-22 20:36:19.929166+00:00",
+      "category": "Marvel",
+      "question_text": "What is Black Panther's real name?",
+      "correct_answers": [
+        "T'Challa"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 734768348201615400,
+      "response_time_ms": 12902,
+      "answered_at": "2026-09-22 20:36:19.929166+00:00",
+      "category": "Pokemon",
+      "question_text": "How many different types of Evolutionary Stones are there?",
+      "correct_answers": [
+        "9"
+      ]
+    }
+  ]
+}
