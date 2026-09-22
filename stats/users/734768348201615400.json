@@ -1,39 +1,39 @@
 {
   "user_id": 734768348201615400,
   "level": {
-    "level": 34,
-    "xp_into_level": 39049,
-    "xp_for_level": 43000,
-    "progress": 0.9081162790697674,
+    "level": 36,
+    "xp_into_level": 31049,
+    "xp_for_level": 47000,
+    "progress": 0.6606170212765957,
     "maxed": false
   },
-  "total_xp": 548549,
+  "total_xp": 628549,
   "period_stats": {
-    "daily_points": 36,
-    "daily_correct": 28,
-    "weekly_points": 1652,
-    "weekly_correct": 979,
-    "monthly_points": 4266,
-    "monthly_correct": 2361,
-    "yearly_points": 4465,
-    "yearly_correct": 2504,
-    "alltime_points": 4465,
-    "alltime_correct": 2504
+    "daily_points": 104,
+    "daily_correct": 74,
+    "weekly_points": 1703,
+    "weekly_correct": 1017,
+    "monthly_points": 4334,
+    "monthly_correct": 2407,
+    "yearly_points": 4533,
+    "yearly_correct": 2550,
+    "alltime_points": 4533,
+    "alltime_correct": 2550
   },
   "stats_row": {
     "user_id": 734768348201615400,
     "guild_id": 861055530638114836,
-    "total_points": 2835,
-    "questions_right": 874,
+    "total_points": 2871,
+    "questions_right": 888,
     "questions_wrong": 0,
-    "wins": 874,
-    "current_streak": 7,
+    "wins": 888,
+    "current_streak": 6,
     "best_streak": 14,
     "games_played": 33,
-    "insane_guesses": 701,
+    "insane_guesses": 733,
     "day_streak": 7,
     "last_played_date": "2026-09-21",
-    "total_xp": 548549,
+    "total_xp": 628549,
     "game_wins": 16,
     "achievement_best_streak": 14
   },
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 1630,
-  "average_guess_ms": 16057.25057208238,
+  "total_insane_correct": 1662,
+  "average_guess_ms": 16193.323198198197,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 24
   },
   "spelling_accuracy": {
-    "exact_count": 1426,
-    "total": 1722
+    "exact_count": 1467,
+    "total": 1768
   },
   "achievements": {
     "catalog": [
@@ -2189,7 +2189,8 @@
       "wrestling_50": "2026-09-21 18:28:08.752483+00:00",
       "play_7_days": "2026-09-21 18:46:12.470430+00:00",
       "wins_15": "2026-09-21 18:56:33.482196+00:00",
-      "all_cosmetic_slots": "2026-09-21 22:25:22.308845+00:00"
+      "all_cosmetic_slots": "2026-09-21 22:25:22.308845+00:00",
+      "points_1000": "2026-09-22 18:20:01.915099+00:00"
     },
     "baselines": {
       "points": 1842,
@@ -2199,15 +2200,15 @@
     "category_counts": {
       "disney": 12,
       "entertainment": 2,
-      "geo": 67,
-      "gk": 95,
+      "geo": 92,
+      "gk": 96,
       "got": 0,
       "marvel": 2,
       "movies": 0,
-      "music": 2,
-      "pokemon": 3,
+      "music": 3,
+      "pokemon": 4,
       "sports": 30,
-      "videogames": 2,
+      "videogames": 3,
       "wrestling": 109,
       "duelwins": 0,
       "duelstreak": 0
@@ -2413,8 +2414,8 @@
       "key": "lover",
       "label": "Lover Emoji Pack",
       "unlock_level": 35,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "emoji",
@@ -3021,8 +3022,8 @@
       "key": "deeney",
       "label": "Deeney MVP",
       "unlock_level": 36,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "mvp",
