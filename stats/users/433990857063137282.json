@@ -11,8 +11,8 @@
   "period_stats": {
     "daily_points": 0,
     "daily_correct": 0,
-    "weekly_points": 1970,
-    "weekly_correct": 832,
+    "weekly_points": 1947,
+    "weekly_correct": 822,
     "monthly_points": 3074,
     "monthly_correct": 1453,
     "yearly_points": 3248,
@@ -2233,16 +2233,19 @@
     {
       "channel_id": 861055530638114839,
       "message_id": 1547616898009534475,
+      "message_content": null,
       "crowned_at": "2026-09-10 14:37:02.341951+00:00"
     },
     {
       "channel_id": 867824721511972865,
       "message_id": 1547659590412271709,
+      "message_content": null,
       "crowned_at": "2026-09-10 17:26:41.766221+00:00"
     },
     {
       "channel_id": 861055530638114839,
       "message_id": 1547730148479074425,
+      "message_content": null,
       "crowned_at": "2026-09-10 22:07:03.328369+00:00"
     }
   ],
