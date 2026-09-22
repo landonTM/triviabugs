@@ -1,0 +1,100 @@
+{
+  "match": {
+    "id": 4,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "734768348201615400",
+    "opponent_id": "795847206719717386",
+    "format": 3,
+    "winner_id": "795847206719717386",
+    "challenger_score": 1,
+    "opponent_score": 1,
+    "decided_by_tiebreaker": true,
+    "ended_at": "2026-09-22 20:48:54.824055+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 734768348201615400,
+      "response_time_ms": 12781,
+      "answered_at": "2026-09-22 20:48:54.826057+00:00",
+      "category": "Sports",
+      "question_text": "Which city hosted the 1980 Summer Olympics?",
+      "correct_answers": [
+        "Moscow"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 795847206719717386,
+      "response_time_ms": 16983,
+      "answered_at": "2026-09-22 20:48:54.826057+00:00",
+      "category": "Video Games",
+      "question_text": "In the original Resident Evil, what is the full name of the captain of S.T.A.R.S. Bravo Team?",
+      "correct_answers": [
+        "Enrico Marini"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-22 20:48:54.826057+00:00",
+      "category": "Disney",
+      "question_text": "Who prevents Gus from slipping the key into Cinderella's room?",
+      "correct_answers": [
+        "Lucifer"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "insane",
+      "winner_id": 795847206719717386,
+      "response_time_ms": 3892,
+      "answered_at": "2026-09-22 20:48:54.826057+00:00",
+      "category": "Wrestling",
+      "question_text": "Royal Rumble winners",
+      "correct_answers": [
+        "Jim Duggan",
+        "Big John Studd",
+        "Hulk Hogan",
+        "Ric Flair",
+        "Yokozuna",
+        "Bret Hart",
+        "Lex Luger",
+        "Shawn Michaels",
+        "Stone Cold Steve Austin",
+        "Vince McMahon",
+        "The Rock",
+        "Triple H",
+        "Brock Lesnar",
+        "Chris Benoit",
+        "Batista",
+        "Rey Mysterio",
+        "The Undertaker",
+        "John Cena",
+        "Randy Orton",
+        "Edge",
+        "Alberto Del Rio",
+        "Sheamus",
+        "Roman Reigns",
+        "Shinsuke Nakamura",
+        "Seth Rollins",
+        "Drew McIntyre",
+        "Cody Rhodes",
+        "Jey Uso",
+        "Asuka",
+        "Becky Lynch",
+        "Charlotte Flair",
+        "Bianca Belair",
+        "Ronda Rousey",
+        "Rhea Ripley",
+        "Bayley",
+        "Liv Morgan"
+      ]
+    }
+  ]
+}
