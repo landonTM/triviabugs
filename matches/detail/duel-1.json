@@ -1,0 +1,16 @@
+{
+  "match": {
+    "id": 1,
+    "kind": "duel",
+    "channel_id": "1183788668448669806",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "794420965387403265",
+    "format": 3,
+    "winner_id": "794420965387403265",
+    "challenger_score": 0,
+    "opponent_score": 2,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-22 02:55:06.646860+00:00"
+  },
+  "rounds": []
+}
