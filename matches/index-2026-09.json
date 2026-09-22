@@ -40,6 +40,35 @@
       "started_at": "2026-09-22 18:00:10.691934+00:00",
       "ended_at": "2026-09-22 18:56:31.179485+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 2,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 10,
+      "rounds_played": 10,
+      "categories": [
+        "Sports"
+      ],
+      "started_by": "734768348201615400",
+      "winner_id": "734768348201615400",
+      "started_at": "2026-09-22 20:30:17.179236+00:00",
+      "ended_at": "2026-09-22 20:35:22.181706+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 3,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "433990857063137282",
+      "opponent_id": "734768348201615400",
+      "format": 3,
+      "winner_id": "734768348201615400",
+      "challenger_score": 1,
+      "opponent_score": 2,
+      "decided_by_tiebreaker": false,
+      "ended_at": "2026-09-22 20:36:19.926989+00:00"
     }
   ]
 }
