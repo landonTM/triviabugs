@@ -167,10 +167,10 @@
   }
   .copybtn:hover{background:var(--surface-2);color:var(--text)}
 
-  /* Used by Tracked Bugs, Custom Categories and Reassignments cards --
-     centers each card's badge row and heading instead of left-aligning
-     them; body paragraphs (findings/answers text) stay left-aligned since
-     centering prose hurts readability. */
+  /* Used by Reassignment cards -- centers each card's badge row and
+     heading instead of left-aligning them; body paragraphs (findings/
+     answers text) stay left-aligned since centering prose hurts
+     readability. */
   .center-card .meta{justify-content:center}
   .center-card .meta .copybtn{margin-left:0}
   .center-card h3.q{text-align:center}
@@ -248,133 +248,12 @@
   </header>
 
   <nav class="tabs" role="tablist">
-    <button class="tab active" id="tabAuditBtn" role="tab" aria-selected="true" aria-controls="auditPanel">Tracked Bugs</button>
-    <button class="tab" id="tabCustomBtn" role="tab" aria-selected="false" aria-controls="customPanel">Custom Categories</button>
-    <button class="tab" id="tabReportsBtn" role="tab" aria-selected="false" aria-controls="reportsPanel">Live Reports<span class="tabcount" id="reportsTabCount" hidden>0</span></button>
+    <button class="tab active" id="tabReportsBtn" role="tab" aria-selected="true" aria-controls="reportsPanel">Live Reports<span class="tabcount" id="reportsTabCount" hidden>0</span></button>
     <button class="tab" id="tabReassignBtn" role="tab" aria-selected="false" aria-controls="reassignPanel">Reassignments<span class="tabcount" id="reassignTabCount" hidden>0</span></button>
     <button class="tab" id="tabFixedBtn" role="tab" aria-selected="false" aria-controls="fixedPanel">Fixed<span class="tabcount" id="fixedTabCount" hidden>0</span></button>
   </nav>
 
-  <section id="auditPanel">
-  <div id="loading" class="loading">
-    <div class="spinner"></div>
-    <div>Loading audit data…</div>
-  </div>
-
-  <div id="app" hidden>
-    <div class="stats-row" id="stats"></div>
-    <div class="stat sevblock" id="statsSeverity"></div>
-
-    <div class="lock-note">🔒 Answers are hidden by default — click the lock icon above to unlock.</div>
-
-    <div class="controls">
-      <input id="search" class="search-compact" type="search" placeholder="Search…" aria-label="Search audit">
-      <select id="mode" aria-label="View">
-        <option value="findings">Findings &amp; candidates</option>
-        <option value="inventory">All question inventory</option>
-        <option value="images">Unverified image inventory</option>
-      </select>
-      <select id="file" aria-label="File"><option value="">All files</option></select>
-      <select id="severity" aria-label="Severity">
-        <option value="">All severities</option>
-        <option value="P0">P0 — maximum</option>
-        <option value="P1">P1 — high</option>
-        <option value="P2">P2 — normal</option>
-      </select>
-      <select id="evidence" aria-label="Evidence"><option value="">All evidence levels</option></select>
-      <select id="category" aria-label="Category"><option value="">All categories</option></select>
-    </div>
-
-    <div class="resultbar">
-      <span id="count" aria-live="polite"></span>
-      <div class="pager">
-        <button id="prevTop">Previous</button>
-        <span id="pageTop"></span>
-        <button id="nextTop">Next</button>
-      </div>
-    </div>
-
-    <main id="results"></main>
-
-    <div class="resultbar">
-      <span></span>
-      <div class="pager">
-        <button id="prevBot">Previous</button>
-        <span id="pageBot"></span>
-        <button id="nextBot">Next</button>
-      </div>
-    </div>
-
-    <footer>
-      Complete data: <a href="trivia-audit.json">JSON</a> · <a href="trivia-audit-summary.md">Markdown summary</a>.
-      Each finding cites the original YAML filename and one-based line. An unflagged entry is not a correctness certification.
-    </footer>
-  </div>
-
-  <div id="errorBox" hidden class="errbox"></div>
-  </section>
-
-  <section id="customPanel" hidden>
-  <div id="ccLoading" class="loading">
-    <div class="spinner"></div>
-    <div>Loading custom category audit…</div>
-  </div>
-
-  <div id="ccApp" hidden>
-    <div class="stats-row" id="ccStats"></div>
-    <div class="stat sevblock" id="ccStatsSeverity"></div>
-
-    <div class="lock-note">🔒 Answers are hidden by default — click the lock icon above to unlock.</div>
-
-    <div class="controls">
-      <input id="ccSearch" class="search-compact" type="search" placeholder="Search…" aria-label="Search custom category audit">
-      <select id="ccMode" aria-label="View">
-        <option value="findings">Findings &amp; candidates</option>
-        <option value="inventory">All question inventory</option>
-        <option value="images">Unverified image inventory</option>
-      </select>
-      <select id="ccCategory" aria-label="Category"><option value="">All categories</option></select>
-      <select id="ccSeverity" aria-label="Severity">
-        <option value="">All severities</option>
-        <option value="P0">P0 — maximum</option>
-        <option value="P1">P1 — high</option>
-        <option value="P2">P2 — normal</option>
-      </select>
-      <select id="ccEvidence" aria-label="Evidence"><option value="">All evidence levels</option></select>
-      <select id="ccKind" aria-label="Finding type"><option value="">All finding types</option></select>
-    </div>
-
-    <div class="resultbar">
-      <span id="ccCount" aria-live="polite"></span>
-      <div class="pager">
-        <button id="ccPrevTop">Previous</button>
-        <span id="ccPageTop"></span>
-        <button id="ccNextTop">Next</button>
-      </div>
-    </div>
-
-    <main id="ccResults"></main>
-
-    <div class="resultbar">
-      <span></span>
-      <div class="pager">
-        <button id="ccPrevBot">Previous</button>
-        <span id="ccPageBot"></span>
-        <button id="ccNextBot">Next</button>
-      </div>
-    </div>
-
-    <footer>
-      Complete data: <a href="other-categories-audit.json">JSON</a> · <a href="other-categories-summary.md">Markdown summary</a>.
-      Covers questions and answers added directly to the bot (not the YAML banks), standard and insane rounds alike.
-      An unflagged entry is not a correctness certification.
-    </footer>
-  </div>
-
-  <div id="ccErrorBox" hidden class="errbox"></div>
-  </section>
-
-  <section id="reportsPanel" hidden>
+  <section id="reportsPanel">
     <div id="reportsLoading" class="loading">
       <div class="spinner"></div>
       <div>Loading live reports…</div>
@@ -418,7 +297,7 @@
     <div id="fixedEmpty" class="empty-state" hidden>
       <div class="big">✅</div>
       <p><b>Nothing marked fixed yet.</b></p>
-      <p>Once a report on the Live Reports tab or a finding on the Tracked Bugs tab is resolved (via <code>/fixed</code> in Discord), it moves here automatically.</p>
+      <p>Once a bug report or an audit finding is resolved (via <code>/fixed</code> in Discord), it moves here automatically.</p>
     </div>
 
     <div id="fixedApp" hidden>
@@ -530,8 +409,7 @@
   // or network traffic. It only stops answers being spoiled by accident.
   const PASSWORD_HASH = "cf589f9995ede78a78ab4686b0cb8c762ba4d60b27ddde05076e98d1f8b601bc";
   let unlocked = false, keyBytes = null;
-  let refreshAudit = null, refreshReports = null, refreshFixed = null, refilterAudit = null;
-  let refreshCustom = null, refilterCustom = null, refreshReassign = null, refilterReassign = null;
+  let refreshReports = null, refreshFixed = null, refreshReassign = null, refilterReassign = null;
 
   async function sha256Bytes(str){
     const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(str));
@@ -555,8 +433,8 @@
     const fn = unlocked && keyBytes ? show : hide;
     return Array.isArray(value) ? value.map(fn).join(" / ") : fn(value);
   }
-  // other-categories-audit.json (Custom Categories + Reassignments) stores
-  // its answers as plain text, unlike trivia-audit.json's scrambled ones --
+  // other-categories-audit.json (Reassignments, plus fixed-item lookups)
+  // stores its answers as plain text, unlike trivia-audit.json's scrambled ones --
   // this keeps the same lock/unlock spoiler-gate UX without running them
   // through the XOR unscramble meant for the other file's format (which
   // corrupts already-plain text into garbage or "(unreadable)").
@@ -577,8 +455,6 @@
     $("lockBtn").textContent = "🔓";
     $("lockBtn").classList.add("unlocked");
     $("lockBtn").title = $("lockBtn").ariaLabel = "Answers unlocked (click to lock again)";
-    if (refreshAudit) refreshAudit();
-    if (refreshCustom) refreshCustom();
     if (refreshReports) refreshReports();
     if (refreshFixed) refreshFixed();
     if (refreshReassign) refreshReassign();
@@ -591,8 +467,6 @@
     $("lockBtn").textContent = "🔒";
     $("lockBtn").classList.remove("unlocked");
     $("lockBtn").title = $("lockBtn").ariaLabel = "Unlock answers";
-    if (refreshAudit) refreshAudit();
-    if (refreshCustom) refreshCustom();
     if (refreshReports) refreshReports();
     if (refreshFixed) refreshFixed();
     if (refreshReassign) refreshReassign();
@@ -622,17 +496,13 @@
 
   // ---------- tabs ----------
   // IDs of Codex-audit findings (e.g. "F1416") marked fixed via /fixed --
-  // populated once fixed-findings.json loads, used to hide them from the
-  // Tracked Bugs tab (see filter()/render() in init()).
+  // populated once fixed-findings.json loads, used to hide already-fixed
+  // items out of the Reassignments tab (see filter() in initReassign()).
   let fixedFindingIds = new Set();
-  // Fired immediately at page load (not deferred until the user visits a
-  // non-"audit" tab) -- fixed-findings.json is small and fetches fast, so
-  // starting it in parallel with trivia-audit.json means fixedFindingIds
-  // is populated before init()'s first render in practice. Without this,
-  // the Tracked Bugs tab's very first render always ran against an empty
-  // fixedFindingIds (nothing filtered out yet), showing an inflated
-  // "matching findings" count that only corrected itself once the user
-  // visited another tab and came back.
+  // Fired immediately at page load -- fixed-findings.json is small and
+  // fetches fast, so starting it in parallel with the two audit JSONs
+  // means fixedFindingIds is populated before initReassign()'s first
+  // render in practice.
   loadReports();
   // Set by init(D)/initCustom(D) as each of the two audit files loads --
   // whichever finishes second renders the combined, accurate subtitle;
@@ -654,9 +524,9 @@
       `${(f1 + f2).toLocaleString()} findings + ${proposals.toLocaleString()} category suggestions · ` +
       `last synced ${subtitleAudit.audit_date}`;
   }
-  const PANELS = ["audit", "custom", "reports", "reassign", "fixed"];
-  const PANEL_IDS = {audit: "auditPanel", custom: "customPanel", reports: "reportsPanel", fixed: "fixedPanel", reassign: "reassignPanel"};
-  const BTN_IDS = {audit: "tabAuditBtn", custom: "tabCustomBtn", reports: "tabReportsBtn", fixed: "tabFixedBtn", reassign: "tabReassignBtn"};
+  const PANELS = ["reports", "reassign", "fixed"];
+  const PANEL_IDS = {reports: "reportsPanel", fixed: "fixedPanel", reassign: "reassignPanel"};
+  const BTN_IDS = {reports: "tabReportsBtn", fixed: "tabFixedBtn", reassign: "tabReassignBtn"};
   function showTab(name){
     for (const p of PANELS){
       const active = p === name;
@@ -762,8 +632,6 @@
         }, [...fixedReports, ...fixedFindingList]);
 
         fixedFindingIds = new Set(((FF && FF.findings) || []).map(f => f.finding_id));
-        if (refilterAudit) refilterAudit();
-        if (refilterCustom) refilterCustom();
         if (refilterReassign) refilterReassign();
       })
       .catch(err => {
@@ -855,321 +723,34 @@
   // independently depending on which tab the user clicks first.
   const auditDataPromise = fetch("trivia-audit.json")
     .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
-    .then(D => { init(D); return D; })
+    .then(D => { subtitleAudit = D; updateSubtitle(); return D; })
     .catch(err => {
-      $("loading").hidden = true;
-      const box = $("errorBox");
-      box.hidden = false;
-      box.innerHTML = "<b>Couldn't load trivia-audit.json.</b><br>" + esc(err.message) +
-        "<br>Make sure this page is served alongside trivia-audit.json (opening index.html directly via file:// can block fetch() in some browsers — use a local server or the hosted site).";
+      // trivia-audit.json no longer backs a visible tab (Tracked Bugs was
+      // removed) -- it's still fetched for the Fixed tab's lookup and the
+      // header subtitle, so a failure here is non-fatal; just log it.
+      console.error("Couldn't load trivia-audit.json:", err);
       throw err;
     });
 
-  function init(D){
-    $("loading").hidden = true;
-    $("app").hidden = false;
-    subtitleAudit = D;
-    updateSubtitle();
-
-    const findingById = new Map(D.findings.map(f => [f.id, f]));
-    const imageSet = new Set(D.image_inventory.map(x => x.file + ":" + x.line));
-    let page = 0, shown = [], size = 60;
-
-    // ---- stats + severity bar ----
-    const sev = D.stats.severity_counts || {};
-    const sevTotal = Object.values(sev).reduce((a,b)=>a+b,0) || 1;
-    $("stats").innerHTML = [
-      ["P0 questions", D.stats.maximum_severity_entries, "p0"],
-      ["Entries", D.stats.entries],
-      ["Flagged entries", D.stats.flagged_entries],
-      ["Findings / candidates", D.stats.findings],
-      ["Images unverified", D.stats.image_entries],
-    ].map(([label, val, cls]) =>
-      `<div class="stat ${cls||''}"><b>${val.toLocaleString()}</b><span>${esc(label)}</span></div>`
-    ).join("");
-    $("statsSeverity").innerHTML = `
-        <span>Severity breakdown</span>
-        <div class="sevbar">${["P0","P1","P2"].map(k => sev[k] ? `<div style="width:${sev[k]/sevTotal*100}%;background:var(--${k.toLowerCase()})"></div>` : "").join("")}</div>
-        <div class="sevlegend">${["P0","P1","P2"].filter(k=>sev[k]).map(k =>
-          `<span><i style="background:var(--${k.toLowerCase()})"></i>${k}: ${sev[k].toLocaleString()}</span>`).join("")}</div>`;
-
-    for (const name of D.coverage.map(c => c.file)) $("file").add(new Option(name, name));
-    for (const name of Object.keys(D.stats.evidence_counts)) $("evidence").add(new Option(name, name));
-    for (const name of [...new Set(D.findings.map(f => f.category))].sort()) $("category").add(new Option(name, name));
-
-    function severityBadge(pri){
-      if (!pri) return "";
-      const label = pri === "P0" ? "P0 — maximum severity" : pri === "P1" ? "P1 — high" : "P2 — normal";
-      return `<span class="badge ${pri.toLowerCase()}">${label}</span>`;
-    }
-
-    function filter(){
-      page = 0;
-      const mode = $("mode").value, q = $("search").value.toLowerCase().trim(),
-            file = $("file").value, sevF = $("severity").value,
-            ev = $("evidence").value, cat = $("category").value;
-      const findingsMode = mode === "findings";
-      $("evidence").disabled = $("category").disabled = !findingsMode;
-      const src = findingsMode ? D.findings : D.inventory;
-      shown = src.filter(r => {
-        if (file && r.file !== file) return false;
-        if (mode === "images" && !imageSet.has(r.file + ":" + r.line)) return false;
-        if (findingsMode) {
-          if (fixedFindingIds.has(r.id)) return false;
-          if (sevF && r.priority !== sevF) return false;
-          if (ev && r.evidence !== ev) return false;
-          if (cat && r.category !== cat) return false;
-        } else if (sevF && !r.finding_ids.some(id => !fixedFindingIds.has(id) && findingById.get(id)?.priority === sevF)) {
-          return false;
-        }
-        if (!q) return true;
-        return JSON.stringify(r).toLowerCase().includes(q);
-      });
-      render();
-    }
-
-    function render(){
-      const mode = $("mode").value, start = page * size, pageCount = Math.max(1, Math.ceil(shown.length / size));
-      const label = `${shown.length.toLocaleString()} matching ${mode === "findings" ? "findings / candidates" : "entries"}`;
-      $("count").textContent = label;
-      const pageLabel = `Page ${page + 1} of ${pageCount}`;
-      $("pageTop").textContent = $("pageBot").textContent = pageLabel;
-      const atStart = page === 0, atEnd = start + size >= shown.length;
-      $("prevTop").disabled = $("prevBot").disabled = atStart;
-      $("nextTop").disabled = $("nextBot").disabled = atEnd;
-
-      $("results").innerHTML = shown.slice(start, start + size).map(r => {
-        if (mode === "findings") {
-          return `<article class="card center-card ${(r.priority||'').toLowerCase()}">
-            <div class="meta">
-              <span class="loc">${esc(r.id)} · ${esc(r.file)}:${r.line}</span>
-              ${severityBadge(r.priority)}
-              <span class="badge">${esc(r.evidence)}</span>
-              <span class="badge">${esc(r.category)}</span>
-              <button class="copybtn" data-copy="${esc(r.id)}">Copy ID</button>
-              <button class="copybtn" data-copy="${esc(r.file)}:${r.line}">Copy ref</button>
-            </div>
-            <h3 class="q">${esc(r.question)}</h3>
-            <p><b>Current answers</b>${reveal(r.current_answers)}</p>
-            <p><b>${r.evidence === "Fact-check candidate" ? "Concern to verify" : "Finding"}</b>${esc(r.issue)}</p>
-            <p><b>Proposed action</b>${esc(r.fix)}${!r.rule_id ? "<br><small>Apply under the current rule: exactly one canonical answer; no aliases or choices.</small>" : ""}</p>
-            ${r.sources ? `<p class="sourcelinks">${r.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗</a>`).join("")}</p>` : ""}
-          </article>`;
-        }
-        const activeFindingIds = r.finding_ids.filter(id => !fixedFindingIds.has(id));
-        const subs = activeFindingIds.length
-          ? activeFindingIds.map(id => {
-              const f = findingById.get(id);
-              return `<div class="subfinding">
-                <div class="meta">${severityBadge(f.priority)}<span class="badge">${esc(f.evidence)}</span></div>
-                <p><b>Finding</b>${esc(f.issue)}</p>
-                <p><b>Proposed action</b>${esc(f.fix)}</p>
-              </div>`;
-            }).join("")
-          : r.finding_ids.length
-            ? "<p><b>Recorded findings</b>All fixed ✅</p>"
-            : "<p><b>Recorded findings</b>None — not a correctness certification.</p>";
-        return `<article class="card center-card">
-          <div class="meta">
-            <span class="loc">${esc(r.file)}:${r.line}</span>
-            <button class="copybtn" data-copy="${esc(r.file)}:${r.line}">Copy ref</button>
-          </div>
-          <h3 class="q">${esc(r.q)}</h3>
-          <p><b>Original answers (not edited)</b>${reveal(r.answers)}</p>
-          ${subs}
-        </article>`;
-      }).join("") || "<p style='color:var(--text-muted);padding:24px 0;text-align:center'>No matches.</p>";
-    }
-
-    let searchTimer = null;
-    $("search").addEventListener("input", () => {
-      clearTimeout(searchTimer);
-      searchTimer = setTimeout(filter, 150);
-    });
-    for (const id of ["mode", "file", "severity", "evidence", "category"]) $(id).addEventListener("change", filter);
-    for (const [prevId, nextId] of [["prevTop","nextTop"],["prevBot","nextBot"]]) {
-      $(prevId).onclick = () => { page--; render(); window.scrollTo({top:0, behavior:"smooth"}); };
-      $(nextId).onclick = () => { page++; render(); window.scrollTo({top:0, behavior:"smooth"}); };
-    }
-    $("results").addEventListener("click", e => {
-      const btn = e.target.closest(".copybtn");
-      if (!btn) return;
-      navigator.clipboard?.writeText(btn.dataset.copy).then(() => {
-        const old = btn.textContent;
-        btn.textContent = "Copied!";
-        setTimeout(() => { btn.textContent = old; }, 1200);
-      }).catch(() => {});
-    });
-
-    refreshAudit = () => { render(); };
-    // Separate from refreshAudit (used by lock/unlock, which only needs a
-    // re-render): re-runs filter() itself, since fixedFindingIds can
-    // populate after this tab already rendered (once the Fixed tab's data
-    // loads) and a fixed finding needs to actually drop out of results,
-    // not just re-render the same already-filtered set.
-    refilterAudit = () => { filter(); };
-    filter();
-  }
-
-  // ---------- Custom Categories + Reassignments (other-categories-audit.json) ----------
-  // Both tabs read from the same file: .findings/.inventory feed Custom
-  // Categories (correctness findings on bot-added questions, YAML or not),
-  // .category_findings/.references feed Reassignments (suggestions to move
-  // a question -- YAML or custom -- to a better-fitting existing category).
+  // ---------- Reassignments (other-categories-audit.json) ----------
+  // .category_findings/.references feed the Reassignments tab (suggestions
+  // to move a question -- YAML or custom -- to a better-fitting existing
+  // category). .findings/.inventory (correctness findings on bot-added
+  // questions, YAML or not) used to back the Custom Categories tab; that
+  // tab is gone, but those fields are still read for the Fixed tab's
+  // per-ID lookup (see loadReports() below).
   const customAuditDataPromise = fetch("other-categories-audit.json")
     .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
-    .then(D => { initCustom(D); initReassign(D); return D; })
+    .then(D => { subtitleCustom = D; updateSubtitle(); initReassign(D); return D; })
     .catch(err => {
-      for (const [loadingId, boxId] of [["ccLoading", "ccErrorBox"], ["reassignLoading", "reassignErrorBox"]]) {
-        $(loadingId).hidden = true;
-        $(boxId).hidden = false;
-        $(boxId).innerHTML = "<b>Couldn't load other-categories-audit.json.</b><br>" + esc(err.message);
-      }
+      // other-categories-audit.json used to also back the Custom Categories
+      // tab (removed) -- it's still fetched for Reassignments, the Fixed
+      // tab's lookup, and the header subtitle.
+      $("reassignLoading").hidden = true;
+      $("reassignErrorBox").hidden = false;
+      $("reassignErrorBox").innerHTML = "<b>Couldn't load other-categories-audit.json.</b><br>" + esc(err.message);
       throw err;
     });
-
-  function initCustom(D){
-    $("ccLoading").hidden = true;
-    $("ccApp").hidden = false;
-    subtitleCustom = D;
-    updateSubtitle();
-
-    const inventoryById = new Map(D.inventory.map(x => [x.id, x]));
-    const findingById = new Map(D.findings.map(f => [f.id, f]));
-    let page = 0, shown = [], size = 60;
-
-    const sev = D.stats.severities || {};
-    const sevTotal = Object.values(sev).reduce((a,b)=>a+b,0) || 1;
-    $("ccStats").innerHTML = [
-      ["P0 questions", sev.P0 || 0, "p0"],
-      ["Entries", D.stats.entries],
-      ["Flagged entries", D.stats.flagged_questions],
-      ["Findings / candidates", D.stats.findings],
-      ["Images unverified", D.stats.images],
-    ].map(([label, val, cls]) =>
-      `<div class="stat ${cls||''}"><b>${val.toLocaleString()}</b><span>${esc(label)}</span></div>`
-    ).join("");
-    $("ccStatsSeverity").innerHTML = `
-        <span>Severity breakdown</span>
-        <div class="sevbar">${["P0","P1","P2"].map(k => sev[k] ? `<div style="width:${sev[k]/sevTotal*100}%;background:var(--${k.toLowerCase()})"></div>` : "").join("")}</div>
-        <div class="sevlegend">${["P0","P1","P2"].filter(k=>sev[k]).map(k =>
-          `<span><i style="background:var(--${k.toLowerCase()})"></i>${k}: ${sev[k].toLocaleString()}</span>`).join("")}</div>`;
-
-    for (const name of [...new Set(D.coverage.map(c => c.category))].sort()) $("ccCategory").add(new Option(name, name));
-    for (const name of Object.keys(D.stats.evidence).sort()) $("ccEvidence").add(new Option(name, name));
-    for (const name of [...new Set(D.findings.map(f => f.kind))].sort()) $("ccKind").add(new Option(name, name));
-
-    function severityBadge(pri){
-      if (!pri) return "";
-      const label = pri === "P0" ? "P0 — maximum severity" : pri === "P1" ? "P1 — high" : "P2 — normal";
-      return `<span class="badge ${pri.toLowerCase()}">${label}</span>`;
-    }
-
-    function filter(){
-      page = 0;
-      const mode = $("ccMode").value, q = $("ccSearch").value.toLowerCase().trim(),
-            cat = $("ccCategory").value, sevF = $("ccSeverity").value,
-            ev = $("ccEvidence").value, kind = $("ccKind").value;
-      const findingsMode = mode === "findings";
-      $("ccEvidence").disabled = $("ccKind").disabled = !findingsMode;
-      const src = findingsMode ? D.findings : (mode === "images" ? D.inventory.filter(x => x.image) : D.inventory);
-      shown = src.filter(r => {
-        if (findingsMode) {
-          if (fixedFindingIds.has(r.id)) return false;
-          if (sevF && r.severity !== sevF) return false;
-          if (ev && r.evidence !== ev) return false;
-          if (kind && r.kind !== kind) return false;
-          const inv = inventoryById.get(r.question_id);
-          if (cat && (!inv || inv.category !== cat)) return false;
-          if (!q) return true;
-          return JSON.stringify({...r, ...(inv || {})}).toLowerCase().includes(q);
-        }
-        if (cat && r.category !== cat) return false;
-        if (sevF && !r.finding_ids.some(id => !fixedFindingIds.has(id) && findingById.get(id)?.severity === sevF)) return false;
-        if (!q) return true;
-        return JSON.stringify(r).toLowerCase().includes(q);
-      });
-      render();
-    }
-
-    function render(){
-      const mode = $("ccMode").value, start = page * size, pageCount = Math.max(1, Math.ceil(shown.length / size));
-      $("ccCount").textContent = `${shown.length.toLocaleString()} matching ${mode === "findings" ? "findings / candidates" : "entries"}`;
-      const pageLabel = `Page ${page + 1} of ${pageCount}`;
-      $("ccPageTop").textContent = $("ccPageBot").textContent = pageLabel;
-      const atStart = page === 0, atEnd = start + size >= shown.length;
-      $("ccPrevTop").disabled = $("ccPrevBot").disabled = atStart;
-      $("ccNextTop").disabled = $("ccNextBot").disabled = atEnd;
-
-      $("ccResults").innerHTML = shown.slice(start, start + size).map(r => {
-        if (mode === "findings") {
-          const inv = inventoryById.get(r.question_id);
-          const loc = inv ? `${esc(inv.file)}:${inv.line}` : "";
-          return `<article class="card center-card ${(r.severity||'').toLowerCase()}">
-            <div class="meta">
-              <span class="loc">${esc(r.id)}${loc ? " · " + loc : ""}</span>
-              ${severityBadge(r.severity)}
-              <span class="badge">${esc(r.evidence)}</span>
-              <span class="badge">${esc(r.kind)}</span>
-              ${inv ? `<span class="badge">${esc(inv.category)}</span>` : ""}
-              <button class="copybtn" data-copy="${esc(r.id)}">Copy ID</button>
-              ${loc ? `<button class="copybtn" data-copy="${loc}">Copy ref</button>` : ""}
-            </div>
-            <h3 class="q">${inv ? esc(inv.question) : "(question no longer in inventory)"}</h3>
-            ${inv ? `<p><b>Current answers</b>${revealPlain(inv.answers)}</p>` : ""}
-            <p><b>Finding</b>${esc(r.issue)}</p>
-            <p><b>Proposed action</b>${esc(r.fix)}</p>
-            ${r.sources && r.sources.length ? `<p class="sourcelinks">${r.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗</a>`).join("")}</p>` : ""}
-          </article>`;
-        }
-        const activeFindingIds = r.finding_ids.filter(id => !fixedFindingIds.has(id));
-        const subs = activeFindingIds.length
-          ? activeFindingIds.map(id => {
-              const f = findingById.get(id);
-              return `<div class="subfinding">
-                <div class="meta">${severityBadge(f.severity)}<span class="badge">${esc(f.evidence)}</span><span class="badge">${esc(f.kind)}</span></div>
-                <p><b>Finding</b>${esc(f.issue)}</p>
-                <p><b>Proposed action</b>${esc(f.fix)}</p>
-              </div>`;
-            }).join("")
-          : r.finding_ids.length
-            ? "<p><b>Recorded findings</b>All fixed ✅</p>"
-            : "<p><b>Recorded findings</b>None — not a correctness certification.</p>";
-        return `<article class="card center-card">
-          <div class="meta">
-            <span class="loc">${esc(r.file)}:${r.line}</span>
-            <span class="badge">${esc(r.category)}</span>
-            ${r.mode === "insane" ? `<span class="badge">Insane round</span>` : ""}
-            <button class="copybtn" data-copy="${esc(r.file)}:${r.line}">Copy ref</button>
-          </div>
-          <h3 class="q">${esc(r.question)}</h3>
-          <p><b>Current answers</b>${revealPlain(r.answers)}</p>
-          ${subs}
-        </article>`;
-      }).join("") || "<p style='color:var(--text-muted);padding:24px 0;text-align:center'>No matches.</p>";
-    }
-
-    let searchTimer = null;
-    $("ccSearch").addEventListener("input", () => { clearTimeout(searchTimer); searchTimer = setTimeout(filter, 150); });
-    for (const id of ["ccMode", "ccCategory", "ccSeverity", "ccEvidence", "ccKind"]) $(id).addEventListener("change", filter);
-    for (const [prevId, nextId] of [["ccPrevTop","ccNextTop"],["ccPrevBot","ccNextBot"]]) {
-      $(prevId).onclick = () => { page--; render(); window.scrollTo({top:0, behavior:"smooth"}); };
-      $(nextId).onclick = () => { page++; render(); window.scrollTo({top:0, behavior:"smooth"}); };
-    }
-    $("ccResults").addEventListener("click", e => {
-      const btn = e.target.closest(".copybtn");
-      if (!btn) return;
-      navigator.clipboard?.writeText(btn.dataset.copy).then(() => {
-        const old = btn.textContent;
-        btn.textContent = "Copied!";
-        setTimeout(() => { btn.textContent = old; }, 1200);
-      }).catch(() => {});
-    });
-
-    refreshCustom = () => { render(); };
-    refilterCustom = () => { filter(); };
-    filter();
-  }
 
   function initReassign(D){
     $("reassignLoading").hidden = true;
