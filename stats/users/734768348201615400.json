@@ -1,40 +1,40 @@
 {
   "user_id": 734768348201615400,
   "level": {
-    "level": 36,
-    "xp_into_level": 36875,
-    "xp_for_level": 47000,
-    "progress": 0.7845744680851063,
+    "level": 37,
+    "xp_into_level": 25081,
+    "xp_for_level": 49000,
+    "progress": 0.5118571428571429,
     "maxed": false
   },
-  "total_xp": 634375,
+  "total_xp": 669581,
   "period_stats": {
-    "daily_points": 137,
-    "daily_correct": 98,
-    "weekly_points": 1647,
-    "weekly_correct": 998,
-    "monthly_points": 4367,
-    "monthly_correct": 2431,
-    "yearly_points": 4566,
-    "yearly_correct": 2574,
-    "alltime_points": 4566,
-    "alltime_correct": 2574
+    "daily_points": 168,
+    "daily_correct": 110,
+    "weekly_points": 1678,
+    "weekly_correct": 1010,
+    "monthly_points": 4398,
+    "monthly_correct": 2443,
+    "yearly_points": 4597,
+    "yearly_correct": 2586,
+    "alltime_points": 4597,
+    "alltime_correct": 2586
   },
   "stats_row": {
     "user_id": 734768348201615400,
     "guild_id": 861055530638114836,
-    "total_points": 2885,
-    "questions_right": 893,
+    "total_points": 2912,
+    "questions_right": 901,
     "questions_wrong": 0,
-    "wins": 893,
-    "current_streak": 1,
+    "wins": 901,
+    "current_streak": 4,
     "best_streak": 14,
-    "games_played": 34,
-    "insane_guesses": 752,
+    "games_played": 35,
+    "insane_guesses": 756,
     "day_streak": 8,
     "last_played_date": "2026-09-22",
-    "total_xp": 634375,
-    "game_wins": 17,
+    "total_xp": 669581,
+    "game_wins": 18,
     "achievement_best_streak": 14
   },
   "best_streak": 14,
@@ -48,23 +48,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 795,
-    "correct": 541
+    "points": 799,
+    "correct": 545
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 1681,
-  "average_guess_ms": 16229.347144456888,
+  "total_insane_correct": 1685,
+  "average_guess_ms": 16224.338512763596,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 24
   },
   "spelling_accuracy": {
-    "exact_count": 1490,
-    "total": 1792
+    "exact_count": 1501,
+    "total": 1804
   },
   "achievements": {
     "catalog": [
@@ -2190,7 +2190,14 @@
       "play_7_days": "2026-09-21 18:46:12.470430+00:00",
       "wins_15": "2026-09-21 18:56:33.482196+00:00",
       "all_cosmetic_slots": "2026-09-21 22:25:22.308845+00:00",
-      "points_1000": "2026-09-22 18:20:01.915099+00:00"
+      "points_1000": "2026-09-22 18:20:01.915099+00:00",
+      "wrestling_100": "2026-09-22 20:35:11.991736+00:00",
+      "quickfire_win": "2026-09-22 20:35:24.726698+00:00",
+      "win_first_duel": "2026-09-22 20:36:23.090461+00:00",
+      "duel_win_as_opponent": "2026-09-22 20:36:23.092418+00:00",
+      "duel_nail_biter": "2026-09-22 20:36:23.094025+00:00",
+      "duel_comeback": "2026-09-22 20:36:23.095517+00:00",
+      "duel_giant_slayer": "2026-09-22 20:36:23.096998+00:00"
     },
     "baselines": {
       "points": 1842,
@@ -2207,14 +2214,21 @@
       "movies": 1,
       "music": 3,
       "pokemon": 4,
-      "sports": 31,
+      "sports": 39,
       "videogames": 3,
-      "wrestling": 109,
-      "duelwins": 0,
-      "duelstreak": 0
+      "wrestling": 113,
+      "duelwins": 1,
+      "duelstreak": 1
     }
   },
-  "duel_stats": null,
+  "duel_stats": {
+    "guild_id": 861055530638114836,
+    "user_id": 734768348201615400,
+    "wins": 1,
+    "losses": 0,
+    "current_streak": 1,
+    "best_streak": 1
+  },
   "kirkening_crownings": [],
   "cosmetics": [
     {
@@ -2750,8 +2764,8 @@
       "key": "hotpink",
       "label": "Hot Pink Embed",
       "unlock_level": 37,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "embedcolor",
