@@ -1,39 +1,39 @@
 {
   "user_id": 184456115927384065,
   "level": {
-    "level": 32,
-    "xp_into_level": 37080,
-    "xp_for_level": 39000,
-    "progress": 0.9507692307692308,
+    "level": 33,
+    "xp_into_level": 4696,
+    "xp_for_level": 41000,
+    "progress": 0.11453658536585366,
     "maxed": false
   },
-  "total_xp": 466580,
+  "total_xp": 473196,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 950,
-    "weekly_correct": 521,
-    "monthly_points": 1373,
-    "monthly_correct": 792,
-    "yearly_points": 1373,
-    "yearly_correct": 792,
-    "alltime_points": 1373,
-    "alltime_correct": 792
+    "daily_points": 9,
+    "daily_correct": 6,
+    "weekly_points": 959,
+    "weekly_correct": 527,
+    "monthly_points": 1382,
+    "monthly_correct": 798,
+    "yearly_points": 1382,
+    "yearly_correct": 798,
+    "alltime_points": 1382,
+    "alltime_correct": 798
   },
   "stats_row": {
     "user_id": 184456115927384065,
     "guild_id": 861055530638114836,
-    "total_points": 905,
-    "questions_right": 324,
+    "total_points": 910,
+    "questions_right": 326,
     "questions_wrong": 0,
-    "wins": 324,
+    "wins": 326,
     "current_streak": 1,
     "best_streak": 21,
-    "games_played": 49,
-    "insane_guesses": 297,
-    "day_streak": 7,
-    "last_played_date": "2026-09-21",
-    "total_xp": 466580,
+    "games_played": 50,
+    "insane_guesses": 301,
+    "day_streak": 8,
+    "last_played_date": "2026-09-22",
+    "total_xp": 473196,
     "game_wins": 18,
     "achievement_best_streak": 21
   },
@@ -56,15 +56,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 468,
-  "average_guess_ms": 22060.746913580246,
+  "total_insane_correct": 472,
+  "average_guess_ms": 22087.5736196319,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
-    "active_days": 18
+    "active_days": 19
   },
   "spelling_accuracy": {
-    "exact_count": 638,
-    "total": 700
+    "exact_count": 644,
+    "total": 706
   },
   "achievements": {
     "catalog": [
@@ -2184,7 +2184,8 @@
       "wrestling_50": "2026-09-20 22:59:49.841836+00:00",
       "id_pokemon": "2026-09-20 23:02:25.177879+00:00",
       "gk_50": "2026-09-20 23:37:18.644552+00:00",
-      "play_7_days": "2026-09-21 22:23:06.862111+00:00"
+      "play_7_days": "2026-09-21 22:23:06.862111+00:00",
+      "play_50_games": "2026-09-22 18:56:31.847216+00:00"
     },
     "baselines": {
       "points": 231,
@@ -2195,11 +2196,11 @@
       "disney": 10,
       "entertainment": 1,
       "geo": 41,
-      "gk": 62,
+      "gk": 63,
       "got": 0,
       "marvel": 7,
       "movies": 0,
-      "music": 1,
+      "music": 2,
       "pokemon": 3,
       "sports": 68,
       "videogames": 0,
@@ -3008,8 +3009,8 @@
       "key": "funung",
       "label": "Funung MVP",
       "unlock_level": 33,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "mvp",
