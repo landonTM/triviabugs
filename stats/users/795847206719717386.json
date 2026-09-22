@@ -2,12 +2,12 @@
   "user_id": 795847206719717386,
   "level": {
     "level": 39,
-    "xp_into_level": 32883,
+    "xp_into_level": 33687,
     "xp_for_level": 53000,
-    "progress": 0.6204339622641509,
+    "progress": 0.6356037735849056,
     "maxed": false
   },
-  "total_xp": 777383,
+  "total_xp": 778187,
   "period_stats": {
     "daily_points": 11,
     "daily_correct": 5,
@@ -29,11 +29,11 @@
     "wins": 1229,
     "current_streak": 1,
     "best_streak": 22,
-    "games_played": 43,
+    "games_played": 44,
     "insane_guesses": 971,
-    "day_streak": 7,
-    "last_played_date": "2026-09-21",
-    "total_xp": 777383,
+    "day_streak": 8,
+    "last_played_date": "2026-09-22",
+    "total_xp": 778187,
     "game_wins": 21,
     "achievement_best_streak": 14
   },
