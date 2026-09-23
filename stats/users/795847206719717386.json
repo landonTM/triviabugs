@@ -1,40 +1,40 @@
 {
   "user_id": 795847206719717386,
   "level": {
-    "level": 39,
-    "xp_into_level": 51583,
-    "xp_for_level": 53000,
-    "progress": 0.9732641509433962,
+    "level": 40,
+    "xp_into_level": 1477,
+    "xp_for_level": 55000,
+    "progress": 0.026854545454545454,
     "maxed": false
   },
-  "total_xp": 796083,
+  "total_xp": 798977,
   "period_stats": {
-    "daily_points": 61,
-    "daily_correct": 33,
-    "weekly_points": 2046,
-    "weekly_correct": 1193,
-    "monthly_points": 5467,
-    "monthly_correct": 3128,
-    "yearly_points": 5573,
-    "yearly_correct": 3187,
-    "alltime_points": 5573,
-    "alltime_correct": 3187
+    "daily_points": 81,
+    "daily_correct": 53,
+    "weekly_points": 2066,
+    "weekly_correct": 1213,
+    "monthly_points": 5487,
+    "monthly_correct": 3148,
+    "yearly_points": 5593,
+    "yearly_correct": 3207,
+    "alltime_points": 5593,
+    "alltime_correct": 3207
   },
   "stats_row": {
     "user_id": 795847206719717386,
     "guild_id": 861055530638114836,
-    "total_points": 3629,
-    "questions_right": 1243,
+    "total_points": 3631,
+    "questions_right": 1245,
     "questions_wrong": 0,
-    "wins": 1243,
-    "current_streak": 1,
+    "wins": 1245,
+    "current_streak": 2,
     "best_streak": 22,
-    "games_played": 45,
-    "insane_guesses": 990,
+    "games_played": 46,
+    "insane_guesses": 1008,
     "day_streak": 9,
     "last_played_date": "2026-09-23",
-    "total_xp": 796083,
-    "game_wins": 21,
+    "total_xp": 798977,
+    "game_wins": 22,
     "achievement_best_streak": 14
   },
   "best_streak": 22,
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 1944,
-  "average_guess_ms": 20190.307320997585,
+  "total_insane_correct": 1962,
+  "average_guess_ms": 20236.041767068273,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 24
   },
   "spelling_accuracy": {
-    "exact_count": 2251,
-    "total": 2588
+    "exact_count": 2269,
+    "total": 2608
   },
   "achievements": {
     "catalog": [
@@ -2214,11 +2214,11 @@
       "entertainment": 1,
       "geo": 124,
       "gk": 120,
-      "got": 36,
+      "got": 54,
       "marvel": 51,
       "movies": 1,
       "music": 1,
-      "pokemon": 22,
+      "pokemon": 23,
       "sports": 15,
       "videogames": 0,
       "wrestling": 133,
@@ -2630,8 +2630,8 @@
       "key": "lolcat",
       "label": "LOLCAT Response Theme",
       "unlock_level": 40,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "theme",
