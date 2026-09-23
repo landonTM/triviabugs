@@ -2,38 +2,38 @@
   "user_id": 734768348201615400,
   "level": {
     "level": 38,
-    "xp_into_level": 34827,
+    "xp_into_level": 46255,
     "xp_for_level": 51000,
-    "progress": 0.6828823529411765,
+    "progress": 0.9069607843137255,
     "maxed": false
   },
-  "total_xp": 728327,
+  "total_xp": 739755,
   "period_stats": {
-    "daily_points": 144,
-    "daily_correct": 78,
-    "weekly_points": 1365,
-    "weekly_correct": 822,
-    "monthly_points": 4620,
-    "monthly_correct": 2565,
-    "yearly_points": 4819,
-    "yearly_correct": 2708,
-    "alltime_points": 4819,
-    "alltime_correct": 2708
+    "daily_points": 216,
+    "daily_correct": 132,
+    "weekly_points": 1423,
+    "weekly_correct": 872,
+    "monthly_points": 4692,
+    "monthly_correct": 2619,
+    "yearly_points": 4891,
+    "yearly_correct": 2762,
+    "alltime_points": 4891,
+    "alltime_correct": 2762
   },
   "stats_row": {
     "user_id": 734768348201615400,
     "guild_id": 861055530638114836,
-    "total_points": 3052,
-    "questions_right": 941,
+    "total_points": 3077,
+    "questions_right": 948,
     "questions_wrong": 0,
-    "wins": 941,
-    "current_streak": 2,
+    "wins": 948,
+    "current_streak": 4,
     "best_streak": 14,
-    "games_played": 40,
-    "insane_guesses": 838,
+    "games_played": 41,
+    "insane_guesses": 885,
     "day_streak": 9,
     "last_played_date": "2026-09-23",
-    "total_xp": 728327,
+    "total_xp": 739755,
     "game_wins": 20,
     "achievement_best_streak": 14
   },
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 1767,
-  "average_guess_ms": 16076.244420828905,
+  "total_insane_correct": 1814,
+  "average_guess_ms": 16059.908227848102,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 25
   },
   "spelling_accuracy": {
-    "exact_count": 1610,
-    "total": 1926
+    "exact_count": 1653,
+    "total": 1980
   },
   "achievements": {
     "catalog": [
@@ -2200,7 +2200,8 @@
       "duel_giant_slayer": "2026-09-22 20:36:23.096998+00:00",
       "duel_first_loss": "2026-09-22 20:48:55.685194+00:00",
       "gk_100": "2026-09-23 18:24:21.692800+00:00",
-      "geo_100": "2026-09-23 18:36:58.042871+00:00"
+      "geo_100": "2026-09-23 18:36:58.042871+00:00",
+      "sports_50": "2026-09-23 23:27:29.411498+00:00"
     },
     "baselines": {
       "points": 1842,
@@ -2209,16 +2210,16 @@
     },
     "category_counts": {
       "disney": 29,
-      "entertainment": 3,
-      "geo": 104,
-      "gk": 109,
+      "entertainment": 4,
+      "geo": 138,
+      "gk": 110,
       "got": 0,
       "marvel": 8,
       "movies": 2,
       "music": 4,
       "pokemon": 4,
-      "sports": 49,
-      "videogames": 6,
+      "sports": 50,
+      "videogames": 7,
       "wrestling": 172,
       "duelwins": 1,
       "duelstreak": 1
