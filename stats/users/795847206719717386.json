@@ -2,40 +2,40 @@
   "user_id": 795847206719717386,
   "level": {
     "level": 40,
-    "xp_into_level": 1477,
+    "xp_into_level": 8208,
     "xp_for_level": 55000,
-    "progress": 0.026854545454545454,
+    "progress": 0.14923636363636364,
     "maxed": false
   },
-  "total_xp": 798977,
+  "total_xp": 805708,
   "period_stats": {
-    "daily_points": 81,
-    "daily_correct": 53,
-    "weekly_points": 2053,
-    "weekly_correct": 1202,
-    "monthly_points": 5487,
-    "monthly_correct": 3148,
-    "yearly_points": 5593,
-    "yearly_correct": 3207,
-    "alltime_points": 5593,
-    "alltime_correct": 3207
+    "daily_points": 176,
+    "daily_correct": 114,
+    "weekly_points": 2130,
+    "weekly_correct": 1254,
+    "monthly_points": 5582,
+    "monthly_correct": 3209,
+    "yearly_points": 5688,
+    "yearly_correct": 3268,
+    "alltime_points": 5688,
+    "alltime_correct": 3268
   },
   "stats_row": {
     "user_id": 795847206719717386,
     "guild_id": 861055530638114836,
-    "total_points": 3631,
-    "questions_right": 1245,
+    "total_points": 3684,
+    "questions_right": 1264,
     "questions_wrong": 0,
-    "wins": 1245,
-    "current_streak": 2,
+    "wins": 1264,
+    "current_streak": 1,
     "best_streak": 22,
-    "games_played": 46,
-    "insane_guesses": 1008,
+    "games_played": 47,
+    "insane_guesses": 1050,
     "day_streak": 9,
     "last_played_date": "2026-09-23",
-    "total_xp": 798977,
-    "game_wins": 22,
-    "achievement_best_streak": 14
+    "total_xp": 805708,
+    "game_wins": 23,
+    "achievement_best_streak": 17
   },
   "best_streak": 22,
   "fastest_guess": {
@@ -48,23 +48,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 752,
-    "correct": 530
+    "points": 756,
+    "correct": 531
   },
   "best_insane_round": {
     "question_text": "Name all countries",
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 1962,
-  "average_guess_ms": 20236.041767068273,
+  "total_insane_correct": 2004,
+  "average_guess_ms": 20241.523734177215,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 24
   },
   "spelling_accuracy": {
-    "exact_count": 2269,
-    "total": 2608
+    "exact_count": 2324,
+    "total": 2669
   },
   "achievements": {
     "catalog": [
@@ -2202,7 +2202,8 @@
       "duel_first_loss": "2026-09-22 23:41:11.183643+00:00",
       "duel_win_as_challenger": "2026-09-23 18:52:21.379486+00:00",
       "duel_perfect_sweep": "2026-09-23 18:52:21.381513+00:00",
-      "duel_spelling_bee": "2026-09-23 18:52:21.383078+00:00"
+      "duel_spelling_bee": "2026-09-23 18:52:21.383078+00:00",
+      "streak_15": "2026-09-23 23:23:43.010258+00:00"
     },
     "baselines": {
       "points": 1991,
@@ -2211,17 +2212,17 @@
     },
     "category_counts": {
       "disney": 49,
-      "entertainment": 1,
-      "geo": 124,
-      "gk": 120,
+      "entertainment": 3,
+      "geo": 159,
+      "gk": 122,
       "got": 54,
       "marvel": 51,
-      "movies": 1,
-      "music": 1,
+      "movies": 3,
+      "music": 4,
       "pokemon": 23,
-      "sports": 15,
-      "videogames": 0,
-      "wrestling": 133,
+      "sports": 16,
+      "videogames": 1,
+      "wrestling": 134,
       "duelwins": 2,
       "duelstreak": 1
     }
