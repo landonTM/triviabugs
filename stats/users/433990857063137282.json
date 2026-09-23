@@ -2,38 +2,38 @@
   "user_id": 433990857063137282,
   "level": {
     "level": 38,
-    "xp_into_level": 35210,
+    "xp_into_level": 36131,
     "xp_for_level": 51000,
-    "progress": 0.6903921568627451,
+    "progress": 0.7084509803921568,
     "maxed": false
   },
-  "total_xp": 728710,
+  "total_xp": 729631,
   "period_stats": {
-    "daily_points": 41,
-    "daily_correct": 27,
-    "weekly_points": 1915,
-    "weekly_correct": 810,
-    "monthly_points": 3115,
-    "monthly_correct": 1480,
-    "yearly_points": 3289,
-    "yearly_correct": 1573,
-    "alltime_points": 3289,
-    "alltime_correct": 1573
+    "daily_points": 43,
+    "daily_correct": 28,
+    "weekly_points": 1917,
+    "weekly_correct": 811,
+    "monthly_points": 3117,
+    "monthly_correct": 1481,
+    "yearly_points": 3291,
+    "yearly_correct": 1574,
+    "alltime_points": 3291,
+    "alltime_correct": 1574
   },
   "stats_row": {
     "user_id": 433990857063137282,
     "guild_id": 861055530638114836,
-    "total_points": 2411,
-    "questions_right": 692,
+    "total_points": 2413,
+    "questions_right": 693,
     "questions_wrong": 0,
-    "wins": 692,
+    "wins": 693,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 62,
+    "games_played": 63,
     "insane_guesses": 577,
     "day_streak": 1,
     "last_played_date": "2026-09-23",
-    "total_xp": 728710,
+    "total_xp": 729631,
     "game_wins": 23,
     "achievement_best_streak": 27
   },
@@ -57,14 +57,14 @@
     "guesses": 17
   },
   "total_insane_correct": 882,
-  "average_guess_ms": 17433.565846599133,
+  "average_guess_ms": 17443.706647398845,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 23
   },
   "spelling_accuracy": {
-    "exact_count": 1181,
-    "total": 1359
+    "exact_count": 1182,
+    "total": 1360
   },
   "achievements": {
     "catalog": [
@@ -2211,7 +2211,7 @@
       "disney": 16,
       "entertainment": 0,
       "geo": 72,
-      "gk": 100,
+      "gk": 101,
       "got": 2,
       "marvel": 40,
       "movies": 0,
