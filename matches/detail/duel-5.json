@@ -1,0 +1,41 @@
+{
+  "match": {
+    "id": 5,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "795847206719717386",
+    "format": 3,
+    "winner_id": "433990857063137282",
+    "challenger_score": 2,
+    "opponent_score": 0,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-22 23:41:10.467314+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 6718,
+      "answered_at": "2026-09-22 23:41:10.470439+00:00",
+      "category": "Geography",
+      "question_text": "How many countries does Mexico border?",
+      "correct_answers": [
+        "3"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 12786,
+      "answered_at": "2026-09-22 23:41:10.470439+00:00",
+      "category": "Entertainment",
+      "question_text": "The two rival gangs in \"West Side Story\" were the Sharks and the _________.?",
+      "correct_answers": [
+        "Jets"
+      ]
+    }
+  ]
+}
