@@ -1,70 +1,70 @@
 {
   "user_id": 794420965387403265,
   "level": {
-    "level": 28,
-    "xp_into_level": 7647,
-    "xp_for_level": 31000,
-    "progress": 0.24667741935483872,
+    "level": 29,
+    "xp_into_level": 721,
+    "xp_for_level": 33000,
+    "progress": 0.02184848484848485,
     "maxed": false
   },
-  "total_xp": 301147,
+  "total_xp": 325221,
   "period_stats": {
-    "daily_points": 92,
-    "daily_correct": 40,
-    "weekly_points": 238,
-    "weekly_correct": 117,
-    "monthly_points": 765,
-    "monthly_correct": 370,
-    "yearly_points": 765,
-    "yearly_correct": 370,
-    "alltime_points": 765,
-    "alltime_correct": 370
+    "daily_points": 122,
+    "daily_correct": 55,
+    "weekly_points": 245,
+    "weekly_correct": 119,
+    "monthly_points": 795,
+    "monthly_correct": 385,
+    "yearly_points": 795,
+    "yearly_correct": 385,
+    "alltime_points": 795,
+    "alltime_correct": 385
   },
   "stats_row": {
     "user_id": 794420965387403265,
     "guild_id": 861055530638114836,
-    "total_points": 571,
-    "questions_right": 176,
+    "total_points": 591,
+    "questions_right": 181,
     "questions_wrong": 0,
-    "wins": 176,
+    "wins": 181,
     "current_streak": 2,
     "best_streak": 7,
-    "games_played": 20,
-    "insane_guesses": 125,
-    "day_streak": 6,
-    "last_played_date": "2026-09-19",
-    "total_xp": 301147,
-    "game_wins": 4,
+    "games_played": 22,
+    "insane_guesses": 135,
+    "day_streak": 1,
+    "last_played_date": "2026-09-23",
+    "total_xp": 325221,
+    "game_wins": 6,
     "achievement_best_streak": 7
   },
   "best_streak": 7,
   "fastest_guess": {
-    "response_time_ms": 2810,
-    "question_text": "In Joker, what is Arthur's last name?",
-    "category": "Movies",
+    "response_time_ms": 2299,
+    "question_text": "What is the element symbol of \"Argon\"?",
+    "category": "Elements",
     "correct_answers": [
-      "Fleck"
+      "Ar"
     ]
   },
   "best_category": {
-    "category": "General Knowledge",
+    "category": "Wrestling",
     "points": 89,
-    "correct": 70
+    "correct": 71
   },
   "best_insane_round": {
     "question_text": "Human Organs",
     "category": "General Knowledge",
     "guesses": 14
   },
-  "total_insane_correct": 194,
-  "average_guess_ms": 17873.852272727272,
+  "total_insane_correct": 204,
+  "average_guess_ms": 17578.585635359115,
   "activity": {
     "first_answered_at": "2026-09-08 22:30:21.511683+00:00",
     "active_days": 9
   },
   "spelling_accuracy": {
-    "exact_count": 290,
-    "total": 370
+    "exact_count": 304,
+    "total": 385
   },
   "achievements": {
     "catalog": [
@@ -2176,7 +2176,14 @@
       "points_250": "2026-09-16 12:06:34.649166+00:00",
       "win_one_category": "2026-09-16 12:12:21.050662+00:00",
       "play_3_days": "2026-09-16 12:12:21.052316+00:00",
-      "end_streak_5": "2026-09-17 23:37:28.273264+00:00"
+      "end_streak_5": "2026-09-17 23:37:28.273264+00:00",
+      "win_50_question_game": "2026-09-23 18:45:10.527562+00:00",
+      "wins_5": "2026-09-23 18:45:10.529526+00:00",
+      "correct_under_3s": "2026-09-23 18:47:31.587925+00:00",
+      "duel_win_as_opponent": "2026-09-23 18:50:41.258726+00:00",
+      "duel_tiebreaker_win": "2026-09-23 18:50:41.260919+00:00",
+      "duel_comeback": "2026-09-23 18:50:41.262444+00:00",
+      "duel_giant_slayer": "2026-09-23 18:50:41.264090+00:00"
     },
     "baselines": {
       "points": 118,
@@ -2194,18 +2201,18 @@
       "music": 1,
       "pokemon": 6,
       "sports": 0,
-      "videogames": 3,
-      "wrestling": 4,
-      "duelwins": 1,
+      "videogames": 4,
+      "wrestling": 14,
+      "duelwins": 2,
       "duelstreak": 1
     }
   },
   "duel_stats": {
     "guild_id": 861055530638114836,
     "user_id": 794420965387403265,
-    "wins": 1,
+    "wins": 2,
     "losses": 1,
-    "current_streak": 0,
+    "current_streak": 1,
     "best_streak": 1
   },
   "kirkening_crownings": [
@@ -3018,8 +3025,8 @@
       "key": "noanswer",
       "label": "No Answer MVP",
       "unlock_level": 29,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "mvp",
