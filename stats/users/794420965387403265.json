@@ -9,28 +9,28 @@
   },
   "total_xp": 301147,
   "period_stats": {
-    "daily_points": 29,
-    "daily_correct": 10,
-    "weekly_points": 175,
-    "weekly_correct": 87,
-    "monthly_points": 702,
-    "monthly_correct": 340,
-    "yearly_points": 702,
-    "yearly_correct": 340,
-    "alltime_points": 702,
-    "alltime_correct": 340
+    "daily_points": 92,
+    "daily_correct": 40,
+    "weekly_points": 238,
+    "weekly_correct": 117,
+    "monthly_points": 765,
+    "monthly_correct": 370,
+    "yearly_points": 765,
+    "yearly_correct": 370,
+    "alltime_points": 765,
+    "alltime_correct": 370
   },
   "stats_row": {
     "user_id": 794420965387403265,
     "guild_id": 861055530638114836,
-    "total_points": 521,
-    "questions_right": 159,
+    "total_points": 571,
+    "questions_right": 176,
     "questions_wrong": 0,
-    "wins": 159,
-    "current_streak": 1,
+    "wins": 176,
+    "current_streak": 2,
     "best_streak": 7,
     "games_played": 20,
-    "insane_guesses": 112,
+    "insane_guesses": 125,
     "day_streak": 6,
     "last_played_date": "2026-09-19",
     "total_xp": 301147,
@@ -47,24 +47,24 @@
     ]
   },
   "best_category": {
-    "category": "Marvel",
-    "points": 84,
-    "correct": 45
+    "category": "General Knowledge",
+    "points": 89,
+    "correct": 70
   },
   "best_insane_round": {
     "question_text": "Human Organs",
     "category": "General Knowledge",
     "guesses": 14
   },
-  "total_insane_correct": 181,
-  "average_guess_ms": 17441.993710691822,
+  "total_insane_correct": 194,
+  "average_guess_ms": 17873.852272727272,
   "activity": {
     "first_answered_at": "2026-09-08 22:30:21.511683+00:00",
     "active_days": 9
   },
   "spelling_accuracy": {
-    "exact_count": 268,
-    "total": 340
+    "exact_count": 290,
+    "total": 370
   },
   "achievements": {
     "catalog": [
@@ -2184,18 +2184,18 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 5,
-      "entertainment": 1,
-      "geo": 6,
-      "gk": 2,
-      "got": 0,
-      "marvel": 12,
-      "movies": 0,
+      "disney": 6,
+      "entertainment": 2,
+      "geo": 7,
+      "gk": 13,
+      "got": 1,
+      "marvel": 13,
+      "movies": 1,
       "music": 1,
-      "pokemon": 4,
+      "pokemon": 6,
       "sports": 0,
-      "videogames": 1,
-      "wrestling": 2,
+      "videogames": 3,
+      "wrestling": 4,
       "duelwins": 1,
       "duelstreak": 1
     }
