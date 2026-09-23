@@ -1,0 +1,95 @@
+{
+  "match": {
+    "id": 6,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "794420965387403265",
+    "format": 3,
+    "winner_id": "794420965387403265",
+    "challenger_score": 1,
+    "opponent_score": 1,
+    "decided_by_tiebreaker": true,
+    "ended_at": "2026-09-23 18:50:40.778181+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 3459,
+      "answered_at": "2026-09-23 18:50:40.780261+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "correct_answers": [
+        "New Zealand"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-23 18:50:40.780261+00:00",
+      "category": "General Knowledge",
+      "question_text": "What Native American ceremonial gift-giving feast was historically practiced by Pacific Northwest tribes?",
+      "correct_answers": [
+        "Potlatch"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 794420965387403265,
+      "response_time_ms": 12815,
+      "answered_at": "2026-09-23 18:50:40.780261+00:00",
+      "category": "House of the Dragon",
+      "question_text": "In Fire & Blood, which dragon kills Rhaenyra on Dragonstone?",
+      "correct_answers": [
+        "Sunfyre"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "insane",
+      "winner_id": 794420965387403265,
+      "response_time_ms": 3486,
+      "answered_at": "2026-09-23 18:50:40.780261+00:00",
+      "category": "General Knowledge",
+      "question_text": "Name all commonly known vegetables",
+      "correct_answers": [
+        "Carrot",
+        "Potato",
+        "Onion",
+        "Garlic",
+        "Broccoli",
+        "Cauliflower",
+        "Cabbage",
+        "Lettuce",
+        "Spinach",
+        "Kale",
+        "Celery",
+        "Cucumber",
+        "Zucchini",
+        "Squash",
+        "Pumpkin",
+        "Eggplant",
+        "Bell Pepper",
+        "Tomato",
+        "Corn",
+        "Peas",
+        "Green Beans",
+        "Asparagus",
+        "Beet",
+        "Radish",
+        "Turnip",
+        "Sweet Potato",
+        "Yam",
+        "Artichoke",
+        "Brussels Sprouts",
+        "Leek",
+        "Mushroom"
+      ]
+    }
+  ]
+}
