@@ -9,28 +9,28 @@
   },
   "total_xp": 726513,
   "period_stats": {
-    "daily_points": 105,
-    "daily_correct": 60,
-    "weekly_points": 1404,
-    "weekly_correct": 835,
-    "monthly_points": 4581,
-    "monthly_correct": 2547,
-    "yearly_points": 4780,
-    "yearly_correct": 2690,
-    "alltime_points": 4780,
-    "alltime_correct": 2690
+    "daily_points": 144,
+    "daily_correct": 78,
+    "weekly_points": 1443,
+    "weekly_correct": 853,
+    "monthly_points": 4620,
+    "monthly_correct": 2565,
+    "yearly_points": 4819,
+    "yearly_correct": 2708,
+    "alltime_points": 4819,
+    "alltime_correct": 2708
   },
   "stats_row": {
     "user_id": 734768348201615400,
     "guild_id": 861055530638114836,
-    "total_points": 3021,
-    "questions_right": 931,
+    "total_points": 3052,
+    "questions_right": 941,
     "questions_wrong": 0,
-    "wins": 931,
+    "wins": 941,
     "current_streak": 2,
     "best_streak": 14,
     "games_played": 39,
-    "insane_guesses": 830,
+    "insane_guesses": 838,
     "day_streak": 9,
     "last_played_date": "2026-09-23",
     "total_xp": 726513,
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 1759,
-  "average_guess_ms": 16057.921589688507,
+  "total_insane_correct": 1767,
+  "average_guess_ms": 16076.244420828905,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 25
   },
   "spelling_accuracy": {
-    "exact_count": 1593,
-    "total": 1908
+    "exact_count": 1610,
+    "total": 1926
   },
   "achievements": {
     "catalog": [
@@ -2209,16 +2209,16 @@
     },
     "category_counts": {
       "disney": 29,
-      "entertainment": 2,
-      "geo": 103,
-      "gk": 108,
+      "entertainment": 3,
+      "geo": 104,
+      "gk": 109,
       "got": 0,
-      "marvel": 2,
+      "marvel": 8,
       "movies": 2,
       "music": 4,
       "pokemon": 4,
-      "sports": 48,
-      "videogames": 4,
+      "sports": 49,
+      "videogames": 6,
       "wrestling": 172,
       "duelwins": 1,
       "duelstreak": 1
