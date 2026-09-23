@@ -9,35 +9,35 @@
   },
   "total_xp": 301147,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 146,
-    "weekly_correct": 77,
-    "monthly_points": 673,
-    "monthly_correct": 330,
-    "yearly_points": 673,
-    "yearly_correct": 330,
-    "alltime_points": 673,
-    "alltime_correct": 330
+    "daily_points": 29,
+    "daily_correct": 10,
+    "weekly_points": 175,
+    "weekly_correct": 87,
+    "monthly_points": 702,
+    "monthly_correct": 340,
+    "yearly_points": 702,
+    "yearly_correct": 340,
+    "alltime_points": 702,
+    "alltime_correct": 340
   },
   "stats_row": {
     "user_id": 794420965387403265,
     "guild_id": 861055530638114836,
-    "total_points": 494,
-    "questions_right": 151,
+    "total_points": 521,
+    "questions_right": 159,
     "questions_wrong": 0,
-    "wins": 151,
+    "wins": 159,
     "current_streak": 1,
-    "best_streak": 6,
+    "best_streak": 7,
     "games_played": 20,
-    "insane_guesses": 110,
+    "insane_guesses": 112,
     "day_streak": 6,
     "last_played_date": "2026-09-19",
     "total_xp": 301147,
     "game_wins": 4,
-    "achievement_best_streak": 6
+    "achievement_best_streak": 7
   },
-  "best_streak": 6,
+  "best_streak": 7,
   "fastest_guess": {
     "response_time_ms": 2810,
     "question_text": "In Joker, what is Arthur's last name?",
@@ -56,15 +56,15 @@
     "category": "General Knowledge",
     "guesses": 14
   },
-  "total_insane_correct": 179,
-  "average_guess_ms": 17454.8940397351,
+  "total_insane_correct": 181,
+  "average_guess_ms": 17441.993710691822,
   "activity": {
     "first_answered_at": "2026-09-08 22:30:21.511683+00:00",
-    "active_days": 8
+    "active_days": 9
   },
   "spelling_accuracy": {
-    "exact_count": 262,
-    "total": 330
+    "exact_count": 268,
+    "total": 340
   },
   "achievements": {
     "catalog": [
@@ -2185,17 +2185,17 @@
     },
     "category_counts": {
       "disney": 5,
-      "entertainment": 0,
-      "geo": 4,
+      "entertainment": 1,
+      "geo": 6,
       "gk": 2,
       "got": 0,
       "marvel": 12,
       "movies": 0,
-      "music": 0,
-      "pokemon": 3,
+      "music": 1,
+      "pokemon": 4,
       "sports": 0,
-      "videogames": 0,
-      "wrestling": 1,
+      "videogames": 1,
+      "wrestling": 2,
       "duelwins": 1,
       "duelstreak": 1
     }
