@@ -1,0 +1,77 @@
+{
+  "match": {
+    "id": 12,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "795847206719717386",
+    "opponent_id": "794420965387403265",
+    "format": 5,
+    "winner_id": "794420965387403265",
+    "challenger_score": 0,
+    "opponent_score": 1,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-24 00:48:06.480891+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:48:06.482892+00:00",
+      "category": "Chemistry",
+      "question_text": "The individual units of proteins are called amino acids. What is the term for short chains of these amino acids?",
+      "correct_answers": [
+        "Peptides"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 794420965387403265,
+      "response_time_ms": 11711,
+      "answered_at": "2026-09-24 00:48:06.482892+00:00",
+      "category": "Family Guy",
+      "question_text": "What condition does Joe Swanson's son Kevin struggle with after returning from military service?",
+      "correct_answers": [
+        "PTSD"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:48:06.482892+00:00",
+      "category": "Sports",
+      "question_text": "Which English army officer patented an early standardized version of lawn tennis in 1874, becoming known as the sport's 'father'?",
+      "correct_answers": [
+        "Walter Clopton Wingfield"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:48:06.482892+00:00",
+      "category": "Sports",
+      "question_text": "What was Muhammad Ali's birth name?",
+      "correct_answers": [
+        "Cassius Clay"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:48:06.482892+00:00",
+      "category": "Disney",
+      "question_text": "What is the name of the mule in Old Yeller?",
+      "correct_answers": [
+        "Jumper"
+      ]
+    }
+  ]
+}
