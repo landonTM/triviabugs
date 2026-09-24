@@ -1,0 +1,103 @@
+{
+  "match": {
+    "id": 14,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "795847206719717386",
+    "opponent_id": "433990857063137282",
+    "format": 5,
+    "winner_id": "433990857063137282",
+    "challenger_score": 1,
+    "opponent_score": 1,
+    "decided_by_tiebreaker": true,
+    "ended_at": "2026-09-24 22:14:43.286054+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 795847206719717386,
+      "response_time_ms": 19212,
+      "answered_at": "2026-09-24 22:14:43.287940+00:00",
+      "category": "Music",
+      "question_text": "In what year did the Beatles officially split up?",
+      "correct_answers": [
+        "1970"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 22:14:43.287940+00:00",
+      "category": "Video Games",
+      "question_text": "In The Elder Scrolls: Oblivion, the horse that goes by the name Shadowmere is given by what guild?",
+      "correct_answers": [
+        "Dark Brotherhood"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 22:14:43.287940+00:00",
+      "category": "Whos That Pokemon (Gen 7)",
+      "question_text": "Who's that Pokémon?",
+      "correct_answers": [
+        "Drampa"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 22:14:43.287940+00:00",
+      "category": "Movies",
+      "question_text": "In The Sixth Sense, what is Malcolm Crowe's profession?",
+      "correct_answers": [
+        "Psychologist"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 12716,
+      "answered_at": "2026-09-24 22:14:43.287940+00:00",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "correct_answers": [
+        "Albania"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "insane",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 3077,
+      "answered_at": "2026-09-24 22:14:43.287940+00:00",
+      "category": "Wrestling",
+      "question_text": "Every WWE Women's World Champion (SmackDown Women's Championship lineage)",
+      "correct_answers": [
+        "Becky Lynch",
+        "Alexa Bliss",
+        "Naomi",
+        "Natalya",
+        "Charlotte Flair",
+        "Carmella",
+        "Asuka",
+        "Bayley",
+        "Sasha Banks",
+        "Bianca Belair",
+        "Ronda Rousey",
+        "Liv Morgan",
+        "Rhea Ripley",
+        "Iyo Sky",
+        "Stephanie Vaquer"
+      ]
+    }
+  ]
+}
