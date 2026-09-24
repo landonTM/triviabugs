@@ -1,0 +1,77 @@
+{
+  "match": {
+    "id": 15,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "734768348201615400",
+    "opponent_id": "433990857063137282",
+    "format": 5,
+    "winner_id": "734768348201615400",
+    "challenger_score": 2,
+    "opponent_score": 1,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-24 22:17:15.340690+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 22:17:15.342705+00:00",
+      "category": "Whos That Pokemon (Gen 6)",
+      "question_text": "Who's that Pokémon?",
+      "correct_answers": [
+        "Volcanion"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 734768348201615400,
+      "response_time_ms": 14208,
+      "answered_at": "2026-09-24 22:17:15.342705+00:00",
+      "category": "Music",
+      "question_text": "Which female pop-star's debut album was called \"Honey to the B\"?",
+      "correct_answers": [
+        "Billie"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 734768348201615400,
+      "response_time_ms": 7533,
+      "answered_at": "2026-09-24 22:17:15.342705+00:00",
+      "category": "Greek Mythology",
+      "question_text": "Which goddess is associated with flowers?",
+      "correct_answers": [
+        "Persephone"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 22:17:15.342705+00:00",
+      "category": "Whos That Pokemon (Gen 5)",
+      "question_text": "Who's that Pokémon?",
+      "correct_answers": [
+        "Stunfisk"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 4338,
+      "answered_at": "2026-09-24 22:17:15.342705+00:00",
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Internet/Texting: FYI",
+      "correct_answers": [
+        "For Your Information"
+      ]
+    }
+  ]
+}
