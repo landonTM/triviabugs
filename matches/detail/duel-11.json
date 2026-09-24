@@ -1,0 +1,138 @@
+{
+  "match": {
+    "id": 11,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 7,
+    "winner_id": "184456115927384065",
+    "challenger_score": 1,
+    "opponent_score": 1,
+    "decided_by_tiebreaker": true,
+    "ended_at": "2026-09-24 00:45:35.622390+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 15172,
+      "answered_at": "2026-09-24 00:45:35.624316+00:00",
+      "category": "Whos That Pokemon (Gen 1)",
+      "question_text": "Who's that Pokémon?",
+      "correct_answers": [
+        "Venusaur"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:45:35.624316+00:00",
+      "category": "Whos That Pokemon (Gen 8)",
+      "question_text": "Who's that Pokémon?",
+      "correct_answers": [
+        "Rolycoly"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:45:35.624316+00:00",
+      "category": "Art and Literature",
+      "question_text": "Paint applied very thickly. It often projects from the picture surface?",
+      "correct_answers": [
+        "Impasto"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 13468,
+      "answered_at": "2026-09-24 00:45:35.624316+00:00",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "correct_answers": [
+        "South Sudan"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:45:35.624316+00:00",
+      "category": "Game of Thrones",
+      "question_text": "What skilled sellsword is hired as a bodyguard by Tyrion Lannister?",
+      "correct_answers": [
+        "Bronn"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:45:35.624316+00:00",
+      "category": "Space",
+      "question_text": "The Big Bang theory was first proposed by Georges Lemaitre, a priest of which church?",
+      "correct_answers": [
+        "Catholic"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:45:35.624316+00:00",
+      "category": "Chemistry",
+      "question_text": "Which British chemist is best known for his book \"The Sceptical Chymist\"?",
+      "correct_answers": [
+        "Robert Boyle"
+      ]
+    },
+    {
+      "round_number": 8,
+      "mode": "insane",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 6555,
+      "answered_at": "2026-09-24 00:45:35.624316+00:00",
+      "category": "Movies",
+      "question_text": "Every Martin Scorsese film",
+      "correct_answers": [
+        "Who's That Knocking at My Door",
+        "Boxcar Bertha",
+        "Mean Streets",
+        "Alice Doesn't Live Here Anymore",
+        "Taxi Driver",
+        "New York, New York",
+        "Raging Bull",
+        "The King of Comedy",
+        "After Hours",
+        "The Color of Money",
+        "The Last Temptation of Christ",
+        "Goodfellas",
+        "Cape Fear",
+        "The Age of Innocence",
+        "Casino",
+        "Kundun",
+        "Bringing Out the Dead",
+        "Gangs of New York",
+        "The Aviator",
+        "The Departed",
+        "Shutter Island",
+        "Hugo",
+        "The Wolf of Wall Street",
+        "Silence",
+        "The Irishman",
+        "Killers of the Flower Moon"
+      ]
+    }
+  ]
+}
