@@ -1,0 +1,77 @@
+{
+  "match": {
+    "id": 16,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "795847206719717386",
+    "opponent_id": "734768348201615400",
+    "format": 5,
+    "winner_id": "795847206719717386",
+    "challenger_score": 3,
+    "opponent_score": 1,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-24 22:19:39.129787+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 795847206719717386,
+      "response_time_ms": 16641,
+      "answered_at": "2026-09-24 22:19:39.132321+00:00",
+      "category": "Chemistry",
+      "question_text": "pH is defined in terms of the activity of which ion?",
+      "correct_answers": [
+        "Hydrogen ions"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 22:19:39.132321+00:00",
+      "category": "Pokemon",
+      "question_text": "What does a Ganlon berry increase?",
+      "correct_answers": [
+        "Defense"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 795847206719717386,
+      "response_time_ms": 3033,
+      "answered_at": "2026-09-24 22:19:39.132321+00:00",
+      "category": "Geography",
+      "question_text": "What is the largest country in the world in terms of land area?",
+      "correct_answers": [
+        "Russia"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 734768348201615400,
+      "response_time_ms": 14430,
+      "answered_at": "2026-09-24 22:19:39.132321+00:00",
+      "category": "Movies",
+      "question_text": "In Oppenheimer, what New Mexico site houses the secret laboratory?",
+      "correct_answers": [
+        "Los Alamos"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": 795847206719717386,
+      "response_time_ms": 13670,
+      "answered_at": "2026-09-24 22:19:39.132321+00:00",
+      "category": "Music",
+      "question_text": "With which group would you most associate singer Bobby Gillespie?",
+      "correct_answers": [
+        "Primal Scream"
+      ]
+    }
+  ]
+}
