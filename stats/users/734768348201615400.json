@@ -1,40 +1,40 @@
 {
   "user_id": 734768348201615400,
   "level": {
-    "level": 38,
-    "xp_into_level": 47514,
-    "xp_for_level": 51000,
-    "progress": 0.9316470588235294,
+    "level": 39,
+    "xp_into_level": 2836,
+    "xp_for_level": 53000,
+    "progress": 0.05350943396226415,
     "maxed": false
   },
-  "total_xp": 741014,
+  "total_xp": 747336,
   "period_stats": {
-    "daily_points": 119,
-    "daily_correct": 78,
-    "weekly_points": 1398,
-    "weekly_correct": 868,
-    "monthly_points": 4811,
-    "monthly_correct": 2697,
-    "yearly_points": 5010,
-    "yearly_correct": 2840,
-    "alltime_points": 5010,
-    "alltime_correct": 2840
+    "daily_points": 160,
+    "daily_correct": 104,
+    "weekly_points": 1388,
+    "weekly_correct": 850,
+    "monthly_points": 4852,
+    "monthly_correct": 2723,
+    "yearly_points": 5051,
+    "yearly_correct": 2866,
+    "alltime_points": 5051,
+    "alltime_correct": 2866
   },
   "stats_row": {
     "user_id": 734768348201615400,
     "guild_id": 861055530638114836,
-    "total_points": 3135,
-    "questions_right": 965,
+    "total_points": 3155,
+    "questions_right": 970,
     "questions_wrong": 0,
-    "wins": 965,
-    "current_streak": 1,
+    "wins": 970,
+    "current_streak": 2,
     "best_streak": 14,
-    "games_played": 42,
-    "insane_guesses": 946,
-    "day_streak": 9,
-    "last_played_date": "2026-09-23",
-    "total_xp": 741014,
-    "game_wins": 20,
+    "games_played": 43,
+    "insane_guesses": 967,
+    "day_streak": 10,
+    "last_played_date": "2026-09-24",
+    "total_xp": 747336,
+    "game_wins": 21,
     "achievement_best_streak": 14
   },
   "best_streak": 14,
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 1875,
-  "average_guess_ms": 16009.073575129534,
+  "total_insane_correct": 1896,
+  "average_guess_ms": 15949.184536082474,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1722,
-    "total": 2058
+    "exact_count": 1738,
+    "total": 2084
   },
   "achievements": {
     "catalog": [
@@ -2211,7 +2211,7 @@
     "category_counts": {
       "disney": 30,
       "entertainment": 5,
-      "geo": 179,
+      "geo": 184,
       "gk": 113,
       "got": 0,
       "marvel": 9,
@@ -2219,7 +2219,7 @@
       "music": 5,
       "pokemon": 4,
       "sports": 52,
-      "videogames": 7,
+      "videogames": 8,
       "wrestling": 187,
       "duelwins": 1,
       "duelstreak": 1
@@ -2440,8 +2440,8 @@
       "key": "cat",
       "label": "Cat Emoji Pack",
       "unlock_level": 39,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "emoji",
@@ -2776,8 +2776,8 @@
       "key": "blush",
       "label": "Blush Embed",
       "unlock_level": 39,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "embedcolor",
