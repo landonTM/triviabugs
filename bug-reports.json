@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-21T17:43:00.947031+00:00",
+  "generated_at": "2026-09-24T18:30:11.448003+00:00",
   "reports": [
+    {
+      "id": 77,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1552748700973932655",
+      "reported_by": "184456115927384065",
+      "reported_by_name": "ᕦ(ò_óˇ)ᕤ ( ＾∀＾) ( 😽) 🇬🇪🇧🇷",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-24T18:30:11.443780+00:00",
+      "fixed_at": null,
+      "category": "Star Wars",
+      "question_type": "standard",
+      "question_text": "What is the name of the new astromech droid in TFA?",
+      "correct_answers": [
+        "jRqyoQ=="
+      ]
+    },
     {
       "id": 76,
       "guild_id": "861055530638114836",
@@ -77,7 +95,7 @@
       "question_type": "standard",
       "question_text": "Which Infinity Stone is the Aether later revealed to be?",
       "correct_answers": [
-        "nT3+9fyZnqor3yno1Q=="
+        "nT3+9fyZng=="
       ]
     },
     {
@@ -95,7 +113,7 @@
       "question_type": "standard",
       "question_text": "What alien technology does Toomes' crew salvage and turn into weapons?",
       "correct_answers": [
-        "jDD27fSYleNY3yPl2KXjGkTDrw=="
+        "jDD27fSYleM="
       ]
     },
     {
@@ -227,9 +245,9 @@
       "fixed_at": "2026-09-21T17:38:19.285221+00:00",
       "category": "House of the Dragon",
       "question_type": "standard",
-      "question_text": "What does Alicent demand as payment for Aemond losing an eye?",
+      "question_text": "Whose eye does Alicent demand as payment for Aemond losing an eye?",
       "correct_answers": [
-        "gDb6ufqLx8YNyCP0ybirBQvBr25U"
+        "gy38/OeUlA=="
       ]
     },
     {
@@ -263,7 +281,7 @@
       "fixed_at": "2026-09-21T17:38:19.281594+00:00",
       "category": "Marvel",
       "question_type": "standard",
-      "question_text": "What is the name of Lauren and Andy's mother?",
+      "question_text": "In The Gifted, what is the name of Lauren and Andy's mother?",
       "correct_answers": [
         "jDn27fmEiaor3zTz06DpBA=="
       ]
@@ -283,7 +301,7 @@
       "question_type": "standard",
       "question_text": "What happens to Mjolnir early in Thor: Ragnarok?",
       "correct_answers": [
-        "hz3z+LWJgvkM2Sn/w+vlAg=="
+        "iz3s7eeCnu8c"
       ]
     },
     {
@@ -584,42 +602,6 @@
       "question_text": "What is Glenn Quagmire's occupation?",
       "correct_answers": [
         "nzHz9uE="
-      ]
-    },
-    {
-      "id": 50,
-      "guild_id": "890466886540738621",
-      "channel_id": "1539491501564895283",
-      "message_id": "1548875137808474204",
-      "reported_by": "433990857063137282",
-      "reported_by_name": "landon",
-      "method": "reaction",
-      "status": "fixed",
-      "reported_at": "2026-09-14T01:56:51.490027+00:00",
-      "fixed_at": "2026-09-16T16:44:08.063447+00:00",
-      "category": "Marvel",
-      "question_type": "standard",
-      "question_text": "What is Pietro Maximoff's relationship to Wanda?",
-      "correct_answers": [
-        "jSrw7f2IlQ=="
-      ]
-    },
-    {
-      "id": 49,
-      "guild_id": "890466886540738621",
-      "channel_id": "1539491501564895283",
-      "message_id": "1548872402547638394",
-      "reported_by": "433990857063137282",
-      "reported_by_name": "landon",
-      "method": "reaction",
-      "status": "fixed",
-      "reported_at": "2026-09-14T01:46:08.058640+00:00",
-      "fixed_at": "2026-09-16T16:44:08.061515+00:00",
-      "category": "Marvel",
-      "question_type": "standard",
-      "question_text": "Which Infinity Stone is embedded in Vision's forehead?",
-      "correct_answers": [
-        "gjHx/Q=="
       ]
     },
     {
@@ -1133,7 +1115,7 @@
       "fixed_at": "2026-09-13T02:43:28.326251+00:00",
       "category": "General Knowledge",
       "question_type": "standard",
-      "question_text": "How many hours are there in a year?",
+      "question_text": "How many hours are there in a standard 365-day year?",
       "correct_answers": [
         "92+pqQ=="
       ]
@@ -1395,24 +1377,6 @@
       "question_text": "Which subnet mask would be used as the classful mask for the IP address 192.135.250.27?",
       "correct_answers": [
         "/W2qt6fY0qRKnnOogA=="
-      ]
-    },
-    {
-      "id": 5,
-      "guild_id": "890466886540738621",
-      "channel_id": "1539490560652611605",
-      "message_id": "1546742654698651709",
-      "reported_by": "433990857063137282",
-      "reported_by_name": "landon",
-      "method": "reaction",
-      "status": "fixed",
-      "reported_at": "2026-09-08T04:43:10.343984+00:00",
-      "fixed_at": "2026-09-08T04:57:39.282150+00:00",
-      "category": "World Capitals",
-      "question_type": "standard",
-      "question_text": "What is the capital of Morocco?",
-      "correct_answers": [
-        "nTn9+OE="
       ]
     },
     {
