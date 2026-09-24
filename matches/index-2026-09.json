@@ -352,6 +352,20 @@
       "started_at": "2026-09-24 00:49:07.602590+00:00",
       "ended_at": "2026-09-24 01:17:13.348190+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 10,
+      "kind": "game",
+      "mode": "daily",
+      "channel_id": "864342930076860426",
+      "total_rounds": 50,
+      "rounds_played": 50,
+      "categories": null,
+      "started_by": null,
+      "winner_id": "734768348201615400",
+      "started_at": "2026-09-24 18:00:06.804718+00:00",
+      "ended_at": "2026-09-24 18:54:42.982170+00:00",
+      "end_reason": "completed"
     }
   ]
 }
