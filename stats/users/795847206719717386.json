@@ -2,12 +2,12 @@
   "user_id": 795847206719717386,
   "level": {
     "level": 40,
-    "xp_into_level": 43534,
+    "xp_into_level": 47034,
     "xp_for_level": 55000,
-    "progress": 0.7915272727272727,
+    "progress": 0.8551636363636363,
     "maxed": false
   },
-  "total_xp": 841034,
+  "total_xp": 844534,
   "period_stats": {
     "daily_points": 150,
     "daily_correct": 92,
@@ -33,7 +33,7 @@
     "insane_guesses": 1110,
     "day_streak": 10,
     "last_played_date": "2026-09-24",
-    "total_xp": 841034,
+    "total_xp": 844534,
     "game_wins": 25,
     "achievement_best_streak": 17
   },
@@ -2207,7 +2207,8 @@
       "duel_nail_biter": "2026-09-24 00:42:06.030732+00:00",
       "got_50": "2026-09-24 00:58:15.575853+00:00",
       "marvel_50": "2026-09-24 21:45:43.413132+00:00",
-      "play_50_games": "2026-09-24 21:53:21.512862+00:00"
+      "play_50_games": "2026-09-24 21:53:21.512862+00:00",
+      "duelwins_5": "2026-09-24 22:41:04.742127+00:00"
     },
     "baselines": {
       "points": 1991,
@@ -2227,16 +2228,16 @@
       "sports": 23,
       "videogames": 13,
       "wrestling": 151,
-      "duelwins": 4,
+      "duelwins": 5,
       "duelstreak": 2
     }
   },
   "duel_stats": {
     "guild_id": 861055530638114836,
     "user_id": 795847206719717386,
-    "wins": 4,
+    "wins": 5,
     "losses": 3,
-    "current_streak": 1,
+    "current_streak": 2,
     "best_streak": 2
   },
   "kirkening_crownings": [
