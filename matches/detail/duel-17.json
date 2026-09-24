@@ -1,0 +1,53 @@
+{
+  "match": {
+    "id": 17,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "734768348201615400",
+    "format": 3,
+    "winner_id": "734768348201615400",
+    "challenger_score": 0,
+    "opponent_score": 1,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-24 22:38:48.346722+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 734768348201615400,
+      "response_time_ms": 5829,
+      "answered_at": "2026-09-24 22:38:48.348959+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "correct_answers": [
+        "Toyota"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 22:38:48.348959+00:00",
+      "category": "Lord of the Rings",
+      "question_text": "Which Vala was the tutor of Gandalf?",
+      "correct_answers": [
+        "Nienna"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 22:38:48.348959+00:00",
+      "category": "Whos That Pokemon (Gen 3)",
+      "question_text": "Who's that Pokémon?",
+      "correct_answers": [
+        "Makuhita"
+      ]
+    }
+  ]
+}
