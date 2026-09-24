@@ -1,0 +1,77 @@
+{
+  "match": {
+    "id": 10,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "795847206719717386",
+    "format": 5,
+    "winner_id": "795847206719717386",
+    "challenger_score": 1,
+    "opponent_score": 2,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-24 00:42:05.545430+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 795847206719717386,
+      "response_time_ms": 4021,
+      "answered_at": "2026-09-24 00:42:05.547478+00:00",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "correct_answers": [
+        "Austria"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:42:05.547478+00:00",
+      "category": "World Capitals",
+      "question_text": "What is the capital of Pakistan?",
+      "correct_answers": [
+        "Islamabad"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 11803,
+      "answered_at": "2026-09-24 00:42:05.547478+00:00",
+      "category": "General Knowledge",
+      "question_text": "Name the only footballer to have played for Liverpool, Everton, Manchester City and Manchester United.",
+      "correct_answers": [
+        "Peter Beardsley"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 795847206719717386,
+      "response_time_ms": 15195,
+      "answered_at": "2026-09-24 00:42:05.547478+00:00",
+      "category": "House of the Dragon",
+      "question_text": "What name does Viserys use for Aegon's prophetic dream about the coming darkness?",
+      "correct_answers": [
+        "The Song of Ice and Fire"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:42:05.547478+00:00",
+      "category": "Slogans",
+      "question_text": "Best Possible Start",
+      "correct_answers": [
+        "Fisher-Price"
+      ]
+    }
+  ]
+}
