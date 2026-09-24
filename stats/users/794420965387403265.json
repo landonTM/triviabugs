@@ -2,38 +2,38 @@
   "user_id": 794420965387403265,
   "level": {
     "level": 29,
-    "xp_into_level": 11721,
+    "xp_into_level": 12164,
     "xp_for_level": 33000,
-    "progress": 0.35518181818181815,
+    "progress": 0.3686060606060606,
     "maxed": false
   },
-  "total_xp": 336221,
+  "total_xp": 336664,
   "period_stats": {
-    "daily_points": 12,
-    "daily_correct": 5,
-    "weekly_points": 219,
-    "weekly_correct": 99,
-    "monthly_points": 807,
-    "monthly_correct": 390,
-    "yearly_points": 807,
-    "yearly_correct": 390,
-    "alltime_points": 807,
-    "alltime_correct": 390
+    "daily_points": 14,
+    "daily_correct": 6,
+    "weekly_points": 221,
+    "weekly_correct": 100,
+    "monthly_points": 809,
+    "monthly_correct": 391,
+    "yearly_points": 809,
+    "yearly_correct": 391,
+    "alltime_points": 809,
+    "alltime_correct": 391
   },
   "stats_row": {
     "user_id": 794420965387403265,
     "guild_id": 861055530638114836,
-    "total_points": 601,
-    "questions_right": 184,
+    "total_points": 603,
+    "questions_right": 185,
     "questions_wrong": 0,
-    "wins": 184,
-    "current_streak": 1,
+    "wins": 185,
+    "current_streak": 2,
     "best_streak": 7,
-    "games_played": 22,
+    "games_played": 23,
     "insane_guesses": 137,
     "day_streak": 1,
     "last_played_date": "2026-09-23",
-    "total_xp": 336221,
+    "total_xp": 336664,
     "game_wins": 6,
     "achievement_best_streak": 7
   },
@@ -48,8 +48,8 @@
   },
   "best_category": {
     "category": "General Knowledge",
-    "points": 93,
-    "correct": 71
+    "points": 95,
+    "correct": 72
   },
   "best_insane_round": {
     "question_text": "Human Organs",
@@ -57,14 +57,14 @@
     "guesses": 14
   },
   "total_insane_correct": 206,
-  "average_guess_ms": 17481.130434782608,
+  "average_guess_ms": 17524.691891891893,
   "activity": {
     "first_answered_at": "2026-09-08 22:30:21.511683+00:00",
     "active_days": 10
   },
   "spelling_accuracy": {
-    "exact_count": 309,
-    "total": 390
+    "exact_count": 310,
+    "total": 391
   },
   "achievements": {
     "catalog": [
@@ -2197,7 +2197,7 @@
       "disney": 8,
       "entertainment": 2,
       "geo": 7,
-      "gk": 14,
+      "gk": 15,
       "got": 1,
       "marvel": 13,
       "movies": 1,
