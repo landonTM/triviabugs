@@ -2,38 +2,38 @@
   "user_id": 184456115927384065,
   "level": {
     "level": 33,
-    "xp_into_level": 31970,
+    "xp_into_level": 33216,
     "xp_for_level": 41000,
-    "progress": 0.7797560975609756,
+    "progress": 0.8101463414634147,
     "maxed": false
   },
-  "total_xp": 500470,
+  "total_xp": 501716,
   "period_stats": {
-    "daily_points": 11,
-    "daily_correct": 8,
-    "weekly_points": 630,
-    "weekly_correct": 371,
-    "monthly_points": 1394,
-    "monthly_correct": 807,
-    "yearly_points": 1394,
-    "yearly_correct": 807,
-    "alltime_points": 1394,
-    "alltime_correct": 807
+    "daily_points": 15,
+    "daily_correct": 11,
+    "weekly_points": 634,
+    "weekly_correct": 374,
+    "monthly_points": 1398,
+    "monthly_correct": 810,
+    "yearly_points": 1398,
+    "yearly_correct": 810,
+    "alltime_points": 1398,
+    "alltime_correct": 810
   },
   "stats_row": {
     "user_id": 184456115927384065,
     "guild_id": 861055530638114836,
-    "total_points": 915,
-    "questions_right": 328,
+    "total_points": 917,
+    "questions_right": 329,
     "questions_wrong": 0,
-    "wins": 328,
+    "wins": 329,
     "current_streak": 1,
     "best_streak": 21,
-    "games_played": 51,
-    "insane_guesses": 308,
+    "games_played": 52,
+    "insane_guesses": 310,
     "day_streak": 9,
     "last_played_date": "2026-09-23",
-    "total_xp": 500470,
+    "total_xp": 501716,
     "game_wins": 18,
     "achievement_best_streak": 21
   },
@@ -56,15 +56,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 479,
-  "average_guess_ms": 22102.993902439022,
+  "total_insane_correct": 481,
+  "average_guess_ms": 22110.355623100302,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 21
   },
   "spelling_accuracy": {
-    "exact_count": 653,
-    "total": 715
+    "exact_count": 656,
+    "total": 718
   },
   "achievements": {
     "catalog": [
@@ -2214,7 +2214,7 @@
       "pokemon": 3,
       "sports": 68,
       "videogames": 0,
-      "wrestling": 60,
+      "wrestling": 62,
       "duelwins": 3,
       "duelstreak": 2
     }
