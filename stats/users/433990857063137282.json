@@ -1,13 +1,13 @@
 {
   "user_id": 433990857063137282,
   "level": {
-    "level": 38,
-    "xp_into_level": 37639,
-    "xp_for_level": 51000,
-    "progress": 0.7380196078431372,
+    "level": 39,
+    "xp_into_level": 39,
+    "xp_for_level": 53000,
+    "progress": 0.0007358490566037735,
     "maxed": false
   },
-  "total_xp": 731139,
+  "total_xp": 744539,
   "period_stats": {
     "daily_points": 9,
     "daily_correct": 9,
@@ -33,7 +33,7 @@
     "insane_guesses": 586,
     "day_streak": 2,
     "last_played_date": "2026-09-24",
-    "total_xp": 731139,
+    "total_xp": 744539,
     "game_wins": 23,
     "achievement_best_streak": 27
   },
@@ -2200,7 +2200,11 @@
       "gk_100": "2026-09-21 22:06:05.001276+00:00",
       "duel_win_as_challenger": "2026-09-22 23:41:11.016046+00:00",
       "duel_perfect_sweep": "2026-09-22 23:41:11.018366+00:00",
-      "duel_giant_slayer": "2026-09-22 23:41:11.019960+00:00"
+      "duel_giant_slayer": "2026-09-22 23:41:11.019960+00:00",
+      "duel_spelling_bee": "2026-09-24 22:12:37.451223+00:00",
+      "duel_win_as_opponent": "2026-09-24 22:14:44.024695+00:00",
+      "duel_tiebreaker_win": "2026-09-24 22:14:44.026448+00:00",
+      "duel_comeback": "2026-09-24 22:14:44.027947+00:00"
     },
     "baselines": {
       "points": 632,
@@ -2220,17 +2224,17 @@
       "sports": 17,
       "videogames": 2,
       "wrestling": 134,
-      "duelwins": 2,
-      "duelstreak": 1
+      "duelwins": 4,
+      "duelstreak": 2
     }
   },
   "duel_stats": {
     "guild_id": 861055530638114836,
     "user_id": 433990857063137282,
-    "wins": 2,
-    "losses": 7,
+    "wins": 4,
+    "losses": 8,
     "current_streak": 0,
-    "best_streak": 1
+    "best_streak": 2
   },
   "kirkening_crownings": [
     {
@@ -2458,8 +2462,8 @@
       "key": "cat",
       "label": "Cat Emoji Pack",
       "unlock_level": 39,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "emoji",
@@ -2794,8 +2798,8 @@
       "key": "blush",
       "label": "Blush Embed",
       "unlock_level": 39,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "embedcolor",
