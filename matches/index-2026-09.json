@@ -267,6 +267,45 @@
       "opponent_score": 1,
       "decided_by_tiebreaker": false,
       "ended_at": "2026-09-24 00:38:42.494723+00:00"
+    },
+    {
+      "id": 10,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "184456115927384065",
+      "opponent_id": "795847206719717386",
+      "format": 5,
+      "winner_id": "795847206719717386",
+      "challenger_score": 1,
+      "opponent_score": 2,
+      "decided_by_tiebreaker": false,
+      "ended_at": "2026-09-24 00:42:05.545430+00:00"
+    },
+    {
+      "id": 11,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "184456115927384065",
+      "opponent_id": "433990857063137282",
+      "format": 7,
+      "winner_id": "184456115927384065",
+      "challenger_score": 1,
+      "opponent_score": 1,
+      "decided_by_tiebreaker": true,
+      "ended_at": "2026-09-24 00:45:35.622390+00:00"
+    },
+    {
+      "id": 12,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "795847206719717386",
+      "opponent_id": "794420965387403265",
+      "format": 5,
+      "winner_id": "794420965387403265",
+      "challenger_score": 0,
+      "opponent_score": 1,
+      "decided_by_tiebreaker": false,
+      "ended_at": "2026-09-24 00:48:06.480891+00:00"
     }
   ]
 }
