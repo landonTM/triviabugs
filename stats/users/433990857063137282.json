@@ -2,23 +2,23 @@
   "user_id": 433990857063137282,
   "level": {
     "level": 38,
-    "xp_into_level": 36281,
+    "xp_into_level": 36431,
     "xp_for_level": 51000,
-    "progress": 0.7113921568627452,
+    "progress": 0.7143333333333334,
     "maxed": false
   },
-  "total_xp": 729781,
+  "total_xp": 729931,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 1831,
-    "weekly_correct": 772,
-    "monthly_points": 3117,
-    "monthly_correct": 1481,
-    "yearly_points": 3291,
-    "yearly_correct": 1574,
-    "alltime_points": 3291,
-    "alltime_correct": 1574
+    "daily_points": 4,
+    "daily_correct": 4,
+    "weekly_points": 1835,
+    "weekly_correct": 776,
+    "monthly_points": 3121,
+    "monthly_correct": 1485,
+    "yearly_points": 3295,
+    "yearly_correct": 1578,
+    "alltime_points": 3295,
+    "alltime_correct": 1578
   },
   "stats_row": {
     "user_id": 433990857063137282,
@@ -30,10 +30,10 @@
     "current_streak": 1,
     "best_streak": 27,
     "games_played": 63,
-    "insane_guesses": 577,
+    "insane_guesses": 581,
     "day_streak": 1,
     "last_played_date": "2026-09-23",
-    "total_xp": 729781,
+    "total_xp": 729931,
     "game_wins": 23,
     "achievement_best_streak": 27
   },
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 882,
+  "total_insane_correct": 886,
   "average_guess_ms": 17443.706647398845,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
-    "active_days": 23
+    "active_days": 24
   },
   "spelling_accuracy": {
-    "exact_count": 1182,
-    "total": 1360
+    "exact_count": 1186,
+    "total": 1364
   },
   "achievements": {
     "catalog": [
@@ -2208,9 +2208,9 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 16,
+      "disney": 17,
       "entertainment": 0,
-      "geo": 72,
+      "geo": 75,
       "gk": 101,
       "got": 2,
       "marvel": 40,
@@ -2228,7 +2228,7 @@
     "guild_id": 861055530638114836,
     "user_id": 433990857063137282,
     "wins": 2,
-    "losses": 6,
+    "losses": 7,
     "current_streak": 0,
     "best_streak": 1
   },
