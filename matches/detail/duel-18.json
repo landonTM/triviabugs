@@ -1,0 +1,53 @@
+{
+  "match": {
+    "id": 18,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "795847206719717386",
+    "opponent_id": "433990857063137282",
+    "format": 5,
+    "winner_id": "795847206719717386",
+    "challenger_score": 3,
+    "opponent_score": 0,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-24 22:41:04.329020+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 795847206719717386,
+      "response_time_ms": 13925,
+      "answered_at": "2026-09-24 22:41:04.330941+00:00",
+      "category": "Movies",
+      "question_text": "In Ferris Bueller's Day Off, what expensive car belongs to Cameron's father?",
+      "correct_answers": [
+        "Ferrari"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 795847206719717386,
+      "response_time_ms": 11355,
+      "answered_at": "2026-09-24 22:41:04.330941+00:00",
+      "category": "Art and Literature",
+      "question_text": "Who wrote the 'Noddy Stories'?",
+      "correct_answers": [
+        "Enid Blyton"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 795847206719717386,
+      "response_time_ms": 13346,
+      "answered_at": "2026-09-24 22:41:04.330941+00:00",
+      "category": "Video Games",
+      "question_text": "Who is the main villain of the Crash Bandicoot series?",
+      "correct_answers": [
+        "Neo Cortex"
+      ]
+    }
+  ]
+}
