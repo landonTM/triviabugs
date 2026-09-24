@@ -1,0 +1,77 @@
+{
+  "match": {
+    "id": 8,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 5,
+    "winner_id": "184456115927384065",
+    "challenger_score": 2,
+    "opponent_score": 0,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-24 00:35:47.227851+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:35:47.230044+00:00",
+      "category": "Movies",
+      "question_text": "In The Hunger Games, who mentors Katniss and Peeta?",
+      "correct_answers": [
+        "Haymitch Abernathy"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:35:47.230044+00:00",
+      "category": "Family Guy",
+      "question_text": "What street do the Griffin family live on?",
+      "correct_answers": [
+        "Spooner Street"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 9959,
+      "answered_at": "2026-09-24 00:35:47.230044+00:00",
+      "category": "Sports",
+      "question_text": "Which club is based at Stamford Bridge?",
+      "correct_answers": [
+        "Chelsea"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-24 00:35:47.230044+00:00",
+      "category": "World Capitals",
+      "question_text": "What is the capital of Suriname?",
+      "correct_answers": [
+        "Paramaribo"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 3180,
+      "answered_at": "2026-09-24 00:35:47.230044+00:00",
+      "category": "General Knowledge",
+      "question_text": "Who voiced Woody in the \"Toy Story\" film series?",
+      "correct_answers": [
+        "Tom Hanks"
+      ]
+    }
+  ]
+}
