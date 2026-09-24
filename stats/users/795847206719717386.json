@@ -2,39 +2,39 @@
   "user_id": 795847206719717386,
   "level": {
     "level": 40,
-    "xp_into_level": 21208,
+    "xp_into_level": 23121,
     "xp_for_level": 55000,
-    "progress": 0.3856,
+    "progress": 0.4203818181818182,
     "maxed": false
   },
-  "total_xp": 818708,
+  "total_xp": 820621,
   "period_stats": {
-    "daily_points": 47,
-    "daily_correct": 30,
-    "weekly_points": 1975,
-    "weekly_correct": 1168,
-    "monthly_points": 5629,
-    "monthly_correct": 3239,
-    "yearly_points": 5735,
-    "yearly_correct": 3298,
-    "alltime_points": 5735,
-    "alltime_correct": 3298
+    "daily_points": 65,
+    "daily_correct": 40,
+    "weekly_points": 1993,
+    "weekly_correct": 1178,
+    "monthly_points": 5647,
+    "monthly_correct": 3249,
+    "yearly_points": 5753,
+    "yearly_correct": 3308,
+    "alltime_points": 5753,
+    "alltime_correct": 3308
   },
   "stats_row": {
     "user_id": 795847206719717386,
     "guild_id": 861055530638114836,
-    "total_points": 3709,
-    "questions_right": 1272,
+    "total_points": 3721,
+    "questions_right": 1276,
     "questions_wrong": 0,
-    "wins": 1272,
-    "current_streak": 3,
+    "wins": 1276,
+    "current_streak": 1,
     "best_streak": 22,
-    "games_played": 47,
-    "insane_guesses": 1072,
+    "games_played": 48,
+    "insane_guesses": 1078,
     "day_streak": 9,
     "last_played_date": "2026-09-23",
-    "total_xp": 818708,
-    "game_wins": 23,
+    "total_xp": 820621,
+    "game_wins": 24,
     "achievement_best_streak": 17
   },
   "best_streak": 22,
@@ -48,23 +48,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 756,
-    "correct": 531
+    "points": 762,
+    "correct": 537
   },
   "best_insane_round": {
     "question_text": "Name all countries",
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2026,
-  "average_guess_ms": 20224.291666666668,
+  "total_insane_correct": 2032,
+  "average_guess_ms": 20207.435736677115,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 25
   },
   "spelling_accuracy": {
-    "exact_count": 2353,
-    "total": 2699
+    "exact_count": 2362,
+    "total": 2709
   },
   "achievements": {
     "catalog": [
@@ -2219,12 +2219,12 @@
       "gk": 122,
       "got": 55,
       "marvel": 51,
-      "movies": 3,
-      "music": 5,
+      "movies": 4,
+      "music": 6,
       "pokemon": 23,
       "sports": 17,
       "videogames": 1,
-      "wrestling": 134,
+      "wrestling": 140,
       "duelwins": 3,
       "duelstreak": 2
     }
