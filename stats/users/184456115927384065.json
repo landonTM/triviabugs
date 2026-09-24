@@ -2,38 +2,38 @@
   "user_id": 184456115927384065,
   "level": {
     "level": 34,
-    "xp_into_level": 7777,
+    "xp_into_level": 8289,
     "xp_for_level": 43000,
-    "progress": 0.18086046511627907,
+    "progress": 0.19276744186046513,
     "maxed": false
   },
-  "total_xp": 517277,
+  "total_xp": 517789,
   "period_stats": {
-    "daily_points": 74,
-    "daily_correct": 44,
-    "weekly_points": 651,
-    "weekly_correct": 377,
-    "monthly_points": 1457,
-    "monthly_correct": 843,
-    "yearly_points": 1457,
-    "yearly_correct": 843,
-    "alltime_points": 1457,
-    "alltime_correct": 843
+    "daily_points": 82,
+    "daily_correct": 48,
+    "weekly_points": 659,
+    "weekly_correct": 381,
+    "monthly_points": 1465,
+    "monthly_correct": 847,
+    "yearly_points": 1465,
+    "yearly_correct": 847,
+    "alltime_points": 1465,
+    "alltime_correct": 847
   },
   "stats_row": {
     "user_id": 184456115927384065,
     "guild_id": 861055530638114836,
-    "total_points": 959,
-    "questions_right": 345,
+    "total_points": 965,
+    "questions_right": 347,
     "questions_wrong": 0,
-    "wins": 345,
-    "current_streak": 2,
+    "wins": 347,
+    "current_streak": 1,
     "best_streak": 21,
-    "games_played": 54,
-    "insane_guesses": 327,
+    "games_played": 55,
+    "insane_guesses": 329,
     "day_streak": 10,
     "last_played_date": "2026-09-24",
-    "total_xp": 517277,
+    "total_xp": 517789,
     "game_wins": 18,
     "achievement_best_streak": 21
   },
@@ -48,23 +48,23 @@
   },
   "best_category": {
     "category": "Sports",
-    "points": 427,
-    "correct": 143
+    "points": 431,
+    "correct": 144
   },
   "best_insane_round": {
     "question_text": "WWE Champions",
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 498,
-  "average_guess_ms": 22198.63188405797,
+  "total_insane_correct": 500,
+  "average_guess_ms": 22149.478386167146,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 21
   },
   "spelling_accuracy": {
-    "exact_count": 686,
-    "total": 751
+    "exact_count": 690,
+    "total": 755
   },
   "achievements": {
     "catalog": [
@@ -2207,16 +2207,16 @@
     "category_counts": {
       "disney": 12,
       "entertainment": 1,
-      "geo": 55,
+      "geo": 56,
       "gk": 64,
       "got": 1,
       "marvel": 8,
       "movies": 1,
       "music": 3,
       "pokemon": 3,
-      "sports": 73,
+      "sports": 74,
       "videogames": 1,
-      "wrestling": 67,
+      "wrestling": 69,
       "duelwins": 3,
       "duelstreak": 2
     }
@@ -2225,8 +2225,8 @@
     "guild_id": 861055530638114836,
     "user_id": 184456115927384065,
     "wins": 3,
-    "losses": 1,
-    "current_streak": 1,
+    "losses": 2,
+    "current_streak": 0,
     "best_streak": 2
   },
   "kirkening_crownings": [],
