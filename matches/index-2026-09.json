@@ -380,6 +380,75 @@
       "started_at": "2026-09-24 21:11:17.375169+00:00",
       "ended_at": "2026-09-24 21:53:20.017973+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 12,
+      "kind": "game",
+      "mode": "standard",
+      "channel_id": "864342930076860426",
+      "total_rounds": 20,
+      "rounds_played": 20,
+      "categories": [
+        "sports",
+        "geography"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "734768348201615400",
+      "started_at": "2026-09-24 21:53:34.800668+00:00",
+      "ended_at": "2026-09-24 22:10:46.541299+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 13,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "433990857063137282",
+      "opponent_id": "184456115927384065",
+      "format": 3,
+      "winner_id": "433990857063137282",
+      "challenger_score": 2,
+      "opponent_score": 0,
+      "decided_by_tiebreaker": false,
+      "ended_at": "2026-09-24 22:12:37.027018+00:00"
+    },
+    {
+      "id": 14,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "795847206719717386",
+      "opponent_id": "433990857063137282",
+      "format": 5,
+      "winner_id": "433990857063137282",
+      "challenger_score": 1,
+      "opponent_score": 1,
+      "decided_by_tiebreaker": true,
+      "ended_at": "2026-09-24 22:14:43.286054+00:00"
+    },
+    {
+      "id": 15,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "734768348201615400",
+      "opponent_id": "433990857063137282",
+      "format": 5,
+      "winner_id": "734768348201615400",
+      "challenger_score": 2,
+      "opponent_score": 1,
+      "decided_by_tiebreaker": false,
+      "ended_at": "2026-09-24 22:17:15.340690+00:00"
+    },
+    {
+      "id": 16,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "795847206719717386",
+      "opponent_id": "734768348201615400",
+      "format": 5,
+      "winner_id": "795847206719717386",
+      "challenger_score": 3,
+      "opponent_score": 1,
+      "decided_by_tiebreaker": false,
+      "ended_at": "2026-09-24 22:19:39.129787+00:00"
     }
   ]
 }
