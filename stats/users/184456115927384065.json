@@ -2,38 +2,38 @@
   "user_id": 184456115927384065,
   "level": {
     "level": 39,
-    "xp_into_level": 5051,
+    "xp_into_level": 30051,
     "xp_for_level": 53000,
-    "progress": 0.09530188679245283,
+    "progress": 0.567,
     "maxed": false
   },
-  "total_xp": 749551,
+  "total_xp": 774551,
   "period_stats": {
-    "daily_points": 599,
-    "daily_correct": 225,
-    "weekly_points": 1076,
-    "weekly_correct": 486,
-    "monthly_points": 2064,
-    "monthly_correct": 1072,
-    "yearly_points": 2064,
-    "yearly_correct": 1072,
-    "alltime_points": 2064,
-    "alltime_correct": 1072
+    "daily_points": 651,
+    "daily_correct": 249,
+    "weekly_points": 1101,
+    "weekly_correct": 494,
+    "monthly_points": 2116,
+    "monthly_correct": 1096,
+    "yearly_points": 2116,
+    "yearly_correct": 1096,
+    "alltime_points": 2116,
+    "alltime_correct": 1096
   },
   "stats_row": {
     "user_id": 184456115927384065,
     "guild_id": 861055530638114836,
-    "total_points": 1485,
-    "questions_right": 493,
+    "total_points": 1533,
+    "questions_right": 513,
     "questions_wrong": 0,
-    "wins": 493,
-    "current_streak": 2,
+    "wins": 513,
+    "current_streak": 4,
     "best_streak": 21,
     "games_played": 79,
-    "insane_guesses": 408,
+    "insane_guesses": 412,
     "day_streak": 12,
     "last_played_date": "2026-09-26",
-    "total_xp": 749551,
+    "total_xp": 774551,
     "game_wins": 39,
     "achievement_best_streak": 21
   },
@@ -48,23 +48,23 @@
   },
   "best_category": {
     "category": "Sports",
-    "points": 808,
-    "correct": 246
+    "points": 816,
+    "correct": 248
   },
   "best_insane_round": {
     "question_text": "WWE Champions",
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 579,
-  "average_guess_ms": 20759.385395537523,
+  "total_insane_correct": 583,
+  "average_guess_ms": 21034.88888888889,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 22
   },
   "spelling_accuracy": {
-    "exact_count": 902,
-    "total": 980
+    "exact_count": 924,
+    "total": 1004
   },
   "achievements": {
     "catalog": [
@@ -2208,7 +2208,8 @@
       "wins_30": "2026-09-26 03:53:42.687748+00:00",
       "points_1000": "2026-09-26 04:14:31.693738+00:00",
       "hardcore_win": "2026-09-26 05:09:10.102718+00:00",
-      "hardcore_spelling": "2026-09-26 05:09:10.104704+00:00"
+      "hardcore_spelling": "2026-09-26 05:09:10.104704+00:00",
+      "wrestling_100": "2026-09-26 22:43:10.795151+00:00"
     },
     "baselines": {
       "points": 231,
@@ -2218,16 +2219,16 @@
     "category_counts": {
       "disney": 18,
       "entertainment": 1,
-      "geo": 70,
+      "geo": 74,
       "gk": 91,
       "got": 1,
-      "marvel": 8,
-      "movies": 7,
-      "music": 6,
+      "marvel": 9,
+      "movies": 12,
+      "music": 10,
       "pokemon": 3,
-      "sports": 176,
+      "sports": 178,
       "videogames": 4,
-      "wrestling": 105,
+      "wrestling": 108,
       "duelwins": 8,
       "duelstreak": 2
     }
