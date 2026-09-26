@@ -1,39 +1,39 @@
 {
   "user_id": 795847206719717386,
   "level": {
-    "level": 40,
-    "xp_into_level": 53032,
-    "xp_for_level": 55000,
-    "progress": 0.9642181818181819,
+    "level": 41,
+    "xp_into_level": 13284,
+    "xp_for_level": 58000,
+    "progress": 0.22903448275862068,
     "maxed": false
   },
-  "total_xp": 850532,
+  "total_xp": 865784,
   "period_stats": {
-    "daily_points": 105,
-    "daily_correct": 37,
-    "weekly_points": 691,
-    "weekly_correct": 408,
-    "monthly_points": 5837,
-    "monthly_correct": 3338,
-    "yearly_points": 5943,
-    "yearly_correct": 3397,
-    "alltime_points": 5943,
-    "alltime_correct": 3397
+    "daily_points": 117,
+    "daily_correct": 44,
+    "weekly_points": 664,
+    "weekly_correct": 386,
+    "monthly_points": 5849,
+    "monthly_correct": 3345,
+    "yearly_points": 5955,
+    "yearly_correct": 3404,
+    "alltime_points": 5955,
+    "alltime_correct": 3404
   },
   "stats_row": {
     "user_id": 795847206719717386,
     "guild_id": 861055530638114836,
-    "total_points": 3859,
-    "questions_right": 1313,
+    "total_points": 3868,
+    "questions_right": 1317,
     "questions_wrong": 0,
-    "wins": 1313,
+    "wins": 1317,
     "current_streak": 1,
     "best_streak": 22,
-    "games_played": 53,
-    "insane_guesses": 1130,
+    "games_played": 54,
+    "insane_guesses": 1133,
     "day_streak": 1,
     "last_played_date": "2026-09-26",
-    "total_xp": 850532,
+    "total_xp": 865784,
     "game_wins": 26,
     "achievement_best_streak": 17
   },
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2084,
-  "average_guess_ms": 20163.092916984006,
+  "total_insane_correct": 2087,
+  "average_guess_ms": 20177.48595292331,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 2439,
-    "total": 2798
+    "exact_count": 2445,
+    "total": 2805
   },
   "achievements": {
     "catalog": [
@@ -2209,7 +2209,8 @@
       "marvel_50": "2026-09-24 21:45:43.413132+00:00",
       "play_50_games": "2026-09-24 21:53:21.512862+00:00",
       "duelwins_5": "2026-09-24 22:41:04.742127+00:00",
-      "hardcore_win": "2026-09-26 16:28:59.685588+00:00"
+      "hardcore_win": "2026-09-26 16:28:59.685588+00:00",
+      "disney_50": "2026-09-26 18:43:53.027618+00:00"
     },
     "baselines": {
       "points": 1991,
@@ -2217,17 +2218,17 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 60,
+      "disney": 64,
       "entertainment": 7,
       "geo": 178,
       "gk": 140,
       "got": 61,
       "marvel": 53,
       "movies": 5,
-      "music": 7,
+      "music": 8,
       "pokemon": 25,
       "sports": 23,
-      "videogames": 14,
+      "videogames": 15,
       "wrestling": 153,
       "duelwins": 5,
       "duelstreak": 2
@@ -3157,8 +3158,8 @@
       "key": "magneto",
       "label": "Magneto MVP",
       "unlock_level": 41,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "mvp",
