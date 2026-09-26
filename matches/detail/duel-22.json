@@ -1,0 +1,53 @@
+{
+  "match": {
+    "id": 22,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 3,
+    "winner_id": "184456115927384065",
+    "challenger_score": 1,
+    "opponent_score": 0,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-26 02:11:25.917662+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 18748,
+      "answered_at": "2026-09-26 02:11:25.920036+00:00",
+      "category": "Video Games",
+      "question_text": "How much does Park Place cost in Monopoly (in US Dollars)?",
+      "correct_answers": [
+        "350"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-26 02:11:25.920036+00:00",
+      "category": "MLB",
+      "question_text": "What was Babe Ruth's nickname referencing his hitting power?",
+      "correct_answers": [
+        "The Sultan of Swat"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-26 02:11:25.920036+00:00",
+      "category": "Music",
+      "question_text": "Who was the lead singer with the band Thin Lizzy?",
+      "correct_answers": [
+        "Phil Lynott"
+      ]
+    }
+  ]
+}
