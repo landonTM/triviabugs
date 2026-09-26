@@ -1,0 +1,88 @@
+{
+  "game": {
+    "id": 27,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 10,
+    "rounds_played": 4,
+    "categories": [
+      "Sports"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "184456115927384065",
+    "started_at": "2026-09-26 04:14:28.134394+00:00",
+    "ended_at": "2026-09-26 04:16:10.918439+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 4905,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 04:14:28.511205+00:00",
+      "round_ended_at": "2026-09-26 04:14:31.469592+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+      "correct_answers": [
+        "13"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 2943,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 04:14:31.465347+00:00"
+    },
+    {
+      "round_id": 4906,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 04:14:41.899597+00:00",
+      "round_ended_at": "2026-09-26 04:14:46.108219+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "Which club has won the most FA Cup titles?",
+      "correct_answers": [
+        "Arsenal"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 4195,
+      "exact_match": false,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 04:14:46.104747+00:00"
+    },
+    {
+      "round_id": 4907,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 04:14:56.413959+00:00",
+      "round_ended_at": "2026-09-26 04:15:20.834184+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "_________ Panthers (NFL)",
+      "correct_answers": [
+        "Carolina"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 24404,
+      "exact_match": true,
+      "points_awarded": 2,
+      "answered_at": "2026-09-26 04:15:20.829969+00:00"
+    },
+    {
+      "round_id": 4908,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 04:15:31.073530+00:00",
+      "round_ended_at": "2026-09-26 04:16:10.663233+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "What is the name of the main stadium at the US Open, named after a tennis legend?",
+      "correct_answers": [
+        "Arthur Ashe Stadium"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 31291,
+      "exact_match": true,
+      "points_awarded": 2,
+      "answered_at": "2026-09-26 04:16:02.374272+00:00"
+    }
+  ]
+}
