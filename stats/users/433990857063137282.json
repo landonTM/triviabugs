@@ -2,23 +2,23 @@
   "user_id": 433990857063137282,
   "level": {
     "level": 39,
-    "xp_into_level": 623,
+    "xp_into_level": 7385,
     "xp_for_level": 53000,
-    "progress": 0.011754716981132075,
+    "progress": 0.13933962264150943,
     "maxed": false
   },
-  "total_xp": 745123,
+  "total_xp": 751885,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 1234,
-    "weekly_correct": 540,
-    "monthly_points": 3127,
-    "monthly_correct": 1491,
-    "yearly_points": 3301,
-    "yearly_correct": 1584,
-    "alltime_points": 3301,
-    "alltime_correct": 1584
+    "daily_points": 19,
+    "daily_correct": 19,
+    "weekly_points": 1218,
+    "weekly_correct": 548,
+    "monthly_points": 3146,
+    "monthly_correct": 1510,
+    "yearly_points": 3320,
+    "yearly_correct": 1603,
+    "alltime_points": 3320,
+    "alltime_correct": 1603
   },
   "stats_row": {
     "user_id": 433990857063137282,
@@ -29,11 +29,11 @@
     "wins": 693,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 66,
-    "insane_guesses": 587,
+    "games_played": 67,
+    "insane_guesses": 606,
     "day_streak": 3,
     "last_played_date": "2026-09-25",
-    "total_xp": 745123,
+    "total_xp": 751885,
     "game_wins": 23,
     "achievement_best_streak": 27
   },
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 892,
+  "total_insane_correct": 911,
   "average_guess_ms": 17443.706647398845,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
-    "active_days": 25
+    "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1190,
-    "total": 1370
+    "exact_count": 1209,
+    "total": 1389
   },
   "achievements": {
     "catalog": [
@@ -2204,7 +2204,8 @@
       "duel_spelling_bee": "2026-09-24 22:12:37.451223+00:00",
       "duel_win_as_opponent": "2026-09-24 22:14:44.024695+00:00",
       "duel_tiebreaker_win": "2026-09-24 22:14:44.026448+00:00",
-      "duel_comeback": "2026-09-24 22:14:44.027947+00:00"
+      "duel_comeback": "2026-09-24 22:14:44.027947+00:00",
+      "duelwins_5": "2026-09-26 02:09:22.887343+00:00"
     },
     "baselines": {
       "points": 632,
@@ -2215,24 +2216,24 @@
       "disney": 17,
       "entertainment": 0,
       "geo": 78,
-      "gk": 102,
+      "gk": 104,
       "got": 2,
       "marvel": 40,
       "movies": 0,
       "music": 1,
       "pokemon": 9,
       "sports": 17,
-      "videogames": 2,
+      "videogames": 19,
       "wrestling": 134,
-      "duelwins": 4,
+      "duelwins": 6,
       "duelstreak": 2
     }
   },
   "duel_stats": {
     "guild_id": 861055530638114836,
     "user_id": 433990857063137282,
-    "wins": 4,
-    "losses": 10,
+    "wins": 6,
+    "losses": 14,
     "current_streak": 0,
     "best_streak": 2
   },
