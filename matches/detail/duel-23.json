@@ -1,0 +1,41 @@
+{
+  "match": {
+    "id": 23,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 3,
+    "winner_id": "433990857063137282",
+    "challenger_score": 0,
+    "opponent_score": 2,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-26 02:12:11.294303+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 12956,
+      "answered_at": "2026-09-26 02:12:11.297165+00:00",
+      "category": "Entertainment",
+      "question_text": "Kelsey Grammer sings and plays the theme song for which TV show?",
+      "correct_answers": [
+        "Frasier"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 17272,
+      "answered_at": "2026-09-26 02:12:11.297165+00:00",
+      "category": "House of the Dragon",
+      "question_text": "In Fire & Blood, which young son of Rhaenyra is captured during the events leading into the Battle of the Gullet?",
+      "correct_answers": [
+        "Viserys Targaryen"
+      ]
+    }
+  ]
+}
