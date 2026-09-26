@@ -1,39 +1,39 @@
 {
   "user_id": 433990857063137282,
   "level": {
-    "level": 39,
-    "xp_into_level": 45135,
-    "xp_for_level": 53000,
-    "progress": 0.8516037735849057,
+    "level": 40,
+    "xp_into_level": 2135,
+    "xp_for_level": 55000,
+    "progress": 0.03881818181818182,
     "maxed": false
   },
-  "total_xp": 789635,
+  "total_xp": 799635,
   "period_stats": {
-    "daily_points": 207,
-    "daily_correct": 110,
-    "weekly_points": 1114,
-    "weekly_correct": 501,
-    "monthly_points": 3334,
-    "monthly_correct": 1601,
-    "yearly_points": 3508,
-    "yearly_correct": 1694,
-    "alltime_points": 3508,
-    "alltime_correct": 1694
+    "daily_points": 366,
+    "daily_correct": 154,
+    "weekly_points": 1273,
+    "weekly_correct": 545,
+    "monthly_points": 3493,
+    "monthly_correct": 1645,
+    "yearly_points": 3667,
+    "yearly_correct": 1738,
+    "alltime_points": 3667,
+    "alltime_correct": 1738
   },
   "stats_row": {
     "user_id": 433990857063137282,
     "guild_id": 861055530638114836,
-    "total_points": 2539,
-    "questions_right": 722,
+    "total_points": 2677,
+    "questions_right": 745,
     "questions_wrong": 0,
-    "wins": 722,
+    "wins": 745,
     "current_streak": 1,
     "best_streak": 27,
     "games_played": 78,
-    "insane_guesses": 668,
+    "insane_guesses": 689,
     "day_streak": 4,
     "last_played_date": "2026-09-26",
-    "total_xp": 789635,
+    "total_xp": 799635,
     "game_wins": 25,
     "achievement_best_streak": 27
   },
@@ -48,23 +48,23 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 596,
-    "correct": 102
+    "points": 626,
+    "correct": 107
   },
   "best_insane_round": {
     "question_text": "Name every US state",
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 973,
-  "average_guess_ms": 17385.101248266295,
+  "total_insane_correct": 994,
+  "average_guess_ms": 17073.907258064515,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1292,
-    "total": 1480
+    "exact_count": 1331,
+    "total": 1524
   },
   "achievements": {
     "catalog": [
@@ -2208,7 +2208,8 @@
       "duelwins_5": "2026-09-26 02:09:22.887343+00:00",
       "quickfire_win": "2026-09-26 03:29:20.279883+00:00",
       "hardcore_win": "2026-09-26 04:55:54.903702+00:00",
-      "hardcore_marathon": "2026-09-26 04:55:54.905516+00:00"
+      "hardcore_marathon": "2026-09-26 04:55:54.905516+00:00",
+      "marvel_50": "2026-09-26 14:06:00.731488+00:00"
     },
     "baselines": {
       "points": 632,
@@ -2216,18 +2217,18 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 24,
+      "disney": 32,
       "entertainment": 0,
       "geo": 80,
-      "gk": 130,
+      "gk": 133,
       "got": 2,
-      "marvel": 40,
+      "marvel": 51,
       "movies": 1,
-      "music": 3,
+      "music": 10,
       "pokemon": 9,
-      "sports": 24,
+      "sports": 27,
       "videogames": 44,
-      "wrestling": 142,
+      "wrestling": 149,
       "duelwins": 7,
       "duelstreak": 2
     }
@@ -2698,8 +2699,8 @@
       "key": "lolcat",
       "label": "LOLCAT Response Theme",
       "unlock_level": 40,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "theme",
