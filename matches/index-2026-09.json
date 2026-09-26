@@ -934,6 +934,22 @@
       "started_at": "2026-09-26 13:40:35.434579+00:00",
       "ended_at": "2026-09-26 14:18:22.987649+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 35,
+      "kind": "game",
+      "mode": "hardcore",
+      "channel_id": "864342930076860426",
+      "total_rounds": 10,
+      "rounds_played": 10,
+      "categories": [
+        "Sports"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-26 16:00:39.656644+00:00",
+      "ended_at": "2026-09-26 16:08:52.822015+00:00",
+      "end_reason": "completed"
     }
   ]
 }
