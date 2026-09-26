@@ -1,70 +1,70 @@
 {
   "user_id": 734768348201615400,
   "level": {
-    "level": 40,
-    "xp_into_level": 37391,
-    "xp_for_level": 55000,
-    "progress": 0.6798363636363637,
+    "level": 41,
+    "xp_into_level": 11527,
+    "xp_for_level": 58000,
+    "progress": 0.19874137931034483,
     "maxed": false
   },
-  "total_xp": 834891,
+  "total_xp": 864027,
   "period_stats": {
-    "daily_points": 67,
-    "daily_correct": 37,
-    "weekly_points": 1225,
-    "weekly_correct": 751,
-    "monthly_points": 5118,
-    "monthly_correct": 2882,
-    "yearly_points": 5317,
-    "yearly_correct": 3025,
-    "alltime_points": 5317,
-    "alltime_correct": 3025
+    "daily_points": 268,
+    "daily_correct": 126,
+    "weekly_points": 1426,
+    "weekly_correct": 840,
+    "monthly_points": 5319,
+    "monthly_correct": 2971,
+    "yearly_points": 5518,
+    "yearly_correct": 3114,
+    "alltime_points": 5518,
+    "alltime_correct": 3114
   },
   "stats_row": {
     "user_id": 734768348201615400,
     "guild_id": 861055530638114836,
-    "total_points": 3309,
-    "questions_right": 1017,
+    "total_points": 3461,
+    "questions_right": 1057,
     "questions_wrong": 0,
-    "wins": 1017,
-    "current_streak": 1,
-    "best_streak": 14,
-    "games_played": 47,
-    "insane_guesses": 1079,
+    "wins": 1057,
+    "current_streak": 3,
+    "best_streak": 37,
+    "games_played": 48,
+    "insane_guesses": 1128,
     "day_streak": 12,
     "last_played_date": "2026-09-26",
-    "total_xp": 834891,
-    "game_wins": 25,
-    "achievement_best_streak": 14
+    "total_xp": 864027,
+    "game_wins": 26,
+    "achievement_best_streak": 37
   },
-  "best_streak": 14,
+  "best_streak": 37,
   "fastest_guess": {
-    "response_time_ms": 2665,
-    "question_text": "_________ Heat (NBA)",
-    "category": "Sports",
+    "response_time_ms": 2593,
+    "question_text": "What promotion was Sting most associated with before joining WWE?",
+    "category": "Wrestling",
     "correct_answers": [
-      "Miami"
+      "WCW"
     ]
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 949,
-    "correct": 683
+    "points": 1071,
+    "correct": 714
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2008,
-  "average_guess_ms": 15911.319567354965,
+  "total_insane_correct": 2057,
+  "average_guess_ms": 15697.053926206245,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 28
   },
   "spelling_accuracy": {
-    "exact_count": 1875,
-    "total": 2243
+    "exact_count": 1950,
+    "total": 2332
   },
   "achievements": {
     "catalog": [
@@ -2206,7 +2206,10 @@
       "duel_spelling_bee": "2026-09-24 22:17:15.895759+00:00",
       "duel_perfect_sweep": "2026-09-24 22:38:48.893347+00:00",
       "duel_rival_slayer": "2026-09-24 22:38:48.896355+00:00",
-      "wrestling_250": "2026-09-26 18:58:04.768646+00:00"
+      "wrestling_250": "2026-09-26 18:58:04.768646+00:00",
+      "streak_15": "2026-09-26 19:53:18.865425+00:00",
+      "streak_20": "2026-09-26 19:56:09.737776+00:00",
+      "streak_25": "2026-09-26 19:57:21.869814+00:00"
     },
     "baselines": {
       "points": 1842,
@@ -2216,16 +2219,16 @@
     "category_counts": {
       "disney": 33,
       "entertainment": 7,
-      "geo": 203,
-      "gk": 143,
+      "geo": 220,
+      "gk": 156,
       "got": 0,
-      "marvel": 9,
+      "marvel": 28,
       "movies": 4,
       "music": 5,
       "pokemon": 7,
-      "sports": 69,
+      "sports": 78,
       "videogames": 12,
-      "wrestling": 251,
+      "wrestling": 282,
       "duelwins": 3,
       "duelstreak": 1
     }
@@ -3157,8 +3160,8 @@
       "key": "magneto",
       "label": "Magneto MVP",
       "unlock_level": 41,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "mvp",
