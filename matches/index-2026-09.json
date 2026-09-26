@@ -826,6 +826,96 @@
       "started_at": "2026-09-26 05:00:48.131050+00:00",
       "ended_at": "2026-09-26 05:09:09.781083+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 25,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "433990857063137282",
+      "opponent_id": "184456115927384065",
+      "format": 3,
+      "winner_id": "184456115927384065",
+      "challenger_score": 0,
+      "opponent_score": 1,
+      "decided_by_tiebreaker": false,
+      "ended_at": "2026-09-26 05:11:05.502394+00:00"
+    },
+    {
+      "id": 26,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "433990857063137282",
+      "opponent_id": "184456115927384065",
+      "format": 3,
+      "winner_id": "433990857063137282",
+      "challenger_score": 2,
+      "opponent_score": 0,
+      "decided_by_tiebreaker": false,
+      "ended_at": "2026-09-26 05:12:14.125644+00:00"
+    },
+    {
+      "id": 30,
+      "kind": "game",
+      "mode": "hardcore",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "Art and Literature"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": null,
+      "started_at": "2026-09-26 05:16:58.342819+00:00",
+      "ended_at": "2026-09-26 05:21:12.203063+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 31,
+      "kind": "game",
+      "mode": "hardcore",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 4,
+      "categories": [
+        "Sports"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-26 05:21:40.948003+00:00",
+      "ended_at": "2026-09-26 05:24:51.672661+00:00",
+      "end_reason": "stopped"
+    },
+    {
+      "id": 32,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "Sports"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-26 05:25:05.375019+00:00",
+      "ended_at": "2026-09-26 05:27:44.112791+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 33,
+      "kind": "game",
+      "mode": "standard",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 1,
+      "categories": [
+        "Sports"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-26 05:28:16.695010+00:00",
+      "ended_at": "2026-09-26 05:29:17.289162+00:00",
+      "end_reason": "stopped"
     }
   ]
 }
