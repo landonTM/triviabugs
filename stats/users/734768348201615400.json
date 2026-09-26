@@ -2,39 +2,39 @@
   "user_id": 734768348201615400,
   "level": {
     "level": 41,
-    "xp_into_level": 26863,
+    "xp_into_level": 40515,
     "xp_for_level": 58000,
-    "progress": 0.4631551724137931,
+    "progress": 0.6985344827586207,
     "maxed": false
   },
-  "total_xp": 879363,
+  "total_xp": 893015,
   "period_stats": {
-    "daily_points": 333,
-    "daily_correct": 154,
-    "weekly_points": 1491,
-    "weekly_correct": 868,
-    "monthly_points": 5384,
-    "monthly_correct": 2999,
-    "yearly_points": 5583,
-    "yearly_correct": 3142,
-    "alltime_points": 5583,
-    "alltime_correct": 3142
+    "daily_points": 339,
+    "daily_correct": 155,
+    "weekly_points": 1497,
+    "weekly_correct": 869,
+    "monthly_points": 5390,
+    "monthly_correct": 3000,
+    "yearly_points": 5589,
+    "yearly_correct": 3143,
+    "alltime_points": 5589,
+    "alltime_correct": 3143
   },
   "stats_row": {
     "user_id": 734768348201615400,
     "guild_id": 861055530638114836,
-    "total_points": 3507,
-    "questions_right": 1066,
+    "total_points": 3513,
+    "questions_right": 1067,
     "questions_wrong": 0,
-    "wins": 1066,
-    "current_streak": 4,
+    "wins": 1067,
+    "current_streak": 1,
     "best_streak": 37,
-    "games_played": 51,
+    "games_played": 52,
     "insane_guesses": 1147,
     "day_streak": 12,
     "last_played_date": "2026-09-26",
-    "total_xp": 879363,
-    "game_wins": 27,
+    "total_xp": 893015,
+    "game_wins": 28,
     "achievement_best_streak": 37
   },
   "best_streak": 37,
@@ -57,14 +57,14 @@
     "guesses": 26
   },
   "total_insane_correct": 2076,
-  "average_guess_ms": 15639.137898686678,
+  "average_guess_ms": 15627.632614807873,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 28
   },
   "spelling_accuracy": {
-    "exact_count": 1976,
-    "total": 2360
+    "exact_count": 1977,
+    "total": 2361
   },
   "achievements": {
     "catalog": [
@@ -2211,7 +2211,9 @@
       "streak_20": "2026-09-26 19:56:09.737776+00:00",
       "streak_25": "2026-09-26 19:57:21.869814+00:00",
       "hardcore_win": "2026-09-26 20:14:00.638954+00:00",
-      "play_50_games": "2026-09-26 20:32:37.584830+00:00"
+      "play_50_games": "2026-09-26 20:32:37.584830+00:00",
+      "spelling_bee": "2026-09-26 21:14:07.094426+00:00",
+      "hardcore_spelling": "2026-09-26 21:14:07.096748+00:00"
     },
     "baselines": {
       "points": 1842,
