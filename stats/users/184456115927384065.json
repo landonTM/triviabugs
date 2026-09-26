@@ -2,39 +2,39 @@
   "user_id": 184456115927384065,
   "level": {
     "level": 36,
-    "xp_into_level": 30727,
+    "xp_into_level": 41679,
     "xp_for_level": 47000,
-    "progress": 0.6537659574468085,
+    "progress": 0.8867872340425532,
     "maxed": false
   },
-  "total_xp": 628227,
+  "total_xp": 639179,
   "period_stats": {
-    "daily_points": 269,
-    "daily_correct": 105,
-    "weekly_points": 812,
-    "weekly_correct": 411,
-    "monthly_points": 1734,
-    "monthly_correct": 952,
-    "yearly_points": 1734,
-    "yearly_correct": 952,
-    "alltime_points": 1734,
-    "alltime_correct": 952
+    "daily_points": 293,
+    "daily_correct": 118,
+    "weekly_points": 835,
+    "weekly_correct": 423,
+    "monthly_points": 1758,
+    "monthly_correct": 965,
+    "yearly_points": 1758,
+    "yearly_correct": 965,
+    "alltime_points": 1758,
+    "alltime_correct": 965
   },
   "stats_row": {
     "user_id": 184456115927384065,
     "guild_id": 861055530638114836,
-    "total_points": 1210,
-    "questions_right": 428,
+    "total_points": 1229,
+    "questions_right": 436,
     "questions_wrong": 0,
-    "wins": 428,
-    "current_streak": 1,
+    "wins": 436,
+    "current_streak": 8,
     "best_streak": 21,
-    "games_played": 67,
-    "insane_guesses": 353,
+    "games_played": 68,
+    "insane_guesses": 358,
     "day_streak": 11,
     "last_played_date": "2026-09-25",
-    "total_xp": 628227,
-    "game_wins": 29,
+    "total_xp": 639179,
+    "game_wins": 30,
     "achievement_best_streak": 21
   },
   "best_streak": 21,
@@ -48,23 +48,23 @@
   },
   "best_category": {
     "category": "Sports",
-    "points": 610,
-    "correct": 203
+    "points": 629,
+    "correct": 211
   },
   "best_insane_round": {
     "question_text": "WWE Champions",
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 524,
-  "average_guess_ms": 21435.845794392524,
+  "total_insane_correct": 529,
+  "average_guess_ms": 21492.630733944952,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 22
   },
   "spelling_accuracy": {
-    "exact_count": 786,
-    "total": 860
+    "exact_count": 798,
+    "total": 873
   },
   "achievements": {
     "catalog": [
@@ -2203,7 +2203,9 @@
       "duel_win_as_opponent": "2026-09-26 02:08:46.460587+00:00",
       "duelwins_5": "2026-09-26 02:10:01.615294+00:00",
       "sports_100": "2026-09-26 02:26:40.056402+00:00",
-      "win_others_game": "2026-09-26 03:24:49.554010+00:00"
+      "win_others_game": "2026-09-26 03:24:49.554010+00:00",
+      "answer_twice": "2026-09-26 03:48:16.494090+00:00",
+      "wins_30": "2026-09-26 03:53:42.687748+00:00"
     },
     "baselines": {
       "points": 231,
@@ -2214,13 +2216,13 @@
       "disney": 16,
       "entertainment": 1,
       "geo": 62,
-      "gk": 67,
+      "gk": 72,
       "got": 1,
       "marvel": 8,
       "movies": 6,
       "music": 3,
       "pokemon": 3,
-      "sports": 133,
+      "sports": 141,
       "videogames": 3,
       "wrestling": 82,
       "duelwins": 7,
@@ -2714,6 +2716,30 @@
       "key": "alien",
       "label": "Alien Response Theme",
       "unlock_level": 90,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "zombie",
+      "label": "Zombie Response Theme",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "dracula",
+      "label": "Dracula Response Theme",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "scoobydoo",
+      "label": "Scooby Doo Response Theme",
+      "unlock_level": null,
       "unlocked": false,
       "source": null
     },
