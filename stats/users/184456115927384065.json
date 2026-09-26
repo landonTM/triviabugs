@@ -2,38 +2,38 @@
   "user_id": 184456115927384065,
   "level": {
     "level": 38,
-    "xp_into_level": 46803,
+    "xp_into_level": 50315,
     "xp_for_level": 51000,
-    "progress": 0.9177058823529411,
+    "progress": 0.9865686274509804,
     "maxed": false
   },
-  "total_xp": 740303,
+  "total_xp": 743815,
   "period_stats": {
-    "daily_points": 489,
-    "daily_correct": 180,
-    "weekly_points": 989,
-    "weekly_correct": 459,
-    "monthly_points": 1954,
-    "monthly_correct": 1027,
-    "yearly_points": 1954,
-    "yearly_correct": 1027,
-    "alltime_points": 1954,
-    "alltime_correct": 1027
+    "daily_points": 498,
+    "daily_correct": 185,
+    "weekly_points": 983,
+    "weekly_correct": 449,
+    "monthly_points": 1963,
+    "monthly_correct": 1032,
+    "yearly_points": 1963,
+    "yearly_correct": 1032,
+    "alltime_points": 1963,
+    "alltime_correct": 1032
   },
   "stats_row": {
     "user_id": 184456115927384065,
     "guild_id": 861055530638114836,
-    "total_points": 1397,
-    "questions_right": 470,
+    "total_points": 1403,
+    "questions_right": 472,
     "questions_wrong": 0,
-    "wins": 470,
+    "wins": 472,
     "current_streak": 1,
     "best_streak": 21,
-    "games_played": 75,
-    "insane_guesses": 386,
+    "games_played": 76,
+    "insane_guesses": 389,
     "day_streak": 12,
     "last_played_date": "2026-09-26",
-    "total_xp": 740303,
+    "total_xp": 743815,
     "game_wins": 36,
     "achievement_best_streak": 21
   },
@@ -56,15 +56,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 557,
-  "average_guess_ms": 20887.88510638298,
+  "total_insane_correct": 560,
+  "average_guess_ms": 20880.252118644068,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 22
   },
   "spelling_accuracy": {
-    "exact_count": 857,
-    "total": 935
+    "exact_count": 862,
+    "total": 940
   },
   "achievements": {
     "catalog": [
@@ -2216,7 +2216,7 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 16,
+      "disney": 18,
       "entertainment": 1,
       "geo": 64,
       "gk": 88,
@@ -2227,7 +2227,7 @@
       "pokemon": 3,
       "sports": 166,
       "videogames": 4,
-      "wrestling": 88,
+      "wrestling": 89,
       "duelwins": 8,
       "duelstreak": 2
     }
