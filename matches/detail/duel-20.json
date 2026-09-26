@@ -1,0 +1,41 @@
+{
+  "match": {
+    "id": 20,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "184456115927384065",
+    "format": 3,
+    "winner_id": "433990857063137282",
+    "challenger_score": 2,
+    "opponent_score": 0,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-26 02:09:22.503020+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 4371,
+      "answered_at": "2026-09-26 02:09:22.504939+00:00",
+      "category": "US State Capitals",
+      "question_text": "What is the USA state capital of Arizona?",
+      "correct_answers": [
+        "Phoenix"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 13649,
+      "answered_at": "2026-09-26 02:09:22.504939+00:00",
+      "category": "Stranger Things",
+      "question_text": "What does Will cough up after returning home?",
+      "correct_answers": [
+        "A slug"
+      ]
+    }
+  ]
+}
