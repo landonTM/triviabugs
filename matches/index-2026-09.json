@@ -583,6 +583,38 @@
       "opponent_score": 0,
       "decided_by_tiebreaker": false,
       "ended_at": "2026-09-26 02:13:13.359674+00:00"
+    },
+    {
+      "id": 15,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 20,
+      "rounds_played": 20,
+      "categories": [
+        "Sports"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-26 02:14:24.236986+00:00",
+      "ended_at": "2026-09-26 02:28:17.003184+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 16,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 20,
+      "rounds_played": 19,
+      "categories": [
+        "Sports"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-26 02:28:32.199293+00:00",
+      "ended_at": "2026-09-26 02:40:38.888446+00:00",
+      "end_reason": "stopped"
     }
   ]
 }
