@@ -1,0 +1,105 @@
+{
+  "game": {
+    "id": 23,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 5,
+    "rounds_played": 5,
+    "categories": [
+      "Acronyms and Abbreviations"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "433990857063137282",
+    "started_at": "2026-09-26 03:25:54.156393+00:00",
+    "ended_at": "2026-09-26 03:29:19.814533+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 4880,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:25:54.447936+00:00",
+      "round_ended_at": "2026-09-26 03:26:06.907478+00:00",
+      "winner_id": 433990857063137282,
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Organizations: AAA",
+      "correct_answers": [
+        "American Automobile Association"
+      ],
+      "answerer_id": 433990857063137282,
+      "response_time_ms": 12443,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 03:26:06.903344+00:00"
+    },
+    {
+      "round_id": 4881,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:26:17.194722+00:00",
+      "round_ended_at": "2026-09-26 03:27:17.455436+00:00",
+      "winner_id": null,
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Medical: SIDS",
+      "correct_answers": [
+        "Sudden Infant Death Syndrome"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    },
+    {
+      "round_id": 4882,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:27:28.153756+00:00",
+      "round_ended_at": "2026-09-26 03:27:34.650533+00:00",
+      "winner_id": 433990857063137282,
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Internet/Texting: TBH",
+      "correct_answers": [
+        "To Be Honest"
+      ],
+      "answerer_id": 433990857063137282,
+      "response_time_ms": 6482,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 03:27:34.647364+00:00"
+    },
+    {
+      "round_id": 4883,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:27:44.913518+00:00",
+      "round_ended_at": "2026-09-26 03:27:59.255899+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Internet/Texting: FAQ",
+      "correct_answers": [
+        "Frequently Asked Questions"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 14329,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 03:27:59.252127+00:00"
+    },
+    {
+      "round_id": 4884,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:28:09.501557+00:00",
+      "round_ended_at": "2026-09-26 03:29:09.656437+00:00",
+      "winner_id": null,
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Computers: HTML",
+      "correct_answers": [
+        "HyperText Markup Language"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    }
+  ]
+}
