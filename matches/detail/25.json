@@ -1,0 +1,105 @@
+{
+  "game": {
+    "id": 25,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 5,
+    "rounds_played": 5,
+    "categories": [
+      "Movies"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "184456115927384065",
+    "started_at": "2026-09-26 03:37:29.059852+00:00",
+    "ended_at": "2026-09-26 03:42:40.199390+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 4890,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:37:29.588824+00:00",
+      "round_ended_at": "2026-09-26 03:37:46.371281+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Movies",
+      "question_text": "In Superbad, who plays Seth?",
+      "correct_answers": [
+        "Jonah Hill"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 16767,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 03:37:46.366806+00:00"
+    },
+    {
+      "round_id": 4891,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:37:56.558295+00:00",
+      "round_ended_at": "2026-09-26 03:38:56.743366+00:00",
+      "winner_id": null,
+      "category": "Movies",
+      "question_text": "In Jaws, what fictional island is terrorized by the shark?",
+      "correct_answers": [
+        "Amity Island"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    },
+    {
+      "round_id": 4892,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:39:07.353458+00:00",
+      "round_ended_at": "2026-09-26 03:40:06.239601+00:00",
+      "winner_id": 433990857063137282,
+      "category": "Movies",
+      "question_text": "In Parasite, what is the poorer family's surname?",
+      "correct_answers": [
+        "Kim"
+      ],
+      "answerer_id": 433990857063137282,
+      "response_time_ms": 58872,
+      "exact_match": true,
+      "points_awarded": 1,
+      "answered_at": "2026-09-26 03:40:06.236271+00:00"
+    },
+    {
+      "round_id": 4893,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:40:16.557710+00:00",
+      "round_ended_at": "2026-09-26 03:41:17.098656+00:00",
+      "winner_id": null,
+      "category": "Movies",
+      "question_text": "Which actor plays the character \"Tommy Jarvis\" in \"Friday the 13th: The Final Chapter\" (1984)?",
+      "correct_answers": [
+        "Corey Feldman"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    },
+    {
+      "round_id": 4894,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:41:29.692146+00:00",
+      "round_ended_at": "2026-09-26 03:42:29.999867+00:00",
+      "winner_id": null,
+      "category": "Movies",
+      "question_text": "In Casablanca, who is Ilsa's husband?",
+      "correct_answers": [
+        "Victor Laszlo"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    }
+  ]
+}
