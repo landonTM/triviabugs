@@ -1,0 +1,105 @@
+{
+  "game": {
+    "id": 31,
+    "kind": "game",
+    "mode": "hardcore",
+    "channel_id": "864342930076860426",
+    "total_rounds": 5,
+    "rounds_played": 4,
+    "categories": [
+      "Sports"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "184456115927384065",
+    "started_at": "2026-09-26 05:21:40.948003+00:00",
+    "ended_at": "2026-09-26 05:24:51.672661+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 4974,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:21:41.274626+00:00",
+      "round_ended_at": "2026-09-26 05:21:52.955703+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "What card is shown for a serious foul that results in a player being sent off in soccer?",
+      "correct_answers": [
+        "Red Card"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 11667,
+      "exact_match": true,
+      "points_awarded": 6,
+      "answered_at": "2026-09-26 05:21:52.951547+00:00"
+    },
+    {
+      "round_id": 4975,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:22:23.161240+00:00",
+      "round_ended_at": "2026-09-26 05:22:43.381309+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "What is the name of the doubles serving formation where the server's partner stands on the same side of the court as the server?",
+      "correct_answers": [
+        "Australian formation"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    },
+    {
+      "round_id": 4976,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:23:13.787726+00:00",
+      "round_ended_at": "2026-09-26 05:23:19.170251+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "In which country was the modern game of lawn tennis invented in the 1870s?",
+      "correct_answers": [
+        "England"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 5370,
+      "exact_match": true,
+      "points_awarded": 6,
+      "answered_at": "2026-09-26 05:23:19.166020+00:00"
+    },
+    {
+      "round_id": 4977,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:23:49.508110+00:00",
+      "round_ended_at": "2026-09-26 05:24:09.759249+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "_________ Kings (NBA)",
+      "correct_answers": [
+        "Sacramento"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    },
+    {
+      "round_id": 4978,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:24:40.036576+00:00",
+      "round_ended_at": "2026-09-26 05:24:51.368118+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Who won the 2015 College Football Playoff (CFP) National Championship?",
+      "correct_answers": [
+        "Ohio State Buckeyes"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    }
+  ]
+}
