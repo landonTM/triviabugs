@@ -2,39 +2,39 @@
   "user_id": 433990857063137282,
   "level": {
     "level": 39,
-    "xp_into_level": 11097,
+    "xp_into_level": 13701,
     "xp_for_level": 53000,
-    "progress": 0.20937735849056605,
+    "progress": 0.25850943396226417,
     "maxed": false
   },
-  "total_xp": 755597,
+  "total_xp": 758201,
   "period_stats": {
-    "daily_points": 59,
-    "daily_correct": 54,
+    "daily_points": 75,
+    "daily_correct": 58,
     "weekly_points": 1091,
-    "weekly_correct": 501,
-    "monthly_points": 3186,
-    "monthly_correct": 1545,
-    "yearly_points": 3360,
-    "yearly_correct": 1638,
-    "alltime_points": 3360,
-    "alltime_correct": 1638
+    "weekly_correct": 496,
+    "monthly_points": 3202,
+    "monthly_correct": 1549,
+    "yearly_points": 3376,
+    "yearly_correct": 1642,
+    "alltime_points": 3376,
+    "alltime_correct": 1642
   },
   "stats_row": {
     "user_id": 433990857063137282,
     "guild_id": 861055530638114836,
-    "total_points": 2426,
-    "questions_right": 701,
+    "total_points": 2442,
+    "questions_right": 705,
     "questions_wrong": 0,
-    "wins": 701,
+    "wins": 705,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 73,
+    "games_played": 75,
     "insane_guesses": 633,
     "day_streak": 3,
     "last_played_date": "2026-09-25",
-    "total_xp": 755597,
-    "game_wins": 23,
+    "total_xp": 758201,
+    "game_wins": 24,
     "achievement_best_streak": 27
   },
   "best_streak": 27,
@@ -48,8 +48,8 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 552,
-    "correct": 94
+    "points": 560,
+    "correct": 96
   },
   "best_insane_round": {
     "question_text": "Name every US state",
@@ -57,14 +57,14 @@
     "guesses": 17
   },
   "total_insane_correct": 938,
-  "average_guess_ms": 17649.62714285714,
+  "average_guess_ms": 17600.193181818184,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1239,
-    "total": 1424
+    "exact_count": 1243,
+    "total": 1428
   },
   "achievements": {
     "catalog": [
@@ -2205,7 +2205,8 @@
       "duel_win_as_opponent": "2026-09-24 22:14:44.024695+00:00",
       "duel_tiebreaker_win": "2026-09-24 22:14:44.026448+00:00",
       "duel_comeback": "2026-09-24 22:14:44.027947+00:00",
-      "duelwins_5": "2026-09-26 02:09:22.887343+00:00"
+      "duelwins_5": "2026-09-26 02:09:22.887343+00:00",
+      "quickfire_win": "2026-09-26 03:29:20.279883+00:00"
     },
     "baselines": {
       "points": 632,
