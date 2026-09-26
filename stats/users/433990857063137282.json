@@ -9,28 +9,28 @@
   },
   "total_xp": 758743,
   "period_stats": {
-    "daily_points": 76,
-    "daily_correct": 59,
-    "weekly_points": 1033,
-    "weekly_correct": 465,
-    "monthly_points": 3203,
-    "monthly_correct": 1550,
-    "yearly_points": 3377,
-    "yearly_correct": 1643,
-    "alltime_points": 3377,
-    "alltime_correct": 1643
+    "daily_points": 153,
+    "daily_correct": 86,
+    "weekly_points": 1068,
+    "weekly_correct": 485,
+    "monthly_points": 3280,
+    "monthly_correct": 1577,
+    "yearly_points": 3454,
+    "yearly_correct": 1670,
+    "alltime_points": 3454,
+    "alltime_correct": 1670
   },
   "stats_row": {
     "user_id": 433990857063137282,
     "guild_id": 861055530638114836,
-    "total_points": 2443,
-    "questions_right": 706,
+    "total_points": 2503,
+    "questions_right": 716,
     "questions_wrong": 0,
-    "wins": 706,
+    "wins": 716,
     "current_streak": 1,
     "best_streak": 27,
     "games_played": 76,
-    "insane_guesses": 633,
+    "insane_guesses": 650,
     "day_streak": 3,
     "last_played_date": "2026-09-25",
     "total_xp": 758743,
@@ -48,23 +48,23 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 560,
-    "correct": 96
+    "points": 584,
+    "correct": 100
   },
   "best_insane_round": {
     "question_text": "Name every US state",
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 938,
-  "average_guess_ms": 17658.73475177305,
+  "total_insane_correct": 955,
+  "average_guess_ms": 17487.766433566434,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1244,
-    "total": 1429
+    "exact_count": 1268,
+    "total": 1456
   },
   "achievements": {
     "catalog": [
@@ -2217,15 +2217,15 @@
       "disney": 24,
       "entertainment": 0,
       "geo": 80,
-      "gk": 107,
+      "gk": 114,
       "got": 2,
       "marvel": 40,
       "movies": 1,
-      "music": 1,
+      "music": 3,
       "pokemon": 9,
       "sports": 22,
-      "videogames": 36,
-      "wrestling": 134,
+      "videogames": 44,
+      "wrestling": 140,
       "duelwins": 6,
       "duelstreak": 2
     }
