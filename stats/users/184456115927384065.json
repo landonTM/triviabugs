@@ -2,39 +2,39 @@
   "user_id": 184456115927384065,
   "level": {
     "level": 36,
-    "xp_into_level": 30101,
+    "xp_into_level": 30727,
     "xp_for_level": 47000,
-    "progress": 0.6404468085106383,
+    "progress": 0.6537659574468085,
     "maxed": false
   },
-  "total_xp": 627601,
+  "total_xp": 628227,
   "period_stats": {
-    "daily_points": 265,
-    "daily_correct": 104,
-    "weekly_points": 808,
-    "weekly_correct": 410,
-    "monthly_points": 1730,
-    "monthly_correct": 951,
-    "yearly_points": 1730,
-    "yearly_correct": 951,
-    "alltime_points": 1730,
-    "alltime_correct": 951
+    "daily_points": 269,
+    "daily_correct": 105,
+    "weekly_points": 812,
+    "weekly_correct": 411,
+    "monthly_points": 1734,
+    "monthly_correct": 952,
+    "yearly_points": 1734,
+    "yearly_correct": 952,
+    "alltime_points": 1734,
+    "alltime_correct": 952
   },
   "stats_row": {
     "user_id": 184456115927384065,
     "guild_id": 861055530638114836,
-    "total_points": 1206,
-    "questions_right": 427,
+    "total_points": 1210,
+    "questions_right": 428,
     "questions_wrong": 0,
-    "wins": 427,
+    "wins": 428,
     "current_streak": 1,
     "best_streak": 21,
-    "games_played": 66,
+    "games_played": 67,
     "insane_guesses": 353,
     "day_streak": 11,
     "last_played_date": "2026-09-25",
-    "total_xp": 627601,
-    "game_wins": 28,
+    "total_xp": 628227,
+    "game_wins": 29,
     "achievement_best_streak": 21
   },
   "best_streak": 21,
@@ -57,14 +57,14 @@
     "guesses": 16
   },
   "total_insane_correct": 524,
-  "average_guess_ms": 21446.779859484777,
+  "average_guess_ms": 21435.845794392524,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 22
   },
   "spelling_accuracy": {
-    "exact_count": 785,
-    "total": 859
+    "exact_count": 786,
+    "total": 860
   },
   "achievements": {
     "catalog": [
@@ -2217,7 +2217,7 @@
       "gk": 67,
       "got": 1,
       "marvel": 8,
-      "movies": 5,
+      "movies": 6,
       "music": 3,
       "pokemon": 3,
       "sports": 133,
