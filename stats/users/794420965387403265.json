@@ -2352,6 +2352,38 @@
       "source": null
     },
     {
+      "cosmetic_type": "footer",
+      "key": "haunted",
+      "label": "Haunted Footer",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "cursed",
+      "label": "Cursed Footer",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "summoned",
+      "label": "Summoned Footer",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "footer",
+      "key": "nightmare",
+      "label": "Nightmare Footer",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
       "cosmetic_type": "emoji",
       "key": "default",
       "label": "Trivia Emoji Pack",
@@ -2580,6 +2612,30 @@
       "key": "champion",
       "label": "Champion Emoji Pack",
       "unlock_level": 99,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "trickortreat",
+      "label": "Trick or Treat Emoji Pack",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "haunted",
+      "label": "Haunted Emoji Pack",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "spoopy",
+      "label": "Spoopy Emoji Pack",
+      "unlock_level": null,
       "unlocked": false,
       "source": null
     },
