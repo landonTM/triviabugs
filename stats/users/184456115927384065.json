@@ -9,28 +9,28 @@
   },
   "total_xp": 774551,
   "period_stats": {
-    "daily_points": 651,
-    "daily_correct": 249,
-    "weekly_points": 1101,
-    "weekly_correct": 494,
-    "monthly_points": 2116,
-    "monthly_correct": 1096,
-    "yearly_points": 2116,
-    "yearly_correct": 1096,
-    "alltime_points": 2116,
-    "alltime_correct": 1096
+    "daily_points": 659,
+    "daily_correct": 256,
+    "weekly_points": 1094,
+    "weekly_correct": 495,
+    "monthly_points": 2124,
+    "monthly_correct": 1103,
+    "yearly_points": 2124,
+    "yearly_correct": 1103,
+    "alltime_points": 2124,
+    "alltime_correct": 1103
   },
   "stats_row": {
     "user_id": 184456115927384065,
     "guild_id": 861055530638114836,
-    "total_points": 1533,
-    "questions_right": 513,
+    "total_points": 1535,
+    "questions_right": 514,
     "questions_wrong": 0,
-    "wins": 513,
-    "current_streak": 4,
+    "wins": 514,
+    "current_streak": 5,
     "best_streak": 21,
     "games_played": 79,
-    "insane_guesses": 412,
+    "insane_guesses": 418,
     "day_streak": 12,
     "last_played_date": "2026-09-26",
     "total_xp": 774551,
@@ -56,15 +56,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 583,
-  "average_guess_ms": 21034.88888888889,
+  "total_insane_correct": 589,
+  "average_guess_ms": 21042.313229571984,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 22
   },
   "spelling_accuracy": {
-    "exact_count": 924,
-    "total": 1004
+    "exact_count": 931,
+    "total": 1011
   },
   "achievements": {
     "catalog": [
@@ -2220,11 +2220,11 @@
       "disney": 18,
       "entertainment": 1,
       "geo": 74,
-      "gk": 91,
+      "gk": 97,
       "got": 1,
       "marvel": 9,
       "movies": 12,
-      "music": 10,
+      "music": 11,
       "pokemon": 3,
       "sports": 178,
       "videogames": 4,
