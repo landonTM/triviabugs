@@ -1,0 +1,105 @@
+{
+  "game": {
+    "id": 30,
+    "kind": "game",
+    "mode": "hardcore",
+    "channel_id": "864342930076860426",
+    "total_rounds": 5,
+    "rounds_played": 5,
+    "categories": [
+      "Art and Literature"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": null,
+    "started_at": "2026-09-26 05:16:58.342819+00:00",
+    "ended_at": "2026-09-26 05:21:12.203063+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 4969,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:16:58.707695+00:00",
+      "round_ended_at": "2026-09-26 05:17:18.861980+00:00",
+      "winner_id": null,
+      "category": "Art and Literature",
+      "question_text": "Which novel features Perks the station porter?",
+      "correct_answers": [
+        "The Railway Children"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    },
+    {
+      "round_id": 4970,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:17:49.070296+00:00",
+      "round_ended_at": "2026-09-26 05:18:09.356885+00:00",
+      "winner_id": null,
+      "category": "Art and Literature",
+      "question_text": "Which poet, in his \"Elegy Written in a Country Churchyard\" told us that \"Full many a flower is born to blush unseen / And waste its sweetness on the desert air\"?",
+      "correct_answers": [
+        "Thomas Gray"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    },
+    {
+      "round_id": 4971,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:18:39.860051+00:00",
+      "round_ended_at": "2026-09-26 05:19:01.099499+00:00",
+      "winner_id": null,
+      "category": "Art and Literature",
+      "question_text": "Name the Shakespeare play from this ultra short plot summary: Urged on by his wife, a man murders his king in order to take his place?",
+      "correct_answers": [
+        "Macbeth"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    },
+    {
+      "round_id": 4972,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:19:31.489537+00:00",
+      "round_ended_at": "2026-09-26 05:19:51.655682+00:00",
+      "winner_id": null,
+      "category": "Art and Literature",
+      "question_text": "A single print made from a metal or glass plate on which an image has been represented in paint, ink, etc?",
+      "correct_answers": [
+        "Monotype"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    },
+    {
+      "round_id": 4973,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:20:21.894661+00:00",
+      "round_ended_at": "2026-09-26 05:20:42.025651+00:00",
+      "winner_id": null,
+      "category": "Art and Literature",
+      "question_text": "In what opera would you find Lt. Pinkerton?",
+      "correct_answers": [
+        "Madame butterfly"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    }
+  ]
+}
