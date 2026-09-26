@@ -2,39 +2,39 @@
   "user_id": 184456115927384065,
   "level": {
     "level": 40,
-    "xp_into_level": 15579,
+    "xp_into_level": 18045,
     "xp_for_level": 55000,
-    "progress": 0.2832545454545455,
+    "progress": 0.3280909090909091,
     "maxed": false
   },
-  "total_xp": 813079,
+  "total_xp": 815545,
   "period_stats": {
-    "daily_points": 745,
-    "daily_correct": 301,
-    "weekly_points": 1167,
-    "weekly_correct": 530,
-    "monthly_points": 2210,
-    "monthly_correct": 1148,
-    "yearly_points": 2210,
-    "yearly_correct": 1148,
-    "alltime_points": 2210,
-    "alltime_correct": 1148
+    "daily_points": 804,
+    "daily_correct": 316,
+    "weekly_points": 1226,
+    "weekly_correct": 545,
+    "monthly_points": 2269,
+    "monthly_correct": 1163,
+    "yearly_points": 2269,
+    "yearly_correct": 1163,
+    "alltime_points": 2269,
+    "alltime_correct": 1163
   },
   "stats_row": {
     "user_id": 184456115927384065,
     "guild_id": 861055530638114836,
-    "total_points": 1596,
-    "questions_right": 534,
+    "total_points": 1655,
+    "questions_right": 549,
     "questions_wrong": 0,
-    "wins": 534,
-    "current_streak": 1,
+    "wins": 549,
+    "current_streak": 8,
     "best_streak": 21,
-    "games_played": 82,
+    "games_played": 85,
     "insane_guesses": 443,
     "day_streak": 12,
     "last_played_date": "2026-09-26",
-    "total_xp": 813079,
-    "game_wins": 42,
+    "total_xp": 815545,
+    "game_wins": 45,
     "achievement_best_streak": 21
   },
   "best_streak": 21,
@@ -48,8 +48,8 @@
   },
   "best_category": {
     "category": "Sports",
-    "points": 862,
-    "correct": 261
+    "points": 921,
+    "correct": 276
   },
   "best_insane_round": {
     "question_text": "WWE Champions",
@@ -57,14 +57,14 @@
     "guesses": 16
   },
   "total_insane_correct": 614,
-  "average_guess_ms": 21169.2734082397,
+  "average_guess_ms": 20937.1985428051,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 22
   },
   "spelling_accuracy": {
-    "exact_count": 973,
-    "total": 1056
+    "exact_count": 987,
+    "total": 1071
   },
   "achievements": {
     "catalog": [
@@ -2228,7 +2228,7 @@
       "movies": 20,
       "music": 13,
       "pokemon": 3,
-      "sports": 191,
+      "sports": 206,
       "videogames": 4,
       "wrestling": 108,
       "duelwins": 8,
