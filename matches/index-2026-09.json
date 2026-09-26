@@ -632,6 +632,38 @@
       "started_at": "2026-09-26 02:43:22.339670+00:00",
       "ended_at": "2026-09-26 02:57:58.432480+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 18,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 10,
+      "rounds_played": 10,
+      "categories": [
+        "Sports"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-26 02:58:40.160755+00:00",
+      "ended_at": "2026-09-26 03:05:43.311934+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 19,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 10,
+      "rounds_played": 10,
+      "categories": [
+        "Sports"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-26 03:07:33.018542+00:00",
+      "ended_at": "2026-09-26 03:15:16.410398+00:00",
+      "end_reason": "completed"
     }
   ]
 }
