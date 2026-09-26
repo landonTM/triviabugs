@@ -1,40 +1,40 @@
 {
   "user_id": 184456115927384065,
   "level": {
-    "level": 35,
-    "xp_into_level": 37745,
-    "xp_for_level": 45000,
-    "progress": 0.8387777777777777,
+    "level": 36,
+    "xp_into_level": 21843,
+    "xp_for_level": 47000,
+    "progress": 0.46474468085106385,
     "maxed": false
   },
-  "total_xp": 590245,
+  "total_xp": 619343,
   "period_stats": {
-    "daily_points": 56,
-    "daily_correct": 22,
-    "weekly_points": 675,
-    "weekly_correct": 376,
-    "monthly_points": 1521,
-    "monthly_correct": 869,
-    "yearly_points": 1521,
-    "yearly_correct": 869,
-    "alltime_points": 1521,
-    "alltime_correct": 869
+    "daily_points": 155,
+    "daily_correct": 64,
+    "weekly_points": 738,
+    "weekly_correct": 396,
+    "monthly_points": 1620,
+    "monthly_correct": 911,
+    "yearly_points": 1620,
+    "yearly_correct": 911,
+    "alltime_points": 1620,
+    "alltime_correct": 911
   },
   "stats_row": {
     "user_id": 184456115927384065,
     "guild_id": 861055530638114836,
-    "total_points": 1016,
-    "questions_right": 364,
+    "total_points": 1100,
+    "questions_right": 391,
     "questions_wrong": 0,
-    "wins": 364,
-    "current_streak": 13,
+    "wins": 391,
+    "current_streak": 4,
     "best_streak": 21,
-    "games_played": 56,
-    "insane_guesses": 334,
+    "games_played": 58,
+    "insane_guesses": 349,
     "day_streak": 11,
     "last_played_date": "2026-09-25",
-    "total_xp": 590245,
-    "game_wins": 19,
+    "total_xp": 619343,
+    "game_wins": 21,
     "achievement_best_streak": 21
   },
   "best_streak": 21,
@@ -48,23 +48,23 @@
   },
   "best_category": {
     "category": "Sports",
-    "points": 482,
-    "correct": 161
+    "points": 559,
+    "correct": 185
   },
   "best_insane_round": {
     "question_text": "WWE Champions",
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 505,
-  "average_guess_ms": 21974.252747252747,
+  "total_insane_correct": 520,
+  "average_guess_ms": 21689.915601023018,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 22
   },
   "spelling_accuracy": {
-    "exact_count": 711,
-    "total": 777
+    "exact_count": 749,
+    "total": 819
   },
   "achievements": {
     "catalog": [
@@ -2201,7 +2201,8 @@
       "points_750": "2026-09-26 02:02:38.798773+00:00",
       "quickfire_win": "2026-09-26 02:07:21.980508+00:00",
       "duel_win_as_opponent": "2026-09-26 02:08:46.460587+00:00",
-      "duelwins_5": "2026-09-26 02:10:01.615294+00:00"
+      "duelwins_5": "2026-09-26 02:10:01.615294+00:00",
+      "sports_100": "2026-09-26 02:26:40.056402+00:00"
     },
     "baselines": {
       "points": 231,
@@ -2211,16 +2212,16 @@
     "category_counts": {
       "disney": 12,
       "entertainment": 1,
-      "geo": 56,
+      "geo": 59,
       "gk": 67,
       "got": 1,
       "marvel": 8,
       "movies": 1,
       "music": 3,
       "pokemon": 3,
-      "sports": 91,
+      "sports": 115,
       "videogames": 3,
-      "wrestling": 69,
+      "wrestling": 82,
       "duelwins": 7,
       "duelstreak": 2
     }
@@ -3040,8 +3041,8 @@
       "key": "deeney",
       "label": "Deeney MVP",
       "unlock_level": 36,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "mvp",
