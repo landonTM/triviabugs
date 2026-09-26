@@ -9,28 +9,28 @@
   },
   "total_xp": 893015,
   "period_stats": {
-    "daily_points": 339,
-    "daily_correct": 155,
-    "weekly_points": 1491,
-    "weekly_correct": 867,
-    "monthly_points": 5390,
-    "monthly_correct": 3000,
-    "yearly_points": 5589,
-    "yearly_correct": 3143,
-    "alltime_points": 5589,
-    "alltime_correct": 3143
+    "daily_points": 347,
+    "daily_correct": 160,
+    "weekly_points": 1495,
+    "weekly_correct": 869,
+    "monthly_points": 5398,
+    "monthly_correct": 3005,
+    "yearly_points": 5597,
+    "yearly_correct": 3148,
+    "alltime_points": 5597,
+    "alltime_correct": 3148
   },
   "stats_row": {
     "user_id": 734768348201615400,
     "guild_id": 861055530638114836,
-    "total_points": 3513,
-    "questions_right": 1067,
+    "total_points": 3517,
+    "questions_right": 1068,
     "questions_wrong": 0,
-    "wins": 1067,
+    "wins": 1068,
     "current_streak": 1,
     "best_streak": 37,
     "games_played": 52,
-    "insane_guesses": 1147,
+    "insane_guesses": 1151,
     "day_streak": 12,
     "last_played_date": "2026-09-26",
     "total_xp": 893015,
@@ -48,23 +48,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 1091,
-    "correct": 724
+    "points": 1095,
+    "correct": 728
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2076,
-  "average_guess_ms": 15627.632614807873,
+  "total_insane_correct": 2080,
+  "average_guess_ms": 15618.38670411985,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 28
   },
   "spelling_accuracy": {
-    "exact_count": 1977,
-    "total": 2361
+    "exact_count": 1982,
+    "total": 2366
   },
   "achievements": {
     "catalog": [
@@ -2230,9 +2230,9 @@
       "movies": 4,
       "music": 16,
       "pokemon": 7,
-      "sports": 82,
+      "sports": 83,
       "videogames": 12,
-      "wrestling": 292,
+      "wrestling": 296,
       "duelwins": 3,
       "duelstreak": 1
     }
