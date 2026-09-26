@@ -2643,6 +2643,22 @@
       "source": null
     },
     {
+      "cosmetic_type": "emoji",
+      "key": "fnaf",
+      "label": "FNAF Emoji Pack",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "emoji",
+      "key": "scooby",
+      "label": "Scooby Emoji Pack",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
       "cosmetic_type": "theme",
       "key": "default",
       "label": "Standard Response Theme",
