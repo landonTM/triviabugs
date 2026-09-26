@@ -2,38 +2,38 @@
   "user_id": 433990857063137282,
   "level": {
     "level": 39,
-    "xp_into_level": 7385,
+    "xp_into_level": 7939,
     "xp_for_level": 53000,
-    "progress": 0.13933962264150943,
+    "progress": 0.1497924528301887,
     "maxed": false
   },
-  "total_xp": 751885,
+  "total_xp": 752439,
   "period_stats": {
-    "daily_points": 19,
-    "daily_correct": 19,
-    "weekly_points": 1218,
-    "weekly_correct": 548,
-    "monthly_points": 3146,
-    "monthly_correct": 1510,
-    "yearly_points": 3320,
-    "yearly_correct": 1603,
-    "alltime_points": 3320,
-    "alltime_correct": 1603
+    "daily_points": 25,
+    "daily_correct": 21,
+    "weekly_points": 1156,
+    "weekly_correct": 511,
+    "monthly_points": 3152,
+    "monthly_correct": 1512,
+    "yearly_points": 3326,
+    "yearly_correct": 1605,
+    "alltime_points": 3326,
+    "alltime_correct": 1605
   },
   "stats_row": {
     "user_id": 433990857063137282,
     "guild_id": 861055530638114836,
-    "total_points": 2413,
-    "questions_right": 693,
+    "total_points": 2419,
+    "questions_right": 695,
     "questions_wrong": 0,
-    "wins": 693,
+    "wins": 695,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 67,
+    "games_played": 69,
     "insane_guesses": 606,
     "day_streak": 3,
     "last_played_date": "2026-09-25",
-    "total_xp": 751885,
+    "total_xp": 752439,
     "game_wins": 23,
     "achievement_best_streak": 27
   },
@@ -57,14 +57,14 @@
     "guesses": 17
   },
   "total_insane_correct": 911,
-  "average_guess_ms": 17443.706647398845,
+  "average_guess_ms": 17435.468299711814,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1209,
-    "total": 1389
+    "exact_count": 1210,
+    "total": 1391
   },
   "achievements": {
     "catalog": [
@@ -2222,7 +2222,7 @@
       "movies": 0,
       "music": 1,
       "pokemon": 9,
-      "sports": 17,
+      "sports": 19,
       "videogames": 19,
       "wrestling": 134,
       "duelwins": 6,
