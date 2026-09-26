@@ -9,28 +9,28 @@
   },
   "total_xp": 850532,
   "period_stats": {
-    "daily_points": 93,
-    "daily_correct": 28,
-    "weekly_points": 710,
-    "weekly_correct": 418,
-    "monthly_points": 5825,
-    "monthly_correct": 3329,
-    "yearly_points": 5931,
-    "yearly_correct": 3388,
-    "alltime_points": 5931,
-    "alltime_correct": 3388
+    "daily_points": 105,
+    "daily_correct": 37,
+    "weekly_points": 691,
+    "weekly_correct": 408,
+    "monthly_points": 5837,
+    "monthly_correct": 3338,
+    "yearly_points": 5943,
+    "yearly_correct": 3397,
+    "alltime_points": 5943,
+    "alltime_correct": 3397
   },
   "stats_row": {
     "user_id": 795847206719717386,
     "guild_id": 861055530638114836,
-    "total_points": 3852,
-    "questions_right": 1309,
+    "total_points": 3859,
+    "questions_right": 1313,
     "questions_wrong": 0,
-    "wins": 1309,
-    "current_streak": 3,
+    "wins": 1313,
+    "current_streak": 1,
     "best_streak": 22,
     "games_played": 53,
-    "insane_guesses": 1125,
+    "insane_guesses": 1130,
     "day_streak": 1,
     "last_played_date": "2026-09-26",
     "total_xp": 850532,
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2079,
-  "average_guess_ms": 20123.354469060352,
+  "total_insane_correct": 2084,
+  "average_guess_ms": 20163.092916984006,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 2432,
-    "total": 2789
+    "exact_count": 2439,
+    "total": 2798
   },
   "achievements": {
     "catalog": [
@@ -2220,14 +2220,14 @@
       "disney": 60,
       "entertainment": 7,
       "geo": 178,
-      "gk": 135,
-      "got": 60,
+      "gk": 140,
+      "got": 61,
       "marvel": 53,
       "movies": 5,
-      "music": 6,
+      "music": 7,
       "pokemon": 25,
       "sports": 23,
-      "videogames": 13,
+      "videogames": 14,
       "wrestling": 153,
       "duelwins": 5,
       "duelstreak": 2
