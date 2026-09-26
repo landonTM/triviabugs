@@ -2720,6 +2720,30 @@
       "source": null
     },
     {
+      "cosmetic_type": "theme",
+      "key": "zombie",
+      "label": "Zombie Response Theme",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "dracula",
+      "label": "Dracula Response Theme",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "scoobydoo",
+      "label": "Scooby Doo Response Theme",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
       "cosmetic_type": "embedcolor",
       "key": "default",
       "label": "Default Embed",
