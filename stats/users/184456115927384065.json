@@ -2,39 +2,39 @@
   "user_id": 184456115927384065,
   "level": {
     "level": 36,
-    "xp_into_level": 23925,
+    "xp_into_level": 25367,
     "xp_for_level": 47000,
-    "progress": 0.5090425531914894,
+    "progress": 0.5397234042553192,
     "maxed": false
   },
-  "total_xp": 621425,
+  "total_xp": 622867,
   "period_stats": {
-    "daily_points": 187,
-    "daily_correct": 78,
-    "weekly_points": 756,
-    "weekly_correct": 403,
-    "monthly_points": 1652,
-    "monthly_correct": 925,
-    "yearly_points": 1652,
-    "yearly_correct": 925,
-    "alltime_points": 1652,
-    "alltime_correct": 925
+    "daily_points": 220,
+    "daily_correct": 89,
+    "weekly_points": 784,
+    "weekly_correct": 412,
+    "monthly_points": 1685,
+    "monthly_correct": 936,
+    "yearly_points": 1685,
+    "yearly_correct": 936,
+    "alltime_points": 1685,
+    "alltime_correct": 936
   },
   "stats_row": {
     "user_id": 184456115927384065,
     "guild_id": 861055530638114836,
-    "total_points": 1128,
-    "questions_right": 401,
+    "total_points": 1161,
+    "questions_right": 412,
     "questions_wrong": 0,
-    "wins": 401,
-    "current_streak": 2,
+    "wins": 412,
+    "current_streak": 1,
     "best_streak": 21,
-    "games_played": 59,
+    "games_played": 61,
     "insane_guesses": 353,
     "day_streak": 11,
     "last_played_date": "2026-09-25",
-    "total_xp": 621425,
-    "game_wins": 22,
+    "total_xp": 622867,
+    "game_wins": 24,
     "achievement_best_streak": 21
   },
   "best_streak": 21,
@@ -48,8 +48,8 @@
   },
   "best_category": {
     "category": "Sports",
-    "points": 577,
-    "correct": 192
+    "points": 610,
+    "correct": 203
   },
   "best_insane_round": {
     "question_text": "WWE Champions",
@@ -57,14 +57,14 @@
     "guesses": 16
   },
   "total_insane_correct": 524,
-  "average_guess_ms": 21738.316708229428,
+  "average_guess_ms": 21608.356796116506,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 22
   },
   "spelling_accuracy": {
-    "exact_count": 761,
-    "total": 833
+    "exact_count": 772,
+    "total": 844
   },
   "achievements": {
     "catalog": [
@@ -2219,7 +2219,7 @@
       "movies": 1,
       "music": 3,
       "pokemon": 3,
-      "sports": 122,
+      "sports": 133,
       "videogames": 3,
       "wrestling": 82,
       "duelwins": 7,
