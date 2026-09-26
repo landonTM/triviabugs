@@ -1,0 +1,105 @@
+{
+  "game": {
+    "id": 21,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 5,
+    "rounds_played": 5,
+    "categories": [
+      "Conundrums"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "184456115927384065",
+    "started_at": "2026-09-26 03:20:21.280874+00:00",
+    "ended_at": "2026-09-26 03:23:20.982591+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 4870,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:20:21.688277+00:00",
+      "round_ended_at": "2026-09-26 03:20:29.739967+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Conundrums",
+      "question_text": "Harvest",
+      "correct_answers": [
+        "Harvest"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 8036,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 03:20:29.735806+00:00"
+    },
+    {
+      "round_id": 4871,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:20:40.199961+00:00",
+      "round_ended_at": "2026-09-26 03:20:46.668368+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Conundrums",
+      "question_text": "Scissors",
+      "correct_answers": [
+        "Scissors"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 6455,
+      "exact_match": false,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 03:20:46.664586+00:00"
+    },
+    {
+      "round_id": 4872,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:20:57.550811+00:00",
+      "round_ended_at": "2026-09-26 03:21:23.355683+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Conundrums",
+      "question_text": "Helicopter",
+      "correct_answers": [
+        "Helicopter"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 25792,
+      "exact_match": true,
+      "points_awarded": 2,
+      "answered_at": "2026-09-26 03:21:23.352347+00:00"
+    },
+    {
+      "round_id": 4873,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:21:33.552446+00:00",
+      "round_ended_at": "2026-09-26 03:21:58.951960+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Conundrums",
+      "question_text": "Playwright",
+      "correct_answers": [
+        "Playwright"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 25386,
+      "exact_match": true,
+      "points_awarded": 2,
+      "answered_at": "2026-09-26 03:21:58.948618+00:00"
+    },
+    {
+      "round_id": 4874,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:22:09.565886+00:00",
+      "round_ended_at": "2026-09-26 03:23:09.726426+00:00",
+      "winner_id": null,
+      "category": "Conundrums",
+      "question_text": "Stoic",
+      "correct_answers": [
+        "Stoic"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    }
+  ]
+}
