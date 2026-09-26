@@ -3493,6 +3493,126 @@
       "unlock_level": null,
       "unlocked": true,
       "source": "grant"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "pumpkin",
+      "label": "Pumpkin MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "scarymovies",
+      "label": "Scary Movies MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "herejohnny",
+      "label": "Here's Johnny MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "playgame",
+      "label": "Play Game MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "primetime",
+      "label": "Prime Time MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "stupidbitch",
+      "label": "Stupid Bitch MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "rubber",
+      "label": "Rubber MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "cancelled",
+      "label": "Cancelled MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "phil",
+      "label": "Phil MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "comeback",
+      "label": "Come Back MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "forgettosmile",
+      "label": "Forget to Smile MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "mother",
+      "label": "Mother MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "wholebag",
+      "label": "Whole Bag MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "wassup",
+      "label": "WASSUP MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "melvindoo",
+      "label": "Melvin Doo MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
     }
   ]
 }
