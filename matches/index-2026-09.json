@@ -1079,6 +1079,45 @@
       "started_at": "2026-09-26 21:13:22.308922+00:00",
       "ended_at": "2026-09-26 21:14:06.266251+00:00",
       "end_reason": "stopped"
+    },
+    {
+      "id": 45,
+      "kind": "game",
+      "mode": "standard",
+      "channel_id": "864342930076860426",
+      "total_rounds": 50,
+      "rounds_played": 50,
+      "categories": [
+        "Music",
+        "movies",
+        "history",
+        "geography",
+        "arts and literature",
+        "conundrums",
+        "sports",
+        "logos"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-26 22:33:32.820425+00:00",
+      "ended_at": "2026-09-26 23:28:53.320462+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 46,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 10,
+      "rounds_played": 10,
+      "categories": [
+        "Sports"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-26 23:29:39.946869+00:00",
+      "ended_at": "2026-09-26 23:36:14.655117+00:00",
+      "end_reason": "completed"
     }
   ]
 }
