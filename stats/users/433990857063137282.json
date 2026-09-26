@@ -2,38 +2,38 @@
   "user_id": 433990857063137282,
   "level": {
     "level": 39,
-    "xp_into_level": 10869,
+    "xp_into_level": 11097,
     "xp_for_level": 53000,
-    "progress": 0.20507547169811322,
+    "progress": 0.20937735849056605,
     "maxed": false
   },
-  "total_xp": 755369,
+  "total_xp": 755597,
   "period_stats": {
-    "daily_points": 58,
-    "daily_correct": 53,
-    "weekly_points": 1106,
-    "weekly_correct": 507,
-    "monthly_points": 3185,
-    "monthly_correct": 1544,
-    "yearly_points": 3359,
-    "yearly_correct": 1637,
-    "alltime_points": 3359,
-    "alltime_correct": 1637
+    "daily_points": 59,
+    "daily_correct": 54,
+    "weekly_points": 1091,
+    "weekly_correct": 501,
+    "monthly_points": 3186,
+    "monthly_correct": 1545,
+    "yearly_points": 3360,
+    "yearly_correct": 1638,
+    "alltime_points": 3360,
+    "alltime_correct": 1638
   },
   "stats_row": {
     "user_id": 433990857063137282,
     "guild_id": 861055530638114836,
-    "total_points": 2425,
-    "questions_right": 700,
+    "total_points": 2426,
+    "questions_right": 701,
     "questions_wrong": 0,
-    "wins": 700,
-    "current_streak": 2,
+    "wins": 701,
+    "current_streak": 1,
     "best_streak": 27,
-    "games_played": 72,
+    "games_played": 73,
     "insane_guesses": 633,
     "day_streak": 3,
     "last_played_date": "2026-09-25",
-    "total_xp": 755369,
+    "total_xp": 755597,
     "game_wins": 23,
     "achievement_best_streak": 27
   },
@@ -57,14 +57,14 @@
     "guesses": 17
   },
   "total_insane_correct": 938,
-  "average_guess_ms": 17609.79113018598,
+  "average_guess_ms": 17649.62714285714,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1238,
-    "total": 1423
+    "exact_count": 1239,
+    "total": 1424
   },
   "achievements": {
     "catalog": [
