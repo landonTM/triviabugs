@@ -2,23 +2,23 @@
   "user_id": 433990857063137282,
   "level": {
     "level": 40,
-    "xp_into_level": 31223,
+    "xp_into_level": 32859,
     "xp_for_level": 55000,
-    "progress": 0.5676909090909091,
+    "progress": 0.5974363636363637,
     "maxed": false
   },
-  "total_xp": 828723,
+  "total_xp": 830359,
   "period_stats": {
-    "daily_points": 442,
-    "daily_correct": 185,
-    "weekly_points": 1287,
-    "weekly_correct": 537,
-    "monthly_points": 3569,
-    "monthly_correct": 1676,
-    "yearly_points": 3743,
-    "yearly_correct": 1769,
-    "alltime_points": 3743,
-    "alltime_correct": 1769
+    "daily_points": 445,
+    "daily_correct": 188,
+    "weekly_points": 1262,
+    "weekly_correct": 519,
+    "monthly_points": 3572,
+    "monthly_correct": 1679,
+    "yearly_points": 3746,
+    "yearly_correct": 1772,
+    "alltime_points": 3746,
+    "alltime_correct": 1772
   },
   "stats_row": {
     "user_id": 433990857063137282,
@@ -29,11 +29,11 @@
     "wins": 754,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 82,
-    "insane_guesses": 711,
+    "games_played": 83,
+    "insane_guesses": 714,
     "day_streak": 4,
     "last_played_date": "2026-09-26",
-    "total_xp": 828723,
+    "total_xp": 830359,
     "game_wins": 28,
     "achievement_best_streak": 27
   },
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1016,
+  "total_insane_correct": 1019,
   "average_guess_ms": 16945.494023904383,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1360,
-    "total": 1555
+    "exact_count": 1363,
+    "total": 1558
   },
   "achievements": {
     "catalog": [
