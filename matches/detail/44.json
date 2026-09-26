@@ -1,0 +1,54 @@
+{
+  "game": {
+    "id": 44,
+    "kind": "game",
+    "mode": "hardcore",
+    "channel_id": "864342930076860426",
+    "total_rounds": 5,
+    "rounds_played": 2,
+    "categories": [
+      "Logos"
+    ],
+    "started_by": "433990857063137282",
+    "winner_id": "433990857063137282",
+    "started_at": "2026-09-26 21:13:22.308922+00:00",
+    "ended_at": "2026-09-26 21:14:06.266251+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 5210,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 21:13:22.601476+00:00",
+      "round_ended_at": "2026-09-26 21:13:27.624786+00:00",
+      "winner_id": 433990857063137282,
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "correct_answers": [
+        "Holiday Inn"
+      ],
+      "answerer_id": 433990857063137282,
+      "response_time_ms": 5008,
+      "exact_match": true,
+      "points_awarded": 6,
+      "answered_at": "2026-09-26 21:13:27.620856+00:00"
+    },
+    {
+      "round_id": 5211,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 21:13:57.839405+00:00",
+      "round_ended_at": "2026-09-26 21:14:05.865296+00:00",
+      "winner_id": null,
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "correct_answers": [
+        "Reddit"
+      ],
+      "answerer_id": 734768348201615400,
+      "response_time_ms": 3363,
+      "exact_match": true,
+      "points_awarded": 6,
+      "answered_at": "2026-09-26 21:14:01.212311+00:00"
+    }
+  ]
+}
