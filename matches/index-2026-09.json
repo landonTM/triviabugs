@@ -980,6 +980,23 @@
       "started_at": "2026-09-26 18:00:07.341373+00:00",
       "ended_at": "2026-09-26 18:58:35.070988+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 38,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 40,
+      "rounds_played": 40,
+      "categories": [
+        "Sports",
+        "Wrestling"
+      ],
+      "started_by": "734768348201615400",
+      "winner_id": "734768348201615400",
+      "started_at": "2026-09-26 19:46:30.933076+00:00",
+      "ended_at": "2026-09-26 20:03:51.437147+00:00",
+      "end_reason": "completed"
     }
   ]
 }
