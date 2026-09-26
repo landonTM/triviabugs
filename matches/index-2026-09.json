@@ -1029,6 +1029,24 @@
       "started_at": "2026-09-26 20:17:01.161934+00:00",
       "ended_at": "2026-09-26 20:32:37.240977+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 41,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 20,
+      "rounds_played": 20,
+      "categories": [
+        "sports",
+        "geography",
+        "arts & literature"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-26 20:35:29.995221+00:00",
+      "ended_at": "2026-09-26 20:51:16.216257+00:00",
+      "end_reason": "completed"
     }
   ]
 }
