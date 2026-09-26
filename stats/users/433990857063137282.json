@@ -11,8 +11,8 @@
   "period_stats": {
     "daily_points": 76,
     "daily_correct": 59,
-    "weekly_points": 1082,
-    "weekly_correct": 493,
+    "weekly_points": 1033,
+    "weekly_correct": 465,
     "monthly_points": 3203,
     "monthly_correct": 1550,
     "yearly_points": 3377,
@@ -2736,6 +2736,30 @@
       "key": "alien",
       "label": "Alien Response Theme",
       "unlock_level": 90,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "zombie",
+      "label": "Zombie Response Theme",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "dracula",
+      "label": "Dracula Response Theme",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "theme",
+      "key": "scoobydoo",
+      "label": "Scooby Doo Response Theme",
+      "unlock_level": null,
       "unlocked": false,
       "source": null
     },
