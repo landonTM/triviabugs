@@ -1,0 +1,105 @@
+{
+  "game": {
+    "id": 32,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 5,
+    "rounds_played": 5,
+    "categories": [
+      "Sports"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "184456115927384065",
+    "started_at": "2026-09-26 05:25:05.375019+00:00",
+    "ended_at": "2026-09-26 05:27:44.112791+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 4979,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:25:05.692969+00:00",
+      "round_ended_at": "2026-09-26 05:25:12.653658+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "What is the name of the famous 1973 tennis exhibition match in which Billie Jean King defeated Bobby Riggs at the Houston Astrodome?",
+      "correct_answers": [
+        "Battle of the Sexes"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 6948,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 05:25:12.650281+00:00"
+    },
+    {
+      "round_id": 4980,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:25:22.857535+00:00",
+      "round_ended_at": "2026-09-26 05:25:27.358398+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "Which Grand Slam tournament added a men's doubles championship in 1884, having previously been held at Oxford University?",
+      "correct_answers": [
+        "Wimbledon"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 4488,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 05:25:27.354914+00:00"
+    },
+    {
+      "round_id": 4981,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:25:37.574540+00:00",
+      "round_ended_at": "2026-09-26 05:25:44.750121+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "What is the term for a shot hit before the ball bounces, typically played near the net?",
+      "correct_answers": [
+        "Volley"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 7162,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 05:25:44.746515+00:00"
+    },
+    {
+      "round_id": 4982,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:25:54.970559+00:00",
+      "round_ended_at": "2026-09-26 05:26:20.796415+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "What team won the 2016 MLS Cup?",
+      "correct_answers": [
+        "Seattle Sounders"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 25812,
+      "exact_match": true,
+      "points_awarded": 2,
+      "answered_at": "2026-09-26 05:26:20.792843+00:00"
+    },
+    {
+      "round_id": 4983,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 05:26:31.307217+00:00",
+      "round_ended_at": "2026-09-26 05:27:31.493091+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Who won the 2016 Formula 1 World Driver's Championship?",
+      "correct_answers": [
+        "Nico Rosberg"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    }
+  ]
+}
