@@ -1,0 +1,53 @@
+{
+  "match": {
+    "id": 25,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "184456115927384065",
+    "format": 3,
+    "winner_id": "184456115927384065",
+    "challenger_score": 0,
+    "opponent_score": 1,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-26 05:11:05.502394+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 5629,
+      "answered_at": "2026-09-26 05:11:05.504619+00:00",
+      "category": "Sports",
+      "question_text": "What is it called when a player kicks or passes the ball through an opponent's legs?",
+      "correct_answers": [
+        "Nutmeg"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-26 05:11:05.504619+00:00",
+      "category": "Quotes",
+      "question_text": "Who said: \"Poyekhali!\"",
+      "correct_answers": [
+        "Yuri Gagarin"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-26 05:11:05.504619+00:00",
+      "category": "Video Games",
+      "question_text": "What was the pioneering packet-switched network that preceded and laid the groundwork for the modern Internet?",
+      "correct_answers": [
+        "ARPANET"
+      ]
+    }
+  ]
+}
