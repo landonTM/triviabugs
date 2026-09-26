@@ -1,0 +1,105 @@
+{
+  "game": {
+    "id": 24,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 5,
+    "rounds_played": 5,
+    "categories": [
+      "Movies"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "184456115927384065",
+    "started_at": "2026-09-26 03:29:40.504673+00:00",
+    "ended_at": "2026-09-26 03:33:03.909359+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 4885,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:29:40.746958+00:00",
+      "round_ended_at": "2026-09-26 03:30:30.878209+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Movies",
+      "question_text": "Who voice acted the character Hiccup in the movie \"How to Train Your Dragon\"?",
+      "correct_answers": [
+        "Jay Baruchel"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 50119,
+      "exact_match": true,
+      "points_awarded": 1,
+      "answered_at": "2026-09-26 03:30:30.874869+00:00"
+    },
+    {
+      "round_id": 4886,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:30:41.124516+00:00",
+      "round_ended_at": "2026-09-26 03:30:49.091417+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Movies",
+      "question_text": "In the 1971 film \"Willy Wonka & the Chocolate Factory\", who played Willy Wonka?",
+      "correct_answers": [
+        "Gene Wilder"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 7954,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 03:30:49.087759+00:00"
+    },
+    {
+      "round_id": 4887,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:30:59.398211+00:00",
+      "round_ended_at": "2026-09-26 03:31:23.412458+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Movies",
+      "question_text": "Who directed the 1973 film \"American Graffiti\"?",
+      "correct_answers": [
+        "George Lucas"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 23998,
+      "exact_match": true,
+      "points_awarded": 2,
+      "answered_at": "2026-09-26 03:31:23.408491+00:00"
+    },
+    {
+      "round_id": 4888,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:31:33.637331+00:00",
+      "round_ended_at": "2026-09-26 03:32:34.034935+00:00",
+      "winner_id": null,
+      "category": "Movies",
+      "question_text": "In It's a Wonderful Life, what business does George run?",
+      "correct_answers": [
+        "Building and Loan"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    },
+    {
+      "round_id": 4889,
+      "mode": "standard",
+      "round_started_at": "2026-09-26 03:32:44.274188+00:00",
+      "round_ended_at": "2026-09-26 03:32:53.752636+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Movies",
+      "question_text": "In Rocky, who plays Rocky Balboa?",
+      "correct_answers": [
+        "Sylvester Stallone"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 9465,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-26 03:32:53.749126+00:00"
+    }
+  ]
+}
