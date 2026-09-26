@@ -2,39 +2,39 @@
   "user_id": 734768348201615400,
   "level": {
     "level": 41,
-    "xp_into_level": 11527,
+    "xp_into_level": 24691,
     "xp_for_level": 58000,
-    "progress": 0.19874137931034483,
+    "progress": 0.4257068965517241,
     "maxed": false
   },
-  "total_xp": 864027,
+  "total_xp": 877191,
   "period_stats": {
-    "daily_points": 268,
-    "daily_correct": 126,
-    "weekly_points": 1426,
-    "weekly_correct": 840,
-    "monthly_points": 5319,
-    "monthly_correct": 2971,
-    "yearly_points": 5518,
-    "yearly_correct": 3114,
-    "alltime_points": 5518,
-    "alltime_correct": 3114
+    "daily_points": 317,
+    "daily_correct": 150,
+    "weekly_points": 1475,
+    "weekly_correct": 864,
+    "monthly_points": 5368,
+    "monthly_correct": 2995,
+    "yearly_points": 5567,
+    "yearly_correct": 3138,
+    "alltime_points": 5567,
+    "alltime_correct": 3138
   },
   "stats_row": {
     "user_id": 734768348201615400,
     "guild_id": 861055530638114836,
-    "total_points": 3461,
-    "questions_right": 1057,
+    "total_points": 3491,
+    "questions_right": 1062,
     "questions_wrong": 0,
-    "wins": 1057,
-    "current_streak": 3,
+    "wins": 1062,
+    "current_streak": 1,
     "best_streak": 37,
-    "games_played": 48,
-    "insane_guesses": 1128,
+    "games_played": 50,
+    "insane_guesses": 1147,
     "day_streak": 12,
     "last_played_date": "2026-09-26",
-    "total_xp": 864027,
-    "game_wins": 26,
+    "total_xp": 877191,
+    "game_wins": 27,
     "achievement_best_streak": 37
   },
   "best_streak": 37,
@@ -48,23 +48,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 1071,
-    "correct": 714
+    "points": 1091,
+    "correct": 724
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2057,
-  "average_guess_ms": 15697.053926206245,
+  "total_insane_correct": 2076,
+  "average_guess_ms": 15662.774011299434,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 28
   },
   "spelling_accuracy": {
-    "exact_count": 1950,
-    "total": 2332
+    "exact_count": 1972,
+    "total": 2356
   },
   "achievements": {
     "catalog": [
@@ -2209,7 +2209,9 @@
       "wrestling_250": "2026-09-26 18:58:04.768646+00:00",
       "streak_15": "2026-09-26 19:53:18.865425+00:00",
       "streak_20": "2026-09-26 19:56:09.737776+00:00",
-      "streak_25": "2026-09-26 19:57:21.869814+00:00"
+      "streak_25": "2026-09-26 19:57:21.869814+00:00",
+      "hardcore_win": "2026-09-26 20:14:00.638954+00:00",
+      "play_50_games": "2026-09-26 20:32:37.584830+00:00"
     },
     "baselines": {
       "points": 1842,
@@ -2224,11 +2226,11 @@
       "got": 0,
       "marvel": 28,
       "movies": 4,
-      "music": 5,
+      "music": 16,
       "pokemon": 7,
-      "sports": 78,
+      "sports": 81,
       "videogames": 12,
-      "wrestling": 282,
+      "wrestling": 292,
       "duelwins": 3,
       "duelstreak": 1
     }
@@ -3474,6 +3476,126 @@
       "unlock_level": null,
       "unlocked": true,
       "source": "grant"
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "pumpkin",
+      "label": "Pumpkin MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "scarymovies",
+      "label": "Scary Movies MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "herejohnny",
+      "label": "Here's Johnny MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "playgame",
+      "label": "Play Game MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "primetime",
+      "label": "Prime Time MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "stupidbitch",
+      "label": "Stupid Bitch MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "rubber",
+      "label": "Rubber MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "cancelled",
+      "label": "Cancelled MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "phil",
+      "label": "Phil MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "comeback",
+      "label": "Come Back MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "forgettosmile",
+      "label": "Forget to Smile MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "mother",
+      "label": "Mother MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "wholebag",
+      "label": "Whole Bag MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "wassup",
+      "label": "WASSUP MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
+    },
+    {
+      "cosmetic_type": "mvp",
+      "key": "melvindoo",
+      "label": "Melvin Doo MVP",
+      "unlock_level": null,
+      "unlocked": false,
+      "source": null
     }
   ]
 }
