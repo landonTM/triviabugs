@@ -1,18 +1,18 @@
 {
   "user_id": 734768348201615400,
   "level": {
-    "level": 41,
-    "xp_into_level": 47051,
-    "xp_for_level": 58000,
-    "progress": 0.8112241379310344,
+    "level": 42,
+    "xp_into_level": 7595,
+    "xp_for_level": 61000,
+    "progress": 0.12450819672131147,
     "maxed": false
   },
-  "total_xp": 899551,
+  "total_xp": 918095,
   "period_stats": {
     "daily_points": 31,
     "daily_correct": 26,
-    "weekly_points": 1469,
-    "weekly_correct": 854,
+    "weekly_points": 1463,
+    "weekly_correct": 848,
     "monthly_points": 5457,
     "monthly_correct": 3052,
     "yearly_points": 5656,
@@ -29,11 +29,11 @@
     "wins": 1075,
     "current_streak": 1,
     "best_streak": 37,
-    "games_played": 53,
+    "games_played": 54,
     "insane_guesses": 1191,
-    "day_streak": 12,
-    "last_played_date": "2026-09-26",
-    "total_xp": 899551,
+    "day_streak": 13,
+    "last_played_date": "2026-09-27",
+    "total_xp": 918095,
     "game_wins": 28,
     "achievement_best_streak": 37
   },
@@ -2893,8 +2893,8 @@
       "key": "periwinkle",
       "label": "Periwinkle Embed",
       "unlock_level": 42,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "embedcolor",
