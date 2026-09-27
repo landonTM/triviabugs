@@ -1,0 +1,253 @@
+{
+  "game": {
+    "id": 52,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 10,
+    "rounds_played": 10,
+    "categories": [
+      "Sports"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "184456115927384065",
+    "started_at": "2026-09-27 02:59:16.704847+00:00",
+    "ended_at": "2026-09-27 03:05:08.319350+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5313,
+      "mode": "standard",
+      "round_started_at": "2026-09-27 02:59:16.996959+00:00",
+      "round_ended_at": "2026-09-27 03:00:17.207245+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "What was the name of the annual competition contested between the European and South American club champions from 1960 to 2004?",
+      "correct_answers": [
+        "Intercontinental Cup"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    },
+    {
+      "round_id": 5314,
+      "mode": "standard",
+      "round_started_at": "2026-09-27 03:00:27.472112+00:00",
+      "round_ended_at": "2026-09-27 03:00:32.735327+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "What MLS team did Lionel Messi join in 2023?",
+      "correct_answers": [
+        "Inter Miami"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 5247,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-27 03:00:32.730830+00:00"
+    },
+    {
+      "round_id": 5315,
+      "mode": "standard",
+      "round_started_at": "2026-09-27 03:00:42.990918+00:00",
+      "round_ended_at": "2026-09-27 03:00:46.783648+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "Which club is based at Stamford Bridge?",
+      "correct_answers": [
+        "Chelsea"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 3778,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-27 03:00:46.780324+00:00"
+    },
+    {
+      "round_id": 5316,
+      "mode": "standard",
+      "round_started_at": "2026-09-27 03:00:57.011745+00:00",
+      "round_ended_at": "2026-09-27 03:01:01.594378+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "What Scottish club has won the most Scottish Premiership titles?",
+      "correct_answers": [
+        "Celtic"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 4566,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-27 03:01:01.590838+00:00"
+    },
+    {
+      "round_id": 5317,
+      "mode": "standard",
+      "round_started_at": "2026-09-27 03:01:11.808444+00:00",
+      "round_ended_at": "2026-09-27 03:01:28.640854+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "Who was the first African American man to win a Grand Slam singles title, doing so at the 1968 US Open?",
+      "correct_answers": [
+        "Arthur Ashe"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 16818,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-27 03:01:28.637467+00:00"
+    },
+    {
+      "round_id": 5318,
+      "mode": "standard",
+      "round_started_at": "2026-09-27 03:01:38.969932+00:00",
+      "round_ended_at": "2026-09-27 03:02:11.671432+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "_________ Marlins (MLB)",
+      "correct_answers": [
+        "Miami"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 32686,
+      "exact_match": true,
+      "points_awarded": 2,
+      "answered_at": "2026-09-27 03:02:11.667949+00:00"
+    },
+    {
+      "round_id": 5319,
+      "mode": "standard",
+      "round_started_at": "2026-09-27 03:02:22.006882+00:00",
+      "round_ended_at": "2026-09-27 03:02:55.398633+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "_________ Commanders (NFL)",
+      "correct_answers": [
+        "Washington"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 33378,
+      "exact_match": true,
+      "points_awarded": 2,
+      "answered_at": "2026-09-27 03:02:55.395102+00:00"
+    },
+    {
+      "round_id": 5320,
+      "mode": "standard",
+      "round_started_at": "2026-09-27 03:03:05.611854+00:00",
+      "round_ended_at": "2026-09-27 03:03:32.558718+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "With which team did Michael Schumacher make his Formula One debut at the 1991 Belgian Grand Prix?",
+      "correct_answers": [
+        "Jordan"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 26934,
+      "exact_match": true,
+      "points_awarded": 2,
+      "answered_at": "2026-09-27 03:03:32.555028+00:00"
+    },
+    {
+      "round_id": 5321,
+      "mode": "standard",
+      "round_started_at": "2026-09-27 03:03:42.810435+00:00",
+      "round_ended_at": "2026-09-27 03:03:47.611315+00:00",
+      "winner_id": 184456115927384065,
+      "category": "Sports",
+      "question_text": "What is the top domestic soccer league in Germany called?",
+      "correct_answers": [
+        "Bundesliga"
+      ],
+      "answerer_id": 184456115927384065,
+      "response_time_ms": 4788,
+      "exact_match": true,
+      "points_awarded": 4,
+      "answered_at": "2026-09-27 03:03:47.608210+00:00"
+    },
+    {
+      "round_id": 5322,
+      "mode": "insane",
+      "round_started_at": "2026-09-27 03:03:57.762047+00:00",
+      "round_ended_at": "2026-09-27 03:04:57.917505+00:00",
+      "winner_id": null,
+      "category": "Harry Potter",
+      "question_text": "Harry Potter characters",
+      "correct_answers": [
+        "Harry Potter",
+        "Hermione Granger",
+        "Ron Weasley",
+        "Albus Dumbledore",
+        "Severus Snape",
+        "Rubeus Hagrid",
+        "Minerva McGonagall",
+        "Lord Voldemort",
+        "Draco Malfoy",
+        "Ginny Weasley",
+        "Fred Weasley",
+        "George Weasley",
+        "Percy Weasley",
+        "Bill Weasley",
+        "Charlie Weasley",
+        "Molly Weasley",
+        "Arthur Weasley",
+        "Neville Longbottom",
+        "Luna Lovegood",
+        "Cho Chang",
+        "Cedric Diggory",
+        "Sirius Black",
+        "Remus Lupin",
+        "Peter Pettigrew",
+        "James Potter",
+        "Lily Potter",
+        "Dolores Umbridge",
+        "Gilderoy Lockhart",
+        "Alastor Moody",
+        "Horace Slughorn",
+        "Filius Flitwick",
+        "Pomona Sprout",
+        "Argus Filch",
+        "Dobby",
+        "Kreacher",
+        "Bellatrix Lestrange",
+        "Lucius Malfoy",
+        "Narcissa Malfoy",
+        "Vernon Dursley",
+        "Petunia Dursley",
+        "Dudley Dursley",
+        "Nymphadora Tonks",
+        "Kingsley Shacklebolt",
+        "Fleur Delacour",
+        "Viktor Krum",
+        "Rita Skeeter",
+        "Xenophilius Lovegood",
+        "Regulus Black",
+        "Barty Crouch Jr.",
+        "Igor Karkaroff",
+        "Olympe Maxime",
+        "Aberforth Dumbledore",
+        "Gellert Grindelwald",
+        "Moaning Myrtle",
+        "The Fat Lady",
+        "Nearly Headless Nick",
+        "Bathilda Bagshot",
+        "Griphook",
+        "Ollivander",
+        "Madam Pomfrey",
+        "Rolanda Hooch",
+        "Cornelius Fudge",
+        "Rufus Scrimgeour",
+        "Pius Thicknesse"
+      ],
+      "answerer_id": null,
+      "response_time_ms": null,
+      "exact_match": null,
+      "points_awarded": null,
+      "answered_at": null
+    }
+  ]
+}
