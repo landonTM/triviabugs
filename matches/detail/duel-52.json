@@ -1,0 +1,103 @@
+{
+  "match": {
+    "id": 52,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "734768348201615400",
+    "opponent_id": "433990857063137282",
+    "format": 7,
+    "format_label": "Best of 7",
+    "winner_id": "734768348201615400",
+    "is_tie": false,
+    "challenger_score": 3,
+    "opponent_score": 2,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 20:41:56.671435+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 14571,
+      "answered_at": "2026-09-27 20:41:56.673365+00:00",
+      "category": "Video Games",
+      "question_text": "In Night in the Woods, what is the first name of Mae Borowski's mother?",
+      "correct_answers": [
+        "Candy"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 734768348201615400,
+      "response_time_ms": 11731,
+      "answered_at": "2026-09-27 20:41:56.673365+00:00",
+      "category": "Entertainment",
+      "question_text": "Band: Elvis Costello and the ___________ ?",
+      "correct_answers": [
+        "Attractions"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:41:56.673365+00:00",
+      "category": "Disney",
+      "question_text": "What was the name of the 1992 television series which featured Goofy in it?",
+      "correct_answers": [
+        "Goof Troop"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 19805,
+      "answered_at": "2026-09-27 20:41:56.673365+00:00",
+      "category": "Slogans",
+      "question_text": "An American Revolution.",
+      "correct_answers": [
+        "Chevrolet"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": 734768348201615400,
+      "response_time_ms": 17520,
+      "answered_at": "2026-09-27 20:41:56.673365+00:00",
+      "category": "Video Games",
+      "question_text": "Which Monty Python member voiced Rincewind in the 1995 Discworld video game?",
+      "correct_answers": [
+        "Eric Idle"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:41:56.673365+00:00",
+      "category": "Art and Literature",
+      "question_text": "Whose autobiography was entitled 'Dear Me'?",
+      "correct_answers": [
+        "Peter Ustinov"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": 734768348201615400,
+      "response_time_ms": 5933,
+      "answered_at": "2026-09-27 20:41:56.673365+00:00",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "correct_answers": [
+        "Japan"
+      ]
+    }
+  ]
+}
