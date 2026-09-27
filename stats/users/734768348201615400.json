@@ -2243,7 +2243,8 @@
     "wins": 3,
     "losses": 2,
     "current_streak": 1,
-    "best_streak": 1
+    "best_streak": 1,
+    "ties": 0
   },
   "kirkening_crownings": [],
   "cosmetics": [
