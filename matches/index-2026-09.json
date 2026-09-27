@@ -1182,6 +1182,19 @@
       "started_at": "2026-09-26 23:57:24.809201+00:00",
       "ended_at": "2026-09-26 23:59:40.120383+00:00",
       "end_reason": "stopped"
+    },
+    {
+      "id": 27,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "433990857063137282",
+      "opponent_id": "184456115927384065",
+      "format": 3,
+      "winner_id": "433990857063137282",
+      "challenger_score": 2,
+      "opponent_score": 0,
+      "decided_by_tiebreaker": false,
+      "ended_at": "2026-09-27 00:00:28.459162+00:00"
     }
   ]
 }
