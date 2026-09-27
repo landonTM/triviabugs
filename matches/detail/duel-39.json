@@ -1,0 +1,137 @@
+{
+  "match": {
+    "id": 39,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 10,
+    "winner_id": "433990857063137282",
+    "challenger_score": 3,
+    "opponent_score": 5,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 03:11:29.136712+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 15862,
+      "answered_at": "2026-09-27 03:11:29.138380+00:00",
+      "category": "Geography",
+      "question_text": "Which country has the abbreviation \"CH\"?",
+      "correct_answers": [
+        "Switzerland"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 1815,
+      "answered_at": "2026-09-27 03:11:29.138380+00:00",
+      "category": "US State Abbreviations",
+      "question_text": "What is the abbreviation for Montana?",
+      "correct_answers": [
+        "MT"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 14487,
+      "answered_at": "2026-09-27 03:11:29.138380+00:00",
+      "category": "Greek Mythology",
+      "question_text": "Who saved Andromeda from Cetus?",
+      "correct_answers": [
+        "Perseus"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 6218,
+      "answered_at": "2026-09-27 03:11:29.138380+00:00",
+      "category": "General Knowledge",
+      "question_text": "In what year did Canada stop producing the penny?",
+      "correct_answers": [
+        "2012"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:11:29.138380+00:00",
+      "category": "Geography",
+      "question_text": "Which volcano is NOT located in Antarctica?",
+      "correct_answers": [
+        "Mount Napier"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 8026,
+      "answered_at": "2026-09-27 03:11:29.138380+00:00",
+      "category": "World Capitals",
+      "question_text": "What is the capital of Denmark?",
+      "correct_answers": [
+        "Copenhagen"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 7066,
+      "answered_at": "2026-09-27 03:11:29.138380+00:00",
+      "category": "Elements",
+      "question_text": "What is the element symbol of \"Einsteinium\"?",
+      "correct_answers": [
+        "Es"
+      ]
+    },
+    {
+      "round_number": 8,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 13305,
+      "answered_at": "2026-09-27 03:11:29.138380+00:00",
+      "category": "Marvel",
+      "question_text": "Who is Daredevil's primary crime-lord enemy in the first season?",
+      "correct_answers": [
+        "Wilson Fisk"
+      ]
+    },
+    {
+      "round_number": 9,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:11:29.138380+00:00",
+      "category": "MLB",
+      "question_text": "How many home runs did Roger Maris hit in his record-setting 1961 season?",
+      "correct_answers": [
+        "61"
+      ]
+    },
+    {
+      "round_number": 10,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 9258,
+      "answered_at": "2026-09-27 03:11:29.138380+00:00",
+      "category": "Art and Literature",
+      "question_text": "The fallacy of personifying inanimate objects, often in bad taste?",
+      "correct_answers": [
+        "Pathetic fallacy"
+      ]
+    }
+  ]
+}
