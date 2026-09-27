@@ -9,8 +9,8 @@
   },
   "total_xp": 815545,
   "period_stats": {
-    "daily_points": 804,
-    "daily_correct": 316,
+    "daily_points": 0,
+    "daily_correct": 0,
     "weekly_points": 1226,
     "weekly_correct": 545,
     "monthly_points": 2269,
@@ -2239,7 +2239,7 @@
     "guild_id": 861055530638114836,
     "user_id": 184456115927384065,
     "wins": 8,
-    "losses": 5,
+    "losses": 6,
     "current_streak": 0,
     "best_streak": 2
   },
