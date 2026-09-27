@@ -1,0 +1,101 @@
+{
+  "match": {
+    "id": 34,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 7,
+    "winner_id": "184456115927384065",
+    "challenger_score": 3,
+    "opponent_score": 1,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 00:34:16.443011+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:34:16.444706+00:00",
+      "category": "General Knowledge",
+      "question_text": "What is the name for a formal, ceremonial farewell speech, often given by someone leaving a position?",
+      "correct_answers": [
+        "Valediction"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:34:16.444706+00:00",
+      "category": "General Knowledge",
+      "question_text": "What spice, from the dried seed pods of a plant in the ginger family, is among the most expensive by weight after saffron and vanilla?",
+      "correct_answers": [
+        "Cardamom"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 14000,
+      "answered_at": "2026-09-27 00:34:16.444706+00:00",
+      "category": "General Knowledge",
+      "question_text": "What common name is given to the medical condition medial tibial stress syndrome (MTSS)?",
+      "correct_answers": [
+        "Shin Splints"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 4877,
+      "answered_at": "2026-09-27 00:34:16.444706+00:00",
+      "category": "General Knowledge",
+      "question_text": "What's the name of the dance step popularized by Michael Jackson?",
+      "correct_answers": [
+        "Moonwalk"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:34:16.444706+00:00",
+      "category": "General Knowledge",
+      "question_text": "What is the Spanish name for the South American capital which means 'good air'?",
+      "correct_answers": [
+        "Buenos Aires"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 7432,
+      "answered_at": "2026-09-27 00:34:16.444706+00:00",
+      "category": "General Knowledge",
+      "question_text": "What is a perfect game scoring in bowling?",
+      "correct_answers": [
+        "300"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 4020,
+      "answered_at": "2026-09-27 00:34:16.444706+00:00",
+      "category": "General Knowledge",
+      "question_text": "How many days are there in the month of August?",
+      "correct_answers": [
+        "31"
+      ]
+    }
+  ]
+}
