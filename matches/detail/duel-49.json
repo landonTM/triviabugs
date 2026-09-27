@@ -1,0 +1,79 @@
+{
+  "match": {
+    "id": 49,
+    "kind": "duel",
+    "channel_id": "1547066139891212328",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "1008207363637002290",
+    "format": 110,
+    "format_label": "First to 10",
+    "winner_id": null,
+    "is_tie": true,
+    "challenger_score": 0,
+    "opponent_score": 0,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 07:11:07.699867+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 07:11:07.701882+00:00",
+      "category": "Entertainment",
+      "question_text": "Hanna Barbera rose to fame by creating what duo for MGM?",
+      "correct_answers": [
+        "Tom and Jerry"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 07:11:07.701882+00:00",
+      "category": "Video Games",
+      "question_text": "What dragon-like beings are central antagonists in The Elder Scrolls V: Skyrim?",
+      "correct_answers": [
+        "Dragons"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 07:11:07.701882+00:00",
+      "category": "Computers",
+      "question_text": "How many layers are present in TCP/IP model?",
+      "correct_answers": [
+        "7"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 07:11:07.701882+00:00",
+      "category": "Whos That Pokemon (Gen 4)",
+      "question_text": "Who's that Pokémon?",
+      "correct_answers": [
+        "Mamoswine"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 07:11:07.701882+00:00",
+      "category": "General Knowledge",
+      "question_text": "In publishing, what does POD mean?",
+      "correct_answers": [
+        "Print on demand"
+      ]
+    }
+  ]
+}
