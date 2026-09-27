@@ -1,0 +1,101 @@
+{
+  "match": {
+    "id": 42,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 7,
+    "winner_id": "433990857063137282",
+    "challenger_score": 2,
+    "opponent_score": 3,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 03:22:28.128355+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 18121,
+      "answered_at": "2026-09-27 03:22:28.130044+00:00",
+      "category": "NBA",
+      "question_text": "What college did Jerry West go to?",
+      "correct_answers": [
+        "West Virginia University"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:22:28.130044+00:00",
+      "category": "General Knowledge",
+      "question_text": "What braided Jewish bread is traditionally eaten on the Sabbath?",
+      "correct_answers": [
+        "Challah"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:22:28.130044+00:00",
+      "category": "Star Wars",
+      "question_text": "What sound designer created many of the famous sounds of Star Wars, including Chewbacca's roar and R2-D2's beeps and whistles?",
+      "correct_answers": [
+        "Ben Burtt"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 14360,
+      "answered_at": "2026-09-27 03:22:28.130044+00:00",
+      "category": "US States (Map)",
+      "question_text": "What USA state or territory is highlighted on this map?",
+      "correct_answers": [
+        "West Virginia"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 13767,
+      "answered_at": "2026-09-27 03:22:28.130044+00:00",
+      "category": "General Knowledge",
+      "question_text": "Down Syndrome is usually caused by an extra copy of which chromosome?",
+      "correct_answers": [
+        "21"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 8392,
+      "answered_at": "2026-09-27 03:22:28.130044+00:00",
+      "category": "General Knowledge",
+      "question_text": "On a dartboard, what number is directly opposite No. 1?",
+      "correct_answers": [
+        "19"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 5640,
+      "answered_at": "2026-09-27 03:22:28.130044+00:00",
+      "category": "Conundrums",
+      "question_text": "Flamingo",
+      "correct_answers": [
+        "Flamingo"
+      ]
+    }
+  ]
+}
