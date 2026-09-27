@@ -2,39 +2,39 @@
   "user_id": 795847206719717386,
   "level": {
     "level": 41,
-    "xp_into_level": 14676,
+    "xp_into_level": 26140,
     "xp_for_level": 58000,
-    "progress": 0.25303448275862067,
+    "progress": 0.4506896551724138,
     "maxed": false
   },
-  "total_xp": 867176,
+  "total_xp": 878640,
   "period_stats": {
-    "daily_points": 33,
-    "daily_correct": 20,
-    "weekly_points": 650,
-    "weekly_correct": 377,
-    "monthly_points": 5891,
-    "monthly_correct": 3374,
-    "yearly_points": 5997,
-    "yearly_correct": 3433,
-    "alltime_points": 5997,
-    "alltime_correct": 3433
+    "daily_points": 44,
+    "daily_correct": 30,
+    "weekly_points": 643,
+    "weekly_correct": 380,
+    "monthly_points": 5902,
+    "monthly_correct": 3384,
+    "yearly_points": 6008,
+    "yearly_correct": 3443,
+    "alltime_points": 6008,
+    "alltime_correct": 3443
   },
   "stats_row": {
     "user_id": 795847206719717386,
     "guild_id": 861055530638114836,
-    "total_points": 3889,
-    "questions_right": 1325,
+    "total_points": 3892,
+    "questions_right": 1327,
     "questions_wrong": 0,
-    "wins": 1325,
+    "wins": 1327,
     "current_streak": 1,
     "best_streak": 22,
-    "games_played": 55,
-    "insane_guesses": 1154,
-    "day_streak": 1,
-    "last_played_date": "2026-09-26",
-    "total_xp": 867176,
-    "game_wins": 26,
+    "games_played": 56,
+    "insane_guesses": 1162,
+    "day_streak": 2,
+    "last_played_date": "2026-09-27",
+    "total_xp": 878640,
+    "game_wins": 27,
     "achievement_best_streak": 17
   },
   "best_streak": 22,
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2108,
-  "average_guess_ms": 20190.29358490566,
+  "total_insane_correct": 2116,
+  "average_guess_ms": 20220.898266767144,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 27
   },
   "spelling_accuracy": {
-    "exact_count": 2468,
-    "total": 2834
+    "exact_count": 2478,
+    "total": 2844
   },
   "achievements": {
     "catalog": [
@@ -2220,8 +2220,8 @@
     "category_counts": {
       "disney": 65,
       "entertainment": 7,
-      "geo": 178,
-      "gk": 152,
+      "geo": 179,
+      "gk": 160,
       "got": 62,
       "marvel": 62,
       "movies": 5,
