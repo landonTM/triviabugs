@@ -1,0 +1,77 @@
+{
+  "match": {
+    "id": 44,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 5,
+    "winner_id": "184456115927384065",
+    "challenger_score": 2,
+    "opponent_score": 1,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 03:55:56.335515+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 12386,
+      "answered_at": "2026-09-27 03:55:56.337355+00:00",
+      "category": "Phobias",
+      "question_text": "If you have Stygiophobia, what are you afraid of?",
+      "correct_answers": [
+        "Hell"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 3003,
+      "answered_at": "2026-09-27 03:55:56.337355+00:00",
+      "category": "Phobias",
+      "question_text": "If you have Arachnophobia, what are you afraid of?",
+      "correct_answers": [
+        "Spiders"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:55:56.337355+00:00",
+      "category": "Phobias",
+      "question_text": "If you have Carcinophobia, what are you afraid of?",
+      "correct_answers": [
+        "Cancer"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 14071,
+      "answered_at": "2026-09-27 03:55:56.337355+00:00",
+      "category": "Phobias",
+      "question_text": "If you have Ombrophobia, what are you afraid of?",
+      "correct_answers": [
+        "Rain"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:55:56.337355+00:00",
+      "category": "Phobias",
+      "question_text": "If you have Nephophobia, what are you afraid of?",
+      "correct_answers": [
+        "Clouds"
+      ]
+    }
+  ]
+}
