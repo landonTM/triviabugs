@@ -1,0 +1,171 @@
+{
+  "match": {
+    "id": 38,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 10,
+    "winner_id": "433990857063137282",
+    "challenger_score": 3,
+    "opponent_score": 3,
+    "decided_by_tiebreaker": true,
+    "ended_at": "2026-09-27 03:08:40.986251+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 13588,
+      "answered_at": "2026-09-27 03:08:40.988511+00:00",
+      "category": "US State Capitals",
+      "question_text": "What is the USA state capital of Vermont?",
+      "correct_answers": [
+        "Montpelier"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 6747,
+      "answered_at": "2026-09-27 03:08:40.988511+00:00",
+      "category": "Entertainment",
+      "question_text": "Term meaning 'to gradually decrease in volume'?",
+      "correct_answers": [
+        "Decrescendo"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:08:40.988511+00:00",
+      "category": "MLB",
+      "question_text": "What was Ted Williams' nickname?",
+      "correct_answers": [
+        "The Splendid Splinter"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:08:40.988511+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "correct_answers": [
+        "Saint Kitts and Nevis"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 2892,
+      "answered_at": "2026-09-27 03:08:40.988511+00:00",
+      "category": "Wrestling",
+      "question_text": "John Cena defended the WWE Championship against Shawn Michaels in this WrestleMania's main event.",
+      "correct_answers": [
+        "23"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 15946,
+      "answered_at": "2026-09-27 03:08:40.988511+00:00",
+      "category": "Art and Literature",
+      "question_text": "What other name does Stephen King write under?",
+      "correct_answers": [
+        "Richard Bachman"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 8813,
+      "answered_at": "2026-09-27 03:08:40.988511+00:00",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "correct_answers": [
+        "Monaco"
+      ]
+    },
+    {
+      "round_number": 8,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 13371,
+      "answered_at": "2026-09-27 03:08:40.988511+00:00",
+      "category": "Music",
+      "question_text": "Which Beatles song was a number one for \"Ferry Aid\"?",
+      "correct_answers": [
+        "Let It Be"
+      ]
+    },
+    {
+      "round_number": 9,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:08:40.988511+00:00",
+      "category": "MLB",
+      "question_text": "Which pitcher threw the pitch that shattered Sammy Sosa's bat and exposed the cork inside?",
+      "correct_answers": [
+        "Geremi Gonzalez"
+      ]
+    },
+    {
+      "round_number": 10,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:08:40.988511+00:00",
+      "category": "Video Games",
+      "question_text": "What is the name of the secret organization in the Hotline Miami series?",
+      "correct_answers": [
+        "50 Blessings"
+      ]
+    },
+    {
+      "round_number": 11,
+      "mode": "insane",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 2873,
+      "answered_at": "2026-09-27 03:08:40.988511+00:00",
+      "category": "General Knowledge",
+      "question_text": "Major US and UK supermarket chains",
+      "correct_answers": [
+        "Walmart",
+        "Kroger",
+        "Costco",
+        "Target",
+        "Safeway",
+        "Publix",
+        "Whole Foods",
+        "Trader Joe's",
+        "Aldi",
+        "Albertsons",
+        "Wegmans",
+        "Meijer",
+        "H-E-B",
+        "Sam's Club",
+        "Tesco",
+        "Sainsbury's",
+        "Asda",
+        "Morrisons",
+        "Waitrose",
+        "Lidl",
+        "Iceland",
+        "Co-op",
+        "Marks & Spencer"
+      ]
+    }
+  ]
+}
