@@ -1,0 +1,137 @@
+{
+  "match": {
+    "id": 29,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "184456115927384065",
+    "format": 10,
+    "winner_id": "433990857063137282",
+    "challenger_score": 3,
+    "opponent_score": 2,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 00:19:33.328607+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 6650,
+      "answered_at": "2026-09-27 00:19:33.330566+00:00",
+      "category": "Marvel",
+      "question_text": "Who makes a supernatural bargain with Johnny Blaze in the first Ghost Rider film?",
+      "correct_answers": [
+        "Mephisto"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:19:33.330566+00:00",
+      "category": "Star Wars",
+      "question_text": "Finish The Quote: Why, you stuck up, half-witted, scruffy-looking____",
+      "correct_answers": [
+        "Nerf herder"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 4879,
+      "answered_at": "2026-09-27 00:19:33.330566+00:00",
+      "category": "Conundrums",
+      "question_text": "Envelope",
+      "correct_answers": [
+        "Envelope"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:19:33.330566+00:00",
+      "category": "Video Games",
+      "question_text": "Who is the main character in Metal Gear Rising: Revengeance?",
+      "correct_answers": [
+        "Raiden"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 1792,
+      "answered_at": "2026-09-27 00:19:33.330566+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "correct_answers": [
+        "Pepsi"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:19:33.330566+00:00",
+      "category": "Geography",
+      "question_text": "What is the only sea without any coasts?",
+      "correct_answers": [
+        "Sargasso Sea"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:19:33.330566+00:00",
+      "category": "Pokemon",
+      "question_text": "Cities in the Kanto Region take their name from what?",
+      "correct_answers": [
+        "Colors"
+      ]
+    },
+    {
+      "round_number": 8,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:19:33.330566+00:00",
+      "category": "Video Games",
+      "question_text": "What is the name of the child performing the Black Sacrament in The Elder Scrolls V: Skyrim?",
+      "correct_answers": [
+        "Aventus Aretino"
+      ]
+    },
+    {
+      "round_number": 9,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 5891,
+      "answered_at": "2026-09-27 00:19:33.330566+00:00",
+      "category": "General Knowledge",
+      "question_text": "What organ processes the sodium in the body?",
+      "correct_answers": [
+        "Kidney"
+      ]
+    },
+    {
+      "round_number": 10,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 3508,
+      "answered_at": "2026-09-27 00:19:33.330566+00:00",
+      "category": "Elements",
+      "question_text": "What is the element symbol of \"Gadolinium\"?",
+      "correct_answers": [
+        "Gd"
+      ]
+    }
+  ]
+}
