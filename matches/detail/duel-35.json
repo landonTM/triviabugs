@@ -1,0 +1,53 @@
+{
+  "match": {
+    "id": 35,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "184456115927384065",
+    "format": 5,
+    "winner_id": "433990857063137282",
+    "challenger_score": 3,
+    "opponent_score": 0,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 00:47:29.807615+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 14676,
+      "answered_at": "2026-09-27 00:47:29.809616+00:00",
+      "category": "Geography",
+      "question_text": "What is the largest city and capital of the Democratic Republic of the Congo?",
+      "correct_answers": [
+        "Kinshasa"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 5318,
+      "answered_at": "2026-09-27 00:47:29.809616+00:00",
+      "category": "Harry Potter",
+      "question_text": "How old was the kid that Dudley and his gang beat up that \"deserved it\"?",
+      "correct_answers": [
+        "10"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 2904,
+      "answered_at": "2026-09-27 00:47:29.809616+00:00",
+      "category": "World Cup",
+      "question_text": "How many goals did Germany score against Brazil in their 2014 FIFA World Cup semi-final?",
+      "correct_answers": [
+        "7"
+      ]
+    }
+  ]
+}
