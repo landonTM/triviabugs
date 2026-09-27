@@ -9,28 +9,28 @@
   },
   "total_xp": 899551,
   "period_stats": {
-    "daily_points": 4,
-    "daily_correct": 2,
-    "weekly_points": 1467,
-    "weekly_correct": 845,
-    "monthly_points": 5430,
-    "monthly_correct": 3028,
-    "yearly_points": 5629,
-    "yearly_correct": 3171,
-    "alltime_points": 5629,
-    "alltime_correct": 3171
+    "daily_points": 31,
+    "daily_correct": 26,
+    "weekly_points": 1469,
+    "weekly_correct": 854,
+    "monthly_points": 5457,
+    "monthly_correct": 3052,
+    "yearly_points": 5656,
+    "yearly_correct": 3195,
+    "alltime_points": 5656,
+    "alltime_correct": 3195
   },
   "stats_row": {
     "user_id": 734768348201615400,
     "guild_id": 861055530638114836,
-    "total_points": 3532,
-    "questions_right": 1074,
+    "total_points": 3536,
+    "questions_right": 1075,
     "questions_wrong": 0,
-    "wins": 1074,
+    "wins": 1075,
     "current_streak": 1,
     "best_streak": 37,
     "games_played": 53,
-    "insane_guesses": 1168,
+    "insane_guesses": 1191,
     "day_streak": 12,
     "last_played_date": "2026-09-26",
     "total_xp": 899551,
@@ -48,23 +48,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 1091,
-    "correct": 727
+    "points": 1108,
+    "correct": 744
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2097,
-  "average_guess_ms": 15667.583798882682,
+  "total_insane_correct": 2120,
+  "average_guess_ms": 15658.498604651162,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 2003,
-    "total": 2389
+    "exact_count": 2021,
+    "total": 2413
   },
   "achievements": {
     "catalog": [
@@ -2224,15 +2224,15 @@
       "disney": 33,
       "entertainment": 7,
       "geo": 224,
-      "gk": 173,
+      "gk": 179,
       "got": 0,
       "marvel": 28,
       "movies": 4,
-      "music": 16,
+      "music": 17,
       "pokemon": 8,
       "sports": 84,
       "videogames": 12,
-      "wrestling": 296,
+      "wrestling": 313,
       "duelwins": 3,
       "duelstreak": 1
     }
