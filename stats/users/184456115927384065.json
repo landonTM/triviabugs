@@ -2,38 +2,38 @@
   "user_id": 184456115927384065,
   "level": {
     "level": 40,
-    "xp_into_level": 39097,
+    "xp_into_level": 49917,
     "xp_for_level": 55000,
-    "progress": 0.7108545454545454,
+    "progress": 0.9075818181818182,
     "maxed": false
   },
-  "total_xp": 836597,
+  "total_xp": 847417,
   "period_stats": {
-    "daily_points": 112,
-    "daily_correct": 57,
-    "weekly_points": 1134,
-    "weekly_correct": 495,
-    "monthly_points": 2381,
-    "monthly_correct": 1220,
-    "yearly_points": 2381,
-    "yearly_correct": 1220,
-    "alltime_points": 2381,
-    "alltime_correct": 1220
+    "daily_points": 128,
+    "daily_correct": 67,
+    "weekly_points": 1150,
+    "weekly_correct": 505,
+    "monthly_points": 2397,
+    "monthly_correct": 1230,
+    "yearly_points": 2397,
+    "yearly_correct": 1230,
+    "alltime_points": 2397,
+    "alltime_correct": 1230
   },
   "stats_row": {
     "user_id": 184456115927384065,
     "guild_id": 861055530638114836,
-    "total_points": 1738,
-    "questions_right": 577,
+    "total_points": 1750,
+    "questions_right": 583,
     "questions_wrong": 0,
-    "wins": 577,
-    "current_streak": 1,
+    "wins": 583,
+    "current_streak": 4,
     "best_streak": 21,
-    "games_played": 88,
-    "insane_guesses": 472,
+    "games_played": 89,
+    "insane_guesses": 476,
     "day_streak": 13,
     "last_played_date": "2026-09-27",
-    "total_xp": 836597,
+    "total_xp": 847417,
     "game_wins": 48,
     "achievement_best_streak": 21
   },
@@ -56,15 +56,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 643,
-  "average_guess_ms": 20890.8856152513,
+  "total_insane_correct": 647,
+  "average_guess_ms": 21015.5025728988,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 23
   },
   "spelling_accuracy": {
-    "exact_count": 1040,
-    "total": 1128
+    "exact_count": 1050,
+    "total": 1138
   },
   "achievements": {
     "catalog": [
@@ -2221,15 +2221,15 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 20,
+      "disney": 21,
       "entertainment": 1,
       "geo": 84,
-      "gk": 119,
+      "gk": 122,
       "got": 1,
       "marvel": 9,
       "movies": 20,
-      "music": 13,
-      "pokemon": 3,
+      "music": 14,
+      "pokemon": 4,
       "sports": 226,
       "videogames": 5,
       "wrestling": 115,
