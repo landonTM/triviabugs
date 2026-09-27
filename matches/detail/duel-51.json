@@ -1,0 +1,367 @@
+{
+  "match": {
+    "id": 51,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 110,
+    "format_label": "First to 10",
+    "winner_id": "433990857063137282",
+    "is_tie": false,
+    "challenger_score": 7,
+    "opponent_score": 10,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 20:06:55.620241+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Quotes",
+      "question_text": "Who sent the first long-distance telegraph message, \"What hath God wrought\"?",
+      "correct_answers": [
+        "Samuel Morse"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 5398,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Art and Literature",
+      "question_text": "The novel \"Jane Eyre\" was written by what author?",
+      "correct_answers": [
+        "Charlotte Brontë"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 3719,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Wrestling",
+      "question_text": "Who is nicknamed 'The Long Island Iced Z'?",
+      "correct_answers": [
+        "Zack Ryder"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 19428,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "House of the Dragon",
+      "question_text": "Who arrives at Rook's Rest riding Vhagar?",
+      "correct_answers": [
+        "Aemond Targaryen"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 8536,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Video Games",
+      "question_text": "In what year was Super Mario Sunshine released on the GameCube?",
+      "correct_answers": [
+        "2002"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "NBA",
+      "question_text": "What college did Nate Robinson go to?",
+      "correct_answers": [
+        "University of Washington"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 16409,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Conundrums",
+      "question_text": "Vindictive",
+      "correct_answers": [
+        "Vindictive"
+      ]
+    },
+    {
+      "round_number": 8,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 15223,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Music",
+      "question_text": "Which singer received 6 nominations at the Brit Awards in 2001, but didn't win a single prize?",
+      "correct_answers": [
+        "Craig David"
+      ]
+    },
+    {
+      "round_number": 9,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "House of the Dragon",
+      "question_text": "What was Blood's former occupation?",
+      "correct_answers": [
+        "Gold Cloak"
+      ]
+    },
+    {
+      "round_number": 10,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 14014,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Pokemon",
+      "question_text": "What is the tallest non-Legendary Pokémon by height?",
+      "correct_answers": [
+        "Wailord"
+      ]
+    },
+    {
+      "round_number": 11,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Computers",
+      "question_text": "Inside the hard disk drive, where is the data actually stored?",
+      "correct_answers": [
+        "platter"
+      ]
+    },
+    {
+      "round_number": 12,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 9336,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Geography",
+      "question_text": "Broome is a town in which state of Australia?",
+      "correct_answers": [
+        "Western Australia"
+      ]
+    },
+    {
+      "round_number": 13,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Medical: IV",
+      "correct_answers": [
+        "Intravenous"
+      ]
+    },
+    {
+      "round_number": 14,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "A Knight of the Seven Kingdoms",
+      "question_text": "What actor plays Ser Arlan of Pennytree in the HBO series?",
+      "correct_answers": [
+        "Danny Webb"
+      ]
+    },
+    {
+      "round_number": 15,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Disney",
+      "question_text": "In The Incredibles, what is the name of the monster that Mirage initially hires Bob to defeat?",
+      "correct_answers": [
+        "Omnidroid 9000"
+      ]
+    },
+    {
+      "round_number": 16,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Entertainment",
+      "question_text": "Secret Identities: Jonn Jonzz?",
+      "correct_answers": [
+        "Martian manhunter"
+      ]
+    },
+    {
+      "round_number": 17,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 13399,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Pokemon",
+      "question_text": "What is the signature move of Arceus?",
+      "correct_answers": [
+        "Judgment"
+      ]
+    },
+    {
+      "round_number": 18,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 5789,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Video Games",
+      "question_text": "Who is the main character in Kingdom Hearts?",
+      "correct_answers": [
+        "Sora"
+      ]
+    },
+    {
+      "round_number": 19,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 7076,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Pokemon",
+      "question_text": "How many weaknesses does Grass/Ice have?",
+      "correct_answers": [
+        "7"
+      ]
+    },
+    {
+      "round_number": 20,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Harry Potter",
+      "question_text": "What page does Snape tell Harry's Defense Against the Dark Arts Class to turn to?",
+      "correct_answers": [
+        "394"
+      ]
+    },
+    {
+      "round_number": 21,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 5031,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Music",
+      "question_text": "How many keys does a standard modern piano have?",
+      "correct_answers": [
+        "88"
+      ]
+    },
+    {
+      "round_number": 22,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 2788,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Elements",
+      "question_text": "What is the element symbol of \"Europium\"?",
+      "correct_answers": [
+        "Eu"
+      ]
+    },
+    {
+      "round_number": 23,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "A Knight of the Seven Kingdoms",
+      "question_text": "What actor plays Tanselle in the HBO series?",
+      "correct_answers": [
+        "Tanzyn Crawford"
+      ]
+    },
+    {
+      "round_number": 24,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Video Games",
+      "question_text": "In \"Resident Evil 2\", which virus was William Birkin mutated by?",
+      "correct_answers": [
+        "G-Virus"
+      ]
+    },
+    {
+      "round_number": 25,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "General Knowledge",
+      "question_text": "Who wrote the contemporary children's books about mermaids set on the coast of Cornwall?",
+      "correct_answers": [
+        "Helen Dunmore"
+      ]
+    },
+    {
+      "round_number": 26,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 5070,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Entertainment",
+      "question_text": "What term is used for the speed at which a piece of music is played?",
+      "correct_answers": [
+        "Tempo"
+      ]
+    },
+    {
+      "round_number": 27,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 4103,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "correct_answers": [
+        "Belgium"
+      ]
+    },
+    {
+      "round_number": 28,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 8174,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "Video Games",
+      "question_text": "What awards show nominated Marvel Rivals in the 'Best Ongoing' category in 2025?",
+      "correct_answers": [
+        "The Game Awards"
+      ]
+    },
+    {
+      "round_number": 29,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 2700,
+      "answered_at": "2026-09-27 20:06:55.622235+00:00",
+      "category": "US States (Map)",
+      "question_text": "What USA state or territory is highlighted on this map?",
+      "correct_answers": [
+        "Georgia"
+      ]
+    }
+  ]
+}
