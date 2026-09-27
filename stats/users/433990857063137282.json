@@ -2,23 +2,23 @@
   "user_id": 433990857063137282,
   "level": {
     "level": 41,
-    "xp_into_level": 22011,
+    "xp_into_level": 23719,
     "xp_for_level": 58000,
-    "progress": 0.3795,
+    "progress": 0.40894827586206894,
     "maxed": false
   },
-  "total_xp": 874511,
+  "total_xp": 876219,
   "period_stats": {
-    "daily_points": 9,
-    "daily_correct": 9,
-    "weekly_points": 888,
-    "weekly_correct": 388,
-    "monthly_points": 3592,
-    "monthly_correct": 1699,
-    "yearly_points": 3766,
-    "yearly_correct": 1792,
-    "alltime_points": 3766,
-    "alltime_correct": 1792
+    "daily_points": 21,
+    "daily_correct": 21,
+    "weekly_points": 897,
+    "weekly_correct": 397,
+    "monthly_points": 3604,
+    "monthly_correct": 1711,
+    "yearly_points": 3778,
+    "yearly_correct": 1804,
+    "alltime_points": 3778,
+    "alltime_correct": 1804
   },
   "stats_row": {
     "user_id": 433990857063137282,
@@ -29,11 +29,11 @@
     "wins": 755,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 86,
-    "insane_guesses": 733,
-    "day_streak": 4,
-    "last_played_date": "2026-09-26",
-    "total_xp": 874511,
+    "games_played": 87,
+    "insane_guesses": 745,
+    "day_streak": 5,
+    "last_played_date": "2026-09-27",
+    "total_xp": 876219,
     "game_wins": 28,
     "achievement_best_streak": 27
   },
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1038,
+  "total_insane_correct": 1050,
   "average_guess_ms": 16993.606100795758,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 27
   },
   "spelling_accuracy": {
-    "exact_count": 1381,
-    "total": 1578
+    "exact_count": 1390,
+    "total": 1590
   },
   "achievements": {
     "catalog": [
@@ -2227,7 +2227,7 @@
       "disney": 32,
       "entertainment": 0,
       "geo": 88,
-      "gk": 144,
+      "gk": 156,
       "got": 5,
       "marvel": 55,
       "movies": 1,
