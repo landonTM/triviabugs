@@ -2,38 +2,38 @@
   "user_id": 433990857063137282,
   "level": {
     "level": 41,
-    "xp_into_level": 9731,
+    "xp_into_level": 10911,
     "xp_for_level": 58000,
-    "progress": 0.16777586206896553,
+    "progress": 0.18812068965517242,
     "maxed": false
   },
-  "total_xp": 862231,
+  "total_xp": 863411,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 1254,
-    "weekly_correct": 518,
-    "monthly_points": 3583,
-    "monthly_correct": 1690,
-    "yearly_points": 3757,
-    "yearly_correct": 1783,
-    "alltime_points": 3757,
-    "alltime_correct": 1783
+    "daily_points": 9,
+    "daily_correct": 9,
+    "weekly_points": 1263,
+    "weekly_correct": 527,
+    "monthly_points": 3592,
+    "monthly_correct": 1699,
+    "yearly_points": 3766,
+    "yearly_correct": 1792,
+    "alltime_points": 3766,
+    "alltime_correct": 1792
   },
   "stats_row": {
     "user_id": 433990857063137282,
     "guild_id": 861055530638114836,
-    "total_points": 2731,
-    "questions_right": 754,
+    "total_points": 2732,
+    "questions_right": 755,
     "questions_wrong": 0,
-    "wins": 754,
+    "wins": 755,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 85,
-    "insane_guesses": 725,
+    "games_played": 86,
+    "insane_guesses": 733,
     "day_streak": 4,
     "last_played_date": "2026-09-26",
-    "total_xp": 862231,
+    "total_xp": 863411,
     "game_wins": 28,
     "achievement_best_streak": 27
   },
@@ -56,15 +56,15 @@
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1030,
-  "average_guess_ms": 16945.494023904383,
+  "total_insane_correct": 1038,
+  "average_guess_ms": 16993.606100795758,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
-    "active_days": 26
+    "active_days": 27
   },
   "spelling_accuracy": {
-    "exact_count": 1374,
-    "total": 1569
+    "exact_count": 1381,
+    "total": 1578
   },
   "achievements": {
     "catalog": [
@@ -2226,7 +2226,7 @@
     "category_counts": {
       "disney": 32,
       "entertainment": 0,
-      "geo": 80,
+      "geo": 88,
       "gk": 144,
       "got": 5,
       "marvel": 55,
