@@ -9,24 +9,24 @@
   },
   "total_xp": 899551,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 1463,
-    "weekly_correct": 843,
-    "monthly_points": 5426,
-    "monthly_correct": 3026,
-    "yearly_points": 5625,
-    "yearly_correct": 3169,
-    "alltime_points": 5625,
-    "alltime_correct": 3169
+    "daily_points": 4,
+    "daily_correct": 2,
+    "weekly_points": 1467,
+    "weekly_correct": 845,
+    "monthly_points": 5430,
+    "monthly_correct": 3028,
+    "yearly_points": 5629,
+    "yearly_correct": 3171,
+    "alltime_points": 5629,
+    "alltime_correct": 3171
   },
   "stats_row": {
     "user_id": 734768348201615400,
     "guild_id": 861055530638114836,
-    "total_points": 3528,
-    "questions_right": 1072,
+    "total_points": 3532,
+    "questions_right": 1074,
     "questions_wrong": 0,
-    "wins": 1072,
+    "wins": 1074,
     "current_streak": 1,
     "best_streak": 37,
     "games_played": 53,
@@ -57,14 +57,14 @@
     "guesses": 26
   },
   "total_insane_correct": 2097,
-  "average_guess_ms": 15637.445895522387,
+  "average_guess_ms": 15667.583798882682,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
-    "active_days": 28
+    "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 2002,
-    "total": 2387
+    "exact_count": 2003,
+    "total": 2389
   },
   "achievements": {
     "catalog": [
@@ -2229,7 +2229,7 @@
       "marvel": 28,
       "movies": 4,
       "music": 16,
-      "pokemon": 7,
+      "pokemon": 8,
       "sports": 84,
       "videogames": 12,
       "wrestling": 296,
