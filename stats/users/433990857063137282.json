@@ -1,13 +1,13 @@
 {
   "user_id": 433990857063137282,
   "level": {
-    "level": 40,
-    "xp_into_level": 45931,
-    "xp_for_level": 55000,
-    "progress": 0.8351090909090909,
+    "level": 41,
+    "xp_into_level": 8081,
+    "xp_for_level": 58000,
+    "progress": 0.13932758620689656,
     "maxed": false
   },
-  "total_xp": 843431,
+  "total_xp": 860581,
   "period_stats": {
     "daily_points": 0,
     "daily_correct": 0,
@@ -33,7 +33,7 @@
     "insane_guesses": 725,
     "day_streak": 4,
     "last_played_date": "2026-09-26",
-    "total_xp": 843431,
+    "total_xp": 860581,
     "game_wins": 28,
     "achievement_best_streak": 27
   },
@@ -2211,8 +2211,12 @@
       "hardcore_marathon": "2026-09-26 04:55:54.905516+00:00",
       "marvel_50": "2026-09-26 14:06:00.731488+00:00",
       "hardcore_spelling": "2026-09-26 21:14:06.580314+00:00",
-      "duel_rival_slayer": "2026-09-27 00:08:06.016857+00:00",
-      "duelstreak_3": "2026-09-27 00:08:06.018996+00:00"
+      "duel_best_of_10_win": "2026-09-27 00:19:33.892212+00:00",
+      "duel_nail_biter": "2026-09-27 00:19:33.894357+00:00",
+      "duel_rival_slayer": "2026-09-27 00:19:33.896486+00:00",
+      "duelstreak_3": "2026-09-27 00:19:33.897943+00:00",
+      "duelwins_10": "2026-09-27 00:23:07.782689+00:00",
+      "duelstreak_5": "2026-09-27 00:25:21.216541+00:00"
     },
     "baselines": {
       "points": 632,
@@ -2232,17 +2236,17 @@
       "sports": 27,
       "videogames": 63,
       "wrestling": 152,
-      "duelwins": 9,
-      "duelstreak": 3
+      "duelwins": 11,
+      "duelstreak": 5
     }
   },
   "duel_stats": {
     "guild_id": 861055530638114836,
     "user_id": 433990857063137282,
-    "wins": 9,
-    "losses": 15,
-    "current_streak": 3,
-    "best_streak": 3
+    "wins": 11,
+    "losses": 16,
+    "current_streak": 0,
+    "best_streak": 5
   },
   "kirkening_crownings": [
     {
@@ -3182,8 +3186,8 @@
       "key": "magneto",
       "label": "Magneto MVP",
       "unlock_level": 41,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "mvp",
