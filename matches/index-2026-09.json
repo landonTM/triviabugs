@@ -1435,6 +1435,22 @@
       "opponent_score": 1,
       "decided_by_tiebreaker": false,
       "ended_at": "2026-09-27 03:55:56.335515+00:00"
+    },
+    {
+      "id": 53,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 10,
+      "rounds_played": 10,
+      "categories": [
+        "Sports"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-27 04:14:15.476401+00:00",
+      "ended_at": "2026-09-27 04:19:29.330535+00:00",
+      "end_reason": "completed"
     }
   ]
 }
