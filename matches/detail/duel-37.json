@@ -1,0 +1,125 @@
+{
+  "match": {
+    "id": 37,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 9,
+    "winner_id": "433990857063137282",
+    "challenger_score": 2,
+    "opponent_score": 3,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 00:52:03.923180+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:52:03.924928+00:00",
+      "category": "Video Games",
+      "question_text": "What was the name of the 1991 \"Castlevania\" game released on the SNES?",
+      "correct_answers": [
+        "Super Castlevania IV"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:52:03.924928+00:00",
+      "category": "House of the Dragon",
+      "question_text": "Who persuades the badly injured Aegon to flee King's Landing at the end of Season 2?",
+      "correct_answers": [
+        "Larys Strong"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 7503,
+      "answered_at": "2026-09-27 00:52:03.924928+00:00",
+      "category": "Harry Potter",
+      "question_text": "How many muggles did Peter Pettigrew kill when he faked his own death?",
+      "correct_answers": [
+        "12"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 12019,
+      "answered_at": "2026-09-27 00:52:03.924928+00:00",
+      "category": "Entertainment",
+      "question_text": "What is the drummer's name in 'The Muppet Show'?",
+      "correct_answers": [
+        "Animal"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 6020,
+      "answered_at": "2026-09-27 00:52:03.924928+00:00",
+      "category": "General Knowledge",
+      "question_text": "What natural phenomenon's magnitude was traditionally measured using the Richter scale?",
+      "correct_answers": [
+        "Earthquake"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:52:03.924928+00:00",
+      "category": "History",
+      "question_text": "In what year was the Gregorian Calendar first introduced?",
+      "correct_answers": [
+        "1582"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 4437,
+      "answered_at": "2026-09-27 00:52:03.924928+00:00",
+      "category": "Star Wars",
+      "question_text": "How many TIE fighters pursue the Millenium Falcon during its escape from the first Death Star?",
+      "correct_answers": [
+        "4"
+      ]
+    },
+    {
+      "round_number": 8,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 4621,
+      "answered_at": "2026-09-27 00:52:03.924928+00:00",
+      "category": "Disney",
+      "question_text": "In their snowball fight how many snowballs does Belle hit the Beast with?",
+      "correct_answers": [
+        "3"
+      ]
+    },
+    {
+      "round_number": 9,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:52:03.924928+00:00",
+      "category": "Conundrums",
+      "question_text": "Chicanery",
+      "correct_answers": [
+        "Chicanery"
+      ]
+    }
+  ]
+}
