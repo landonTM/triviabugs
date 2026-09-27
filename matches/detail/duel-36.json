@@ -1,0 +1,77 @@
+{
+  "match": {
+    "id": 36,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 5,
+    "winner_id": "433990857063137282",
+    "challenger_score": 1,
+    "opponent_score": 2,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 00:49:08.559634+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 2794,
+      "answered_at": "2026-09-27 00:49:08.561200+00:00",
+      "category": "Marvel",
+      "question_text": "What is Killmonger's relationship to T'Challa?",
+      "correct_answers": [
+        "Cousin"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 6933,
+      "answered_at": "2026-09-27 00:49:08.561200+00:00",
+      "category": "Disney",
+      "question_text": "Who sent Aladdin into the Cave of Wonders?",
+      "correct_answers": [
+        "Jafar"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 12096,
+      "answered_at": "2026-09-27 00:49:08.561200+00:00",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "correct_answers": [
+        "Peru"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:49:08.561200+00:00",
+      "category": "Pokemon",
+      "question_text": "What type has the fewest special attacking moves?",
+      "correct_answers": [
+        "Rock"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:49:08.561200+00:00",
+      "category": "Music",
+      "question_text": "Which band released the debut album 'A Fever You Can't Sweat Out'?",
+      "correct_answers": [
+        "Panic! at the Disco"
+      ]
+    }
+  ]
+}
