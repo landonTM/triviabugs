@@ -2,17 +2,17 @@
   "user_id": 433990857063137282,
   "level": {
     "level": 40,
-    "xp_into_level": 37431,
+    "xp_into_level": 45931,
     "xp_for_level": 55000,
-    "progress": 0.6805636363636364,
+    "progress": 0.8351090909090909,
     "maxed": false
   },
-  "total_xp": 834931,
+  "total_xp": 843431,
   "period_stats": {
     "daily_points": 0,
     "daily_correct": 0,
-    "weekly_points": 1256,
-    "weekly_correct": 519,
+    "weekly_points": 1254,
+    "weekly_correct": 518,
     "monthly_points": 3583,
     "monthly_correct": 1690,
     "yearly_points": 3757,
@@ -33,7 +33,7 @@
     "insane_guesses": 725,
     "day_streak": 4,
     "last_played_date": "2026-09-26",
-    "total_xp": 834931,
+    "total_xp": 843431,
     "game_wins": 28,
     "achievement_best_streak": 27
   },
@@ -2210,7 +2210,9 @@
       "hardcore_win": "2026-09-26 04:55:54.903702+00:00",
       "hardcore_marathon": "2026-09-26 04:55:54.905516+00:00",
       "marvel_50": "2026-09-26 14:06:00.731488+00:00",
-      "hardcore_spelling": "2026-09-26 21:14:06.580314+00:00"
+      "hardcore_spelling": "2026-09-26 21:14:06.580314+00:00",
+      "duel_rival_slayer": "2026-09-27 00:08:06.016857+00:00",
+      "duelstreak_3": "2026-09-27 00:08:06.018996+00:00"
     },
     "baselines": {
       "points": 632,
@@ -2230,17 +2232,17 @@
       "sports": 27,
       "videogames": 63,
       "wrestling": 152,
-      "duelwins": 8,
-      "duelstreak": 2
+      "duelwins": 9,
+      "duelstreak": 3
     }
   },
   "duel_stats": {
     "guild_id": 861055530638114836,
     "user_id": 433990857063137282,
-    "wins": 8,
+    "wins": 9,
     "losses": 15,
-    "current_streak": 2,
-    "best_streak": 2
+    "current_streak": 3,
+    "best_streak": 3
   },
   "kirkening_crownings": [
     {
