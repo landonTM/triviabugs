@@ -2240,7 +2240,8 @@
     "wins": 5,
     "losses": 3,
     "current_streak": 2,
-    "best_streak": 2
+    "best_streak": 2,
+    "ties": 0
   },
   "kirkening_crownings": [
     {
