@@ -2,17 +2,17 @@
   "user_id": 184456115927384065,
   "level": {
     "level": 40,
-    "xp_into_level": 36431,
+    "xp_into_level": 37931,
     "xp_for_level": 55000,
-    "progress": 0.6623818181818182,
+    "progress": 0.6896545454545454,
     "maxed": false
   },
-  "total_xp": 833931,
+  "total_xp": 835431,
   "period_stats": {
     "daily_points": 50,
     "daily_correct": 23,
-    "weekly_points": 1104,
-    "weekly_correct": 479,
+    "weekly_points": 1100,
+    "weekly_correct": 478,
     "monthly_points": 2319,
     "monthly_correct": 1186,
     "yearly_points": 2319,
@@ -33,7 +33,7 @@
     "insane_guesses": 452,
     "day_streak": 12,
     "last_played_date": "2026-09-26",
-    "total_xp": 833931,
+    "total_xp": 835431,
     "game_wins": 47,
     "achievement_best_streak": 21
   },
@@ -2233,16 +2233,16 @@
       "sports": 214,
       "videogames": 4,
       "wrestling": 108,
-      "duelwins": 12,
+      "duelwins": 13,
       "duelstreak": 2
     }
   },
   "duel_stats": {
     "guild_id": 861055530638114836,
     "user_id": 184456115927384065,
-    "wins": 12,
+    "wins": 13,
     "losses": 17,
-    "current_streak": 1,
+    "current_streak": 2,
     "best_streak": 2
   },
   "kirkening_crownings": [],
