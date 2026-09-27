@@ -1,0 +1,101 @@
+{
+  "match": {
+    "id": 41,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 7,
+    "winner_id": "433990857063137282",
+    "challenger_score": 1,
+    "opponent_score": 2,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 03:20:10.266187+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:20:10.268139+00:00",
+      "category": "Entertainment",
+      "question_text": "Juliette Binoche won an academy award for best supporting role in which film?",
+      "correct_answers": [
+        "English Patient"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:20:10.268139+00:00",
+      "category": "NBA",
+      "question_text": "What city did the Lakers represent before relocating to Los Angeles?",
+      "correct_answers": [
+        "Minneapolis"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:20:10.268139+00:00",
+      "category": "Greek Mythology",
+      "question_text": "Who is the Goddess of Childbirth?",
+      "correct_answers": [
+        "Eileithyia"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 2978,
+      "answered_at": "2026-09-27 03:20:10.268139+00:00",
+      "category": "The Simpsons",
+      "question_text": "What is Homer Simpson's most famous exclamation of frustration?",
+      "correct_answers": [
+        "D'oh!"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 14428,
+      "answered_at": "2026-09-27 03:20:10.268139+00:00",
+      "category": "Chemistry",
+      "question_text": "Where might you find americium-241 in your house?",
+      "correct_answers": [
+        "Smoke detectors"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 8122,
+      "answered_at": "2026-09-27 03:20:10.268139+00:00",
+      "category": "Movies",
+      "question_text": "Which musical artist had a prominent role in the 2017 film \"Kingsman: The Golden Circle\"?",
+      "correct_answers": [
+        "Elton John"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:20:10.268139+00:00",
+      "category": "US State Capitals",
+      "question_text": "What is the USA state capital of New Jersey?",
+      "correct_answers": [
+        "Trenton"
+      ]
+    }
+  ]
+}
