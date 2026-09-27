@@ -1581,6 +1581,21 @@
       "opponent_score": 10,
       "decided_by_tiebreaker": false,
       "ended_at": "2026-09-27 20:06:55.620241+00:00"
+    },
+    {
+      "id": 52,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "734768348201615400",
+      "opponent_id": "433990857063137282",
+      "format": 7,
+      "format_label": "Best of 7",
+      "winner_id": "734768348201615400",
+      "is_tie": false,
+      "challenger_score": 3,
+      "opponent_score": 2,
+      "decided_by_tiebreaker": false,
+      "ended_at": "2026-09-27 20:41:56.671435+00:00"
     }
   ]
 }
