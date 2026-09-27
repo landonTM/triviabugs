@@ -1,0 +1,77 @@
+{
+  "match": {
+    "id": 28,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "184456115927384065",
+    "format": 5,
+    "winner_id": "433990857063137282",
+    "challenger_score": 2,
+    "opponent_score": 0,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 00:08:05.034887+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 12273,
+      "answered_at": "2026-09-27 00:08:05.036960+00:00",
+      "category": "Marvel",
+      "question_text": "What is Magneto's real name in the X-Men films?",
+      "correct_answers": [
+        "Erik Lehnsherr"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:08:05.036960+00:00",
+      "category": "History",
+      "question_text": "Which Las Vegas casino did mobster Bugsy Siegel open in 1946?",
+      "correct_answers": [
+        "The Flamingo"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:08:05.036960+00:00",
+      "category": "Entertainment",
+      "question_text": "Who was 'hooked on a feeling'?",
+      "correct_answers": [
+        "Blue Swede"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 00:08:05.036960+00:00",
+      "category": "Art and Literature",
+      "question_text": "Who wrote 'A Tale Of Two Cities'?",
+      "correct_answers": [
+        "Charles Dickens"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 4850,
+      "answered_at": "2026-09-27 00:08:05.036960+00:00",
+      "category": "Conundrums",
+      "question_text": "Blanket",
+      "correct_answers": [
+        "Blanket"
+      ]
+    }
+  ]
+}
