@@ -1,0 +1,137 @@
+{
+  "match": {
+    "id": 40,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 10,
+    "winner_id": "184456115927384065",
+    "challenger_score": 4,
+    "opponent_score": 2,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-27 03:16:07.453104+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 9750,
+      "answered_at": "2026-09-27 03:16:07.455074+00:00",
+      "category": "General Knowledge",
+      "question_text": "The likeness of which president is featured on the $2 bill of USA currency?",
+      "correct_answers": [
+        "Thomas Jefferson"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:16:07.455074+00:00",
+      "category": "Sports",
+      "question_text": "This former NFL quarterback, a 2010 Pro Bowler, never started a game at QB in college",
+      "correct_answers": [
+        "Matt Cassel"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 5001,
+      "answered_at": "2026-09-27 03:16:07.455074+00:00",
+      "category": "Entertainment",
+      "question_text": "Who 'imagined' a better world?",
+      "correct_answers": [
+        "John Lennon"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 15172,
+      "answered_at": "2026-09-27 03:16:07.455074+00:00",
+      "category": "Music",
+      "question_text": "According to a Beatles song, who kept her face in a jar by the door?",
+      "correct_answers": [
+        "Eleanor Rigby"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:16:07.455074+00:00",
+      "category": "House of the Dragon",
+      "question_text": "Where does Alicent secretly travel in the Season 2 finale to meet Rhaenyra?",
+      "correct_answers": [
+        "Dragonstone"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 3366,
+      "answered_at": "2026-09-27 03:16:07.455074+00:00",
+      "category": "General Knowledge",
+      "question_text": "How many players are there in a Quidditch team?",
+      "correct_answers": [
+        "7"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 15242,
+      "answered_at": "2026-09-27 03:16:07.455074+00:00",
+      "category": "Stranger Things",
+      "question_text": "Who is tested in the group's sauna experiment?",
+      "correct_answers": [
+        "Billy Hargrove"
+      ]
+    },
+    {
+      "round_number": 8,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 5670,
+      "answered_at": "2026-09-27 03:16:07.455074+00:00",
+      "category": "Greek Mythology",
+      "question_text": "Which god is associated with the oak tree?",
+      "correct_answers": [
+        "Zeus"
+      ]
+    },
+    {
+      "round_number": 9,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:16:07.455074+00:00",
+      "category": "Computers",
+      "question_text": "[Acronyms]What does CD-RW stand for?",
+      "correct_answers": [
+        "Compact Disc-Rewritable"
+      ]
+    },
+    {
+      "round_number": 10,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-27 03:16:07.455074+00:00",
+      "category": "Video Games",
+      "question_text": "In which Call of Duty game are the Apothicons introduced in Zombies mode?",
+      "correct_answers": [
+        "Black Ops III"
+      ]
+    }
+  ]
+}
