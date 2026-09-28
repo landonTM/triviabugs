@@ -6,7 +6,9 @@
     "challenger_id": "795847206719717386",
     "opponent_id": "433990857063137282",
     "format": 3,
+    "format_label": "Best of 3",
     "winner_id": "795847206719717386",
+    "is_tie": false,
     "challenger_score": 2,
     "opponent_score": 0,
     "decided_by_tiebreaker": false,
@@ -16,25 +18,27 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 795847206719717386,
+      "winner_id": "795847206719717386",
       "response_time_ms": 4801,
       "answered_at": "2026-09-23 18:52:20.823591+00:00",
       "category": "World Cup",
       "question_text": "Who collected the most Player Of The Match awards in 2022 Qatar (5)?",
+      "image_url": null,
       "correct_answers": [
-        "Lionel Messi"
+        "gzHw9/CBx8cd2DXv"
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 795847206719717386,
+      "winner_id": "795847206719717386",
       "response_time_ms": 14481,
       "answered_at": "2026-09-23 18:52:20.823591+00:00",
       "category": "Disney",
       "question_text": "In Alice in Wonderland, what is the White Rabbit carrying aside from his pocket watch when he meets Alice?",
+      "image_url": null,
       "correct_answers": [
-        "umbrella"
+        "ujX96/CBi+s="
       ]
     }
   ]
