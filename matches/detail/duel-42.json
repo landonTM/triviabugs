@@ -24,9 +24,7 @@
       "category": "NBA",
       "question_text": "What college did Jerry West go to?",
       "image_url": null,
-      "correct_answers": [
-        "mD3s7bW7jvgfwijv0evZGELSs3lUtKp8"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "General Knowledge",
       "question_text": "What braided Jewish bread is traditionally eaten on the Sabbath?",
       "image_url": null,
-      "correct_answers": [
-        "jDD+9fmMjw=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Star Wars",
       "question_text": "What sound designer created many of the famous sounds of Star Wars, including Chewbacca's roar and R2-D2's beeps and whistles?",
       "image_url": null,
-      "correct_answers": [
-        "jT3xudeYlf4M"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "US States (Map)",
       "question_text": "What USA state or territory is highlighted on this map?",
       "image_url": "https://i.imgur.com/YySSKW9.png",
-      "correct_answers": [
-        "mD3s7bW7jvgfwijv0Q=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "General Knowledge",
       "question_text": "Down Syndrome is usually caused by an extra copy of which chromosome?",
       "image_url": null,
-      "correct_answers": [
-        "/Wk="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,9 +79,7 @@
       "category": "General Knowledge",
       "question_text": "On a dartboard, what number is directly opposite No. 1?",
       "image_url": null,
-      "correct_answers": [
-        "/mE="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 7,
@@ -102,9 +90,8 @@
       "category": "Conundrums",
       "question_text": "Flamingo",
       "image_url": null,
-      "correct_answers": [
-        "iTT+9PyDgOU="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
