@@ -6,7 +6,9 @@
     "challenger_id": "184456115927384065",
     "opponent_id": "795847206719717386",
     "format": 5,
+    "format_label": "Best of 5",
     "winner_id": "795847206719717386",
+    "is_tie": false,
     "challenger_score": 1,
     "opponent_score": 2,
     "decided_by_tiebreaker": false,
@@ -16,13 +18,14 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 795847206719717386,
+      "winner_id": "795847206719717386",
       "response_time_ms": 4021,
       "answered_at": "2026-09-24 00:42:05.547478+00:00",
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/UJDYieb.png",
       "correct_answers": [
-        "Austria"
+        "ji3s7eeEhg=="
       ]
     },
     {
@@ -31,34 +34,37 @@
       "winner_id": null,
       "response_time_ms": null,
       "answered_at": "2026-09-24 00:42:05.547478+00:00",
-      "category": "World Capitals",
+      "category": "Geography",
       "question_text": "What is the capital of Pakistan?",
+      "image_url": null,
       "correct_answers": [
-        "Islamabad"
+        "hivz+PiMhesc"
       ]
     },
     {
       "round_number": 3,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 11803,
       "answered_at": "2026-09-24 00:42:05.547478+00:00",
       "category": "General Knowledge",
       "question_text": "Name the only footballer to have played for Liverpool, Everton, Manchester City and Manchester United.",
+      "image_url": null,
       "correct_answers": [
-        "Peter Beardsley"
+        "nz3r/OfNpe8Z2SL13K71"
       ]
     },
     {
       "round_number": 4,
       "mode": "standard",
-      "winner_id": 795847206719717386,
+      "winner_id": "795847206719717386",
       "response_time_ms": 15195,
       "answered_at": "2026-09-24 00:42:05.547478+00:00",
       "category": "House of the Dragon",
       "question_text": "What name does Viserys use for Aegon's prophetic dream about the coming darkness?",
+      "image_url": null,
       "correct_answers": [
-        "The Song of Ice and Fire"
+        "mzD6ucaCie1YxCCm+ajpVkrKsithtKxg"
       ]
     },
     {
@@ -69,8 +75,9 @@
       "answered_at": "2026-09-24 00:42:05.547478+00:00",
       "category": "Slogans",
       "question_text": "Best Possible Start",
+      "image_url": null,
       "correct_answers": [
-        "Fisher-Price"
+        "iTHs8fCfytoKwiXj"
       ]
     }
   ]
