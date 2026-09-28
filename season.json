@@ -148,7 +148,13 @@
       ],
       "spotlight_multiplier": 1.5,
       "elo_min_matches": 3,
-      "standings": [],
+      "standings": [
+        {
+          "user_id": "433990857063137282",
+          "points": 35,
+          "correct": 15
+        }
+      ],
       "pass": [],
       "elo": {
         "ranked": [],
