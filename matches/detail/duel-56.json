@@ -1,0 +1,88 @@
+{
+  "match": {
+    "id": 56,
+    "kind": "duel",
+    "channel_id": "861424168875982848",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 7,
+    "format_label": "Best of 7",
+    "winner_id": "433990857063137282",
+    "is_tie": false,
+    "challenger_score": 0,
+    "opponent_score": 3,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-28 19:31:17.179985+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 19:31:17.182144+00:00",
+      "category": "Greek Mythology",
+      "question_text": "Who is the Goddess of Animals?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 19:31:17.182144+00:00",
+      "category": "Chemistry",
+      "question_text": "Coal is formed due to the process of?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 19:31:17.182144+00:00",
+      "category": "Lord of the Rings",
+      "question_text": "Who was the Chief of the Easterlings, that captured Tuor?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": "433990857063137282",
+      "response_time_ms": 14446,
+      "answered_at": "2026-09-28 19:31:17.182144+00:00",
+      "category": "Stranger Things",
+      "question_text": "What creature from their game inspires the monster's nickname?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": "433990857063137282",
+      "response_time_ms": 7410,
+      "answered_at": "2026-09-28 19:31:17.182144+00:00",
+      "category": "World Cup",
+      "question_text": "Which country was the runner up of the 2002 World Cup?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": "433990857063137282",
+      "response_time_ms": 6065,
+      "answered_at": "2026-09-28 19:31:17.182144+00:00",
+      "category": "Movies",
+      "question_text": "In WALL-E, what sleek robot does WALL-E fall for?",
+      "image_url": null,
+      "answer_count": 1
+    }
+  ],
+  "xp": {
+    "433990857063137282": 1500
+  }
+}
