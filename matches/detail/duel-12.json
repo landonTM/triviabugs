@@ -24,9 +24,7 @@
       "category": "Chemistry",
       "question_text": "The individual units of proteins are called amino acids. What is the term for short chains of these amino acids?",
       "image_url": null,
-      "correct_answers": [
-        "nz3v7fyJgvk="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Family Guy",
       "question_text": "What condition does Joe Swanson's son Kevin struggle with after returning from military service?",
       "image_url": null,
-      "correct_answers": [
-        "nwzM3Q=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Sports",
       "question_text": "Which English army officer patented an early standardized version of lawn tennis in 1874, becoming known as the sport's 'father'?",
       "image_url": null,
-      "correct_answers": [
-        "mDnz7fCfx8kUxDby36WsIULKsW1OuLJh"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Sports",
       "question_text": "What was Muhammad Ali's birth name?",
       "image_url": null,
-      "correct_answers": [
-        "jDns6vyYlKo7xyf/"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,8 @@
       "category": "Disney",
       "question_text": "What is the name of the mule in Old Yeller?",
       "image_url": null,
-      "correct_answers": [
-        "hS3y6fCf"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
