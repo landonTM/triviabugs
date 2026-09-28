@@ -19,372 +19,264 @@
     {
       "round_id": 5045,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:21:34.267571+00:00",
-      "round_ended_at": "2026-09-26 16:21:39.200664+00:00",
-      "winner_id": 795847206719717386,
-      "category": "House of the Dragon",
-      "question_text": "In Fire & Blood, what dragon does Rhaenys ride at Rook's Rest?",
-      "correct_answers": [
-        "Meleys"
-      ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 4916,
-      "exact_match": false,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:21:39.196388+00:00"
+      "started_at": "2026-09-26 16:21:34.267571+00:00",
+      "ended_at": "2026-09-26 16:21:39.200664+00:00",
+      "winner_id": "795847206719717386",
+      "category": null,
+      "question_text": null,
+      "image_url": null,
+      "correct_answers": null,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4916,
+          "exact_match": false,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:21:39.196388+00:00"
+        }
+      ]
     },
     {
       "round_id": 5046,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:22:10.354855+00:00",
-      "round_ended_at": "2026-09-26 16:22:21.373232+00:00",
-      "winner_id": 795847206719717386,
+      "started_at": "2026-09-26 16:22:10.354855+00:00",
+      "ended_at": "2026-09-26 16:22:21.373232+00:00",
+      "winner_id": "795847206719717386",
       "category": "House of the Dragon",
       "question_text": "Alongside Viserys Targaryen, which Targaryen was a leading candidate at the Great Council shown in the series opening?",
+      "image_url": null,
       "correct_answers": [
-        "Rhaenys Targaryen"
+        "nTD+/PuUlKosyjTh0bn1E0U="
       ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 11004,
-      "exact_match": false,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:22:21.369944+00:00"
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 11004,
+          "exact_match": false,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:22:21.369944+00:00"
+        }
+      ]
     },
     {
       "round_id": 5047,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:22:51.622137+00:00",
-      "round_ended_at": "2026-09-26 16:23:03.772948+00:00",
-      "winner_id": 795847206719717386,
+      "started_at": "2026-09-26 16:22:51.622137+00:00",
+      "ended_at": "2026-09-26 16:23:03.772948+00:00",
+      "winner_id": "795847206719717386",
       "category": "House of the Dragon",
       "question_text": "What alliance sails to take on Corlys in the Gullet in the Season 3 premiere?",
+      "image_url": null,
       "correct_answers": [
-        "The Triarchy"
+        "mzD6ucGfjusKyC7/"
       ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 12137,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:23:03.769713+00:00"
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 12137,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:23:03.769713+00:00"
+        }
+      ]
     },
     {
       "round_id": 5048,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:23:34.171802+00:00",
-      "round_ended_at": "2026-09-26 16:23:41.810026+00:00",
-      "winner_id": 795847206719717386,
+      "started_at": "2026-09-26 16:23:34.171802+00:00",
+      "ended_at": "2026-09-26 16:23:41.810026+00:00",
+      "winner_id": "795847206719717386",
       "category": "House of the Dragon",
       "question_text": "In Fire & Blood, what name is given to the baseborn people who attempt to claim riderless dragons for Rhaenyra?",
+      "image_url": null,
       "correct_answers": [
-        "Dragonseeds"
+        "iyr+/vqDlO8dzzU="
       ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 7624,
-      "exact_match": false,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:23:41.806801+00:00"
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 7624,
+          "exact_match": false,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:23:41.806801+00:00"
+        }
+      ]
     },
     {
       "round_id": 5049,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:24:12.033538+00:00",
-      "round_ended_at": "2026-09-26 16:24:16.183748+00:00",
-      "winner_id": 795847206719717386,
+      "started_at": "2026-09-26 16:24:12.033538+00:00",
+      "ended_at": "2026-09-26 16:24:16.183748+00:00",
+      "winner_id": "795847206719717386",
       "category": "House of the Dragon",
       "question_text": "In what Free City do Daemon and Laena live with their daughters before returning to Westeros?",
+      "image_url": null,
       "correct_answers": [
-        "Pentos"
+        "nz3x7fqe"
       ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 4136,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:24:16.180337+00:00"
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4136,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:24:16.180337+00:00"
+        }
+      ]
     },
     {
       "round_id": 5050,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:24:46.378176+00:00",
-      "round_ended_at": "2026-09-26 16:25:06.534514+00:00",
+      "started_at": "2026-09-26 16:24:46.378176+00:00",
+      "ended_at": "2026-09-26 16:25:06.534514+00:00",
       "winner_id": null,
-      "category": "House of the Dragon",
-      "question_text": "In Fire & Blood, which royal child is murdered by Blood and Cheese?",
-      "correct_answers": [
-        "Jaehaerys Targaryen"
-      ],
-      "answerer_id": null,
-      "response_time_ms": null,
-      "exact_match": null,
-      "points_awarded": null,
-      "answered_at": null
+      "category": null,
+      "question_text": null,
+      "image_url": null,
+      "correct_answers": null,
+      "answers": []
     },
     {
       "round_id": 5051,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:25:36.813117+00:00",
-      "round_ended_at": "2026-09-26 16:25:43.404331+00:00",
-      "winner_id": 795847206719717386,
+      "started_at": "2026-09-26 16:25:36.813117+00:00",
+      "ended_at": "2026-09-26 16:25:43.404331+00:00",
+      "winner_id": "795847206719717386",
       "category": "House of the Dragon",
       "question_text": "Whom does Corlys Velaryon initially propose Viserys should marry?",
+      "image_url": null,
       "correct_answers": [
-        "Laena Velaryon"
+        "gzn69/TNse8UyjT/36U="
       ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 6577,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:25:43.400384+00:00"
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6577,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:25:43.400384+00:00"
+        }
+      ]
     },
     {
       "round_id": 5052,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:26:13.690734+00:00",
-      "round_ended_at": "2026-09-26 16:26:20.688370+00:00",
-      "winner_id": 795847206719717386,
-      "category": "House of the Dragon",
-      "question_text": "Who is Rhaenyra Targaryen's uncle who later becomes her husband?",
-      "correct_answers": [
-        "Daemon Targaryen"
-      ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 6985,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:26:20.685176+00:00"
+      "started_at": "2026-09-26 16:26:13.690734+00:00",
+      "ended_at": "2026-09-26 16:26:20.688370+00:00",
+      "winner_id": "795847206719717386",
+      "category": null,
+      "question_text": null,
+      "image_url": null,
+      "correct_answers": null,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6985,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:26:20.685176+00:00"
+        }
+      ]
     },
     {
       "round_id": 5053,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:26:50.980458+00:00",
-      "round_ended_at": "2026-09-26 16:26:55.959704+00:00",
-      "winner_id": 795847206719717386,
+      "started_at": "2026-09-26 16:26:50.980458+00:00",
+      "ended_at": "2026-09-26 16:26:55.959704+00:00",
+      "winner_id": "795847206719717386",
       "category": "House of the Dragon",
       "question_text": "What island stronghold is the traditional seat of House Targaryen?",
+      "image_url": null,
       "correct_answers": [
-        "Dragonstone"
+        "iyr+/vqDlP4XxSM="
       ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 4963,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:26:55.956164+00:00"
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4963,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:26:55.956164+00:00"
+        }
+      ]
     },
     {
       "round_id": 5054,
       "mode": "insane",
-      "round_started_at": "2026-09-26 16:27:26.176166+00:00",
-      "round_ended_at": "2026-09-26 16:28:26.560384+00:00",
+      "started_at": "2026-09-26 16:27:26.176166+00:00",
+      "ended_at": "2026-09-26 16:28:26.560384+00:00",
       "winner_id": null,
       "category": "General Knowledge",
       "question_text": "Types of natural disasters",
+      "image_url": null,
       "correct_answers": [
-        "Earthquake",
-        "Hurricane",
-        "Tornado",
-        "Flood",
-        "Wildfire",
-        "Tsunami",
-        "Volcanic Eruption",
-        "Drought",
-        "Landslide",
-        "Blizzard",
-        "Avalanche",
-        "Hailstorm",
-        "Sinkhole",
-        "Heat Wave",
-        "Famine"
+        "ijnt7f2ckusTzg==",
+        "hy3t6/yOhuQd",
+        "mzft9/SJiA==",
+        "iTTw9vE=",
+        "mDHz/fOEle8=",
+        "myvq9/SAjg==",
+        "mTfz+vSDjulY7jTzwL/lGUU=",
+        "iyrw7PKFkw==",
+        "gznx/eaBju4d",
+        "jTT24++Mle4=",
+        "ji7+9fSDhOId",
+        "hzn29eaZiPgV",
+        "nDHx8v2Ci+8=",
+        "hz3+7bW6hvwd",
+        "iTny8PuI"
       ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 3520,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 16:27:29.698330+00:00"
-    },
-    {
-      "round_id": 5054,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 16:27:26.176166+00:00",
-      "round_ended_at": "2026-09-26 16:28:26.560384+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Types of natural disasters",
-      "correct_answers": [
-        "Earthquake",
-        "Hurricane",
-        "Tornado",
-        "Flood",
-        "Wildfire",
-        "Tsunami",
-        "Volcanic Eruption",
-        "Drought",
-        "Landslide",
-        "Blizzard",
-        "Avalanche",
-        "Hailstorm",
-        "Sinkhole",
-        "Heat Wave",
-        "Famine"
-      ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 5384,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 16:27:31.562945+00:00"
-    },
-    {
-      "round_id": 5054,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 16:27:26.176166+00:00",
-      "round_ended_at": "2026-09-26 16:28:26.560384+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Types of natural disasters",
-      "correct_answers": [
-        "Earthquake",
-        "Hurricane",
-        "Tornado",
-        "Flood",
-        "Wildfire",
-        "Tsunami",
-        "Volcanic Eruption",
-        "Drought",
-        "Landslide",
-        "Blizzard",
-        "Avalanche",
-        "Hailstorm",
-        "Sinkhole",
-        "Heat Wave",
-        "Famine"
-      ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 6426,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 16:27:32.605174+00:00"
-    },
-    {
-      "round_id": 5054,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 16:27:26.176166+00:00",
-      "round_ended_at": "2026-09-26 16:28:26.560384+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Types of natural disasters",
-      "correct_answers": [
-        "Earthquake",
-        "Hurricane",
-        "Tornado",
-        "Flood",
-        "Wildfire",
-        "Tsunami",
-        "Volcanic Eruption",
-        "Drought",
-        "Landslide",
-        "Blizzard",
-        "Avalanche",
-        "Hailstorm",
-        "Sinkhole",
-        "Heat Wave",
-        "Famine"
-      ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 8667,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 16:27:34.846054+00:00"
-    },
-    {
-      "round_id": 5054,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 16:27:26.176166+00:00",
-      "round_ended_at": "2026-09-26 16:28:26.560384+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Types of natural disasters",
-      "correct_answers": [
-        "Earthquake",
-        "Hurricane",
-        "Tornado",
-        "Flood",
-        "Wildfire",
-        "Tsunami",
-        "Volcanic Eruption",
-        "Drought",
-        "Landslide",
-        "Blizzard",
-        "Avalanche",
-        "Hailstorm",
-        "Sinkhole",
-        "Heat Wave",
-        "Famine"
-      ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 11563,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 16:27:37.741276+00:00"
-    },
-    {
-      "round_id": 5054,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 16:27:26.176166+00:00",
-      "round_ended_at": "2026-09-26 16:28:26.560384+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Types of natural disasters",
-      "correct_answers": [
-        "Earthquake",
-        "Hurricane",
-        "Tornado",
-        "Flood",
-        "Wildfire",
-        "Tsunami",
-        "Volcanic Eruption",
-        "Drought",
-        "Landslide",
-        "Blizzard",
-        "Avalanche",
-        "Hailstorm",
-        "Sinkhole",
-        "Heat Wave",
-        "Famine"
-      ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 20141,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 16:27:46.319297+00:00"
-    },
-    {
-      "round_id": 5054,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 16:27:26.176166+00:00",
-      "round_ended_at": "2026-09-26 16:28:26.560384+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Types of natural disasters",
-      "correct_answers": [
-        "Earthquake",
-        "Hurricane",
-        "Tornado",
-        "Flood",
-        "Wildfire",
-        "Tsunami",
-        "Volcanic Eruption",
-        "Drought",
-        "Landslide",
-        "Blizzard",
-        "Avalanche",
-        "Hailstorm",
-        "Sinkhole",
-        "Heat Wave",
-        "Famine"
-      ],
-      "answerer_id": 795847206719717386,
-      "response_time_ms": 26665,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 16:27:52.844010+00:00"
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3520,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 16:27:29.698330+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5384,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 16:27:31.562945+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6426,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 16:27:32.605174+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 8667,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 16:27:34.846054+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 11563,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 16:27:37.741276+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 20141,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 16:27:46.319297+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 26665,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 16:27:52.844010+00:00"
+        }
+      ]
     }
   ]
 }
