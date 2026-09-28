@@ -23,7 +23,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -43,9 +43,7 @@
       "category": "Greek Mythology",
       "question_text": "Who is Hera's husband?",
       "image_url": null,
-      "correct_answers": [
-        "lT3q6g=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -65,9 +63,7 @@
       "category": "Whos That Pokemon (Gen 6)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/b3lUmjz.png",
-      "correct_answers": [
-        "nC/26/mEnw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -87,9 +83,7 @@
       "category": "Lord of the Rings",
       "question_text": "Who provides the voice of Fangorn, a.k.a. TreeBeard?",
       "image_url": null,
-      "correct_answers": [
-        "hTf397W/j/MLhgLnxqLpBQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -109,9 +103,7 @@
       "category": "House of the Dragon",
       "question_text": "Whom does Aegon remove as Hand of the King after Jaehaerys's murder?",
       "image_url": null,
-      "correct_answers": [
-        "gCzr9rWlju0Q3ynx1bk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -131,9 +123,7 @@
       "category": "Video Games",
       "question_text": "Which actor voices protagonist Eddie Riggs in Brutal Legend?",
       "image_url": null,
-      "correct_answers": [
-        "hTn88rWvi+sbwA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -153,9 +143,7 @@
       "category": "Wrestling",
       "question_text": "Which wrestler performed the characters Mankind, Cactus Jack, and Dude Love?",
       "image_url": null,
-      "correct_answers": [
-        "gjH88rWriOYd0g=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -175,9 +163,7 @@
       "category": "Art and Literature",
       "question_text": "A group of English painters formed in 1848. These artists attempted to recapture the style of painting preceding Raphael. They rejected industrialized England and focused on painting from nature, producing detailed, colorful works?",
       "image_url": null,
-      "correct_answers": [
-        "nyr6tMeMl+IZzirvxK6sNFnLomNCr7ZqaAo="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -189,9 +175,7 @@
       "category": "Music",
       "question_text": "Which band recorded the 1986 hit \"Walk Like an Egyptian\"?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udeMie0UzjU="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -211,21 +195,7 @@
       "category": "Geography",
       "question_text": "Canadian Provinces & Territories",
       "image_url": null,
-      "correct_answers": [
-        "jjT9/OeZhg==",
-        "jSr27fyej6o7xCrz3anlFw==",
-        "gjnx8OGChes=",
-        "gT3oudefkuQL3C/l2w==",
-        "gT3o//qYie4UyijikKriEgvot2lVvLpqdQ==",
-        "gTfp+LW+hOUMwic=",
-        "gDbr+OeEiA==",
-        "nyr29/aIx88c3Cf01OvFBUfFuG8=",
-        "ni36+/CO",
-        "nDns8vSZhOId3Cfo",
-        "gTft7f2agvkMixLjwrnlAkTWv25U",
-        "gS3x+OOYkw==",
-        "li309vs="
-      ],
+      "answer_count": 13,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -301,9 +271,7 @@
       "category": "General Knowledge",
       "question_text": "What physics principle relates the net electric flux out of a closed surface to the charge enclosed by that surface?",
       "image_url": null,
-      "correct_answers": [
-        "iDnq6ubKlKo0yjE="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -323,9 +291,7 @@
       "category": "Disney",
       "question_text": "What was the name of Disney's first made for video animated movie?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6uceIk/8KxWbp1uvGF03FpA=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -337,9 +303,7 @@
       "category": "Whos That Pokemon (Gen 8)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/Ja2gSjq.png",
-      "correct_answers": [
-        "mzD2/OOYiw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -359,9 +323,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "These letters define what - NASDAQ",
       "image_url": null,
-      "correct_answers": [
-        "gTnr8PqDhuZY6jX136jlF1/NuWUHsrglVAv7pIrfddWqK7/d8IyL7wrYZsfFv+MbStCzbweMq2pzD+y4l9hy"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -373,9 +335,7 @@
       "category": "Art and Literature",
       "question_text": "In sculpting, the cutting of a form from a solid, hard material such as stone or wood, in contrast to the technique of modeling?",
       "image_url": null,
-      "correct_answers": [
-        "jDnt7/yDgA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -395,9 +355,7 @@
       "category": "Video Games",
       "question_text": "In Overwatch, Coalescence is the ultimate of which hero?",
       "image_url": null,
-      "correct_answers": [
-        "gjf26/Q="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -417,9 +375,7 @@
       "category": "Conundrums",
       "question_text": "Waffle",
       "image_url": null,
-      "correct_answers": [
-        "mDn5//mI"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -439,9 +395,7 @@
       "category": "Lord of the Rings",
       "question_text": "Which city was located on the southern shores of Lake Evendim?",
       "image_url": null,
-      "correct_answers": [
-        "jjbx7PiEiesL"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -461,9 +415,7 @@
       "category": "Marvel",
       "question_text": "Who makes a supernatural bargain with Johnny Blaze in the first Ghost Rider film?",
       "image_url": null,
-      "correct_answers": [
-        "gj3v8fyek+U="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -483,83 +435,7 @@
       "category": "General Knowledge",
       "question_text": "Fast Food Chains",
       "image_url": null,
-      "correct_answers": [
-        "gjvb9vuMi+5f2A==",
-        "jS3t/vCfx8ERxSE=",
-        "mD3x/ezKlA==",
-        "mzn89rWvguYU",
-        "hB7c",
-        "jDD2+v7AgeMUhgc=",
-        "nC397vSU",
-        "jir94LKe",
-        "nDfx8PbNo/gR3SOr+aU=",
-        "izn26+zNtv8dzig=",
-        "nzfv/OyIlA==",
-        "gzHr7fmIx8kZzjXnwrg=",
-        "izfy8PuCwPk=",
-        "nzHl4/TNr/8M",
-        "nznv+LWniOIW2A==",
-        "iTHp/LWqkvML",
-        "mDD+7fSPkvgfzjQ=",
-        "hjay17iikv5Y6TP0167+",
-        "hTn88rWEiaoMwyOm8qT0",
-        "jDnt9bKex8AKhQ==",
-        "hznt/fCIwPk=",
-        "jC3z7/CfwPk=",
-        "nTn26vyDgKo7yijjl7g=",
-        "lTnn++zKlA==",
-        "mDHx/uaZiPo=",
-        "jTf1+PuKi+8L",
-        "jDDq6/aFwPlY/yP+0bisNUPNtWBCsw==",
-        "jDD6+v6Ilfk=",
-        "nTnz9ezKlA==",
-        "mDD27fDNpOsL3yrj",
-        "hCrm6uGMiw==",
-        "jDfw8rWikv4=",
-        "iSr6/fGUwPlY7TTpyq7iVmjRpX9Gr7olIU7LpZ3Xat66Kvj8554=",
-        "nCz6+P7NwORY+C7n264=",
-        "nDD+8vDNtOIZyC0=",
-        "nDX+6v2PkvgfzjQ=",
-        "jn7IuceIlP4Z3jTn3r//",
-        "gzfx/rWniOIWixXv3L3pBAzX",
-        "jDnv7fSEiao8jDU=",
-        "iz3zucGMhOU=",
-        "njzw+/Q=",
-        "jDD26fqZi+8=",
-        "gjf6vubNtOUN3y7x1bj4VmzWv2dL",
-        "ijS/yfqBi+VY5ynl3w==",
-        "mzn89rWniOIWjDU=",
-        "hTHy9OzNreUQxWH1",
-        "hT3t6vCUx8cRwCOhww==",
-        "iTHt/P2CkvkdixXz0rg=",
-        "ni324/uClA==",
-        "nzfr+/CBi/M=",
-        "jDD+6/mInvlY6C7j1bjpBV/Bt2BU",
-        "nz3x97W+k+sMwino",
-        "nznx/fTNovII2SP1ww==",
-        "nz32ucKIjg==",
-        "ljfs8fyDiPMZ",
-        "hTfz9fyPgu8=",
-        "gTnx/frKlA==",
-        "mzHyud2Clf4XxTU=",
-        "iy3x8vyDwA==",
-        "hCr26uWUx8EKzivj",
-        "jTns8vyDytgXySTv3rg=",
-        "jDfz/bW+k+UWzmbFwq7tG07Wrw==",
-        "ji3x7fyIx8sWxSOhww==",
-        "jDHx9/SPiOQ=",
-        "mD3r4/CBwPlY+zTjxLHpGlg=",
-        "nDr+6+eC",
-        "gjnt+vrKlKoowjz80Q==",
-        "hy3x/ueUx8IX3C/jl7g=",
-        "hT3rvubNt+MC0Sc=",
-        "nTfq9/HNs+saxyOm4KL2DEo=",
-        "nzft7fyBi+Vf2A==",
-        "mDH69/CflOkQxS/yyq7g",
-        "gTnr8fSDwPlY7Sfr377/",
-        "nzfz9frNs/gX2y/l0ac=",
-        "iDfz/fCDx8kQwiXt"
-      ],
+      "answer_count": 75,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -698,9 +574,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Computers: OS",
       "image_url": null,
-      "correct_answers": [
-        "gCj66/SZjuQfixX/w7/pGw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -720,9 +594,7 @@
       "category": "Whos That Pokemon (Gen 2)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/Es7SFIu.png",
-      "correct_answers": [
-        "iCr+9/eYi+Y="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -742,9 +614,7 @@
       "category": "Movies",
       "question_text": "In Superbad, what fake name appears on Fogell's ID?",
       "image_url": null,
-      "correct_answers": [
-        "gjvT9uOEiQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -764,9 +634,7 @@
       "category": "Conundrums",
       "question_text": "Quixotic",
       "image_url": null,
-      "correct_answers": [
-        "ni324fqZjuk="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -778,9 +646,7 @@
       "category": "Video Games",
       "question_text": "How many sound channels does the Nintendo Entertainment System have?",
       "image_url": null,
-      "correct_answers": [
-        "+g=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -800,9 +666,7 @@
       "category": "General Knowledge",
       "question_text": "Which part of the body does glaucoma affect?",
       "image_url": null,
-      "correct_answers": [
-        "iiH66g=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -822,9 +686,7 @@
       "category": "Disney",
       "question_text": "In Beauty & The Beast, what area of the castle can the enchanted rose be found?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ucKIlP5Y/C/o1w=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -844,9 +706,7 @@
       "category": "US States (Map)",
       "question_text": "What USA state or territory is highlighted on this map?",
       "image_url": "https://i.imgur.com/84N0Mxd.png",
-      "correct_answers": [
-        "hjTz8PuCjvk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -866,7 +726,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -886,21 +746,7 @@
       "category": "Wrestling",
       "question_text": "AEW World Women's Champions",
       "image_url": null,
-      "correct_answers": [
-        "mzfx8LW+k+UKxg==",
-        "hzH0+OeYx9kQwiLn",
-        "jSr27eHNpesTzjQ=",
-        "hTny8PDNr+sB3yP0",
-        "gjnt8PSFx8cZ0g==",
-        "mzDq9/GIlaoqxDXn",
-        "mzD68vmM",
-        "hCr26rW+k+sMxyfo1K7+",
-        "nTH39g==",
-        "gSHz+LW/iPkd",
-        "nDnt+OyM",
-        "mDHz9fqax8QRzC7y2aXrF0fB",
-        "gj3t+vCJgvlY5inoc2I="
-      ],
+      "answer_count": 13,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -997,9 +843,7 @@
       "category": "Geography",
       "question_text": "What waterfall system lies on the border between Argentina and Brazil?",
       "image_url": null,
-      "correct_answers": [
-        "hj/q+O+Yx8wZxyr1"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1011,9 +855,7 @@
       "category": "Game of Thrones",
       "question_text": "What was the name of the Valyrian Steel blade given to Joffrey reforged from Ice?",
       "image_url": null,
-      "correct_answers": [
-        "mDH79uLKlKovyi/q"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -1033,9 +875,7 @@
       "category": "Chemistry",
       "question_text": "What salt substitute was quickly discontinued once it was discovered to be highly toxic?",
       "image_url": null,
-      "correct_answers": [
-        "gzHr8fyYiqobwyrpwqLoEw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -1055,9 +895,7 @@
       "category": "NBA",
       "question_text": "Who is the only player to win Finals MVP on a losing team?",
       "image_url": null,
-      "correct_answers": [
-        "hT3t6+zNsO8L3w=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1077,9 +915,7 @@
       "category": "Space",
       "question_text": "How many constellations does the International Astronomical Union officially recognize?",
       "image_url": null,
-      "correct_answers": [
-        "92A="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -1099,9 +935,7 @@
       "category": "MLB",
       "question_text": "What was the original name of the Houston Astros?",
       "image_url": null,
-      "correct_answers": [
-        "hzfq6uGCiao7xCrykOW4Q1g="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -1121,9 +955,7 @@
       "category": "Disney",
       "question_text": "In Cars, what is the name of Sally's motel?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udaCnfNY6Cno1Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -1143,9 +975,7 @@
       "category": "Conundrums",
       "question_text": "Harbor",
       "image_url": null,
-      "correct_answers": [
-        "hznt+/qf"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1165,9 +995,7 @@
       "category": "General Knowledge",
       "question_text": "What term describes an animal that eats both plants and meat?",
       "image_url": null,
-      "correct_answers": [
-        "gDXx8OOCle8="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1187,13 +1015,7 @@
       "category": "Geography",
       "question_text": "Name all oceans",
       "image_url": null,
-      "correct_answers": [
-        "nzn88POEhA==",
-        "jizz+PuZjuk=",
-        "hjb78PSD",
-        "nDfq7f2IleQ=",
-        "jir87fyO"
-      ],
+      "answer_count": 5,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -1241,9 +1063,7 @@
       "category": "Wrestling",
       "question_text": "Triple H defended the WWE World Heavyweight Championship against Roman Reigns in this WrestleMania's main event.",
       "image_url": null,
-      "correct_answers": [
-        "/Go="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1263,9 +1083,7 @@
       "category": "Entertainment",
       "question_text": "What did Dorothy's house land on in 'The Wizard Of Oz'?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ucKEhOEdz2bR2b/vHgvLsCtTtbslQg/rpQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -1285,9 +1103,7 @@
       "category": "Art and Literature",
       "question_text": "Who wrote the children's story \"The Little Match Girl\"?",
       "image_url": null,
-      "correct_answers": [
-        "hznx6rWuj/gR2DLv0aWsN0XAs3lUuLA="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -1307,9 +1123,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Organizations: NAACP",
       "image_url": null,
-      "correct_answers": [
-        "gTnr8PqDhuZY6jX136jlF1/NuWUHu7F3JxrwtNj3ZcquNvz8+IiJ/ljEIKbzpOAZWcGyK3e4sXVrCw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -1329,9 +1143,7 @@
       "category": "Video Games",
       "question_text": "In Terraria, what is the maximum health capacity a player can permanently reach (without potions or buffs)?",
       "image_url": null,
-      "correct_answers": [
-        "+miv"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -1351,9 +1163,7 @@
       "category": "House of the Dragon",
       "question_text": "What is Vermithor commonly called?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udefiOQCzmbAxbn1"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -1373,9 +1183,7 @@
       "category": "Music",
       "question_text": "In what year did Tame Impala release their second album?",
       "image_url": null,
-      "correct_answers": [
-        "/Wiuqw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1395,9 +1203,7 @@
       "category": "US States (Map)",
       "question_text": "What USA state or territory is highlighted on this map?",
       "image_url": "https://i.imgur.com/YAPHwS7.png",
-      "correct_answers": [
-        "nTDw/fDNrvkUyiji"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -1417,9 +1223,7 @@
       "category": "General Knowledge",
       "question_text": "What letter is most commonly used to represent an unknown value in algebra?",
       "image_url": null,
-      "correct_answers": [
-        "lw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1439,102 +1243,7 @@
       "category": "Wrestling",
       "question_text": "Intercontinental Champions",
       "image_url": null,
-      "correct_answers": [
-        "iC3x7f2IlQ==",
-        "nz376/rNquUKyirjww==",
-        "mzD6udiEnQ==",
-        "izfxudiYlesbxA==",
-        "mzD6ud2CieEBixLp3qCsO0rK",
-        "mzHr9rW+huQMyijn",
-        "nTnl9ufNtesVxCg=",
-        "mjTr8PiMk+9Y/Cf0wqLjBA==",
-        "nTnx/ezNtOsOyiHj",
-        "giqxucWIlewdyDI=",
-        "nDD+7vvNquMbwyfj3Lg=",
-        "mDn7/LWvhvgKzjLy",
-        "nDD29+aYjO9Y5Sft0ab5BEo=",
-        "izfz6f3NveMfzCrjwg==",
-        "hT35/7Wlhvgc0g==",
-        "nDD69eGCiao6zijs0ablGA==",
-        "mzD6uceChOE=",
-        "jDDt8ObNre8KwiXu3w==",
-        "hT35/7WnhvgKzjLy",
-        "izfy8PuEjKo10jXy1bnlGQ==",
-        "nDny8LW3hvMW",
-        "jSr67bWlhvgM",
-        "iCr6/rW7huYdxTLv3q4=",
-        "jTH4udA=",
-        "hDf58LWmjuQf2DLp3g==",
-        "jDf74LW/j+UczjU=",
-        "iz3+97WsiugKxDXj",
-        "nznrucWMk/4d2TXp3g==",
-        "jSrw97Wvle8ZwC3jwg==",
-        "hD3xucWMk+8Kyg==",
-        "nTf9ucOMiao8yis=",
-        "nTnx/ezNqPgMxCg=",
-        "hTf397WgiPgKwjXp3g==",
-        "myr26fmIx8I=",
-        "jDDt8OaZjusW",
-        "nD3r8bW/iOYUwij1",
-        "ijz4/A==",
-        "iDfz/eCekw==",
-        "nDnx7fyDiKo1yjTj3Kft",
-        "iyr67rWghMMW3z/01Q==",
-        "jC3t7fyex8sAzio=",
-        "nTH8udOBhuMK",
-        "nTH88rW/ku4d",
-        "jDDt8ObNpe8WxC/y",
-        "nz3x7fQ=",
-        "izH66vCB",
-        "hD3p8PvNqP0dxTU=",
-        "gC/697WlhvgM",
-        "nT3mudiUlP4d2S/p",
-        "mDHz9fyMiqoqziHn3A==",
-        "hD3xucaFhucKxCXt",
-        "jijw9fmCx8kKzjH1",
-        "iTHx97WvhuYX2Q==",
-        "mjX+/vQ=",
-        "ijz78PDNoP8d2TTjwqQ=",
-        "nSH9+PaG",
-        "nTH89vaFgv4=",
-        "jDnt9fyZiA==",
-        "mzD6ucGIn+sLixLpwqXtEkQ=",
-        "mTnzucOIieML",
-        "nTf7/ezNt+MIzjQ=",
-        "jhK/yuGUi+8L",
-        "nCzw9/DNpOUUz2bVxK76Ewvlo3hTtLA=",
-        "nTH88uzNtP4dyivk36r4",
-        "jDDm9/Q=",
-        "nTfy+PvNte8RzCj1",
-        "jTf9++zNq+sLwyrjyQ==",
-        "mzD6udefjv4R2C6m8r7gGk/LsQ==",
-        "hDnx/A==",
-        "iiL68vyIi6oyyiXtw6Ti",
-        "jjDy/PHNreUQxTXp3g==",
-        "jBW/yeCDjA==",
-        "iznx8PCBx8gK0ifo",
-        "mzD6udKCg+wZ3y7jwg==",
-        "jSr+7PvNtP4KxDHr0aU=",
-        "hC3t7bWsie0Uzg==",
-        "jTfw8vCfx94=",
-        "jTH4ucaFiP0=",
-        "hT3mucCeiA==",
-        "gjnt+rWggvgX",
-        "jjT9/OeZ",
-        "hTf397Wvlesc2C7nx+vAF1LCv25LuQ==",
-        "gznx+vDNtP4X2Ss=",
-        "gy30/LWlhvgIzjQ=",
-        "i3/T9rWvleUPxQ==",
-        "gjnt7ezNresWxSPyxLI=",
-        "jTHz9ezNoP8WxQ==",
-        "hTf397WuguQZ",
-        "nTH08OaFjg==",
-        "nTf+/bWpiO0f",
-        "mz3s7Q==",
-        "mzD6udiCkuQMwiM=",
-        "lTn88rW/nu4d2Q==",
-        "iz3+97WpiP8fxyf1"
-      ],
+      "answer_count": 94,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -1755,5 +1464,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
