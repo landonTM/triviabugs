@@ -24,9 +24,7 @@
       "category": "Video Games",
       "question_text": "Which video game series includes The Curious Village and The Diabolical Box?",
       "image_url": null,
-      "correct_answers": [
-        "nyrw//CelOUKiwrnyb/jGA=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Sports: MLS",
       "image_url": null,
-      "correct_answers": [
-        "gjn19ufNq+8ZzDPjkJjjFUjBpA=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,8 @@
       "category": "Entertainment",
       "question_text": "How many episodes were in season five of Samurai Jack?",
       "image_url": null,
-      "correct_answers": [
-        "/mg="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
