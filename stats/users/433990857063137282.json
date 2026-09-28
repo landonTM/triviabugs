@@ -41,10 +41,7 @@
   "fastest_guess": {
     "response_time_ms": 2222,
     "question_text": "What state is UT?",
-    "category": "US State Abbreviations",
-    "correct_answers": [
-      "miz+8Q=="
-    ]
+    "category": "US State Abbreviations"
   },
   "best_category": {
     "category": "Logos",
@@ -3622,6 +3619,43 @@
       "unlock_level": null,
       "unlocked": false,
       "source": null
+    }
+  ],
+  "rivals": [
+    {
+      "user_id": "184456115927384065",
+      "played": 32,
+      "wins": 18,
+      "losses": 14,
+      "ties": 0
+    },
+    {
+      "user_id": "734768348201615400",
+      "played": 4,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0
+    },
+    {
+      "user_id": "795847206719717386",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0
+    },
+    {
+      "user_id": "794420965387403265",
+      "played": 3,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0
+    },
+    {
+      "user_id": "1008207363637002290",
+      "played": 1,
+      "wins": 0,
+      "losses": 0,
+      "ties": 1
     }
   ]
 }
