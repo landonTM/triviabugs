@@ -1539,21 +1539,6 @@
       "end_reason": "completed"
     },
     {
-      "id": 49,
-      "kind": "duel",
-      "channel_id": "1547066139891212328",
-      "challenger_id": "433990857063137282",
-      "opponent_id": "1008207363637002290",
-      "format": 110,
-      "format_label": "First to 10",
-      "winner_id": null,
-      "is_tie": true,
-      "challenger_score": 0,
-      "opponent_score": 0,
-      "decided_by_tiebreaker": false,
-      "ended_at": "2026-09-27 07:11:07.699867+00:00"
-    },
-    {
       "id": 54,
       "kind": "game",
       "mode": "daily",
