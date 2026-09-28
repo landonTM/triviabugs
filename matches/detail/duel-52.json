@@ -24,9 +24,7 @@
       "category": "Video Games",
       "question_text": "In Night in the Woods, what is the first name of Mae Borowski's mother?",
       "image_url": null,
-      "correct_answers": [
-        "jDnx/ew="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Entertainment",
       "question_text": "Band: Elvis Costello and the ___________ ?",
       "image_url": null,
-      "correct_answers": [
-        "jizr6/SOk+MXxTU="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Disney",
       "question_text": "What was the name of the 1992 television series which featured Goofy in it?",
       "image_url": null,
-      "correct_answers": [
-        "iDfw/7W5leUX2w=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Slogans",
       "question_text": "An American Revolution.",
       "image_url": null,
-      "correct_answers": [
-        "jDD67+eCi+8M"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "Video Games",
       "question_text": "Which Monty Python member voiced Rincewind in the 1995 Discworld video game?",
       "image_url": null,
-      "correct_answers": [
-        "iir2+rWkg+Yd"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,9 +79,7 @@
       "category": "Art and Literature",
       "question_text": "Whose autobiography was entitled 'Dear Me'?",
       "image_url": null,
-      "correct_answers": [
-        "nz3r/OfNsvkMwijpxg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 7,
@@ -102,9 +90,8 @@
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
       "image_url": "https://i.imgur.com/Z25ne9q.png",
-      "correct_answers": [
-        "hTnv+Ps="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
