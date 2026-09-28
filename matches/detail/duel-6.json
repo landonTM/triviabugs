@@ -6,7 +6,9 @@
     "challenger_id": "433990857063137282",
     "opponent_id": "794420965387403265",
     "format": 3,
+    "format_label": "Best of 3",
     "winner_id": "794420965387403265",
+    "is_tie": false,
     "challenger_score": 1,
     "opponent_score": 1,
     "decided_by_tiebreaker": true,
@@ -16,13 +18,14 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 3459,
       "answered_at": "2026-09-23 18:50:40.780261+00:00",
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/WElCUGn.png",
       "correct_answers": [
-        "New Zealand"
+        "gT3ouc+IhuYZxSI="
       ]
     },
     {
@@ -33,62 +36,65 @@
       "answered_at": "2026-09-23 18:50:40.780261+00:00",
       "category": "General Knowledge",
       "question_text": "What Native American ceremonial gift-giving feast was historically practiced by Pacific Northwest tribes?",
+      "image_url": null,
       "correct_answers": [
-        "Potlatch"
+        "nzfr9fSZhOI="
       ]
     },
     {
       "round_number": 3,
       "mode": "standard",
-      "winner_id": 794420965387403265,
+      "winner_id": "794420965387403265",
       "response_time_ms": 12815,
       "answered_at": "2026-09-23 18:50:40.780261+00:00",
       "category": "House of the Dragon",
       "question_text": "In Fire & Blood, which dragon kills Rhaenyra on Dragonstone?",
+      "image_url": null,
       "correct_answers": [
-        "Sunfyre"
+        "nC3x/+yfgg=="
       ]
     },
     {
       "round_number": 4,
       "mode": "insane",
-      "winner_id": 794420965387403265,
+      "winner_id": "794420965387403265",
       "response_time_ms": 3486,
       "answered_at": "2026-09-23 18:50:40.780261+00:00",
       "category": "General Knowledge",
       "question_text": "Name all commonly known vegetables",
+      "image_url": null,
       "correct_answers": [
-        "Carrot",
-        "Potato",
-        "Onion",
-        "Garlic",
-        "Broccoli",
-        "Cauliflower",
-        "Cabbage",
-        "Lettuce",
-        "Spinach",
-        "Kale",
-        "Celery",
-        "Cucumber",
-        "Zucchini",
-        "Squash",
-        "Pumpkin",
-        "Eggplant",
-        "Bell Pepper",
-        "Tomato",
-        "Corn",
-        "Peas",
-        "Green Beans",
-        "Asparagus",
-        "Beet",
-        "Radish",
-        "Turnip",
-        "Sweet Potato",
-        "Yam",
-        "Artichoke",
-        "Brussels Sprouts",
-        "Leek",
-        "Mushroom"
+        "jDnt6/qZ",
+        "nzfr+OGC",
+        "gDb29vs=",
+        "iDnt9fyO",
+        "jSrw+vaCi+M=",
+        "jDnq9fyLi+UPzjQ=",
+        "jDn9+/SKgg==",
+        "gz3r7eCOgg==",
+        "nCj29/SOjw==",
+        "hDnz/A==",
+        "jD3z/OeU",
+        "jC387PiPgvg=",
+        "lS38+v2EieM=",
+        "nCnq+OaF",
+        "ny3y6f6EiQ==",
+        "ij/46fmMif4=",
+        "jT3z9bW9gvoIzjQ=",
+        "mzfy+OGC",
+        "jDft9w==",
+        "nz3+6g==",
+        "iCr6/PvNpe8ZxTU=",
+        "jivv+OeMgP8L",
+        "jT367Q==",
+        "nTn78OaF",
+        "my3t9/yd",
+        "nC/6/OHNt+UMyjLp",
+        "ljny",
+        "jirr8PaFiOEd",
+        "jSrq6uaIi/lY+Db03774BQ==",
+        "gz368g==",
+        "gi3s8eeCiOc="
       ]
     }
   ]
