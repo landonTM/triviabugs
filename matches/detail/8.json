@@ -55,9 +55,7 @@
       "category": "Movies",
       "question_text": "In Shrek, who rules Duloc?",
       "image_url": null,
-      "correct_answers": [
-        "gzft/bWrhvgJ3ifn1A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -77,9 +75,7 @@
       "category": "Video Games",
       "question_text": "In Pokémon Sun and Moon, Team Skull has taken over which town?",
       "image_url": null,
-      "correct_answers": [
-        "nze/zfqaiQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -99,9 +95,7 @@
       "category": "Entertainment",
       "question_text": "Who sang 'Beat It'?",
       "image_url": null,
-      "correct_answers": [
-        "gjH88fSIi6oyyiXtw6Ti"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -121,9 +115,7 @@
       "category": "General Knowledge",
       "question_text": "What is a Wyvern?",
       "image_url": null,
-      "correct_answers": [
-        "jnjr4OWIx+UeiyL00azjGA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -143,9 +135,7 @@
       "category": "Conundrums",
       "question_text": "Backpack",
       "image_url": null,
-      "correct_answers": [
-        "jTn88uWMhOE="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -165,9 +155,7 @@
       "category": "Sports",
       "question_text": "Which country won the 2012 UEFA European Championship?",
       "image_url": null,
-      "correct_answers": [
-        "nCj+8Ps="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -187,9 +175,7 @@
       "category": "Music",
       "question_text": "In which year was the Megadeth album \"Peace Sells... but Who's Buying?\" released?",
       "image_url": null,
-      "correct_answers": [
-        "/mGnrw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -209,9 +195,7 @@
       "category": "Movies",
       "question_text": "In Jaws, who plays oceanographer Matt Hooper?",
       "image_url": null,
-      "correct_answers": [
-        "nTH88fSfg6o82SP/1r7/BQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -231,9 +215,7 @@
       "category": "Stranger Things",
       "question_text": "Who is Nancy Wheeler dating at the start of Season 1?",
       "image_url": null,
-      "correct_answers": [
-        "nCz67/DNr+sK2S/o17/jGA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -253,21 +235,7 @@
       "category": "Geography",
       "question_text": "Name the original 13 colonies",
       "image_url": null,
-      "correct_answers": [
-        "mTHt/vyDjus=",
-        "gjns6vSOj/8LzjLyww==",
-        "gT3oud2MivoLwy/01Q==",
-        "gjnt4PmMie4=",
-        "jDfx9/COk+Mb3jI=",
-        "nTDw/fDNrvkUyiji",
-        "iz3z+OKMle8=",
-        "gTft7f3NpOsKxCrv3qo=",
-        "nDfq7f3NpOsKxCrv3qo=",
-        "gT3oud+Ilfkd0g==",
-        "gT3oucyCleE=",
-        "nz3x9+aUi/wZxS/n",
-        "iD3w6/KEhg=="
-      ],
+      "answer_count": 13,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -364,9 +332,7 @@
       "category": "Wrestling",
       "question_text": "Who is nicknamed 'The Queen' in WWE?",
       "image_url": null,
-      "correct_answers": [
-        "jDD+6/mCk/4diwDq0aL+"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -386,9 +352,7 @@
       "category": "Entertainment",
       "question_text": "Name the actor who played the leading role in \"The Good, the Bad, and the Ugly\"?",
       "image_url": null,
-      "correct_answers": [
-        "jDT29+HNousL3zHp368="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -408,7 +372,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -428,9 +392,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Science: LED",
       "image_url": null,
-      "correct_answers": [
-        "gzH48eHAoucR3zLv3qysMkLLsm4="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -450,9 +412,7 @@
       "category": "Music",
       "question_text": "What band featured Sting, Stewart Copeland and Andy Summers?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ucWCi+Mbzg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -472,9 +432,7 @@
       "category": "NBA",
       "question_text": "What was the longest losing streak by a team in a regular season?",
       "image_url": null,
-      "correct_answers": [
-        "/WA="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -494,9 +452,7 @@
       "category": "Video Games",
       "question_text": "What is the name of the alligator in Where's My Water?",
       "image_url": null,
-      "correct_answers": [
-        "nC/+9OWU"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -508,9 +464,7 @@
       "category": "Sports",
       "question_text": "Which Formula One driver was nicknamed 'The Professor'?",
       "image_url": null,
-      "correct_answers": [
-        "jjT+8PvNt/gX2DI="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -530,9 +484,7 @@
       "category": "General Knowledge",
       "question_text": "What ancient Roman midwinter festival is often linked to later Christmas customs?",
       "image_url": null,
-      "correct_answers": [
-        "nDnr7OeDhuYRyg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -552,208 +504,7 @@
       "category": "Geography",
       "question_text": "Name all countries",
       "image_url": null,
-      "correct_answers": [
-        "jj748fSDjvkMyig=",
-        "jjT9+PuEhg==",
-        "jjT4/OeEhg==",
-        "jjb79uefhg==",
-        "jjb49vmM",
-        "jjbr8PKYhqoZxSKm8qr+FF7Atw==",
-        "jir4/PuZjuQZ",
-        "jiry/PuEhg==",
-        "ji3s7eeMi+MZ",
-        "ji3s7eeEhg==",
-        "jiL66/eMjuAZxQ==",
-        "jTn3+PiMlA==",
-        "jTn36/SEiQ==",
-        "jTnx/vmMg+8Lww==",
-        "jTnt+/SJiPk=",
-        "jT3z+OeYlA==",
-        "jT3z/vyYig==",
-        "jT3z8O+I",
-        "jT3x8Ps=",
-        "jTDq7fSD",
-        "jTfz8OOEhg==",
-        "jTfs9/yMx+sWz2bO1bn2E0zLoGJJvA==",
-        "jTfr6uKMies=",
-        "jSr+4/yB",
-        "jSrq9/CE",
-        "jS3z/vSfjus=",
-        "jS3t8vyDhqo+yjXp",
-        "jS3t7PuJjg==",
-        "jDnv/LW7gvgczg==",
-        "jDny+/qJjus=",
-        "jDny/OeCiOQ=",
-        "jDnx+PGM",
-        "jD3x7eeMi6o5zTTv06riVnnBpn5Fsbdm",
-        "jDD+/Q==",
-        "jDD29fA=",
-        "jDD29/Q=",
-        "jDfz9viPjus=",
-        "jDfy9ueClA==",
-        "jDfw8rWklOYZxSL1",
-        "jDfs7fTNteMbyg==",
-        "hi7w6+zNpOUZ2DI=",
-        "jCrw+OGEhg==",
-        "jC39+A==",
-        "jCHv6+Ce",
-        "jCL6+v3Nte8I3iTq2ag=",
-        "iz3y9vafhv4RyGbU1bv5FEfNtStIu/5xbwu4kpfYZtM=",
-        "iz3x9PSfjA==",
-        "izL2+/qYk+M=",
-        "izfy8PuEhOs=",
-        "izfy8PuEhOsWixTjwL7uGkLH",
-        "ijvq+PGClQ==",
-        "ij/m6eE=",
-        "ijS/yvSBkescxDQ=",
-        "iinq+OGCleMZx2bBxaLiE0o=",
-        "iir27eeIhg==",
-        "iivr9vuEhg==",
-        "iivo+OGEieM=",
-        "iiz38Pqdjus=",
-        "iTH18A==",
-        "iTHx9fSDgw==",
-        "iSr+9/aI",
-        "iDn99vs=",
-        "iDny+/yM",
-        "iD3w6/KEhg==",
-        "iD3t9PSDng==",
-        "iDD+9/Q=",
-        "iCr6/PaI",
-        "iCr69/SJhg==",
-        "iC3+7fCAhuYZ",
-        "iC329/CM",
-        "iC329/CMysgR2DXnxQ==",
-        "iC3m+PuM",
-        "hzn27fw=",
-        "mTnr8PaMiao7wjL/",
-        "hzfx/eCfhvk=",
-        "hy3x/vSfng==",
-        "hjv69fSDgw==",
-        "hjb78PQ=",
-        "hjb79vuIlOMZ",
-        "hir+9w==",
-        "hir+6A==",
-        "hir69fSDgw==",
-        "hivt+PCB",
-        "hiz+9ew=",
-        "hTny+PyOhg==",
-        "hTnv+Ps=",
-        "hTft/fSD",
-        "hDnl+P6FlP4ZxQ==",
-        "hD3x4PQ=",
-        "hDHt8PeMk+M=",
-        "gTft7f3NrOUKzic=",
-        "hDfs9uOC",
-        "hC3o+PyZ",
-        "hCHt/uyXlP4ZxQ==",
-        "gznw6g==",
-        "gznr7/yM",
-        "gz39+PuCiQ==",
-        "gz3s9uGFiA==",
-        "gzH9/OeEhg==",
-        "gzH94PQ=",
-        "gzH6+v2ZguQL3yPv3g==",
-        "gzHr8eCMieMZ",
-        "gy3n/PiPiP8KzA==",
-        "gjn7+PKMlOkZ2Q==",
-        "gjnz+OKE",
-        "gjnz+Oyejus=",
-        "gjnz/fybgvk=",
-        "gjnz8A==",
-        "gjnz7fQ=",
-        "gjnt6v2Mi+ZY4jXq0aXoBQ==",
-        "gjnq6/yZhuQRyg==",
-        "gjnq6/yZjv8L",
-        "gj3n8PaC",
-        "gjH86/qDgvkRyg==",
-        "gjfz/fqbhg==",
-        "gjfx+PaC",
-        "gjfx/vqBjus=",
-        "gjfx7fCDgu0KxA==",
-        "gjft9vaOiA==",
-        "gjfl+PiPjvsNzg==",
-        "giH+9/iMlQ==",
-        "gTny8PeEhg==",
-        "gTnq6+A=",
-        "gT3v+Pk=",
-        "gT3r8fCfi+sWzzU=",
-        "gT3ouc+IhuYZxSI=",
-        "gTH8+OeMgP8Z",
-        "gTH4/Oc=",
-        "gTH4/OeEhg==",
-        "gTHq/A==",
-        "gTft7f3NqusbziLp3qLt",
-        "gTft7vSU",
-        "gDX+9w==",
-        "nzn08OaZhuQ=",
-        "nznz+OA=",
-        "nznx+PiM",
-        "nznv7PTNqe8PiwHz2aXpFw==",
-        "nznt+PKYhvM=",
-        "nz3t7A==",
-        "nzD29fydl+MWzjU=",
-        "nzfz+PuJ",
-        "nzft7eCKhuY=",
-        "njnr+Oc=",
-        "nDfq7f3NrOUKzic=",
-        "nT3v7PeBjulYxCCmxKPpVmjLuGxI",
-        "nTfy+PuEhg==",
-        "nS3s6vyM",
-        "nS/+9/GM",
-        "nDn29+HNrOMM3zWm0aXoVmXBoGJU",
-        "nDn29+HNq/8bwic=",
-        "nDn29+HNseMWyCPoxOvtGE+EomNC/Zl3YgD5tZHYZM8=",
-        "nDny9vQ=",
-        "nDnxudiMleMWxA==",
-        "nDnwucGCiu9YyijikJv+H0XHv3tC",
-        "nDnq/fzNpvgZyS/n",
-        "nD3x/PKMiw==",
-        "nD3t+/yM",
-        "nD3m+v2Ii+Yd2A==",
-        "nDH66+eMx8YdxCjj",
-        "nDHx/vSdiPgd",
-        "nDTw7/SGjus=",
-        "nDTw7/CDjus=",
-        "nDfz9viCiaox2Crn3q//",
-        "nDfy+PmEhg==",
-        "nDfq7f3NpuwKwiXn",
-        "nDfq7f3NtP8cyig=",
-        "nCj+8Ps=",
-        "nCr2udmMieEZ",
-        "nC37+Ps=",
-        "nC3t8PuMiu8=",
-        "nC/6/fCD",
-        "nC/27e+IleYZxSI=",
-        "nCHt8PQ=",
-        "mzn18P6ElP4ZxQ==",
-        "mznx4/SDjus=",
-        "mzD+8PmMie4=",
-        "mzHy9ufAq+8L3yM=",
-        "mzf49g==",
-        "mzfx/vQ=",
-        "myr29/yJhu5YyijikJ/jFErDuQ==",
-        "my3x8OaEhg==",
-        "my3t8vCU",
-        "my3t8viIieML3yfo",
-        "my3p+PmY",
-        "mj/+9/GM",
-        "mjPt+PyDgg==",
-        "mjb27fCJx8sKyiSm9ablBErQs3g=",
-        "mjb27fCJx8ERxSHi36Y=",
-        "mjb27fCJx9kMyjLjww==",
-        "mirq/uCMng==",
-        "miL9/P6ElP4ZxQ==",
-        "mTnx7PSZkg==",
-        "mT3x/O+YguYZ",
-        "mTH67fuMig==",
-        "lj3y/Ps=",
-        "lTny+/yM",
-        "lTHy+/SPkO8=",
-        "mzn27vSD",
-        "mD3s7fCfiaoryi7nwqo=",
-        "nznz/OaZjuQd"
-      ],
+      "answer_count": 200,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1158,9 +909,7 @@
       "category": "Conundrums",
       "question_text": "Skateboard",
       "image_url": null,
-      "correct_answers": [
-        "nDP+7fCPiOsKzw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1180,9 +929,7 @@
       "category": "Entertainment",
       "question_text": "Turn, Side and Why does it always rain on me are all songs from what UK band?",
       "image_url": null,
-      "correct_answers": [
-        "myr+7/ye"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1202,9 +949,7 @@
       "category": "Music",
       "question_text": "What are the first three words sung in a-ha's 'Take On Me'?",
       "image_url": null,
-      "correct_answers": [
-        "mD246/DNk+sUwC/o1+vtAUrd"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1224,9 +969,7 @@
       "category": "Slogans",
       "question_text": "Ingredients for life.",
       "image_url": null,
-      "correct_answers": [
-        "nDn5/OKMng=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1246,9 +989,7 @@
       "category": "Video Games",
       "question_text": "Which studio developed Rocket League?",
       "image_url": null,
-      "correct_answers": [
-        "nyvm9vuEnw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1268,9 +1009,7 @@
       "category": "What Links",
       "question_text": "What word links Room, Tub, Robe",
       "image_url": null,
-      "correct_answers": [
-        "jTnr8Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1290,9 +1029,7 @@
       "category": "Conundrums",
       "question_text": "Toolbox",
       "image_url": null,
-      "correct_answers": [
-        "mzfw9feCnw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1312,9 +1049,7 @@
       "category": "Geography",
       "question_text": "What Asian country has Kuala Lumpur as its capital?",
       "image_url": null,
-      "correct_answers": [
-        "gjnz+Oyejus="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1334,9 +1069,7 @@
       "category": "House of the Dragon",
       "question_text": "In Fire & Blood, who claims the wild dragon Sheepstealer?",
       "image_url": null,
-      "correct_answers": [
-        "gT3r7fmIlA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1356,38 +1089,7 @@
       "category": "NBA",
       "question_text": "Every current NBA team",
       "image_url": null,
-      "correct_answers": [
-        "jizz+PuZhqowyjHtww==",
-        "jTfs7fqDx8kdxzLv07g=",
-        "jSrw9v6BnuRY5SPyww==",
-        "jDD+6/mCk/4diw7pwqXpAlg=",
-        "jDD2+vSKiKo63irqww==",
-        "jDT67/CBhuQciwXnxqrgH07WpQ==",
-        "iznz9fSex8cZ3SP02ajnBQ==",
-        "iz3x7/Cfx8QNzCHjxLg=",
-        "iz3r6/qEk6oowjXy36X/",
-        "iDfz/fCDx9kMyjLjkJztBFnNuXlU",
-        "hzfq6uGCiaoqxCXt1b//",
-        "hjb78PSDhqooyiXjwrg=",
-        "gzfsudSDgO8UzjWm86flBlvBpHg=",
-        "gzfsudSDgO8UzjWm/KrnE1nX",
-        "gj3y6f2ElKo/2S/8yqflE1g=",
-        "gjH+9PzNr+8Z3w==",
-        "gjHz7vSYjO8diwTz06D/",
-        "gjHx9/CeiP4ZixLv3anpBFzLun1Crg==",
-        "gT3oudqfi+8ZxTWm4K7gH0jFuHg=",
-        "gT3oucyCleFY4Cjv06D/",
-        "gDPz+P2CiutY6C/yyevYHl7Ksm5V",
-        "gCrz+PuJiKo1yiHv0w==",
-        "nzD29fSJguYIwy/nkPy6E1nX",
-        "nzDw/PuEn6or3ij1",
-        "nzft7fmMie5Y/zTn2aesNEfFrG5Vrg==",
-        "nDn86/SAguQMxGbN2aXrBQ==",
-        "nDnxudSDk+UWwimm47v5BFg=",
-        "mzft9vuZiKoqyjby37n/",
-        "miz+8bWnhvAC",
-        "mDns8fyDgP4XxWbR2bHtBE/X"
-      ],
+      "answer_count": 30,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1538,5 +1240,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
