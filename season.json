@@ -151,56 +151,69 @@
       "standings": [
         {
           "user_id": "795847206719717386",
-          "points": 234,
-          "correct": 138
+          "points": 273,
+          "correct": 155
         },
         {
           "user_id": "734768348201615400",
-          "points": 158,
-          "correct": 82
+          "points": 198,
+          "correct": 103
         },
         {
           "user_id": "433990857063137282",
-          "points": 92,
-          "correct": 53
+          "points": 97,
+          "correct": 55
+        },
+        {
+          "user_id": "794420965387403265",
+          "points": 18,
+          "correct": 11
         },
         {
           "user_id": "184456115927384065",
-          "points": 5,
-          "correct": 4
+          "points": 12,
+          "correct": 6
         }
       ],
       "pass": [
         {
           "user_id": "433990857063137282",
-          "xp": 2162,
+          "xp": 2602,
           "level": 2,
-          "xp_into_level": 292,
+          "xp_into_level": 732,
           "xp_for_level": 1040,
           "completed": false
         },
         {
           "user_id": "734768348201615400",
-          "xp": 1100,
+          "xp": 1650,
           "level": 1,
-          "xp_into_level": 200,
+          "xp_into_level": 750,
           "xp_for_level": 970,
           "completed": false
         },
         {
           "user_id": "795847206719717386",
-          "xp": 1100,
+          "xp": 1650,
           "level": 1,
-          "xp_into_level": 200,
+          "xp_into_level": 750,
           "xp_for_level": 970,
           "completed": false
         },
         {
           "user_id": "184456115927384065",
-          "xp": 983,
+          "xp": 1399,
           "level": 1,
-          "xp_into_level": 83,
+          "xp_into_level": 499,
           "xp_for_level": 970,
+          "completed": false
+        },
+        {
+          "user_id": "794420965387403265",
+          "xp": 550,
+          "level": 0,
+          "xp_into_level": 550,
+          "xp_for_level": 900,
           "completed": false
         }
       ],
