@@ -151,8 +151,8 @@
       "standings": [
         {
           "user_id": "795847206719717386",
-          "points": 94,
-          "correct": 55
+          "points": 128,
+          "correct": 71
         },
         {
           "user_id": "433990857063137282",
@@ -161,8 +161,8 @@
         },
         {
           "user_id": "734768348201615400",
-          "points": 40,
-          "correct": 16
+          "points": 60,
+          "correct": 27
         },
         {
           "user_id": "184456115927384065",
@@ -173,10 +173,10 @@
       "pass": [
         {
           "user_id": "433990857063137282",
-          "xp": 1062,
-          "level": 1,
-          "xp_into_level": 162,
-          "xp_for_level": 970,
+          "xp": 2162,
+          "level": 2,
+          "xp_into_level": 292,
+          "xp_for_level": 1040,
           "completed": false
         },
         {
@@ -205,25 +205,25 @@
         }
       ],
       "elo": {
-        "ranked": [],
-        "unranked": [
-          {
-            "user_id": "184456115927384065",
-            "rating": 1017,
-            "wins": 1,
-            "losses": 0,
-            "streak": 1,
-            "peak": 1017
-          },
+        "ranked": [
           {
             "user_id": "433990857063137282",
-            "rating": 983,
-            "wins": 0,
+            "rating": 1006,
+            "wins": 2,
             "losses": 1,
-            "streak": -1,
-            "peak": 1000
+            "streak": 2,
+            "peak": 1006
+          },
+          {
+            "user_id": "184456115927384065",
+            "rating": 994,
+            "wins": 1,
+            "losses": 2,
+            "streak": -2,
+            "peak": 1017
           }
-        ]
+        ],
+        "unranked": []
       },
       "winners": [],
       "elo_winners": []
