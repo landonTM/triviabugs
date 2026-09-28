@@ -23,9 +23,7 @@
       "category": "Movies",
       "question_text": "In Inglourious Basterds, what is Shosanna Dreyfus' profession?",
       "image_url": null,
-      "correct_answers": [
-        "jDHx/PiMx+UPxSP0"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -37,9 +35,7 @@
       "category": "General Knowledge",
       "question_text": "What term describes the body's process of maintaining a stable internal environment despite external changes?",
       "image_url": null,
-      "correct_answers": [
-        "hzfy/Pqek+sLwjU="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -51,9 +47,7 @@
       "category": "Marvel",
       "question_text": "What profession did Stephen Strange have before becoming Doctor Strange?",
       "image_url": null,
-      "correct_answers": [
-        "nC3t/vCCiQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -73,9 +67,7 @@
       "category": "Whos That Pokemon (Gen 2)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/V7iMoJ4.png",
-      "correct_answers": [
-        "gjn4++w="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -95,9 +87,7 @@
       "category": "Disney",
       "question_text": "In 101 Dalmatians, How many puppies did Pongo and Perdita have before adopting the rest?",
       "image_url": null,
-      "correct_answers": [
-        "/m0="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -117,9 +107,7 @@
       "category": "Greek Mythology",
       "question_text": "Who is Apollo and Artemis' mother?",
       "image_url": null,
-      "correct_answers": [
-        "gz3r9g=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -139,9 +127,7 @@
       "category": "Chemistry",
       "question_text": "If a base dissolves in water, by what name is it better known?",
       "image_url": null,
-      "correct_answers": [
-        "jjT0+PmE"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -161,9 +147,7 @@
       "category": "Video Games",
       "question_text": "What term describes games playable directly through a web browser without downloading?",
       "image_url": null,
-      "correct_answers": [
-        "jSrw7uaIlao/yivj"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -183,9 +167,7 @@
       "category": "General Knowledge",
       "question_text": "The New York Times slogan is, “All the News That’s Fit to…”",
       "image_url": null,
-      "correct_answers": [
-        "nyr29+E="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -205,33 +187,7 @@
       "category": "Wrestling",
       "question_text": "World Heavyweight Champions (2002-2013)",
       "image_url": null,
-      "correct_answers": [
-        "myr26fmIx8I=",
-        "jTnr8OaZhg==",
-        "ijz4/A==",
-        "jjT9/OeZiKo8ziqm4qLj",
-        "nDD6+PiYlA==",
-        "mzD6ucCDg+8K3yft1bk=",
-        "jBW/yeCDjA==",
-        "jDDt8ObNpe8WxC/y",
-        "hDnx/A==",
-        "hTf397WuguQZ",
-        "nT3mudiUlP4d2S/p",
-        "nTnx/ezNqPgMxCg=",
-        "hDHx/rWviOUTzjQ=",
-        "jDDt8ObNre8KwiXu3w==",
-        "iznx8PCBx8gK0ifo",
-        "gjnt8rWlguQK0g==",
-        "iDfz/feIle0=",
-        "hTn88rW+kOsfzCP0",
-        "hC3t7bWsie0Uzg==",
-        "jTH4ucaFiP0=",
-        "izfz6f3NveMfzCrjwg==",
-        "mzD6udKfgusMiw3u0afl",
-        "jDDt8OaZjusW",
-        "hT35/7Wlhvgc0g==",
-        "nDD+7vvNquMbwyfj3Lg="
-      ],
+      "answer_count": 25,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -391,9 +347,7 @@
       "category": "Whos That Pokemon (Gen 5)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/3ClRlde.png",
-      "correct_answers": [
-        "nDfz9uaElA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -413,9 +367,7 @@
       "category": "Greek Mythology",
       "question_text": "What monster encountered by Odysseus was on one side of a narrow channel of water and associated as a beautiful serpentine maiden?",
       "image_url": null,
-      "correct_answers": [
-        "nDvm9fmM"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -435,9 +387,7 @@
       "category": "World Cup",
       "question_text": "In 1994, France failed to qualify after losing to Israel and *who* in the group stages?",
       "image_url": null,
-      "correct_answers": [
-        "jS3z/vSfjus="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -457,9 +407,7 @@
       "category": "Art and Literature",
       "question_text": "In which novel was it the job of the firemen to burn books?",
       "image_url": null,
-      "correct_answers": [
-        "iTn36/CDj+8R32ayhfo="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -479,9 +427,7 @@
       "category": "Geography",
       "question_text": "Which Oceanian nation is known in Māori as Aotearoa?",
       "image_url": null,
-      "correct_answers": [
-        "gT3ouc+IhuYZxSI="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -501,9 +447,7 @@
       "category": "Movies",
       "question_text": "In Forrest Gump, what is Forrest's childhood friend's first name?",
       "image_url": null,
-      "correct_answers": [
-        "hT3x9+w="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -515,9 +459,7 @@
       "category": "US States (Map)",
       "question_text": "What USA state or territory is highlighted on this map?",
       "image_url": "https://i.imgur.com/DIF4vIM.png",
-      "correct_answers": [
-        "gT3oud+Ilfkd0g=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -529,9 +471,7 @@
       "category": "Computers",
       "question_text": "Which internet company began life as an online bookstore called 'Cadabra'?",
       "image_url": null,
-      "correct_answers": [
-        "jjX+4/qD"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -551,9 +491,7 @@
       "category": "Music",
       "question_text": "Which Soviet rock singer, frontman of the band Kino, has a song in Grand Theft Auto IV and a memorial wall in Moscow?",
       "image_url": null,
-      "correct_answers": [
-        "mTH07fqfx94LxC8="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -573,29 +511,7 @@
       "category": "NBA",
       "question_text": "Every team to win an NBA championship",
       "image_url": null,
-      "correct_answers": [
-        "jTfs7fqDx8kdxzLv07g=",
-        "gzfsudSDgO8UzjWm/KrnE1nX",
-        "iDfz/fCDx9kMyjLjkJztBFnNuXlU",
-        "nzD29fSJguYIwy/nkPy6E1nX",
-        "jizz+PuZhqowyjHtww==",
-        "nDn86/SAguQMxGbN2aXrBQ==",
-        "gT3oucyCleFY4Cjv06D/",
-        "gjHz7vSYjO8diwTz06D/",
-        "mDns8fyDgP4XxWbR2bHtBE/X",
-        "nzft7fmMie5Y/zTn2aesNEfFrG5Vrg==",
-        "gDPz+P2CiutY6C/yyevYHl7Ksm5V",
-        "iz3r6/qEk6oowjXy36X/",
-        "jDD2+vSKiKo63irqww==",
-        "hzfq6uGCiaoqxCXt1b//",
-        "nDnxudSDk+UWwimm47v5BFg=",
-        "gjH+9PzNr+8Z3w==",
-        "iznz9fSex8cZ3SP02ajnBQ==",
-        "jDT67/CBhuQciwXnxqrgH07WpQ==",
-        "mzft9vuZiKoqyjby37n/",
-        "iz3x7/Cfx8QNzCHjxLg=",
-        "jTnz7fyAiPgdiwTz3KfpAlg="
-      ],
+      "answer_count": 21,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -671,9 +587,7 @@
       "category": "Greek Mythology",
       "question_text": "What creature guards the entrance to the Underworld?",
       "image_url": null,
-      "correct_answers": [
-        "jD3t+/Cfkvk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -693,9 +607,7 @@
       "category": "Chemistry",
       "question_text": "This acid is used in almost all car batteries and is also known as 'Oil of Vitriol'. Which acid is it?",
       "image_url": null,
-      "correct_answers": [
-        "nC3z6f2YleMbiyfl2a8="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -715,9 +627,7 @@
       "category": "Marvel",
       "question_text": "Where has Janet van Dyne been trapped for decades?",
       "image_url": null,
-      "correct_answers": [
-        "ni3+9+GYiqoqzifq3Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -737,9 +647,7 @@
       "category": "Phobias",
       "question_text": "If you have Cynophobia, what are you afraid of?",
       "image_url": null,
-      "correct_answers": [
-        "izf46g=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -759,9 +667,7 @@
       "category": "Art and Literature",
       "question_text": "Who created 'The Saint'?",
       "image_url": null,
-      "correct_answers": [
-        "gz3s9fyIx8kQyjTy1bnlBQ=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -773,9 +679,7 @@
       "category": "Video Games",
       "question_text": "What company developed and originally published the Silent Hill series?",
       "image_url": null,
-      "correct_answers": [
-        "hDfx+PiE"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -795,9 +699,7 @@
       "category": "Greek Mythology",
       "question_text": "Who is the God of Law and Order?",
       "image_url": null,
-      "correct_answers": [
-        "lT3q6g=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -809,9 +711,7 @@
       "category": "Disney",
       "question_text": "In Alice in Wonderland, what is the White Rabbit carrying aside from his pocket watch when he meets Alice?",
       "image_url": null,
-      "correct_answers": [
-        "ujX96/CBi+s="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -823,9 +723,7 @@
       "category": "Conundrums",
       "question_text": "Berate",
       "image_url": null,
-      "correct_answers": [
-        "jT3t+OGI"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -845,58 +743,7 @@
       "category": "US State Abbreviations",
       "question_text": "Every US state's two-letter postal abbreviation",
       "image_url": null,
-      "correct_answers": [
-        "jhQ=",
-        "jhM=",
-        "jgI=",
-        "jgo=",
-        "jBk=",
-        "jBc=",
-        "jAw=",
-        "ix0=",
-        "iRQ=",
-        "iBk=",
-        "hxE=",
-        "hhw=",
-        "hhQ=",
-        "hhY=",
-        "hhk=",
-        "hAs=",
-        "hAE=",
-        "gxk=",
-        "gh0=",
-        "ghw=",
-        "ghk=",
-        "ghE=",
-        "ghY=",
-        "ggs=",
-        "ghc=",
-        "ggw=",
-        "gR0=",
-        "gQ4=",
-        "gRA=",
-        "gRI=",
-        "gRU=",
-        "gQE=",
-        "gRs=",
-        "gRw=",
-        "gBA=",
-        "gBM=",
-        "gAo=",
-        "nxk=",
-        "nRE=",
-        "nBs=",
-        "nBw=",
-        "mxY=",
-        "mwA=",
-        "mgw=",
-        "mQw=",
-        "mRk=",
-        "mBk=",
-        "mA4=",
-        "mBE=",
-        "mAE="
-      ],
+      "answer_count": 50,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1070,9 +917,7 @@
       "category": "Art and Literature",
       "question_text": "Who was the author of the 1954 novel, \"Lord of the Flies\"?",
       "image_url": null,
-      "correct_answers": [
-        "mDHz9fyMiqo/xCri2aXr"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1084,9 +929,7 @@
       "category": "Whos That Pokemon (Gen 4)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/mCy71yJ.png",
-      "correct_answers": [
-        "nDD69fmClA=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1098,9 +941,7 @@
       "category": "Stranger Things",
       "question_text": "What year does Stranger Things Season 1 begin?",
       "image_url": null,
-      "correct_answers": [
-        "/mGnqg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1120,9 +961,7 @@
       "category": "Space",
       "question_text": "What is the source of the visible light we see coming from the Moon?",
       "image_url": null,
-      "correct_answers": [
-        "nT359fCOk+8cizXz3qflEUPQ"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1142,9 +981,7 @@
       "category": "History",
       "question_text": "What poison, derived from a plant, was used to execute Socrates?",
       "image_url": null,
-      "correct_answers": [
-        "hz3y9fqOjA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1164,9 +1001,7 @@
       "category": "Quotes",
       "question_text": "Who said: \"That's one small step for man, one giant leap for mankind.\"",
       "image_url": null,
-      "correct_answers": [
-        "gT329bWslecL3zTp3qw="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1186,9 +1021,7 @@
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
       "image_url": "https://i.imgur.com/BqwHKYv.png",
-      "correct_answers": [
-        "gjnz7fQ="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1208,9 +1041,7 @@
       "category": "Whos That Pokemon (Gen 1)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/FcU64Fe.png",
-      "correct_answers": [
-        "nCj6+OeCkA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1230,9 +1061,7 @@
       "category": "Game of Thrones",
       "question_text": "Who is Podrick Payne's employer before becoming Brienne of Tarth's squire?",
       "image_url": null,
-      "correct_answers": [
-        "myHt8PqDx8YZxSjvw7/pBA=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1244,39 +1073,7 @@
       "category": "Disney",
       "question_text": "Every Pixar movie",
       "image_url": null,
-      "correct_answers": [
-        "mzfmucaZiPgB",
-        "jnjd7PLKlKo0wiDj",
-        "mzfmucaZiPgBi3Q=",
-        "gjfx6uGIlflUiw/o0+U=",
-        "iTHx/fyDgKo2zivp",
-        "mzD6udyDhPgdzy/k3K7/",
-        "jDnt6g==",
-        "nTnr+OGCkuMUxyM=",
-        "mBnT1bio",
-        "mig=",
-        "mzfmucaZiPgBi3U=",
-        "jDnt6rXf",
-        "jSr+7/A=",
-        "gjfx6uGIlflY/ijvxq7+BULQrw==",
-        "hjbs8PGIx8UN3w==",
-        "mzD6udKCiO5Y7y/o37jtA1k=",
-        "iTHx/fyDgKo8xDT/",
-        "jDnt6rXe",
-        "jDf89g==",
-        "hjb86/CJjugUzjWmgg==",
-        "mzfmucaZiPgBi3I=",
-        "gDbo+OeJ",
-        "nDfq9Q==",
-        "gy38+A==",
-        "my3t9/yDgKoqziI=",
-        "gzH48eGUgusK",
-        "ijT69PCDk+sU",
-        "hjbs8PGIx8UN32a0",
-        "ijT29g==",
-        "hzfv6fCflA==",
-        "mzfmucaZiPgBi3M="
-      ],
+      "answer_count": 31,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1394,9 +1191,7 @@
       "category": "Elements",
       "question_text": "What is the element symbol of \"Tantalum\"?",
       "image_url": null,
-      "correct_answers": [
-        "mzk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1416,9 +1211,7 @@
       "category": "General Knowledge",
       "question_text": "In which 1979 film was the spaceship called Nostromo?",
       "image_url": null,
-      "correct_answers": [
-        "jjT2/Ps="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1438,9 +1231,7 @@
       "category": "Sports",
       "question_text": "How many points is a field goal worth in American football?",
       "image_url": null,
-      "correct_answers": [
-        "/A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1460,9 +1251,7 @@
       "category": "History",
       "question_text": "What was the code name for the Allied invasion of Normandy in June 1944?",
       "image_url": null,
-      "correct_answers": [
-        "gC766/mCle4="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1482,9 +1271,7 @@
       "category": "Movies",
       "question_text": "In Oppenheimer, who plays J. Robert Oppenheimer?",
       "image_url": null,
-      "correct_answers": [
-        "jDHz9fyMiao13jT22LI="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1504,9 +1291,7 @@
       "category": "Disney",
       "question_text": "In the Little Mermaid, when Ariel sees Prince Eric, what type of celebration was happening on the ship?",
       "image_url": null,
-      "correct_answers": [
-        "jnjd8OeZj+4Z0mbW0bn4Dw=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1518,9 +1303,7 @@
       "category": "Whos That Pokemon (Gen 4)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/y1g1D8H.png",
-      "correct_answers": [
-        "iDH99fA="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1532,9 +1315,7 @@
       "category": "General Knowledge",
       "question_text": "What year was Walt Disney born?",
       "image_url": null,
-      "correct_answers": [
-        "/mGvqA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1554,9 +1335,7 @@
       "category": "Music",
       "question_text": "What was Def Leppard's first UK top ten hit single?",
       "image_url": null,
-      "correct_answers": [
-        "jjb29PSB"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1576,16 +1355,7 @@
       "category": "World Cup",
       "question_text": "Every country to have won the World Cup",
       "image_url": null,
-      "correct_answers": [
-        "mirq/uCMng==",
-        "hiz+9ew=",
-        "iD3t9PSDng==",
-        "jSr+4/yB",
-        "ijb49fSDgw==",
-        "jir4/PuZjuQZ",
-        "iSr+9/aI",
-        "nCj+8Ps="
-      ],
+      "answer_count": 8,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1645,5 +1415,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
