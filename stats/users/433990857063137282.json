@@ -2247,26 +2247,6 @@
     "best_streak": 5,
     "ties": 1
   },
-  "kirkening_crownings": [
-    {
-      "channel_id": "861055530638114839",
-      "message_id": "1547616898009534475",
-      "message_content": null,
-      "crowned_at": "2026-09-10 14:37:02.341951+00:00"
-    },
-    {
-      "channel_id": "867824721511972865",
-      "message_id": "1547659590412271709",
-      "message_content": null,
-      "crowned_at": "2026-09-10 17:26:41.766221+00:00"
-    },
-    {
-      "channel_id": "861055530638114839",
-      "message_id": "1547730148479074425",
-      "message_content": null,
-      "crowned_at": "2026-09-10 22:07:03.328369+00:00"
-    }
-  ],
   "cosmetics": [
     {
       "cosmetic_type": "footer",
@@ -3649,13 +3629,6 @@
       "wins": 1,
       "losses": 2,
       "ties": 0
-    },
-    {
-      "user_id": "1008207363637002290",
-      "played": 1,
-      "wins": 0,
-      "losses": 0,
-      "ties": 1
     }
   ]
 }
