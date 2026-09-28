@@ -24,9 +24,7 @@
       "category": "Music",
       "question_text": "Where does \"Gasolina\" rapper Daddy Yankee originate from?",
       "image_url": null,
-      "correct_answers": [
-        "ny366+GCx9gRyCk="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,8 @@
       "category": "Marvel",
       "question_text": "Who is Matt Murdock's best friend and law partner?",
       "image_url": null,
-      "correct_answers": [
-        "iTf4/uzNqe8U2Cno"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
