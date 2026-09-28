@@ -24,9 +24,7 @@
       "category": "Geography",
       "question_text": "How many countries does Mexico border?",
       "image_url": null,
-      "correct_answers": [
-        "/A=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,8 @@
       "category": "Entertainment",
       "question_text": "The two rival gangs in \"West Side Story\" were the Sharks and the _________.?",
       "image_url": null,
-      "correct_answers": [
-        "hT3r6g=="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
