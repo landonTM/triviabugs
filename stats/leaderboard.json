@@ -20,7 +20,7 @@
         "maxed": false
       },
       "current": {
-        "current_streak": 2,
+        "current_streak": 1,
         "day_streak": 14,
         "last_played": "2026-09-28",
         "duel_streak": 2,
@@ -31,36 +31,36 @@
       },
       "periods": {
         "daily": {
-          "points": 60,
-          "correct": 27,
-          "standard_correct": 12,
-          "insane_finds": 15,
-          "avg_guess_ms": 11099,
+          "points": 106,
+          "correct": 53,
+          "standard_correct": 21,
+          "insane_finds": 32,
+          "avg_guess_ms": 12828,
           "fastest_ms": 3063,
-          "under_5s": 4,
-          "exact_spelling": 21,
-          "spelled": 27,
-          "best_streak": 2,
+          "under_5s": 6,
+          "exact_spelling": 44,
+          "spelled": 53,
+          "best_streak": 4,
           "active_days": 1,
           "games_played": 2,
-          "categories_played": 11,
-          "best_insane_round": 7,
-          "best_game_points": 40,
+          "categories_played": 16,
+          "best_insane_round": 8,
+          "best_game_points": 66,
           "played_daily": 1,
           "played_standard": 1,
           "xp_game": 4288,
           "xp": 4288
         },
         "weekly": {
-          "points": 1339,
-          "correct": 780,
-          "standard_correct": 231,
-          "insane_finds": 549,
-          "avg_guess_ms": 14806,
+          "points": 1385,
+          "correct": 806,
+          "standard_correct": 240,
+          "insane_finds": 566,
+          "avg_guess_ms": 14818,
           "fastest_ms": 2593,
-          "under_5s": 56,
-          "exact_spelling": 669,
-          "spelled": 780,
+          "under_5s": 58,
+          "exact_spelling": 692,
+          "spelled": 806,
           "best_streak": 37,
           "active_days": 8,
           "games_played": 23,
@@ -93,15 +93,15 @@
           "bug_reports": 1
         },
         "monthly": {
-          "points": 5517,
-          "correct": 3079,
-          "standard_correct": 1057,
-          "insane_finds": 2022,
-          "avg_guess_ms": 15467,
+          "points": 5563,
+          "correct": 3105,
+          "standard_correct": 1066,
+          "insane_finds": 2039,
+          "avg_guess_ms": 15464,
           "fastest_ms": 2593,
-          "under_5s": 237,
-          "exact_spelling": 2042,
-          "spelled": 2440,
+          "under_5s": 239,
+          "exact_spelling": 2065,
+          "spelled": 2466,
           "best_streak": 37,
           "active_days": 27,
           "games_played": 23,
@@ -135,15 +135,15 @@
           "bugs_fixed": 4
         },
         "yearly": {
-          "points": 5716,
-          "correct": 3222,
-          "standard_correct": 1087,
-          "insane_finds": 2135,
-          "avg_guess_ms": 15608,
+          "points": 5762,
+          "correct": 3248,
+          "standard_correct": 1096,
+          "insane_finds": 2152,
+          "avg_guess_ms": 15604,
           "fastest_ms": 2593,
-          "under_5s": 238,
-          "exact_spelling": 2042,
-          "spelled": 2440,
+          "under_5s": 240,
+          "exact_spelling": 2065,
+          "spelled": 2466,
           "best_streak": 37,
           "active_days": 30,
           "games_played": 23,
@@ -177,15 +177,15 @@
           "bugs_fixed": 4
         },
         "alltime": {
-          "points": 5716,
-          "correct": 3222,
-          "standard_correct": 1087,
-          "insane_finds": 2135,
-          "avg_guess_ms": 15608,
+          "points": 5762,
+          "correct": 3248,
+          "standard_correct": 1096,
+          "insane_finds": 2152,
+          "avg_guess_ms": 15604,
           "fastest_ms": 2593,
-          "under_5s": 238,
-          "exact_spelling": 2042,
-          "spelled": 2440,
+          "under_5s": 240,
+          "exact_spelling": 2065,
+          "spelled": 2466,
           "best_streak": 37,
           "active_days": 30,
           "games_played": 55,
@@ -221,33 +221,49 @@
       },
       "categories": {
         "daily": {
+          "Acronyms and Abbreviations": [
+            1,
+            1
+          ],
           "Chemistry": [
             1,
             4
           ],
-          "General Knowledge": [
-            8,
-            8
-          ],
-          "Music": [
-            3,
-            12
-          ],
-          "NBA": [
+          "Entertainment": [
             1,
             4
+          ],
+          "Family Guy": [
+            1,
+            2
+          ],
+          "General Knowledge": [
+            15,
+            21
+          ],
+          "Music": [
+            4,
+            16
+          ],
+          "NBA": [
+            2,
+            8
           ],
           "Quotes": [
             1,
             4
+          ],
+          "Slogans": [
+            1,
+            2
           ],
           "Sports": [
             1,
             4
           ],
           "US State Abbreviations": [
-            1,
-            4
+            9,
+            12
           ],
           "Video Games": [
             1,
@@ -264,6 +280,10 @@
           "World Map": [
             1,
             4
+          ],
+          "Wrestling": [
+            5,
+            8
           ]
         },
         "weekly": {
@@ -280,8 +300,8 @@
             1
           ],
           "US State Abbreviations": [
-            24,
-            27
+            32,
+            35
           ],
           "Stranger Things": [
             2,
@@ -300,8 +320,8 @@
             2
           ],
           "Family Guy": [
-            1,
-            1
+            2,
+            3
           ],
           "World Map": [
             3,
@@ -340,16 +360,16 @@
             8
           ],
           "NBA": [
-            29,
-            43
+            30,
+            47
           ],
           "Elements": [
             5,
             18
           ],
           "Music": [
-            19,
-            40
+            20,
+            44
           ],
           "Quotes": [
             2,
@@ -368,8 +388,8 @@
             4
           ],
           "Entertainment": [
-            7,
-            24
+            8,
+            28
           ],
           "Greek Mythology": [
             2,
@@ -380,16 +400,16 @@
             180
           ],
           "General Knowledge": [
-            91,
-            121
+            98,
+            134
           ],
           "World Cup": [
             14,
             21
           ],
           "Wrestling": [
-            248,
-            361
+            253,
+            369
           ],
           "Whos That Pokemon (Gen 2)": [
             1,
@@ -408,8 +428,8 @@
             9
           ],
           "Acronyms and Abbreviations": [
-            13,
-            20
+            14,
+            21
           ],
           "World Flags": [
             9,
@@ -420,8 +440,8 @@
             1
           ],
           "Slogans": [
-            2,
-            6
+            3,
+            8
           ]
         },
         "monthly": {
@@ -446,8 +466,8 @@
             1
           ],
           "US State Abbreviations": [
-            70,
-            116
+            78,
+            124
           ],
           "US States (Map)": [
             10,
@@ -474,8 +494,8 @@
             11
           ],
           "Family Guy": [
-            18,
-            18
+            19,
+            20
           ],
           "World Map": [
             41,
@@ -514,16 +534,16 @@
             8
           ],
           "NBA": [
-            94,
-            169
+            95,
+            173
           ],
           "Elements": [
             6,
             22
           ],
           "Music": [
-            105,
-            184
+            106,
+            188
           ],
           "Quotes": [
             3,
@@ -542,8 +562,8 @@
             208
           ],
           "Entertainment": [
-            58,
-            157
+            59,
+            161
           ],
           "Greek Mythology": [
             21,
@@ -562,16 +582,16 @@
             655
           ],
           "General Knowledge": [
-            460,
-            704
+            467,
+            717
           ],
           "World Cup": [
             73,
             90
           ],
           "Wrestling": [
-            688,
-            1052
+            693,
+            1060
           ],
           "Whos That Pokemon (Gen 2)": [
             1,
@@ -594,8 +614,8 @@
             71
           ],
           "Acronyms and Abbreviations": [
-            28,
-            50
+            29,
+            51
           ],
           "MLB": [
             27,
@@ -618,8 +638,8 @@
             1
           ],
           "Slogans": [
-            21,
-            57
+            22,
+            59
           ]
         },
         "yearly": {
@@ -644,8 +664,8 @@
             1
           ],
           "US State Abbreviations": [
-            70,
-            116
+            78,
+            124
           ],
           "US States (Map)": [
             10,
@@ -672,8 +692,8 @@
             12
           ],
           "Family Guy": [
-            18,
-            18
+            19,
+            20
           ],
           "World Map": [
             42,
@@ -712,16 +732,16 @@
             10
           ],
           "NBA": [
-            109,
-            184
+            110,
+            188
           ],
           "Elements": [
             9,
             34
           ],
           "Music": [
-            105,
-            184
+            106,
+            188
           ],
           "Quotes": [
             3,
@@ -740,8 +760,8 @@
             208
           ],
           "Entertainment": [
-            65,
-            175
+            66,
+            179
           ],
           "Greek Mythology": [
             21,
@@ -760,16 +780,16 @@
             655
           ],
           "General Knowledge": [
-            461,
-            706
+            468,
+            719
           ],
           "World Cup": [
             75,
             92
           ],
           "Wrestling": [
-            744,
-            1108
+            749,
+            1116
           ],
           "Whos That Pokemon (Gen 2)": [
             1,
@@ -792,8 +812,8 @@
             71
           ],
           "Acronyms and Abbreviations": [
-            28,
-            50
+            29,
+            51
           ],
           "MLB": [
             42,
@@ -816,8 +836,8 @@
             2
           ],
           "Slogans": [
-            21,
-            57
+            22,
+            59
           ]
         },
         "alltime": {
@@ -842,8 +862,8 @@
             1
           ],
           "US State Abbreviations": [
-            70,
-            116
+            78,
+            124
           ],
           "US States (Map)": [
             10,
@@ -870,8 +890,8 @@
             12
           ],
           "Family Guy": [
-            18,
-            18
+            19,
+            20
           ],
           "World Map": [
             42,
@@ -910,16 +930,16 @@
             10
           ],
           "NBA": [
-            109,
-            184
+            110,
+            188
           ],
           "Elements": [
             9,
             34
           ],
           "Music": [
-            105,
-            184
+            106,
+            188
           ],
           "Quotes": [
             3,
@@ -938,8 +958,8 @@
             208
           ],
           "Entertainment": [
-            65,
-            175
+            66,
+            179
           ],
           "Greek Mythology": [
             21,
@@ -958,16 +978,16 @@
             655
           ],
           "General Knowledge": [
-            461,
-            706
+            468,
+            719
           ],
           "World Cup": [
             75,
             92
           ],
           "Wrestling": [
-            744,
-            1108
+            749,
+            1116
           ],
           "Whos That Pokemon (Gen 2)": [
             1,
@@ -990,8 +1010,8 @@
             71
           ],
           "Acronyms and Abbreviations": [
-            28,
-            50
+            29,
+            51
           ],
           "MLB": [
             42,
@@ -1014,8 +1034,8 @@
             2
           ],
           "Slogans": [
-            21,
-            57
+            22,
+            59
           ]
         }
       }
@@ -1962,7 +1982,7 @@
         "maxed": false
       },
       "current": {
-        "current_streak": 2,
+        "current_streak": 1,
         "day_streak": 3,
         "last_played": "2026-09-28",
         "duel_streak": 2,
@@ -1973,20 +1993,20 @@
       },
       "periods": {
         "daily": {
-          "points": 128,
-          "correct": 71,
-          "standard_correct": 27,
-          "insane_finds": 44,
-          "avg_guess_ms": 20354,
-          "fastest_ms": 4841,
-          "under_5s": 2,
-          "exact_spelling": 62,
-          "spelled": 71,
+          "points": 184,
+          "correct": 111,
+          "standard_correct": 38,
+          "insane_finds": 73,
+          "avg_guess_ms": 22008,
+          "fastest_ms": 3004,
+          "under_5s": 3,
+          "exact_spelling": 100,
+          "spelled": 111,
           "best_streak": 5,
           "active_days": 1,
           "games_played": 2,
-          "categories_played": 21,
-          "best_insane_round": 13,
+          "categories_played": 26,
+          "best_insane_round": 23,
           "best_game_points": 94,
           "games_started": 1,
           "played_daily": 1,
@@ -1997,19 +2017,19 @@
           "xp": 5830
         },
         "weekly": {
-          "points": 652,
-          "correct": 379,
-          "standard_correct": 132,
-          "insane_finds": 247,
-          "avg_guess_ms": 20522,
+          "points": 708,
+          "correct": 419,
+          "standard_correct": 143,
+          "insane_finds": 276,
+          "avg_guess_ms": 20949,
           "fastest_ms": 2686,
-          "under_5s": 24,
-          "exact_spelling": 340,
-          "spelled": 379,
+          "under_5s": 25,
+          "exact_spelling": 378,
+          "spelled": 419,
           "best_streak": 17,
           "active_days": 7,
           "games_played": 15,
-          "categories_played": 40,
+          "categories_played": 41,
           "best_insane_round": 30,
           "best_game_points": 95,
           "games_started": 5,
@@ -2035,15 +2055,15 @@
           "achievements": 17
         },
         "monthly": {
-          "points": 6030,
-          "correct": 3455,
-          "standard_correct": 1318,
-          "insane_finds": 2137,
-          "avg_guess_ms": 20010,
+          "points": 6086,
+          "correct": 3495,
+          "standard_correct": 1329,
+          "insane_finds": 2166,
+          "avg_guess_ms": 20060,
           "fastest_ms": 2525,
-          "under_5s": 205,
-          "exact_spelling": 2540,
-          "spelled": 2915,
+          "under_5s": 206,
+          "exact_spelling": 2578,
+          "spelled": 2955,
           "best_streak": 22,
           "active_days": 26,
           "games_played": 15,
@@ -2075,15 +2095,15 @@
           "bugs_fixed": 4
         },
         "yearly": {
-          "points": 6136,
-          "correct": 3514,
-          "standard_correct": 1354,
-          "insane_finds": 2160,
-          "avg_guess_ms": 20224,
+          "points": 6192,
+          "correct": 3554,
+          "standard_correct": 1365,
+          "insane_finds": 2189,
+          "avg_guess_ms": 20271,
           "fastest_ms": 2525,
-          "under_5s": 206,
-          "exact_spelling": 2540,
-          "spelled": 2915,
+          "under_5s": 207,
+          "exact_spelling": 2578,
+          "spelled": 2955,
           "best_streak": 22,
           "active_days": 28,
           "games_played": 15,
@@ -2115,15 +2135,15 @@
           "bugs_fixed": 4
         },
         "alltime": {
-          "points": 6136,
-          "correct": 3514,
-          "standard_correct": 1354,
-          "insane_finds": 2160,
-          "avg_guess_ms": 20224,
+          "points": 6192,
+          "correct": 3554,
+          "standard_correct": 1365,
+          "insane_finds": 2189,
+          "avg_guess_ms": 20271,
           "fastest_ms": 2525,
-          "under_5s": 206,
-          "exact_spelling": 2540,
-          "spelled": 2915,
+          "under_5s": 207,
+          "exact_spelling": 2578,
+          "spelled": 2955,
           "best_streak": 22,
           "active_days": 28,
           "games_played": 57,
@@ -2174,20 +2194,20 @@
             6
           ],
           "Entertainment": [
-            1,
-            2
+            2,
+            4
           ],
           "General Knowledge": [
-            16,
-            20
+            23,
+            27
           ],
           "Geography": [
-            2,
-            8
+            3,
+            9
           ],
           "Harry Potter": [
-            1,
-            4
+            2,
+            6
           ],
           "History": [
             1,
@@ -2213,13 +2233,29 @@
             7,
             7
           ],
+          "Sports": [
+            1,
+            2
+          ],
           "Star Wars": [
             1,
             4
           ],
+          "Stranger Things": [
+            2,
+            6
+          ],
           "The Simpsons": [
             2,
             6
+          ],
+          "US State Abbreviations": [
+            23,
+            23
+          ],
+          "Video Games": [
+            2,
+            5
           ],
           "Whos That Pokemon (Gen 1)": [
             3,
@@ -2233,19 +2269,23 @@
             1,
             4
           ],
+          "World Capitals": [
+            1,
+            4
+          ],
           "World Cup": [
             7,
             8
           ],
           "Wrestling": [
-            18,
-            21
+            19,
+            25
           ]
         },
         "weekly": {
           "Video Games": [
-            16,
-            19
+            18,
+            24
           ],
           "Whos That Pokemon (Gen 6)": [
             1,
@@ -2264,8 +2304,8 @@
             34
           ],
           "General Knowledge": [
-            56,
-            69
+            63,
+            76
           ],
           "Whos That Pokemon (Gen 5)": [
             2,
@@ -2284,8 +2324,8 @@
             6
           ],
           "Stranger Things": [
-            1,
-            4
+            3,
+            10
           ],
           "Whos That Pokemon (Gen 2)": [
             2,
@@ -2312,16 +2352,16 @@
             7
           ],
           "Entertainment": [
-            7,
-            15
+            8,
+            17
           ],
           "Greek Mythology": [
             2,
             3
           ],
           "US State Abbreviations": [
-            1,
-            4
+            24,
+            27
           ],
           "World Flags": [
             1,
@@ -2332,8 +2372,8 @@
             23
           ],
           "Harry Potter": [
-            11,
-            20
+            12,
+            22
           ],
           "Whos That Pokemon (Gen 4)": [
             1,
@@ -2372,12 +2412,12 @@
             3
           ],
           "Sports": [
-            8,
-            14
+            9,
+            16
           ],
           "Wrestling": [
-            51,
-            67
+            52,
+            71
           ],
           "Whos That Pokemon (Gen 3)": [
             1,
@@ -2391,13 +2431,17 @@
             2,
             12
           ],
+          "World Capitals": [
+            1,
+            4
+          ],
           "House of the Dragon": [
             10,
             52
           ],
           "Geography": [
-            55,
-            68
+            56,
+            69
           ],
           "A Knight of the Seven Kingdoms": [
             1,
@@ -2406,8 +2450,8 @@
         },
         "monthly": {
           "Video Games": [
-            226,
-            357
+            228,
+            362
           ],
           "Whos That Pokemon (Gen 6)": [
             1,
@@ -2430,8 +2474,8 @@
             87
           ],
           "General Knowledge": [
-            457,
-            657
+            464,
+            664
           ],
           "Whos That Pokemon (Gen 5)": [
             4,
@@ -2450,8 +2494,8 @@
             44
           ],
           "Stranger Things": [
-            15,
-            50
+            17,
+            56
           ],
           "Family Guy": [
             7,
@@ -2490,16 +2534,16 @@
             31
           ],
           "Entertainment": [
-            96,
-            210
+            97,
+            212
           ],
           "Greek Mythology": [
             14,
             16
           ],
           "US State Abbreviations": [
-            37,
-            70
+            60,
+            93
           ],
           "World Flags": [
             25,
@@ -2510,8 +2554,8 @@
             134
           ],
           "Harry Potter": [
-            153,
-            348
+            154,
+            350
           ],
           "Whos That Pokemon (Gen 4)": [
             2,
@@ -2562,12 +2606,12 @@
             13
           ],
           "Sports": [
-            67,
-            173
+            68,
+            175
           ],
           "Wrestling": [
-            563,
-            786
+            564,
+            790
           ],
           "Whos That Pokemon (Gen 3)": [
             5,
@@ -2586,16 +2630,16 @@
             70
           ],
           "World Capitals": [
-            23,
-            66
+            24,
+            70
           ],
           "House of the Dragon": [
             74,
             279
           ],
           "Geography": [
-            421,
-            487
+            422,
+            488
           ],
           "A Knight of the Seven Kingdoms": [
             6,
@@ -2604,8 +2648,8 @@
         },
         "yearly": {
           "Video Games": [
-            226,
-            357
+            228,
+            362
           ],
           "Whos That Pokemon (Gen 6)": [
             1,
@@ -2628,8 +2672,8 @@
             91
           ],
           "General Knowledge": [
-            457,
-            657
+            464,
+            664
           ],
           "Whos That Pokemon (Gen 5)": [
             4,
@@ -2648,8 +2692,8 @@
             44
           ],
           "Stranger Things": [
-            15,
-            50
+            17,
+            56
           ],
           "Family Guy": [
             7,
@@ -2688,16 +2732,16 @@
             31
           ],
           "Entertainment": [
-            101,
-            216
+            102,
+            218
           ],
           "Greek Mythology": [
             14,
             16
           ],
           "US State Abbreviations": [
-            37,
-            70
+            60,
+            93
           ],
           "World Flags": [
             25,
@@ -2708,8 +2752,8 @@
             134
           ],
           "Harry Potter": [
-            153,
-            348
+            154,
+            350
           ],
           "Whos That Pokemon (Gen 4)": [
             3,
@@ -2760,12 +2804,12 @@
             15
           ],
           "Sports": [
-            67,
-            173
+            68,
+            175
           ],
           "Wrestling": [
-            567,
-            802
+            568,
+            806
           ],
           "Whos That Pokemon (Gen 3)": [
             5,
@@ -2784,16 +2828,16 @@
             70
           ],
           "World Capitals": [
-            23,
-            66
+            24,
+            70
           ],
           "House of the Dragon": [
             74,
             279
           ],
           "Geography": [
-            429,
-            495
+            430,
+            496
           ],
           "A Knight of the Seven Kingdoms": [
             6,
@@ -2802,8 +2846,8 @@
         },
         "alltime": {
           "Video Games": [
-            226,
-            357
+            228,
+            362
           ],
           "Whos That Pokemon (Gen 6)": [
             1,
@@ -2826,8 +2870,8 @@
             91
           ],
           "General Knowledge": [
-            457,
-            657
+            464,
+            664
           ],
           "Whos That Pokemon (Gen 5)": [
             4,
@@ -2846,8 +2890,8 @@
             44
           ],
           "Stranger Things": [
-            15,
-            50
+            17,
+            56
           ],
           "Family Guy": [
             7,
@@ -2886,16 +2930,16 @@
             31
           ],
           "Entertainment": [
-            101,
-            216
+            102,
+            218
           ],
           "Greek Mythology": [
             14,
             16
           ],
           "US State Abbreviations": [
-            37,
-            70
+            60,
+            93
           ],
           "World Flags": [
             25,
@@ -2906,8 +2950,8 @@
             134
           ],
           "Harry Potter": [
-            153,
-            348
+            154,
+            350
           ],
           "Whos That Pokemon (Gen 4)": [
             3,
@@ -2958,12 +3002,12 @@
             15
           ],
           "Sports": [
-            67,
-            173
+            68,
+            175
           ],
           "Wrestling": [
-            567,
-            802
+            568,
+            806
           ],
           "Whos That Pokemon (Gen 3)": [
             5,
@@ -2982,16 +3026,16 @@
             70
           ],
           "World Capitals": [
-            23,
-            66
+            24,
+            70
           ],
           "House of the Dragon": [
             74,
             279
           ],
           "Geography": [
-            429,
-            495
+            430,
+            496
           ],
           "A Knight of the Seven Kingdoms": [
             6,
