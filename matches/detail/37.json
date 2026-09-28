@@ -23,9 +23,7 @@
       "category": "Pokemon",
       "question_text": "What is the lowest level any Pokémon naturally evolves at?",
       "image_url": null,
-      "correct_answers": [
-        "+A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -45,9 +43,7 @@
       "category": "Chemistry",
       "question_text": "Iron is galvanized to prevent rusting and corrosion. Which metal is primarily used for galvanization?",
       "image_url": null,
-      "correct_answers": [
-        "tTHx+g=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -59,9 +55,7 @@
       "category": "Disney",
       "question_text": "\"Higitus Figitus\" is the spellbinding song from what film?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ucaaiPgciy/okL/kEwv3omRJuA=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -73,9 +67,7 @@
       "category": "Music",
       "question_text": "Who performed the hit single 'Call Me' for the 1980 film 'American Gigolo'?",
       "image_url": null,
-      "correct_answers": [
-        "jTTw9/GEgg=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -87,9 +79,7 @@
       "category": "Entertainment",
       "question_text": "Name Donald Duck's girlfriend?",
       "image_url": null,
-      "correct_answers": [
-        "izn26uzNo/8bwA=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -101,9 +91,7 @@
       "category": "Lord of the Rings",
       "question_text": "Which city on the River Gwathlo was ruined and deserted by a great flood in TA 2912, following the Fell Winter?",
       "image_url": null,
-      "correct_answers": [
-        "mzD+6/eMgw=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -115,9 +103,7 @@
       "category": "Harry Potter",
       "question_text": "In the books, who found Harry hidden under his cloak on the train in Half-Blood Prince?",
       "image_url": null,
-      "correct_answers": [
-        "mzfx8uY="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -129,9 +115,7 @@
       "category": "Greek Mythology",
       "question_text": "Who is the Goddess of Wisdom?",
       "image_url": null,
-      "correct_answers": [
-        "jiz3/PuM"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -143,9 +127,7 @@
       "category": "Movies",
       "question_text": "In Dirty Dancing, who plays Baby Houseman?",
       "image_url": null,
-      "correct_answers": [
-        "hT3x9/yLgvhY7DTjyQ=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -157,38 +139,7 @@
       "category": "General Knowledge",
       "question_text": "Name all commonly known fruits",
       "image_url": null,
-      "correct_answers": [
-        "jijv9fA=",
-        "jTnx+PuM",
-        "gCr+9/KI",
-        "iCr+6fA=",
-        "nCzt+OKPgvgK0g==",
-        "jTTq/PeIlfgB",
-        "nTns6feIlfgB",
-        "jTT++v6PgvgK0g==",
-        "mDnr/OeAguYXxQ==",
-        "jDnx7fSBiP8Izg==",
-        "hzfx/OyJgv0=",
-        "nzHx/PSdl+Yd",
-        "gjnx/vo=",
-        "nznv+OyM",
-        "hDHo8A==",
-        "nz3++v0=",
-        "nzTq9A==",
-        "jijt8PaCkw==",
-        "jDD66+eU",
-        "nz3+6w==",
-        "gz3y9vs=",
-        "gzHy/A==",
-        "iCr+6fCLlf8R3w==",
-        "jDf89vuYkw==",
-        "iTH4",
-        "nzfy/PKfhuQZ3yM=",
-        "iC3+7/Q=",
-        "nzns6vyCiao+2TPvxA==",
-        "iyr+/vqDx8wK3i/y",
-        "gyH88fCI"
-      ],
+      "answer_count": 30,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -299,9 +250,7 @@
       "category": "Disney",
       "question_text": "In Bambi, who does Thumper always quote throughout the movie?",
       "image_url": null,
-      "correct_answers": [
-        "hzHsudOMk+Id2Q=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -313,9 +262,7 @@
       "category": "Quotes",
       "question_text": "Who said: \"Facts are stubborn things.\"",
       "image_url": null,
-      "correct_answers": [
-        "hTf397Wsg+sV2A=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -327,9 +274,7 @@
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
       "image_url": "https://i.imgur.com/ZnhOID0.png",
-      "correct_answers": [
-        "gzHr8eCMieMZ"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -349,9 +294,7 @@
       "category": "History",
       "question_text": "What was Manfred von Richthofen's nickname?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6uceIg6o6yjTp3g=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -363,9 +306,7 @@
       "category": "Computers",
       "question_text": "The moment you turn on your computer, it begins to access its memory. BIOS, the software that boots up your computer, is located in which type of memory?",
       "image_url": null,
-      "correct_answers": [
-        "nRfS"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -377,9 +318,7 @@
       "category": "NBA",
       "question_text": "What team selected Julius Erving 12th in the 1972 draft?",
       "image_url": null,
-      "correct_answers": [
-        "gjHz7vSYjO8diwTz06D/"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -391,9 +330,7 @@
       "category": "Greek Mythology",
       "question_text": "Which goddess did Paris choose to give the Apple of Discord to?",
       "image_url": null,
-      "correct_answers": [
-        "jij36/qJjv4d"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -405,9 +342,7 @@
       "category": "Pokemon",
       "question_text": "Who is the leader of Team Rocket?",
       "image_url": null,
-      "correct_answers": [
-        "iDHw7/SDieM="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -419,9 +354,7 @@
       "category": "Art and Literature",
       "question_text": "Which famous book begins with the line 'The mole had been working very hard all the morning, spring-cleaning his little home'?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ucKEie5Y4iim5KPpVnzNumdIqq0="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -441,58 +374,7 @@
       "category": "Geography",
       "question_text": "Name every US state capital",
       "image_url": null,
-      "correct_answers": [
-        "gjfx7fKCiu8K0g==",
-        "hS3x/PSY",
-        "nzDw/PuEnw==",
-        "gzHr7fmIx9gXyC0=",
-        "nDn86/SAguQMxA==",
-        "iz3x7/Cf",
-        "hznt7fOCle4=",
-        "izfp/Oc=",
-        "mznz9fSFhvkLziM=",
-        "jizz+PuZhg==",
-        "hzfx9vmYi/8=",
-        "jTf26vA=",
-        "nCjt8PuKgeMdxyI=",
-        "hjb78PSDhvoXxy/1",
-        "iz3sudiCjuQd2A==",
-        "mzfv/P6M",
-        "iSr+9/6LiPgM",
-        "jTnr9vvNteUNzCM=",
-        "ji347OaZhg==",
-        "jjbx+OWCi+ML",
-        "jTfs7fqD",
-        "gznx6vyDgA==",
-        "nCyxucWMkuY=",
-        "hTn88uaCiQ==",
-        "hT35//CflOUWiwXvxLI=",
-        "hz3z/PuM",
-        "gzHx+vqBiQ==",
-        "jDnt6vqDx8kR3z8=",
-        "jDfx+vqfgw==",
-        "myr69+GCiQ==",
-        "nDnx7fTNoe8=",
-        "jjT9+PuU",
-        "nTnz/PyKjw==",
-        "jTHs9PSfhOE=",
-        "jDfz7PiPkvk=",
-        "gDPz+P2CiutY6C/yyQ==",
-        "nDnz/Pg=",
-        "hznt6/yehf8KzA==",
-        "nyrw7/yJguQbzg==",
-        "jDfz7PiPjus=",
-        "nzH66+eI",
-        "gTns8eOEi+Yd",
-        "ji3s7fyD",
-        "nDnz7bWhhuEdiwXvxLI=",
-        "gjfx7eWIi+Md2Q==",
-        "nTH88fiCie4=",
-        "gDTm9OWEhg==",
-        "jDD+6/mIlP4XxQ==",
-        "gjn78OaCiQ==",
-        "jDD64PCDie8="
-      ],
+      "answer_count": 50,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -568,9 +450,7 @@
       "category": "Entertainment",
       "question_text": "In the film 'American Hot Wax', who played the 'Mookie'?",
       "image_url": null,
-      "correct_answers": [
-        "hTnmudmIieU="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -582,9 +462,7 @@
       "category": "General Knowledge",
       "question_text": "What is the value of pi rounded to two decimal places?",
       "image_url": null,
-      "correct_answers": [
-        "/HaurQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -604,9 +482,7 @@
       "category": "Elements",
       "question_text": "What is the element symbol of \"Hydrogen\"?",
       "image_url": null,
-      "correct_answers": [
-        "hw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -626,9 +502,7 @@
       "category": "Conundrums",
       "question_text": "Toronto",
       "image_url": null,
-      "correct_answers": [
-        "mzft9vuZiA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -648,9 +522,7 @@
       "category": "Video Games",
       "question_text": "Who published the game \"1942\" on the NES?",
       "image_url": null,
-      "correct_answers": [
-        "jDnv+vqA"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -670,7 +542,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -690,9 +562,7 @@
       "category": "Art and Literature",
       "question_text": "What is the traditional Welsh festival of poetry and music called?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udCElP4dzyLg368="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -712,9 +582,7 @@
       "category": "Movies",
       "question_text": "In Casablanca, who is Rick's former lover?",
       "image_url": null,
-      "correct_answers": [
-        "hjTs+LWhkuQc"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -734,9 +602,7 @@
       "category": "Music",
       "question_text": "Which pop group had their first number one in the UK with a cover version of A-Ha's \"Take On Me\"?",
       "image_url": null,
-      "correct_answers": [
-        "jmk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -756,15 +622,7 @@
       "category": "General Knowledge",
       "question_text": "The Seven Deadly Sins",
       "image_url": null,
-      "correct_answers": [
-        "nyr2/fA=",
-        "iCr6/PE=",
-        "mCr+7f0=",
-        "ijbp4A==",
-        "gy3s7Q==",
-        "iDTq7eGCifM=",
-        "nDTw7f0="
-      ],
+      "answer_count": 7,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -819,9 +677,7 @@
       "category": "Quotes",
       "question_text": "Who said: \"The medium is the message.\"",
       "image_url": null,
-      "correct_answers": [
-        "gjnt6v2Mi+ZY5iXKxaPtGA=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -833,9 +689,7 @@
       "category": "Video Games",
       "question_text": "Who is the owner of Lon Lon Ranch in the \"Legend of Zelda\" games?",
       "image_url": null,
-      "correct_answers": [
-        "mznz9vs="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -847,9 +701,7 @@
       "category": "Art and Literature",
       "question_text": "Which doctor wrote The Common Sense Book of Baby and Child Care, first published in 1946?",
       "image_url": null,
-      "correct_answers": [
-        "iyqxucadiOkT"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -869,9 +721,7 @@
       "category": "Disney",
       "question_text": "What country banned the film Snow White for children under 14 for being too scary?",
       "image_url": null,
-      "correct_answers": [
-        "hzfz9fSDgw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -891,9 +741,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Business: B2B",
       "image_url": null,
-      "correct_answers": [
-        "jS3s8PuIlPlY3ymm8r7/H0XBpXg="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -913,9 +761,7 @@
       "category": "Sports",
       "question_text": "The \"Stadium of Light\" is the home stadium of which English football club?",
       "image_url": null,
-      "correct_answers": [
-        "nC3x/fCfi+sWzw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -935,9 +781,7 @@
       "category": "History",
       "question_text": "Who was the President of the United States during the signing of the Gadsden Purchase?",
       "image_url": null,
-      "correct_answers": [
-        "iSr+9/6BjuRY+y/jwqjp"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -949,9 +793,7 @@
       "category": "Whos That Pokemon (Gen 1)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/3FzgA70.png",
-      "correct_answers": [
-        "iCH+6/SJiPk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -971,9 +813,7 @@
       "category": "Video Games",
       "question_text": "There are this many red letter cubes in Perquackey.",
       "image_url": null,
-      "correct_answers": [
-        "/A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -993,19 +833,7 @@
       "category": "Disney",
       "question_text": "Disney's Aladdin characters",
       "image_url": null,
-      "correct_answers": [
-        "jjT+/fGEiQ==",
-        "nyr29/aIlPlY4Sf13aLiEw==",
-        "iD3x8PA=",
-        "hTn5+Oc=",
-        "hjn49g==",
-        "jjrq",
-        "nC3z7fSD",
-        "nTn1+P0=",
-        "nTnl9uCB",
-        "nyr29/aIx8sbwyvj1A==",
-        "gjn48PbNpOsK2yPy"
-      ],
+      "answer_count": 11,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1060,9 +888,7 @@
       "category": "Geography",
       "question_text": "Ouagadougou is the capital of which African country?",
       "image_url": null,
-      "correct_answers": [
-        "jS3t8vyDhqo+yjXp"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1082,7 +908,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1102,9 +928,7 @@
       "category": "Whos That Pokemon (Gen 5)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/rTOGl5K.png",
-      "correct_answers": [
-        "nCzq9/OElOE="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1116,9 +940,7 @@
       "category": "History",
       "question_text": "Where was Napoleon Bonaparte born?",
       "image_url": null,
-      "correct_answers": [
-        "jDft6vyOhg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1138,9 +960,7 @@
       "category": "General Knowledge",
       "question_text": "What Native American language formed the basis of an unbreakable U.S. military code used during World War II?",
       "image_url": null,
-      "correct_answers": [
-        "gTnp+P+C"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1160,9 +980,7 @@
       "category": "Music",
       "question_text": "By what name is Schubert's Symphony No. 8 better known?",
       "image_url": null,
-      "correct_answers": [
-        "mjb58PuElOIdz2bVyab8HkTKrw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1182,9 +1000,7 @@
       "category": "Disney",
       "question_text": "What is the only Disney animated feature film that has a title character who doesn't speak?",
       "image_url": null,
-      "correct_answers": [
-        "iy3y+/o="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1204,9 +1020,7 @@
       "category": "Conundrums",
       "question_text": "Cocoon",
       "image_url": null,
-      "correct_answers": [
-        "jDf89vqD"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1226,9 +1040,7 @@
       "category": "Entertainment",
       "question_text": "Name Jerry Garcia's long lived group?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udKfhv4dzTPqkI/pF08="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1248,11 +1060,7 @@
       "category": "Wrestling",
       "question_text": "AEW Continental Champions",
       "image_url": null,
-      "correct_answers": [
-        "ijz78PDNrOMWzDXy36U=",
-        "hDnl7PaFjuEZiwnt0a/t",
-        "hTfxudiCn+Yd0g=="
-      ],
+      "answer_count": 3,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1277,5 +1085,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
