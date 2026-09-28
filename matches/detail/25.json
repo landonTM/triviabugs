@@ -25,9 +25,7 @@
       "category": "Movies",
       "question_text": "In Superbad, who plays Seth?",
       "image_url": null,
-      "correct_answers": [
-        "hTfx+P3Nr+MUxw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Movies",
       "question_text": "In Jaws, what fictional island is terrorized by the shark?",
       "image_url": null,
-      "correct_answers": [
-        "jjX27ezNrvkUyiji"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -61,9 +57,7 @@
       "category": "Movies",
       "question_text": "In Parasite, what is the poorer family's surname?",
       "image_url": null,
-      "correct_answers": [
-        "hDHy"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -83,9 +77,7 @@
       "category": "Movies",
       "question_text": "Which actor plays the character \"Tommy Jarvis\" in \"Friday the 13th: The Final Chapter\" (1984)?",
       "image_url": null,
-      "correct_answers": [
-        "jDft/OzNoe8Uzyvn3g=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -97,10 +89,9 @@
       "category": "Movies",
       "question_text": "In Casablanca, who is Ilsa's husband?",
       "image_url": null,
-      "correct_answers": [
-        "mTH87fqfx8YZ2Dzq3w=="
-      ],
+      "answer_count": 1,
       "answers": []
     }
-  ]
+  ],
+  "xp": {}
 }
