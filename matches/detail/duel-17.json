@@ -6,7 +6,9 @@
     "challenger_id": "433990857063137282",
     "opponent_id": "734768348201615400",
     "format": 3,
+    "format_label": "Best of 3",
     "winner_id": "734768348201615400",
+    "is_tie": false,
     "challenger_score": 0,
     "opponent_score": 1,
     "decided_by_tiebreaker": false,
@@ -16,13 +18,14 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 734768348201615400,
+      "winner_id": "734768348201615400",
       "response_time_ms": 5829,
       "answered_at": "2026-09-24 22:38:48.348959+00:00",
       "category": "Logos",
       "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/LvN3eec.png",
       "correct_answers": [
-        "Toyota"
+        "mzfm9uGM"
       ]
     },
     {
@@ -33,8 +36,9 @@
       "answered_at": "2026-09-24 22:38:48.348959+00:00",
       "category": "Lord of the Rings",
       "question_text": "Which Vala was the tutor of Gandalf?",
+      "image_url": null,
       "correct_answers": [
-        "Nienna"
+        "gTH69/uM"
       ]
     },
     {
@@ -45,8 +49,9 @@
       "answered_at": "2026-09-24 22:38:48.348959+00:00",
       "category": "Whos That Pokemon (Gen 3)",
       "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/hhoxvpQ.png",
       "correct_answers": [
-        "Makuhita"
+        "gjn07P2Ek+s="
       ]
     }
   ]
