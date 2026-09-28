@@ -1,5 +1,5 @@
 {
-  "user_id": 433990857063137282,
+  "user_id": "433990857063137282",
   "level": {
     "level": 41,
     "xp_into_level": 29319,
@@ -21,8 +21,8 @@
     "alltime_correct": 1804
   },
   "stats_row": {
-    "user_id": 433990857063137282,
-    "guild_id": 861055530638114836,
+    "user_id": "433990857063137282",
+    "guild_id": "861055530638114836",
     "total_points": 2732,
     "questions_right": 755,
     "questions_wrong": 0,
@@ -2242,8 +2242,8 @@
     }
   },
   "duel_stats": {
-    "guild_id": 861055530638114836,
-    "user_id": 433990857063137282,
+    "guild_id": "861055530638114836",
+    "user_id": "433990857063137282",
     "wins": 21,
     "losses": 22,
     "current_streak": 1,
@@ -2252,20 +2252,20 @@
   },
   "kirkening_crownings": [
     {
-      "channel_id": 861055530638114839,
-      "message_id": 1547616898009534475,
+      "channel_id": "861055530638114839",
+      "message_id": "1547616898009534475",
       "message_content": null,
       "crowned_at": "2026-09-10 14:37:02.341951+00:00"
     },
     {
-      "channel_id": 867824721511972865,
-      "message_id": 1547659590412271709,
+      "channel_id": "867824721511972865",
+      "message_id": "1547659590412271709",
       "message_content": null,
       "crowned_at": "2026-09-10 17:26:41.766221+00:00"
     },
     {
-      "channel_id": 861055530638114839,
-      "message_id": 1547730148479074425,
+      "channel_id": "861055530638114839",
+      "message_id": "1547730148479074425",
       "message_content": null,
       "crowned_at": "2026-09-10 22:07:03.328369+00:00"
     }
