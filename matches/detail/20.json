@@ -19,87 +19,104 @@
     {
       "round_id": 4865,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:16:03.462532+00:00",
-      "round_ended_at": "2026-09-26 03:16:27.835192+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:16:03.462532+00:00",
+      "ended_at": "2026-09-26 03:16:27.835192+00:00",
+      "winner_id": "184456115927384065",
       "category": "Art and Literature",
       "question_text": "A French movement pioneered by Picasso and Braque in the early twentieth century. It employs an analytic vision based on fragmentation and multiple viewpoints?",
+      "image_url": null,
       "correct_answers": [
-        "Cubism"
+        "jC398OaA"
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 24357,
-      "exact_match": true,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 03:16:27.830844+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 24357,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 03:16:27.830844+00:00"
+        }
+      ]
     },
     {
       "round_id": 4866,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:16:38.083880+00:00",
-      "round_ended_at": "2026-09-26 03:17:03.599832+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:16:38.083880+00:00",
+      "ended_at": "2026-09-26 03:17:03.599832+00:00",
+      "winner_id": "184456115927384065",
       "category": "Art and Literature",
       "question_text": "Three main types of Greek columns are Doric, Ionic, and __________?",
+      "image_url": null,
       "correct_answers": [
-        "Corinthian"
+        "jDft8PuZj+MZxQ=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 25503,
-      "exact_match": true,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 03:17:03.596525+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 25503,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 03:17:03.596525+00:00"
+        }
+      ]
     },
     {
       "round_id": 4867,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:17:13.842103+00:00",
-      "round_ended_at": "2026-09-26 03:17:39.334624+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:17:13.842103+00:00",
+      "ended_at": "2026-09-26 03:17:39.334624+00:00",
+      "winner_id": "184456115927384065",
       "category": "Art and Literature",
       "question_text": "What Irish playwright and author, wrote \"The Importance of Being Earnest\" and \"The Picture of Dorian Gray\" among others?",
+      "image_url": null,
       "correct_answers": [
-        "Oscar Wilde"
+        "gCv8+OfNsOMUzyM="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 25480,
-      "exact_match": true,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 03:17:39.331268+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 25480,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 03:17:39.331268+00:00"
+        }
+      ]
     },
     {
       "round_id": 4868,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:17:49.731278+00:00",
-      "round_ended_at": "2026-09-26 03:18:35.241018+00:00",
-      "winner_id": 433990857063137282,
+      "started_at": "2026-09-26 03:17:49.731278+00:00",
+      "ended_at": "2026-09-26 03:18:35.241018+00:00",
+      "winner_id": "433990857063137282",
       "category": "Art and Literature",
       "question_text": "Where would you find the Elgin Marbles?",
+      "image_url": null,
       "correct_answers": [
-        "The British Museum"
+        "mzD6udefjv4R2C6m/b7/E17J"
       ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 45495,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:18:35.237506+00:00"
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 45495,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:18:35.237506+00:00"
+        }
+      ]
     },
     {
       "round_id": 4869,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:18:45.485590+00:00",
-      "round_ended_at": "2026-09-26 03:19:45.731099+00:00",
+      "started_at": "2026-09-26 03:18:45.485590+00:00",
+      "ended_at": "2026-09-26 03:19:45.731099+00:00",
       "winner_id": null,
       "category": "Art and Literature",
       "question_text": "In what book would you find a Heffalump?",
+      "image_url": null,
       "correct_answers": [
-        "Winnie the Pooh"
+        "mDHx9/yIx/4QzmbW36Tk"
       ],
-      "answerer_id": null,
-      "response_time_ms": null,
-      "exact_match": null,
-      "points_awarded": null,
-      "answered_at": null
+      "answers": []
     }
   ]
 }
