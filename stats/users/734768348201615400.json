@@ -2,38 +2,38 @@
   "user_id": "734768348201615400",
   "level": {
     "level": 42,
-    "xp_into_level": 17221,
+    "xp_into_level": 20274,
     "xp_for_level": 61000,
-    "progress": 0.2823114754098361,
+    "progress": 0.3323606557377049,
     "maxed": false
   },
-  "total_xp": 927721,
+  "total_xp": 930774,
   "period_stats": {
-    "daily_points": 158,
-    "daily_correct": 82,
-    "weekly_points": 1385,
-    "weekly_correct": 801,
-    "monthly_points": 5615,
-    "monthly_correct": 3134,
-    "yearly_points": 5814,
-    "yearly_correct": 3277,
-    "alltime_points": 5814,
-    "alltime_correct": 3277
+    "daily_points": 198,
+    "daily_correct": 103,
+    "weekly_points": 1425,
+    "weekly_correct": 822,
+    "monthly_points": 5655,
+    "monthly_correct": 3155,
+    "yearly_points": 5854,
+    "yearly_correct": 3298,
+    "alltime_points": 5854,
+    "alltime_correct": 3298
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 3643,
-    "questions_right": 1106,
+    "total_points": 3669,
+    "questions_right": 1113,
     "questions_wrong": 0,
-    "wins": 1106,
+    "wins": 1113,
     "current_streak": 1,
     "best_streak": 37,
-    "games_played": 56,
-    "insane_guesses": 1242,
+    "games_played": 57,
+    "insane_guesses": 1256,
     "day_streak": 14,
     "last_played_date": "2026-09-28",
-    "total_xp": 927721,
+    "total_xp": 930774,
     "game_wins": 28,
     "achievement_best_streak": 37
   },
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 1135,
-    "correct": 765
+    "points": 1139,
+    "correct": 766
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2171,
-  "average_guess_ms": 15610.722423146473,
+  "total_insane_correct": 2185,
+  "average_guess_ms": 15580.700808625337,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 30
   },
   "spelling_accuracy": {
-    "exact_count": 2086,
-    "total": 2495
+    "exact_count": 2102,
+    "total": 2516
   },
   "achievements": {
     "catalog": [
@@ -2219,17 +2219,17 @@
     },
     "category_counts": {
       "disney": 33,
-      "entertainment": 8,
-      "geo": 238,
-      "gk": 196,
+      "entertainment": 10,
+      "geo": 240,
+      "gk": 197,
       "got": 0,
       "marvel": 28,
       "movies": 4,
       "music": 21,
       "pokemon": 8,
       "sports": 85,
-      "videogames": 17,
-      "wrestling": 334,
+      "videogames": 19,
+      "wrestling": 335,
       "duelwins": 4,
       "duelstreak": 2
     }
@@ -3615,9 +3615,9 @@
       "label": "Standard Response Theme"
     },
     "embedcolor": {
-      "key": "sunsetorange",
-      "label": "Sunset Orange Embed",
-      "hex": "#F3722C"
+      "key": "periwinkle",
+      "label": "Periwinkle Embed",
+      "hex": "#8093F1"
     },
     "mvp": {
       "key": "deeney",
