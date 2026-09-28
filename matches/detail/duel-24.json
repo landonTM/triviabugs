@@ -24,9 +24,7 @@
       "category": "Computers",
       "question_text": "[Programming Languages]Compiled computer programming language created in 1959 and primarily used in business, finance, and administrative systems.",
       "image_url": null,
-      "correct_answers": [
-        "jBfd1tk="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Entertainment",
       "question_text": "Tinky-Winky, Dipsy, Laa Laa, and Po are known as what?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ucGIi+8M3iTk2a7/"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,8 @@
       "category": "Movies",
       "question_text": "In Mad Max: Fury Road, who is the warrior driving the War Rig?",
       "image_url": null,
-      "correct_answers": [
-        "hjXv/OeMk+UKiwDzwqLjBUo="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
