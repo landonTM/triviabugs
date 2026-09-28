@@ -24,9 +24,7 @@
       "category": "Sports",
       "question_text": "What is the name of the award given annually to the best young player in world soccer under 21?",
       "image_url": null,
-      "correct_answers": [
-        "iDfz/fCDx8gX0g=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Phobias",
       "question_text": "If you have Sophophobia, what are you afraid of?",
       "image_url": null,
-      "correct_answers": [
-        "gz3+6/uEie0="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Video Games",
       "question_text": "What was the code name given to Sonic the Hedgehog 4 during its development?",
       "image_url": null,
-      "correct_answers": [
-        "nyrw8/COk6o2ziPi3K7hGV7Xsw=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
       "image_url": "https://i.imgur.com/nKgkQci.png",
-      "correct_answers": [
-        "nDfq7f3NtP8cyig="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "Chemistry",
       "question_text": "What is the most abundant protein in the human blood plasma?",
       "image_url": null,
-      "correct_answers": [
-        "rjT97PiEiQ=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,9 +79,7 @@
       "category": "General Knowledge",
       "question_text": "How many degrees are in a full circle?",
       "image_url": null,
-      "correct_answers": [
-        "/G6v"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 7,
@@ -102,9 +90,7 @@
       "category": "Music",
       "question_text": "Thom Yorke is the lead singer with which band?",
       "image_url": null,
-      "correct_answers": [
-        "nTn78PqFgusc"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 8,
@@ -115,9 +101,7 @@
       "category": "Sports",
       "question_text": "What is the Italian term for the emblem worn by the reigning Serie A champions the following season?",
       "image_url": null,
-      "correct_answers": [
-        "nDvq/fCZk+U="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 9,
@@ -128,9 +112,7 @@
       "category": "Video Games",
       "question_text": "What artificial intelligence companion frequently assists Master Chief?",
       "image_url": null,
-      "correct_answers": [
-        "jDft7fSDhg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 10,
@@ -141,9 +123,7 @@
       "category": "Art and Literature",
       "question_text": "A painting movement that flourished in France in the 1880s and 1890s in which subject matter was suggested rather than directly presented. It featured decorative, stylized, and evocative images?",
       "image_url": null,
-      "correct_answers": [
-        "nCHy+/qBjvkV"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 11,
@@ -154,9 +134,8 @@
       "category": "General Knowledge",
       "question_text": "What does ET stand for in the 1982 Steven Spielberg film?",
       "image_url": null,
-      "correct_answers": [
-        "iiDr6/SZgvgKzjXywqLtGg=="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
