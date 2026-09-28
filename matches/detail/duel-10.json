@@ -24,9 +24,7 @@
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
       "image_url": "https://i.imgur.com/UJDYieb.png",
-      "correct_answers": [
-        "ji3s7eeEhg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Geography",
       "question_text": "What is the capital of Pakistan?",
       "image_url": null,
-      "correct_answers": [
-        "hivz+PiMhesc"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "General Knowledge",
       "question_text": "Name the only footballer to have played for Liverpool, Everton, Manchester City and Manchester United.",
       "image_url": null,
-      "correct_answers": [
-        "nz3r/OfNpe8Z2SL13K71"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "House of the Dragon",
       "question_text": "What name does Viserys use for Aegon's prophetic dream about the coming darkness?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ucaCie1YxCCm+ajpVkrKsithtKxg"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,8 @@
       "category": "Slogans",
       "question_text": "Best Possible Start",
       "image_url": null,
-      "correct_answers": [
-        "iTHs8fCfytoKwiXj"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
