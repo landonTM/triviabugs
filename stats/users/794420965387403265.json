@@ -41,10 +41,7 @@
   "fastest_guess": {
     "response_time_ms": 2299,
     "question_text": "What is the element symbol of \"Argon\"?",
-    "category": "Elements",
-    "correct_answers": [
-      "jio="
-    ]
+    "category": "Elements"
   },
   "best_category": {
     "category": "General Knowledge",
@@ -3591,6 +3588,22 @@
       "unlock_level": null,
       "unlocked": false,
       "source": null
+    }
+  ],
+  "rivals": [
+    {
+      "user_id": "433990857063137282",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0
+    },
+    {
+      "user_id": "795847206719717386",
+      "played": 1,
+      "wins": 1,
+      "losses": 0,
+      "ties": 0
     }
   ]
 }
