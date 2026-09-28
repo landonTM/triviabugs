@@ -32,9 +32,7 @@
       "category": "Geography",
       "question_text": "In which country is the city of Rio de Janeiro?",
       "image_url": null,
-      "correct_answers": [
-        "jSr+4/yB"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -54,9 +52,7 @@
       "category": "Music",
       "question_text": "How many strings are on a violin?",
       "image_url": null,
-      "correct_answers": [
-        "+w=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -76,9 +72,7 @@
       "category": "Movies",
       "question_text": "In The Exorcist, what is the possessed girl's first name?",
       "image_url": null,
-      "correct_answers": [
-        "nT34+Ps="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -98,9 +92,7 @@
       "category": "History",
       "question_text": "Isabella I of Castile married Ferdinand II of which Iberian kingdom in 1469?",
       "image_url": null,
-      "correct_answers": [
-        "jir+/vqD"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -120,9 +112,7 @@
       "category": "Conundrums",
       "question_text": "Malinger",
       "image_url": null,
-      "correct_answers": [
-        "gjnz8PuKgvg="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -134,9 +124,7 @@
       "category": "Sports",
       "question_text": "How many world records did swimmer Mark Spitz set when he won seven gold medals at the 1972 Olympics?",
       "image_url": null,
-      "correct_answers": [
-        "+A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -156,9 +144,7 @@
       "category": "Geography",
       "question_text": "What is the capital of British Columbia, Canada?",
       "image_url": null,
-      "correct_answers": [
-        "mTH87fqfjus="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -170,9 +156,7 @@
       "category": "Music",
       "question_text": "Which alternative rock band released the critically-acclaimed album \"OK Computer\"?",
       "image_url": null,
-      "correct_answers": [
-        "nTn78PqFgusc"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -192,9 +176,7 @@
       "category": "Movies",
       "question_text": "In Psycho, what is Norman's last name?",
       "image_url": null,
-      "correct_answers": [
-        "jTnr/OY="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -214,15 +196,7 @@
       "category": "Wrestling",
       "question_text": "Every on-screen AJ Lee kiss",
       "image_url": null,
-      "correct_answers": [
-        "nyr29Po=",
-        "hTf397WuguQZ",
-        "hzft9+aaiO0fxyM=",
-        "jBW/yeCDjA==",
-        "hDnx/A==",
-        "iznx8PCBx8gK0ifo",
-        "izfz6f3NveMfzCrjwg=="
-      ],
+      "answer_count": 7,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -284,9 +258,7 @@
       "category": "History",
       "question_text": "Which 11th-century Archbishop of Canterbury is first credited with the ontological argument for the existence of God? (name only)",
       "image_url": null,
-      "correct_answers": [
-        "jjbs/PmA"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -298,9 +270,7 @@
       "category": "Conundrums",
       "question_text": "Almond",
       "image_url": null,
-      "correct_answers": [
-        "jjTy9vuJ"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -320,9 +290,7 @@
       "category": "Geography",
       "question_text": "How many United Nations member states are there in Africa?",
       "image_url": null,
-      "correct_answers": [
-        "+mw="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -342,9 +310,7 @@
       "category": "Music",
       "question_text": "What was the name of No Doubt's hit single which included the line \"Don't tell me 'cause it hurts\"?",
       "image_url": null,
-      "correct_answers": [
-        "izfxvuHNtPodyi0="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -364,7 +330,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -384,9 +350,7 @@
       "category": "Sports",
       "question_text": "Which club is based at the Etihad Stadium?",
       "image_url": null,
-      "correct_answers": [
-        "gjnx+v2IlP4d2WbF2b/1"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -406,9 +370,7 @@
       "category": "History",
       "question_text": "The Doolittle Raid of April 18, 1942 launched from the USS what?",
       "image_url": null,
-      "correct_answers": [
-        "hzft9/CZ"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -428,9 +390,7 @@
       "category": "Conundrums",
       "question_text": "Custodian",
       "image_url": null,
-      "correct_answers": [
-        "jC3s7fqJjusW"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -442,7 +402,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -462,45 +422,7 @@
       "category": "Marvel",
       "question_text": "MCU Films",
       "image_url": null,
-      "correct_answers": [
-        "hirw97WghuQ=",
-        "mzD6udyDhPgdzy/k3K6sPl7IvQ==",
-        "hirw97WghuRYmQ==",
-        "mzDw6w==",
-        "jDnv7fSEiao5xiP02ajtTAvwvm4Hm7d3dBq4kI7Tb9uqKg==",
-        "mzD6udSbguQfzjT1",
-        "hirw97WghuRYmA==",
-        "mzDw66/Ns+IdiwLnwqCsIUTWum8=",
-        "jDnv7fSEiao5xiP02ajtTAvwvm4Hirdrcwvq8avZbdimPe0=",
-        "iC3+6/GEhuQLiyngkL/kEwvjt2dGpac=",
-        "ji769/KIlflCiwfh1evjEAvxun9VsrA=",
-        "jjbrtNiMiQ==",
-        "jDnv7fSEiao5xiP02ajtTAvnv31Osf5SZhw=",
-        "izf87fqfx9kM2Sfo164=",
-        "iC3+6/GEhuQLiyngkL/kEwvjt2dGpaclUQH0/9iE",
-        "nCj2/fCfyscZxXym+KThE0jLu2JJug==",
-        "mzDw66/NtesfxSf036A=",
-        "jTT++v7Nt+sW3y7jwg==",
-        "ji769/KIlflCiw/o1qLiH1/d9lxGrw==",
-        "jjbrtNiMiaoZxSKmxKPpVnzFpXs=",
-        "jDnv7fSEiao1yjTw1ac=",
-        "ji769/KIlflCiwPo1KztG04=",
-        "nCj2/fCfyscZxXym9qr+Vm3WuWYHlbFoYg==",
-        "jTT++v7NsOMcxDE=",
-        "nDD+9/LApOIRiyfo1Ov4Hk6Emm5AuLBhJwH+8YzeZJybPfG5x4SJ7Qs=",
-        "iiz66/uMi/k=",
-        "nCj2/fCfyscZxXym/qSsIUrd9kNIsLs=",
-        "izf87fqfx9kM2Sfo166sH0WEomNC/ZNwaxrxp53EctnvN/m52IyD5B3YNQ==",
-        "mzDw66/Nq+UOzmbn3q+sIkPRuG9Crw==",
-        "jTT++v7Nt+sW3y7jwvGsIUrPt2VDvP5DaBz9p53E",
-        "jjbrtNiMiaoZxSKmxKPpVnzFpXsd/Y9wZgDspJXXb9Wu",
-        "iC3+6/GEhuQLiyngkL/kEwvjt2dGpaclUQH0/9iF",
-        "mzD6udiMlfwdxzU=",
-        "iz3+/eWCiOZYjWbR36f6E1nNuG4=",
-        "jDnv7fSEiao5xiP02ajtTAvmpGpRuP5LYhm4hpfEbdg=",
-        "mzDq9/GIlegXxzL1mg==",
-        "mzD6udOMif4Z2DLv0+vKGV7W7CthtKx2c07LpZ3Gcg=="
-      ],
+      "answer_count": 37,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -583,9 +505,7 @@
       "category": "Movies",
       "question_text": "In Gladiator, who plays Maximus?",
       "image_url": null,
-      "correct_answers": [
-        "nS3s6vCBi6o72Snx1Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -605,9 +525,7 @@
       "category": "Music",
       "question_text": "The lyrics \"There are many things that I would like to say to you, but I don't know how\" come from which 1990s song?",
       "image_url": null,
-      "correct_answers": [
-        "mDfx/fCfkOsUxw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -627,9 +545,7 @@
       "category": "Sports",
       "question_text": "What is a golf score of one over par on a hole called?",
       "image_url": null,
-      "correct_answers": [
-        "jTf4/Ow="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -649,9 +565,7 @@
       "category": "Conundrums",
       "question_text": "Whiteboard",
       "image_url": null,
-      "correct_answers": [
-        "mDD27fCPiOsKzw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -671,9 +585,7 @@
       "category": "Geography",
       "question_text": "What two-word nickname refers to Akihabara's famous electronics district?",
       "image_url": null,
-      "correct_answers": [
-        "ijT6+uGfjulY/ynx3g=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -693,9 +605,7 @@
       "category": "History",
       "question_text": "In what year did Canadian Confederation occur?",
       "image_url": null,
-      "correct_answers": [
-        "/mCprg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -715,9 +625,7 @@
       "category": "Movies",
       "question_text": "Before getting the shotgun, what did the titular hobo in 'Hobo with a Shotgun' want to purchase?",
       "image_url": null,
-      "correct_answers": [
-        "rnjz+OKDiuUPzjQ="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -737,9 +645,7 @@
       "category": "Music",
       "question_text": "What language is the original version of \"Caramelldansen\" sung in?",
       "image_url": null,
-      "correct_answers": [
-        "nC/6/fyejw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -759,9 +665,7 @@
       "category": "Sports",
       "question_text": "_________ Cardinals (NFL)",
       "image_url": null,
-      "correct_answers": [
-        "jir24/qDhg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -781,46 +685,7 @@
       "category": "General Knowledge",
       "question_text": "Parts of the human body",
       "image_url": null,
-      "correct_answers": [
-        "hz3+/Q==",
-        "gT388g==",
-        "nDDw7PmJgvg=",
-        "jiry",
-        "ijT99uI=",
-        "mCr26uE=",
-        "hznx/Q==",
-        "iTHx/vCf",
-        "mzDq9Pc=",
-        "jDD66uE=",
-        "jTn88g==",
-        "nCzw9PSOjw==",
-        "mDn26uE=",
-        "hzHv",
-        "gz34",
-        "hDb6/A==",
-        "jjb09fA=",
-        "iTfw7Q==",
-        "mzf6",
-        "iiH6",
-        "ijnt",
-        "gTfs/A==",
-        "gjfq7f0=",
-        "gzHv6g==",
-        "mz367f0=",
-        "mzfx/uCI",
-        "jDD29w==",
-        "jDD6/P4=",
-        "iTft/P2Ihu4=",
-        "iiH6++eCkA==",
-        "iiH69fSejw==",
-        "hzn26w==",
-        "hz3+6+E=",
-        "gy3x/g==",
-        "jSr+8Ps=",
-        "gzHp/Oc=",
-        "hDH79/CU",
-        "mzDt9vSZ"
-      ],
+      "answer_count": 38,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -938,9 +803,7 @@
       "category": "Conundrums",
       "question_text": "Lament",
       "image_url": null,
-      "correct_answers": [
-        "gzny/PuZ"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -960,9 +823,7 @@
       "category": "Geography",
       "question_text": "What is the primary mountain range in Iran?",
       "image_url": null,
-      "correct_answers": [
-        "lTn46/qex8cX3ijy0aLiBQ=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -974,9 +835,7 @@
       "category": "History",
       "question_text": "The ship that was nearby when the Titanic struck an iceberg in 1912, and was criticized for not coming to her aid, was the SS what?",
       "image_url": null,
-      "correct_answers": [
-        "jDnz8POCleQRyig="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -988,9 +847,7 @@
       "category": "Music",
       "question_text": "Who had a US and UK number 1 hit in 1962 with the instrumental, 'Telstar'?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ucGCleQZzyn1"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1002,9 +859,7 @@
       "category": "Movies",
       "question_text": "What is the name of the dog that played Toto in the 1939 film \"The Wizard of Oz\"?",
       "image_url": null,
-      "correct_answers": [
-        "mz3t6+w="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1024,9 +879,7 @@
       "category": "Geography",
       "question_text": "What is the term for a narrow strip of land connecting two larger land areas?",
       "image_url": null,
-      "correct_answers": [
-        "hivr8fiYlA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1046,9 +899,7 @@
       "category": "Music",
       "question_text": "Who is the lead singer of Bastille?",
       "image_url": null,
-      "correct_answers": [
-        "iznxucaAjv4Q"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1068,9 +919,7 @@
       "category": "History",
       "question_text": "How many piano sonatas did Ludwig van Beethoven write?",
       "image_url": null,
-      "correct_answers": [
-        "/Go="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1090,9 +939,7 @@
       "category": "Sports",
       "question_text": "What French term is believed to be the origin of the modern word 'tennis'?",
       "image_url": null,
-      "correct_answers": [
-        "mz3x/O8="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1104,20 +951,7 @@
       "category": "General Knowledge",
       "question_text": "Poo and Trin Discord Member",
       "image_url": null,
-      "correct_answers": [
-        "nCz67/CDlA==",
-        "gznx/fqD",
-        "mDD26v6Ilfk=",
-        "jTT+/fA=",
-        "gjnt7w==",
-        "iznp8PA=",
-        "nDHz9fyMig==",
-        "jjnt9vs=",
-        "mD3s",
-        "iT3v7fqA",
-        "nD3r8Q==",
-        "gBo="
-      ],
+      "answer_count": 12,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1214,9 +1048,7 @@
       "category": "Movies",
       "question_text": "In Jurassic Park, who directed Jurassic Park?",
       "image_url": null,
-      "correct_answers": [
-        "nCz67/CDx9kIwiPq0q7+EQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1236,9 +1068,7 @@
       "category": "Conundrums",
       "question_text": "Unctuous",
       "image_url": null,
-      "correct_answers": [
-        "mjb87eCCkvk="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1250,9 +1080,7 @@
       "category": "Music",
       "question_text": "From which 1968 film did the band Duran Duran get their name?",
       "image_url": null,
-      "correct_answers": [
-        "jTnt+/SfguYUyg=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1264,9 +1092,7 @@
       "category": "Geography",
       "question_text": "Broome is a town in which state of Australia?",
       "image_url": null,
-      "correct_answers": [
-        "mD3s7fCfiao53jXywqrgH0o="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1286,9 +1112,7 @@
       "category": "History",
       "question_text": "Columbus's first landfall in 1492 is traditionally placed in which present-day island country?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udeMj+sVyjU="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1308,9 +1132,7 @@
       "category": "Sports",
       "question_text": "_________ Raiders (NFL)",
       "image_url": null,
-      "correct_answers": [
-        "gznsucOIgOsL"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1330,9 +1152,7 @@
       "category": "Movies",
       "question_text": "In Alien, what is Ripley's first name?",
       "image_url": null,
-      "correct_answers": [
-        "ijTz/Ps="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1352,9 +1172,7 @@
       "category": "Conundrums",
       "question_text": "Hackneyed",
       "image_url": null,
-      "correct_answers": [
-        "hzn88vuInu8c"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1366,9 +1184,7 @@
       "category": "Music",
       "question_text": "The heavy metal band Black Sabbath hail from which English city?",
       "image_url": null,
-      "correct_answers": [
-        "jTHt9PyDgOIZxg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1388,85 +1204,7 @@
       "category": "Family Guy",
       "question_text": "Family Guy Characters",
       "image_url": null,
-      "correct_answers": [
-        "nz3r/OfNoPgRzSDv3g==",
-        "nCz67vyIx80KwiDg2aU=",
-        "jSr2+PvNoPgRzSDv3g==",
-        "gzf26rWqleMezS/o",
-        "jDDt8ObNoPgRzSDv3g==",
-        "gj34udKfjuwewig=",
-        "jDT67/CBhuQciwT037zi",
-        "iDT69/vNtv8ZzCvvwq4=",
-        "hTf6ucaahuQLxCg=",
-        "mzfyucGYhOEd2Q==",
-        "izH+9/DNtOMVxinoww==",
-        "hTfx+OGFiORY/CPj1A==",
-        "gzft/OGZhqo62Snx3g==",
-        "jTfx9/yIx9kPyij136U=",
-        "nS3v/OeZ",
-        "hD3p8PvNtP0ZxTXp3g==",
-        "jSrq+vA=",
-        "hTn0/LW5kukTzjQ=",
-        "izH49/yLju8cixeokIngF0jPu2pJ",
-        "iDf7",
-        "hT3s7OY=",
-        "jDnt7fCfx9od3DLjwrjvHkbNsn8=",
-        "jTn96rW9gv0MzjT106PhH0/Q",
-        "jjz+9LW6gvkM",
-        "myr2+vyMx94ZwCfo0bzt",
-        "iz3+7f0=",
-        "ii729bWgiOQTzj8=",
-        "hzft+PaI",
-        "hTHyud6Ml+YZxQ==",
-        "gT329bWqiOYcxifo",
-        "jDT67/CBhuQciwT037ziVmHW",
-        "mzD6udKEhuQMiwXu2ajnE0U=",
-        "jDfx9/yIx85f6ivv06Q=",
-        "hTns6fCf",
-        "hTf397W+j+8IwyP01A==",
-        "iSr+9/aElKo/2S/g1qLi",
-        "mzD69fiMx80KwiDg2aU=",
-        "hTf397WlgvgazjTy",
-        "gjft7bWqiOYcxifo",
-        "gi3t8PCBx80XxyLr0aU=",
-        "nD3+9OCex8Yd3S/o1Q==",
-        "gDTz8PDNsOMUxy/n3bg=",
-        "jDnt9vnNsO8L3w==",
-        "iCr6+OaIg6ct22bC1arqVmzRrw==",
-        "jjb4/PmM",
-        "iivr8fCf",
-        "nznr7ew=",
-        "nS3r8bWuiOkQyivjwg==",
-        "gCj2/A==",
-        "hTny/ObNsOMUxy/n3evOGV/QuWZTsrFxb07RmLE=",
-        "hT3s6vA=",
-        "jjS/0fSfleMWzDLp3g==",
-        "hTny/ObNsOUXzzU=",
-        "ijTz/LWljv4UzjQ=",
-        "jDnt9Q==",
-        "hTHz9fyMiaoq3jX11afgW3zNumhIpQ==",
-        "iTfq+PE=",
-        "nXbVtw==",
-        "jDfx6uCIi+s=",
-        "mzfy8P4=",
-        "jT3z9fKMle4d",
-        "nC3s8PDNtP0ZxTXp3g==",
-        "hjz+udGMkeML",
-        "hT3t9viI",
-        "izfx9/TNs/8ayTWr8rnjAUU=",
-        "nTnz9frNs/8ayTU=",
-        "hTfm+vDNrOMWxSP/",
-        "nCz69fmM",
-        "mTHx9+w=",
-        "nTf9/OeZhqos3iTkww==",
-        "gjHs6rW5hucV0g==",
-        "jT3t7Q==",
-        "nDD68PmM",
-        "izfq/g==",
-        "mDHz/bW6gvkM",
-        "nyr66uGCiao0xyn/1A==",
-        "ijTy/OfNr+sK3yvn3g=="
-      ],
+      "answer_count": 77,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1540,5 +1278,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
