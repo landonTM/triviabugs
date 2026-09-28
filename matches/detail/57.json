@@ -1,0 +1,1431 @@
+{
+  "game": {
+    "id": 57,
+    "kind": "game",
+    "mode": "standard",
+    "channel_id": "864342930076860426",
+    "total_rounds": 50,
+    "rounds_played": 50,
+    "categories": [
+      "acronyms and abbreviations",
+      "family guy",
+      "logos",
+      "house of the dragon",
+      "movies",
+      "what links",
+      "stranger things",
+      "the simpsons",
+      "Entertainment",
+      "Game of thrones",
+      "general knowledge",
+      "geography",
+      "harry potter",
+      "music",
+      "nba",
+      "slogans",
+      "sports",
+      "US geography",
+      "US state abbreviations",
+      "US state capitals",
+      "US state flags",
+      "US states (map)",
+      "world capitals",
+      "world flags",
+      "world map",
+      "wrestling",
+      "marvel",
+      "video games",
+      "whos that pokemon (gen 1)",
+      "conundrums"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-09-28 19:41:33.818985+00:00",
+    "ended_at": "2026-09-28 20:30:26.774538+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5443,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:41:34.661462+00:00",
+      "ended_at": "2026-09-28 19:41:39.557841+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Whos That Pokemon (Gen 1)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/XgGhtIu.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4877,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 19:41:39.553400+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5444,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:42:10.478785+00:00",
+      "ended_at": "2026-09-28 19:42:53.668963+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Slogans",
+      "question_text": "Slicing up freshness.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 43174,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:42:53.665820+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5445,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:43:24.519045+00:00",
+      "ended_at": "2026-09-28 19:43:29.637937+00:00",
+      "winner_id": "795847206719717386",
+      "category": "General Knowledge",
+      "question_text": "What's the name of the traditional Japanese art of paper folding?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5103,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 19:43:29.634560+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5446,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:44:00.311212+00:00",
+      "ended_at": "2026-09-28 19:44:28.583332+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Entertainment",
+      "question_text": "In 1981, who won song of the year with 'Sailing'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 28257,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-28 19:44:28.579869+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5447,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:44:59.308531+00:00",
+      "ended_at": "2026-09-28 19:45:20.025573+00:00",
+      "winner_id": "795847206719717386",
+      "category": "The Simpsons",
+      "question_text": "What is the name of Springfield's local college, where Homer briefly returns to earn a degree in the episode 'Homer Goes to College'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 20701,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-28 19:45:20.022086+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5448,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:45:50.667639+00:00",
+      "ended_at": "2026-09-28 19:46:36.240580+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Video Games",
+      "question_text": "In a game of horseshoes, how many feet apart must the stakes be?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 45554,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:46:36.235104+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5449,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:47:06.902547+00:00",
+      "ended_at": "2026-09-28 19:47:10.282183+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/AMccj7Q.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3362,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 19:47:10.278360+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5450,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:47:40.995862+00:00",
+      "ended_at": "2026-09-28 19:48:25.161356+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Movies",
+      "question_text": "In The Shining, what is Jack's son's first name?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 44149,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:48:25.156721+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5451,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:48:55.861334+00:00",
+      "ended_at": "2026-09-28 19:49:13.789114+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Music",
+      "question_text": "Which city was singer Craig David born in?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 17911,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 19:49:13.784633+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5452,
+      "mode": "insane",
+      "started_at": "2026-09-28 19:49:44.109195+00:00",
+      "ended_at": "2026-09-28 19:50:03.778914+00:00",
+      "winner_id": null,
+      "category": "World Cup",
+      "question_text": "Countries that have been in a World Cup final",
+      "image_url": null,
+      "answer_count": 13,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4259,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:49:48.371632+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5057,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:49:49.169974+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5513,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:49:49.625620+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6030,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:49:50.142194+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6826,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:49:50.938332+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 8466,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:49:52.578294+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9007,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:49:53.120073+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 10820,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:49:54.932611+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 11867,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:49:55.980171+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 14966,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:49:59.078854+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 15115,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:49:59.227791+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 16517,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:50:00.629900+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 19662,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:50:03.774569+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5453,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:50:35.013578+00:00",
+      "ended_at": "2026-09-28 19:50:44.078861+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Whos That Pokemon (Gen 1)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/7amMKJd.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9050,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 19:50:44.075403+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5454,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:51:14.681371+00:00",
+      "ended_at": "2026-09-28 19:52:14.967025+00:00",
+      "winner_id": null,
+      "category": "Entertainment",
+      "question_text": "He was the voice of draco the dragon in the movie Dragonheart?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5455,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:52:45.715791+00:00",
+      "ended_at": "2026-09-28 19:53:09.994276+00:00",
+      "winner_id": "795847206719717386",
+      "category": "General Knowledge",
+      "question_text": "Scotch whisky and Drambuie make up which cocktail?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 24260,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-28 19:53:09.989724+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5456,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:53:40.695703+00:00",
+      "ended_at": "2026-09-28 19:54:00.107112+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Geography",
+      "question_text": "What is the only nation that borders both Uruguay and Venezuela?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 19394,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 19:54:00.102592+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5457,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:54:30.912769+00:00",
+      "ended_at": "2026-09-28 19:54:45.837531+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "In what year did Wimbledon introduce a final-set tiebreak, a rule change directly influenced by the marathon 2010 Isner-Mahut match?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 14908,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 19:54:45.832537+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5458,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:55:16.591283+00:00",
+      "ended_at": "2026-09-28 19:55:19.669620+00:00",
+      "winner_id": "734768348201615400",
+      "category": "US State Abbreviations",
+      "question_text": "What state is NV?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3063,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 19:55:19.666367+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5459,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:55:53.143854+00:00",
+      "ended_at": "2026-09-28 19:56:37.773147+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Medical: CT (as in CT scan)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 44612,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:56:37.768670+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5460,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:57:09.065929+00:00",
+      "ended_at": "2026-09-28 19:57:18.237278+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Wrestling",
+      "question_text": "What is Becky Lynch's finishing move called?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9155,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 19:57:18.233847+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5461,
+      "mode": "standard",
+      "started_at": "2026-09-28 19:57:49.105211+00:00",
+      "ended_at": "2026-09-28 19:58:49.446113+00:00",
+      "winner_id": null,
+      "category": "Conundrums",
+      "question_text": "Anachronism",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5462,
+      "mode": "insane",
+      "started_at": "2026-09-28 19:59:19.811116+00:00",
+      "ended_at": "2026-09-28 20:00:20.158617+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "Monopoly Properties (UK)",
+      "image_url": null,
+      "answer_count": 28,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3853,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:59:23.669363+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6051,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:59:25.866966+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 8398,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:59:28.213568+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 11133,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:59:30.949336+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 12876,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:59:32.692315+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 16801,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:59:36.617106+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 24087,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:59:43.903166+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 25492,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:59:45.307709+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 36126,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 19:59:55.941673+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 47934,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:00:07.750054+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 51892,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:00:11.707765+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5463,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:00:51.161028+00:00",
+      "ended_at": "2026-09-28 20:00:54.180946+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Capitals",
+      "question_text": "What is the capital of Egypt?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3004,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 20:00:54.177474+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5464,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:01:25.030043+00:00",
+      "ended_at": "2026-09-28 20:01:48.988852+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Slogans",
+      "question_text": "Save Money. Live Better.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 23942,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-09-28 20:01:48.984783+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5465,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:02:22.369164+00:00",
+      "ended_at": "2026-09-28 20:03:22.916261+00:00",
+      "winner_id": null,
+      "category": "Video Games",
+      "question_text": "What was the Helghast people's original home planet (destroyed in the events before \"Killzone: Shadow Fall\")?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5466,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:03:53.708258+00:00",
+      "ended_at": "2026-09-28 20:04:06.978572+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Entertainment",
+      "question_text": "Who played 'The Scorpion King' in the recent movie 'The Mummy Returns'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 13255,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 20:04:06.975209+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5467,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:04:37.692498+00:00",
+      "ended_at": "2026-09-28 20:05:01.605762+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Stranger Things",
+      "question_text": "Who sacrifices himself to protect Eleven from the Mind Flayer?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 23898,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-28 20:05:01.602359+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5468,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:05:32.333216+00:00",
+      "ended_at": "2026-09-28 20:05:43.671456+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Wrestling",
+      "question_text": "What colorful, catchphrase-driven tag team trio includes Kofi Kingston, Big E, and Xavier Woods?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 11322,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 20:05:43.667917+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5469,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:06:14.387176+00:00",
+      "ended_at": "2026-09-28 20:07:04.777142+00:00",
+      "winner_id": "795847206719717386",
+      "category": "General Knowledge",
+      "question_text": "What does IHOP stand for?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 50372,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:07:04.772764+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5470,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:07:35.542640+00:00",
+      "ended_at": "2026-09-28 20:07:44.947763+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Music",
+      "question_text": "Which country is singer Kyary Pamyu Pamyu from?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9388,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 20:07:44.942355+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5471,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:08:15.647491+00:00",
+      "ended_at": "2026-09-28 20:08:42.779181+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Sports",
+      "question_text": "What is the maximum length, in inches, allowed for a tennis racket under official rules?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 27115,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-28 20:08:42.775259+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5472,
+      "mode": "insane",
+      "started_at": "2026-09-28 20:09:13.313218+00:00",
+      "ended_at": "2026-09-28 20:10:13.570553+00:00",
+      "winner_id": null,
+      "category": "US State Abbreviations",
+      "question_text": "Every US state's two-letter postal abbreviation",
+      "image_url": null,
+      "answer_count": 50,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4701,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:18.016458+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5690,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:19.005528+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6809,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:20.125196+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9286,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:22.601711+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 12232,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:25.548342+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 13583,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:26.899240+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 14473,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:27.788786+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 15924,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:29.239503+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 16943,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:30.258422+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 18959,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:32.274565+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 20237,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:33.552861+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 22086,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:35.401545+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 23497,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:36.812507+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 27607,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:40.922431+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 31599,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:44.914490+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 34784,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:48.099430+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 35315,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:48.631268+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 36642,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:49.957932+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 36849,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:50.165211+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 37894,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:51.210096+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 41943,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:55.259192+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 42092,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:55.407350+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 43115,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:56.431228+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 43197,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:56.512642+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 45256,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:09:58.571512+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 47109,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:10:00.424490+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 48073,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:10:01.388499+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 48502,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:10:01.818243+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 50840,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:10:04.156235+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 57270,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:10:10.585574+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 58959,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:10:12.274440+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5473,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:10:44.504480+00:00",
+      "ended_at": "2026-09-28 20:11:44.719420+00:00",
+      "winner_id": null,
+      "category": "Conundrums",
+      "question_text": "Obstinate",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5474,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:12:15.680604+00:00",
+      "ended_at": "2026-09-28 20:12:52.225915+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Harry Potter",
+      "question_text": "What form does the boggart take in the presence of Seamus Finnigan?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 36528,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-28 20:12:52.221833+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5475,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:13:24.204962+00:00",
+      "ended_at": "2026-09-28 20:13:29.411859+00:00",
+      "winner_id": "734768348201615400",
+      "category": "NBA",
+      "question_text": "How many 3 pointers did Shaq make over his whole career?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5191,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 20:13:29.408296+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5476,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:14:00.216805+00:00",
+      "ended_at": "2026-09-28 20:14:08.824863+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Video Games",
+      "question_text": "What is the title of Elden Ring's 2024 expansion, adding a new realm to explore?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 8593,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 20:14:08.821571+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5477,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:14:39.569762+00:00",
+      "ended_at": "2026-09-28 20:14:43.518059+00:00",
+      "winner_id": "734768348201615400",
+      "category": "General Knowledge",
+      "question_text": "Loch Ness is located in what country?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3933,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 20:14:43.514725+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5478,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:15:14.197593+00:00",
+      "ended_at": "2026-09-28 20:15:37.494995+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Family Guy",
+      "question_text": "In the Family Guy Star Wars parody specials, what character does Brian Griffin play?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 23282,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-28 20:15:37.490891+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5479,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:16:08.279688+00:00",
+      "ended_at": "2026-09-28 20:17:08.701130+00:00",
+      "winner_id": null,
+      "category": "Movies",
+      "question_text": "In Alien, what is the crew's spaceship called?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5480,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:17:39.385693+00:00",
+      "ended_at": "2026-09-28 20:18:39.620557+00:00",
+      "winner_id": null,
+      "category": "Entertainment",
+      "question_text": "In the TV series 'The Fall Guy', who did Lee Majors play?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5481,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:19:13.575538+00:00",
+      "ended_at": "2026-09-28 20:19:21.402551+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Stranger Things",
+      "question_text": "What does Will cough up after returning home?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 7809,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 20:19:21.398399+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5482,
+      "mode": "insane",
+      "started_at": "2026-09-28 20:19:51.618733+00:00",
+      "ended_at": "2026-09-28 20:20:14.230583+00:00",
+      "winner_id": null,
+      "category": "Wrestling",
+      "question_text": "AEW National Champions",
+      "image_url": null,
+      "answer_count": 4,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 10455,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:20:02.076276+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 12287,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:20:03.907932+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 14044,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:20:05.665663+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 22604,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:20:14.225578+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5483,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:20:45.077976+00:00",
+      "ended_at": "2026-09-28 20:21:28.861403+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Video Games",
+      "question_text": "Who must Kratos kill in \"God of War\"?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 43768,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:21:28.857701+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5484,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:21:59.613342+00:00",
+      "ended_at": "2026-09-28 20:22:59.967117+00:00",
+      "winner_id": null,
+      "category": "Slogans",
+      "question_text": "Best Possible Start",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5485,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:23:31.041132+00:00",
+      "ended_at": "2026-09-28 20:24:18.045357+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Geography",
+      "question_text": "Along with Spain and France, what is the other country to have both Atlantic and Mediterranean coastlines?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 46988,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:24:18.040456+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5486,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:24:48.900142+00:00",
+      "ended_at": "2026-09-28 20:24:52.356916+00:00",
+      "winner_id": "734768348201615400",
+      "category": "General Knowledge",
+      "question_text": "How many sides does a decagon have?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3438,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 20:24:52.352324+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5487,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:25:23.116687+00:00",
+      "ended_at": "2026-09-28 20:25:50.486250+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Entertainment",
+      "question_text": "What is Kenny G's real surname?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 27352,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-28 20:25:50.482612+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5488,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:26:21.235159+00:00",
+      "ended_at": "2026-09-28 20:26:37.827587+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Wrestling",
+      "question_text": "What is Paul Bearer's real name?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 16576,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 20:26:37.822835+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5489,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:27:08.650821+00:00",
+      "ended_at": "2026-09-28 20:27:13.614620+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Video Games",
+      "question_text": "What puzzle-platformer series by Valve involves a device that creates two linked portals?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4949,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 20:27:13.611206+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5490,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:27:44.304451+00:00",
+      "ended_at": "2026-09-28 20:28:00.268654+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Business: LLC",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 15950,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 20:28:00.265040+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5491,
+      "mode": "standard",
+      "started_at": "2026-09-28 20:28:30.994793+00:00",
+      "ended_at": "2026-09-28 20:29:05.372838+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Harry Potter",
+      "question_text": "Who is the Head of Hufflepuff?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 34360,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-28 20:29:05.366701+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5492,
+      "mode": "insane",
+      "started_at": "2026-09-28 20:29:35.725345+00:00",
+      "ended_at": "2026-09-28 20:29:56.361970+00:00",
+      "winner_id": null,
+      "category": "World Cup",
+      "question_text": "Every country to have won the World Cup",
+      "image_url": null,
+      "answer_count": 8,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3421,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:29:39.148616+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3683,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:29:39.411049+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4976,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:29:40.704214+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5193,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:29:40.920651+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6447,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:29:42.174697+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 8615,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:29:44.342948+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9381,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:29:45.108944+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 20628,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 20:29:56.358389+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "734768348201615400": 3838,
+    "795847206719717386": 2531
+  }
+}
