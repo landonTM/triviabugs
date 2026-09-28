@@ -1,5 +1,5 @@
 {
-  "user_id": 671182574692990976,
+  "user_id": "671182574692990976",
   "level": {
     "level": 1,
     "xp_into_level": 0,
@@ -21,8 +21,8 @@
     "alltime_correct": 3
   },
   "stats_row": {
-    "user_id": 671182574692990976,
-    "guild_id": 861055530638114836,
+    "user_id": "671182574692990976",
+    "guild_id": "861055530638114836",
     "total_points": 5,
     "questions_right": 2,
     "questions_wrong": 0,
