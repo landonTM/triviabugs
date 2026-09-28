@@ -113,6 +113,9 @@ h2.section a { font-size: 11px; }
 }
 .btn:hover { border-color: var(--line); text-decoration: none; color: var(--text); }
 .btn[aria-pressed="true"], .btn.on { border-color: var(--neon); color: var(--neon); }
+select.btn { font: 20px var(--term); max-width: 100%; }
+.btn:disabled { opacity: .35; cursor: default; }
+.btn:disabled:hover { border-color: var(--line-dim); }
 .btn-row-label { font: 10px/1.6 var(--pixel); color: var(--muted); margin: 18px 0 8px; }
 
 /* ---------- fight card (duels) ---------- */
@@ -174,14 +177,20 @@ h2.section a { font-size: 11px; }
 .round .found { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 6px; }
 @media (max-width: 520px) { .round { grid-template-columns: 1fr; gap: 4px; } }
 
-/* ---------- spoiler lock ---------- */
-.hidden-ans { color: var(--muted); font-style: normal; letter-spacing: 2px; }
-.lockbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 8px 0 18px; color: var(--muted); }
-.lockbar form { display: flex; gap: 8px; flex-wrap: wrap; }
-.lockbar input {
-  font: 20px var(--term); color: var(--text); background: var(--panel); border: 3px solid var(--line-dim);
-  padding: 6px 10px; min-height: 44px; width: 200px;
+/* ---------- duel XP strip (under the fight card) ---------- */
+.xpline {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 28px; border: 4px solid var(--line); border-top: 0;
+  background: var(--panel); padding: 12px 20px; font-size: 24px;
 }
+.xpline .label { font: 10px/1.6 var(--pixel); color: var(--neon); }
+.xpline b { color: var(--neon); font-weight: 400; }
+
+/* ---------- missions ---------- */
+.missions { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.mission { border: 3px solid var(--c, var(--cyan)); background: var(--panel); padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; }
+.mission .diff { font: 9px/1.6 var(--pixel); color: var(--c, var(--cyan)); }
+.mission .txt { font-size: 26px; line-height: 1.1; }
+.mission .who { color: var(--muted); }
 
 /* ---------- misc ---------- */
 .xpbar { height: 20px; border: 3px solid var(--line); background: var(--line-dim); }

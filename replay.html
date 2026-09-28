@@ -22,38 +22,23 @@
 
   let data, levels = {};
   try {
-    await Promise.all([B.loadPlayers(), B.restoreLock()]);
+    await B.loadPlayers();
     data = await B.json(gameId ? `matches/detail/${encodeURIComponent(gameId)}.json` : `matches/detail/duel-${encodeURIComponent(duelId)}.json`);
     const lb = await B.json("stats/leaderboard.json").catch(() => ({ players: [] }));
     levels = Object.fromEntries(lb.players.map(p => [p.user_id, p.level.level]));
-    const top = [...lb.players].sort((a, b) => b.total_xp - a.total_xp)[0];
-    if (top) B.setHiscore(String(top.total_xp));
   } catch (e) { B.fail(app, e); return; }
+  const xp = data.xp || {};
+  const hasXp = Object.keys(xp).length > 0;
 
-  const roundsBox = el("div", { class: "mlist" });
-  const lock = B.lockBar();
-  const draw = gameId ? drawGame : drawDuel;
-
-  // Round card shared by games and duels. `result` is the line under the question.
+  // One round. Answers are never published, so the card shows the question and what happened.
   function roundCard(n, r, result) {
     const insane = r.mode === "insane";
-    const answers = r.correct_answers || [];
-    let answerLine;
-    if (insane) {
-      answerLine = B.unlocked()
-        ? el("details", {}, el("summary", {}, `SHOW ALL ${answers.length} ANSWERS`),
-            el("div", { class: "ans", style: { marginTop: "6px" } }, answers.map(a => B.unscramble(a)).join(" · ")))
-        : el("div", { class: "ans" }, `${answers.length} answers · `, el("span", { class: "hidden-ans" }, "▒▒▒▒▒▒ HIDDEN"));
-    } else {
-      answerLine = el("div", { class: "ans" }, "ANSWER: ", B.answerNode(answers));
-    }
     return el("div", { class: `round${insane ? " insane" : ""}` },
       el("div", { class: "no" }, insane ? "!!" : String(n).padStart(2, "0")),
       el("div", {},
-        el("div", { class: "cat" }, `${(r.category || "").toUpperCase()}${insane ? " · INSANE ROUND" : ""}`),
+        el("div", { class: "cat" }, `${(r.category || "").toUpperCase()}${insane ? ` · INSANE ROUND · ${B.fmt(r.answer_count)} ANSWERS` : ""}`),
         el("div", { class: "q" }, r.question_text || "(question deleted)"),
         r.image_url ? el("img", { class: "qimg", src: r.image_url, alt: "Question image", loading: "lazy" }) : null,
-        answerLine,
         el("div", { class: "result" }, result)));
   }
 
@@ -68,27 +53,22 @@
       const t = (tally[a.user_id] = tally[a.user_id] || { pts: 0, correct: 0 });
       t.pts += a.points_awarded || 0; t.correct++;
     }
-    const standings = Object.entries(tally).sort((a, b) => b[1].pts - a[1].pts);
+    for (const id of Object.keys(xp)) tally[id] = tally[id] || { pts: 0, correct: 0 };
+    const standings = Object.entries(tally).sort((a, b) => b[1].pts - a[1].pts || (xp[b[0]] || 0) - (xp[a[0]] || 0));
     const REASONS = { completed: "Played to the end", stopped: "Stopped early", inactivity_timeout: "Ended: nobody was typing",
       consecutive_skips: "Ended: too many unanswered rounds", error: "Ended by an error", abandoned: "Abandoned" };
 
-    const head = [
-      el("div", { class: "btn-row-label", style: { color: k.color, marginTop: "40px" } }, k.label),
-      el("h1", { class: "page-title", style: { color: "var(--text)", marginTop: "8px" } }, B.matchTitle(g)),
-      el("p", { class: "page-sub" },
-        `${B.when(g.started_at)} ET · ${B.dur((B.ts(g.ended_at) || 0) - (B.ts(g.started_at) || 0))} · ${g.rounds_played} of ${g.total_rounds} rounds · `,
-        REASONS[g.end_reason] || g.end_reason,
-        g.started_by ? el("span", {}, " · started by ", B.playerLink(g.started_by)) : null),
-    ];
     const table = standings.length ? el("div", { class: "table-scroll" }, el("table", { class: "scores" },
-      el("thead", {}, el("tr", {}, el("th", {}, "RANK"), el("th", { class: "num" }, "PTS"), el("th", {}, "NAME"), el("th", { class: "num" }, "CORRECT"))),
-      el("tbody", {}, standings.map(([id, t], i) => el("tr", { class: "row", style: { color: B.rankColor(i) }, onclick: () => (location.href = `player.html?id=${id}`) },
+      el("thead", {}, el("tr", {}, el("th", {}, "RANK"), el("th", { class: "num" }, "PTS"), el("th", {}, "NAME"),
+        el("th", { class: "num" }, "CORRECT"), hasXp ? el("th", { class: "num" }, "XP EARNED") : null)),
+      el("tbody", {}, standings.map(([id, t], i) => el("tr", { class: "row", style: { color: B.rankColor(i) }, onclick: () => (location.href = B.playerHref(id)) },
         el("td", { class: "rank" }, B.ordinal(i + 1)), el("td", { class: "big num" }, String(t.pts)),
-        el("td", {}, el("div", { class: "who" }, B.avatar(id), B.playerLink(id))), el("td", { class: "num dim" }, String(t.correct))))))) : el("p", {}, "Nobody scored.");
+        el("td", {}, el("div", { class: "who" }, B.avatar(id), B.playerLink(id))), el("td", { class: "num dim" }, String(t.correct)),
+        hasXp ? el("td", { class: "num", style: { color: "var(--neon)" } }, xp[id] ? `+${B.fmt(xp[id])}` : "—") : null))))) : el("p", {}, "Nobody scored.");
 
-    roundsBox.replaceChildren(...rounds.map((r, i) => {
-      let result;
+    const cards = rounds.map((r, i) => {
       const ans = r.answers || [];
+      let result;
       if (r.mode === "insane") {
         const by = {};
         for (const a of ans) by[a.user_id] = (by[a.user_id] || 0) + 1;
@@ -104,17 +84,26 @@
         result = el("span", { style: { color: "var(--muted)" } }, "✗ NOBODY GOT IT");
       }
       return roundCard(i + 1, r, result);
-    }));
+    });
 
-    app.replaceChildren(...head, el("h2", { class: "section" }, "FINAL SCORES"), table,
-      el("h2", { class: "section" }, `ROUND BY ROUND · ${rounds.length}`), lock, roundsBox);
+    app.replaceChildren(
+      el("div", { class: "btn-row-label", style: { color: k.color, marginTop: "40px" } }, k.label),
+      el("h1", { class: "page-title", style: { color: "var(--text)", marginTop: "8px" } }, B.matchTitle(g)),
+      el("p", { class: "page-sub" },
+        `${B.when(g.started_at)} ET · ${B.dur((B.ts(g.ended_at) || 0) - (B.ts(g.started_at) || 0))} · ${g.rounds_played} of ${g.total_rounds} rounds · `,
+        REASONS[g.end_reason] || g.end_reason,
+        g.started_by ? el("span", {}, " · started by ", B.playerLink(g.started_by)) : null),
+      el("h2", { class: "section" }, "FINAL SCORES"), table,
+      hasXp ? null : el("p", { class: "page-sub" }, "XP per match is recorded for games played from Sep 28, 2026."),
+      el("h2", { class: "section" }, `ROUND BY ROUND · ${rounds.length}`),
+      el("div", { class: "mlist" }, cards));
   }
 
   function drawDuel() {
     const m = data.match;
     document.title = `Duel · ${B.day(m.ended_at)} · Bertha`;
     const score = { [m.challenger_id]: 0, [m.opponent_id]: 0 };
-    roundsBox.replaceChildren(...(data.rounds || []).map(r => {
+    const cards = (data.rounds || []).map(r => {
       const w = r.winner_id != null ? String(r.winner_id) : null;
       if (w) score[w] = (score[w] || 0) + 1;
       const running = `${score[m.challenger_id]}–${score[m.opponent_id]}`;
@@ -122,21 +111,24 @@
         ? el("span", {}, el("span", { style: { color: "var(--neon)" } }, "✓ "), B.playerLink(w), ` in ${B.secs(r.response_time_ms)} · score ${running}`)
         : el("span", { style: { color: "var(--muted)" } }, `✗ NOBODY GOT IT · score ${running}`);
       return roundCard(r.round_number, r, result);
-    }));
-    const label = (data.match.format_label || "").toUpperCase();
+    });
+    const xpLine = hasXp
+      ? el("div", { class: "xpline" }, el("span", { class: "label" }, "XP EARNED"),
+          [m.challenger_id, m.opponent_id].map(id => el("span", {}, B.playerLink(id), el("b", {}, xp[id] ? ` +${B.fmt(xp[id])}` : " +0"))))
+      : el("p", { class: "page-sub" }, "XP per match is recorded for duels played from Sep 28, 2026.");
     app.replaceChildren(...[
-      el("div", { class: "btn-row-label", style: { color: B.MODE_COLORS.duel, marginTop: "40px" } }, `DUEL · ${label}`),
-      el("h1", { class: "page-title", style: { color: "var(--text)", marginTop: "8px" } }, B.matchTitle(data.match)),
+      el("div", { class: "btn-row-label", style: { color: B.MODE_COLORS.duel, marginTop: "40px" } }, `DUEL · ${(m.format_label || "").toUpperCase()}`),
+      el("h1", { class: "page-title", style: { color: "var(--text)", marginTop: "8px" } }, B.matchTitle(m)),
       el("p", { class: "page-sub" }, `${B.when(m.ended_at)} ET${m.decided_by_tiebreaker ? " · decided by an insane-round tiebreaker" : ""}`),
-      B.fightCard(data.match, levels),
-      el("h2", { class: "section" }, `ROUND BY ROUND · ${(data.rounds || []).length}`),
-      lock, roundsBox,
-      (data.rounds || []).length ? null : el("p", { class: "page-sub" }, "No round detail was recorded for this duel."),
+      B.fightCard(m, levels),
+      xpLine,
+      el("h2", { class: "section" }, `ROUND BY ROUND · ${cards.length}`),
+      el("div", { class: "mlist" }, cards),
+      cards.length ? null : el("p", { class: "page-sub" }, "No round detail was recorded for this duel."),
     ].filter(Boolean));
   }
 
-  draw();
-  B.onLockChange(draw);
+  (gameId ? drawGame : drawDuel)();
   B.footer();
 })();
 </script>

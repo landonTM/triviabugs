@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leaderboard · Bertha</title>
+<link rel="stylesheet" href="assets/arcade.css">
+<script src="assets/bertha.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <h1 class="page-title">LEADERBOARD</h1>
+  <p class="page-sub">Every stat Bertha tracks, ranked. Pick a group, then a stat.</p>
+  <div class="btns" id="groups" role="group" aria-label="Stat group"></div>
+  <div class="btn-row-label">STAT</div>
+  <div class="btns" id="metrics" role="group" aria-label="Stat"></div>
+  <div id="periodWrap">
+    <div class="btn-row-label">PERIOD</div>
+    <div id="periods"></div>
+  </div>
+  <p id="note" class="page-sub" style="margin-top:18px"></p>
+  <main id="app"><div class="loading">LOADING…</div></main>
+</div>
+
+<script>
+(async () => {
+  const { el } = B;
+  B.topbar("leaderboard.html");
+  const app = B.$("#app");
+
+  let lb, cats;
+  try {
+    await B.loadPlayers();
+    lb = await B.json("stats/leaderboard.json");
+    cats = B.allCategories(lb);
+  } catch (e) { B.fail(app, e); return; }
+
+  const metricFor = key => (key && key.startsWith("cat:") ? B.categoryMetric(key.slice(4)) : B.METRIC[key]);
+  let mKey, period;
+  function readHash() {
+    [mKey, period] = decodeURIComponent(location.hash.slice(1)).split("|");
+    if (!metricFor(mKey) || (mKey.startsWith("cat:") && !cats.includes(mKey.slice(4)))) mKey = "total_xp";
+    if (!B.PERIODS.some(([k]) => k === period)) period = "weekly";
+  }
+  readHash();
+  // links from other pages (and back/forward) only change the hash, which doesn't reload the page
+  window.addEventListener("hashchange", () => { readHash(); render(); });
+
+  function render() {
+    const m = metricFor(mKey);
+    // group tabs
+    B.$("#groups").replaceChildren(...B.GROUPS.map(([g, label]) =>
+      el("button", { class: "btn", type: "button", "aria-pressed": String(g === m.group),
+        onclick: () => go(g === "categories" ? `cat:${cats[0]}` : B.METRICS.find(x => x.group === g).key) }, label)));
+    // stats in this group
+    if (m.group === "categories") {
+      const sel = el("select", { class: "btn", "aria-label": "Category", style: { minWidth: "260px" },
+        onchange: e => go(`cat:${e.target.value}`) }, cats.map(c => el("option", { value: c, selected: `cat:${c}` === mKey }, c)));
+      B.$("#metrics").replaceChildren(sel);
+    } else {
+      B.$("#metrics").replaceChildren(...B.METRICS.filter(x => x.group === m.group).map(x =>
+        el("button", { class: "btn", type: "button", "aria-pressed": String(x.key === mKey), onclick: () => go(x.key) }, x.label)));
+    }
+    // period
+    B.$("#periods").replaceChildren(m.period
+      ? B.periodButtons(period, k => { period = k; go(mKey); })
+      : el("span", { class: "pill", style: { color: "var(--muted)" } }, "ALL-TIME / CURRENT ONLY"));
+    const bits = [m.note, m.period && period === "daily" ? "Today resets at midnight UTC." : null,
+      m.period && ["weekly", "monthly", "yearly"].includes(period) ? "Week, month and year are the last 7, 30 and 365 days." : null];
+    B.$("#note").textContent = bits.filter(Boolean).join(" ");
+
+    // table
+    const rows = B.ranking(lb, m, period);
+    if (!rows.length) { app.replaceChildren(el("div", { class: "loading" }, "NO SCORES YET · PLAY A GAME")); return; }
+    const head = el("tr", {}, el("th", {}, "RANK"), el("th", { class: "num" }, m.label), el("th", {}, "NAME"), el("th", { class: "num" }, "LV"));
+    const body = rows.map(({ p, v }, i) =>
+      el("tr", { class: "row", style: { color: i < 5 ? B.rankColor(i) : "var(--text)" }, onclick: () => (location.href = B.playerHref(p.user_id)) },
+        el("td", { class: "rank" }, B.ordinal(i + 1)),
+        el("td", { class: "big num" }, m.show(v)),
+        el("td", {}, el("div", { class: "who" }, B.avatar(p.user_id), B.playerLink(p.user_id))),
+        el("td", { class: "num dim" }, String(p.level.level))));
+    app.replaceChildren(el("div", { class: "table-scroll" },
+      el("table", { class: "scores" }, el("thead", {}, head), el("tbody", {}, body))));
+  }
+
+  function go(key) {
+    mKey = key;
+    history.replaceState(null, "", `#${encodeURIComponent(mKey)}|${period}`);
+    render();
+  }
+  go(mKey);
+  B.footer();
+})();
+</script>
+</body>
+</html>

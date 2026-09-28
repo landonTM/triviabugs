@@ -2,830 +2,309 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bug Tracker · Bertha</title>
 <link rel="stylesheet" href="assets/arcade.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap">
 <script src="assets/bertha.js"></script>
 <style>
-  /* Arcade palette (assets/arcade.css) mapped onto the tracker's own variable names. */
-  :root{
-    --bg:#07060d; --surface:#0d0b19; --surface-2:#120f22; --border:#2a2440;
-    --text:#f4f1ff; --text-muted:#a39fbd; --link:#5ef2ff;
-    --accent:#7cff6b; --accent-weak:#132a14;
-    --p0:#ff4fa3; --p0-bg:#2b0c1c; --p1:#ffd23f; --p1-bg:#2a2208; --p2:#7cff6b; --p2-bg:#10240e; --p3:#8b86a8; --p3-bg:#1b1830;
-    --shadow:none;
-    --radius:0;
-    color-scheme:dark;
+  .how { border: 3px dashed var(--line-dim); padding: 14px 18px; color: var(--muted); margin: 8px 0 28px; }
+  .how b { color: var(--text); font-weight: 400; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 22px 0 12px; }
+  .toolbar input[type=search], .toolbar select {
+    font: 20px var(--term); color: var(--text); background: var(--panel); border: 3px solid var(--line-dim);
+    padding: 6px 10px; min-height: 44px;
   }
-
-  *{box-sizing:border-box}
-  [hidden]{display:none!important}
-  body{
-    margin:0; background:var(--bg); color:var(--text);
-    font:14px/1.6 "IBM Plex Mono",ui-monospace,monospace;
-  }
-  main.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 64px}
-
-  /* position:relative + centered text + right-pinned absolute controls,
-     rather than a flex row balanced with a matching spacer -- that
-     approach broke down whenever header.top wrapped (small screens),
-     since header-controls would drop onto its own line and the lock
-     popover (absolute, relative to header-controls) would then be
-     positioned relative to wherever that line ended up instead of the
-     page's top-right corner. Anchoring to header.top itself instead is
-     correct at every viewport width with no separate mobile override. */
-  header.top{position:relative;text-align:center;padding:4px 92px 0;margin-bottom:26px}
-  .header-title{min-width:0}
-  .header-controls{position:absolute;top:0;right:0;display:flex;gap:8px}
-  h1{font-size:clamp(22px,4vw,30px);margin:0 0 4px;letter-spacing:-.01em}
-  .subtitle{color:var(--text-muted);font-size:13.5px;margin:0}
-  .theme-btn{
-    flex:0 0 auto;border:1px solid var(--border);background:var(--surface);color:var(--text);
-    border-radius:999px;width:38px;height:38px;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;
-  }
-  .theme-btn:hover{background:var(--surface-2)}
-  .theme-btn.unlocked{background:var(--p2-bg);color:var(--p2);border-color:transparent}
-
-  .lock-popover{
-    position:absolute;top:46px;right:0;width:280px;z-index:20;
-    background:var(--surface);border:1px solid var(--border);border-radius:10px;box-shadow:var(--shadow);padding:14px;
-  }
-  .lock-error{color:var(--p0);font-size:12.5px;margin:8px 0 0}
-  .lock-note{background:var(--accent-weak);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:8px;padding:10px 14px;margin:10px 0;font-size:13px;color:var(--text-muted)}
-  .answer-hidden{opacity:.6;font-style:italic;cursor:default}
-
-  .tabs{display:flex;justify-content:center;gap:6px;margin-bottom:18px;border-bottom:1px solid var(--border)}
-  .tab{
-    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;border:none;background:none;color:var(--text-muted);
-    cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;
-  }
-  .tab.active{color:var(--accent);border-bottom-color:var(--accent)}
-  .tab:hover:not(.active){color:var(--text)}
-  .tabcount{
-    display:inline-block;min-width:18px;padding:1px 6px;margin-left:4px;border-radius:99px;
-    background:var(--surface-2);color:var(--text-muted);font-size:11px;font-weight:700;
-  }
-  .tab.active .tabcount{background:var(--accent-weak);color:var(--accent)}
-
-  .stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:16px 0}
-  .stat{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);text-align:center;transition:transform .12s,box-shadow .12s}
-  .stat:hover{transform:translateY(-1px);box-shadow:0 2px 4px rgba(20,28,36,.08), 0 4px 14px rgba(20,28,36,.06)}
-  .stat b{display:block;font-size:24px;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
-  .stat span{color:var(--text-muted);font-size:12.5px}
-  .stat.p0 b{color:var(--p0)}
-  /* A separate sibling block, not a spanning item inside .stats-row's grid
-     -- a grid-column:1/-1 item inside that auto-fit grid touches every
-     column track, which stops auto-fit from collapsing the empty ones and
-     left the real stat cards squashed to one side instead of stretching
-     to fill the row. */
-  .sevblock{margin:10px 0}
-
-  .sevbar{display:flex;height:10px;border-radius:6px;overflow:hidden;margin-top:10px;border:1px solid var(--border)}
-  .sevbar div{height:100%}
-  .sevlegend{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:8px;font-size:12px;color:var(--text-muted)}
-  .sevlegend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:middle}
-
-  .notice{background:var(--accent-weak);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:8px;padding:12px 16px;margin:10px 0;font-size:14px}
-  .notice b{display:block;margin-bottom:2px}
-  .notice.warn{border-left-color:var(--p0);background:var(--p0-bg)}
-
-  details.section{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin:10px 0;box-shadow:var(--shadow)}
-  details.section summary{cursor:pointer;font-weight:650;padding:14px 18px;list-style:none;display:flex;align-items:center;gap:8px}
-  details.section summary::-webkit-details-marker{display:none}
-  details.section summary::before{content:"▸";display:inline-block;transition:transform .15s;color:var(--text-muted);font-size:12px}
-  details.section[open] summary::before{transform:rotate(90deg)}
-  details.section .body{padding:0 18px 18px}
-  details.section ul{margin:6px 0;padding-left:20px}
-  details.section li{margin:7px 0;color:var(--text-muted);font-size:13.5px;line-height:1.6}
-
-  .scroll-list{max-height:340px;overflow:auto;border:1px solid var(--border);border-radius:8px;padding:4px 12px;background:var(--surface-2)}
-  .scroll-list .row{padding:9px 0;border-bottom:1px solid var(--border);font-size:13px}
-  .scroll-list .row:last-child{border-bottom:none}
-  .scroll-list code{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:1px 5px;font-size:11.5px}
-
-  table.cov{border-collapse:collapse;width:100%;font-size:13px;margin-top:6px}
-  table.cov th,table.cov td{text-align:left;border-bottom:1px solid var(--border);padding:7px 8px}
-  table.cov th{color:var(--text-muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.03em}
-  table.cov td:not(:first-child),table.cov th:not(:first-child){text-align:right;font-variant-numeric:tabular-nums}
-
-  .controls{
-    position:sticky;top:0;z-index:5;background:var(--bg);
-    padding:12px 0;margin-top:18px;
-    display:flex;justify-content:center;gap:6px;flex-wrap:wrap;
-  }
-  .controls::after{content:"";position:absolute;left:-16px;right:-16px;bottom:-1px;height:1px;background:var(--border)}
-  .controls select,.controls input{
-    font:inherit;font-size:13.5px;padding:8px 8px;border:1px solid var(--border);border-radius:8px;
-    background:var(--surface);color:var(--text);
-  }
-  .controls input[type=search]{flex:0 1 320px;min-width:180px}
-  .controls input[type=search].search-compact{flex:0 1 170px;min-width:120px}
-  .controls select{flex:0 0 auto}
-  .controls select:disabled{opacity:.45}
-
-  .resultbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin:14px 0 6px;color:var(--text-muted);font-size:13.5px}
-  .pager{display:flex;gap:8px;align-items:center}
-  .pager button{
-    font:inherit;padding:7px 14px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);cursor:pointer;
-  }
-  .pager button:disabled{opacity:.4;cursor:default}
-  .pager button:not(:disabled):hover{background:var(--surface-2)}
-
-  article.card{
-    background:var(--surface);border:1px solid var(--border);border-left:5px solid var(--p3);
-    border-radius:10px;margin:10px 0;padding:16px 18px;box-shadow:var(--shadow);
-  }
-  article.card.p0{border-left-color:var(--p0)}
-  article.card.p1{border-left-color:var(--p1)}
-  article.card.p2{border-left-color:var(--p2)}
-
-  .meta{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:12.5px;color:var(--text-muted);margin-bottom:8px}
-  .meta .loc{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--text);font-weight:600;font-size:12.5px}
-  .badge{background:var(--surface-2);border:1px solid var(--border);padding:2px 8px;border-radius:99px;font-size:11.5px;white-space:nowrap}
-  .badge.p0{background:var(--p0-bg);color:var(--p0);border-color:transparent;font-weight:700}
-  .badge.p1{background:var(--p1-bg);color:var(--p1);border-color:transparent}
-  .badge.p2{background:var(--p2-bg);color:var(--p2);border-color:transparent}
-  .copybtn{
-    margin-left:auto;border:1px solid var(--border);background:transparent;color:var(--text-muted);
-    border-radius:6px;padding:3px 8px;font-size:11.5px;cursor:pointer;font:inherit;
-  }
-  .copybtn:hover{background:var(--surface-2);color:var(--text)}
-
-  /* Used by Reassignment cards -- centers each card's badge row and
-     heading instead of left-aligning them; body paragraphs (findings/
-     answers text) stay left-aligned since centering prose hurts
-     readability. */
-  .center-card .meta{justify-content:center}
-  .center-card .meta .copybtn{margin-left:0}
-  .center-card h3.q{text-align:center}
-
-  h3.q{font-size:15.5px;line-height:1.5;white-space:pre-wrap;margin:6px 0 10px;font-weight:650}
-  article.card p{margin:6px 0;white-space:pre-wrap;font-size:13.5px}
-  article.card p b{color:var(--text-muted);font-weight:600;font-size:12.5px;text-transform:uppercase;letter-spacing:.02em;display:block;margin-bottom:2px}
-  article.card small{color:var(--text-muted)}
-  a{color:var(--link)}
-  .sourcelinks a{margin-right:12px;font-size:13px}
-  .subfinding{border-top:1px solid var(--border);margin-top:12px;padding-top:10px}
-
-  footer{padding:28px 0 10px;color:var(--text-muted);font-size:13px;text-align:center}
-
-  .loading{display:flex;flex-direction:column;align-items:center;gap:14px;padding:80px 20px;color:var(--text-muted)}
-  .spinner{width:34px;height:34px;border-radius:50%;border:3px solid var(--border);border-top-color:var(--accent);animation:spin .8s linear infinite}
-  @keyframes spin{to{transform:rotate(360deg)}}
-  .errbox{background:var(--p0-bg);color:var(--p0);border:1px solid var(--p0);border-radius:8px;padding:16px;margin:20px 0}
-
-  .empty-state{text-align:center;padding:60px 20px;color:var(--text-muted)}
-  .empty-state .big{font-size:32px;margin-bottom:10px}
-  .status-badge{padding:2px 8px;border-radius:99px;font-size:11.5px;font-weight:600}
-  .status-badge.open{background:var(--p0-bg);color:var(--p0)}
-  .status-badge.fixed{background:var(--p2-bg);color:var(--p2)}
-  .status-badge.wontfix{background:var(--surface-2);color:var(--text-muted)}
-  .method-icon{font-size:13px}
-
-  @media (max-width:640px){
-    header.top{padding:2px 82px 0}
-    .theme-btn{width:32px;height:32px;font-size:14px}
-    .header-controls{gap:6px}
-    .lock-popover{width:calc(100vw - 48px);max-width:280px}
-    .tabs{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch}
-    .tab{flex:0 0 auto;padding:10px 12px;font-size:13px;white-space:nowrap}
-    .controls{flex-direction:column;align-items:stretch}
-    /* flex-basis applies to the main axis -- in column mode that's height,
-       so the row-mode "flex:1 1 220px" (meant to size width) would instead
-       make this grow to ~220px+ tall. Reset it to a natural auto height.
-       Must match .controls input[type=search]'s specificity (0,2,1) to
-       actually win -- a plain ".controls input" rule here is weaker and
-       gets silently outranked regardless of which is inside the media query. */
-    .controls select,.controls input,.controls input[type=search]{width:100%;flex:0 0 auto}
-    /* .search-compact's own specificity (0,3,1) beats the rule just above
-       (0,2,1) outside a media query, so it needs its own explicit mobile
-       override here too or it'd stay pinned at ~170px instead of
-       stretching full-width like the rest of the stacked controls. */
-    .controls input[type=search].search-compact{width:100%;flex:0 0 auto}
-    table.cov{font-size:12px}
-  }
-  /* ---------- arcade skin ---------- */
-  *,*::before,*::after{border-radius:0 !important}
-  main.wrap{max-width:1152px;padding:0 16px 64px}
-  header.top{margin-top:24px}
-  h1{font:clamp(18px,4vw,28px)/1.4 var(--pixel);color:var(--pink);letter-spacing:3px}
-  .tab{font:10px/1.6 var(--pixel);padding:12px 14px}
-  .tabcount{font:9px/1 var(--pixel);padding:3px 5px}
-  .stat,article.card,details.section{border-width:3px}
-  .stat b{font:34px/1 var(--term)}
-  .stat span{font:9px/1.6 var(--pixel)}
-  article.card{border-left-width:6px}
-  h3.q{font-size:16px}
-  .spinner{border:0;width:18px;height:18px;background:var(--neon);animation:blink 1.1s steps(1) infinite}
-  footer{font:10px/1.8 var(--pixel)}
-  @media print{
-    .controls,.pager,.theme-btn{display:none}
-    article.card{break-inside:avoid}
-  }
+  .toolbar input[type=search] { flex: 1 1 280px; min-width: 0; }
+  .toolbar input:focus, .toolbar select:focus { border-color: var(--cyan); outline: none; }
+  .count { font: 10px/1.6 var(--pixel); color: var(--muted); margin: 6px 0 14px; }
+  .bug { border: 3px solid var(--line-dim); border-left: 8px solid var(--c, var(--pink)); background: var(--panel); padding: 16px 18px; display: flex; flex-direction: column; gap: 10px; }
+  .bug + .bug { margin-top: 12px; }
+  .bug-top { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
+  .bug-id { font: 12px/1 var(--pixel); color: var(--c, var(--pink)); }
+  .chip { font: 9px/1 var(--pixel); padding: 6px 8px; border: 2px solid var(--line-dim); color: var(--text); white-space: nowrap; }
+  .chip.st { border-color: var(--c, var(--pink)); color: var(--c, var(--pink)); }
+  .chip.dim { color: var(--muted); }
+  .bug-who { margin-left: auto; display: inline-flex; align-items: center; gap: 8px; color: var(--muted); }
+  .bug-who .av { width: 26px; height: 26px; border-width: 2px; font-size: 11px; }
+  .bug-q { font-size: 28px; line-height: 1.15; overflow-wrap: anywhere; }
+  .bug-row { display: flex; gap: 12px; align-items: baseline; }
+  .bug-row .k { font: 9px/1.8 var(--pixel); color: var(--muted); flex: 0 0 150px; }
+  .bug-row .v { overflow-wrap: anywhere; }
+  .bug-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+  .bug-actions .btn { font-size: 9px; min-height: 36px; padding: 8px 10px; }
+  .pager { display: flex; gap: 10px; align-items: center; justify-content: center; margin: 18px 0; font: 10px var(--pixel); color: var(--muted); }
+  .lock { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-left: auto; }
+  .lock input { font: 20px var(--term); color: var(--text); background: var(--panel); border: 3px solid var(--line-dim); padding: 6px 10px; min-height: 44px; width: 170px; }
+  .hidden-ans { color: var(--muted); letter-spacing: 2px; }
+  @media (max-width: 620px) { .bug-who { margin-left: 0; } .bug-row { flex-direction: column; gap: 2px; } .bug-row .k { flex: none; } .lock { margin-left: 0; } }
 </style>
 </head>
 <body>
-<main class="wrap">
-  <header class="top">
-    <div class="header-title">
-      <h1>BUG TRACKER</h1>
-      <p class="subtitle" id="subtitle">Loading…</p>
-    </div>
-    <div class="header-controls">
-      <button class="theme-btn" id="lockBtn" title="Unlock answers" aria-label="Unlock answers">🔒</button>
-      <div id="lockPopover" class="lock-popover" hidden>
-        <p style="margin:0 0 8px;font-size:13px;color:var(--text-muted)">Enter the password to reveal answers on this device. This is a spoiler gate, not real security — see the note below once unlocked.</p>
-        <form id="lockForm" style="display:flex;gap:6px">
-          <input id="lockPassword" type="password" placeholder="Password" autocomplete="off" style="flex:1;padding:8px 10px;border:1px solid var(--border);border-radius:6px;background:var(--surface);color:var(--text);font:inherit">
-          <button type="submit" style="padding:8px 14px;border:1px solid var(--border);border-radius:6px;background:var(--accent);color:#fff;font:inherit;cursor:pointer">Unlock</button>
-        </form>
-        <p id="lockError" class="lock-error" hidden>Incorrect password.</p>
-      </div>
-    </div>
-  </header>
-
-  <nav class="tabs" role="tablist">
-    <button class="tab active" id="tabReportsBtn" role="tab" aria-selected="true" aria-controls="reportsPanel">Live Reports<span class="tabcount" id="reportsTabCount" hidden>0</span></button>
-    <button class="tab" id="tabReassignBtn" role="tab" aria-selected="false" aria-controls="reassignPanel">Reassignments<span class="tabcount" id="reassignTabCount" hidden>0</span></button>
-    <button class="tab" id="tabFixedBtn" role="tab" aria-selected="false" aria-controls="fixedPanel">Fixed<span class="tabcount" id="fixedTabCount" hidden>0</span></button>
-  </nav>
-
-  <section id="reportsPanel">
-    <div id="reportsLoading" class="loading">
-      <div class="spinner"></div>
-      <div>Loading live reports…</div>
-    </div>
-
-    <div id="reportsEmpty" class="empty-state" hidden>
-      <div class="big">🐛</div>
-      <p><b>No bug reports yet.</b></p>
-      <p>In Discord, right-click (or long-press) a question, hint, or answer message from the bot and choose <b>Apps → Report Bugged Question</b> — or just react to it with 🐛.</p>
-    </div>
-
-    <div id="reportsApp" hidden>
-      <div class="stats-row" id="reportsStats"></div>
-
-      <div class="controls">
-        <input id="reportSearch" type="search" placeholder="Search question, answer, category or reporter…" aria-label="Search reports">
-        <select id="reportUser" aria-label="Reported by"><option value="">All reporters</option></select>
-        <select id="reportSort" aria-label="Sort by">
-          <option value="newest">Newest first</option>
-          <option value="oldest">Oldest first</option>
-          <option value="reporter">By reporter</option>
-        </select>
-      </div>
-
-      <div class="resultbar">
-        <span id="reportCount" aria-live="polite"></span>
-      </div>
-
-      <main id="reportResults"></main>
-    </div>
-
-    <div id="reportsErrorBox" hidden class="errbox"></div>
-  </section>
-
-  <section id="fixedPanel" hidden>
-    <div id="fixedLoading" class="loading">
-      <div class="spinner"></div>
-      <div>Loading fixed reports…</div>
-    </div>
-
-    <div id="fixedEmpty" class="empty-state" hidden>
-      <div class="big">✅</div>
-      <p><b>Nothing marked fixed yet.</b></p>
-      <p>Once a bug report or an audit finding is resolved (via <code>/fixed</code> in Discord), it moves here automatically.</p>
-    </div>
-
-    <div id="fixedApp" hidden>
-      <div class="stats-row" id="fixedStats"></div>
-
-      <div class="controls">
-        <input id="fixedSearch" type="search" placeholder="Search question, answer, category or reporter…" aria-label="Search fixed reports">
-        <select id="fixedUser" aria-label="Reported by"><option value="">All reporters</option></select>
-        <select id="fixedSort" aria-label="Sort by">
-          <option value="newest">Most recently fixed</option>
-          <option value="oldest">Least recently fixed</option>
-          <option value="reporter">By reporter</option>
-        </select>
-      </div>
-
-      <div class="resultbar">
-        <span id="fixedCount" aria-live="polite"></span>
-      </div>
-
-      <main id="fixedResults"></main>
-    </div>
-
-    <div id="fixedErrorBox" hidden class="errbox"></div>
-  </section>
-
-  <section id="reassignPanel" hidden>
-  <div id="reassignLoading" class="loading">
-    <div class="spinner"></div>
-    <div>Loading category suggestions…</div>
+<div class="wrap">
+  <h1 class="page-title">BUG TRACKER</h1>
+  <div class="how">Spot a wrong answer or a broken question? <b>React to it with 🐛</b> in Discord, or right-click the message and choose
+    <b>Apps → Report Bugged Question</b>. It shows up here within a minute or two, and moves to Fixed once it's sorted.</div>
+  <div class="tiles" id="stats"></div>
+  <div class="toolbar" style="margin-top:32px">
+    <div class="btns" id="tabs" role="tablist" aria-label="Tracker sections"></div>
+    <div class="lock" id="lock"></div>
   </div>
-
-  <div id="reassignApp" hidden>
-    <div class="stats-row" id="reassignStats"></div>
-
-    <div class="controls">
-      <input id="reassignSearch" type="search" placeholder="Search question, answer, or category…" aria-label="Search category suggestions">
-      <select id="reassignFrom" aria-label="Current category"><option value="">Any current category</option></select>
-      <select id="reassignTo" aria-label="Suggested category"><option value="">Any suggested category</option></select>
-    </div>
-
-    <div class="resultbar">
-      <span id="reassignCount" aria-live="polite"></span>
-      <div class="pager">
-        <button id="reassignPrevTop">Previous</button>
-        <span id="reassignPageTop"></span>
-        <button id="reassignNextTop">Next</button>
-      </div>
-    </div>
-
-    <main id="reassignResults"></main>
-
-    <div class="resultbar">
-      <span></span>
-      <div class="pager">
-        <button id="reassignPrevBot">Previous</button>
-        <span id="reassignPageBot"></span>
-        <button id="reassignNextBot">Next</button>
-      </div>
-    </div>
-
-    <footer>
-      Complete data: <a href="other-categories-audit.json">JSON</a>. Suggestions that a question (YAML or custom) would
-      fit better under a different existing category. These are editorial calls, not correctness findings —
-      nothing here is "wrong," just possibly better filed elsewhere.
-    </footer>
-  </div>
-
-  <div id="reassignEmpty" class="empty-state" hidden>
-    <div class="big">🗂️</div>
-    <p><b>No category suggestions.</b></p>
-  </div>
-
-  <div id="reassignErrorBox" hidden class="errbox"></div>
-  </section>
-</main>
+  <div class="toolbar" id="controls"></div>
+  <div class="count" id="count" aria-live="polite"></div>
+  <main id="list"><div class="loading">LOADING REPORTS…</div></main>
+</div>
 
 <script>
-(function(){
-  "use strict";
+(async () => {
+  const { el } = B;
+  B.topbar("bugs.html");
+  await B.loadPlayers();
 
-  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-  const $ = id => document.getElementById(id);
-
-  // ---------- answer lock (spoiler gate, NOT real security -- see utils/answer_lock.py) ----------
-  // Answers are published scrambled (XOR with SHA-256(password) as a
-  // repeating key, base64-encoded). This hash lets the page confirm a
-  // guess is correct WITHOUT the plaintext password ever appearing in
-  // this file -- but note that doesn't make it secret: this is all
-  // client-side JS, so the check, the scheme, and (once typed) the
-  // password itself are all visible to anyone who looks at page source
-  // or network traffic. It only stops answers being spoiled by accident.
+  // ---------- answer spoiler gate (scrambling: bot utils/answer_lock.py) ----------
   const PASSWORD_HASH = "cf589f9995ede78a78ab4686b0cb8c762ba4d60b27ddde05076e98d1f8b601bc";
-  let unlocked = false, keyBytes = null;
-  let refreshReports = null, refreshFixed = null, refreshReassign = null, refilterReassign = null;
-
-  async function sha256Bytes(str){
-    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(str));
-    return new Uint8Array(buf);
-  }
-  function bytesToHex(bytes){ return [...bytes].map(b => b.toString(16).padStart(2, "0")).join(""); }
-  function unscrambleOne(b64, key){
-    try {
-      const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
-      const out = new Uint8Array(bytes.length);
-      for (let i = 0; i < bytes.length; i++) out[i] = bytes[i] ^ key[i % key.length];
-      return new TextDecoder().decode(out);
-    } catch(e) { return "(unreadable)"; }
-  }
-  // value is either a single scrambled string or an array of them --
-  // every answer field in the data uses one of those two shapes.
-  function reveal(value){
-    if (value == null) return value;
-    const hide = v => `<span class="answer-hidden" title="Unlock to reveal">•••• hidden</span>`;
-    const show = v => esc(unscrambleOne(v, keyBytes));
-    const fn = unlocked && keyBytes ? show : hide;
-    return Array.isArray(value) ? value.map(fn).join(" / ") : fn(value);
-  }
-  // other-categories-audit.json (Reassignments, plus fixed-item lookups)
-  // stores its answers as plain text, unlike trivia-audit.json's scrambled ones --
-  // this keeps the same lock/unlock spoiler-gate UX without running them
-  // through the XOR unscramble meant for the other file's format (which
-  // corrupts already-plain text into garbage or "(unreadable)").
-  function revealPlain(value){
-    if (value == null) return value;
-    const hide = () => `<span class="answer-hidden" title="Unlock to reveal">•••• hidden</span>`;
-    const show = v => esc(v);
-    const fn = unlocked ? show : hide;
-    return Array.isArray(value) ? value.map(fn).join(" / ") : fn(value);
-  }
-
-  async function attemptUnlock(password){
-    const digest = await sha256Bytes(password);
-    if (bytesToHex(digest) !== PASSWORD_HASH) return false;
-    unlocked = true;
-    keyBytes = digest; // same SHA-256 digest doubles as the XOR key (see utils/answer_lock.py)
-    try { localStorage.setItem("audit-password", password); } catch(e) {}
-    $("lockBtn").textContent = "🔓";
-    $("lockBtn").classList.add("unlocked");
-    $("lockBtn").title = $("lockBtn").ariaLabel = "Answers unlocked (click to lock again)";
-    if (refreshReports) refreshReports();
-    if (refreshFixed) refreshFixed();
-    if (refreshReassign) refreshReassign();
+  let key = null;
+  async function sha(str) { return new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(str))); }
+  const hex = b => [...b].map(x => x.toString(16).padStart(2, "0")).join("");
+  async function unlock(pw, remember = true) {
+    const d = await sha(pw);
+    if (hex(d) !== PASSWORD_HASH) return false;
+    key = d;
+    if (remember) { try { localStorage.setItem("audit-password", pw); } catch (e) { /* storage blocked */ } }
     return true;
   }
-
-  function lockAnswers(){
-    unlocked = false; keyBytes = null;
-    try { localStorage.removeItem("audit-password"); } catch(e) {}
-    $("lockBtn").textContent = "🔒";
-    $("lockBtn").classList.remove("unlocked");
-    $("lockBtn").title = $("lockBtn").ariaLabel = "Unlock answers";
-    if (refreshReports) refreshReports();
-    if (refreshFixed) refreshFixed();
-    if (refreshReassign) refreshReassign();
+  function unscramble(b64) {
+    try {
+      const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
+      return new TextDecoder().decode(bytes.map((b, i) => b ^ key[i % key.length]));
+    } catch (e) { return "(unreadable)"; }
   }
-
-  $("lockBtn").addEventListener("click", () => {
-    if (unlocked) { lockAnswers(); return; }
-    $("lockPopover").hidden = !$("lockPopover").hidden;
-    if (!$("lockPopover").hidden) $("lockPassword").focus();
-  });
-  $("lockForm").addEventListener("submit", async e => {
-    e.preventDefault();
-    const ok = await attemptUnlock($("lockPassword").value);
-    if (ok) { $("lockPopover").hidden = true; $("lockPassword").value = ""; $("lockError").hidden = true; }
-    else { $("lockError").hidden = false; }
-  });
-  document.addEventListener("click", e => {
-    if (!$("lockPopover").hidden && !$("lockPopover").contains(e.target) && e.target !== $("lockBtn")) {
-      $("lockPopover").hidden = true;
-    }
-  });
-  (async () => {
-    let saved = null;
-    try { saved = localStorage.getItem("audit-password"); } catch(e) {}
-    if (saved) await attemptUnlock(saved);
-  })();
-
-  // ---------- tabs ----------
-  // IDs of Codex-audit findings (e.g. "F1416") marked fixed via /fixed --
-  // populated once fixed-findings.json loads, used to hide already-fixed
-  // items out of the Reassignments tab (see filter() in initReassign()).
-  let fixedFindingIds = new Set();
-  // Fired immediately at page load -- fixed-findings.json is small and
-  // fetches fast, so starting it in parallel with the two audit JSONs
-  // means fixedFindingIds is populated before initReassign()'s first
-  // render in practice.
-  loadReports();
-  // Set by init(D)/initCustom(D) as each of the two audit files loads --
-  // whichever finishes second renders the combined, accurate subtitle;
-  // if the custom-categories file fails to load, the YAML-only wording
-  // stays as a graceful fallback.
-  let subtitleAudit = null, subtitleCustom = null;
-  function updateSubtitle(){
-    if (!subtitleAudit) return;
-    const q1 = subtitleAudit.stats.entries, q2 = subtitleCustom ? subtitleCustom.stats.entries : 0;
-    const f1 = subtitleAudit.stats.findings, f2 = subtitleCustom ? subtitleCustom.stats.findings : 0;
-    if (!subtitleCustom) {
-      $("subtitle").textContent =
-        `${subtitleAudit.coverage.length} YAML files · ${q1.toLocaleString()} questions · last synced ${subtitleAudit.audit_date}`;
+  const answers = (list, plain) => !list || !list.length ? null
+    : key ? list.map(a => (plain ? a : unscramble(a))).join(" / ")
+    : el("span", { class: "hidden-ans" }, "▒▒▒▒▒▒ HIDDEN");
+  try { const saved = localStorage.getItem("audit-password"); if (saved) await unlock(saved, false); } catch (e) { /* storage blocked */ }
+  function drawLock() {
+    const box = B.$("#lock");
+    if (key) {
+      box.replaceChildren(el("button", { class: "btn", type: "button", onclick: () => {
+        key = null; try { localStorage.removeItem("audit-password"); } catch (e) { /* storage blocked */ }
+        drawLock(); render();
+      } }, "HIDE ANSWERS"));
       return;
     }
-    const proposals = subtitleCustom.category_review.proposals;
-    $("subtitle").textContent =
-      `${(q1 + q2).toLocaleString()} questions tracked across YAML and custom categories · ` +
-      `${(f1 + f2).toLocaleString()} findings + ${proposals.toLocaleString()} category suggestions · ` +
-      `last synced ${subtitleAudit.audit_date}`;
+    const input = el("input", { type: "password", placeholder: "Password", "aria-label": "Answer password", autocomplete: "off" });
+    const err = el("span", { style: { color: "var(--pink)" }, hidden: true }, "WRONG");
+    box.replaceChildren(el("form", { style: { display: "flex", gap: "8px" },
+      onsubmit: async e => { e.preventDefault(); if (await unlock(input.value)) { drawLock(); render(); } else err.hidden = false; } },
+      input, el("button", { class: "btn", type: "submit" }, "SHOW ANSWERS")), err);
   }
-  const PANELS = ["reports", "reassign", "fixed"];
-  const PANEL_IDS = {reports: "reportsPanel", fixed: "fixedPanel", reassign: "reassignPanel"};
-  const BTN_IDS = {reports: "tabReportsBtn", fixed: "tabFixedBtn", reassign: "tabReassignBtn"};
-  function showTab(name){
-    for (const p of PANELS){
-      const active = p === name;
-      $(PANEL_IDS[p]).hidden = !active;
-      $(BTN_IDS[p]).classList.toggle("active", active);
-      $(BTN_IDS[p]).setAttribute("aria-selected", String(active));
-    }
-  }
-  for (const p of PANELS) $(BTN_IDS[p]).addEventListener("click", () => showTab(p));
+  drawLock();
 
-  // ---------- bug reports (Live Reports + Fixed tabs share this) ----------
-  function timeAgo(iso){
-    const diffMs = Date.now() - new Date(iso).getTime();
-    const mins = Math.round(diffMs / 60000);
+  // ---------- helpers ----------
+  function ago(iso) {
+    const d = B.ts(iso); if (!d) return "";
+    const mins = Math.round((Date.now() - d) / 60000);
     if (mins < 1) return "just now";
     if (mins < 60) return `${mins}m ago`;
-    const hours = Math.round(mins / 60);
-    if (hours < 24) return `${hours}h ago`;
-    const days = Math.round(hours / 24);
-    if (days < 30) return `${days}d ago`;
-    return new Date(iso).toLocaleDateString();
+    const h = Math.round(mins / 60); if (h < 24) return `${h}h ago`;
+    const days = Math.round(h / 24); return days < 30 ? `${days}d ago` : B.day(iso);
+  }
+  function copyBtn(label, text) {
+    return el("button", { class: "btn", type: "button", onclick: e => {
+      const b = e.currentTarget;
+      navigator.clipboard?.writeText(text).then(() => { const o = b.textContent; b.textContent = "COPIED!"; setTimeout(() => (b.textContent = o), 1200); }).catch(() => {});
+    } }, label);
+  }
+  const row = (k, v) => (v == null || v === "" ? null : el("div", { class: "bug-row" }, el("span", { class: "k" }, k), el("span", { class: "v" }, v)));
+
+  // ---------- data ----------
+  let reports = [];
+  try { reports = (await B.json("bug-reports.json")).reports || []; }
+  catch (e) { B.fail(B.$("#list"), e); return; }
+  const open = reports.filter(r => r.status !== "fixed");
+  const fixedReports = reports.filter(r => r.status === "fixed");
+  let fixedFindings = null, audit = null, custom = null;   // loaded on demand (the audit files are several MB)
+  const fixedFindingsP = B.json("fixed-findings.json").then(F => (fixedFindings = F.findings || [])).catch(() => (fixedFindings = []));
+
+  // ---------- stats ----------
+  function drawStats() {
+    const fixTimes = fixedReports.map(r => (B.ts(r.fixed_at) || 0) - (B.ts(r.reported_at) || 0)).filter(ms => ms > 0).sort((a, b) => a - b);
+    const median = fixTimes.length ? fixTimes[Math.floor(fixTimes.length / 2)] : null;
+    const hunters = {};
+    for (const r of reports) hunters[r.reported_by] = (hunters[r.reported_by] || 0) + 1;
+    const top = Object.entries(hunters).sort((a, b) => b[1] - a[1])[0];
+    const tiles = [
+      ["OPEN", String(open.length), "waiting for a fix", "var(--pink)"],
+      ["FIXED REPORTS", String(fixedReports.length), `of ${reports.length} ever filed`, "var(--neon)"],
+      ["TYPICAL FIX TIME", median ? B.dur(median) : "—", "median, report to fix", "var(--cyan)"],
+      ["AUDIT FIXES", fixedFindings ? B.fmt(fixedFindings.length) : "…", "question-bank findings resolved", "var(--yellow)"],
+    ];
+    if (top) tiles.push(["TOP BUG HUNTER", B.playerLink(top[0]), `${top[1]} reports filed`, "var(--purple)"]);
+    B.$("#stats").replaceChildren(...tiles.map(([l, v, s, c]) => el("div", { class: "tile", style: { "--c": c } },
+      el("span", { class: "label" }, l), el("span", { class: "value" }, v), el("span", { class: "sub" }, s))));
+  }
+  drawStats();
+  fixedFindingsP.then(() => { drawStats(); drawTabs(); });
+
+  // ---------- tabs ----------
+  const TABS = {
+    live: { label: "LIVE", count: () => open.length },
+    fixed: { label: "FIXED", count: () => fixedReports.length + (fixedFindings ? fixedFindings.length : 0) },
+    reassign: { label: "REASSIGNMENTS", count: () => (custom ? reassignItems().length : null) },
+  };
+  let tab = TABS[location.hash.slice(1)] ? location.hash.slice(1) : "live";
+  let q = "", who = "", sort = "newest", page = 0;
+  const PAGE = 40;
+  function drawTabs() {
+    B.$("#tabs").replaceChildren(...Object.entries(TABS).map(([k, t]) => {
+      const n = t.count();
+      return el("button", { class: "btn", type: "button", role: "tab", "aria-selected": String(k === tab), "aria-pressed": String(k === tab),
+        onclick: () => { tab = k; page = 0; q = ""; who = ""; history.replaceState(null, "", `#${k}`); drawTabs(); drawControls(); render(); } },
+        t.label, n != null ? el("span", { style: { color: "var(--muted)" } }, ` ${B.fmt(n)}`) : null);
+    }));
   }
 
-  function loadReports(){
-    const fixedFindingsPromise = fetch("fixed-findings.json")
-      .then(r => r.ok ? r.json() : {findings: []})
-      .catch(() => ({findings: []}));
+  function drawControls() {
+    const search = el("input", { type: "search", placeholder: tab === "reassign" ? "Search question, answer or category…" : "Search question, category or reporter…",
+      "aria-label": "Search", value: q, oninput: e => { q = e.target.value.toLowerCase().trim(); page = 0; clearTimeout(drawControls.t); drawControls.t = setTimeout(render, 150); } });
+    const ctl = [search];
+    if (tab !== "reassign") {
+      const people = [...new Map(reports.map(r => [r.reported_by, r.reported_by_name])).entries()].sort((a, b) => B.name(a[0]).localeCompare(B.name(b[0])));
+      ctl.push(el("select", { "aria-label": "Reported by", onchange: e => { who = e.target.value; page = 0; render(); } },
+        el("option", { value: "" }, "Everyone"), people.map(([id]) => el("option", { value: id, selected: id === who }, B.name(id)))));
+      ctl.push(el("select", { "aria-label": "Sort", onchange: e => { sort = e.target.value; render(); } },
+        el("option", { value: "newest" }, tab === "fixed" ? "Recently fixed" : "Newest first"),
+        el("option", { value: "oldest" }, "Oldest first")));
+    }
+    B.$("#controls").replaceChildren(...ctl);
+  }
 
-    fetch("bug-reports.json")
-      .then(r => { if (!r.ok) throw {notFound: r.status === 404}; return r.json(); })
-      .then(R => Promise.all([
-        R, fixedFindingsPromise, auditDataPromise.catch(() => null), customAuditDataPromise.catch(() => null),
-      ]))
-      .then(([R, FF, D1, D2]) => {
-        const all = (R && R.reports) || [];
-        const openReports = all.filter(r => r.status !== "fixed");
-        const fixedReports = all.filter(r => r.status === "fixed");
+  // ---------- cards ----------
+  function reportCard(r) {
+    const fixed = r.status === "fixed";
+    const took = fixed && r.fixed_at ? (B.ts(r.fixed_at) - B.ts(r.reported_at)) : null;
+    return el("article", { class: "bug", style: { "--c": fixed ? "var(--neon)" : "var(--pink)" } },
+      el("div", { class: "bug-top" },
+        el("span", { class: "bug-id" }, `#${r.id}`),
+        el("span", { class: "chip st" }, fixed ? "FIXED" : "OPEN"),
+        r.category ? el("span", { class: "chip" }, r.category.toUpperCase()) : null,
+        el("span", { class: "chip dim" }, r.method === "reaction" ? "🐛 REACTION" : "COMMAND"),
+        el("span", { class: "bug-who" }, B.avatar(r.reported_by), B.playerLink(r.reported_by), ` · ${ago(r.reported_at)}`)),
+      r.question_text ? el("div", { class: "bug-q" }, r.question_text) : el("div", { class: "bug-q", style: { color: "var(--muted)" } }, "(question no longer in the database)"),
+      row("CURRENT ANSWER", answers(r.correct_answers, false)),
+      fixed ? row("FIXED", `${ago(r.fixed_at)}${took > 0 ? ` · took ${B.dur(took)}` : ""}`) : null,
+      el("div", { class: "bug-actions" }, copyBtn("COPY ID", String(r.id)),
+        r.message_id ? el("a", { class: "btn", href: `https://discord.com/channels/${r.guild_id}/${r.channel_id}/${r.message_id}`, target: "_blank", rel: "noopener" }, "OPEN IN DISCORD ↗") : null));
+  }
+  function findingCard(f) {
+    return el("article", { class: "bug", style: { "--c": "var(--neon)" } },
+      el("div", { class: "bug-top" },
+        el("span", { class: "bug-id" }, f.id),
+        el("span", { class: "chip st" }, "FIXED"),
+        f.category ? el("span", { class: "chip" }, f.category.toUpperCase()) : null,
+        el("span", { class: "chip dim" }, f.kindLabel),
+        el("span", { class: "bug-who" }, `fixed ${ago(f.fixed_at)}`)),
+      f.question_text ? el("div", { class: "bug-q" }, f.question_text) : el("div", { class: "bug-q", style: { color: "var(--muted)" } }, "(details not in the audit file)"),
+      row("ANSWER AT THE TIME", answers(f.correct_answers, f.plain)),
+      el("div", { class: "bug-actions" }, copyBtn("COPY ID", f.id)));
+  }
+  function reassignCard(r) {
+    const qn = lookupCustom(r.question_id);
+    const id = r.id.replace(/^N-/, "C-");
+    const loc = qn ? `${qn.file}:${qn.line}` : "";
+    return el("article", { class: "bug", style: { "--c": "var(--yellow)" } },
+      el("div", { class: "bug-top" },
+        el("span", { class: "bug-id" }, id),
+        el("span", { class: "chip st" }, `${r.current_category.toUpperCase()} → ${r.destination.toUpperCase()}`),
+        r.evidence ? el("span", { class: "chip dim" }, r.evidence.toUpperCase()) : null),
+      el("div", { class: "bug-q" }, qn ? qn.question : "(question no longer found)"),
+      qn ? row("ANSWER", answers(qn.answers, true)) : null,
+      row("WHY", r.issue), row("SUGGESTED FIX", r.fix),
+      el("div", { class: "bug-actions" }, copyBtn("COPY ID", id), loc ? copyBtn("COPY SOURCE LINE", loc) : null));
+  }
 
-        refreshReports = setupReportPanel({
-          idPrefix: "report", tabCountId: "reportsTabCount", loadingId: "reportsLoading",
-          emptyId: "reportsEmpty", appId: "reportsApp", statsId: "reportsStats",
-          hasStatusStat: true, dateField: "reported_at", dateLabel: "Reported",
-        }, openReports);
-
-        // Merge fixed items from all three finding sources into the Fixed
-        // tab alongside fixed bug reports. Each source's actual content
-        // (question, category, answers) lives only in that source's own
-        // JSON file, so it's looked up there by ID rather than duplicated
-        // into fixed-findings.json -- which just records IDs + when.
-        //   F1416        -- YAML Tracked Bugs finding (trivia-audit.json)
-        //   N-XXXXXXXXXX -- Custom Categories finding (other-categories-audit.json .findings)
-        //   C-XXXXXXXXXX -- Reassignment suggestion (other-categories-audit.json .category_findings,
-        //                    displayed with "C-" in place of its real "N-" prefix so its ID never
-        //                    reads the same as a Custom Categories finding ID)
-        const yamlFindingById = D1 ? new Map(D1.findings.map(f => [f.id, f])) : new Map();
-        const customFindingById = D2 ? new Map(D2.findings.map(f => [f.id, f])) : new Map();
-        const customInventoryById = D2 ? new Map(D2.inventory.map(x => [x.id, x])) : new Map();
-        const categoryFindingById = D2 ? new Map(D2.category_findings.map(f => [f.id, f])) : new Map();
-        const referenceById = D2 ? new Map(D2.references.map(x => [x.id, x])) : new Map();
-        const lookupCustomQuestion = qid => (qid[0] === "Y" ? referenceById.get(qid) : customInventoryById.get(qid));
-
-        const fixedFindingList = ((FF && FF.findings) || []).map(f => {
-          const fid = f.finding_id;
-          // trivia-audit.json's answers are scrambled (XOR + base64, see
-          // utils/answer_lock.py); other-categories-audit.json's are plain
-          // text -- this flag tells the card template which reveal
-          // function to use so N-/C- answers don't get corrupted by an
-          // unscramble pass they were never encoded for.
-          let category = null, question_text = null, correct_answers = null, badgeLabel = "🔎 Tracked Bug", answersFormat = "scrambled";
-          if (fid.startsWith("C-")) {
-            const found = categoryFindingById.get(fid.replace(/^C-/, "N-"));
-            const q = found ? lookupCustomQuestion(found.question_id) : null;
-            category = found ? `${found.current_category} → ${found.destination}` : null;
-            question_text = q ? q.question : null;
-            correct_answers = q ? q.answers : null;
-            badgeLabel = "🔁 Reassignment";
-            answersFormat = "plain";
-          } else if (fid.startsWith("N-")) {
-            const found = customFindingById.get(fid);
-            const inv = found ? customInventoryById.get(found.question_id) : null;
-            category = inv ? inv.category : null;
-            question_text = inv ? inv.question : null;
-            correct_answers = inv ? inv.answers : null;
-            badgeLabel = "🔎 Custom audit";
-            answersFormat = "plain";
-          } else {
-            const found = yamlFindingById.get(fid);
-            category = found ? found.category : null;
-            question_text = found ? found.question : null;
-            correct_answers = found ? found.current_answers : null;
+  // ---------- the audit files, only when a tab needs them ----------
+  let lookupCustom = () => null;
+  let auditP = null;
+  function loadAudits() {
+    if (!auditP) {
+      auditP = Promise.all([B.json("trivia-audit.json").catch(() => null), B.json("other-categories-audit.json").catch(() => null), fixedFindingsP])
+        .then(([a, c]) => {
+          audit = a; custom = c;
+          if (c) {
+            const inv = new Map(c.inventory.map(x => [x.id, x])), refs = new Map(c.references.map(x => [x.id, x]));
+            lookupCustom = qid => (qid && qid[0] === "Y" ? refs.get(qid) : inv.get(qid));
           }
-          return {
-            kind: "finding", id: fid, status: "fixed", category, answersFormat,
-            reported_by: "tracker", reported_by_name: "Tracker",
-            fixed_at: f.fixed_at, question_text, correct_answers, badgeLabel,
-          };
+          drawTabs();
         });
+    }
+    return auditP;
+  }
+  function fixedFindingCards() {
+    const yaml = audit ? new Map(audit.findings.map(f => [f.id, f])) : new Map();
+    const cf = custom ? new Map(custom.findings.map(f => [f.id, f])) : new Map();
+    const cat = custom ? new Map(custom.category_findings.map(f => [f.id, f])) : new Map();
+    return (fixedFindings || []).map(f => {
+      const id = f.finding_id;
+      const out = { id, fixed_at: f.fixed_at, kindLabel: "AUDIT FINDING", plain: false, category: null, question_text: null, correct_answers: null };
+      if (id.startsWith("C-")) {
+        const x = cat.get(id.replace(/^C-/, "N-")), qn = x ? lookupCustom(x.question_id) : null;
+        Object.assign(out, { kindLabel: "REASSIGNMENT", plain: true, category: x ? `${x.current_category} → ${x.destination}` : null,
+          question_text: qn && qn.question, correct_answers: qn && qn.answers });
+      } else if (id.startsWith("N-")) {
+        const x = cf.get(id), qn = x ? lookupCustom(x.question_id) : null;
+        Object.assign(out, { kindLabel: "CUSTOM AUDIT", plain: true, category: qn && qn.category, question_text: qn && qn.question, correct_answers: qn && qn.answers });
+      } else {
+        const x = yaml.get(id);
+        Object.assign(out, { category: x && x.category, question_text: x && x.question, correct_answers: x && x.current_answers });
+      }
+      return out;
+    });
+  }
+  const reassignItems = () => {
+    const fixedIds = new Set((fixedFindings || []).map(f => f.finding_id));
+    return (custom ? custom.category_findings : []).filter(r => !fixedIds.has(r.id.replace(/^N-/, "C-")));
+  };
 
-        refreshFixed = setupReportPanel({
-          idPrefix: "fixed", tabCountId: "fixedTabCount", loadingId: "fixedLoading",
-          emptyId: "fixedEmpty", appId: "fixedApp", statsId: "fixedStats",
-          hasStatusStat: false, dateField: "fixed_at", dateLabel: "Fixed",
-        }, [...fixedReports, ...fixedFindingList]);
-
-        fixedFindingIds = new Set(((FF && FF.findings) || []).map(f => f.finding_id));
-        if (refilterReassign) refilterReassign();
-      })
-      .catch(err => {
-        for (const loadingId of ["reportsLoading", "fixedLoading"]) $(loadingId).hidden = true;
-        if (err && err.notFound) { $("reportsEmpty").hidden = false; $("fixedEmpty").hidden = false; return; }
-        for (const boxId of ["reportsErrorBox", "fixedErrorBox"]) {
-          const box = $(boxId);
-          box.hidden = false;
-          box.innerHTML = "<b>Couldn't load bug-reports.json.</b><br>" + esc(err && err.message ? err.message : String(err));
-        }
-      });
+  // ---------- list ----------
+  const list = B.$("#list");
+  async function render() {
+    let items, card;
+    if (tab === "live") {
+      items = open.map(r => ({ r, date: r.reported_at, who: r.reported_by, text: JSON.stringify(r) }));
+      card = x => reportCard(x.r);
+    } else {
+      if (!custom && !audit) { list.replaceChildren(el("div", { class: "loading" }, "LOADING THE AUDIT FILES…")); await loadAudits(); }
+      if (tab === "fixed") {
+        items = [
+          ...fixedReports.map(r => ({ r, date: r.fixed_at || r.reported_at, who: r.reported_by, text: JSON.stringify(r), rep: true })),
+          ...fixedFindingCards().map(f => ({ r: f, date: f.fixed_at, who: null, text: JSON.stringify(f) })),
+        ];
+        card = x => (x.rep ? reportCard(x.r) : findingCard(x.r));
+      } else {
+        items = reassignItems().map(r => ({ r, date: null, text: JSON.stringify({ ...r, ...(lookupCustom(r.question_id) || {}) }) }));
+        card = x => reassignCard(x.r);
+      }
+    }
+    if (who) items = items.filter(x => x.who === who);
+    if (q) items = items.filter(x => x.text.toLowerCase().includes(q));
+    if (tab !== "reassign") items.sort((a, b) => ((B.ts(b.date) || 0) - (B.ts(a.date) || 0)) * (sort === "oldest" ? -1 : 1));
+    const pages = Math.max(1, Math.ceil(items.length / PAGE));
+    page = Math.min(page, pages - 1);
+    B.$("#count").textContent = `${B.fmt(items.length)} ${tab === "reassign" ? "SUGGESTION" : "ITEM"}${items.length === 1 ? "" : "S"}`;
+    if (!items.length) {
+      list.replaceChildren(el("div", { class: "loading" }, tab === "live" && !q && !who ? "NO OPEN BUGS · ALL CLEAR" : "NO MATCHES"));
+      return;
+    }
+    const pager = () => pages > 1 ? el("div", { class: "pager" },
+      el("button", { class: "btn", type: "button", disabled: page === 0, onclick: () => { page--; render(); scrollTo({ top: 0 }); } }, "◀ PREV"),
+      `PAGE ${page + 1} / ${pages}`,
+      el("button", { class: "btn", type: "button", disabled: page >= pages - 1, onclick: () => { page++; render(); scrollTo({ top: 0 }); } }, "NEXT ▶")) : null;
+    list.replaceChildren(...[pager(), ...items.slice(page * PAGE, page * PAGE + PAGE).map(card), pager()].filter(Boolean));
   }
 
-  // Returns a refresh() function the caller can invoke later (e.g. after
-  // unlocking answers) to re-render with the current filter state intact.
-  function setupReportPanel(ids, reports){
-    $(ids.loadingId).hidden = true;
-    $(ids.tabCountId).hidden = reports.length === 0;
-    $(ids.tabCountId).textContent = reports.length;
-    if (!reports.length) { $(ids.emptyId).hidden = false; return () => {}; }
-    $(ids.appId).hidden = false;
-
-    const statCards = [["Total", reports.length]];
-    if (ids.hasStatusStat) statCards.push(["Open", reports.filter(r => r.status === "open").length, "p0"]);
-    statCards.push(["Reporters", new Set(reports.map(r => r.reported_by)).size]);
-    $(ids.statsId).innerHTML = statCards
-      .map(([label, val, cls]) => `<div class="stat ${cls||''}"><b>${val.toLocaleString()}</b><span>${esc(label)}</span></div>`)
-      .join("");
-
-    const userSelect = $(ids.idPrefix + "User");
-    const reporters = [...new Map(reports.map(r => [r.reported_by, r.reported_by_name])).entries()];
-    reporters.sort((a, b) => a[1].localeCompare(b[1]));
-    for (const [id, name] of reporters) userSelect.add(new Option(name, id));
-
-    let shown = reports.slice();
-    function filterList(){
-      const q = $(ids.idPrefix + "Search").value.toLowerCase().trim();
-      const user = userSelect.value;
-      const sort = $(ids.idPrefix + "Sort").value;
-      shown = reports.filter(r => {
-        if (user && String(r.reported_by) !== user) return false;
-        if (!q) return true;
-        return JSON.stringify(r).toLowerCase().includes(q);
-      });
-      if (sort === "oldest") shown.sort((a, b) => new Date(a[ids.dateField]) - new Date(b[ids.dateField]));
-      else if (sort === "reporter") shown.sort((a, b) => a.reported_by_name.localeCompare(b.reported_by_name));
-      else shown.sort((a, b) => new Date(b[ids.dateField]) - new Date(a[ids.dateField]));
-      renderList();
-    }
-    function renderList(){
-      $(ids.idPrefix + "Count").textContent = `${shown.length.toLocaleString()} matching report${shown.length===1?"":"s"}`;
-      $(ids.idPrefix + "Results").innerHTML = shown.map(r => `
-        <article class="card ${ids.hasStatusStat ? 'p0' : 'p2'}">
-          <div class="meta">
-            <span class="loc">${r.kind === "finding" ? esc(r.id) : "#" + r.id}</span>
-            <span class="status-badge ${esc(r.status)}">${esc(r.status)}</span>
-            ${r.category ? `<span class="badge">${esc(r.category)}</span>` : ""}
-            ${r.kind === "finding"
-              ? `<span class="badge">${esc(r.badgeLabel || "🔎 Tracked Bug")}</span>`
-              : `<span class="badge"><span class="method-icon">${r.method === "reaction" ? "🐛" : "🖱️"}</span> ${r.method === "reaction" ? "Reaction" : "Command"}</span>`}
-            <button class="copybtn" data-copy="${esc(r.id)}">Copy ID</button>
-            ${r.kind !== "finding" && r.message_id ? `<button class="copybtn" data-copy="https://discord.com/channels/${r.guild_id}/${r.channel_id}/${r.message_id}">Copy ref</button>` : ""}
-            <span style="margin-left:auto;color:var(--text-muted)">${r.kind === "finding" ? "" : `Reported by <b>${esc(r.reported_by_name)}</b> · `}${ids.dateLabel} ${timeAgo(r[ids.dateField])}</span>
-          </div>
-          ${r.question_text ? `<h3 class="q">${esc(r.question_text)}</h3>` : "<p><i>Question no longer exists in the database.</i></p>"}
-          ${r.correct_answers ? `<p><b>Current answers</b>${r.answersFormat === "plain" ? revealPlain(r.correct_answers) : reveal(r.correct_answers)}</p>` : ""}
-        </article>
-      `).join("") || "<p style='color:var(--text-muted);padding:24px 0;text-align:center'>No matches.</p>";
-    }
-    let searchTimer = null;
-    $(ids.idPrefix + "Search").addEventListener("input", () => { clearTimeout(searchTimer); searchTimer = setTimeout(filterList, 150); });
-    for (const suffix of ["User", "Sort"]) $(ids.idPrefix + suffix).addEventListener("change", filterList);
-    $(ids.idPrefix + "Results").addEventListener("click", e => {
-      const btn = e.target.closest(".copybtn");
-      if (!btn) return;
-      navigator.clipboard?.writeText(btn.dataset.copy).then(() => {
-        const old = btn.textContent;
-        btn.textContent = "Copied!";
-        setTimeout(() => { btn.textContent = old; }, 1200);
-      }).catch(() => {});
-    });
-    filterList();
-    return filterList;
-  }
-
-  // Kept as a promise (not just fired-and-forgotten) so loadReports() can
-  // await it too -- the Fixed tab needs D.findings to display fixed
-  // Codex-audit findings, but this fetch and the reports tab's fetch race
-  // independently depending on which tab the user clicks first.
-  const auditDataPromise = fetch("trivia-audit.json")
-    .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
-    .then(D => { subtitleAudit = D; updateSubtitle(); return D; })
-    .catch(err => {
-      // trivia-audit.json no longer backs a visible tab (Tracked Bugs was
-      // removed) -- it's still fetched for the Fixed tab's lookup and the
-      // header subtitle, so a failure here is non-fatal; just log it.
-      console.error("Couldn't load trivia-audit.json:", err);
-      throw err;
-    });
-
-  // ---------- Reassignments (other-categories-audit.json) ----------
-  // .category_findings/.references feed the Reassignments tab (suggestions
-  // to move a question -- YAML or custom -- to a better-fitting existing
-  // category). .findings/.inventory (correctness findings on bot-added
-  // questions, YAML or not) used to back the Custom Categories tab; that
-  // tab is gone, but those fields are still read for the Fixed tab's
-  // per-ID lookup (see loadReports() below).
-  const customAuditDataPromise = fetch("other-categories-audit.json")
-    .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
-    .then(D => { subtitleCustom = D; updateSubtitle(); initReassign(D); return D; })
-    .catch(err => {
-      // other-categories-audit.json used to also back the Custom Categories
-      // tab (removed) -- it's still fetched for Reassignments, the Fixed
-      // tab's lookup, and the header subtitle.
-      $("reassignLoading").hidden = true;
-      $("reassignErrorBox").hidden = false;
-      $("reassignErrorBox").innerHTML = "<b>Couldn't load other-categories-audit.json.</b><br>" + esc(err.message);
-      throw err;
-    });
-
-  function initReassign(D){
-    $("reassignLoading").hidden = true;
-    const items = D.category_findings;
-    if (!items.length) { $("reassignEmpty").hidden = false; return; }
-    $("reassignApp").hidden = false;
-
-    const inventoryById = new Map(D.inventory.map(x => [x.id, x]));
-    const referenceById = new Map(D.references.map(x => [x.id, x]));
-    const lookupQuestion = qid => (qid[0] === "Y" ? referenceById.get(qid) : inventoryById.get(qid));
-    // Displayed (and /fixed-facing) with "C-" in place of the source data's
-    // "N-" prefix -- otherwise these would read identically to Custom
-    // Categories finding IDs, which also happen to be "N-...".
-    const displayId = realId => realId.replace(/^N-/, "C-");
-    let page = 0, shown = [], size = 60;
-
-    $("reassignTabCount").hidden = items.length === 0;
-    $("reassignTabCount").textContent = items.length;
-
-    const cr = D.category_review;
-    $("reassignStats").innerHTML = [
-      ["Suggestions", items.length],
-      ["Current categories", Object.keys(cr.by_current).length],
-      ["Suggested destinations", Object.keys(cr.by_destination).length],
-    ].map(([label, val]) => `<div class="stat"><b>${val.toLocaleString()}</b><span>${esc(label)}</span></div>`).join("");
-
-    for (const name of Object.keys(cr.by_current).sort()) $("reassignFrom").add(new Option(name, name));
-    for (const name of Object.keys(cr.by_destination).sort()) $("reassignTo").add(new Option(name, name));
-
-    function filter(){
-      page = 0;
-      const q = $("reassignSearch").value.toLowerCase().trim();
-      const from = $("reassignFrom").value, to = $("reassignTo").value;
-      shown = items.filter(r => {
-        if (fixedFindingIds.has(displayId(r.id))) return false;
-        if (from && r.current_category !== from) return false;
-        if (to && r.destination !== to) return false;
-        if (!q) return true;
-        const question = lookupQuestion(r.question_id);
-        return JSON.stringify({...r, ...(question || {})}).toLowerCase().includes(q);
-      });
-      render();
-    }
-
-    function render(){
-      const start = page * size, pageCount = Math.max(1, Math.ceil(shown.length / size));
-      $("reassignCount").textContent = `${shown.length.toLocaleString()} matching suggestion${shown.length===1?"":"s"}`;
-      const pageLabel = `Page ${page + 1} of ${pageCount}`;
-      $("reassignPageTop").textContent = $("reassignPageBot").textContent = pageLabel;
-      const atStart = page === 0, atEnd = start + size >= shown.length;
-      $("reassignPrevTop").disabled = $("reassignPrevBot").disabled = atStart;
-      $("reassignNextTop").disabled = $("reassignNextBot").disabled = atEnd;
-
-      $("reassignResults").innerHTML = shown.slice(start, start + size).map(r => {
-        const q = lookupQuestion(r.question_id);
-        const loc = q ? `${esc(q.file)}:${q.line}` : "";
-        return `<article class="card center-card p1">
-          <div class="meta">
-            <span class="loc">${esc(displayId(r.id))}${loc ? " · " + loc : ""}</span>
-            <span class="badge">${esc(r.current_category)} → ${esc(r.destination)}</span>
-            <span class="badge">${esc(r.evidence)}</span>
-            <button class="copybtn" data-copy="${esc(displayId(r.id))}">Copy ID</button>
-            ${loc ? `<button class="copybtn" data-copy="${loc}">Copy ref</button>` : ""}
-          </div>
-          <h3 class="q">${q ? esc(q.question) : "(question no longer found)"}</h3>
-          ${q ? `<p><b>Current answers</b>${revealPlain(q.answers)}</p>` : ""}
-          <p><b>Suggestion</b>${esc(r.issue)}</p>
-          <p><b>Proposed action</b>${esc(r.fix)}</p>
-        </article>`;
-      }).join("") || "<p style='color:var(--text-muted);padding:24px 0;text-align:center'>No matches.</p>";
-    }
-
-    let searchTimer = null;
-    $("reassignSearch").addEventListener("input", () => { clearTimeout(searchTimer); searchTimer = setTimeout(filter, 150); });
-    for (const id of ["reassignFrom", "reassignTo"]) $(id).addEventListener("change", filter);
-    for (const [prevId, nextId] of [["reassignPrevTop","reassignNextTop"],["reassignPrevBot","reassignNextBot"]]) {
-      $(prevId).onclick = () => { page--; render(); window.scrollTo({top:0, behavior:"smooth"}); };
-      $(nextId).onclick = () => { page++; render(); window.scrollTo({top:0, behavior:"smooth"}); };
-    }
-    $("reassignResults").addEventListener("click", e => {
-      const btn = e.target.closest(".copybtn");
-      if (!btn) return;
-      navigator.clipboard?.writeText(btn.dataset.copy).then(() => {
-        const old = btn.textContent;
-        btn.textContent = "Copied!";
-        setTimeout(() => { btn.textContent = old; }, 1200);
-      }).catch(() => {});
-    });
-
-    refreshReassign = () => { render(); };
-    refilterReassign = () => { filter(); };
-    filter();
-  }
+  drawTabs(); drawControls(); render();
+  B.footer(`${fixedReports.length} BUGS SQUASHED · ${open.length} STILL ALIVE`);
 })();
 </script>
-<script>B.topbar("bugs.html");</script>
 </body>
 </html>

@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stats · Bertha</title>
+<link rel="stylesheet" href="assets/arcade.css">
+<script src="assets/bertha.js"></script>
+<style>
+  .hero { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; margin-top: 32px; }
+  .hero .info { flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+  .hero h1 { margin: 0; font-size: clamp(40px, 7vw, 64px); line-height: 1; font-weight: 400; overflow-wrap: anywhere; }
+  .hero .lv { font: clamp(14px, 2.4vw, 20px)/1.4 var(--pixel); color: var(--neon); }
+  .hero .meta { color: var(--muted); }
+  .picker { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+  .pcard { display: flex; align-items: center; gap: 14px; border: 3px solid var(--line-dim); background: var(--panel); padding: 14px; color: var(--text); min-width: 0; }
+  .pcard:hover { border-color: var(--line); text-decoration: none; color: var(--text); }
+  .pcard .n { font-size: 28px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pcard .s { font: 10px/1.6 var(--pixel); color: var(--muted); }
+  .sticky { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 12px 0; border-bottom: 3px solid var(--line-dim); }
+  .tile .rank { font: 9px/1.6 var(--pixel); color: var(--muted); }
+  .tile .rank.top { color: var(--yellow); }
+  table.grid { border-collapse: collapse; width: 100%; }
+  table.grid th, table.grid td { padding: 8px 12px; text-align: right; border-bottom: 2px solid var(--line-dim); }
+  table.grid th { font: 10px/1.6 var(--pixel); color: var(--muted); font-weight: 400; }
+  table.grid td:first-child, table.grid th:first-child { text-align: left; }
+  .res-w { color: var(--neon); } .res-l { color: var(--pink); } .res-t { color: var(--yellow); }
+  .quote { color: var(--muted); font-style: italic; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <main id="app"><div class="loading">LOADING…</div></main>
+</div>
+
+<script>
+(async () => {
+  const { el } = B;
+  B.topbar("stats.html");
+  const app = B.$("#app");
+  const id = B.param("id");
+
+  let lb;
+  try {
+    await B.loadPlayers();
+    lb = await B.json("stats/leaderboard.json");
+  } catch (e) { B.fail(app, e); return; }
+
+  // ---------- no player picked: the picker ----------
+  if (!id) {
+    const xpRank = B.ranking(lb, B.METRIC.total_xp, "alltime");
+    const ranked = new Map(xpRank.map((r, i) => [r.p.user_id, i + 1]));
+    const people = [...lb.players].sort((a, b) => b.total_xp - a.total_xp || (b.periods.alltime.points || 0) - (a.periods.alltime.points || 0));
+    app.replaceChildren(
+      el("h1", { class: "page-title" }, "STATS"),
+      el("p", { class: "page-sub" }, "Pick a player to see every number Bertha keeps on them."),
+      el("div", { class: "picker" }, people.map(p => el("a", { class: "pcard", href: B.playerHref(p.user_id) },
+        B.avatar(p.user_id, "lg"),
+        el("span", { style: { display: "flex", flexDirection: "column", gap: "6px", minWidth: 0 } },
+          el("span", { class: "n" }, B.name(p.user_id)),
+          el("span", { class: "s" }, `LV ${p.level.level}${ranked.get(p.user_id) ? ` · #${ranked.get(p.user_id)} XP` : ""}`),
+          el("span", { class: "s" }, `${B.fmt(p.periods.alltime.points || 0)} PTS · ${B.fmt(p.periods.alltime.correct || 0)} CORRECT`))))));
+    B.footer();
+    return;
+  }
+
+  // ---------- one player ----------
+  let u, matches, kirk;
+  try {
+    [u, matches, kirk] = await Promise.all([
+      B.json(`stats/users/${encodeURIComponent(id)}.json`),
+      B.allMatches().catch(() => []),
+      B.json("kirkening.json").catch(() => ({ events: [] })),
+    ]);
+  } catch (e) { B.fail(app, e); return; }
+  const me = lb.players.find(p => p.user_id === id);
+  if (!me) { B.fail(app, new Error("this player isn't on the leaderboard yet")); return; }
+  document.title = `${B.name(id)} · Stats · Bertha`;
+  let period = B.PERIODS.some(([k]) => k === location.hash.slice(1)) ? location.hash.slice(1) : "alltime";
+
+  const lvl = me.level;
+  const xpRank = B.rankOf(lb, B.METRIC.total_xp, "alltime", id);
+  const switcher = el("select", { class: "btn", "aria-label": "Switch player", onchange: e => (location.href = B.playerHref(e.target.value)) },
+    [...lb.players].sort((a, b) => B.name(a.user_id).localeCompare(B.name(b.user_id)))
+      .map(p => el("option", { value: p.user_id, selected: p.user_id === id }, B.name(p.user_id))));
+  const hero = el("section", { class: "hero" },
+    B.avatar(id, "xl"),
+    el("div", { class: "info" },
+      el("h1", {}, B.name(id)),
+      el("div", { class: "lv" }, `LV ${lvl.level}`, xpRank ? el("span", { style: { color: "var(--yellow)" } }, ` · #${xpRank} IN XP`) : null),
+      el("div", { class: "xpbar", role: "progressbar", "aria-valuemin": "0", "aria-valuemax": "100",
+        "aria-valuenow": String(Math.round(100 * (lvl.progress || 0))), "aria-label": "Progress to next level" },
+        el("span", { style: { width: `${lvl.maxed ? 100 : 100 * (lvl.progress || 0)}%` } })),
+      el("div", { class: "meta" }, lvl.maxed ? "MAX LEVEL" : `${B.fmt(lvl.xp_into_level)} / ${B.fmt(lvl.xp_for_level)} XP to LV ${lvl.level + 1} · ${B.fmt(me.total_xp)} XP total`),
+      u.activity && u.activity.first_answered_at
+        ? el("div", { class: "meta" }, `Playing since ${B.day(u.activity.first_answered_at)}${me.current.last_played ? ` · last played ${me.current.last_played}` : ""}`) : null,
+      el("div", {}, switcher)));
+
+  const body = el("div");
+  const periodBar = el("div", { class: "sticky" });
+  app.replaceChildren(hero, periodBar, body);
+
+  function tile(m, pd, color) {
+    const v = m.get(me, m.period ? pd : "alltime");
+    const qualifies = !m.qualify || m.qualify(me, m.period ? pd : "alltime");
+    const r = v && qualifies ? B.rankOf(lb, m, pd, id) : 0;
+    const of = r ? B.ranking(lb, m, pd).length : 0;
+    return el("div", { class: "tile", style: { "--c": color } },
+      el("span", { class: "label" }, m.label),
+      el("span", { class: "value" }, v ? m.show(v) : (m.show === B.fmt ? "0" : "—")),
+      el("span", { class: `rank${r === 1 ? " top" : ""}` },
+        r ? `#${r} OF ${of}${m.period ? "" : " · ALL-TIME"}` : (!qualifies && v ? "NOT ENOUGH GAMES TO RANK" : m.period ? "" : "ALL-TIME")));
+  }
+
+  function draw() {
+    history.replaceState(null, "", `?id=${encodeURIComponent(id)}#${period}`);
+    periodBar.replaceChildren(B.periodButtons(period, k => { period = k; draw(); }));
+    const out = [];
+    const COLORS = ["var(--yellow)", "var(--cyan)", "var(--pink)", "var(--neon)", "var(--purple)"];
+    B.GROUPS.filter(([g]) => g !== "categories").forEach(([g, label], gi) => {
+      const ms = B.METRICS.filter(m => m.group === g);
+      out.push(el("h2", { class: "section" }, label, g === "xp" || g === "games"
+        ? el("span", { class: "pill", style: { color: "var(--muted)" } }, g === "xp" ? "XP BY PERIOD SINCE SEP 28" : "MODES SINCE SEP 22") : null));
+      out.push(el("div", { class: "tiles" }, ms.map(m => tile(m, period, COLORS[gi % COLORS.length]))));
+    });
+
+    // highlights: the questions behind the records (never the answers)
+    const hl = [];
+    if (u.fastest_guess) hl.push(["FASTEST ANSWER EVER", B.secs(u.fastest_guess.response_time_ms), `${u.fastest_guess.category}: "${u.fastest_guess.question_text}"`]);
+    if (u.best_insane_round) hl.push(["BEST INSANE ROUND EVER", `${u.best_insane_round.guesses} FOUND`, `${u.best_insane_round.category}: "${u.best_insane_round.question_text}"`]);
+    if (u.best_category) hl.push(["BEST CATEGORY EVER", u.best_category.category, `${B.fmt(u.best_category.points)} points · ${B.fmt(u.best_category.correct)} correct`]);
+    if (hl.length) {
+      out.push(el("h2", { class: "section" }, "RECORDS"));
+      out.push(el("div", { class: "tiles" }, hl.map(([l, v, s]) => el("div", { class: "tile", style: { "--c": "var(--neon)" } },
+        el("span", { class: "label" }, l), el("span", { class: "value" }, v), el("span", { class: "sub" }, s)))));
+    }
+
+    // categories for this period
+    const cats = Object.entries((me.categories || {})[period] || {}).sort((a, b) => b[1][0] - a[1][0]);
+    out.push(el("h2", { class: "section" }, `CATEGORIES · ${cats.length}`));
+    if (cats.length) {
+      out.push(el("div", { class: "table-scroll" }, el("table", { class: "grid" },
+        el("thead", {}, el("tr", {}, el("th", {}, "CATEGORY"), el("th", {}, "CORRECT"), el("th", {}, "POINTS"), el("th", {}, "RANK"))),
+        el("tbody", {}, cats.map(([c, [n, pts]]) => {
+          const r = B.rankOf(lb, B.categoryMetric(c), period, id);
+          return el("tr", {}, el("td", {}, el("a", { href: `leaderboard.html#${encodeURIComponent("cat:" + c)}|${period}` }, c)),
+            el("td", {}, B.fmt(n)), el("td", {}, B.fmt(pts)), el("td", { style: { color: r === 1 ? "var(--yellow)" : "" } }, r ? `#${r}` : "—"));
+        })))));
+    } else out.push(el("p", { class: "page-sub" }, "No correct answers in this period."));
+
+    // head-to-head
+    if (u.rivals && u.rivals.length) {
+      out.push(el("h2", { class: "section" }, "HEAD TO HEAD"));
+      out.push(el("div", { class: "table-scroll" }, el("table", { class: "grid" },
+        el("thead", {}, el("tr", {}, el("th", {}, "OPPONENT"), el("th", {}, "DUELS"), el("th", {}, "W–L–T"), el("th", {}, "WIN %"))),
+        el("tbody", {}, u.rivals.map(r => el("tr", {},
+          el("td", {}, el("div", { class: "who", style: { display: "flex", alignItems: "center", gap: "10px" } }, B.avatar(r.user_id), B.playerLink(r.user_id))),
+          el("td", {}, String(r.played)),
+          el("td", {}, el("span", { class: r.wins > r.losses ? "res-w" : r.wins < r.losses ? "res-l" : "res-t" }, `${r.wins}–${r.losses}–${r.ties}`)),
+          el("td", {}, B.pct(r.wins, r.played))))))));
+    }
+
+    // recent matches
+    const mine = matches.filter(m => m.kind === "duel" ? (m.challenger_id === id || m.opponent_id === id) : m.winner_id === id || m.started_by === id).slice(0, 10);
+    if (mine.length) {
+      out.push(el("h2", { class: "section" }, "RECENT MATCHES", el("a", { href: "replays.html" }, "ALL REPLAYS ▸")));
+      out.push(el("div", { class: "mlist" }, mine.map(m => {
+        const k = B.matchKind(m);
+        let res = null;
+        if (m.kind === "duel" && (m.challenger_score || m.opponent_score)) {
+          res = m.is_tie ? ["TIE", "res-t"] : !m.winner_id ? null : m.winner_id === id ? ["WIN", "res-w"] : ["LOSS", "res-l"];
+        } else if (m.winner_id === id) res = ["WIN", "res-w"];
+        return el("a", { class: "mrow", href: B.matchHref(m), style: { "--c": k.color } },
+          el("span", { class: "kind" }, k.label),
+          el("span", { class: "what" }, res ? el("span", { class: res[1] }, `${res[0]} · `) : null, B.matchTitle(m)),
+          el("span", { class: "when" }, B.when(m.ended_at)));
+      })));
+      out.push(el("p", { class: "page-sub" }, "Every duel, plus games this player won or started."));
+    }
+
+    // Kirkening reigns
+    const reigns = [];
+    for (const ev of kirk.events || []) for (const r of ev.reigns) if (r.user_id === id) reigns.push({ ...r, year: ev.year });
+    if (reigns.length) {
+      out.push(el("h2", { class: "section" }, `KIRKENING REIGNS · ${reigns.length}`, el("a", { href: "kirkening.html" }, "KIRKENING ▸")));
+      out.push(el("div", { class: "mlist" }, reigns.map(r => el("div", { class: "mrow", style: { "--c": "var(--yellow)" } },
+        el("span", { class: "kind" }, `${r.year} · ${B.time(r.crowned_at)}`),
+        el("span", { class: "what" }, `Held for ${B.dur(r.reign_ms)}`, r.message_content ? el("span", { class: "quote" }, ` · "${r.message_content}"`) : null),
+        el("span", { class: "when" }, B.day(r.crowned_at))))));
+    }
+
+    // achievements
+    const ach = u.achievements || { catalog: [], unlocked: {} };
+    const got = ach.catalog.filter(a => ach.unlocked[a.key]).sort((a, b) => (B.ts(ach.unlocked[b.key]) || 0) - (B.ts(ach.unlocked[a.key]) || 0));
+    const locked = ach.catalog.filter(a => !ach.unlocked[a.key]);
+    const badge = (a, on) => el("div", { class: `badge${on ? " got" : ""}` },
+      el("div", { class: "bn" }, a.name),
+      el("div", { class: "bd" }, a.description),
+      el("div", { class: "bd", style: { color: on ? "var(--text)" : "var(--muted)" } },
+        on ? `Unlocked ${B.day(ach.unlocked[a.key])}` : "Locked", a.reward_xp ? ` · +${B.fmt(a.reward_xp)} XP` : ""));
+    out.push(el("h2", { class: "section" }, `ACHIEVEMENTS ${got.length} / ${ach.catalog.length}`));
+    const grid = el("div", { class: "badges" }, got.map(a => badge(a, true)));
+    out.push(grid);
+    if (locked.length) {
+      const more = el("button", { class: "btn", type: "button", style: { marginTop: "14px" } }, `SHOW ${locked.length} LOCKED`);
+      more.addEventListener("click", () => { grid.append(...locked.map(a => badge(a, false))); more.remove(); });
+      out.push(more);
+    }
+
+    // cosmetics
+    if (u.cosmetics && u.cosmetics.length) {
+      const types = {};
+      for (const c of u.cosmetics) {
+        const t = (types[c.cosmetic_type] = types[c.cosmetic_type] || { have: 0, all: 0 });
+        t.all++; if (c.unlocked) t.have++;
+      }
+      const LABELS = { footer: "FOOTERS", emoji: "EMOJI PACKS", theme: "RESPONSE THEMES", embedcolor: "EMBED COLORS", mvp: "MVP CARDS" };
+      out.push(el("h2", { class: "section" }, "COSMETICS"));
+      out.push(el("div", { class: "tiles" }, Object.entries(types).map(([t, n]) =>
+        el("div", { class: "tile", style: { "--c": "var(--purple)" } },
+          el("span", { class: "label" }, LABELS[t] || t.toUpperCase()), el("span", { class: "value" }, `${n.have} / ${n.all}`)))));
+    }
+    body.replaceChildren(...out);
+  }
+  draw();
+  B.footer();
+})();
+</script>
+</body>
+</html>

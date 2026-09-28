@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bertha · The Trivia Machine</title>
-<meta name="description" content="High scores, player stats and match replays for Bertha, the Discord trivia bot.">
+<meta name="description" content="Leaderboards, player stats, match replays and the Kirkening for Bertha, the Discord trivia bot.">
 <link rel="stylesheet" href="assets/arcade.css">
 <script src="assets/bertha.js"></script>
 </head>
@@ -25,60 +25,69 @@
 
   // live countdown to 2 PM ET
   const cd = B.$("#countdown");
-  const tick = () => {
-    const s = B.secondsToDaily();
-    cd.textContent = [Math.floor(s / 3600), Math.floor(s / 60) % 60, s % 60].map(n => String(n).padStart(2, "0")).join(":");
-  };
+  const tick = () => { cd.textContent = B.clock(B.secondsToDaily()); };
   tick(); setInterval(tick, 1000);
 
   try {
     await B.loadPlayers();
-    const [lb, matches, bugs] = await Promise.all([
+    const [lb, matches, bugs, kirk, missions] = await Promise.all([
       B.json("stats/leaderboard.json"),
       B.allMatches(),
       B.json("bug-reports.json").catch(() => ({ reports: [] })),
+      B.json("kirkening.json").catch(() => null),
+      B.json("missions.json").catch(() => ({ week: null })),
     ]);
-    const board = lb.players.filter(p => p.total_xp > 0).sort((a, b) => b.total_xp - a.total_xp);
-    if (board[0]) B.setHiscore(String(board[0].total_xp));
+    const levels = Object.fromEntries(lb.players.map(p => [p.user_id, p.level.level]));
     app.replaceChildren();
 
     // ---------- HIGH SCORES ----------
     app.append(el("h2", { class: "section", style: { justifyContent: "center", color: "var(--pink)", letterSpacing: "4px" } }, "HIGH SCORES"));
-    const tbody = el("tbody");
-    board.slice(0, 5).forEach((p, i) => {
-      const c = B.rankColor(i);
-      tbody.append(el("tr", { class: "row", style: { color: c }, onclick: () => (location.href = `player.html?id=${p.user_id}`) },
+    const board = B.ranking(lb, B.METRIC.total_xp, "alltime").slice(0, 5);
+    app.append(el("div", { class: "table-scroll" }, el("table", { class: "scores" },
+      el("thead", {}, el("tr", {}, el("th", {}, "RANK"), el("th", { class: "num" }, "XP"), el("th", {}, "NAME"), el("th", { class: "num" }, "LV"))),
+      el("tbody", {}, board.map(({ p }, i) => el("tr", { class: "row", style: { color: B.rankColor(i) }, onclick: () => (location.href = B.playerHref(p.user_id)) },
         el("td", { class: "rank" }, B.ordinal(i + 1)),
         el("td", { class: "big num" }, String(p.total_xp)),
         el("td", {}, el("div", { class: "who" }, B.avatar(p.user_id), B.playerLink(p.user_id))),
-        el("td", { class: "big num" }, String(p.level.level)),
-      ));
-    });
-    app.append(el("div", { class: "table-scroll" }, el("table", { class: "scores" },
-      el("thead", {}, el("tr", {}, el("th", {}, "RANK"), el("th", { class: "num" }, "XP"), el("th", {}, "NAME"), el("th", { class: "num" }, "LV"))),
-      tbody)));
-    app.append(el("p", { class: "center" }, el("a", { href: "scores.html", style: { font: "11px var(--pixel)" } }, "FULL SCOREBOARD ▸")));
+        el("td", { class: "big num" }, String(p.level.level))))))));
+    app.append(el("p", { class: "center" }, el("a", { href: "leaderboard.html", style: { font: "11px var(--pixel)" } }, "EVERY LEADERBOARD ▸")));
 
     // ---------- LAST FIGHT ----------
     const duels = matches.filter(m => m.kind === "duel");
     const fight = duels.find(m => m.winner_id);
     if (fight) {
       app.append(el("h2", { class: "section" }, "LAST FIGHT", el("a", { href: "replays.html#duels" }, `ALL ${duels.length} DUELS ▸`)));
-      const levels = Object.fromEntries(lb.players.map(p => [p.user_id, p.level.level]));
       app.append(B.fightCard(fight, levels));
       app.append(el("p", { class: "center" }, el("a", { href: B.matchHref(fight), style: { font: "11px var(--pixel)" } }, "WATCH THE REPLAY ▸")));
     }
 
+    // ---------- THIS WEEK'S MISSIONS ----------
+    const week = missions && missions.week;
+    if (week && week.missions && week.missions.length) {
+      const DIFF = { easy: "var(--neon)", medium: "var(--yellow)", hard: "var(--pink)" };
+      app.append(el("h2", { class: "section" }, "THIS WEEK'S MISSIONS",
+        el("span", { class: "pill", style: { color: "var(--muted)" } }, `RESETS ${B.when(week.week_end).toUpperCase()} ET`)));
+      app.append(el("div", { class: "missions" }, week.missions.map(ms => {
+        const done = ms.players.filter(x => x.completed_at);
+        const lead = ms.players[0];
+        return el("div", { class: "mission", style: { "--c": DIFF[ms.difficulty] || "var(--cyan)" } },
+          el("span", { class: "diff" }, `${String(ms.difficulty).toUpperCase()} · +${B.fmt(ms.xp_reward)} XP`),
+          el("span", { class: "txt" }, ms.text),
+          el("span", { class: "who" }, done.length ? `${done.length} completed` : "Nobody's finished it yet",
+            lead && !lead.completed_at ? el("span", {}, " · closest: ", B.playerLink(lead.user_id), ` ${B.fmt(lead.progress)}/${B.fmt(ms.target)}`) : null));
+      })));
+    }
+
     // ---------- HALL OF FAME ----------
+    const top = (key, pd = "alltime") => B.ranking(lb, B.METRIC[key], pd)[0];
     const tiles = [];
     const daily = matches.find(m => m.kind === "game" && m.mode === "daily" && m.winner_id);
     if (daily) tiles.push(["DAILY CHAMP", B.playerLink(daily.winner_id), `${daily.rounds_played} rounds · ${B.day(daily.ended_at)}`, "var(--yellow)"]);
-    const streak = [...lb.players].sort((a, b) => b.best_streak - a.best_streak)[0];
-    if (streak) tiles.push(["LONGEST COMBO", `${streak.best_streak} IN A ROW`, B.name(streak.user_id), "var(--cyan)"]);
+    if (kirk && kirk.holder) tiles.push(["THE KIRK", B.playerLink(kirk.holder.user_id), `crowned ${B.day(kirk.holder.updated_at)}`, "var(--yellow)", "kirkening.html"]);
+    const streak = top("best_streak");
+    if (streak) tiles.push(["LONGEST COMBO", `${streak.v} IN A ROW`, B.name(streak.p.user_id), "var(--cyan)"]);
     const games = matches.filter(m => m.kind === "game").length;
-    tiles.push(["MATCHES LOGGED", String(matches.length), `${games} games · ${duels.length} duels`, "var(--pink)"]);
-
-    // biggest rivalry: the pair with the most duels against each other
+    tiles.push(["MATCHES LOGGED", String(matches.length), `${games} games · ${duels.length} duels`, "var(--pink)", "replays.html"]);
     const pairs = {};
     for (const d of duels) {
       const k = [d.challenger_id, d.opponent_id].sort().join("|");
@@ -90,16 +99,17 @@
       const [a, b] = rival.ids;
       tiles.push(["BIGGEST RIVALRY", `${rival.n} DUELS`, `${B.name(a)} ${rival.w[a] || 0}–${rival.w[b] || 0} ${B.name(b)}`, "var(--purple)"]);
     }
-    const quick = lb.players.filter(p => (p.period.alltime_correct || 0) >= 100 && p.average_guess_ms)
-      .sort((a, b) => a.average_guess_ms - b.average_guess_ms)[0];
-    if (quick) tiles.push(["QUICKEST DRAW", B.secs(quick.average_guess_ms), `${B.name(quick.user_id)} · average correct answer`, "var(--neon)"]);
+    const quick = top("avg_guess_ms");
+    if (quick) tiles.push(["QUICKEST DRAW", B.secs(quick.v), `${B.name(quick.p.user_id)} · average correct answer`, "var(--neon)"]);
+    const weekPts = top("points", "weekly");
+    if (weekPts) tiles.push(["PLAYER OF THE WEEK", B.playerLink(weekPts.p.user_id), `${B.fmt(weekPts.v)} points in 7 days`, "var(--pink)", "leaderboard.html#points|weekly"]);
     const open = bugs.reports.filter(r => r.status === "open").length, fixed = bugs.reports.filter(r => r.status === "fixed").length;
-    tiles.push(["BUGS SQUASHED", String(fixed), `${open} still alive`, "var(--pink)"]);
+    tiles.push(["BUGS SQUASHED", String(fixed), `${open} still alive`, "var(--pink)", "bugs.html"]);
 
     app.append(el("h2", { class: "section" }, "HALL OF FAME"));
-    app.append(el("div", { class: "tiles" }, tiles.map(([label, value, sub, c]) =>
+    app.append(el("div", { class: "tiles" }, tiles.map(([label, value, sub, c, href]) =>
       el("div", { class: "tile", style: { "--c": c } },
-        el("span", { class: "label" }, label),
+        href ? el("a", { class: "label", href, style: { color: c } }, `${label} ▸`) : el("span", { class: "label" }, label),
         el("span", { class: "value" }, value),
         el("span", { class: "sub" }, sub)))));
 

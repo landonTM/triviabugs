@@ -35,10 +35,6 @@
   try {
     await B.loadPlayers();
     matches = await B.allMatches();
-    B.json("stats/leaderboard.json").then(lb => {
-      const top = [...lb.players].sort((a, b) => b.total_xp - a.total_xp)[0];
-      if (top) B.setHiscore(String(top.total_xp));
-    }).catch(() => {});
   } catch (e) { B.fail(app, e); return; }
 
   function render() {
