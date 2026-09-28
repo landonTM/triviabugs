@@ -24,9 +24,7 @@
       "category": "Whos That Pokemon (Gen 1)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/Y6aQTvu.png",
-      "correct_answers": [
-        "mT3x7OaMkvg="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Whos That Pokemon (Gen 8)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/DEEZkqf.png",
-      "correct_answers": [
-        "nTfz4PaCi/M="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Art and Literature",
       "question_text": "Paint applied very thickly. It often projects from the picture surface?",
       "image_url": null,
-      "correct_answers": [
-        "hjXv+OaZiA=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
       "image_url": "https://i.imgur.com/qqKx7hp.png",
-      "correct_answers": [
-        "nDfq7f3NtP8cyig="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "Game of Thrones",
       "question_text": "What skilled sellsword is hired as a bodyguard by Tyrion Lannister?",
       "image_url": null,
-      "correct_answers": [
-        "jSrw9/s="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,9 +79,7 @@
       "category": "Space",
       "question_text": "The Big Bang theory was first proposed by Georges Lemaitre, a priest of which church?",
       "image_url": null,
-      "correct_answers": [
-        "jDnr8fqBjuk="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 7,
@@ -102,9 +90,7 @@
       "category": "Chemistry",
       "question_text": "Which British chemist is best known for his book \"The Sceptical Chymist\"?",
       "image_url": null,
-      "correct_answers": [
-        "nTf9/OeZx8gX0irj"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 8,
@@ -115,34 +101,8 @@
       "category": "Movies",
       "question_text": "Every Martin Scorsese film",
       "image_url": null,
-      "correct_answers": [
-        "mDDwvubNs+IZ32bN3qTvHULKsStGqf5Ifk7cvpfE",
-        "jTfn+vSfx8gd2TLu0Q==",
-        "gj3+97W+k/gdzjL1",
-        "jjT2+vDNo+Ud2CihxOvAH13B9kNCr7slRgDhvJfEZA==",
-        "mznn8LWpleMOzjQ=",
-        "gT3oucyCleFUiwjjx+vVGVnP",
-        "nTn48PuKx8gNxyo=",
-        "mzD6ud6Eie1YxCCm86ThE0/d",
-        "jj7r/OfNr+UN2TU=",
-        "mzD6udaCi+UKiyngkIbjGE7d",
-        "mzD6udmMlP5Y/yPrwL/tAkLLuCtIu/5Gbxzxoow=",
-        "iDfw/fOIi+YZ2A==",
-        "jDnv/LWrgusK",
-        "mzD6udSKgqoXzWbP3qXjFU7KtW4=",
-        "jDns8PuC",
-        "hC3x/eCD",
-        "jSr29/KEie1Y5DPykL/kEwvgs2pD",
-        "iDnx/ubNiOxY5SPxkJLjBEA=",
-        "mzD6udSbjusMxDQ=",
-        "mzD6udGIl+sK3yPi",
-        "nDDq7eGIlaox2Crn3q8=",
-        "hy349g==",
-        "mzD6ucKCi+xYxCCm56rgGgv3onlCuKo=",
-        "nDHz/PuOgg==",
-        "mzD6udyfjvkQxifo",
-        "hDHz9fCflKoXzWby2K6sMEfLoW5V/ZNqaAA="
-      ]
+      "answer_count": 26
     }
-  ]
+  ],
+  "xp": {}
 }
