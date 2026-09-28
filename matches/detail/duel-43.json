@@ -24,9 +24,7 @@
       "category": "Phobias",
       "question_text": "If you have Ichthyophobia, what are you afraid of?",
       "image_url": null,
-      "correct_answers": [
-        "iTHs8Q=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Phobias",
       "question_text": "If you have Hodophobia, what are you afraid of doing?",
       "image_url": null,
-      "correct_answers": [
-        "myr+7/CBjuQf"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Phobias",
       "question_text": "If you have Hodophobia, what are you afraid of doing?",
       "image_url": null,
-      "correct_answers": [
-        "myr+7/CBjuQf"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Phobias",
       "question_text": "If you have Coulrophobia, what are you afraid of?",
       "image_url": null,
-      "correct_answers": [
-        "jDTw7vue"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,8 @@
       "category": "Phobias",
       "question_text": "If you have Chromophobia, what are you afraid of?",
       "image_url": null,
-      "correct_answers": [
-        "jDfz9uee"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
