@@ -25,9 +25,7 @@
       "category": "Art and Literature",
       "question_text": "Who is associated with the address 221B Baker Street, London?",
       "image_url": null,
-      "correct_answers": [
-        "nDD66/mChOFY4ynq3a7/"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Art and Literature",
       "question_text": "A painting movement that flourished in France in the 1880s and 1890s in which subject matter was suggested rather than directly presented. It featured decorative, stylized, and evocative images?",
       "image_url": null,
-      "correct_answers": [
-        "nCHy+/qBjvkV"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -61,7 +57,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": []
     },
     {
@@ -73,9 +69,7 @@
       "category": "Art and Literature",
       "question_text": "Which play is often considered Shakespeare's last play written without a collaborator?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ucGIivod2DI="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -95,9 +89,7 @@
       "category": "Art and Literature",
       "question_text": "Who painted 'Flatford Mill'?",
       "image_url": null,
-      "correct_answers": [
-        "jDfx6uGMheYd"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -109,7 +101,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -129,9 +121,7 @@
       "category": "Art and Literature",
       "question_text": "What is the name of the author of book series 'Percy Jackson'?",
       "image_url": null,
-      "correct_answers": [
-        "nTH88rW/juUKzyfo"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -143,9 +133,7 @@
       "category": "Art and Literature",
       "question_text": "Who wrote 'Jurassic Park'?",
       "image_url": null,
-      "correct_answers": [
-        "gjH88fSIi6o72S/l2L/jGA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -165,9 +153,7 @@
       "category": "Art and Literature",
       "question_text": "Who painted 'The Blue Boy'?",
       "image_url": null,
-      "correct_answers": [
-        "iDn29+aPiPgX3iHu"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -187,95 +173,7 @@
       "category": "Video Games",
       "question_text": "Super Smash Bros. Ultimate Fighters",
       "image_url": null,
-      "correct_answers": [
-        "gjnt8Po=",
-        "izfx8vCUx8EXxSE=",
-        "gzHx8g==",
-        "nDny7OY=",
-        "iznt8rW+hucN2A==",
-        "ljfs8fw=",
-        "hDHt++w=",
-        "iTfn",
-        "nzH0+PaFkg==",
-        "gy32/vw=",
-        "gT3s6g==",
-        "jDnv7fSEiao+yirl36U=",
-        "hTH4/vmUl/8ezQ==",
-        "nz3++v0=",
-        "izn26uw=",
-        "jTfo6vCf",
-        "hjv6udaBjucazjT1",
-        "nDD68P4=",
-        "lT3z/fQ=",
-        "iyqxudiMleMX",
-        "nzH88eA=",
-        "iTnz+vo=",
-        "gjnt7f0=",
-        "gy388PuM",
-        "ljfq9/LNq+MWwA==",
-        "iDnx9vuJiPge",
-        "gj3o7eKC",
-        "nTfm",
-        "jDDt9vg=",
-        "giqxudKMiu9YyijikJztAkjM",
-        "gj3r+LWmieMfwzI=",
-        "nzHr",
-        "iznt8rW9jv4=",
-        "lT3t9rW+kuMMixXn3b7/",
-        "mDnt8Po=",
-        "nDb+8vA=",
-        "hjP6",
-        "izH7/ezNrOUWzA==",
-        "gy38+OY=",
-        "nDfx8PY=",
-        "hDHx/rWpgu4dzyM=",
-        "gDT29PSf",
-        "gy38+OeEiA==",
-        "nRfd",
-        "mzfw97WhjuQT",
-        "mDfz/w==",
-        "mTHz9fSKgvg=",
-        "gj34+LWghuQ=",
-        "mDH2udOEk6os2Sfv3q7+",
-        "nTfs+PmEietYyijikIf5G0o=",
-        "gzHr7fmIx8cZyA==",
-        "iCr69/yDjes=",
-        "nznz7OGIies=",
-        "nzn8tNiMiQ==",
-        "nTf98Ps=",
-        "nDDq9f4=",
-        "jTfo6vCfx8AKhQ==",
-        "iy388rWlkuQM",
-        "nSHq",
-        "hD3x",
-        "jDTw7PE=",
-        "jDft6/yD",
-        "jTnm9vuIk/4Z",
-        "hjb09fyDgA==",
-        "nTH79fCU",
-        "nDHy9vs=",
-        "nTH88eGIlQ==",
-        "hDHx/rWmyaoqxCnq",
-        "hiv++/CBi+8=",
-        "hjb88PuIleUZ2Q==",
-        "nzHt+PuFhqooxyfoxA==",
-        "hTf0/Oc=",
-        "hz3t9g==",
-        "jTnx8/rNwaozyjzp36Lp",
-        "mz3t6+w=",
-        "jSHz/OGF",
-        "gjHxudiEiQ==",
-        "nCz67/A=",
-        "nD3v8fyfiP4Q",
-        "nyHt+A==",
-        "giHr8eeM",
-        "hDnl7OyM",
-        "nDft+A==",
-        "gjH2udefhv0UzjQ=",
-        "gjH2ucaaiPgczS/h2L/pBA==",
-        "gjH2udKYieQd2Q==",
-        "nzf0/PiCiaos2Sfv3q7+"
-      ],
+      "answer_count": 87,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -349,5 +247,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
