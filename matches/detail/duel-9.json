@@ -6,7 +6,9 @@
     "challenger_id": "184456115927384065",
     "opponent_id": "433990857063137282",
     "format": 5,
+    "format_label": "Best of 5",
     "winner_id": "184456115927384065",
+    "is_tie": false,
     "challenger_score": 2,
     "opponent_score": 1,
     "decided_by_tiebreaker": false,
@@ -21,32 +23,35 @@
       "answered_at": "2026-09-24 00:38:42.496507+00:00",
       "category": "Pokemon",
       "question_text": "What Pokémon is fighting with Nidorino in the opening for Pokémon Blue and Red?",
+      "image_url": null,
       "correct_answers": [
-        "Gengar"
+        "iD3x/vSf"
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 6830,
       "answered_at": "2026-09-24 00:38:42.496507+00:00",
       "category": "Video Games",
       "question_text": "What does the acronym \"NES\" stand for?",
+      "image_url": null,
       "correct_answers": [
-        "Nintendo Entertainment System"
+        "gTHx7fCDg+VY7ijy1bn4F0LKu25Jqf5Wfh3stJU="
       ]
     },
     {
       "round_number": 3,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 13256,
       "answered_at": "2026-09-24 00:38:42.496507+00:00",
       "category": "General Knowledge",
       "question_text": "The English word \"science\" stems from the Latin word \"scire\", meaning \"to\" do what?",
+      "image_url": null,
       "correct_answers": [
-        "Know"
+        "hDbw7g=="
       ]
     },
     {
@@ -57,20 +62,22 @@
       "answered_at": "2026-09-24 00:38:42.496507+00:00",
       "category": "Geography",
       "question_text": "What strait, located between Malaysia and Indonesia, is the world's busiest shipping lane?",
+      "image_url": null,
       "correct_answers": [
-        "Strait of Malacca"
+        "nCzt+PyZx+Ueiwvn3KrvFUo="
       ]
     },
     {
       "round_number": 5,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 7583,
       "answered_at": "2026-09-24 00:38:42.496507+00:00",
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/Mc08OmO.png",
       "correct_answers": [
-        "Taiwan"
+        "mzn27vSD"
       ]
     }
   ]
