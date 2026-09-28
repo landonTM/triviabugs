@@ -2,39 +2,39 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 41,
-    "xp_into_level": 31970,
+    "xp_into_level": 34501,
     "xp_for_level": 58000,
-    "progress": 0.5512068965517242,
+    "progress": 0.5948448275862069,
     "maxed": false
   },
-  "total_xp": 884470,
+  "total_xp": 887001,
   "period_stats": {
-    "daily_points": 184,
-    "daily_correct": 111,
-    "weekly_points": 708,
-    "weekly_correct": 419,
-    "monthly_points": 6086,
-    "monthly_correct": 3495,
-    "yearly_points": 6192,
-    "yearly_correct": 3554,
-    "alltime_points": 6192,
-    "alltime_correct": 3554
+    "daily_points": 190,
+    "daily_correct": 116,
+    "weekly_points": 714,
+    "weekly_correct": 424,
+    "monthly_points": 6092,
+    "monthly_correct": 3500,
+    "yearly_points": 6198,
+    "yearly_correct": 3559,
+    "alltime_points": 6198,
+    "alltime_correct": 3559
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 4003,
-    "questions_right": 1365,
+    "total_points": 4005,
+    "questions_right": 1366,
     "questions_wrong": 0,
-    "wins": 1365,
+    "wins": 1366,
     "current_streak": 1,
     "best_streak": 22,
-    "games_played": 57,
-    "insane_guesses": 1235,
+    "games_played": 58,
+    "insane_guesses": 1239,
     "day_streak": 3,
     "last_played_date": "2026-09-28",
-    "total_xp": 884470,
-    "game_wins": 28,
+    "total_xp": 887001,
+    "game_wins": 29,
     "achievement_best_streak": 17
   },
   "best_streak": 22,
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2189,
-  "average_guess_ms": 20270.650549450547,
+  "total_insane_correct": 2193,
+  "average_guess_ms": 20280.96486090776,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 28
   },
   "spelling_accuracy": {
-    "exact_count": 2578,
-    "total": 2955
+    "exact_count": 2583,
+    "total": 2960
   },
   "achievements": {
     "catalog": [
@@ -2358,8 +2358,8 @@
       "key": "haunted",
       "label": "Haunted Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "footer",
@@ -3478,8 +3478,8 @@
       "key": "pumpkin",
       "label": "Pumpkin MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
