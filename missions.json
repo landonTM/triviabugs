@@ -34,7 +34,13 @@
         "xp_reward": 10000,
         "pass_xp_reward": 500,
         "text": "Play 12 games",
-        "players": []
+        "players": [
+          {
+            "user_id": "433990857063137282",
+            "progress": 1,
+            "completed_at": null
+          }
+        ]
       },
       {
         "slot": 4,
