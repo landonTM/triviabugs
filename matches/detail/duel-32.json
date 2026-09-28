@@ -24,9 +24,7 @@
       "category": "General Knowledge",
       "question_text": "What Brazilian martial art, combining dance, acrobatics, and music, was developed by enslaved Africans?",
       "image_url": null,
-      "correct_answers": [
-        "jDnv9vCEles="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Slogans",
       "question_text": "Avoid the Noid.",
       "image_url": null,
-      "correct_answers": [
-        "izfy8PuCwPlY+y/8yqo="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Video Games",
       "question_text": "What cowboy-themed hero, known for his 'It's high noon' ultimate, is a damage character in Overwatch?",
       "image_url": null,
-      "correct_answers": [
-        "jDns6vyJng=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Art and Literature",
       "question_text": "How many lines are in a sonnet?",
       "image_url": null,
-      "correct_answers": [
-        "/mw="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "Quotes",
       "question_text": "Who said: \"I am not a crook.\"",
       "image_url": null,
-      "correct_answers": [
-        "nTH88fSfg6o2wj7p3g=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,9 +79,7 @@
       "category": "What Links",
       "question_text": "What word links Set, Come, Pack",
       "image_url": null,
-      "correct_answers": [
-        "jTn88g=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 7,
@@ -102,9 +90,8 @@
       "category": "Disney",
       "question_text": "In what other Disney Pixar film did Lotso the bear from Toy Story 3 make a cameo appearance?",
       "image_url": null,
-      "correct_answers": [
-        "mig="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
