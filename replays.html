@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Replays · Bertha</title>
+<link rel="stylesheet" href="assets/arcade.css">
+<script src="assets/bertha.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <h1 class="page-title">REPLAYS</h1>
+  <p class="page-sub">Every game and duel since September 22, 2026, round by round.</p>
+  <div class="btns" id="filters" role="group" aria-label="Filter"></div>
+  <main id="app" style="margin-top:24px"><div class="loading">LOADING…</div></main>
+</div>
+
+<script>
+(async () => {
+  const { el } = B;
+  B.topbar("replays.html");
+  const app = B.$("#app");
+  const PAGE = 40;
+  const FILTERS = {
+    all: ["ALL", () => true],
+    games: ["GAMES", m => m.kind === "game"],
+    duels: ["DUELS", m => m.kind === "duel"],
+    daily: ["DAILY", m => m.mode === "daily"],
+    quickfire: ["QUICKFIRE", m => m.mode === "quickfire"],
+    hardcore: ["HARDCORE", m => m.mode === "hardcore"],
+  };
+  let filter = FILTERS[location.hash.slice(1)] ? location.hash.slice(1) : "all";
+  let shown = PAGE, matches;
+
+  try {
+    await B.loadPlayers();
+    matches = await B.allMatches();
+    B.json("stats/leaderboard.json").then(lb => {
+      const top = [...lb.players].sort((a, b) => b.total_xp - a.total_xp)[0];
+      if (top) B.setHiscore(String(top.total_xp));
+    }).catch(() => {});
+  } catch (e) { B.fail(app, e); return; }
+
+  function render() {
+    B.$("#filters").replaceChildren(...Object.entries(FILTERS).map(([k, [label, f]]) =>
+      el("button", { class: "btn", type: "button", "aria-pressed": String(k === filter),
+        onclick: () => { filter = k; shown = PAGE; history.replaceState(null, "", `#${k}`); render(); } },
+        `${label} ${matches.filter(f).length}`)));
+    const list = matches.filter(FILTERS[filter][1]);
+    if (!list.length) { app.replaceChildren(el("div", { class: "loading" }, "NO REPLAYS YET")); return; }
+    const out = [];
+    let lastDay = null;
+    for (const m of list.slice(0, shown)) {
+      const d = B.day(m.ended_at);
+      if (d !== lastDay) { out.push(el("div", { class: "btn-row-label", style: { marginTop: out.length ? "22px" : "0" } }, d.toUpperCase())); lastDay = d; }
+      const k = B.matchKind(m);
+      out.push(el("a", { class: "mrow", href: B.matchHref(m), style: { "--c": k.color } },
+        el("span", { class: "kind" }, k.label), el("span", { class: "what" }, B.matchTitle(m)), el("span", { class: "when" }, B.when(m.ended_at))));
+    }
+    app.replaceChildren(el("div", { class: "mlist" }, out));
+    if (list.length > shown) {
+      app.append(el("button", { class: "btn", type: "button", style: { marginTop: "18px" },
+        onclick: () => { shown += PAGE; render(); } }, `LOAD MORE (${list.length - shown} LEFT)`));
+    }
+  }
+  render();
+  B.footer();
+})();
+</script>
+</body>
+</html>

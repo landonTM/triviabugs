@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scores · Bertha</title>
+<link rel="stylesheet" href="assets/arcade.css">
+<script src="assets/bertha.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <h1 class="page-title">SCOREBOARD</h1>
+  <p class="page-sub">Every player's numbers, straight from the bot. Pick a board.</p>
+  <div class="btns" id="boards" role="group" aria-label="Board"></div>
+  <div id="periodWrap" hidden>
+    <div class="btn-row-label">PERIOD</div>
+    <div class="btns" id="periods" role="group" aria-label="Period"></div>
+  </div>
+  <p id="note" class="page-sub" style="margin-top:18px"></p>
+  <main id="app"><div class="loading">LOADING…</div></main>
+</div>
+
+<script>
+(async () => {
+  const { el } = B;
+  B.topbar("scores.html");
+  const app = B.$("#app");
+
+  const PERIODS = [["daily", "TODAY"], ["weekly", "WEEK"], ["monthly", "MONTH"], ["yearly", "YEAR"], ["alltime", "ALL-TIME"]];
+  const SPEED_MIN = 100;
+  const BOARDS = {
+    xp: { label: "XP", value: p => p.total_xp, show: v => String(v), extra: [["LV", p => p.level.level]] },
+    points: { label: "POINTS", period: true, value: (p, per) => p.period[`${per}_points`] || 0, show: B.fmt,
+      extra: [["CORRECT", (p, per) => B.fmt(p.period[`${per}_correct`] || 0)]] },
+    correct: { label: "CORRECT", period: true, value: (p, per) => p.period[`${per}_correct`] || 0, show: B.fmt,
+      extra: [["POINTS", (p, per) => B.fmt(p.period[`${per}_points`] || 0)]] },
+    wins: { label: "GAME WINS", value: p => p.game_wins, show: B.fmt,
+      extra: [["GAMES", p => B.fmt(p.games_played)], ["WIN %", p => B.pct(p.game_wins, p.games_played)]] },
+    combo: { label: "COMBO", value: p => p.best_streak, show: v => `${v}`, extra: [["DAY STREAK", p => p.day_streak]],
+      note: "Longest run of correct answers in a row." },
+    duels: { label: "DUELS", value: p => p.duels.wins, show: B.fmt,
+      extra: [["W–L–T", p => `${p.duels.wins}–${p.duels.losses}–${p.duels.ties}`],
+              ["WIN %", p => B.pct(p.duels.wins, p.duels.wins + p.duels.losses + p.duels.ties)]] },
+    speed: { label: "SPEED", value: p => ((p.period.alltime_correct || 0) >= SPEED_MIN ? p.average_guess_ms : 0), show: B.secs, asc: true,
+      extra: [["FASTEST", p => B.secs(p.fastest_guess_ms)]], note: `Average time to a correct answer. Needs ${SPEED_MIN}+ correct answers to qualify.` },
+    insane: { label: "INSANE", value: p => p.insane_correct, show: B.fmt, extra: [], note: "Answers found in insane rounds." },
+    badges: { label: "BADGES", value: p => p.achievements_unlocked, show: v => `${v}`, extra: [["CROWNS", p => p.kirkening_crownings]],
+      note: "Achievements unlocked. Crowns = times crowned during the Kirkening." },
+  };
+
+  let [board, period] = (location.hash.slice(1) || "xp").split("/");
+  if (!BOARDS[board]) board = "xp";
+  if (!PERIODS.some(([k]) => k === period)) period = "weekly";
+
+  let lb;
+  try {
+    await B.loadPlayers();
+    lb = await B.json("stats/leaderboard.json");
+    const top = [...lb.players].sort((a, b) => b.total_xp - a.total_xp)[0];
+    if (top) B.setHiscore(String(top.total_xp));
+  } catch (e) { B.fail(app, e); return; }
+
+  function renderButtons() {
+    B.$("#boards").replaceChildren(...Object.entries(BOARDS).map(([k, b]) =>
+      el("button", { class: "btn", type: "button", "aria-pressed": String(k === board), onclick: () => go(k, period) }, b.label)));
+    B.$("#periodWrap").hidden = !BOARDS[board].period;
+    B.$("#periods").replaceChildren(...PERIODS.map(([k, label]) =>
+      el("button", { class: "btn", type: "button", "aria-pressed": String(k === period), onclick: () => go(board, k) }, label)));
+    B.$("#note").textContent = BOARDS[board].note || (BOARDS[board].period ? "Daily resets at midnight GMT." : "");
+  }
+
+  function renderTable() {
+    const b = BOARDS[board];
+    const rows = lb.players.map(p => ({ p, v: b.value(p, period) })).filter(r => r.v);
+    rows.sort((x, y) => (b.asc ? x.v - y.v : y.v - x.v));
+    if (!rows.length) { app.replaceChildren(el("div", { class: "loading" }, "NO SCORES YET · PLAY A GAME")); return; }
+    const head = el("tr", {}, el("th", {}, "RANK"), el("th", { class: "num" }, b.label), el("th", {}, "NAME"),
+      b.extra.map(([h]) => el("th", { class: "num" }, h)));
+    const body = rows.map(({ p, v }, i) =>
+      el("tr", { class: "row", style: { color: i < 5 ? B.rankColor(i) : "var(--text)" }, onclick: () => (location.href = `player.html?id=${p.user_id}`) },
+        el("td", { class: "rank" }, B.ordinal(i + 1)),
+        el("td", { class: "big num" }, b.show(v)),
+        el("td", {}, el("div", { class: "who" }, B.avatar(p.user_id), B.playerLink(p.user_id))),
+        b.extra.map(([, f]) => el("td", { class: "num dim" }, String(f(p, period))))));
+    app.replaceChildren(el("div", { class: "table-scroll" },
+      el("table", { class: "scores" }, el("thead", {}, head), el("tbody", {}, body))));
+  }
+
+  function go(k, per) {
+    board = k; period = per;
+    history.replaceState(null, "", `#${board}${BOARDS[board].period ? "/" + period : ""}`);
+    renderButtons(); renderTable();
+  }
+  go(board, period);
+  B.footer();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Replay · Bertha</title>
+<link rel="stylesheet" href="assets/arcade.css">
+<script src="assets/bertha.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <main id="app"><div class="loading">LOADING REPLAY…</div></main>
+</div>
+
+<script>
+(async () => {
+  const { el } = B;
+  B.topbar("replays.html");
+  const app = B.$("#app");
+  const gameId = B.param("game"), duelId = B.param("duel");
+  if (!gameId && !duelId) { B.fail(app, new Error("no match in the link")); return; }
+
+  let data, levels = {};
+  try {
+    await Promise.all([B.loadPlayers(), B.restoreLock()]);
+    data = await B.json(gameId ? `matches/detail/${encodeURIComponent(gameId)}.json` : `matches/detail/duel-${encodeURIComponent(duelId)}.json`);
+    const lb = await B.json("stats/leaderboard.json").catch(() => ({ players: [] }));
+    levels = Object.fromEntries(lb.players.map(p => [p.user_id, p.level.level]));
+    const top = [...lb.players].sort((a, b) => b.total_xp - a.total_xp)[0];
+    if (top) B.setHiscore(String(top.total_xp));
+  } catch (e) { B.fail(app, e); return; }
+
+  const roundsBox = el("div", { class: "mlist" });
+  const lock = B.lockBar();
+  const draw = gameId ? drawGame : drawDuel;
+
+  // Round card shared by games and duels. `result` is the line under the question.
+  function roundCard(n, r, result) {
+    const insane = r.mode === "insane";
+    const answers = r.correct_answers || [];
+    let answerLine;
+    if (insane) {
+      answerLine = B.unlocked()
+        ? el("details", {}, el("summary", {}, `SHOW ALL ${answers.length} ANSWERS`),
+            el("div", { class: "ans", style: { marginTop: "6px" } }, answers.map(a => B.unscramble(a)).join(" · ")))
+        : el("div", { class: "ans" }, `${answers.length} answers · `, el("span", { class: "hidden-ans" }, "▒▒▒▒▒▒ HIDDEN"));
+    } else {
+      answerLine = el("div", { class: "ans" }, "ANSWER: ", B.answerNode(answers));
+    }
+    return el("div", { class: `round${insane ? " insane" : ""}` },
+      el("div", { class: "no" }, insane ? "!!" : String(n).padStart(2, "0")),
+      el("div", {},
+        el("div", { class: "cat" }, `${(r.category || "").toUpperCase()}${insane ? " · INSANE ROUND" : ""}`),
+        el("div", { class: "q" }, r.question_text || "(question deleted)"),
+        r.image_url ? el("img", { class: "qimg", src: r.image_url, alt: "Question image", loading: "lazy" }) : null,
+        answerLine,
+        el("div", { class: "result" }, result)));
+  }
+
+  function drawGame() {
+    const g = data.game, rounds = data.rounds || [];
+    const k = B.matchKind(g);
+    document.title = `${k.label} · ${B.day(g.ended_at)} · Bertha`;
+
+    // final standings from points actually awarded
+    const tally = {};
+    for (const r of rounds) for (const a of r.answers || []) {
+      const t = (tally[a.user_id] = tally[a.user_id] || { pts: 0, correct: 0 });
+      t.pts += a.points_awarded || 0; t.correct++;
+    }
+    const standings = Object.entries(tally).sort((a, b) => b[1].pts - a[1].pts);
+    const REASONS = { completed: "Played to the end", stopped: "Stopped early", inactivity_timeout: "Ended: nobody was typing",
+      consecutive_skips: "Ended: too many unanswered rounds", error: "Ended by an error", abandoned: "Abandoned" };
+
+    const head = [
+      el("div", { class: "btn-row-label", style: { color: k.color, marginTop: "40px" } }, k.label),
+      el("h1", { class: "page-title", style: { color: "var(--text)", marginTop: "8px" } }, B.matchTitle(g)),
+      el("p", { class: "page-sub" },
+        `${B.when(g.started_at)} ET · ${B.dur((B.ts(g.ended_at) || 0) - (B.ts(g.started_at) || 0))} · ${g.rounds_played} of ${g.total_rounds} rounds · `,
+        REASONS[g.end_reason] || g.end_reason,
+        g.started_by ? el("span", {}, " · started by ", B.playerLink(g.started_by)) : null),
+    ];
+    const table = standings.length ? el("div", { class: "table-scroll" }, el("table", { class: "scores" },
+      el("thead", {}, el("tr", {}, el("th", {}, "RANK"), el("th", { class: "num" }, "PTS"), el("th", {}, "NAME"), el("th", { class: "num" }, "CORRECT"))),
+      el("tbody", {}, standings.map(([id, t], i) => el("tr", { class: "row", style: { color: B.rankColor(i) }, onclick: () => (location.href = `player.html?id=${id}`) },
+        el("td", { class: "rank" }, B.ordinal(i + 1)), el("td", { class: "big num" }, String(t.pts)),
+        el("td", {}, el("div", { class: "who" }, B.avatar(id), B.playerLink(id))), el("td", { class: "num dim" }, String(t.correct))))))) : el("p", {}, "Nobody scored.");
+
+    roundsBox.replaceChildren(...rounds.map((r, i) => {
+      let result;
+      const ans = r.answers || [];
+      if (r.mode === "insane") {
+        const by = {};
+        for (const a of ans) by[a.user_id] = (by[a.user_id] || 0) + 1;
+        result = ans.length
+          ? el("div", { class: "found" }, el("span", { style: { color: "var(--pink)" } }, `${ans.length} FOUND:`),
+              Object.entries(by).sort((a, b) => b[1] - a[1]).map(([id, n]) => el("span", {}, B.playerLink(id), ` ×${n}`)))
+          : el("span", { style: { color: "var(--muted)" } }, "NOBODY FOUND ANY");
+      } else if (ans.length) {
+        const a = ans[0];
+        result = el("span", {}, el("span", { style: { color: "var(--neon)" } }, "✓ "), B.playerLink(a.user_id),
+          ` in ${B.secs(a.response_time_ms)} · +${a.points_awarded} pts`, a.exact_match === false ? " · close spelling" : "");
+      } else {
+        result = el("span", { style: { color: "var(--muted)" } }, "✗ NOBODY GOT IT");
+      }
+      return roundCard(i + 1, r, result);
+    }));
+
+    app.replaceChildren(...head, el("h2", { class: "section" }, "FINAL SCORES"), table,
+      el("h2", { class: "section" }, `ROUND BY ROUND · ${rounds.length}`), lock, roundsBox);
+  }
+
+  function drawDuel() {
+    const m = data.match;
+    document.title = `Duel · ${B.day(m.ended_at)} · Bertha`;
+    const score = { [m.challenger_id]: 0, [m.opponent_id]: 0 };
+    roundsBox.replaceChildren(...(data.rounds || []).map(r => {
+      const w = r.winner_id != null ? String(r.winner_id) : null;
+      if (w) score[w] = (score[w] || 0) + 1;
+      const running = `${score[m.challenger_id]}–${score[m.opponent_id]}`;
+      const result = w
+        ? el("span", {}, el("span", { style: { color: "var(--neon)" } }, "✓ "), B.playerLink(w), ` in ${B.secs(r.response_time_ms)} · score ${running}`)
+        : el("span", { style: { color: "var(--muted)" } }, `✗ NOBODY GOT IT · score ${running}`);
+      return roundCard(r.round_number, r, result);
+    }));
+    const label = (data.match.format_label || "").toUpperCase();
+    app.replaceChildren(...[
+      el("div", { class: "btn-row-label", style: { color: B.MODE_COLORS.duel, marginTop: "40px" } }, `DUEL · ${label}`),
+      el("h1", { class: "page-title", style: { color: "var(--text)", marginTop: "8px" } }, B.matchTitle(data.match)),
+      el("p", { class: "page-sub" }, `${B.when(m.ended_at)} ET${m.decided_by_tiebreaker ? " · decided by an insane-round tiebreaker" : ""}`),
+      B.fightCard(data.match, levels),
+      el("h2", { class: "section" }, `ROUND BY ROUND · ${(data.rounds || []).length}`),
+      lock, roundsBox,
+      (data.rounds || []).length ? null : el("p", { class: "page-sub" }, "No round detail was recorded for this duel."),
+    ].filter(Boolean));
+  }
+
+  draw();
+  B.onLockChange(draw);
+  B.footer();
+})();
+</script>
+</body>
+</html>
