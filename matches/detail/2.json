@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "Who was the first professional football player?",
       "image_url": null,
-      "correct_answers": [
-        "mDHz9fyMiqowziDg1afqH0XDs3k="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -47,9 +45,7 @@
       "category": "Sports",
       "question_text": "_________ Raptors (NBA)",
       "image_url": null,
-      "correct_answers": [
-        "mzft9vuZiA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -69,9 +65,7 @@
       "category": "Sports",
       "question_text": "What fruit-and-cream dish is traditionally associated with Wimbledon?",
       "image_url": null,
-      "correct_answers": [
-        "nCzt+OKPgvgKwiP1kKriEgvHpG5GsA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -91,9 +85,7 @@
       "category": "Sports",
       "question_text": "Which American player won the longest match in tennis history at Wimbledon in 2010, against Nicolas Mahut?",
       "image_url": null,
-      "correct_answers": [
-        "hTf397WklOQd2Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -113,9 +105,7 @@
       "category": "Sports",
       "question_text": "Toe Blake ended his playing career after a collision with what player?",
       "image_url": null,
-      "correct_answers": [
-        "jTHz9bWnkvAcyg=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -127,9 +117,7 @@
       "category": "Sports",
       "question_text": "How many periods are in a standard NHL hockey game?",
       "image_url": null,
-      "correct_answers": [
-        "/A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -149,9 +137,7 @@
       "category": "Sports",
       "question_text": "Who is Manchester United's leading appearance maker?",
       "image_url": null,
-      "correct_answers": [
-        "nSH+97Wqju0f2A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -171,9 +157,7 @@
       "category": "Sports",
       "question_text": "Who won the 1994 San Marino Grand Prix, the race in which Ayrton Senna was killed?",
       "image_url": null,
-      "correct_answers": [
-        "gjH88fSIi6oryC7z3arvHk7W"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -193,9 +177,7 @@
       "category": "Sports",
       "question_text": "_________ Reds (MLB)",
       "image_url": null,
-      "correct_answers": [
-        "jDHx+vyDiesMwg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -215,12 +197,7 @@
       "category": "Wrestling",
       "question_text": "Queen of the Ring Winners",
       "image_url": null,
-      "correct_answers": [
-        "lT3z8PuMx9wdzCc=",
-        "gTH+ud+Mnw==",
-        "hTn7/LWuhvgfwirq",
-        "hiHwucaGng=="
-      ],
+      "answer_count": 4,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -252,5 +229,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
