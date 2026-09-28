@@ -23,9 +23,7 @@
       "category": "Whos That Pokemon (Gen 4)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/RNGPCcL.png",
-      "correct_answers": [
-        "jS37/OI="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -45,9 +43,7 @@
       "category": "Movies",
       "question_text": "In Ferris Bueller's Day Off, who directed the film?",
       "image_url": null,
-      "correct_answers": [
-        "hTf397Wlku0QzjU="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -59,9 +55,7 @@
       "category": "Quotes",
       "question_text": "Who said: \"The best and most beautiful things in the world cannot be seen nor even touched, but just felt in the heart.\"",
       "image_url": null,
-      "correct_answers": [
-        "hz3z/PvNrO8UxyP0"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -73,9 +67,7 @@
       "category": "Art and Literature",
       "question_text": "Who wrote \"To the Lighthouse\"?",
       "image_url": null,
-      "correct_answers": [
-        "mTHt/vyDjutY/Cnp3K0="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -95,9 +87,7 @@
       "category": "Whos That Pokemon (Gen 5)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/wZOadov.png",
-      "correct_answers": [
-        "gzny6fCDkw=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -109,9 +99,7 @@
       "category": "Computers",
       "question_text": "What internet protocol was documented in RFC 1459?",
       "image_url": null,
-      "correct_answers": [
-        "hgrc"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -123,9 +111,7 @@
       "category": "MLB",
       "question_text": "How many of the Miami Marlins' starting pitchers had winning records in 2019? 4, 6, 0",
       "image_url": null,
-      "correct_answers": [
-        "/w=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -137,9 +123,7 @@
       "category": "Whos That Pokemon (Gen 4)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/19UuXWl.png",
-      "correct_answers": [
-        "jS324/CB"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -151,9 +135,7 @@
       "category": "Video Games",
       "question_text": "In Call of Duty: Black Ops Zombies, which map introduced the perk PhD Flopper?",
       "image_url": null,
-      "correct_answers": [
-        "jiv8/PuejuUW"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -173,55 +155,7 @@
       "category": "Wrestling",
       "question_text": "WrestleMania Main Eventers (Nights 1 & 2)",
       "image_url": null,
-      "correct_answers": [
-        "hy3z8rWliO0ZxQ==",
-        "nTf7/ezNt+MIzjQ=",
-        "giqxucE=",
-        "nznq9bWileQcxDTg1g==",
-        "hDHx/rWmiOQfiwTz3q/1",
-        "jjb76/DNs+IdiwHv0aX4",
-        "nTnx/ezNtOsOyiHj",
-        "mz37udGEpeMZ2CM=",
-        "mzD6ucCBk+MVyjLjkJztBFnNuXk=",
-        "nD/rt7W+i+sNzC7y1bk=",
-        "nCH88frNtOMc",
-        "ljf09u+Yies=",
-        "jSr67bWlhvgM",
-        "jTnyudeMiqo6wiHj3KT7",
-        "gzno6/CDhO9Y/yf/3KT+",
-        "nDD+7vvNquMbwyfj3Lg=",
-        "mzD6ucCDg+8K3yft1bk=",
-        "nCz67/DNpv8L3y/o",
-        "myr26fmIx8I=",
-        "mzD6uceChOE=",
-        "jTH4ucaFiP0=",
-        "gjH88rWriOYd0g==",
-        "jDDt8ObNre8KwiXu3w==",
-        "hC3t7bWsie0Uzg==",
-        "jSrw+v7Nq+8LxSf0",
-        "jDDt8ObNpe8WxC/y",
-        "jTnr8OaZhg==",
-        "hTf397WuguQZ",
-        "ijz4/A==",
-        "nTnx/ezNqPgMxCg=",
-        "mzD6udiEnQ==",
-        "iznx8PCBx8gK0ifo",
-        "nD3r8bW/iOYUwij1",
-        "nTfx/fTNteUN2CP/",
-        "jT388uzNq/MWyC4=",
-        "jDD+6/mCk/4diwDq0aL+",
-        "jhK/yuGUi+8L",
-        "iyr67rWghMMW3z/01Q==",
-        "nDns8fTNpesWwDU=",
-        "jTH+9/aMx8gdxyfvwg==",
-        "hD3p8PvNqP0dxTU=",
-        "hTHy9OzNsvkX",
-        "hT3mucCeiA==",
-        "nDny8LW3hvMW",
-        "jDf74LW/j+UczjU=",
-        "jBW/yeCDjA==",
-        "nTfy+PvNte8RzCj1"
-      ],
+      "answer_count": 47,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -402,9 +336,7 @@
       "category": "Disney",
       "question_text": "What is the name of the daycare center in Toy Story 3?",
       "image_url": null,
-      "correct_answers": [
-        "nC3x9+yeju4diwLnyajtBE4="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -424,9 +356,7 @@
       "category": "Harry Potter",
       "question_text": "What is the proper name for the potion \"Liquid Luck\"?",
       "image_url": null,
-      "correct_answers": [
-        "iT3z8O3Noe8UwiXvww=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -438,9 +368,7 @@
       "category": "Conundrums",
       "question_text": "Pernicious",
       "image_url": null,
-      "correct_answers": [
-        "nz3t9/yOjuUN2A=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -452,9 +380,7 @@
       "category": "Entertainment",
       "question_text": "What was the name of the QUBE children's channel that preceded Nickelodeon?",
       "image_url": null,
-      "correct_answers": [
-        "nzHx7v2IguY="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -466,9 +392,7 @@
       "category": "World Cup",
       "question_text": "Who collected the most Player Of The Match awards in 2022 Qatar (5)?",
       "image_url": null,
-      "correct_answers": [
-        "gzHw9/CBx8cd2DXv"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -488,9 +412,7 @@
       "category": "Lord of the Rings",
       "question_text": "What do the initials J.R.R. stand for in J.R.R. Tolkien's name?",
       "image_url": null,
-      "correct_answers": [
-        "hTf397W/iOQZxyKm4q75E0c="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -510,9 +432,7 @@
       "category": "Music",
       "question_text": "Which instrument did Karen Carpenter play in The Carpenters as well as singing lead vocals?",
       "image_url": null,
-      "correct_answers": [
-        "iyrq9OY="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -532,9 +452,7 @@
       "category": "Phobias",
       "question_text": "If you have Koumpounophobia, what are you afraid of?",
       "image_url": null,
-      "correct_answers": [
-        "jS3r7fqDlA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -554,9 +472,7 @@
       "category": "Video Games",
       "question_text": "What studio developed the original Call of Duty and much of the Modern Warfare series?",
       "image_url": null,
-      "correct_answers": [
-        "hjb58PuEk/NY/Cf01A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -576,38 +492,7 @@
       "category": "General Knowledge",
       "question_text": "Commonly known colors",
       "image_url": null,
-      "correct_answers": [
-        "nT37",
-        "gCr+9/KI",
-        "lj3z9fqa",
-        "iCr6/Ps=",
-        "jTTq/A==",
-        "ny3t6fmI",
-        "nzHx8g==",
-        "jSrw7vs=",
-        "jTT++v4=",
-        "mDD27fA=",
-        "iCr+4A==",
-        "mz3+9Q==",
-        "my3t6OCCjvkd",
-        "gjnt9vqD",
-        "gTnp4A==",
-        "jT32/vA=",
-        "iDfz/Q==",
-        "nDHz7/Cf",
-        "gznp/PuJgvg=",
-        "gjn4/PuZhg==",
-        "jCH+9w==",
-        "hjb78PKC",
-        "mTHw9fCZ",
-        "jDft+Pk=",
-        "gDT27/A=",
-        "gjHx7Q==",
-        "nz3++v0=",
-        "jS3t/uCDg/M=",
-        "jCr29OaCiQ==",
-        "mznx"
-      ],
+      "answer_count": 30,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -767,9 +652,7 @@
       "category": "NBA",
       "question_text": "Who won the Coach of the year award 3x with one team?",
       "image_url": null,
-      "correct_answers": [
-        "iCr6/vLNt+UIxDDv06M="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -789,9 +672,7 @@
       "category": "Game of Thrones",
       "question_text": "What was the name of Sansa Stark's direwolf?",
       "image_url": null,
-      "correct_answers": [
-        "gzn74A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -811,9 +692,7 @@
       "category": "Disney",
       "question_text": "In what Disney film can you find a hamster named Rhino?",
       "image_url": null,
-      "correct_answers": [
-        "jTfz7Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -833,9 +712,7 @@
       "category": "Conundrums",
       "question_text": "Veterinarian",
       "image_url": null,
-      "correct_answers": [
-        "mT3r/OeEiesKwifo"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -855,9 +732,7 @@
       "category": "Star Wars",
       "question_text": "How many Inquisitors are after The Rebels in the 2nd season?",
       "image_url": null,
-      "correct_answers": [
-        "/Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -877,9 +752,7 @@
       "category": "Art and Literature",
       "question_text": "In which British national daily newspaper does Rupert The Bear appear ?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udGMjuYBiwP+wLnpBVg="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -899,9 +772,7 @@
       "category": "Slogans",
       "question_text": "Look Ma, no cavities!",
       "image_url": null,
-      "correct_answers": [
-        "jCr66uE="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -913,9 +784,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Computers: WAN",
       "image_url": null,
-      "correct_answers": [
-        "mDH7/LWsle8ZiwjjxLzjBEA="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -927,9 +796,7 @@
       "category": "Chemistry",
       "question_text": "What compound gives the blood of the horseshoe crab its distinctive blue color?",
       "image_url": null,
-      "correct_answers": [
-        "hz3y9vaUhuQRxQ=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -941,40 +808,7 @@
       "category": "Sports",
       "question_text": "Every current NFL team",
       "image_url": null,
-      "correct_answers": [
-        "jS35//SBiKo6wirqww==",
-        "gjH+9PzNo+UU2y7v3rg=",
-        "gT3oudCDgOYZxSKm4Kr4BELLong=",
-        "gT3oucyCleFY4SPyww==",
-        "jTnz7fyAiPgdixTnxq7iBQ==",
-        "jDHx+vyDiesMwmbE1aXrF0fX",
-        "jDT67/CBhuQciwT037ziBQ==",
-        "nzHr7eaPkvgfw2bVxK7pGk7WpQ==",
-        "hzfq6uGCiaoszj7n3rg=",
-        "hjb78PSDhvoXxy/1kIjjGl/X",
-        "hTn88uaCifwRxyrjkIHtEV7FpHg=",
-        "mz3x9/CelO8dixLvxKriBQ==",
-        "iz3x7/Cfx8gKxCjl37g=",
-        "hDnx6vSex8kR3z+m86PlE03X",
-        "gznsucOIgOsLixTn2a/pBFg=",
-        "gzfsudSDgO8UzjWm86PtBEzBpHg=",
-        "iznz9fSex8kX3CTpybg=",
-        "gT3oucyCleFY7C/n3r//",
-        "nzD29fSJguYIwy/nkI7tEUfBpQ==",
-        "mDns8fyDgP4XxWbF36bhF0XAs3lU",
-        "jDD2+vSKiKo6zif0ww==",
-        "iz3r6/qEk6o0winoww==",
-        "iCr6/PvNpesBixbn06DpBFg=",
-        "gjHx9/CeiP4ZixDv26LiEVg=",
-        "jizz+PuZhqo+yirl36X/",
-        "jDnt9vmEietY+yfoxKPpBFg=",
-        "gT3oudqfi+8ZxTWm46rlGF/X",
-        "mzny6fTNpesBiwTz06jtGE7BpHg=",
-        "jir24/qDhqo7yjTi2aXtGlg=",
-        "gzfsudSDgO8UzjWm4qrhBQ==",
-        "nDnxudOfhuQbwjXl3+u4T07WpQ==",
-        "nD3+7eGBgqorzifu0bznBQ=="
-      ],
+      "answer_count": 32,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1015,9 +849,7 @@
       "category": "Computers",
       "question_text": "What does AD stand for in relation to Windows Operating Systems?",
       "image_url": null,
-      "correct_answers": [
-        "jjvr8OOIx84R2SPlxKT+Dw=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1029,9 +861,7 @@
       "category": "Disney",
       "question_text": "What animated feature, created by Walt Disney, was inspired by him playing the lead role in a school play?",
       "image_url": null,
-      "correct_answers": [
-        "nz3r/OfNt+sW"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1051,9 +881,7 @@
       "category": "World Cup",
       "question_text": "Which country placed fourth in the 1974 World Cup?",
       "image_url": null,
-      "correct_answers": [
-        "jSr+4/yB"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1073,9 +901,7 @@
       "category": "Art and Literature",
       "question_text": "Who penned the novel 'The Pelican Brief' which was made into a film starring Julia Roberts and Denzel Washington?",
       "image_url": null,
-      "correct_answers": [
-        "hTf397WqleMLwyfr"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1087,9 +913,7 @@
       "category": "Greek Mythology",
       "question_text": "Which nymph was punished by Hera by being made to only be able to repeat the last few words spoken to her?",
       "image_url": null,
-      "correct_answers": [
-        "ijv39g=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1109,9 +933,7 @@
       "category": "Video Games",
       "question_text": "In Dota 2, what is Earthshaker's real name?",
       "image_url": null,
-      "correct_answers": [
-        "nTn2/vqfx9kMxCjj2KTjEA=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1123,9 +945,7 @@
       "category": "Music",
       "question_text": "Which former boy-band star released hit solo single \"Angels\" in 1997?",
       "image_url": null,
-      "correct_answers": [
-        "nTf9+/yIx90Rxyrv0ab/"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1145,9 +965,7 @@
       "category": "Movies",
       "question_text": "In The Hunger Games, who mentors Katniss and Peeta?",
       "image_url": null,
-      "correct_answers": [
-        "hznm9PyZhOJY6iTjwqXtAkPd"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1159,9 +977,7 @@
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
       "image_url": "https://i.imgur.com/J20AEe0.png",
-      "correct_answers": [
-        "gz3s9uGFiA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1181,20 +997,7 @@
       "category": "General Knowledge",
       "question_text": "Units of time",
       "image_url": null,
-      "correct_answers": [
-        "nD389vuJ",
-        "gjHx7OGI",
-        "hzfq6w==",
-        "iznm",
-        "mD368g==",
-        "iTft7fuEgOIM",
-        "gjfx7f0=",
-        "lj3+6w==",
-        "iz38+PGI",
-        "nDvw6/A=",
-        "jD3x7eCfng==",
-        "gjHz9fCDieMNxg=="
-      ],
+      "answer_count": 12,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1277,9 +1080,7 @@
       "category": "Pokemon",
       "question_text": "What town is Ash from?",
       "image_url": null,
-      "correct_answers": [
-        "nznz9fCZx94X3Cg="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1291,9 +1092,7 @@
       "category": "Video Games",
       "question_text": "In Payday 2, which heist contact plans the Hoxton Breakout?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udGIif4R2DI="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1305,9 +1104,7 @@
       "category": "House of the Dragon",
       "question_text": "What island is the ancestral home of House Velaryon?",
       "image_url": null,
-      "correct_answers": [
-        "iyr2/+GAhvgT"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1327,9 +1124,7 @@
       "category": "Entertainment",
       "question_text": "Who is the elder statesman of 'british blues', and fronted 'The Bluesbreakers'?",
       "image_url": null,
-      "correct_answers": [
-        "hTf397WghvMZxyo="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1341,9 +1136,7 @@
       "category": "Disney",
       "question_text": "What was the first Pixar feature film to include \"outtakes\" in the credits?",
       "image_url": null,
-      "correct_answers": [
-        "jnjd7PLKlKo0wiDj"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1363,9 +1156,7 @@
       "category": "General Knowledge",
       "question_text": "How many types of quarks are there in the standard model of physics?",
       "image_url": null,
-      "correct_answers": [
-        "+Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1385,9 +1176,7 @@
       "category": "Whos That Pokemon (Gen 5)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/bdXloUK.png",
-      "correct_answers": [
-        "jTHs8fSflw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1407,9 +1196,7 @@
       "category": "Greek Mythology",
       "question_text": "Who is the primordial personification of the Earth?",
       "image_url": null,
-      "correct_answers": [
-        "iDn2+A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1429,9 +1216,7 @@
       "category": "Star Wars",
       "question_text": "What is Captain Rex's Clone number?",
       "image_url": null,
-      "correct_answers": [
-        "+G2prg=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1443,33 +1228,7 @@
       "category": "MLB",
       "question_text": "MLB World Series champions",
       "image_url": null,
-      "correct_answers": [
-        "jTfs7fqDx9gdz2bV37M=",
-        "gT3oucyCleFY8ifo267pBQ==",
-        "nzD29fSJguYIwy/nkJvkH0fIv25U",
-        "nzHr7eaPkvgfw2bW2bntAk7X",
-        "jDD2+vSKiKo73iT1",
-        "jDD2+vSKiKovwy/y1evfGVM=",
-        "jDHx+vyDiesMwmbU1a//",
-        "jDT67/CBhuQciwHz0bnoH0rKpQ==",
-        "nDnxudOfhuQbwjXl3+vLH0rKong=",
-        "gzfsudSDgO8UzjWm9KToEU7WpQ==",
-        "nCyxudmCkuMLiwXnwq/lGErIpQ==",
-        "iz3r6/qEk6oswiHjwrg=",
-        "gjHx9/CeiP4ZixLx2aX/",
-        "jTnz7fyAiPgdiwn02aTgE1g=",
-        "gDn09fSDg6o53y7q1b/lFVg=",
-        "jizz+PuZhqo62Sfw1bg=",
-        "gT3oucyCleFY5iPyww==",
-        "hDnx6vSex8kR3z+m4qT1F0fX",
-        "mzft9vuZiKo6xzPjkIHtD1g=",
-        "gjH+9PzNqusKxy/oww==",
-        "jir24/qDhqo8wifr36XoFErHvXg=",
-        "gzfsudSDgO8UzjWm8aXrE0fX",
-        "hzfq6uGCiao52DL037g=",
-        "mz3n+ObNtesWzCP0ww==",
-        "mDns8fyDgP4XxWbI0b/lGUXFung="
-      ],
+      "answer_count": 25,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1487,5 +1246,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
