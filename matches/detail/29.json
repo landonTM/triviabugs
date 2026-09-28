@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "_________ White Sox (MLB)",
       "image_url": null,
-      "correct_answers": [
-        "jDD2+vSKiA=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -39,9 +37,7 @@
       "category": "Sports",
       "question_text": "What is the club nickname for Manchester City?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udaEk+MCzij1"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -61,9 +57,7 @@
       "category": "Sports",
       "question_text": "What soft material covers the outside of a tennis ball?",
       "image_url": null,
-      "correct_answers": [
-        "iT3z7Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -83,9 +77,7 @@
       "category": "Sports",
       "question_text": "What is the top domestic soccer league in Spain called?",
       "image_url": null,
-      "correct_answers": [
-        "gzm/1fyKhg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -105,7 +97,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": []
     },
     {
@@ -117,9 +109,7 @@
       "category": "Sports",
       "question_text": "What is the term for a player being unable to continue a match due to injury, resulting in a loss?",
       "image_url": null,
-      "correct_answers": [
-        "nT3r8OeIiu8W3w=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -131,9 +121,7 @@
       "category": "Sports",
       "question_text": "Which club is based at the Allianz Arena?",
       "image_url": null,
-      "correct_answers": [
-        "jTnm/OeDx8cNxS/l2A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -153,9 +141,7 @@
       "category": "Sports",
       "question_text": "Who won the 1973 'Battle of the Sexes' tennis match?",
       "image_url": null,
-      "correct_answers": [
-        "jTHz9fyIx8Adyiim+6LiEQ=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -167,9 +153,7 @@
       "category": "Sports",
       "question_text": "What is the term for a shot that curves due to spin placed on the ball?",
       "image_url": null,
-      "correct_answers": [
-        "jC3t9fCf"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -181,63 +165,7 @@
       "category": "General Knowledge",
       "question_text": "Major US TV channels",
       "image_url": null,
-      "correct_answers": [
-        "jhrc",
-        "jBrM",
-        "gRrc",
-        "iTfn",
-        "mzD6uda6",
-        "nxrM",
-        "jBbR",
-        "iTfnuduIkPk=",
-        "ggvR29Y=",
-        "igvP1w==",
-        "hxrQ",
-        "nDDw7uGEiu8=",
-        "nCz+6+8=",
-        "gTH88vCBiO4dxCg=",
-        "jDnt7fqCiao2zjLx37nn",
-        "izHs9/CUx8kQyijo1ac=",
-        "jDfy/PGUx8kdxTL00ac=",
-        "ggzJ",
-        "mRCu",
-        "izHs+vqbgvgBiwXu0aXiE0c=",
-        "hzHs7fqfnqo7wyfo3q7g",
-        "gTnr8PqDhuZY7CPp17ntBkPNtQ==",
-        "mgveuduIk/0X2S0=",
-        "mxrM",
-        "mxbL",
-        "iQA=",
-        "jhXc",
-        "jSr+7/o=",
-        "iTfw/bWjgv4PxDTt",
-        "hx/Lzw==",
-        "gzH5/OGEiu8=",
-        "jn7a",
-        "mxTc",
-        "jjb29PSBx9oUyijjxA==",
-        "nCH54A==",
-        "hh7c",
-        "iSr6/POClec=",
-        "nznt+PiCkuQMiwjjxLzjBEA=",
-        "gCDm/vCD",
-        "hjbp/OaZju0Z3y/p3uvIH1jHuX1Cr6c=",
-        "uyrqzcM=",
-        "jjzq9eHNtP0Rxg==",
-        "izHs9/CUx9I8",
-        "iDfz/7Wuj+sWxSPq",
-        "mD3+7f2Ilao7wyfo3q7g",
-        "jHXMydSj",
-        "jBbd2g==",
-        "jTTw9viPgvgfixLQ",
-        "jR3L",
-        "mz3z/PiYie4X",
-        "mjb27/yejuUW",
-        "hznz9fiMleFY6C7n3qXpGg==",
-        "ink=",
-        "myr+7/CBx8kQyijo1ac=",
-        "jDfw8vyDgKo7wyfo3q7g"
-      ],
+      "answer_count": 55,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -318,5 +246,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
