@@ -9,28 +9,28 @@
   },
   "total_xp": 881819,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 645,
-    "weekly_correct": 310,
-    "monthly_points": 3604,
-    "monthly_correct": 1711,
-    "yearly_points": 3778,
-    "yearly_correct": 1804,
-    "alltime_points": 3778,
-    "alltime_correct": 1804
+    "daily_points": 34,
+    "daily_correct": 14,
+    "weekly_points": 679,
+    "weekly_correct": 324,
+    "monthly_points": 3638,
+    "monthly_correct": 1725,
+    "yearly_points": 3812,
+    "yearly_correct": 1818,
+    "alltime_points": 3812,
+    "alltime_correct": 1818
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 2732,
-    "questions_right": 755,
+    "total_points": 2761,
+    "questions_right": 764,
     "questions_wrong": 0,
-    "wins": 755,
-    "current_streak": 1,
+    "wins": 764,
+    "current_streak": 9,
     "best_streak": 27,
     "games_played": 87,
-    "insane_guesses": 745,
+    "insane_guesses": 750,
     "day_streak": 5,
     "last_played_date": "2026-09-27",
     "total_xp": 881819,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 638,
-    "correct": 109
+    "points": 642,
+    "correct": 110
   },
   "best_insane_round": {
     "question_text": "Name every US state",
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1050,
-  "average_guess_ms": 16993.606100795758,
+  "total_insane_correct": 1055,
+  "average_guess_ms": 17092.154652686764,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
-    "active_days": 27
+    "active_days": 28
   },
   "spelling_accuracy": {
-    "exact_count": 1390,
-    "total": 1590
+    "exact_count": 1403,
+    "total": 1604
   },
   "achievements": {
     "catalog": [
@@ -2222,12 +2222,12 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 32,
+      "disney": 36,
       "entertainment": 0,
       "geo": 88,
-      "gk": 156,
+      "gk": 161,
       "got": 5,
-      "marvel": 55,
+      "marvel": 57,
       "movies": 1,
       "music": 10,
       "pokemon": 9,
