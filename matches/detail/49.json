@@ -19,87 +19,104 @@
     {
       "round_id": 5292,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:54:08.372267+00:00",
-      "round_ended_at": "2026-09-26 23:54:28.648200+00:00",
+      "started_at": "2026-09-26 23:54:08.372267+00:00",
+      "ended_at": "2026-09-26 23:54:28.648200+00:00",
       "winner_id": null,
       "category": "Sports",
       "question_text": "In what year was the first modern Olympic Games held?",
+      "image_url": null,
       "correct_answers": [
-        "1896"
+        "/mCmrw=="
       ],
-      "answerer_id": null,
-      "response_time_ms": null,
-      "exact_match": null,
-      "points_awarded": null,
-      "answered_at": null
+      "answers": []
     },
     {
       "round_id": 5293,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:54:58.999497+00:00",
-      "round_ended_at": "2026-09-26 23:55:04.078664+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:54:58.999497+00:00",
+      "ended_at": "2026-09-26 23:55:04.078664+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "_________ Spurs (NBA)",
+      "image_url": null,
       "correct_answers": [
-        "San Antonio"
+        "nDnxudSDk+UWwik="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 5063,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 23:55:04.074027+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 5063,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 23:55:04.074027+00:00"
+        }
+      ]
     },
     {
       "round_id": 5294,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:55:34.371549+00:00",
-      "round_ended_at": "2026-09-26 23:55:38.246970+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:55:34.371549+00:00",
+      "ended_at": "2026-09-26 23:55:38.246970+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What is it called when a player accidentally scores a goal for the opposing team?",
+      "image_url": null,
       "correct_answers": [
-        "Own Goal"
+        "gC/xudKChuY="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 3862,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 23:55:38.243588+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 3862,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 23:55:38.243588+00:00"
+        }
+      ]
     },
     {
       "round_id": 5295,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:56:08.478439+00:00",
-      "round_ended_at": "2026-09-26 23:56:15.202248+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:56:08.478439+00:00",
+      "ended_at": "2026-09-26 23:56:15.202248+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "Which club shares the San Siro stadium with AC Milan?",
+      "image_url": null,
       "correct_answers": [
-        "Inter Milan"
+        "hjbr/OfNquMUyig="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 6710,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 23:56:15.198852+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 6710,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 23:56:15.198852+00:00"
+        }
+      ]
     },
     {
       "round_id": 5296,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:56:45.490900+00:00",
-      "round_ended_at": "2026-09-26 23:56:49.998199+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:56:45.490900+00:00",
+      "ended_at": "2026-09-26 23:56:49.998199+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What is the name of Manchester United's home stadium?",
+      "image_url": null,
       "correct_answers": [
-        "Old Trafford"
+        "gDT7ucGfhuwexDTi"
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 4494,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 23:56:49.994946+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 4494,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 23:56:49.994946+00:00"
+        }
+      ]
     }
   ]
 }
