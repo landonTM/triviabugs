@@ -18,25 +18,27 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 14571,
       "answered_at": "2026-09-27 20:41:56.673365+00:00",
       "category": "Video Games",
       "question_text": "In Night in the Woods, what is the first name of Mae Borowski's mother?",
+      "image_url": null,
       "correct_answers": [
-        "Candy"
+        "jDnx/ew="
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 734768348201615400,
+      "winner_id": "734768348201615400",
       "response_time_ms": 11731,
       "answered_at": "2026-09-27 20:41:56.673365+00:00",
       "category": "Entertainment",
       "question_text": "Band: Elvis Costello and the ___________ ?",
+      "image_url": null,
       "correct_answers": [
-        "Attractions"
+        "jizr6/SOk+MXxTU="
       ]
     },
     {
@@ -47,32 +49,35 @@
       "answered_at": "2026-09-27 20:41:56.673365+00:00",
       "category": "Disney",
       "question_text": "What was the name of the 1992 television series which featured Goofy in it?",
+      "image_url": null,
       "correct_answers": [
-        "Goof Troop"
+        "iDfw/7W5leUX2w=="
       ]
     },
     {
       "round_number": 4,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 19805,
       "answered_at": "2026-09-27 20:41:56.673365+00:00",
       "category": "Slogans",
       "question_text": "An American Revolution.",
+      "image_url": null,
       "correct_answers": [
-        "Chevrolet"
+        "jDD67+eCi+8M"
       ]
     },
     {
       "round_number": 5,
       "mode": "standard",
-      "winner_id": 734768348201615400,
+      "winner_id": "734768348201615400",
       "response_time_ms": 17520,
       "answered_at": "2026-09-27 20:41:56.673365+00:00",
       "category": "Video Games",
       "question_text": "Which Monty Python member voiced Rincewind in the 1995 Discworld video game?",
+      "image_url": null,
       "correct_answers": [
-        "Eric Idle"
+        "iir2+rWkg+Yd"
       ]
     },
     {
@@ -83,20 +88,22 @@
       "answered_at": "2026-09-27 20:41:56.673365+00:00",
       "category": "Art and Literature",
       "question_text": "Whose autobiography was entitled 'Dear Me'?",
+      "image_url": null,
       "correct_answers": [
-        "Peter Ustinov"
+        "nz3r/OfNsvkMwijpxg=="
       ]
     },
     {
       "round_number": 7,
       "mode": "standard",
-      "winner_id": 734768348201615400,
+      "winner_id": "734768348201615400",
       "response_time_ms": 5933,
       "answered_at": "2026-09-27 20:41:56.673365+00:00",
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/Z25ne9q.png",
       "correct_answers": [
-        "Japan"
+        "hTnv+Ps="
       ]
     }
   ]
