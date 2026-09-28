@@ -6,7 +6,9 @@
     "challenger_id": "184456115927384065",
     "opponent_id": "433990857063137282",
     "format": 7,
+    "format_label": "Best of 7",
     "winner_id": "184456115927384065",
+    "is_tie": false,
     "challenger_score": 3,
     "opponent_score": 1,
     "decided_by_tiebreaker": false,
@@ -21,8 +23,9 @@
       "answered_at": "2026-09-27 00:34:16.444706+00:00",
       "category": "General Knowledge",
       "question_text": "What is the name for a formal, ceremonial farewell speech, often given by someone leaving a position?",
+      "image_url": null,
       "correct_answers": [
-        "Valediction"
+        "mTnz/PGEhP4RxCg="
       ]
     },
     {
@@ -33,32 +36,35 @@
       "answered_at": "2026-09-27 00:34:16.444706+00:00",
       "category": "General Knowledge",
       "question_text": "What spice, from the dried seed pods of a plant in the ginger family, is among the most expensive by weight after saffron and vanilla?",
+      "image_url": null,
       "correct_answers": [
-        "Cardamom"
+        "jDnt/fSAiOc="
       ]
     },
     {
       "round_number": 3,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 14000,
       "answered_at": "2026-09-27 00:34:16.444706+00:00",
       "category": "General Knowledge",
       "question_text": "What common name is given to the medical condition medial tibial stress syndrome (MTSS)?",
+      "image_url": null,
       "correct_answers": [
-        "Shin Splints"
+        "nDD297W+l+YRxTL1"
       ]
     },
     {
       "round_number": 4,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 4877,
       "answered_at": "2026-09-27 00:34:16.444706+00:00",
       "category": "General Knowledge",
       "question_text": "What's the name of the dance step popularized by Michael Jackson?",
+      "image_url": null,
       "correct_answers": [
-        "Moonwalk"
+        "gjfw9+KMi+E="
       ]
     },
     {
@@ -67,34 +73,37 @@
       "winner_id": null,
       "response_time_ms": null,
       "answered_at": "2026-09-27 00:34:16.444706+00:00",
-      "category": "General Knowledge",
-      "question_text": "What is the Spanish name for the South American capital which means 'good air'?",
+      "category": "World Capitals",
+      "question_text": "What is the capital of Argentina?",
+      "image_url": null,
       "correct_answers": [
-        "Buenos Aires"
+        "jS369/qex8sR2SP1"
       ]
     },
     {
       "round_number": 6,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 7432,
       "answered_at": "2026-09-27 00:34:16.444706+00:00",
-      "category": "General Knowledge",
-      "question_text": "What is a perfect game scoring in bowling?",
+      "category": "Sports",
+      "question_text": "What is the highest score possible in 10 pin bowling?",
+      "image_url": null,
       "correct_answers": [
-        "300"
+        "/Giv"
       ]
     },
     {
       "round_number": 7,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 4020,
       "answered_at": "2026-09-27 00:34:16.444706+00:00",
       "category": "General Knowledge",
       "question_text": "How many days are there in the month of August?",
+      "image_url": null,
       "correct_answers": [
-        "31"
+        "/Gk="
       ]
     }
   ]
