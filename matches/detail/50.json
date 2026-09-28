@@ -19,87 +19,104 @@
     {
       "round_id": 5297,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:57:25.059374+00:00",
-      "round_ended_at": "2026-09-26 23:57:48.180535+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:57:25.059374+00:00",
+      "ended_at": "2026-09-26 23:57:48.180535+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "_________ Falcons (NFL)",
+      "image_url": null,
       "correct_answers": [
-        "Atlanta"
+        "jizz+PuZhg=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 23107,
-      "exact_match": true,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 23:57:48.177387+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 23107,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 23:57:48.177387+00:00"
+        }
+      ]
     },
     {
       "round_id": 5298,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:57:58.458649+00:00",
-      "round_ended_at": "2026-09-26 23:58:04.442793+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:57:58.458649+00:00",
+      "ended_at": "2026-09-26 23:58:04.442793+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "Which club has won the most UEFA Europa League titles?",
+      "image_url": null,
       "correct_answers": [
-        "Sevilla"
+        "nD3p8PmBhg=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 5971,
-      "exact_match": true,
-      "points_awarded": 4,
-      "answered_at": "2026-09-26 23:58:04.439517+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 5971,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-26 23:58:04.439517+00:00"
+        }
+      ]
     },
     {
       "round_id": 5299,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:58:14.765897+00:00",
-      "round_ended_at": "2026-09-26 23:59:03.454438+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:58:14.765897+00:00",
+      "ended_at": "2026-09-26 23:59:03.454438+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "In tennis doubles, what is the term for the net player moving across to intercept and put away a ball intended for their partner?",
+      "image_url": null,
       "correct_answers": [
-        "Poach"
+        "nzf++v0="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 48676,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 23:59:03.451180+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 48676,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 23:59:03.451180+00:00"
+        }
+      ]
     },
     {
       "round_id": 5300,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:59:13.694655+00:00",
-      "round_ended_at": "2026-09-26 23:59:20.430335+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:59:13.694655+00:00",
+      "ended_at": "2026-09-26 23:59:20.430335+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "How many times has a Super Bowl went into overtime?",
+      "image_url": null,
       "correct_answers": [
-        "1"
+        "/g=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 6722,
-      "exact_match": true,
-      "points_awarded": 4,
-      "answered_at": "2026-09-26 23:59:20.426308+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 6722,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-26 23:59:20.426308+00:00"
+        }
+      ]
     },
     {
       "round_id": 5301,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:59:30.639332+00:00",
-      "round_ended_at": "2026-09-26 23:59:39.815188+00:00",
+      "started_at": "2026-09-26 23:59:30.639332+00:00",
+      "ended_at": "2026-09-26 23:59:39.815188+00:00",
       "winner_id": null,
       "category": "Sports",
       "question_text": "_________ Royals (MLB)",
+      "image_url": null,
       "correct_answers": [
-        "Kansas City"
+        "hDnx6vSex8kR3z8="
       ],
-      "answerer_id": null,
-      "response_time_ms": null,
-      "exact_match": null,
-      "points_awarded": null,
-      "answered_at": null
+      "answers": []
     }
   ]
 }
