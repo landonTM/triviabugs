@@ -2,38 +2,38 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 41,
-    "xp_into_level": 29831,
+    "xp_into_level": 39831,
     "xp_for_level": 58000,
-    "progress": 0.5143275862068966,
+    "progress": 0.6867413793103448,
     "maxed": false
   },
-  "total_xp": 882331,
+  "total_xp": 892331,
   "period_stats": {
-    "daily_points": 39,
-    "daily_correct": 19,
-    "weekly_points": 684,
-    "weekly_correct": 329,
-    "monthly_points": 3643,
-    "monthly_correct": 1730,
-    "yearly_points": 3817,
-    "yearly_correct": 1823,
-    "alltime_points": 3817,
-    "alltime_correct": 1823
+    "daily_points": 75,
+    "daily_correct": 38,
+    "weekly_points": 656,
+    "weekly_correct": 319,
+    "monthly_points": 3679,
+    "monthly_correct": 1749,
+    "yearly_points": 3853,
+    "yearly_correct": 1842,
+    "alltime_points": 3853,
+    "alltime_correct": 1842
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 2761,
-    "questions_right": 764,
+    "total_points": 2785,
+    "questions_right": 771,
     "questions_wrong": 0,
-    "wins": 764,
-    "current_streak": 9,
+    "wins": 771,
+    "current_streak": 1,
     "best_streak": 27,
     "games_played": 88,
-    "insane_guesses": 755,
+    "insane_guesses": 767,
     "day_streak": 6,
     "last_played_date": "2026-09-28",
-    "total_xp": 882331,
+    "total_xp": 892331,
     "game_wins": 29,
     "achievement_best_streak": 27
   },
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1060,
-  "average_guess_ms": 17092.154652686764,
+  "total_insane_correct": 1072,
+  "average_guess_ms": 17085.99090909091,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 28
   },
   "spelling_accuracy": {
-    "exact_count": 1408,
-    "total": 1609
+    "exact_count": 1425,
+    "total": 1628
   },
   "achievements": {
     "catalog": [
@@ -2214,7 +2214,8 @@
       "duelstreak_3": "2026-09-27 00:19:33.897943+00:00",
       "duelwins_10": "2026-09-27 00:23:07.782689+00:00",
       "duelstreak_5": "2026-09-27 00:25:21.216541+00:00",
-      "duel_social": "2026-09-27 20:06:56.241785+00:00"
+      "duel_social": "2026-09-27 20:06:56.241785+00:00",
+      "videogames_50": "2026-09-28 18:02:11.656180+00:00"
     },
     "baselines": {
       "points": 632,
@@ -2222,18 +2223,18 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 36,
+      "disney": 37,
       "entertainment": 0,
-      "geo": 88,
-      "gk": 166,
+      "geo": 89,
+      "gk": 167,
       "got": 5,
       "marvel": 57,
-      "movies": 1,
+      "movies": 2,
       "music": 10,
       "pokemon": 9,
       "sports": 27,
-      "videogames": 63,
-      "wrestling": 152,
+      "videogames": 65,
+      "wrestling": 159,
       "duelwins": 21,
       "duelstreak": 5
     }
@@ -3615,8 +3616,8 @@
       "speed": "🐆"
     },
     "theme": {
-      "key": "lolcat",
-      "label": "LOLCAT Response Theme"
+      "key": "cowboy",
+      "label": "Cowboy Response Theme"
     },
     "embedcolor": {
       "key": "mint",
