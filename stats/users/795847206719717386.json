@@ -41,10 +41,7 @@
   "fastest_guess": {
     "response_time_ms": 2525,
     "question_text": "What is Randy Orton's finishing move called?",
-    "category": "Wrestling",
-    "correct_answers": [
-      "nRPQ"
-    ]
+    "category": "Wrestling"
   },
   "best_category": {
     "category": "Wrestling",
@@ -3609,6 +3606,36 @@
       "unlock_level": null,
       "unlocked": false,
       "source": null
+    }
+  ],
+  "rivals": [
+    {
+      "user_id": "433990857063137282",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0
+    },
+    {
+      "user_id": "734768348201615400",
+      "played": 2,
+      "wins": 2,
+      "losses": 0,
+      "ties": 0
+    },
+    {
+      "user_id": "184456115927384065",
+      "played": 1,
+      "wins": 1,
+      "losses": 0,
+      "ties": 0
+    },
+    {
+      "user_id": "794420965387403265",
+      "played": 1,
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
     }
   ]
 }
