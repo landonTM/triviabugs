@@ -6,7 +6,9 @@
     "challenger_id": "433990857063137282",
     "opponent_id": "184456115927384065",
     "format": 3,
+    "format_label": "Best of 3",
     "winner_id": "184456115927384065",
+    "is_tie": false,
     "challenger_score": 0,
     "opponent_score": 1,
     "decided_by_tiebreaker": false,
@@ -16,13 +18,14 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 5629,
       "answered_at": "2026-09-26 05:11:05.504619+00:00",
       "category": "Sports",
       "question_text": "What is it called when a player kicks or passes the ball through an opponent's legs?",
+      "image_url": null,
       "correct_answers": [
-        "Nutmeg"
+        "gS3r9PCK"
       ]
     },
     {
@@ -33,8 +36,9 @@
       "answered_at": "2026-09-26 05:11:05.504619+00:00",
       "category": "Quotes",
       "question_text": "Who said: \"Poyekhali!\"",
+      "image_url": null,
       "correct_answers": [
-        "Yuri Gagarin"
+        "li3t8LWqhu0Z2S/o"
       ]
     },
     {
@@ -45,8 +49,9 @@
       "answered_at": "2026-09-26 05:11:05.504619+00:00",
       "category": "Video Games",
       "question_text": "What was the pioneering packet-switched network that preceded and laid the groundwork for the modern Internet?",
+      "image_url": null,
       "correct_answers": [
-        "ARPANET"
+        "jgrP2Nuosw=="
       ]
     }
   ]
