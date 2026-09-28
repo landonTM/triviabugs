@@ -2,38 +2,38 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 41,
-    "xp_into_level": 44380,
+    "xp_into_level": 45086,
     "xp_for_level": 58000,
-    "progress": 0.7651724137931034,
+    "progress": 0.7773448275862069,
     "maxed": false
   },
-  "total_xp": 896880,
+  "total_xp": 897586,
   "period_stats": {
-    "daily_points": 273,
-    "daily_correct": 155,
-    "weekly_points": 780,
-    "weekly_correct": 449,
-    "monthly_points": 6175,
-    "monthly_correct": 3539,
-    "yearly_points": 6281,
-    "yearly_correct": 3598,
-    "alltime_points": 6281,
-    "alltime_correct": 3598
+    "daily_points": 297,
+    "daily_correct": 163,
+    "weekly_points": 804,
+    "weekly_correct": 457,
+    "monthly_points": 6199,
+    "monthly_correct": 3547,
+    "yearly_points": 6305,
+    "yearly_correct": 3606,
+    "alltime_points": 6305,
+    "alltime_correct": 3606
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 4071,
-    "questions_right": 1388,
+    "total_points": 4089,
+    "questions_right": 1390,
     "questions_wrong": 0,
-    "wins": 1388,
+    "wins": 1390,
     "current_streak": 1,
     "best_streak": 22,
-    "games_played": 59,
-    "insane_guesses": 1256,
+    "games_played": 60,
+    "insane_guesses": 1262,
     "day_streak": 3,
     "last_played_date": "2026-09-28",
-    "total_xp": 896880,
+    "total_xp": 897586,
     "game_wins": 30,
     "achievement_best_streak": 17
   },
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2210,
-  "average_guess_ms": 20322.78818443804,
+  "total_insane_correct": 2216,
+  "average_guess_ms": 20310.002877697843,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 28
   },
   "spelling_accuracy": {
-    "exact_count": 2620,
-    "total": 2999
+    "exact_count": 2627,
+    "total": 3007
   },
   "achievements": {
     "catalog": [
@@ -2623,8 +2623,8 @@
       "key": "trickortreat",
       "label": "Trick or Treat Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -3487,8 +3487,8 @@
       "key": "scarymovies",
       "label": "Scary Movies MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
