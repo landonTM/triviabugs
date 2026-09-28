@@ -141,7 +141,11 @@
           ]
         }
       ],
-      "spotlights": [],
+      "spotlights": [
+        "Disney",
+        "Whos That Pokemon (Gen 7)",
+        "What Links"
+      ],
       "spotlight_multiplier": 1.5,
       "elo_min_matches": 3
     }
