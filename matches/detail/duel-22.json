@@ -24,9 +24,7 @@
       "category": "Video Games",
       "question_text": "How much does Park Place cost in Monopoly (in US Dollars)?",
       "image_url": null,
-      "correct_answers": [
-        "/G2v"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "MLB",
       "question_text": "What was Babe Ruth's nickname referencing his hitting power?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ucaYi/4ZxWbp1uvfAUrQ"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,8 @@
       "category": "Music",
       "question_text": "Who was the lead singer with the band Thin Lizzy?",
       "image_url": null,
-      "correct_answers": [
-        "nzD29bWhnuQX3zI="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
