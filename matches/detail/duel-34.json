@@ -24,9 +24,7 @@
       "category": "General Knowledge",
       "question_text": "What is the name for a formal, ceremonial farewell speech, often given by someone leaving a position?",
       "image_url": null,
-      "correct_answers": [
-        "mTnz/PGEhP4RxCg="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "General Knowledge",
       "question_text": "What spice, from the dried seed pods of a plant in the ginger family, is among the most expensive by weight after saffron and vanilla?",
       "image_url": null,
-      "correct_answers": [
-        "jDnt/fSAiOc="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "General Knowledge",
       "question_text": "What common name is given to the medical condition medial tibial stress syndrome (MTSS)?",
       "image_url": null,
-      "correct_answers": [
-        "nDD297W+l+YRxTL1"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "General Knowledge",
       "question_text": "What's the name of the dance step popularized by Michael Jackson?",
       "image_url": null,
-      "correct_answers": [
-        "gjfw9+KMi+E="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "World Capitals",
       "question_text": "What is the capital of Argentina?",
       "image_url": null,
-      "correct_answers": [
-        "jS369/qex8sR2SP1"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,9 +79,7 @@
       "category": "Sports",
       "question_text": "What is the highest score possible in 10 pin bowling?",
       "image_url": null,
-      "correct_answers": [
-        "/Giv"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 7,
@@ -102,9 +90,8 @@
       "category": "General Knowledge",
       "question_text": "How many days are there in the month of August?",
       "image_url": null,
-      "correct_answers": [
-        "/Gk="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
