@@ -24,9 +24,7 @@
       "category": "Entertainment",
       "question_text": "Juliette Binoche won an academy award for best supporting role in which film?",
       "image_url": null,
-      "correct_answers": [
-        "ijb49fyej6ooyjLv1aX4"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "NBA",
       "question_text": "What city did the Lakers represent before relocating to Los Angeles?",
       "image_url": null,
-      "correct_answers": [
-        "gjHx9/CMl+UUwjU="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Greek Mythology",
       "question_text": "Who is the Goddess of Childbirth?",
       "image_url": null,
-      "correct_answers": [
-        "ijHz/PyZj/MRyg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "The Simpsons",
       "question_text": "What is Homer Simpson's most famous exclamation of frustration?",
       "image_url": null,
-      "correct_answers": [
-        "i3/w8bQ="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "Chemistry",
       "question_text": "Where might you find americium-241 in your house?",
       "image_url": null,
-      "correct_answers": [
-        "nDXw8vDNg+8MziXy37n/"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,9 +79,7 @@
       "category": "Movies",
       "question_text": "Which musical artist had a prominent role in the 2017 film \"Kingsman: The Golden Circle\"?",
       "image_url": null,
-      "correct_answers": [
-        "ijTr9vvNreUQxQ=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 7,
@@ -102,9 +90,8 @@
       "category": "US State Capitals",
       "question_text": "What is the USA state capital of New Jersey?",
       "image_url": null,
-      "correct_answers": [
-        "myr69+GCiQ=="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
