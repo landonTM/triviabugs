@@ -63,6 +63,10 @@
           "wins_standard": 2,
           "wins_daily": 4,
           "wins_quickfire": 4,
+          "xp_achievement": 300250,
+          "xp": 515095,
+          "xp_duel": 6300,
+          "xp_game": 208545,
           "achievements": 28,
           "bug_reports": 1
         },
@@ -100,6 +104,10 @@
           "wins_standard": 2,
           "wins_daily": 4,
           "wins_quickfire": 4,
+          "xp_achievement": 704750,
+          "xp": 919595,
+          "xp_duel": 6300,
+          "xp_game": 208545,
           "achievements": 65,
           "bug_reports": 5,
           "bugs_fixed": 4
@@ -138,6 +146,10 @@
           "wins_standard": 2,
           "wins_daily": 4,
           "wins_quickfire": 4,
+          "xp_achievement": 704750,
+          "xp": 919595,
+          "xp_duel": 6300,
+          "xp_game": 208545,
           "achievements": 65,
           "bug_reports": 5,
           "bugs_fixed": 4
@@ -176,6 +188,10 @@
           "wins_standard": 2,
           "wins_daily": 4,
           "wins_quickfire": 4,
+          "xp_achievement": 704750,
+          "xp": 919595,
+          "xp_duel": 6300,
+          "xp_game": 208545,
           "achievements": 65,
           "bug_reports": 5,
           "bugs_fixed": 4
@@ -968,7 +984,9 @@
           "duels_started": 1,
           "duel_rounds_won": 12,
           "duel_avg_ms": 8926,
-          "duel_fastest_ms": 4129
+          "duel_fastest_ms": 4129,
+          "xp_duel": 1800,
+          "xp": 1800
         },
         "weekly": {
           "points": 645,
@@ -1002,6 +1020,10 @@
           "wins_hardcore": 3,
           "game_wins": 4,
           "wins_quickfire": 1,
+          "xp_achievement": 107000,
+          "xp": 329319,
+          "xp_game": 189319,
+          "xp_duel": 33000,
           "achievements": 22,
           "bug_reports": 3
         },
@@ -1037,6 +1059,10 @@
           "wins_hardcore": 3,
           "game_wins": 4,
           "wins_quickfire": 1,
+          "xp_achievement": 659500,
+          "xp": 881819,
+          "xp_game": 189319,
+          "xp_duel": 33000,
           "achievements": 69,
           "bug_reports": 58,
           "bugs_fixed": 55
@@ -1073,6 +1099,10 @@
           "wins_hardcore": 3,
           "game_wins": 4,
           "wins_quickfire": 1,
+          "xp_achievement": 659500,
+          "xp": 881819,
+          "xp_game": 189319,
+          "xp_duel": 33000,
           "achievements": 69,
           "bug_reports": 58,
           "bugs_fixed": 55
@@ -1109,6 +1139,10 @@
           "wins_hardcore": 3,
           "game_wins": 28,
           "wins_quickfire": 1,
+          "xp_achievement": 659500,
+          "xp": 881819,
+          "xp_game": 189319,
+          "xp_duel": 33000,
           "achievements": 69,
           "bug_reports": 58,
           "bugs_fixed": 55
@@ -1854,6 +1888,10 @@
           "game_wins": 5,
           "wins_hardcore": 1,
           "wins_standard": 3,
+          "xp_duel": 7650,
+          "xp": 298140,
+          "xp_achievement": 65750,
+          "xp_game": 224740,
           "achievements": 17
         },
         "monthly": {
@@ -1888,6 +1926,10 @@
           "game_wins": 5,
           "wins_hardcore": 1,
           "wins_standard": 3,
+          "xp_duel": 7650,
+          "xp": 878640,
+          "xp_achievement": 646250,
+          "xp_game": 224740,
           "achievements": 62,
           "bug_reports": 4,
           "bugs_fixed": 4
@@ -1924,6 +1966,10 @@
           "game_wins": 5,
           "wins_hardcore": 1,
           "wins_standard": 3,
+          "xp_duel": 7650,
+          "xp": 878640,
+          "xp_achievement": 646250,
+          "xp_game": 224740,
           "achievements": 62,
           "bug_reports": 4,
           "bugs_fixed": 4
@@ -1960,6 +2006,10 @@
           "game_wins": 27,
           "wins_hardcore": 1,
           "wins_standard": 3,
+          "xp_duel": 7650,
+          "xp": 878640,
+          "xp_achievement": 646250,
+          "xp_game": 224740,
           "achievements": 62,
           "bug_reports": 4,
           "bugs_fixed": 4
@@ -2724,7 +2774,9 @@
           "duels_started": 1,
           "duel_rounds_won": 8,
           "duel_avg_ms": 9186,
-          "duel_fastest_ms": 3956
+          "duel_fastest_ms": 3956,
+          "xp_duel": 1950,
+          "xp": 1950
         },
         "weekly": {
           "points": 1035,
@@ -2759,6 +2811,10 @@
           "game_wins": 30,
           "wins_quickfire": 22,
           "wins_hardcore": 6,
+          "xp_game": 165667,
+          "xp": 488417,
+          "xp_duel": 25500,
+          "xp_achievement": 297250,
           "achievements": 30,
           "bug_reports": 1
         },
@@ -2795,6 +2851,10 @@
           "game_wins": 30,
           "wins_quickfire": 22,
           "wins_hardcore": 6,
+          "xp_game": 165667,
+          "xp": 850417,
+          "xp_duel": 25500,
+          "xp_achievement": 659250,
           "achievements": 65,
           "bug_reports": 1
         },
@@ -2831,6 +2891,10 @@
           "game_wins": 30,
           "wins_quickfire": 22,
           "wins_hardcore": 6,
+          "xp_game": 165667,
+          "xp": 850417,
+          "xp_duel": 25500,
+          "xp_achievement": 659250,
           "achievements": 65,
           "bug_reports": 1
         },
@@ -2867,6 +2931,10 @@
           "game_wins": 48,
           "wins_quickfire": 22,
           "wins_hardcore": 6,
+          "xp_game": 165667,
+          "xp": 850417,
+          "xp_duel": 25500,
+          "xp_achievement": 659250,
           "achievements": 65,
           "bug_reports": 1
         }
@@ -3566,6 +3634,10 @@
           "wins_standard": 1,
           "game_wins": 2,
           "wins_daily": 1,
+          "xp_duel": 3750,
+          "xp": 60416,
+          "xp_game": 30916,
+          "xp_achievement": 25750,
           "achievements": 10
         },
         "monthly": {
@@ -3597,6 +3669,10 @@
           "wins_standard": 1,
           "game_wins": 2,
           "wins_daily": 1,
+          "xp_duel": 3750,
+          "xp": 337916,
+          "xp_game": 30916,
+          "xp_achievement": 303250,
           "achievements": 38,
           "bug_reports": 8,
           "bugs_fixed": 8
@@ -3630,6 +3706,10 @@
           "wins_standard": 1,
           "game_wins": 2,
           "wins_daily": 1,
+          "xp_duel": 3750,
+          "xp": 337916,
+          "xp_game": 30916,
+          "xp_achievement": 303250,
           "achievements": 38,
           "bug_reports": 8,
           "bugs_fixed": 8
@@ -3663,6 +3743,10 @@
           "wins_standard": 1,
           "game_wins": 6,
           "wins_daily": 1,
+          "xp_duel": 3750,
+          "xp": 337916,
+          "xp_game": 30916,
+          "xp_achievement": 303250,
           "achievements": 38,
           "bug_reports": 8,
           "bugs_fixed": 8
