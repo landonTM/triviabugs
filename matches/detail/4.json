@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "What piece of equipment is used to strike the white ball in snooker or billiards?",
       "image_url": null,
-      "correct_answers": [
-        "jC36"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -47,9 +45,7 @@
       "category": "Sports",
       "question_text": "In sports, what does the acronym MVP stand for?",
       "image_url": null,
-      "correct_answers": [
-        "gjfs7bW7huYNyiTq1evcGkrds3k="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -69,9 +65,7 @@
       "category": "Sports",
       "question_text": "What is the club nickname for Tottenham Hotspur?",
       "image_url": null,
-      "correct_answers": [
-        "nCjq6+Y="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -91,9 +85,7 @@
       "category": "Sports",
       "question_text": "Which heavyweight boxing champion retired with a perfect 49-0 professional record and never returned for another professional bout?",
       "image_url": null,
-      "correct_answers": [
-        "nTf88uzNqusKyC/n3qQ="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -113,9 +105,7 @@
       "category": "Sports",
       "question_text": "What is the score called when both players have won three points in a game, at 40-40?",
       "image_url": null,
-      "correct_answers": [
-        "iz3q+vA="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -135,9 +125,7 @@
       "category": "Sports",
       "question_text": "Which club won the UEFA Champions League in 2016?",
       "image_url": null,
-      "correct_answers": [
-        "nT3+9bWghu4KwiI="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -157,9 +145,7 @@
       "category": "Sports",
       "question_text": "Which team won the 2020 Super Bowl?",
       "image_url": null,
-      "correct_answers": [
-        "hDnx6vSex8kR3z+m86PlE03X"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -179,9 +165,7 @@
       "category": "Sports",
       "question_text": "Who won the 1998 Daytona 500?",
       "image_url": null,
-      "correct_answers": [
-        "iznz/LWohvgWwyf01L8="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -201,9 +185,7 @@
       "category": "Sports",
       "question_text": "In which sport does the bowler deliver the ball to the batsman?",
       "image_url": null,
-      "correct_answers": [
-        "jCr2+v6Ikw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -223,41 +205,7 @@
       "category": "Wrestling",
       "question_text": "Money in the Bank winners",
       "image_url": null,
-      "correct_answers": [
-        "ijz4/A==",
-        "nTf9ucOMiao8yis=",
-        "giqxud6IieQdzz8=",
-        "jBW/yeCDjA==",
-        "hTn88rW+kOsfzCP0",
-        "hDnx/A==",
-        "mzD6udiEnQ==",
-        "iznx8PCBx8gK0ifo",
-        "jjT9/OeZiKo8ziqm4qLj",
-        "izfz6f3NveMfzCrjwg==",
-        "hTf397WuguQZ",
-        "izny8PCDx9kZxSLpxw==",
-        "nTnx/ezNqPgMxCg=",
-        "nD3r8bW/iOYUwij1",
-        "nDD6+PiYlA==",
-        "iz3+97WsiugKxDXj",
-        "jDnt9PCBi+s=",
-        "jTnt9vvNpOUKyS/o",
-        "jjT64fTNpeYR2DU=",
-        "jSr+7PvNtP4KxDHr0aU=",
-        "jTnm9fCU",
-        "jSrw+v7Nq+8LxSf0",
-        "jivq8vQ=",
-        "gCz26g==",
-        "gTH08vzNpqQrhQ6o",
-        "jTH4udA=",
-        "gzHpudiCle0ZxQ==",
-        "ji3s7fyDx94Qzin0yQ==",
-        "izny8PSDx9oKwiP1xA==",
-        "hiHwucaGng==",
-        "iyr67rWghMMW3z/01Q==",
-        "mzH5//SDnqor3zTnxL/jGA==",
-        "gTnw9Pw="
-      ],
+      "answer_count": 33,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -373,5 +321,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
