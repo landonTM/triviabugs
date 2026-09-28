@@ -3570,6 +3570,35 @@
       "source": null
     }
   ],
+  "equipped": {
+    "footer": {
+      "key": "powered",
+      "label": "Powered Footer",
+      "template": "Powered by {user}! ⚡"
+    },
+    "emoji": {
+      "key": "oceanic",
+      "label": "Oceanic Emoji Pack",
+      "correct": "🐬",
+      "streak": "🌊",
+      "speed": "🦈"
+    },
+    "theme": {
+      "key": "shakespearean",
+      "label": "Shakespearean Response Theme"
+    },
+    "embedcolor": {
+      "key": "cyan",
+      "label": "Cyan Embed",
+      "hex": "#00B4D8"
+    },
+    "mvp": {
+      "key": "epicvictory",
+      "label": "Epic Victory MVP",
+      "quote": "Another epic victory! Big win!",
+      "gif": "https://media.giphy.com/media/Lb57UuNusxb7YSxMJa/giphy.gif"
+    }
+  },
   "rivals": [
     {
       "user_id": "433990857063137282",
