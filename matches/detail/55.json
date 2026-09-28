@@ -1,0 +1,289 @@
+{
+  "game": {
+    "id": 55,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 10,
+    "rounds_played": 10,
+    "categories": [
+      "Disney",
+      "marvel",
+      "logos",
+      "What Links"
+    ],
+    "started_by": "433990857063137282",
+    "winner_id": "433990857063137282",
+    "started_at": "2026-09-28 16:16:17.531213+00:00",
+    "ended_at": "2026-09-28 16:22:50.454841+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5383,
+      "mode": "standard",
+      "started_at": "2026-09-28 16:16:17.920817+00:00",
+      "ended_at": "2026-09-28 16:16:36.388107+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Marvel",
+      "question_text": "What mystical artifact worn by Doctor Strange is named for Agamotto?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 18450,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 16:16:36.383816+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5384,
+      "mode": "standard",
+      "started_at": "2026-09-28 16:16:46.856888+00:00",
+      "ended_at": "2026-09-28 16:17:12.343543+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Disney",
+      "question_text": "What is Linguini's nickname for Remy in Ratatouille?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 25472,
+          "exact_match": true,
+          "points_awarded": 3,
+          "answered_at": "2026-09-28 16:17:12.340248+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5385,
+      "mode": "standard",
+      "started_at": "2026-09-28 16:17:22.616041+00:00",
+      "ended_at": "2026-09-28 16:17:45.124233+00:00",
+      "winner_id": "433990857063137282",
+      "category": "What Links",
+      "question_text": "What word links Elephant, House, Flag",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 22494,
+          "exact_match": true,
+          "points_awarded": 3,
+          "answered_at": "2026-09-28 16:17:45.120924+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5386,
+      "mode": "standard",
+      "started_at": "2026-09-28 16:17:55.409831+00:00",
+      "ended_at": "2026-09-28 16:18:02.765757+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/Y5c28vw.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 7340,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-28 16:18:02.761550+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5387,
+      "mode": "standard",
+      "started_at": "2026-09-28 16:18:13.257706+00:00",
+      "ended_at": "2026-09-28 16:18:39.382639+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Disney",
+      "question_text": "The game, \"Well begun is half done\" is whose clever way to say \"tidy up\"?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 26109,
+          "exact_match": true,
+          "points_awarded": 3,
+          "answered_at": "2026-09-28 16:18:39.379142+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5388,
+      "mode": "standard",
+      "started_at": "2026-09-28 16:18:49.755490+00:00",
+      "ended_at": "2026-09-28 16:18:55.107531+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Disney",
+      "question_text": "What is Hades' hair in Hercules made of?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 5337,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-28 16:18:55.104267+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5389,
+      "mode": "standard",
+      "started_at": "2026-09-28 16:19:05.423925+00:00",
+      "ended_at": "2026-09-28 16:19:53.927917+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Marvel",
+      "question_text": "What artificial intelligence creates the virtual reality known as the Framework?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 48489,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 16:19:53.924633+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5390,
+      "mode": "standard",
+      "started_at": "2026-09-28 16:20:04.326350+00:00",
+      "ended_at": "2026-09-28 16:20:55.871451+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Disney",
+      "question_text": "What is the name of the eagle in The Rescuers Down Under?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 51532,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-28 16:20:55.868315+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5391,
+      "mode": "standard",
+      "started_at": "2026-09-28 16:21:06.229011+00:00",
+      "ended_at": "2026-09-28 16:21:29.154281+00:00",
+      "winner_id": "433990857063137282",
+      "category": "What Links",
+      "question_text": "What word links Flower, Burn, Glasses",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 22912,
+          "exact_match": true,
+          "points_awarded": 3,
+          "answered_at": "2026-09-28 16:21:29.150750+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5392,
+      "mode": "insane",
+      "started_at": "2026-09-28 16:21:39.346086+00:00",
+      "ended_at": "2026-09-28 16:22:39.481321+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "Clothing accessories",
+      "image_url": null,
+      "answer_count": 22,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 3469,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 16:21:42.819272+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 4443,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 16:21:43.792571+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 8706,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 16:21:48.055530+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 10989,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 16:21:50.337970+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 11958,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 16:21:51.307207+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 19361,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 16:21:58.710178+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 26423,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 16:22:05.772254+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 28176,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 16:22:07.524934+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 32233,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 16:22:11.582608+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 40991,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 16:22:20.339994+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 512
+  }
+}
