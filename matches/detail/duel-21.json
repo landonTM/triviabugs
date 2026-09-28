@@ -6,7 +6,9 @@
     "challenger_id": "433990857063137282",
     "opponent_id": "184456115927384065",
     "format": 3,
+    "format_label": "Best of 3",
     "winner_id": "184456115927384065",
+    "is_tie": false,
     "challenger_score": 0,
     "opponent_score": 2,
     "decided_by_tiebreaker": false,
@@ -16,25 +18,27 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 7450,
       "answered_at": "2026-09-26 02:10:01.404761+00:00",
       "category": "Music",
       "question_text": "Who is the lead singer of the band Coldplay?",
+      "image_url": null,
       "correct_answers": [
-        "Chris Martin"
+        "jDDt8ObNqusK3y/o"
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 2610,
       "answered_at": "2026-09-26 02:10:01.404761+00:00",
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/UN8GHa4.png",
       "correct_answers": [
-        "Haiti"
+        "hzn27fw="
       ]
     }
   ]
