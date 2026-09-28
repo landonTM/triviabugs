@@ -6,7 +6,9 @@
     "challenger_id": "184456115927384065",
     "opponent_id": "433990857063137282",
     "format": 7,
+    "format_label": "Best of 7",
     "winner_id": "433990857063137282",
+    "is_tie": false,
     "challenger_score": 2,
     "opponent_score": 3,
     "decided_by_tiebreaker": false,
@@ -21,68 +23,74 @@
       "answered_at": "2026-09-27 00:25:20.427054+00:00",
       "category": "Video Games",
       "question_text": "\"Crash Bandicoot\" is set on a trio of islands southeast of where?",
+      "image_url": null,
       "correct_answers": [
-        "Australia"
+        "ji3s7eeMi+MZ"
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 5786,
       "answered_at": "2026-09-27 00:25:20.427054+00:00",
       "category": "World Cup",
       "question_text": "Which nation currently has the highest accumulative goals-for in the history of the FIFA World Cup? (237)",
+      "image_url": null,
       "correct_answers": [
-        "Brazil"
+        "jSr+4/yB"
       ]
     },
     {
       "round_number": 3,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 3885,
       "answered_at": "2026-09-27 00:25:20.427054+00:00",
       "category": "Harry Potter",
       "question_text": "Who is unanimously elected leader of Dumbledore's Army?",
+      "image_url": null,
       "correct_answers": [
-        "Harry Potter"
+        "hznt6+zNt+UM3yP0"
       ]
     },
     {
       "round_number": 4,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 5056,
       "answered_at": "2026-09-27 00:25:20.427054+00:00",
       "category": "Marvel",
-      "question_text": "What scientist becomes the Lizard?",
+      "question_text": "What scientist becomes the Lizard in The Amazing Spider-Man?",
+      "image_url": null,
       "correct_answers": [
-        "Curt Connors"
+        "jC3t7bWuiOQWxDT1"
       ]
     },
     {
       "round_number": 5,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 3677,
       "answered_at": "2026-09-27 00:25:20.427054+00:00",
       "category": "Sports",
       "question_text": "_________ Heat (NBA)",
+      "image_url": null,
       "correct_answers": [
-        "Miami"
+        "gjH+9Pw="
       ]
     },
     {
       "round_number": 6,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 4905,
       "answered_at": "2026-09-27 00:25:20.427054+00:00",
       "category": "Video Games",
       "question_text": "What genre of game is Marvel Rivals, combining hero-based combat with team objectives?",
+      "image_url": null,
       "correct_answers": [
-        "Hero Shooter"
+        "hz3t9rW+j+UX3yP0"
       ]
     },
     {
@@ -93,8 +101,9 @@
       "answered_at": "2026-09-27 00:25:20.427054+00:00",
       "category": "Entertainment",
       "question_text": "Who starred with John Travolta in the movie \"Broken Arrow\"?",
+      "image_url": null,
       "correct_answers": [
-        "Christian Slater"
+        "jDDt8OaZjusWixXq0b/pBA=="
       ]
     }
   ]
