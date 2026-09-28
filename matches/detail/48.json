@@ -19,370 +19,260 @@
     {
       "round_id": 5282,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:45:38.158777+00:00",
-      "round_ended_at": "2026-09-26 23:46:38.294829+00:00",
+      "started_at": "2026-09-26 23:45:38.158777+00:00",
+      "ended_at": "2026-09-26 23:46:38.294829+00:00",
       "winner_id": null,
       "category": "Sports",
       "question_text": "In golf, what is the term for a putter used off the green?",
+      "image_url": null,
       "correct_answers": [
-        "Texas Wedge"
+        "mz3n+ObNsO8czCM="
       ],
-      "answerer_id": null,
-      "response_time_ms": null,
-      "exact_match": null,
-      "points_awarded": null,
-      "answered_at": null
+      "answers": []
     },
     {
       "round_id": 5283,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:46:48.583087+00:00",
-      "round_ended_at": "2026-09-26 23:47:20.307988+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:46:48.583087+00:00",
+      "ended_at": "2026-09-26 23:47:20.307988+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "Who is the only head basketball coach to win both an NCAA national championship and an NBA title?",
+      "image_url": null,
       "correct_answers": [
-        "Larry Brown"
+        "gznt6+zNpfgX3Cg="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 31708,
-      "exact_match": true,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 23:47:20.303533+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 31708,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 23:47:20.303533+00:00"
+        }
+      ]
     },
     {
       "round_id": 5284,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:47:30.619217+00:00",
-      "round_ended_at": "2026-09-26 23:47:38.796850+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:47:30.619217+00:00",
+      "ended_at": "2026-09-26 23:47:38.796850+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "Which country's national team is nicknamed the Selecao?",
+      "image_url": null,
       "correct_answers": [
-        "Brazil"
+        "jSr+4/yB"
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 8163,
-      "exact_match": true,
-      "points_awarded": 4,
-      "answered_at": "2026-09-26 23:47:38.793789+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 8163,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-26 23:47:38.793789+00:00"
+        }
+      ]
     },
     {
       "round_id": 5285,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:47:49.002589+00:00",
-      "round_ended_at": "2026-09-26 23:48:49.195370+00:00",
+      "started_at": "2026-09-26 23:47:49.002589+00:00",
+      "ended_at": "2026-09-26 23:48:49.195370+00:00",
       "winner_id": null,
       "category": "Sports",
       "question_text": "What was the original name Major Wingfield gave to his new game, before it became known as lawn tennis?",
+      "image_url": null,
       "correct_answers": [
-        "Sphairistike"
+        "nCj3+PyfjvkMwi3j"
       ],
-      "answerer_id": null,
-      "response_time_ms": null,
-      "exact_match": null,
-      "points_awarded": null,
-      "answered_at": null
+      "answers": []
     },
     {
       "round_id": 5286,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:48:59.422511+00:00",
-      "round_ended_at": "2026-09-26 23:49:05.817051+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:48:59.422511+00:00",
+      "ended_at": "2026-09-26 23:49:05.817051+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What number is at the 12 o'clock position on a dartboard?",
+      "image_url": null,
       "correct_answers": [
-        "20"
+        "/Wg="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 6380,
-      "exact_match": true,
-      "points_awarded": 4,
-      "answered_at": "2026-09-26 23:49:05.813597+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 6380,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-26 23:49:05.813597+00:00"
+        }
+      ]
     },
     {
       "round_id": 5287,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:49:16.057337+00:00",
-      "round_ended_at": "2026-09-26 23:49:22.641354+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:49:16.057337+00:00",
+      "ended_at": "2026-09-26 23:49:22.641354+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "_________ Pistons (NBA)",
+      "image_url": null,
       "correct_answers": [
-        "Detroit"
+        "iz3r6/qEkw=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 6570,
-      "exact_match": true,
-      "points_awarded": 4,
-      "answered_at": "2026-09-26 23:49:22.638013+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 6570,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-26 23:49:22.638013+00:00"
+        }
+      ]
     },
     {
       "round_id": 5288,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:49:32.869391+00:00",
-      "round_ended_at": "2026-09-26 23:49:38.549155+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:49:32.869391+00:00",
+      "ended_at": "2026-09-26 23:49:38.549155+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What is the term for a quarterback's pass being caught by the opposing team?",
+      "image_url": null,
       "correct_answers": [
-        "Interception"
+        "hjbr/OeOgvoMwino"
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 5665,
-      "exact_match": true,
-      "points_awarded": 4,
-      "answered_at": "2026-09-26 23:49:38.545729+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 5665,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-26 23:49:38.545729+00:00"
+        }
+      ]
     },
     {
       "round_id": 5289,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:49:48.842042+00:00",
-      "round_ended_at": "2026-09-26 23:49:52.847321+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:49:48.842042+00:00",
+      "ended_at": "2026-09-26 23:49:52.847321+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "Which club has won the most UEFA Champions League titles?",
+      "image_url": null,
       "correct_answers": [
-        "Real Madrid"
+        "nT3+9bWghu4KwiI="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 3992,
-      "exact_match": true,
-      "points_awarded": 4,
-      "answered_at": "2026-09-26 23:49:52.843847+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 3992,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-26 23:49:52.843847+00:00"
+        }
+      ]
     },
     {
       "round_id": 5290,
       "mode": "standard",
-      "round_started_at": "2026-09-26 23:50:03.536810+00:00",
-      "round_ended_at": "2026-09-26 23:50:26.595902+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 23:50:03.536810+00:00",
+      "ended_at": "2026-09-26 23:50:26.595902+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What annual marathon, the world's oldest, began in 1897?",
+      "image_url": null,
       "correct_answers": [
-        "Boston Marathon"
+        "jTfs7fqDx8cZ2Sfy2KTi"
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 23047,
-      "exact_match": false,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 23:50:26.592714+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 23047,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 23:50:26.592714+00:00"
+        }
+      ]
     },
     {
       "round_id": 5291,
       "mode": "insane",
-      "round_started_at": "2026-09-26 23:50:36.750046+00:00",
-      "round_ended_at": "2026-09-26 23:51:38.240727+00:00",
+      "started_at": "2026-09-26 23:50:36.750046+00:00",
+      "ended_at": "2026-09-26 23:51:38.240727+00:00",
       "winner_id": null,
       "category": "General Knowledge",
       "question_text": "Pasta shapes",
+      "image_url": null,
       "correct_answers": [
-        "Spaghetti",
-        "Penne",
-        "Fusilli",
-        "Rigatoni",
-        "Fettuccine",
-        "Linguine",
-        "Macaroni",
-        "Bow Tie",
-        "Ravioli",
-        "Lasagna",
-        "Tortellini",
-        "Orzo",
-        "Rotini",
-        "Ziti",
-        "Gnocchi",
-        "Cannelloni",
-        "Manicotti",
-        "Angel Hair",
-        "Orecchiette",
-        "Gemelli",
-        "Cavatappi",
-        "Bucatini",
-        "Tagliatelle",
-        "Pappardelle",
-        "Shells",
-        "Ditalini",
-        "Vermicelli"
+        "nCj+/v2Ik/4R",
+        "nz3x9/A=",
+        "iS3s8PmBjg==",
+        "nTH4+OGCieM=",
+        "iT3r7eCOhOMWzg==",
+        "gzHx/uCEie8=",
+        "gjn8+OeCieM=",
+        "jTfoucGEgg==",
+        "nTnp8PqBjg==",
+        "gzns+PKDhg==",
+        "mzft7fCBi+MWwg==",
+        "gCrl9g==",
+        "nTfr8PuE",
+        "lTHr8A==",
+        "iDbw+vaFjg==",
+        "jDnx9/CBi+UWwg==",
+        "gjnx8PaCk/4R",
+        "jjb4/PnNr+sR2Q==",
+        "gCr6+vaFju8M3yM=",
+        "iD3y/PmBjg==",
+        "jDnp+OGMl/oR",
+        "jS38+OGEieM=",
+        "mzn49fyMk+8UxyM=",
+        "nznv6fSfg+8UxyM=",
+        "nDD69fme",
+        "izHr+PmEieM=",
+        "mT3t9PyOguYUwg=="
       ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 29784,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 23:51:06.536378+00:00"
-    },
-    {
-      "round_id": 5291,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 23:50:36.750046+00:00",
-      "round_ended_at": "2026-09-26 23:51:38.240727+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Pasta shapes",
-      "correct_answers": [
-        "Spaghetti",
-        "Penne",
-        "Fusilli",
-        "Rigatoni",
-        "Fettuccine",
-        "Linguine",
-        "Macaroni",
-        "Bow Tie",
-        "Ravioli",
-        "Lasagna",
-        "Tortellini",
-        "Orzo",
-        "Rotini",
-        "Ziti",
-        "Gnocchi",
-        "Cannelloni",
-        "Manicotti",
-        "Angel Hair",
-        "Orecchiette",
-        "Gemelli",
-        "Cavatappi",
-        "Bucatini",
-        "Tagliatelle",
-        "Pappardelle",
-        "Shells",
-        "Ditalini",
-        "Vermicelli"
-      ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 32865,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 23:51:09.617982+00:00"
-    },
-    {
-      "round_id": 5291,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 23:50:36.750046+00:00",
-      "round_ended_at": "2026-09-26 23:51:38.240727+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Pasta shapes",
-      "correct_answers": [
-        "Spaghetti",
-        "Penne",
-        "Fusilli",
-        "Rigatoni",
-        "Fettuccine",
-        "Linguine",
-        "Macaroni",
-        "Bow Tie",
-        "Ravioli",
-        "Lasagna",
-        "Tortellini",
-        "Orzo",
-        "Rotini",
-        "Ziti",
-        "Gnocchi",
-        "Cannelloni",
-        "Manicotti",
-        "Angel Hair",
-        "Orecchiette",
-        "Gemelli",
-        "Cavatappi",
-        "Bucatini",
-        "Tagliatelle",
-        "Pappardelle",
-        "Shells",
-        "Ditalini",
-        "Vermicelli"
-      ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 37283,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 23:51:14.035500+00:00"
-    },
-    {
-      "round_id": 5291,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 23:50:36.750046+00:00",
-      "round_ended_at": "2026-09-26 23:51:38.240727+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Pasta shapes",
-      "correct_answers": [
-        "Spaghetti",
-        "Penne",
-        "Fusilli",
-        "Rigatoni",
-        "Fettuccine",
-        "Linguine",
-        "Macaroni",
-        "Bow Tie",
-        "Ravioli",
-        "Lasagna",
-        "Tortellini",
-        "Orzo",
-        "Rotini",
-        "Ziti",
-        "Gnocchi",
-        "Cannelloni",
-        "Manicotti",
-        "Angel Hair",
-        "Orecchiette",
-        "Gemelli",
-        "Cavatappi",
-        "Bucatini",
-        "Tagliatelle",
-        "Pappardelle",
-        "Shells",
-        "Ditalini",
-        "Vermicelli"
-      ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 42188,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 23:51:18.941006+00:00"
-    },
-    {
-      "round_id": 5291,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 23:50:36.750046+00:00",
-      "round_ended_at": "2026-09-26 23:51:38.240727+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Pasta shapes",
-      "correct_answers": [
-        "Spaghetti",
-        "Penne",
-        "Fusilli",
-        "Rigatoni",
-        "Fettuccine",
-        "Linguine",
-        "Macaroni",
-        "Bow Tie",
-        "Ravioli",
-        "Lasagna",
-        "Tortellini",
-        "Orzo",
-        "Rotini",
-        "Ziti",
-        "Gnocchi",
-        "Cannelloni",
-        "Manicotti",
-        "Angel Hair",
-        "Orecchiette",
-        "Gemelli",
-        "Cavatappi",
-        "Bucatini",
-        "Tagliatelle",
-        "Pappardelle",
-        "Shells",
-        "Ditalini",
-        "Vermicelli"
-      ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 47658,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 23:51:24.410231+00:00"
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 29784,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 23:51:06.536378+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 32865,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 23:51:09.617982+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 37283,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 23:51:14.035500+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 42188,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 23:51:18.941006+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 47658,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 23:51:24.410231+00:00"
+        }
+      ]
     }
   ]
 }
