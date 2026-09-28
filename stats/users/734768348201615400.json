@@ -41,10 +41,7 @@
   "fastest_guess": {
     "response_time_ms": 2593,
     "question_text": "What promotion was Sting most associated with before joining WWE?",
-    "category": "Wrestling",
-    "correct_answers": [
-      "mBvI"
-    ]
+    "category": "Wrestling"
   },
   "best_category": {
     "category": "Wrestling",
@@ -3599,6 +3596,22 @@
       "unlock_level": null,
       "unlocked": false,
       "source": null
+    }
+  ],
+  "rivals": [
+    {
+      "user_id": "433990857063137282",
+      "played": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0
+    },
+    {
+      "user_id": "795847206719717386",
+      "played": 2,
+      "wins": 0,
+      "losses": 2,
+      "ties": 0
     }
   ]
 }
