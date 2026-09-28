@@ -24,9 +24,7 @@
       "category": "Music",
       "question_text": "Who is the lead singer of the band Coldplay?",
       "image_url": null,
-      "correct_answers": [
-        "jDDt8ObNqusK3y/o"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,8 @@
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
       "image_url": "https://i.imgur.com/UN8GHa4.png",
-      "correct_answers": [
-        "hzn27fw="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
