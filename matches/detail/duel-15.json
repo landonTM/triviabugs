@@ -24,9 +24,7 @@
       "category": "Whos That Pokemon (Gen 6)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/t7R1oPq.png",
-      "correct_answers": [
-        "mTfz+vSDjuUW"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Music",
       "question_text": "Which female pop-star's debut album was called \"Honey to the B\"?",
       "image_url": null,
-      "correct_answers": [
-        "jTHz9fyI"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Greek Mythology",
       "question_text": "Which goddess is associated with flowers?",
       "image_url": null,
-      "correct_answers": [
-        "nz3t6vCdj+UWzg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Whos That Pokemon (Gen 5)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/rTOGl5K.png",
-      "correct_answers": [
-        "nCzq9/OElOE="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,8 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Internet/Texting: FYI",
       "image_url": null,
-      "correct_answers": [
-        "iTftucyCkvhY4ijg37nhF1/NuWU="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
