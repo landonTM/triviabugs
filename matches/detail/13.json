@@ -23,9 +23,7 @@
       "category": "Video Games",
       "question_text": "What company developed the original Space Invaders arcade game?",
       "image_url": null,
-      "correct_answers": [
-        "mzn27fo="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -37,9 +35,7 @@
       "category": "General Knowledge",
       "question_text": "Who founded the Khan Academy?",
       "image_url": null,
-      "correct_answers": [
-        "nDnzud6FhuQ="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -51,9 +47,7 @@
       "category": "Star Wars",
       "question_text": "Who played Leia Skywalker?",
       "image_url": null,
-      "correct_answers": [
-        "jDnt6/yIx8wR2C7jwg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -73,9 +67,7 @@
       "category": "Whos That Pokemon (Gen 8)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/DRTiF79.png",
-      "correct_answers": [
-        "nT348PGfhu0X"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -87,9 +79,7 @@
       "category": "Conundrums",
       "question_text": "Ephemeral",
       "image_url": null,
-      "correct_answers": [
-        "iij3/PiIlesU"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -109,9 +99,7 @@
       "category": "Elements",
       "question_text": "What is the element symbol of \"Phosphorus\"?",
       "image_url": null,
-      "correct_answers": [
-        "nw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -131,9 +119,7 @@
       "category": "Disney",
       "question_text": "According to Greek Mythology, who is the father of King Triton from the Little Mermaid?",
       "image_url": null,
-      "correct_answers": [
-        "nzfs/PyJiOQ="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -153,9 +139,7 @@
       "category": "Video Games",
       "question_text": "What company developed and publishes Fortnite?",
       "image_url": null,
-      "correct_answers": [
-        "iij2+rWqhucd2A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -175,9 +159,7 @@
       "category": "Entertainment",
       "question_text": "What is the address of The Munsters?",
       "image_url": null,
-      "correct_answers": [
-        "/muuqrWgiOkTwijh0qL+Egvot2VC"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -197,32 +179,7 @@
       "category": "Wrestling",
       "question_text": "Every Undertaker WrestleMania opponent",
       "image_url": null,
-      "correct_answers": [
-        "hTHy9OzNtOQNwCc=",
-        "hTn0/LW/iOgd2TL1",
-        "iDH+9+HNoOUW0Sfq1bE=",
-        "hDHx/rWmiOQfiwTz3q/1",
-        "izH66vCB",
-        "nCH88frNtOMc",
-        "hDnx/A==",
-        "jTH4udeClPlY5ifo",
-        "myr26fmIx8I=",
-        "nTH8udOBhuMK",
-        "jTH4ucaFiP0=",
-        "jnXL6/SEiQ==",
-        "nTnx/ezNqPgMxCg=",
-        "gjnt8rWlguQK0g==",
-        "jTnr8OaZhg==",
-        "ijz4/A==",
-        "nDD+7vvNquMbwyfj3Lg=",
-        "jSrw+v7Nq+8LxSf0",
-        "jSr+4LW6nusM3w==",
-        "nDD+9/DNquk1yi7p3g==",
-        "nTfy+PvNte8RzCj1",
-        "hTf397WuguQZ",
-        "jBW/yeCDjA==",
-        "jhK/yuGUi+8L"
-      ],
+      "answer_count": 24,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -368,9 +325,7 @@
       "category": "General Knowledge",
       "question_text": "What is the only solid internal organ in the human body able to regenerate its original mass after being partially removed?",
       "image_url": null,
-      "correct_answers": [
-        "gzHp/Oc="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -390,9 +345,7 @@
       "category": "NBA",
       "question_text": "Atlanta _______?",
       "image_url": null,
-      "correct_answers": [
-        "hzno8uY="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -412,9 +365,7 @@
       "category": "Movies",
       "question_text": "In The Shawshank Redemption, what was Andy's profession before prison?",
       "image_url": null,
-      "correct_answers": [
-        "jTnx8vCf"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -434,7 +385,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": []
     },
     {
@@ -446,9 +397,7 @@
       "category": "Art and Literature",
       "question_text": "A movement in American painting and sculpture that originated in the late 1950s. It emphasized pure, reduced forms and strict, systematic compositions?",
       "image_url": null,
-      "correct_answers": [
-        "gjHx8PiMi+MLxg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -468,9 +417,7 @@
       "category": "Geography",
       "question_text": "What is the only country in the world with a flag that doesn't have four right angles?",
       "image_url": null,
-      "correct_answers": [
-        "gT3v+Pk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -490,9 +437,7 @@
       "category": "Video Games",
       "question_text": "What princess does Mario frequently rescue from Bowser?",
       "image_url": null,
-      "correct_answers": [
-        "nyr29/aIlPlY+yPn06M="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -512,9 +457,7 @@
       "category": "Whos That Pokemon (Gen 5)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/hIODlhd.png",
-      "correct_answers": [
-        "nDnx/fyBgg=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -526,9 +469,7 @@
       "category": "History",
       "question_text": "In which work by Plato does Socrates defend himself before the Athenian court?",
       "image_url": null,
-      "correct_answers": [
-        "jijw9fqKng=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -540,59 +481,7 @@
       "category": "Wrestling",
       "question_text": "People who beat John Cena in a televised singles match",
       "image_url": null,
-      "correct_answers": [
-        "hC3t7bWsie0Uzg==",
-        "jDDt8ObNre8KwiXu3w==",
-        "nTH08OaFjg==",
-        "jTHz9ezNrOMcxifo",
-        "jSrw+v7Nq+8LxSf0",
-        "i3XJ9vvNo/8cxyP/",
-        "ijz78PDNoP8d2TTjwqQ=",
-        "jTHz9ezNoP8WxQ==",
-        "nTDm9/o=",
-        "jDDt8ObNpe8WxC/y",
-        "mzD6ucCDg+8K3yft1bk=",
-        "gCrz+PuJiKoyxDTi0aU=",
-        "jTfw8vCfx94=",
-        "nT3x/LWpkvoKziM=",
-        "hD3p8PvNoe8czjTq2aXp",
-        "mjX+/vQ=",
-        "jDnt9fyZiA==",
-        "mzD6udKfgusMiw3u0afl",
-        "nDD+7vvNquMbwyfj3Lg=",
-        "myr26fmIx8I=",
-        "nTnx/ezNqPgMxCg=",
-        "ijz4/A==",
-        "nTf9ucOMiao8yis=",
-        "mDn7/LWvhvgKzjLy",
-        "jTnr8OaZhg==",
-        "mzD6udeEgKorwynx",
-        "nDD6+PiYlA==",
-        "jSr+4LW6nusM3w==",
-        "iznx8PCBx8gK0ifo",
-        "jC3t7fyex8sAzio=",
-        "izfz6f3NveMfzCrjwg==",
-        "hTf397Whhv8Kwijn2b/lBQ==",
-        "gzft/bW5guQLyi8=",
-        "mzD6uceChOE=",
-        "jBW/yeCDjA==",
-        "nXXL6+CZjw==",
-        "mzD6udiEnQ==",
-        "nD3r8bW/iOYUwij1",
-        "nTfy+PvNte8RzCj1",
-        "nDD29+aYjO9Y5Sft0ab5BEo=",
-        "iz3+97WsiugKxDXj",
-        "jhK/yuGUi+8L",
-        "jjT9/OeZiKo8ziqm4qLj",
-        "nS3s/OM=",
-        "hD3p8PvNqP0dxTU=",
-        "gT3p8PmBgg==",
-        "iC3x7f2IlQ==",
-        "izfy8PuEjKo10jXy1bnlGQ==",
-        "jDf74LW/j+UczjU=",
-        "nDfz9rW+juEXyg==",
-        "ji3s7fyDx94Qzin0yQ=="
-      ],
+      "answer_count": 51,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -703,7 +592,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -723,9 +612,7 @@
       "category": "Whos That Pokemon (Gen 4)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/NP789YK.png",
-      "correct_answers": [
-        "ijXv9vmIiOQ="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -745,9 +632,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Science: NOAA",
       "image_url": null,
-      "correct_answers": [
-        "gTnr8PqDhuZY5CXj0aXlFQvFuG8HnKpoaB3ouZ3EaN/vGfv0/IOO+QzZJ/LZpOI="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -759,9 +644,7 @@
       "category": "Video Games",
       "question_text": "Which 1992 educational game starring Luigi gave rise to the 'Weegee' meme?",
       "image_url": null,
-      "correct_answers": [
-        "gjnt8PrNrvlY5i/1w6LiEQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -781,9 +664,7 @@
       "category": "Chemistry",
       "question_text": "What is the temperature pressure combination where solid, liquid, and gas phases all exist simultaneously called?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ueGfjvoUzmb236LiAg=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -795,9 +676,7 @@
       "category": "NBA",
       "question_text": "Who is the youngest player to have 20+ rebounds in a game?",
       "image_url": null,
-      "correct_answers": [
-        "iy/2/v2Zx8IX3Cf01A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -817,9 +696,7 @@
       "category": "Disney",
       "question_text": "In Lilo and Stitch, what is considered to be Stitchs greatest weakness?",
       "image_url": null,
-      "correct_answers": [
-        "mDnr/Oc="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -831,9 +708,7 @@
       "category": "Star Wars",
       "question_text": "What was the name of General Grievous' Superweapon in Star Wars: The Clone Wars?",
       "image_url": null,
-      "correct_answers": [
-        "gjnz/OOCi+8WyCM="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -845,9 +720,7 @@
       "category": "Movies",
       "question_text": "In Beetlejuice, who directed Beetlejuice?",
       "image_url": null,
-      "correct_answers": [
-        "mzHyudeYlf4XxQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -867,74 +740,7 @@
       "category": "General Knowledge",
       "question_text": "Books in the Protestant Bible",
       "image_url": null,
-      "correct_answers": [
-        "iD3x/OaElA==",
-        "iiDw/eCe",
-        "gz3p8OGEhP8L",
-        "gS3y+/CflA==",
-        "iz3q7fCfiOQXxj8=",
-        "hTfs8eCM",
-        "hS37/vCe",
-        "nS3r8Q==",
-        "/njM+PiYguY=",
-        "/XjM+PiYguY=",
-        "/njU8PuKlA==",
-        "/XjU8PuKlA==",
-        "/njc8eeCieMbxyP1",
-        "/Xjc8eeCieMbxyP1",
-        "iiLt+A==",
-        "gT33/PiEhuI=",
-        "iivr8fCf",
-        "hTf9",
-        "nyv+9fie",
-        "nyrw7/Cfhfk=",
-        "ijv89fCejusL3yP1",
-        "nDfx/rWCgaorxCrp3aTi",
-        "hiv+8PSF",
-        "hT3t/PiEhuI=",
-        "gzny/PuZhv4RxCj1",
-        "iiL68vyIiw==",
-        "iznx8PCB",
-        "hzfs/PQ=",
-        "hTf69Q==",
-        "jjXw6g==",
-        "gDr+/fyMjw==",
-        "hTfx+P0=",
-        "gjH8+P0=",
-        "gTn37Pg=",
-        "hzn9+P6GkuE=",
-        "lT3v8fSDjusQ",
-        "hzn4/vSE",
-        "lT388fSfjusQ",
-        "gjnz+PaFjg==",
-        "gjnr7f2IkA==",
-        "gjnt8g==",
-        "gy30/A==",
-        "hTf39w==",
-        "jjvr6g==",
-        "nTfy+Pue",
-        "/njc9ueEif4Qwifoww==",
-        "/Xjc9ueEif4Qwifoww==",
-        "iDnz+OGEhuQL",
-        "iij3/OaEhuQL",
-        "nzD29fydl+MZxTU=",
-        "jDfz9uaejusW2A==",
-        "/njL8fCelOsUxCjv0aX/",
-        "/XjL8fCelOsUxCjv0aX/",
-        "/njL8PiCk+IB",
-        "/XjL8PiCk+IB",
-        "mzHr7OY=",
-        "nzD29fCAiOQ=",
-        "hz396/CalA==",
-        "hTny/OY=",
-        "/njP/OGIlQ==",
-        "/XjP/OGIlQ==",
-        "/njV9v2D",
-        "/XjV9v2D",
-        "/HjV9v2D",
-        "hS37/A==",
-        "nT3p/PmMk+MXxQ=="
-      ],
+      "answer_count": 66,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -996,9 +802,7 @@
       "category": "Geography",
       "question_text": "Which African nation has the most pyramids?",
       "image_url": null,
-      "correct_answers": [
-        "nC37+Ps="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1010,9 +814,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Sports: MLB",
       "image_url": null,
-      "correct_answers": [
-        "gjn19ufNq+8ZzDPjkIntBU7Gt2dL"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1032,9 +834,7 @@
       "category": "Game of Thrones",
       "question_text": "Who trains Arya Stark in the House of Black and White?",
       "image_url": null,
-      "correct_answers": [
-        "hTnu/PvNr60fwyf0"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1046,9 +846,7 @@
       "category": "Disney",
       "question_text": "Which dwarf has the longest nose?",
       "image_url": null,
-      "correct_answers": [
-        "iCrq9OWU"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1060,9 +858,7 @@
       "category": "Quotes",
       "question_text": "In Apollo 13, what does Jim Lovell tell Mission Control they have after the oxygen tank explodes?",
       "image_url": null,
-      "correct_answers": [
-        "nyrw+/mIig=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1074,7 +870,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1094,9 +890,7 @@
       "category": "Greek Mythology",
       "question_text": "Which god is associated with the stork?",
       "image_url": null,
-      "correct_answers": [
-        "hz3t9PCe"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1108,9 +902,7 @@
       "category": "World Cup",
       "question_text": "Who won the Golden Boot award in 2010 South Africa?",
       "image_url": null,
-      "correct_answers": [
-        "mzDw9PSex8e7Fyrq1bk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1130,9 +922,7 @@
       "category": "Wrestling",
       "question_text": "What is Stone Cold Steve Austin's real name?",
       "image_url": null,
-      "correct_answers": [
-        "nCz67/DNsOMUxy/n3bg="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1144,35 +934,7 @@
       "category": "Geography",
       "question_text": "Members of the European Union",
       "image_url": null,
-      "correct_answers": [
-        "ji3s7eeEhg==",
-        "jT3z/vyYig==",
-        "jS3z/vSfjus=",
-        "jCrw+OGEhg==",
-        "jCHv6+Ce",
-        "jCL6+v2Ehg==",
-        "iz3x9PSfjA==",
-        "iivr9vuEhg==",
-        "iTHx9fSDgw==",
-        "iSr+9/aI",
-        "iD3t9PSDng==",
-        "iCr6/PaI",
-        "hy3x/vSfng==",
-        "hir69fSDgw==",
-        "hiz+9ew=",
-        "gznr7/yM",
-        "gzHr8eCMieMZ",
-        "gy3n/PiPiP8KzA==",
-        "gjnz7fQ=",
-        "gT3r8fCfi+sWzzU=",
-        "nzfz+PuJ",
-        "nzft7eCKhuY=",
-        "nTfy+PuEhg==",
-        "nDTw7/SGjus=",
-        "nDTw7/CDjus=",
-        "nCj+8Ps=",
-        "nC/6/fCD"
-      ],
+      "answer_count": 27,
       "answers": []
     },
     {
@@ -1184,9 +946,7 @@
       "category": "Game of Thrones",
       "question_text": "What is the name of the ancient prophecy referring to a hero reborn to battle darkness?",
       "image_url": null,
-      "correct_answers": [
-        "nyr29/aIx94QyjKm56r/VnvWuWZOrrth"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1198,9 +958,7 @@
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
       "image_url": "https://i.imgur.com/MrAUl3e.png",
-      "correct_answers": [
-        "hTny+PyOhg=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1212,9 +970,7 @@
       "category": "Space",
       "question_text": "In NASA's approximate solar-system mass breakdown, what percentage is contained in the eight planets?",
       "image_url": null,
-      "correct_answers": [
-        "/3auqqA="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1226,9 +982,7 @@
       "category": "Conundrums",
       "question_text": "Biologist",
       "image_url": null,
-      "correct_answers": [
-        "jTHw9fqKjvkM"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1240,9 +994,7 @@
       "category": "Music",
       "question_text": "Which M83 song is featured on Non-Stop-Pop FM in Grand Theft Auto V?",
       "image_url": null,
-      "correct_answers": [
-        "gjH79/yKj/5Y6C/yyQ=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1254,9 +1006,7 @@
       "category": "Video Games",
       "question_text": "What is the name of the recurring protagonist in The Legend of Zelda series?",
       "image_url": null,
-      "correct_answers": [
-        "gzHx8g=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1268,9 +1018,7 @@
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
       "image_url": "https://i.imgur.com/3kgZ94y.png",
-      "correct_answers": [
-        "jT3z/vyYig=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1282,9 +1030,7 @@
       "category": "Disney",
       "question_text": "What is the name of Prince Eric's housekeeper in the Little Mermaid?",
       "image_url": null,
-      "correct_answers": [
-        "jDnt9fqZk+s="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1296,9 +1042,7 @@
       "category": "Movies",
       "question_text": "In Grease, who plays Sandy Olsson?",
       "image_url": null,
-      "correct_answers": [
-        "gDT27/yMx8Qd3DLp3ubGGUPK"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1310,47 +1054,7 @@
       "category": "General Knowledge",
       "question_text": "Major UK TV channels",
       "image_url": null,
-      "correct_answers": [
-        "jRrcudqDgg==",
-        "jRrcucGaiA==",
-        "hgzJ",
-        "jDD+9/uIi6pM",
-        "jDD+9/uIi6pN",
-        "nDPmudqDgg==",
-        "nDPmuduIkPk=",
-        "jRrcuduIkPk=",
-        "hgzJqw==",
-        "imw=",
-        "gjft/KE=",
-        "iznp/A==",
-        "nDPmucadiPgM2A==",
-        "jQy/yuWClf4=",
-        "jBrd2g==",
-        "jBr6/PeEgvk=",
-        "jDfy/PGUx8kdxTL00aesI2A=",
-        "ggzJucCm",
-        "gTH88vCBiO4dxCim5YA=",
-        "jDnt7fqCiao2zjLx37nnVn7v",
-        "nDPmudSZi+sW3y/l",
-        "iTHz9KE=",
-        "+g3M2A==",
-        "lj3s7fCfg+sB",
-        "ni366uE=",
-        "nDPmudiEnw==",
-        "nDPmudiMnw==",
-        "iBfT3Q==",
-        "mA==",
-        "nT3+9fmU",
-        "iyr+9PQ=",
-        "jTT+4/A=",
-        "jDD+9fmIie0d",
-        "hgzJ2/A=",
-        "hgzJqg==",
-        "hgzJrQ==",
-        "+yv67/CD",
-        "nDPmudSfk/k=",
-        "nDPmudaEie8Vyg=="
-      ],
+      "answer_count": 39,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -1361,5 +1065,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
