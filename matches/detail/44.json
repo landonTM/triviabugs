@@ -19,36 +19,46 @@
     {
       "round_id": 5210,
       "mode": "standard",
-      "round_started_at": "2026-09-26 21:13:22.601476+00:00",
-      "round_ended_at": "2026-09-26 21:13:27.624786+00:00",
-      "winner_id": 433990857063137282,
+      "started_at": "2026-09-26 21:13:22.601476+00:00",
+      "ended_at": "2026-09-26 21:13:27.624786+00:00",
+      "winner_id": "433990857063137282",
       "category": "Logos",
       "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/MIKWUk0.png",
       "correct_answers": [
-        "Holiday Inn"
+        "hzfz8PGMnqoxxSg="
       ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 5008,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 21:13:27.620856+00:00"
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 5008,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 21:13:27.620856+00:00"
+        }
+      ]
     },
     {
       "round_id": 5211,
       "mode": "standard",
-      "round_started_at": "2026-09-26 21:13:57.839405+00:00",
-      "round_ended_at": "2026-09-26 21:14:05.865296+00:00",
+      "started_at": "2026-09-26 21:13:57.839405+00:00",
+      "ended_at": "2026-09-26 21:14:05.865296+00:00",
       "winner_id": null,
       "category": "Logos",
       "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/t8VZeqI.png",
       "correct_answers": [
-        "Reddit"
+        "nT37/fyZ"
       ],
-      "answerer_id": 734768348201615400,
-      "response_time_ms": 3363,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 21:14:01.212311+00:00"
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3363,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 21:14:01.212311+00:00"
+        }
+      ]
     }
   ]
 }
