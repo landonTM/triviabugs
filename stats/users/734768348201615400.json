@@ -9,28 +9,28 @@
   },
   "total_xp": 923883,
   "period_stats": {
-    "daily_points": 40,
-    "daily_correct": 16,
-    "weekly_points": 1319,
-    "weekly_correct": 769,
-    "monthly_points": 5497,
-    "monthly_correct": 3068,
-    "yearly_points": 5696,
-    "yearly_correct": 3211,
-    "alltime_points": 5696,
-    "alltime_correct": 3211
+    "daily_points": 60,
+    "daily_correct": 27,
+    "weekly_points": 1339,
+    "weekly_correct": 780,
+    "monthly_points": 5517,
+    "monthly_correct": 3079,
+    "yearly_points": 5716,
+    "yearly_correct": 3222,
+    "alltime_points": 5716,
+    "alltime_correct": 3222
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 3568,
-    "questions_right": 1083,
+    "total_points": 3581,
+    "questions_right": 1087,
     "questions_wrong": 0,
-    "wins": 1083,
-    "current_streak": 1,
+    "wins": 1087,
+    "current_streak": 2,
     "best_streak": 37,
     "games_played": 55,
-    "insane_guesses": 1199,
+    "insane_guesses": 1206,
     "day_streak": 14,
     "last_played_date": "2026-09-28",
     "total_xp": 923883,
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2128,
-  "average_guess_ms": 15604.054478301015,
+  "total_insane_correct": 2135,
+  "average_guess_ms": 15608.167433302668,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 30
   },
   "spelling_accuracy": {
-    "exact_count": 2034,
-    "total": 2429
+    "exact_count": 2042,
+    "total": 2440
   },
   "achievements": {
     "catalog": [
@@ -2220,15 +2220,15 @@
     "category_counts": {
       "disney": 33,
       "entertainment": 7,
-      "geo": 226,
+      "geo": 228,
       "gk": 187,
       "got": 0,
       "marvel": 28,
       "movies": 4,
       "music": 20,
       "pokemon": 8,
-      "sports": 84,
-      "videogames": 12,
+      "sports": 85,
+      "videogames": 13,
       "wrestling": 313,
       "duelwins": 4,
       "duelstreak": 2
