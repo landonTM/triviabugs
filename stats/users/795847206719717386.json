@@ -2240,20 +2240,6 @@
     "best_streak": 2,
     "ties": 0
   },
-  "kirkening_crownings": [
-    {
-      "channel_id": "864342930076860426",
-      "message_id": "1547641338999087276",
-      "message_content": null,
-      "crowned_at": "2026-09-10 16:14:09.581124+00:00"
-    },
-    {
-      "channel_id": "864342930076860426",
-      "message_id": "1547686747134107758",
-      "message_content": null,
-      "crowned_at": "2026-09-10 19:14:35.775571+00:00"
-    }
-  ],
   "cosmetics": [
     {
       "cosmetic_type": "footer",
