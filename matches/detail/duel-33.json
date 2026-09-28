@@ -24,9 +24,7 @@
       "category": "General Knowledge",
       "question_text": "What is the largest rodent in the world?",
       "image_url": null,
-      "correct_answers": [
-        "jDnv4PeMles="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "General Knowledge",
       "question_text": "English playwright Christopher Marlowe coined the phrase 'The face that launched a thousand ships' in his tragedy Doctor Faustus when referring to which mythical Greek figure?",
       "image_url": null,
-      "correct_answers": [
-        "hz3z/PvNiOxY/zTpyQ=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "General Knowledge",
       "question_text": "James Augustus Hickey founded the first printed ‘what’ in India in 1780?",
       "image_url": null,
-      "correct_answers": [
-        "gT3o6uWMl+8K"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "General Knowledge",
       "question_text": "In what state is Area 51 located?",
       "image_url": null,
-      "correct_answers": [
-        "gT3p+PGM"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "General Knowledge",
       "question_text": "Which organ is responsible for producing insulin?",
       "image_url": null,
-      "correct_answers": [
-        "nznx+ueIhvk="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,9 +79,7 @@
       "category": "General Knowledge",
       "question_text": "What is the primary ingredient in traditional tofu?",
       "image_url": null,
-      "correct_answers": [
-        "nDfm+/CMifk="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 7,
@@ -102,9 +90,8 @@
       "category": "General Knowledge",
       "question_text": "Bob and Mike Bryan were well known brothers in which sport?",
       "image_url": null,
-      "correct_answers": [
-        "mz3x9/ye"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
