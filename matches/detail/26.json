@@ -19,390 +19,270 @@
     {
       "round_id": 4895,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:46:41.858105+00:00",
-      "round_ended_at": "2026-09-26 03:47:16.694049+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:46:41.858105+00:00",
+      "ended_at": "2026-09-26 03:47:16.694049+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "In what year was the first Wimbledon Championship held?",
+      "image_url": null,
       "correct_answers": [
-        "1877"
+        "/mCorg=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 34821,
-      "exact_match": true,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 03:47:16.689784+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 34821,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 03:47:16.689784+00:00"
+        }
+      ]
     },
     {
       "round_id": 4896,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:47:27.729196+00:00",
-      "round_ended_at": "2026-09-26 03:48:00.717161+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:47:27.729196+00:00",
+      "ended_at": "2026-09-26 03:48:00.717161+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What NFL player holds the record for most career receiving yards?",
+      "image_url": null,
       "correct_answers": [
-        "Jerry Rice"
+        "hT3t6+zNteMbzg=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 32975,
-      "exact_match": true,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 03:48:00.713691+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 32975,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 03:48:00.713691+00:00"
+        }
+      ]
     },
     {
       "round_id": 4897,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:48:10.941198+00:00",
-      "round_ended_at": "2026-09-26 03:48:16.350318+00:00",
-      "winner_id": 184456115927384065,
-      "category": "Sports",
-      "question_text": "What organization is the global governing body of soccer?",
-      "correct_answers": [
-        "FIFA"
-      ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 5396,
-      "exact_match": true,
-      "points_awarded": 4,
-      "answered_at": "2026-09-26 03:48:16.346858+00:00"
+      "started_at": "2026-09-26 03:48:10.941198+00:00",
+      "ended_at": "2026-09-26 03:48:16.350318+00:00",
+      "winner_id": "184456115927384065",
+      "category": null,
+      "question_text": null,
+      "image_url": null,
+      "correct_answers": null,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 5396,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-26 03:48:16.346858+00:00"
+        }
+      ]
     },
     {
       "round_id": 4898,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:48:27.207618+00:00",
-      "round_ended_at": "2026-09-26 03:48:51.963724+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:48:27.207618+00:00",
+      "ended_at": "2026-09-26 03:48:51.963724+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What is the term for tackling the quarterback behind the line of scrimmage in American football?",
+      "image_url": null,
       "correct_answers": [
-        "Sack"
+        "nDn88g=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 24743,
-      "exact_match": true,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 03:48:51.960415+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 24743,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 03:48:51.960415+00:00"
+        }
+      ]
     },
     {
       "round_id": 4899,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:49:02.168482+00:00",
-      "round_ended_at": "2026-09-26 03:49:22.783358+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:49:02.168482+00:00",
+      "ended_at": "2026-09-26 03:49:22.783358+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "_________ Blue Jays (MLB)",
+      "image_url": null,
       "correct_answers": [
-        "Toronto"
+        "mzft9vuZiA=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 20601,
-      "exact_match": true,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 03:49:22.779062+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 20601,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 03:49:22.779062+00:00"
+        }
+      ]
     },
     {
       "round_id": 4900,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:49:33.002660+00:00",
-      "round_ended_at": "2026-09-26 03:49:44.330518+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:49:33.002660+00:00",
+      "ended_at": "2026-09-26 03:49:44.330518+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "Which player won a record 10 Australian Open men's singles titles, as of 2023?",
+      "image_url": null,
       "correct_answers": [
-        "Novak Djokovic"
+        "gTfp+P7No+AXwCnw2ag="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 11316,
-      "exact_match": true,
-      "points_awarded": 4,
-      "answered_at": "2026-09-26 03:49:44.327241+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 11316,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-26 03:49:44.327241+00:00"
+        }
+      ]
     },
     {
       "round_id": 4901,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:49:54.541851+00:00",
-      "round_ended_at": "2026-09-26 03:50:20.552099+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:49:54.541851+00:00",
+      "ended_at": "2026-09-26 03:50:20.552099+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What Portuguese club did Cristiano Ronaldo begin his professional career at?",
+      "image_url": null,
       "correct_answers": [
-        "Sporting CP"
+        "nCjw6+GEie1Y6BY="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 25998,
-      "exact_match": false,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 03:50:20.548878+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 25998,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 03:50:20.548878+00:00"
+        }
+      ]
     },
     {
       "round_id": 4902,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:50:30.840741+00:00",
-      "round_ended_at": "2026-09-26 03:51:11.249473+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:50:30.840741+00:00",
+      "ended_at": "2026-09-26 03:51:11.249473+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What is the name of Arsenal's home stadium?",
+      "image_url": null,
       "correct_answers": [
-        "Emirates Stadium"
+        "ijX26/SZgvlY+DLn1KL5Gw=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 40395,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:51:11.246082+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 40395,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:51:11.246082+00:00"
+        }
+      ]
     },
     {
       "round_id": 4903,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:51:21.506541+00:00",
-      "round_ended_at": "2026-09-26 03:52:21.637463+00:00",
+      "started_at": "2026-09-26 03:51:21.506541+00:00",
+      "ended_at": "2026-09-26 03:52:21.637463+00:00",
       "winner_id": null,
       "category": "Sports",
       "question_text": "What NFL player debuted as a professional wrestler in 2004?",
+      "image_url": null,
       "correct_answers": [
-        "Brian Urlacher"
+        "jSr2+PvNsvgUyiXu1bk="
       ],
-      "answerer_id": null,
-      "response_time_ms": null,
-      "exact_match": null,
-      "points_awarded": null,
-      "answered_at": null
+      "answers": []
     },
     {
       "round_id": 4904,
       "mode": "insane",
-      "round_started_at": "2026-09-26 03:52:31.771305+00:00",
-      "round_ended_at": "2026-09-26 03:53:31.924464+00:00",
+      "started_at": "2026-09-26 03:52:31.771305+00:00",
+      "ended_at": "2026-09-26 03:53:31.924464+00:00",
       "winner_id": null,
       "category": "General Knowledge",
       "question_text": "Name all commonly known vegetables",
+      "image_url": null,
       "correct_answers": [
-        "Carrot",
-        "Potato",
-        "Onion",
-        "Garlic",
-        "Broccoli",
-        "Cauliflower",
-        "Cabbage",
-        "Lettuce",
-        "Spinach",
-        "Kale",
-        "Celery",
-        "Cucumber",
-        "Zucchini",
-        "Squash",
-        "Pumpkin",
-        "Eggplant",
-        "Bell Pepper",
-        "Tomato",
-        "Corn",
-        "Peas",
-        "Green Beans",
-        "Asparagus",
-        "Beet",
-        "Radish",
-        "Turnip",
-        "Sweet Potato",
-        "Yam",
-        "Artichoke",
-        "Brussels Sprouts",
-        "Leek",
-        "Mushroom"
+        "jDnt6/qZ",
+        "nzfr+OGC",
+        "gDb29vs=",
+        "iDnt9fyO",
+        "jSrw+vaCi+M=",
+        "jDnq9fyLi+UPzjQ=",
+        "jDn9+/SKgg==",
+        "gz3r7eCOgg==",
+        "nCj29/SOjw==",
+        "hDnz/A==",
+        "jD3z/OeU",
+        "jC387PiPgvg=",
+        "lS38+v2EieM=",
+        "nCnq+OaF",
+        "ny3y6f6EiQ==",
+        "ij/46fmMif4=",
+        "jT3z9bW9gvoIzjQ=",
+        "mzfy+OGC",
+        "jDft9w==",
+        "nz3+6g==",
+        "iCr6/PvNpe8ZxTU=",
+        "jivv+OeMgP8L",
+        "jT367Q==",
+        "nTn78OaF",
+        "my3t9/yd",
+        "nC/6/OHNt+UMyjLp",
+        "ljny",
+        "jirr8PaFiOEd",
+        "jSrq6uaIi/lY+Db03774BQ==",
+        "gz368g==",
+        "gi3s8eeCiOc="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 22151,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:52:53.924938+00:00"
-    },
-    {
-      "round_id": 4904,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 03:52:31.771305+00:00",
-      "round_ended_at": "2026-09-26 03:53:31.924464+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Name all commonly known vegetables",
-      "correct_answers": [
-        "Carrot",
-        "Potato",
-        "Onion",
-        "Garlic",
-        "Broccoli",
-        "Cauliflower",
-        "Cabbage",
-        "Lettuce",
-        "Spinach",
-        "Kale",
-        "Celery",
-        "Cucumber",
-        "Zucchini",
-        "Squash",
-        "Pumpkin",
-        "Eggplant",
-        "Bell Pepper",
-        "Tomato",
-        "Corn",
-        "Peas",
-        "Green Beans",
-        "Asparagus",
-        "Beet",
-        "Radish",
-        "Turnip",
-        "Sweet Potato",
-        "Yam",
-        "Artichoke",
-        "Brussels Sprouts",
-        "Leek",
-        "Mushroom"
-      ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 26465,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:52:58.239351+00:00"
-    },
-    {
-      "round_id": 4904,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 03:52:31.771305+00:00",
-      "round_ended_at": "2026-09-26 03:53:31.924464+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Name all commonly known vegetables",
-      "correct_answers": [
-        "Carrot",
-        "Potato",
-        "Onion",
-        "Garlic",
-        "Broccoli",
-        "Cauliflower",
-        "Cabbage",
-        "Lettuce",
-        "Spinach",
-        "Kale",
-        "Celery",
-        "Cucumber",
-        "Zucchini",
-        "Squash",
-        "Pumpkin",
-        "Eggplant",
-        "Bell Pepper",
-        "Tomato",
-        "Corn",
-        "Peas",
-        "Green Beans",
-        "Asparagus",
-        "Beet",
-        "Radish",
-        "Turnip",
-        "Sweet Potato",
-        "Yam",
-        "Artichoke",
-        "Brussels Sprouts",
-        "Leek",
-        "Mushroom"
-      ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 32210,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:53:03.984428+00:00"
-    },
-    {
-      "round_id": 4904,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 03:52:31.771305+00:00",
-      "round_ended_at": "2026-09-26 03:53:31.924464+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Name all commonly known vegetables",
-      "correct_answers": [
-        "Carrot",
-        "Potato",
-        "Onion",
-        "Garlic",
-        "Broccoli",
-        "Cauliflower",
-        "Cabbage",
-        "Lettuce",
-        "Spinach",
-        "Kale",
-        "Celery",
-        "Cucumber",
-        "Zucchini",
-        "Squash",
-        "Pumpkin",
-        "Eggplant",
-        "Bell Pepper",
-        "Tomato",
-        "Corn",
-        "Peas",
-        "Green Beans",
-        "Asparagus",
-        "Beet",
-        "Radish",
-        "Turnip",
-        "Sweet Potato",
-        "Yam",
-        "Artichoke",
-        "Brussels Sprouts",
-        "Leek",
-        "Mushroom"
-      ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 34898,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:53:06.671739+00:00"
-    },
-    {
-      "round_id": 4904,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 03:52:31.771305+00:00",
-      "round_ended_at": "2026-09-26 03:53:31.924464+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Name all commonly known vegetables",
-      "correct_answers": [
-        "Carrot",
-        "Potato",
-        "Onion",
-        "Garlic",
-        "Broccoli",
-        "Cauliflower",
-        "Cabbage",
-        "Lettuce",
-        "Spinach",
-        "Kale",
-        "Celery",
-        "Cucumber",
-        "Zucchini",
-        "Squash",
-        "Pumpkin",
-        "Eggplant",
-        "Bell Pepper",
-        "Tomato",
-        "Corn",
-        "Peas",
-        "Green Beans",
-        "Asparagus",
-        "Beet",
-        "Radish",
-        "Turnip",
-        "Sweet Potato",
-        "Yam",
-        "Artichoke",
-        "Brussels Sprouts",
-        "Leek",
-        "Mushroom"
-      ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 37944,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:53:09.718085+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 22151,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:52:53.924938+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 26465,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:52:58.239351+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 32210,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:53:03.984428+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 34898,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:53:06.671739+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 37944,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:53:09.718085+00:00"
+        }
+      ]
     }
   ]
 }
