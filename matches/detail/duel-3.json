@@ -24,9 +24,7 @@
       "category": "Disney",
       "question_text": "What form does Maleficent transform herself into in order to fight Prince Phillip?",
       "image_url": null,
-      "correct_answers": [
-        "iyr+/vqD"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Marvel",
       "question_text": "What is Black Panther's real name?",
       "image_url": null,
-      "correct_answers": [
-        "m3/c8fSBi+s="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,8 @@
       "category": "Pokemon",
       "question_text": "How many different types of Evolutionary Stones are there?",
       "image_url": null,
-      "correct_answers": [
-        "9g=="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
