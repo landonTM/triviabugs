@@ -1,5 +1,5 @@
 {
-  "user_id": 734768348201615400,
+  "user_id": "734768348201615400",
   "level": {
     "level": 42,
     "xp_into_level": 9095,
@@ -21,8 +21,8 @@
     "alltime_correct": 3195
   },
   "stats_row": {
-    "user_id": 734768348201615400,
-    "guild_id": 861055530638114836,
+    "user_id": "734768348201615400",
+    "guild_id": "861055530638114836",
     "total_points": 3536,
     "questions_right": 1075,
     "questions_wrong": 0,
@@ -2238,8 +2238,8 @@
     }
   },
   "duel_stats": {
-    "guild_id": 861055530638114836,
-    "user_id": 734768348201615400,
+    "guild_id": "861055530638114836",
+    "user_id": "734768348201615400",
     "wins": 4,
     "losses": 2,
     "current_streak": 2,
