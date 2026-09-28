@@ -2,38 +2,38 @@
   "user_id": "184456115927384065",
   "level": {
     "level": 41,
-    "xp_into_level": 283,
+    "xp_into_level": 699,
     "xp_for_level": 58000,
-    "progress": 0.004879310344827586,
+    "progress": 0.012051724137931034,
     "maxed": false
   },
-  "total_xp": 852783,
+  "total_xp": 853199,
   "period_stats": {
-    "daily_points": 5,
-    "daily_correct": 4,
-    "weekly_points": 1029,
-    "weekly_correct": 442,
-    "monthly_points": 2402,
-    "monthly_correct": 1234,
-    "yearly_points": 2402,
-    "yearly_correct": 1234,
-    "alltime_points": 2402,
-    "alltime_correct": 1234
+    "daily_points": 12,
+    "daily_correct": 6,
+    "weekly_points": 1036,
+    "weekly_correct": 444,
+    "monthly_points": 2409,
+    "monthly_correct": 1236,
+    "yearly_points": 2409,
+    "yearly_correct": 1236,
+    "alltime_points": 2409,
+    "alltime_correct": 1236
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 1754,
-    "questions_right": 586,
+    "total_points": 1761,
+    "questions_right": 588,
     "questions_wrong": 0,
-    "wins": 586,
+    "wins": 588,
     "current_streak": 1,
     "best_streak": 21,
-    "games_played": 90,
+    "games_played": 91,
     "insane_guesses": 477,
     "day_streak": 14,
     "last_played_date": "2026-09-28",
-    "total_xp": 852783,
+    "total_xp": 853199,
     "game_wins": 48,
     "achievement_best_streak": 21
   },
@@ -54,14 +54,14 @@
     "guesses": 16
   },
   "total_insane_correct": 648,
-  "average_guess_ms": 21114.31058020478,
+  "average_guess_ms": 21113.88945578231,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 24
   },
   "spelling_accuracy": {
-    "exact_count": 1053,
-    "total": 1142
+    "exact_count": 1055,
+    "total": 1144
   },
   "achievements": {
     "catalog": [
@@ -2224,7 +2224,7 @@
       "gk": 123,
       "got": 1,
       "marvel": 9,
-      "movies": 20,
+      "movies": 21,
       "music": 15,
       "pokemon": 4,
       "sports": 226,
