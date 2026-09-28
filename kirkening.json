@@ -1,0 +1,165 @@
+{
+  "holder": {
+    "user_id": "794420965387403265",
+    "updated_at": "2026-09-11 02:09:50.173295+00:00"
+  },
+  "next_event": "2027-09-10 00:00:00-04:00",
+  "events": [
+    {
+      "year": 2026,
+      "starts_at": "2026-09-10 00:00:00-04:00",
+      "ends_at": "2026-09-11 00:00:00-04:00",
+      "reigns": [
+        {
+          "user_id": "739131649966473306",
+          "message_content": null,
+          "crowned_at": "2026-09-10 11:32:01.416150+00:00",
+          "reign_ms": 10593472
+        },
+        {
+          "user_id": "225570740802420737",
+          "message_content": null,
+          "crowned_at": "2026-09-10 14:28:34.888887+00:00",
+          "reign_ms": 507453
+        },
+        {
+          "user_id": "433990857063137282",
+          "message_content": null,
+          "crowned_at": "2026-09-10 14:37:02.341951+00:00",
+          "reign_ms": 1082569
+        },
+        {
+          "user_id": "739131649966473306",
+          "message_content": null,
+          "crowned_at": "2026-09-10 14:55:04.911394+00:00",
+          "reign_ms": 574920
+        },
+        {
+          "user_id": "225570740802420737",
+          "message_content": null,
+          "crowned_at": "2026-09-10 15:04:39.832202+00:00",
+          "reign_ms": 4169748
+        },
+        {
+          "user_id": "795847206719717386",
+          "message_content": null,
+          "crowned_at": "2026-09-10 16:14:09.581124+00:00",
+          "reign_ms": 4352185
+        },
+        {
+          "user_id": "433990857063137282",
+          "message_content": null,
+          "crowned_at": "2026-09-10 17:26:41.766221+00:00",
+          "reign_ms": 6474009
+        },
+        {
+          "user_id": "795847206719717386",
+          "message_content": null,
+          "crowned_at": "2026-09-10 19:14:35.775571+00:00",
+          "reign_ms": 6068017
+        },
+        {
+          "user_id": "794420965387403265",
+          "message_content": null,
+          "crowned_at": "2026-09-10 20:55:43.793255+00:00",
+          "reign_ms": 2427455
+        },
+        {
+          "user_id": "225570740802420737",
+          "message_content": null,
+          "crowned_at": "2026-09-10 21:36:11.249201+00:00",
+          "reign_ms": 1229463
+        },
+        {
+          "user_id": "739131649966473306",
+          "message_content": null,
+          "crowned_at": "2026-09-10 21:56:40.712784+00:00",
+          "reign_ms": 455263
+        },
+        {
+          "user_id": "187400147989168132",
+          "message_content": null,
+          "crowned_at": "2026-09-10 22:04:15.976337+00:00",
+          "reign_ms": 167352
+        },
+        {
+          "user_id": "433990857063137282",
+          "message_content": null,
+          "crowned_at": "2026-09-10 22:07:03.328369+00:00",
+          "reign_ms": 379188
+        },
+        {
+          "user_id": "794420965387403265",
+          "message_content": null,
+          "crowned_at": "2026-09-10 22:13:22.516797+00:00",
+          "reign_ms": 4543411
+        },
+        {
+          "user_id": "130899127968989184",
+          "message_content": null,
+          "crowned_at": "2026-09-10 23:29:05.927834+00:00",
+          "reign_ms": 9644247
+        },
+        {
+          "user_id": "794420965387403265",
+          "message_content": null,
+          "crowned_at": "2026-09-11 02:09:50.175698+00:00",
+          "reign_ms": 6609824
+        }
+      ],
+      "final_holder": "794420965387403265",
+      "live": false
+    }
+  ],
+  "totals": [
+    {
+      "user_id": "739131649966473306",
+      "crowns": 3,
+      "reign_ms": 11623655,
+      "years_won": 0,
+      "longest_reign_ms": 10593472
+    },
+    {
+      "user_id": "225570740802420737",
+      "crowns": 3,
+      "reign_ms": 5906664,
+      "years_won": 0,
+      "longest_reign_ms": 4169748
+    },
+    {
+      "user_id": "433990857063137282",
+      "crowns": 3,
+      "reign_ms": 7935766,
+      "years_won": 0,
+      "longest_reign_ms": 6474009
+    },
+    {
+      "user_id": "795847206719717386",
+      "crowns": 2,
+      "reign_ms": 10420202,
+      "years_won": 0,
+      "longest_reign_ms": 6068017
+    },
+    {
+      "user_id": "794420965387403265",
+      "crowns": 3,
+      "reign_ms": 13580690,
+      "years_won": 1,
+      "longest_reign_ms": 6609824
+    },
+    {
+      "user_id": "187400147989168132",
+      "crowns": 1,
+      "reign_ms": 167352,
+      "years_won": 0,
+      "longest_reign_ms": 167352
+    },
+    {
+      "user_id": "130899127968989184",
+      "crowns": 1,
+      "reign_ms": 9644247,
+      "years_won": 0,
+      "longest_reign_ms": 9644247
+    }
+  ]
+}
