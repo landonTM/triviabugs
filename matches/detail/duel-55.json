@@ -1,0 +1,77 @@
+{
+  "match": {
+    "id": 55,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 5,
+    "format_label": "Best of 5",
+    "winner_id": "184456115927384065",
+    "is_tie": false,
+    "challenger_score": 1,
+    "opponent_score": 0,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-28 18:52:43.548655+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": "184456115927384065",
+      "response_time_ms": 8555,
+      "answered_at": "2026-09-28 18:52:43.550620+00:00",
+      "category": "Conundrums",
+      "question_text": "Yearning",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 18:52:43.550620+00:00",
+      "category": "Music",
+      "question_text": "Which R.E.M. song includes the line \"Let's play twister, let's play risk\"?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 18:52:43.550620+00:00",
+      "category": "Entertainment",
+      "question_text": "Who runs Andy Capp's favorite pub?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 18:52:43.550620+00:00",
+      "category": "Lord of the Rings",
+      "question_text": "What was the name given to a meeting of Ents?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 18:52:43.550620+00:00",
+      "category": "Harry Potter",
+      "question_text": "What is the core of Cedric's wand?",
+      "image_url": null,
+      "answer_count": 1
+    }
+  ],
+  "xp": {
+    "184456115927384065": 1500
+  }
+}
