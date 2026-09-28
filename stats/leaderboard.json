@@ -1,0 +1,568 @@
+{
+  "players": [
+    {
+      "user_id": "734768348201615400",
+      "level": {
+        "level": 42,
+        "xp_into_level": 9095,
+        "xp_for_level": 61000,
+        "progress": 0.1490983606557377,
+        "maxed": false
+      },
+      "total_xp": 919595,
+      "period": {
+        "daily_points": 0,
+        "daily_correct": 0,
+        "weekly_points": 1362,
+        "weekly_correct": 798,
+        "monthly_points": 5457,
+        "monthly_correct": 3052,
+        "yearly_points": 5656,
+        "yearly_correct": 3195,
+        "alltime_points": 5656,
+        "alltime_correct": 3195
+      },
+      "games_played": 54,
+      "game_wins": 28,
+      "best_streak": 37,
+      "day_streak": 13,
+      "last_played_date": "2026-09-27",
+      "insane_correct": 2120,
+      "average_guess_ms": 15658.498604651162,
+      "fastest_guess_ms": 2593,
+      "spelling": {
+        "exact_count": 2021,
+        "total": 2413
+      },
+      "best_category": {
+        "category": "Wrestling",
+        "points": 1108,
+        "correct": 744
+      },
+      "duels": {
+        "wins": 4,
+        "losses": 2,
+        "ties": 0,
+        "best_streak": 2
+      },
+      "achievements_unlocked": 65,
+      "kirkening_crownings": 0
+    },
+    {
+      "user_id": "433990857063137282",
+      "level": {
+        "level": 41,
+        "xp_into_level": 29319,
+        "xp_for_level": 58000,
+        "progress": 0.5055,
+        "maxed": false
+      },
+      "total_xp": 881819,
+      "period": {
+        "daily_points": 0,
+        "daily_correct": 0,
+        "weekly_points": 645,
+        "weekly_correct": 310,
+        "monthly_points": 3604,
+        "monthly_correct": 1711,
+        "yearly_points": 3778,
+        "yearly_correct": 1804,
+        "alltime_points": 3778,
+        "alltime_correct": 1804
+      },
+      "games_played": 87,
+      "game_wins": 28,
+      "best_streak": 27,
+      "day_streak": 5,
+      "last_played_date": "2026-09-27",
+      "insane_correct": 1050,
+      "average_guess_ms": 16993.606100795758,
+      "fastest_guess_ms": 2222,
+      "spelling": {
+        "exact_count": 1390,
+        "total": 1590
+      },
+      "best_category": {
+        "category": "Logos",
+        "points": 638,
+        "correct": 109
+      },
+      "duels": {
+        "wins": 21,
+        "losses": 22,
+        "ties": 1,
+        "best_streak": 5
+      },
+      "achievements_unlocked": 69,
+      "kirkening_crownings": 3
+    },
+    {
+      "user_id": "795847206719717386",
+      "level": {
+        "level": 41,
+        "xp_into_level": 26140,
+        "xp_for_level": 58000,
+        "progress": 0.4506896551724138,
+        "maxed": false
+      },
+      "total_xp": 878640,
+      "period": {
+        "daily_points": 0,
+        "daily_correct": 0,
+        "weekly_points": 542,
+        "weekly_correct": 318,
+        "monthly_points": 5902,
+        "monthly_correct": 3384,
+        "yearly_points": 6008,
+        "yearly_correct": 3443,
+        "alltime_points": 6008,
+        "alltime_correct": 3443
+      },
+      "games_played": 56,
+      "game_wins": 27,
+      "best_streak": 22,
+      "day_streak": 2,
+      "last_played_date": "2026-09-27",
+      "insane_correct": 2116,
+      "average_guess_ms": 20220.898266767144,
+      "fastest_guess_ms": 2525,
+      "spelling": {
+        "exact_count": 2478,
+        "total": 2844
+      },
+      "best_category": {
+        "category": "Wrestling",
+        "points": 781,
+        "correct": 549
+      },
+      "duels": {
+        "wins": 5,
+        "losses": 3,
+        "ties": 0,
+        "best_streak": 2
+      },
+      "achievements_unlocked": 62,
+      "kirkening_crownings": 2
+    },
+    {
+      "user_id": "184456115927384065",
+      "level": {
+        "level": 40,
+        "xp_into_level": 52917,
+        "xp_for_level": 55000,
+        "progress": 0.9621272727272727,
+        "maxed": false
+      },
+      "total_xp": 850417,
+      "period": {
+        "daily_points": 0,
+        "daily_correct": 0,
+        "weekly_points": 1035,
+        "weekly_correct": 445,
+        "monthly_points": 2397,
+        "monthly_correct": 1230,
+        "yearly_points": 2397,
+        "yearly_correct": 1230,
+        "alltime_points": 2397,
+        "alltime_correct": 1230
+      },
+      "games_played": 89,
+      "game_wins": 48,
+      "best_streak": 21,
+      "day_streak": 13,
+      "last_played_date": "2026-09-27",
+      "insane_correct": 647,
+      "average_guess_ms": 21015.5025728988,
+      "fastest_guess_ms": 2416,
+      "spelling": {
+        "exact_count": 1050,
+        "total": 1138
+      },
+      "best_category": {
+        "category": "Sports",
+        "points": 959,
+        "correct": 290
+      },
+      "duels": {
+        "wins": 14,
+        "losses": 19,
+        "ties": 0,
+        "best_streak": 2
+      },
+      "achievements_unlocked": 65,
+      "kirkening_crownings": 0
+    },
+    {
+      "user_id": "794420965387403265",
+      "level": {
+        "level": 29,
+        "xp_into_level": 13416,
+        "xp_for_level": 33000,
+        "progress": 0.40654545454545454,
+        "maxed": false
+      },
+      "total_xp": 337916,
+      "period": {
+        "daily_points": 0,
+        "daily_correct": 0,
+        "weekly_points": 144,
+        "weekly_correct": 65,
+        "monthly_points": 813,
+        "monthly_correct": 394,
+        "yearly_points": 813,
+        "yearly_correct": 394,
+        "alltime_points": 813,
+        "alltime_correct": 394
+      },
+      "games_played": 25,
+      "game_wins": 6,
+      "best_streak": 7,
+      "day_streak": 3,
+      "last_played_date": "2026-09-25",
+      "insane_correct": 206,
+      "average_guess_ms": 17928.11170212766,
+      "fastest_guess_ms": 2299,
+      "spelling": {
+        "exact_count": 313,
+        "total": 394
+      },
+      "best_category": {
+        "category": "General Knowledge",
+        "points": 95,
+        "correct": 72
+      },
+      "duels": {
+        "wins": 3,
+        "losses": 1,
+        "ties": 0,
+        "best_streak": 2
+      },
+      "achievements_unlocked": 38,
+      "kirkening_crownings": 3
+    },
+    {
+      "user_id": "130899127968989184",
+      "level": {
+        "level": 1,
+        "xp_into_level": 0,
+        "xp_for_level": 500,
+        "progress": 0.0,
+        "maxed": false
+      },
+      "total_xp": 0,
+      "period": {
+        "daily_points": 0,
+        "daily_correct": 0,
+        "weekly_points": 0,
+        "weekly_correct": 0,
+        "monthly_points": 40,
+        "monthly_correct": 18,
+        "yearly_points": 40,
+        "yearly_correct": 18,
+        "alltime_points": 40,
+        "alltime_correct": 18
+      },
+      "games_played": 0,
+      "game_wins": 0,
+      "best_streak": 3,
+      "day_streak": 0,
+      "last_played_date": null,
+      "insane_correct": 8,
+      "average_guess_ms": 17770.4,
+      "fastest_guess_ms": 3725,
+      "spelling": {
+        "exact_count": 15,
+        "total": 18
+      },
+      "best_category": {
+        "category": "General Knowledge",
+        "points": 12,
+        "correct": 3
+      },
+      "duels": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "best_streak": 0
+      },
+      "achievements_unlocked": 0,
+      "kirkening_crownings": 1
+    },
+    {
+      "user_id": "225570740802420737",
+      "level": {
+        "level": 1,
+        "xp_into_level": 0,
+        "xp_for_level": 500,
+        "progress": 0.0,
+        "maxed": false
+      },
+      "total_xp": 0,
+      "period": {
+        "daily_points": 0,
+        "daily_correct": 0,
+        "weekly_points": 0,
+        "weekly_correct": 0,
+        "monthly_points": 3,
+        "monthly_correct": 3,
+        "yearly_points": 3,
+        "yearly_correct": 3,
+        "alltime_points": 3,
+        "alltime_correct": 3
+      },
+      "games_played": 0,
+      "game_wins": 0,
+      "best_streak": 1,
+      "day_streak": 0,
+      "last_played_date": null,
+      "insane_correct": 2,
+      "average_guess_ms": 52794.0,
+      "fastest_guess_ms": 52794,
+      "spelling": {
+        "exact_count": 0,
+        "total": 0
+      },
+      "best_category": {
+        "category": "NBA",
+        "points": 2,
+        "correct": 2
+      },
+      "duels": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "best_streak": 0
+      },
+      "achievements_unlocked": 0,
+      "kirkening_crownings": 3
+    },
+    {
+      "user_id": "671182574692990976",
+      "level": {
+        "level": 1,
+        "xp_into_level": 0,
+        "xp_for_level": 500,
+        "progress": 0.0,
+        "maxed": false
+      },
+      "total_xp": 0,
+      "period": {
+        "daily_points": 0,
+        "daily_correct": 0,
+        "weekly_points": 0,
+        "weekly_correct": 0,
+        "monthly_points": 6,
+        "monthly_correct": 3,
+        "yearly_points": 6,
+        "yearly_correct": 3,
+        "alltime_points": 6,
+        "alltime_correct": 3
+      },
+      "games_played": 0,
+      "game_wins": 0,
+      "best_streak": 1,
+      "day_streak": 0,
+      "last_played_date": null,
+      "insane_correct": 1,
+      "average_guess_ms": 26633.5,
+      "fastest_guess_ms": 6078,
+      "spelling": {
+        "exact_count": 2,
+        "total": 3
+      },
+      "best_category": {
+        "category": "Movies",
+        "points": 4,
+        "correct": 1
+      },
+      "duels": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "best_streak": 0
+      },
+      "achievements_unlocked": 0,
+      "kirkening_crownings": 0
+    },
+    {
+      "user_id": "187400147989168132",
+      "level": {
+        "level": 1,
+        "xp_into_level": 0,
+        "xp_for_level": 500,
+        "progress": 0.0,
+        "maxed": false
+      },
+      "total_xp": 0,
+      "period": {
+        "daily_points": 0,
+        "daily_correct": 0,
+        "weekly_points": 0,
+        "weekly_correct": 0,
+        "monthly_points": 0,
+        "monthly_correct": 0,
+        "yearly_points": 0,
+        "yearly_correct": 0,
+        "alltime_points": 0,
+        "alltime_correct": 0
+      },
+      "games_played": 0,
+      "game_wins": 0,
+      "best_streak": 0,
+      "day_streak": 0,
+      "last_played_date": null,
+      "insane_correct": 0,
+      "average_guess_ms": null,
+      "fastest_guess_ms": null,
+      "spelling": {
+        "exact_count": 0,
+        "total": 0
+      },
+      "best_category": null,
+      "duels": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "best_streak": 0
+      },
+      "achievements_unlocked": 0,
+      "kirkening_crownings": 1
+    },
+    {
+      "user_id": "727172669010870375",
+      "level": {
+        "level": 1,
+        "xp_into_level": 0,
+        "xp_for_level": 500,
+        "progress": 0.0,
+        "maxed": false
+      },
+      "total_xp": 0,
+      "period": {
+        "daily_points": 0,
+        "daily_correct": 0,
+        "weekly_points": 0,
+        "weekly_correct": 0,
+        "monthly_points": 4,
+        "monthly_correct": 1,
+        "yearly_points": 4,
+        "yearly_correct": 1,
+        "alltime_points": 4,
+        "alltime_correct": 1
+      },
+      "games_played": 0,
+      "game_wins": 0,
+      "best_streak": 1,
+      "day_streak": 0,
+      "last_played_date": null,
+      "insane_correct": 0,
+      "average_guess_ms": 14181.0,
+      "fastest_guess_ms": 14181,
+      "spelling": {
+        "exact_count": 1,
+        "total": 1
+      },
+      "best_category": {
+        "category": "Harry Potter",
+        "points": 4,
+        "correct": 1
+      },
+      "duels": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "best_streak": 0
+      },
+      "achievements_unlocked": 0,
+      "kirkening_crownings": 0
+    },
+    {
+      "user_id": "1008207363637002290",
+      "level": {
+        "level": 1,
+        "xp_into_level": 0,
+        "xp_for_level": 500,
+        "progress": 0.0,
+        "maxed": false
+      },
+      "total_xp": 0,
+      "period": {
+        "daily_points": 0,
+        "daily_correct": 0,
+        "weekly_points": 0,
+        "weekly_correct": 0,
+        "monthly_points": 0,
+        "monthly_correct": 0,
+        "yearly_points": 0,
+        "yearly_correct": 0,
+        "alltime_points": 0,
+        "alltime_correct": 0
+      },
+      "games_played": 0,
+      "game_wins": 0,
+      "best_streak": 0,
+      "day_streak": 0,
+      "last_played_date": null,
+      "insane_correct": 0,
+      "average_guess_ms": null,
+      "fastest_guess_ms": null,
+      "spelling": {
+        "exact_count": 0,
+        "total": 0
+      },
+      "best_category": null,
+      "duels": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 1,
+        "best_streak": 0
+      },
+      "achievements_unlocked": 0,
+      "kirkening_crownings": 0
+    },
+    {
+      "user_id": "739131649966473306",
+      "level": {
+        "level": 1,
+        "xp_into_level": 0,
+        "xp_for_level": 500,
+        "progress": 0.0,
+        "maxed": false
+      },
+      "total_xp": 0,
+      "period": {
+        "daily_points": 0,
+        "daily_correct": 0,
+        "weekly_points": 0,
+        "weekly_correct": 0,
+        "monthly_points": 0,
+        "monthly_correct": 0,
+        "yearly_points": 0,
+        "yearly_correct": 0,
+        "alltime_points": 0,
+        "alltime_correct": 0
+      },
+      "games_played": 0,
+      "game_wins": 0,
+      "best_streak": 0,
+      "day_streak": 0,
+      "last_played_date": null,
+      "insane_correct": 0,
+      "average_guess_ms": null,
+      "fastest_guess_ms": null,
+      "spelling": {
+        "exact_count": 0,
+        "total": 0
+      },
+      "best_category": null,
+      "duels": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "best_streak": 0
+      },
+      "achievements_unlocked": 0,
+      "kirkening_crownings": 3
+    }
+  ]
+}
