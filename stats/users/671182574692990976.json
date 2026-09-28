@@ -41,10 +41,7 @@
   "fastest_guess": {
     "response_time_ms": 6078,
     "question_text": "In The Devil Wears Prada, who plays Andy Sachs?",
-    "category": "Movies",
-    "correct_answers": [
-      "jjbx/LWlhv4QyjHnyQ=="
-    ]
+    "category": "Movies"
   },
   "best_category": {
     "category": "Movies",
@@ -3526,5 +3523,6 @@
       "unlocked": false,
       "source": null
     }
-  ]
+  ],
+  "rivals": []
 }
