@@ -41,10 +41,7 @@
   "fastest_guess": {
     "response_time_ms": 3725,
     "question_text": "Fish are typically referred to as being (What?)-blooded?",
-    "category": "General Knowledge",
-    "correct_answers": [
-      "jDfz/Q=="
-    ]
+    "category": "General Knowledge"
   },
   "best_category": {
     "category": "General Knowledge",
@@ -3533,5 +3530,6 @@
       "unlocked": false,
       "source": null
     }
-  ]
+  ],
+  "rivals": []
 }
