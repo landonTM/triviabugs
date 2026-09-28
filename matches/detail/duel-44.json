@@ -6,7 +6,9 @@
     "challenger_id": "184456115927384065",
     "opponent_id": "433990857063137282",
     "format": 5,
+    "format_label": "Best of 5",
     "winner_id": "184456115927384065",
+    "is_tie": false,
     "challenger_score": 2,
     "opponent_score": 1,
     "decided_by_tiebreaker": false,
@@ -16,25 +18,27 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 12386,
       "answered_at": "2026-09-27 03:55:56.337355+00:00",
       "category": "Phobias",
       "question_text": "If you have Stygiophobia, what are you afraid of?",
+      "image_url": null,
       "correct_answers": [
-        "Hell"
+        "hz3z9Q=="
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 3003,
       "answered_at": "2026-09-27 03:55:56.337355+00:00",
       "category": "Phobias",
       "question_text": "If you have Arachnophobia, what are you afraid of?",
+      "image_url": null,
       "correct_answers": [
-        "Spiders"
+        "nCj2/fCflA=="
       ]
     },
     {
@@ -45,20 +49,22 @@
       "answered_at": "2026-09-27 03:55:56.337355+00:00",
       "category": "Phobias",
       "question_text": "If you have Carcinophobia, what are you afraid of?",
+      "image_url": null,
       "correct_answers": [
-        "Cancer"
+        "jDnx+vCf"
       ]
     },
     {
       "round_number": 4,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 14071,
       "answered_at": "2026-09-27 03:55:56.337355+00:00",
       "category": "Phobias",
       "question_text": "If you have Ombrophobia, what are you afraid of?",
+      "image_url": null,
       "correct_answers": [
-        "Rain"
+        "nTn29w=="
       ]
     },
     {
@@ -69,8 +75,9 @@
       "answered_at": "2026-09-27 03:55:56.337355+00:00",
       "category": "Phobias",
       "question_text": "If you have Nephophobia, what are you afraid of?",
+      "image_url": null,
       "correct_answers": [
-        "Clouds"
+        "jDTw7PGe"
       ]
     }
   ]
