@@ -25,9 +25,7 @@
       "category": "Conundrums",
       "question_text": "Harvest",
       "image_url": null,
-      "correct_answers": [
-        "hznt7/Cekw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Conundrums",
       "question_text": "Scissors",
       "image_url": null,
-      "correct_answers": [
-        "nDv26uaClfk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -69,9 +65,7 @@
       "category": "Conundrums",
       "question_text": "Helicopter",
       "image_url": null,
-      "correct_answers": [
-        "hz3z8PaCl/4d2Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -91,9 +85,7 @@
       "category": "Conundrums",
       "question_text": "Playwright",
       "image_url": null,
-      "correct_answers": [
-        "nzT+4OKfju0Q3w=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -113,10 +105,9 @@
       "category": "Conundrums",
       "question_text": "Stoic",
       "image_url": null,
-      "correct_answers": [
-        "nCzw8PY="
-      ],
+      "answer_count": 1,
       "answers": []
     }
-  ]
+  ],
+  "xp": {}
 }
