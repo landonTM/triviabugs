@@ -24,9 +24,7 @@
       "category": "Sports",
       "question_text": "Which city hosted the 1980 Summer Olympics?",
       "image_url": null,
-      "correct_answers": [
-        "gjfs+vqa"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Video Games",
       "question_text": "In the original Resident Evil, what is the full name of the captain of S.T.A.R.S. Bravo Team?",
       "image_url": null,
-      "correct_answers": [
-        "ijbt8PaCx8cZ2S/o2Q=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Disney",
       "question_text": "Who prevents Gus from slipping the key into Cinderella's room?",
       "image_url": null,
-      "correct_answers": [
-        "gy388POIlQ=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,44 +57,8 @@
       "category": "Wrestling",
       "question_text": "Royal Rumble winners",
       "image_url": null,
-      "correct_answers": [
-        "hTHyudGYgO0ZxQ==",
-        "jTH4ud+Cj+RY+DLz1K8=",
-        "hy3z8rWliO0ZxQ==",
-        "nTH8udOBhuMK",
-        "ljf09u+Yies=",
-        "jSr67bWlhvgM",
-        "gz3nudmYgO8K",
-        "nDD+7vvNquMbwyfj3Lg=",
-        "nCzw9/DNpOUUz2bVxK76Ewvlo3hTtLA=",
-        "mTHx+vDNquk1yi7p3g==",
-        "mzD6uceChOE=",
-        "myr26fmIx8I=",
-        "jSrw+v7Nq+8LxSf0",
-        "jDDt8ObNpe8WxC/y",
-        "jTnr8OaZhg==",
-        "nT3mudiUlP4d2S/p",
-        "mzD6ucCDg+8K3yft1bk=",
-        "hTf397WuguQZ",
-        "nTnx/ezNqPgMxCg=",
-        "ijz4/A==",
-        "jjT9/OeZiKo8ziqm4qLj",
-        "nDD6+PiYlA==",
-        "nTfy+PvNte8RzCj1",
-        "nDD29+aYjO9Y5Sft0ab5BEo=",
-        "nD3r8bW/iOYUwij1",
-        "iyr67rWghMMW3z/01Q==",
-        "jDf74LW/j+UczjU=",
-        "hT3mucCeiA==",
-        "jivq8vQ=",
-        "jT388uzNq/MWyC4=",
-        "jDD+6/mCk/4diwDq0aL+",
-        "jTH+9/aMx8gdxyfvwg==",
-        "nTfx/fTNteUN2CP/",
-        "nTD6+LW/jvoUzj8=",
-        "jTnm9fCU",
-        "gzHpudiCle0ZxQ=="
-      ]
+      "answer_count": 36
     }
-  ]
+  ],
+  "xp": {}
 }
