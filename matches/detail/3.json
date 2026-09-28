@@ -23,9 +23,7 @@
       "category": "Disney",
       "question_text": "10,000 ingots would be your reward for capturing which Disney animated character?",
       "image_url": null,
-      "correct_answers": [
-        "nTf98PvNr+UXzw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -45,9 +43,7 @@
       "category": "Game of Thrones",
       "question_text": "What are the official words of House Karstark?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ucaYiaoXzWbR2aX4E1k="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -59,9 +55,7 @@
       "category": "Movies",
       "question_text": "In Singin' in the Rain, what major film-industry change drives the plot?",
       "image_url": null,
-      "correct_answers": [
-        "mznz8vyDgKoIwiXyxbnpBQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -81,9 +75,7 @@
       "category": "Video Games",
       "question_text": "Who is the leader of Team Mystic in Pokémon Go?",
       "image_url": null,
-      "correct_answers": [
-        "jTT+9/aFgg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -103,9 +95,7 @@
       "category": "General Knowledge",
       "question_text": "What ancient Babylonian legal code is one of the earliest known sets of written laws?",
       "image_url": null,
-      "correct_answers": [
-        "jDf7/LWCgaowyivrxbntFEI="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -117,9 +107,7 @@
       "category": "World Cup",
       "question_text": "How many countries have won the World Cup at least once?",
       "image_url": null,
-      "correct_answers": [
-        "9w=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -139,9 +127,7 @@
       "category": "Star Wars",
       "question_text": "What was Wedge Antilles comm designation during the Battle of Yavin?",
       "image_url": null,
-      "correct_answers": [
-        "nT37ucGaiA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -161,9 +147,7 @@
       "category": "Chemistry",
       "question_text": "Which white compound is used as a food seasoning and preservative, and can be *mined* from water?",
       "image_url": null,
-      "correct_answers": [
-        "nDf78OCAx+kQxyn02a/p"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -183,9 +167,7 @@
       "category": "Game of Thrones",
       "question_text": "In Game of Thrones what is the name of Jon Snow's sword?",
       "image_url": null,
-      "correct_answers": [
-        "gzfx/vaBhv0="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -197,28 +179,7 @@
       "category": "Wrestling",
       "question_text": "AEW TNT Champions",
       "image_url": null,
-      "correct_answers": [
-        "mDnt/fmCkA==",
-        "jDDt8OaZjusWiwXn164=",
-        "hCHz/LWri+8MyC7jwg==",
-        "jDf74LW/j+UczjU=",
-        "hD3p8PvNrOQRzC7y",
-        "hTn88rW9gvgK0g==",
-        "gjHt9g==",
-        "nDny9OzNoP8d3Sf00Q==",
-        "iznx8PCBx80Z2SXv0Q==",
-        "nDvw6+WEiKorwD8=",
-        "gy388fSehv8K3jU=",
-        "jjz+9LWuiOYd",
-        "nDny9vTNreUd",
-        "jjz+9LWuiPodxyfo1A==",
-        "gjnt8rWvleMLyCnj",
-        "jSrw/fyIx8Ydzg==",
-        "nzfo/OeFiP8LzmbO36nuBQ==",
-        "iy3s7fyDx9gQxCLjww==",
-        "mzfy9PSeiKo7wifrwKo=",
-        "iznt++zNpuYUwig="
-      ],
+      "answer_count": 20,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -313,5 +274,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
