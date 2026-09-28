@@ -24,9 +24,7 @@
       "category": "Music",
       "question_text": "In what year did Paul McCartney publicly announce his departure from the Beatles?",
       "image_url": null,
-      "correct_answers": [
-        "/mGoqQ=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Video Games",
       "question_text": "In The Elder Scrolls: Oblivion, the horse that goes by the name Shadowmere is given by what guild?",
       "image_url": null,
-      "correct_answers": [
-        "iznt8rWvleUMwyP02KTjEg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Whos That Pokemon (Gen 7)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/u1tF292.png",
-      "correct_answers": [
-        "iyr+9OWM"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Movies",
       "question_text": "In The Sixth Sense, what is Malcolm Crowe's profession?",
       "image_url": null,
-      "correct_answers": [
-        "nyvm+v2Ci+UfwjXy"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
       "image_url": "https://i.imgur.com/qMZ1AHl.png",
-      "correct_answers": [
-        "jjT9+PuEhg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,23 +79,8 @@
       "category": "Wrestling",
       "question_text": "Every WWE Women's World Champion (SmackDown Women's Championship lineage)",
       "image_url": null,
-      "correct_answers": [
-        "jT388uzNq/MWyC4=",
-        "jjT64fTNpeYR2DU=",
-        "gTnw9Pw=",
-        "gTnr+PmUhg==",
-        "jDD+6/mCk/4diwDq0aL+",
-        "jDnt9PCBi+s=",
-        "jivq8vQ=",
-        "jTnm9fCU",
-        "nDns8fTNpesWwDU=",
-        "jTH+9/aMx8gdxyfvwg==",
-        "nTfx/fTNteUN2CP/",
-        "gzHpudiCle0ZxQ==",
-        "nTD6+LW/jvoUzj8=",
-        "hiHwucaGng==",
-        "nCz66f2MieMdixDnwb7pBA=="
-      ]
+      "answer_count": 15
     }
-  ]
+  ],
+  "xp": {}
 }
