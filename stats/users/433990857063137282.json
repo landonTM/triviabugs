@@ -2,38 +2,38 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 41,
-    "xp_into_level": 39831,
+    "xp_into_level": 43677,
     "xp_for_level": 58000,
-    "progress": 0.6867413793103448,
+    "progress": 0.7530517241379311,
     "maxed": false
   },
-  "total_xp": 892331,
+  "total_xp": 896177,
   "period_stats": {
-    "daily_points": 75,
-    "daily_correct": 38,
-    "weekly_points": 656,
-    "weekly_correct": 319,
-    "monthly_points": 3679,
-    "monthly_correct": 1749,
-    "yearly_points": 3853,
-    "yearly_correct": 1842,
-    "alltime_points": 3853,
-    "alltime_correct": 1842
+    "daily_points": 92,
+    "daily_correct": 53,
+    "weekly_points": 635,
+    "weekly_correct": 316,
+    "monthly_points": 3696,
+    "monthly_correct": 1764,
+    "yearly_points": 3870,
+    "yearly_correct": 1857,
+    "alltime_points": 3870,
+    "alltime_correct": 1857
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 2785,
-    "questions_right": 771,
+    "total_points": 2789,
+    "questions_right": 773,
     "questions_wrong": 0,
-    "wins": 771,
+    "wins": 773,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 88,
-    "insane_guesses": 767,
+    "games_played": 89,
+    "insane_guesses": 780,
     "day_streak": 6,
     "last_played_date": "2026-09-28",
-    "total_xp": 892331,
+    "total_xp": 896177,
     "game_wins": 29,
     "achievement_best_streak": 27
   },
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1072,
-  "average_guess_ms": 17085.99090909091,
+  "total_insane_correct": 1085,
+  "average_guess_ms": 17102.554404145078,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 28
   },
   "spelling_accuracy": {
-    "exact_count": 1425,
-    "total": 1628
+    "exact_count": 1436,
+    "total": 1643
   },
   "achievements": {
     "catalog": [
@@ -2226,15 +2226,15 @@
       "disney": 37,
       "entertainment": 0,
       "geo": 89,
-      "gk": 167,
+      "gk": 177,
       "got": 5,
-      "marvel": 57,
+      "marvel": 58,
       "movies": 2,
       "music": 10,
       "pokemon": 9,
       "sports": 27,
       "videogames": 65,
-      "wrestling": 159,
+      "wrestling": 162,
       "duelwins": 21,
       "duelstreak": 5
     }
@@ -2243,8 +2243,8 @@
     "guild_id": "861055530638114836",
     "user_id": "433990857063137282",
     "wins": 21,
-    "losses": 22,
-    "current_streak": 1,
+    "losses": 23,
+    "current_streak": 0,
     "best_streak": 5,
     "ties": 1
   },
@@ -2366,8 +2366,8 @@
       "key": "haunted",
       "label": "Haunted Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "footer",
@@ -3486,8 +3486,8 @@
       "key": "pumpkin",
       "label": "Pumpkin MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3634,9 +3634,9 @@
   "rivals": [
     {
       "user_id": "184456115927384065",
-      "played": 32,
+      "played": 33,
       "wins": 18,
-      "losses": 14,
+      "losses": 15,
       "ties": 0
     },
     {
