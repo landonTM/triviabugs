@@ -24,9 +24,7 @@
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
       "image_url": "https://i.imgur.com/WElCUGn.png",
-      "correct_answers": [
-        "gT3ouc+IhuYZxSI="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "General Knowledge",
       "question_text": "What Native American ceremonial gift-giving feast was historically practiced by Pacific Northwest tribes?",
       "image_url": null,
-      "correct_answers": [
-        "nzfr9fSZhOI="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "House of the Dragon",
       "question_text": "In Fire & Blood, which dragon kills Rhaenyra on Dragonstone?",
       "image_url": null,
-      "correct_answers": [
-        "nC3x/+yfgg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,39 +57,8 @@
       "category": "General Knowledge",
       "question_text": "Name all commonly known vegetables",
       "image_url": null,
-      "correct_answers": [
-        "jDnt6/qZ",
-        "nzfr+OGC",
-        "gDb29vs=",
-        "iDnt9fyO",
-        "jSrw+vaCi+M=",
-        "jDnq9fyLi+UPzjQ=",
-        "jDn9+/SKgg==",
-        "gz3r7eCOgg==",
-        "nCj29/SOjw==",
-        "hDnz/A==",
-        "jD3z/OeU",
-        "jC387PiPgvg=",
-        "lS38+v2EieM=",
-        "nCnq+OaF",
-        "ny3y6f6EiQ==",
-        "ij/46fmMif4=",
-        "jT3z9bW9gvoIzjQ=",
-        "mzfy+OGC",
-        "jDft9w==",
-        "nz3+6g==",
-        "iCr6/PvNpe8ZxTU=",
-        "jivv+OeMgP8L",
-        "jT367Q==",
-        "nTn78OaF",
-        "my3t9/yd",
-        "nC/6/OHNt+UMyjLp",
-        "ljny",
-        "jirr8PaFiOEd",
-        "jSrq6uaIi/lY+Db03774BQ==",
-        "gz368g==",
-        "gi3s8eeCiOc="
-      ]
+      "answer_count": 31
     }
-  ]
+  ],
+  "xp": {}
 }
