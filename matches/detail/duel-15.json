@@ -6,7 +6,9 @@
     "challenger_id": "734768348201615400",
     "opponent_id": "433990857063137282",
     "format": 5,
+    "format_label": "Best of 5",
     "winner_id": "734768348201615400",
+    "is_tie": false,
     "challenger_score": 2,
     "opponent_score": 1,
     "decided_by_tiebreaker": false,
@@ -21,32 +23,35 @@
       "answered_at": "2026-09-24 22:17:15.342705+00:00",
       "category": "Whos That Pokemon (Gen 6)",
       "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/t7R1oPq.png",
       "correct_answers": [
-        "Volcanion"
+        "mTfz+vSDjuUW"
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 734768348201615400,
+      "winner_id": "734768348201615400",
       "response_time_ms": 14208,
       "answered_at": "2026-09-24 22:17:15.342705+00:00",
       "category": "Music",
       "question_text": "Which female pop-star's debut album was called \"Honey to the B\"?",
+      "image_url": null,
       "correct_answers": [
-        "Billie"
+        "jTHz9fyI"
       ]
     },
     {
       "round_number": 3,
       "mode": "standard",
-      "winner_id": 734768348201615400,
+      "winner_id": "734768348201615400",
       "response_time_ms": 7533,
       "answered_at": "2026-09-24 22:17:15.342705+00:00",
       "category": "Greek Mythology",
       "question_text": "Which goddess is associated with flowers?",
+      "image_url": null,
       "correct_answers": [
-        "Persephone"
+        "nz3t6vCdj+UWzg=="
       ]
     },
     {
@@ -57,20 +62,22 @@
       "answered_at": "2026-09-24 22:17:15.342705+00:00",
       "category": "Whos That Pokemon (Gen 5)",
       "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/rTOGl5K.png",
       "correct_answers": [
-        "Stunfisk"
+        "nCzq9/OElOE="
       ]
     },
     {
       "round_number": 5,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 4338,
       "answered_at": "2026-09-24 22:17:15.342705+00:00",
       "category": "Acronyms and Abbreviations",
       "question_text": "Internet/Texting: FYI",
+      "image_url": null,
       "correct_answers": [
-        "For Your Information"
+        "iTftucyCkvhY4ijg37nhF1/NuWU="
       ]
     }
   ]
