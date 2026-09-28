@@ -3503,5 +3503,14 @@
       "unlocked": false,
       "source": null
     }
+  ],
+  "rivals": [
+    {
+      "user_id": "433990857063137282",
+      "played": 1,
+      "wins": 0,
+      "losses": 0,
+      "ties": 1
+    }
   ]
 }
