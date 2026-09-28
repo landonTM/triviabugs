@@ -6,7 +6,9 @@
     "challenger_id": "184456115927384065",
     "opponent_id": "433990857063137282",
     "format": 10,
+    "format_label": "Best of 10",
     "winner_id": "433990857063137282",
+    "is_tie": false,
     "challenger_score": 2,
     "opponent_score": 3,
     "decided_by_tiebreaker": false,
@@ -21,56 +23,61 @@
       "answered_at": "2026-09-27 00:23:07.410614+00:00",
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/XBzAfST.png",
       "correct_answers": [
-        "Grenada"
+        "iCr69/SJhg=="
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 15865,
       "answered_at": "2026-09-27 00:23:07.410614+00:00",
       "category": "Slogans",
       "question_text": "Something to smile about.",
+      "image_url": null,
       "correct_answers": [
-        "Quaker Oatmeal"
+        "ni3+8vCfx8UZ3yvj0ac="
       ]
     },
     {
       "round_number": 3,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 15003,
       "answered_at": "2026-09-27 00:23:07.410614+00:00",
       "category": "Harry Potter",
       "question_text": "Who said it: 'We did it, we bashed them!\"?",
+      "image_url": null,
       "correct_answers": [
-        "Peeves"
+        "nz367/Ce"
       ]
     },
     {
       "round_number": 4,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 3764,
       "answered_at": "2026-09-27 00:23:07.410614+00:00",
       "category": "Wrestling",
       "question_text": "What name did Cesaro and Sheamus use as a tag team during one WWE run?",
+      "image_url": null,
       "correct_answers": [
-        "The Bar"
+        "mzD6udeMlQ=="
       ]
     },
     {
       "round_number": 5,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 17505,
       "answered_at": "2026-09-27 00:23:07.410614+00:00",
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/4Owvdkh.png",
       "correct_answers": [
-        "Nicaragua"
+        "gTH8+OeMgP8Z"
       ]
     },
     {
@@ -81,20 +88,22 @@
       "answered_at": "2026-09-27 00:23:07.410614+00:00",
       "category": "US State Capitals",
       "question_text": "What is the USA state capital of Washington?",
+      "image_url": null,
       "correct_answers": [
-        "Olympia"
+        "gDTm9OWEhg=="
       ]
     },
     {
       "round_number": 7,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 4726,
       "answered_at": "2026-09-27 00:23:07.410614+00:00",
       "category": "Marvel",
       "question_text": "What is Quicksilver's real name?",
+      "image_url": null,
       "correct_answers": [
-        "Pietro Maximoff"
+        "nzH67eeCx8cZ0y/r363q"
       ]
     },
     {
@@ -105,8 +114,9 @@
       "answered_at": "2026-09-27 00:23:07.410614+00:00",
       "category": "General Knowledge",
       "question_text": "What was Bank of America originally established as?",
+      "image_url": null,
       "correct_answers": [
-        "Bank of Italy"
+        "jTnx8rWCgaox3yfqyQ=="
       ]
     },
     {
@@ -117,8 +127,9 @@
       "answered_at": "2026-09-27 00:23:07.410614+00:00",
       "category": "Disney",
       "question_text": "In what Full Length Animated Feature can the following line be heard: \"Great Father who loves us and named us so well\"?",
+      "image_url": null,
       "correct_answers": [
-        "The Little Mermaid"
+        "mzD6udmEk/4UzmbL1bnhF0LA"
       ]
     },
     {
@@ -129,8 +140,9 @@
       "answered_at": "2026-09-27 00:23:07.410614+00:00",
       "category": "Harry Potter",
       "question_text": "What is the name of Dumbledore's phoenix?",
+      "image_url": null,
       "correct_answers": [
-        "fawkes"
+        "qTno8vCe"
       ]
     }
   ]
