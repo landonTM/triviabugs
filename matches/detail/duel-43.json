@@ -6,7 +6,9 @@
     "challenger_id": "433990857063137282",
     "opponent_id": "184456115927384065",
     "format": 5,
+    "format_label": "Best of 5",
     "winner_id": "184456115927384065",
+    "is_tie": false,
     "challenger_score": 1,
     "opponent_score": 2,
     "decided_by_tiebreaker": false,
@@ -21,8 +23,9 @@
       "answered_at": "2026-09-27 03:53:00.015678+00:00",
       "category": "Phobias",
       "question_text": "If you have Ichthyophobia, what are you afraid of?",
+      "image_url": null,
       "correct_answers": [
-        "Fish"
+        "iTHs8Q=="
       ]
     },
     {
@@ -33,44 +36,48 @@
       "answered_at": "2026-09-27 03:53:00.015678+00:00",
       "category": "Phobias",
       "question_text": "If you have Hodophobia, what are you afraid of doing?",
+      "image_url": null,
       "correct_answers": [
-        "Traveling"
+        "myr+7/CBjuQf"
       ]
     },
     {
       "round_number": 3,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 4269,
       "answered_at": "2026-09-27 03:53:00.015678+00:00",
       "category": "Phobias",
       "question_text": "If you have Hodophobia, what are you afraid of doing?",
+      "image_url": null,
       "correct_answers": [
-        "Traveling"
+        "myr+7/CBjuQf"
       ]
     },
     {
       "round_number": 4,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 4494,
       "answered_at": "2026-09-27 03:53:00.015678+00:00",
       "category": "Phobias",
       "question_text": "If you have Coulrophobia, what are you afraid of?",
+      "image_url": null,
       "correct_answers": [
-        "Clowns"
+        "jDTw7vue"
       ]
     },
     {
       "round_number": 5,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 4151,
       "answered_at": "2026-09-27 03:53:00.015678+00:00",
       "category": "Phobias",
       "question_text": "If you have Chromophobia, what are you afraid of?",
+      "image_url": null,
       "correct_answers": [
-        "Colors"
+        "jDfz9uee"
       ]
     }
   ]
