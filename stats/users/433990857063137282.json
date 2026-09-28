@@ -2,39 +2,39 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 41,
-    "xp_into_level": 47117,
+    "xp_into_level": 54843,
     "xp_for_level": 58000,
-    "progress": 0.8123620689655172,
+    "progress": 0.9455689655172413,
     "maxed": false
   },
-  "total_xp": 899617,
+  "total_xp": 907343,
   "period_stats": {
-    "daily_points": 97,
-    "daily_correct": 55,
-    "weekly_points": 627,
-    "weekly_correct": 313,
-    "monthly_points": 3701,
-    "monthly_correct": 1766,
-    "yearly_points": 3875,
-    "yearly_correct": 1859,
-    "alltime_points": 3875,
-    "alltime_correct": 1859
+    "daily_points": 144,
+    "daily_correct": 62,
+    "weekly_points": 674,
+    "weekly_correct": 320,
+    "monthly_points": 3748,
+    "monthly_correct": 1773,
+    "yearly_points": 3922,
+    "yearly_correct": 1866,
+    "alltime_points": 3922,
+    "alltime_correct": 1866
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 2793,
-    "questions_right": 774,
+    "total_points": 2838,
+    "questions_right": 779,
     "questions_wrong": 0,
-    "wins": 774,
+    "wins": 779,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 90,
-    "insane_guesses": 781,
+    "games_played": 91,
+    "insane_guesses": 783,
     "day_streak": 6,
     "last_played_date": "2026-09-28",
-    "total_xp": 899617,
-    "game_wins": 29,
+    "total_xp": 907343,
+    "game_wins": 30,
     "achievement_best_streak": 27
   },
   "best_streak": 27,
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1086,
-  "average_guess_ms": 17084.6468305304,
+  "total_insane_correct": 1088,
+  "average_guess_ms": 17004.92673521851,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 28
   },
   "spelling_accuracy": {
-    "exact_count": 1438,
-    "total": 1645
+    "exact_count": 1444,
+    "total": 1652
   },
   "achievements": {
     "catalog": [
@@ -2215,7 +2215,8 @@
       "duelwins_10": "2026-09-27 00:23:07.782689+00:00",
       "duelstreak_5": "2026-09-27 00:25:21.216541+00:00",
       "duel_social": "2026-09-27 20:06:56.241785+00:00",
-      "videogames_50": "2026-09-28 18:02:11.656180+00:00"
+      "videogames_50": "2026-09-28 18:02:11.656180+00:00",
+      "wins_30": "2026-09-28 23:53:59.679344+00:00"
     },
     "baselines": {
       "points": 632,
@@ -3502,8 +3503,8 @@
       "key": "herejohnny",
       "label": "Here's Johnny MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
