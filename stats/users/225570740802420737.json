@@ -41,10 +41,7 @@
   "fastest_guess": {
     "response_time_ms": 52794,
     "question_text": "What division are the Washington Wizards in?",
-    "category": "NBA",
-    "correct_answers": [
-      "nDfq7f2IhvkM"
-    ]
+    "category": "NBA"
   },
   "best_category": {
     "category": "NBA",
@@ -3545,5 +3542,6 @@
       "unlocked": false,
       "source": null
     }
-  ]
+  ],
+  "rivals": []
 }
