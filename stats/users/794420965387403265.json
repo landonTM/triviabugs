@@ -1,39 +1,39 @@
 {
   "user_id": "794420965387403265",
   "level": {
-    "level": 29,
-    "xp_into_level": 13416,
-    "xp_for_level": 33000,
-    "progress": 0.40654545454545454,
+    "level": 30,
+    "xp_into_level": 11375,
+    "xp_for_level": 35000,
+    "progress": 0.325,
     "maxed": false
   },
-  "total_xp": 337916,
+  "total_xp": 368875,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 140,
-    "weekly_correct": 64,
-    "monthly_points": 813,
-    "monthly_correct": 394,
-    "yearly_points": 813,
-    "yearly_correct": 394,
-    "alltime_points": 813,
-    "alltime_correct": 394
+    "daily_points": 18,
+    "daily_correct": 11,
+    "weekly_points": 158,
+    "weekly_correct": 75,
+    "monthly_points": 831,
+    "monthly_correct": 405,
+    "yearly_points": 831,
+    "yearly_correct": 405,
+    "alltime_points": 831,
+    "alltime_correct": 405
   },
   "stats_row": {
     "user_id": "794420965387403265",
     "guild_id": "861055530638114836",
-    "total_points": 607,
-    "questions_right": 188,
+    "total_points": 618,
+    "questions_right": 192,
     "questions_wrong": 0,
-    "wins": 188,
-    "current_streak": 2,
+    "wins": 192,
+    "current_streak": 1,
     "best_streak": 7,
-    "games_played": 25,
-    "insane_guesses": 137,
-    "day_streak": 3,
-    "last_played_date": "2026-09-25",
-    "total_xp": 337916,
+    "games_played": 26,
+    "insane_guesses": 144,
+    "day_streak": 1,
+    "last_played_date": "2026-09-28",
+    "total_xp": 368875,
     "game_wins": 6,
     "achievement_best_streak": 7
   },
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "General Knowledge",
-    "points": 95,
-    "correct": 72
+    "points": 97,
+    "correct": 73
   },
   "best_insane_round": {
     "question_text": "Human Organs",
     "category": "General Knowledge",
     "guesses": 14
   },
-  "total_insane_correct": 206,
-  "average_guess_ms": 17928.11170212766,
+  "total_insane_correct": 213,
+  "average_guess_ms": 18050.1875,
   "activity": {
     "first_answered_at": "2026-09-08 22:30:21.511683+00:00",
-    "active_days": 11
+    "active_days": 12
   },
   "spelling_accuracy": {
-    "exact_count": 313,
-    "total": 394
+    "exact_count": 324,
+    "total": 405
   },
   "achievements": {
     "catalog": [
@@ -2183,7 +2183,8 @@
       "duel_giant_slayer": "2026-09-23 18:50:41.264090+00:00",
       "duel_perfect_sweep": "2026-09-24 00:48:07.059953+00:00",
       "duel_nail_biter": "2026-09-24 00:48:07.061881+00:00",
-      "duel_spelling_bee": "2026-09-24 00:48:07.063401+00:00"
+      "duel_spelling_bee": "2026-09-24 00:48:07.063401+00:00",
+      "points_500": "2026-09-28 23:14:23.330348+00:00"
     },
     "baselines": {
       "points": 118,
@@ -2192,16 +2193,16 @@
     },
     "category_counts": {
       "disney": 8,
-      "entertainment": 2,
+      "entertainment": 3,
       "geo": 7,
-      "gk": 15,
+      "gk": 16,
       "got": 1,
       "marvel": 13,
       "movies": 1,
       "music": 1,
       "pokemon": 8,
       "sports": 0,
-      "videogames": 5,
+      "videogames": 8,
       "wrestling": 14,
       "duelwins": 3,
       "duelstreak": 2
@@ -2662,8 +2663,8 @@
       "key": "cowboy",
       "label": "Cowboy Response Theme",
       "unlock_level": 30,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "theme",
