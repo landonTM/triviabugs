@@ -1,0 +1,149 @@
+{
+  "seasons": [
+    {
+      "key": "season_0",
+      "name": "Season 0",
+      "emoji": "🎃",
+      "status": "upcoming",
+      "starts_at": "2026-09-28 10:00:00-04:00",
+      "ends_at": "2026-11-02 10:00:00-05:00",
+      "type": "solos",
+      "type_label": "Solos",
+      "type_blurb": "everyone plays for themselves",
+      "levels": 15,
+      "total_xp": 20850,
+      "prize_xp": [
+        50000,
+        25000,
+        10000
+      ],
+      "duel_prize_xp": [
+        20000,
+        10000,
+        5000
+      ],
+      "tiers": [
+        {
+          "level": 1,
+          "xp": 900,
+          "rewards": [
+            "Haunted Footer",
+            "Pumpkin MVP"
+          ]
+        },
+        {
+          "level": 2,
+          "xp": 970,
+          "rewards": [
+            "Trick or Treat Emoji Pack",
+            "Scary Movies MVP"
+          ]
+        },
+        {
+          "level": 3,
+          "xp": 1040,
+          "rewards": [
+            "Here's Johnny MVP"
+          ]
+        },
+        {
+          "level": 4,
+          "xp": 1110,
+          "rewards": [
+            "Haunted Emoji Pack",
+            "Play Game MVP"
+          ]
+        },
+        {
+          "level": 5,
+          "xp": 1180,
+          "rewards": [
+            "Zombie Response Theme",
+            "Prime Time MVP"
+          ]
+        },
+        {
+          "level": 6,
+          "xp": 1250,
+          "rewards": [
+            "Cursed Footer",
+            "Stupid Bitch MVP"
+          ]
+        },
+        {
+          "level": 7,
+          "xp": 1320,
+          "rewards": [
+            "Rubber MVP"
+          ]
+        },
+        {
+          "level": 8,
+          "xp": 1390,
+          "rewards": [
+            "Spoopy Emoji Pack",
+            "Cancelled MVP"
+          ]
+        },
+        {
+          "level": 9,
+          "xp": 1460,
+          "rewards": [
+            "Summoned Footer",
+            "Phil MVP"
+          ]
+        },
+        {
+          "level": 10,
+          "xp": 1530,
+          "rewards": [
+            "Dracula Response Theme",
+            "FNAF Emoji Pack",
+            "Come Back MVP"
+          ]
+        },
+        {
+          "level": 11,
+          "xp": 1600,
+          "rewards": [
+            "Forget to Smile MVP"
+          ]
+        },
+        {
+          "level": 12,
+          "xp": 1670,
+          "rewards": [
+            "Nightmare Footer",
+            "Mother MVP"
+          ]
+        },
+        {
+          "level": 13,
+          "xp": 1740,
+          "rewards": [
+            "Whole Bag MVP"
+          ]
+        },
+        {
+          "level": 14,
+          "xp": 1810,
+          "rewards": [
+            "WASSUP MVP"
+          ]
+        },
+        {
+          "level": 15,
+          "xp": 1880,
+          "rewards": [
+            "Scooby Doo Response Theme",
+            "Scooby Emoji Pack",
+            "Melvin Doo MVP"
+          ]
+        }
+      ],
+      "spotlights": [],
+      "spotlight_multiplier": 1.5,
+      "elo_min_matches": 3
+    }
+  ]
+}
