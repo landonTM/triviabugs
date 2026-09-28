@@ -6,7 +6,9 @@
     "challenger_id": "184456115927384065",
     "opponent_id": "433990857063137282",
     "format": 7,
+    "format_label": "Best of 7",
     "winner_id": "184456115927384065",
+    "is_tie": false,
     "challenger_score": 1,
     "opponent_score": 1,
     "decided_by_tiebreaker": true,
@@ -16,13 +18,14 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 15172,
       "answered_at": "2026-09-24 00:45:35.624316+00:00",
       "category": "Whos That Pokemon (Gen 1)",
       "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/Y6aQTvu.png",
       "correct_answers": [
-        "Venusaur"
+        "mT3x7OaMkvg="
       ]
     },
     {
@@ -33,8 +36,9 @@
       "answered_at": "2026-09-24 00:45:35.624316+00:00",
       "category": "Whos That Pokemon (Gen 8)",
       "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/DEEZkqf.png",
       "correct_answers": [
-        "Rolycoly"
+        "nTfz4PaCi/M="
       ]
     },
     {
@@ -45,20 +49,22 @@
       "answered_at": "2026-09-24 00:45:35.624316+00:00",
       "category": "Art and Literature",
       "question_text": "Paint applied very thickly. It often projects from the picture surface?",
+      "image_url": null,
       "correct_answers": [
-        "Impasto"
+        "hjXv+OaZiA=="
       ]
     },
     {
       "round_number": 4,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 13468,
       "answered_at": "2026-09-24 00:45:35.624316+00:00",
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/qqKx7hp.png",
       "correct_answers": [
-        "South Sudan"
+        "nDfq7f3NtP8cyig="
       ]
     },
     {
@@ -69,8 +75,9 @@
       "answered_at": "2026-09-24 00:45:35.624316+00:00",
       "category": "Game of Thrones",
       "question_text": "What skilled sellsword is hired as a bodyguard by Tyrion Lannister?",
+      "image_url": null,
       "correct_answers": [
-        "Bronn"
+        "jSrw9/s="
       ]
     },
     {
@@ -81,8 +88,9 @@
       "answered_at": "2026-09-24 00:45:35.624316+00:00",
       "category": "Space",
       "question_text": "The Big Bang theory was first proposed by Georges Lemaitre, a priest of which church?",
+      "image_url": null,
       "correct_answers": [
-        "Catholic"
+        "jDnr8fqBjuk="
       ]
     },
     {
@@ -93,45 +101,47 @@
       "answered_at": "2026-09-24 00:45:35.624316+00:00",
       "category": "Chemistry",
       "question_text": "Which British chemist is best known for his book \"The Sceptical Chymist\"?",
+      "image_url": null,
       "correct_answers": [
-        "Robert Boyle"
+        "nTf9/OeZx8gX0irj"
       ]
     },
     {
       "round_number": 8,
       "mode": "insane",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 6555,
       "answered_at": "2026-09-24 00:45:35.624316+00:00",
       "category": "Movies",
       "question_text": "Every Martin Scorsese film",
+      "image_url": null,
       "correct_answers": [
-        "Who's That Knocking at My Door",
-        "Boxcar Bertha",
-        "Mean Streets",
-        "Alice Doesn't Live Here Anymore",
-        "Taxi Driver",
-        "New York, New York",
-        "Raging Bull",
-        "The King of Comedy",
-        "After Hours",
-        "The Color of Money",
-        "The Last Temptation of Christ",
-        "Goodfellas",
-        "Cape Fear",
-        "The Age of Innocence",
-        "Casino",
-        "Kundun",
-        "Bringing Out the Dead",
-        "Gangs of New York",
-        "The Aviator",
-        "The Departed",
-        "Shutter Island",
-        "Hugo",
-        "The Wolf of Wall Street",
-        "Silence",
-        "The Irishman",
-        "Killers of the Flower Moon"
+        "mDDwvubNs+IZ32bN3qTvHULKsStGqf5Ifk7cvpfE",
+        "jTfn+vSfx8gd2TLu0Q==",
+        "gj3+97W+k/gdzjL1",
+        "jjT2+vDNo+Ud2CihxOvAH13B9kNCr7slRgDhvJfEZA==",
+        "mznn8LWpleMOzjQ=",
+        "gT3oucyCleFUiwjjx+vVGVnP",
+        "nTn48PuKx8gNxyo=",
+        "mzD6ud6Eie1YxCCm86ThE0/d",
+        "jj7r/OfNr+UN2TU=",
+        "mzD6udaCi+UKiyngkIbjGE7d",
+        "mzD6udmMlP5Y/yPrwL/tAkLLuCtIu/5Gbxzxoow=",
+        "iDfw/fOIi+YZ2A==",
+        "jDnv/LWrgusK",
+        "mzD6udSKgqoXzWbP3qXjFU7KtW4=",
+        "jDns8PuC",
+        "hC3x/eCD",
+        "jSr29/KEie1Y5DPykL/kEwvgs2pD",
+        "iDnx/ubNiOxY5SPxkJLjBEA=",
+        "mzD6udSbjusMxDQ=",
+        "mzD6udGIl+sK3yPi",
+        "nDDq7eGIlaox2Crn3q8=",
+        "hy349g==",
+        "mzD6ucKCi+xYxCCm56rgGgv3onlCuKo=",
+        "nDHz/PuOgg==",
+        "mzD6udyfjvkQxifo",
+        "hDHz9fCflKoXzWby2K6sMEfLoW5V/ZNqaAA="
       ]
     }
   ]
