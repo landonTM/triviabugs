@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "What term describes Serena Williams holding all four Grand Slam titles at once, first completed at the 2003 Australian Open?",
       "image_url": null,
-      "correct_answers": [
-        "nD3t/PuMx9kUyis="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Sports",
       "question_text": "What nickname is given to the Spain men's national soccer team?",
       "image_url": null,
-      "correct_answers": [
-        "gzm/y/qHhg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -69,9 +65,7 @@
       "category": "Sports",
       "question_text": "_________ Clippers (NBA)",
       "image_url": null,
-      "correct_answers": [
-        "gzfsudSDgO8UzjU="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -91,9 +85,7 @@
       "category": "Sports",
       "question_text": "What number of points is lost for scratching off the blue ball in snooker?",
       "image_url": null,
-      "correct_answers": [
-        "+g=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -113,9 +105,7 @@
       "category": "Sports",
       "question_text": "Which country did Kabaddi, a contact sport involving tackling, originate from?",
       "image_url": null,
-      "correct_answers": [
-        "hjb78PQ="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -135,9 +125,7 @@
       "category": "Sports",
       "question_text": "In what year was the FA Cup first played?",
       "image_url": null,
-      "correct_answers": [
-        "/mCoqA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -157,9 +145,7 @@
       "category": "Sports",
       "question_text": "Which NFL team features a helmet decal only on one side of the helmet?",
       "image_url": null,
-      "correct_answers": [
-        "nzHr7eaPkvgfw2bVxK7pGk7WpQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -179,9 +165,7 @@
       "category": "Sports",
       "question_text": "In soccer, what position is primarily responsible for guarding the goal?",
       "image_url": null,
-      "correct_answers": [
-        "iDf+9f6Igvod2Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -201,9 +185,7 @@
       "category": "Sports",
       "question_text": "Which Brazilian club is Pele most closely associated with?",
       "image_url": null,
-      "correct_answers": [
-        "nDnx7fqe"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -223,34 +205,7 @@
       "category": "Movies",
       "question_text": "Every Martin Scorsese film",
       "image_url": null,
-      "correct_answers": [
-        "mDDwvubNs+IZ32bN3qTvHULKsStGqf5Ifk7cvpfE",
-        "jTfn+vSfx8gd2TLu0Q==",
-        "gj3+97W+k/gdzjL1",
-        "jjT2+vDNo+Ud2CihxOvAH13B9kNCr7slRgDhvJfEZA==",
-        "mznn8LWpleMOzjQ=",
-        "gT3oucyCleFUiwjjx+vVGVnP",
-        "nTn48PuKx8gNxyo=",
-        "mzD6ud6Eie1YxCCm86ThE0/d",
-        "jj7r/OfNr+UN2TU=",
-        "mzD6udaCi+UKiyngkIbjGE7d",
-        "mzD6udmMlP5Y/yPrwL/tAkLLuCtIu/5Gbxzxoow=",
-        "iDfw/fOIi+YZ2A==",
-        "jDnv/LWrgusK",
-        "mzD6udSKgqoXzWbP3qXjFU7KtW4=",
-        "jDns8PuC",
-        "hC3x/eCD",
-        "jSr29/KEie1Y5DPykL/kEwvgs2pD",
-        "iDnx/ubNiOxY5SPxkJLjBEA=",
-        "mzD6udSbjusMxDQ=",
-        "mzD6udGIl+sK3yPi",
-        "nDDq7eGIlaox2Crn3q8=",
-        "hy349g==",
-        "mzD6ucKCi+xYxCCm56rgGgv3onlCuKo=",
-        "nDHz/PuOgg==",
-        "mzD6udyfjvkQxifo",
-        "hDHz9fCflKoXzWby2K6sMEfLoW5V/ZNqaAA="
-      ],
+      "answer_count": 26,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -289,5 +244,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
