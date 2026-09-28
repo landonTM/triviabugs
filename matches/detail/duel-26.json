@@ -6,7 +6,9 @@
     "challenger_id": "433990857063137282",
     "opponent_id": "184456115927384065",
     "format": 3,
+    "format_label": "Best of 3",
     "winner_id": "433990857063137282",
+    "is_tie": false,
     "challenger_score": 2,
     "opponent_score": 0,
     "decided_by_tiebreaker": false,
@@ -21,32 +23,35 @@
       "answered_at": "2026-09-26 05:12:14.127437+00:00",
       "category": "Video Games",
       "question_text": "Which video game series includes The Curious Village and The Diabolical Box?",
+      "image_url": null,
       "correct_answers": [
-        "Professor Layton"
+        "nyrw//CelOUKiwrnyb/jGA=="
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 3981,
       "answered_at": "2026-09-26 05:12:14.127437+00:00",
       "category": "Acronyms and Abbreviations",
       "question_text": "Sports: MLS",
+      "image_url": null,
       "correct_answers": [
-        "Major League Soccer"
+        "gjn19ufNq+8ZzDPjkJjjFUjBpA=="
       ]
     },
     {
       "round_number": 3,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 16069,
       "answered_at": "2026-09-26 05:12:14.127437+00:00",
       "category": "Entertainment",
       "question_text": "How many episodes were in season five of Samurai Jack?",
+      "image_url": null,
       "correct_answers": [
-        "10"
+        "/mg="
       ]
     }
   ]
