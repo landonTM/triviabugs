@@ -25,9 +25,7 @@
       "category": "Movies",
       "question_text": "Who voice acted the character Hiccup in the movie \"How to Train Your Dragon\"?",
       "image_url": null,
-      "correct_answers": [
-        "hTnmudeMlf8bwyPq"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Movies",
       "question_text": "In the 1971 film \"Willy Wonka & the Chocolate Factory\", who played Willy Wonka?",
       "image_url": null,
-      "correct_answers": [
-        "iD3x/LW6juYczjQ="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -69,9 +65,7 @@
       "category": "Movies",
       "question_text": "Who directed the 1973 film \"American Graffiti\"?",
       "image_url": null,
-      "correct_answers": [
-        "iD3w6/KIx8YNyCf1"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -91,9 +85,7 @@
       "category": "Movies",
       "question_text": "In It's a Wonderful Life, what business does George run?",
       "image_url": null,
-      "correct_answers": [
-        "jS329fGEie1YyijikIfjF0U="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -105,9 +97,7 @@
       "category": "Movies",
       "question_text": "In Rocky, who plays Rocky Balboa?",
       "image_url": null,
-      "correct_answers": [
-        "nCHz7/Cek+8KixXy0afgGUXB"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -118,5 +108,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
