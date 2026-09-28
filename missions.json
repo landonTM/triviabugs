@@ -12,7 +12,13 @@
         "xp_reward": 5000,
         "pass_xp_reward": 250,
         "text": "Answer 5 Wrestling questions correctly",
-        "players": []
+        "players": [
+          {
+            "user_id": "795847206719717386",
+            "progress": 1,
+            "completed_at": null
+          }
+        ]
       },
       {
         "slot": 2,
@@ -23,7 +29,28 @@
         "xp_reward": 5000,
         "pass_xp_reward": 250,
         "text": "Play in 2 Daily Trivia games",
-        "players": []
+        "players": [
+          {
+            "user_id": "433990857063137282",
+            "progress": 1,
+            "completed_at": null
+          },
+          {
+            "user_id": "734768348201615400",
+            "progress": 1,
+            "completed_at": null
+          },
+          {
+            "user_id": "795847206719717386",
+            "progress": 1,
+            "completed_at": null
+          },
+          {
+            "user_id": "184456115927384065",
+            "progress": 1,
+            "completed_at": null
+          }
+        ]
       },
       {
         "slot": 3,
@@ -37,6 +64,21 @@
         "players": [
           {
             "user_id": "433990857063137282",
+            "progress": 2,
+            "completed_at": null
+          },
+          {
+            "user_id": "734768348201615400",
+            "progress": 1,
+            "completed_at": null
+          },
+          {
+            "user_id": "795847206719717386",
+            "progress": 1,
+            "completed_at": null
+          },
+          {
+            "user_id": "184456115927384065",
             "progress": 1,
             "completed_at": null
           }
@@ -51,7 +93,13 @@
         "xp_reward": 10000,
         "pass_xp_reward": 500,
         "text": "Win 4 duels",
-        "players": []
+        "players": [
+          {
+            "user_id": "184456115927384065",
+            "progress": 1,
+            "completed_at": null
+          }
+        ]
       },
       {
         "slot": 5,
@@ -62,7 +110,13 @@
         "xp_reward": 20000,
         "pass_xp_reward": 1000,
         "text": "Win 8 games",
-        "players": []
+        "players": [
+          {
+            "user_id": "795847206719717386",
+            "progress": 1,
+            "completed_at": null
+          }
+        ]
       }
     ]
   }
