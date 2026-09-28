@@ -25,9 +25,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Organizations: AAA",
       "image_url": null,
-      "correct_answers": [
-        "jjX66/yOhuRY6jPy36bjFELIsytmrq1qZAf5pZHZbw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -47,9 +45,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Medical: SIDS",
       "image_url": null,
-      "correct_answers": [
-        "nC37/fCDx8MWzSfoxOvIE0rQvit0pLBhdQH1tA=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -61,9 +57,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Internet/Texting: TBH",
       "image_url": null,
-      "correct_answers": [
-        "mze/2/DNr+UWzjXy"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -83,9 +77,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Internet/Texting: FAQ",
       "image_url": null,
-      "correct_answers": [
-        "iSr66OCIif4U0mbHw6DpEgv1o25UqbdqaR0="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -105,10 +97,9 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Computers: HTML",
       "image_url": null,
-      "correct_answers": [
-        "hyHv/Oe5gvIMiwvnwqD5Bgvot2VAqL9iYg=="
-      ],
+      "answer_count": 1,
       "answers": []
     }
-  ]
+  ],
+  "xp": {}
 }
