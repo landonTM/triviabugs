@@ -1611,6 +1611,25 @@
       "opponent_score": 3,
       "decided_by_tiebreaker": false,
       "ended_at": "2026-09-28 03:15:18.627950+00:00"
+    },
+    {
+      "id": 55,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 10,
+      "rounds_played": 10,
+      "categories": [
+        "Disney",
+        "marvel",
+        "logos",
+        "What Links"
+      ],
+      "started_by": "433990857063137282",
+      "winner_id": "433990857063137282",
+      "started_at": "2026-09-28 16:16:17.531213+00:00",
+      "ended_at": "2026-09-28 16:22:50.454841+00:00",
+      "end_reason": "completed"
     }
   ]
 }
