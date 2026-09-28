@@ -1,0 +1,241 @@
+{
+  "game": {
+    "id": 60,
+    "kind": "game",
+    "mode": "hardcore",
+    "channel_id": "861424168875982848",
+    "total_rounds": 10,
+    "rounds_played": 10,
+    "categories": [
+      "What Links"
+    ],
+    "started_by": "433990857063137282",
+    "winner_id": "433990857063137282",
+    "started_at": "2026-09-28 23:45:59.318450+00:00",
+    "ended_at": "2026-09-28 23:53:59.049325+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5545,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:45:59.671859+00:00",
+      "ended_at": "2026-09-28 23:46:19.909024+00:00",
+      "winner_id": null,
+      "category": "What Links",
+      "question_text": "What word links Paper, Room, Stand",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5546,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:46:50.161127+00:00",
+      "ended_at": "2026-09-28 23:47:10.354494+00:00",
+      "winner_id": null,
+      "category": "What Links",
+      "question_text": "What word links Hot, Watch, House",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5547,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:47:40.548552+00:00",
+      "ended_at": "2026-09-28 23:47:48.816546+00:00",
+      "winner_id": "433990857063137282",
+      "category": "What Links",
+      "question_text": "What word links Cowboy, Top, Hard",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 8252,
+          "exact_match": true,
+          "points_awarded": 9,
+          "answered_at": "2026-09-28 23:47:48.811731+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5548,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:48:19.022405+00:00",
+      "ended_at": "2026-09-28 23:48:23.785974+00:00",
+      "winner_id": "433990857063137282",
+      "category": "What Links",
+      "question_text": "What word links Winter, Fur, Rain",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 4749,
+          "exact_match": true,
+          "points_awarded": 9,
+          "answered_at": "2026-09-28 23:48:23.781600+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5549,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:48:54.002070+00:00",
+      "ended_at": "2026-09-28 23:48:56.897450+00:00",
+      "winner_id": "433990857063137282",
+      "category": "What Links",
+      "question_text": "What word links Birthday, Wedding, Pound",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 2882,
+          "exact_match": true,
+          "points_awarded": 9,
+          "answered_at": "2026-09-28 23:48:56.894006+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5550,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:49:27.262814+00:00",
+      "ended_at": "2026-09-28 23:49:30.825036+00:00",
+      "winner_id": "433990857063137282",
+      "category": "What Links",
+      "question_text": "What word links Orange, Apple, Grape",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 3549,
+          "exact_match": true,
+          "points_awarded": 9,
+          "answered_at": "2026-09-28 23:49:30.821678+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5551,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:50:01.086741+00:00",
+      "ended_at": "2026-09-28 23:50:16.710895+00:00",
+      "winner_id": "795847206719717386",
+      "category": "What Links",
+      "question_text": "What word links Coast, Side, Middle",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 15608,
+          "exact_match": true,
+          "points_awarded": 9,
+          "answered_at": "2026-09-28 23:50:16.705385+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5552,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:50:46.962623+00:00",
+      "ended_at": "2026-09-28 23:51:07.142810+00:00",
+      "winner_id": null,
+      "category": "What Links",
+      "question_text": "What word links Ball, Man, Storm",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5553,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:51:37.390385+00:00",
+      "ended_at": "2026-09-28 23:51:57.718750+00:00",
+      "winner_id": null,
+      "category": "What Links",
+      "question_text": "What word links Dog, Club, Boat",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5554,
+      "mode": "insane",
+      "started_at": "2026-09-28 23:52:27.883112+00:00",
+      "ended_at": "2026-09-28 23:53:28.699814+00:00",
+      "winner_id": null,
+      "category": "Greek Mythology",
+      "question_text": "Greek Gods",
+      "image_url": null,
+      "answer_count": 59,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3307,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 23:52:31.193005+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 3766,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 23:52:31.652221+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4881,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 23:52:32.766476+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 5713,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 23:52:33.599501+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 12294,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 23:52:40.179649+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 15566,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 23:52:43.452062+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 23621,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 23:52:51.508811+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 31969,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-28 23:52:59.855183+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 726,
+    "795847206719717386": 706
+  }
+}
