@@ -4,7 +4,7 @@
       "key": "season_0",
       "name": "Season 0",
       "emoji": "🎃",
-      "status": "upcoming",
+      "status": "active",
       "starts_at": "2026-09-28 10:00:00-04:00",
       "ends_at": "2026-11-02 10:00:00-05:00",
       "type": "solos",
@@ -146,6 +146,167 @@
         "Whos That Pokemon (Gen 7)",
         "What Links"
       ],
+      "spotlight_multiplier": 1.5,
+      "elo_min_matches": 3,
+      "standings": [],
+      "pass": [],
+      "elo": {
+        "ranked": [],
+        "unranked": []
+      },
+      "winners": [],
+      "elo_winners": []
+    },
+    {
+      "key": "season_1",
+      "name": "Season 1",
+      "emoji": "💠",
+      "status": "upcoming",
+      "starts_at": "2026-11-02 10:00:00-05:00",
+      "ends_at": "2026-12-28 10:00:00-05:00",
+      "type": null,
+      "type_label": null,
+      "type_blurb": null,
+      "levels": 25,
+      "total_xp": 34500,
+      "prize_xp": [
+        50000,
+        25000,
+        10000
+      ],
+      "duel_prize_xp": [
+        20000,
+        10000,
+        5000
+      ],
+      "tiers": [
+        {
+          "level": 1,
+          "xp": 900,
+          "rewards": []
+        },
+        {
+          "level": 2,
+          "xp": 940,
+          "rewards": []
+        },
+        {
+          "level": 3,
+          "xp": 980,
+          "rewards": []
+        },
+        {
+          "level": 4,
+          "xp": 1020,
+          "rewards": []
+        },
+        {
+          "level": 5,
+          "xp": 1060,
+          "rewards": []
+        },
+        {
+          "level": 6,
+          "xp": 1100,
+          "rewards": []
+        },
+        {
+          "level": 7,
+          "xp": 1140,
+          "rewards": []
+        },
+        {
+          "level": 8,
+          "xp": 1180,
+          "rewards": []
+        },
+        {
+          "level": 9,
+          "xp": 1220,
+          "rewards": []
+        },
+        {
+          "level": 10,
+          "xp": 1260,
+          "rewards": []
+        },
+        {
+          "level": 11,
+          "xp": 1300,
+          "rewards": []
+        },
+        {
+          "level": 12,
+          "xp": 1340,
+          "rewards": []
+        },
+        {
+          "level": 13,
+          "xp": 1380,
+          "rewards": []
+        },
+        {
+          "level": 14,
+          "xp": 1420,
+          "rewards": []
+        },
+        {
+          "level": 15,
+          "xp": 1460,
+          "rewards": []
+        },
+        {
+          "level": 16,
+          "xp": 1500,
+          "rewards": []
+        },
+        {
+          "level": 17,
+          "xp": 1540,
+          "rewards": []
+        },
+        {
+          "level": 18,
+          "xp": 1580,
+          "rewards": []
+        },
+        {
+          "level": 19,
+          "xp": 1620,
+          "rewards": []
+        },
+        {
+          "level": 20,
+          "xp": 1660,
+          "rewards": []
+        },
+        {
+          "level": 21,
+          "xp": 1700,
+          "rewards": []
+        },
+        {
+          "level": 22,
+          "xp": 1740,
+          "rewards": []
+        },
+        {
+          "level": 23,
+          "xp": 1780,
+          "rewards": []
+        },
+        {
+          "level": 24,
+          "xp": 1820,
+          "rewards": []
+        },
+        {
+          "level": 25,
+          "xp": 1860,
+          "rewards": []
+        }
+      ],
+      "spotlights": [],
       "spotlight_multiplier": 1.5,
       "elo_min_matches": 3
     }
