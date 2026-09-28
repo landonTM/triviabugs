@@ -24,9 +24,7 @@
       "category": "US State Capitals",
       "question_text": "What is the USA state capital of Arizona?",
       "image_url": null,
-      "correct_answers": [
-        "nzDw/PuEnw=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,8 @@
       "category": "Stranger Things",
       "question_text": "What does Will cough up after returning home?",
       "image_url": null,
-      "correct_answers": [
-        "jnjs9eCK"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
