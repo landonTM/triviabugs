@@ -2,38 +2,38 @@
   "user_id": "734768348201615400",
   "level": {
     "level": 42,
-    "xp_into_level": 13383,
+    "xp_into_level": 17221,
     "xp_for_level": 61000,
-    "progress": 0.21939344262295082,
+    "progress": 0.2823114754098361,
     "maxed": false
   },
-  "total_xp": 923883,
+  "total_xp": 927721,
   "period_stats": {
-    "daily_points": 106,
-    "daily_correct": 53,
-    "weekly_points": 1385,
-    "weekly_correct": 806,
-    "monthly_points": 5563,
-    "monthly_correct": 3105,
-    "yearly_points": 5762,
-    "yearly_correct": 3248,
-    "alltime_points": 5762,
-    "alltime_correct": 3248
+    "daily_points": 122,
+    "daily_correct": 60,
+    "weekly_points": 1401,
+    "weekly_correct": 813,
+    "monthly_points": 5579,
+    "monthly_correct": 3112,
+    "yearly_points": 5778,
+    "yearly_correct": 3255,
+    "alltime_points": 5778,
+    "alltime_correct": 3255
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 3610,
-    "questions_right": 1096,
+    "total_points": 3622,
+    "questions_right": 1099,
     "questions_wrong": 0,
-    "wins": 1096,
-    "current_streak": 1,
+    "wins": 1099,
+    "current_streak": 3,
     "best_streak": 37,
-    "games_played": 55,
-    "insane_guesses": 1223,
+    "games_played": 56,
+    "insane_guesses": 1227,
     "day_streak": 14,
     "last_played_date": "2026-09-28",
-    "total_xp": 923883,
+    "total_xp": 927721,
     "game_wins": 28,
     "achievement_best_streak": 37
   },
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 1116,
-    "correct": 749
+    "points": 1120,
+    "correct": 750
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2152,
-  "average_guess_ms": 15604.264598540147,
+  "total_insane_correct": 2156,
+  "average_guess_ms": 15595.767970882622,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 30
   },
   "spelling_accuracy": {
-    "exact_count": 2065,
-    "total": 2466
+    "exact_count": 2069,
+    "total": 2473
   },
   "achievements": {
     "catalog": [
@@ -2228,8 +2228,8 @@
       "music": 21,
       "pokemon": 8,
       "sports": 85,
-      "videogames": 13,
-      "wrestling": 318,
+      "videogames": 14,
+      "wrestling": 319,
       "duelwins": 4,
       "duelstreak": 2
     }
@@ -2361,8 +2361,8 @@
       "key": "haunted",
       "label": "Haunted Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "footer",
@@ -3481,8 +3481,8 @@
       "key": "pumpkin",
       "label": "Pumpkin MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
