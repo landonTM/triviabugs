@@ -24,9 +24,7 @@
       "category": "Geography",
       "question_text": "What is the largest city and capital of the Democratic Republic of the Congo?",
       "image_url": null,
-      "correct_answers": [
-        "hDHx6v2MlOs="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Harry Potter",
       "question_text": "How old was the kid that Dudley and his gang beat up that \"deserved it\"?",
       "image_url": null,
-      "correct_answers": [
-        "/mg="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,8 @@
       "category": "World Cup",
       "question_text": "How many goals did Germany score against Brazil in their 2014 FIFA World Cup semi-final?",
       "image_url": null,
-      "correct_answers": [
-        "+A=="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
