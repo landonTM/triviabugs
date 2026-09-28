@@ -6,7 +6,9 @@
     "challenger_id": "184456115927384065",
     "opponent_id": "433990857063137282",
     "format": 10,
+    "format_label": "Best of 10",
     "winner_id": "433990857063137282",
+    "is_tie": false,
     "challenger_score": 3,
     "opponent_score": 5,
     "decided_by_tiebreaker": false,
@@ -16,49 +18,53 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 15862,
       "answered_at": "2026-09-27 03:11:29.138380+00:00",
       "category": "Geography",
       "question_text": "Which country has the abbreviation \"CH\"?",
+      "image_url": null,
       "correct_answers": [
-        "Switzerland"
+        "nC/27e+IleYZxSI="
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 1815,
       "answered_at": "2026-09-27 03:11:29.138380+00:00",
       "category": "US State Abbreviations",
       "question_text": "What is the abbreviation for Montana?",
+      "image_url": null,
       "correct_answers": [
-        "MT"
+        "ggw="
       ]
     },
     {
       "round_number": 3,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 14487,
       "answered_at": "2026-09-27 03:11:29.138380+00:00",
       "category": "Greek Mythology",
       "question_text": "Who saved Andromeda from Cetus?",
+      "image_url": null,
       "correct_answers": [
-        "Perseus"
+        "nz3t6vCYlA=="
       ]
     },
     {
       "round_number": 4,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 6218,
       "answered_at": "2026-09-27 03:11:29.138380+00:00",
       "category": "General Knowledge",
       "question_text": "In what year did Canada stop producing the penny?",
+      "image_url": null,
       "correct_answers": [
-        "2012"
+        "/Wiuqw=="
       ]
     },
     {
@@ -69,44 +75,48 @@
       "answered_at": "2026-09-27 03:11:29.138380+00:00",
       "category": "Geography",
       "question_text": "Which volcano is NOT located in Antarctica?",
+      "image_url": null,
       "correct_answers": [
-        "Mount Napier"
+        "gjfq9+HNqesIwiP0"
       ]
     },
     {
       "round_number": 6,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 8026,
       "answered_at": "2026-09-27 03:11:29.138380+00:00",
       "category": "World Capitals",
       "question_text": "What is the capital of Denmark?",
+      "image_url": null,
       "correct_answers": [
-        "Copenhagen"
+        "jDfv/PuFhu0dxQ=="
       ]
     },
     {
       "round_number": 7,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 7066,
       "answered_at": "2026-09-27 03:11:29.138380+00:00",
       "category": "Elements",
       "question_text": "What is the element symbol of \"Einsteinium\"?",
+      "image_url": null,
       "correct_answers": [
-        "Es"
+        "iis="
       ]
     },
     {
       "round_number": 8,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 13305,
       "answered_at": "2026-09-27 03:11:29.138380+00:00",
       "category": "Marvel",
       "question_text": "Who is Daredevil's primary crime-lord enemy in the first season?",
+      "image_url": null,
       "correct_answers": [
-        "Wilson Fisk"
+        "mDHz6vqDx8wR2C0="
       ]
     },
     {
@@ -117,20 +127,22 @@
       "answered_at": "2026-09-27 03:11:29.138380+00:00",
       "category": "MLB",
       "question_text": "How many home runs did Roger Maris hit in his record-setting 1961 season?",
+      "image_url": null,
       "correct_answers": [
-        "61"
+        "+Wk="
       ]
     },
     {
       "round_number": 10,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 9258,
       "answered_at": "2026-09-27 03:11:29.138380+00:00",
       "category": "Art and Literature",
-      "question_text": "The fallacy of personifying inanimate objects, often in bad taste?",
+      "question_text": "What literary term describes attributing human feelings to nature or inanimate objects?",
+      "image_url": null,
       "correct_answers": [
-        "Pathetic fallacy"
+        "nznr8fCZjulYzSfq3KrvDw=="
       ]
     }
   ]
