@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "_________ Falcons (NFL)",
       "image_url": null,
-      "correct_answers": [
-        "jizz+PuZhg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Sports",
       "question_text": "Which club has won the most UEFA Europa League titles?",
       "image_url": null,
-      "correct_answers": [
-        "nD3p8PmBhg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -69,9 +65,7 @@
       "category": "Sports",
       "question_text": "In tennis doubles, what is the term for the net player moving across to intercept and put away a ball intended for their partner?",
       "image_url": null,
-      "correct_answers": [
-        "nzf++v0="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -91,9 +85,7 @@
       "category": "Sports",
       "question_text": "How many times has a Super Bowl went into overtime?",
       "image_url": null,
-      "correct_answers": [
-        "/g=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -113,10 +105,9 @@
       "category": "Sports",
       "question_text": "_________ Royals (MLB)",
       "image_url": null,
-      "correct_answers": [
-        "hDnx6vSex8kR3z8="
-      ],
+      "answer_count": 1,
       "answers": []
     }
-  ]
+  ],
+  "xp": {}
 }
