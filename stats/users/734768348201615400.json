@@ -3597,6 +3597,35 @@
       "source": null
     }
   ],
+  "equipped": {
+    "footer": {
+      "key": "hosted",
+      "label": "Hosted Footer",
+      "template": "Hosted by {user}! 🎙️"
+    },
+    "emoji": {
+      "key": "nerd",
+      "label": "Nerd Emoji Pack",
+      "correct": "🤓",
+      "streak": "📚",
+      "speed": "🧠"
+    },
+    "theme": {
+      "key": "default",
+      "label": "Standard Response Theme"
+    },
+    "embedcolor": {
+      "key": "sunsetorange",
+      "label": "Sunset Orange Embed",
+      "hex": "#F3722C"
+    },
+    "mvp": {
+      "key": "deeney",
+      "label": "Deeney MVP",
+      "quote": "Here's Hogg..... DEENEY!",
+      "gif": "https://media.giphy.com/media/Jf6DbAQhdSt6HEm8Ci/giphy.gif"
+    }
+  },
   "rivals": [
     {
       "user_id": "433990857063137282",
