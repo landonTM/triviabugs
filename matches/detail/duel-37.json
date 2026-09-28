@@ -24,9 +24,7 @@
       "category": "Video Games",
       "question_text": "What was the name of the 1991 \"Castlevania\" game released on the SNES?",
       "image_url": null,
-      "correct_answers": [
-        "nC3v/OfNpOsL3yrjxqriH0qEn10="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "House of the Dragon",
       "question_text": "Who persuades the badly injured Aegon to flee King's Landing at the end of Season 2?",
       "image_url": null,
-      "correct_answers": [
-        "gznt4ObNtP4KxCjh"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Harry Potter",
       "question_text": "How many muggles did Peter Pettigrew kill when he faked his own death?",
       "image_url": null,
-      "correct_answers": [
-        "/mo="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Entertainment",
       "question_text": "What is the drummer's name in 'The Muppet Show'?",
       "image_url": null,
-      "correct_answers": [
-        "jjb29PSB"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "General Knowledge",
       "question_text": "What natural phenomenon's magnitude was traditionally measured using the Richter scale?",
       "image_url": null,
-      "correct_answers": [
-        "ijnt7f2ckusTzg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,9 +79,7 @@
       "category": "History",
       "question_text": "In what year was the Gregorian Calendar first introduced?",
       "image_url": null,
-      "correct_answers": [
-        "/m2nqw=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 7,
@@ -102,9 +90,7 @@
       "category": "Star Wars",
       "question_text": "How many TIE fighters pursue the Millenium Falcon during its escape from the first Death Star?",
       "image_url": null,
-      "correct_answers": [
-        "+w=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 8,
@@ -115,9 +101,7 @@
       "category": "Disney",
       "question_text": "In their snowball fight how many snowballs does Belle hit the Beast with?",
       "image_url": null,
-      "correct_answers": [
-        "/A=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 9,
@@ -128,9 +112,8 @@
       "category": "Conundrums",
       "question_text": "Chicanery",
       "image_url": null,
-      "correct_answers": [
-        "jDD2+vSDgvgB"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
