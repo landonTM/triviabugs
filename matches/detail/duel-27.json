@@ -24,9 +24,7 @@
       "category": "Space",
       "question_text": "What invisible component accounts for approximately 85% of the universe's matter?",
       "image_url": null,
-      "correct_answers": [
-        "iznt8rWAhv4MzjQ="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,8 @@
       "category": "Disney",
       "question_text": "What full length animated feature is the song \"Follow the Leader\" from?",
       "image_url": null,
-      "correct_answers": [
-        "nz3r/OfNt+sW"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
