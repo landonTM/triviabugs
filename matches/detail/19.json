@@ -19,284 +19,254 @@
     {
       "round_id": 4855,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:07:33.291254+00:00",
-      "round_ended_at": "2026-09-26 03:07:40.444744+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:07:33.291254+00:00",
+      "ended_at": "2026-09-26 03:07:40.444744+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "Tiger Woods became a professional golfer in what year?",
+      "image_url": null,
       "correct_answers": [
-        "1996"
+        "/mGmrw=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 7140,
-      "exact_match": true,
-      "points_awarded": 4,
-      "answered_at": "2026-09-26 03:07:40.441068+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 7140,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-26 03:07:40.441068+00:00"
+        }
+      ]
     },
     {
       "round_id": 4856,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:07:50.686006+00:00",
-      "round_ended_at": "2026-09-26 03:08:38.698230+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:07:50.686006+00:00",
+      "ended_at": "2026-09-26 03:08:38.698230+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What was the nickname for Wimbledon's traditional rest day in the middle of the tournament, a tradition that ended in 2022?",
+      "image_url": null,
       "correct_answers": [
-        "Middle Sunday"
+        "gjH7/fmIx9kNxSLnyQ=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 47996,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:08:38.694795+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 47996,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:08:38.694795+00:00"
+        }
+      ]
     },
     {
       "round_id": 4857,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:08:49.221482+00:00",
-      "round_ended_at": "2026-09-26 03:09:14.042276+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:08:49.221482+00:00",
+      "ended_at": "2026-09-26 03:09:14.042276+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "In what country did table tennis originate?",
+      "image_url": null,
       "correct_answers": [
-        "England"
+        "ijb49fSDgw=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 24808,
-      "exact_match": true,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 03:09:14.038998+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 24808,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 03:09:14.038998+00:00"
+        }
+      ]
     },
     {
       "round_id": 4858,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:09:24.225873+00:00",
-      "round_ended_at": "2026-09-26 03:10:07.899090+00:00",
-      "winner_id": 433990857063137282,
+      "started_at": "2026-09-26 03:09:24.225873+00:00",
+      "ended_at": "2026-09-26 03:10:07.899090+00:00",
+      "winner_id": "433990857063137282",
       "category": "Sports",
       "question_text": "In what year was tennis removed from the Olympic program, not returning as a full medal sport until 1988?",
+      "image_url": null,
       "correct_answers": [
-        "1924"
+        "/mGtrQ=="
       ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 43657,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:10:07.895682+00:00"
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 43657,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:10:07.895682+00:00"
+        }
+      ]
     },
     {
       "round_id": 4859,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:10:18.092788+00:00",
-      "round_ended_at": "2026-09-26 03:10:21.735426+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:10:18.092788+00:00",
+      "ended_at": "2026-09-26 03:10:21.735426+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What is the top domestic soccer league in France called?",
+      "image_url": null,
       "correct_answers": [
-        "Ligue 1"
+        "gzH47PDN1g=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 3630,
-      "exact_match": true,
-      "points_awarded": 4,
-      "answered_at": "2026-09-26 03:10:21.732122+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 3630,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-26 03:10:21.732122+00:00"
+        }
+      ]
     },
     {
       "round_id": 4860,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:10:31.931422+00:00",
-      "round_ended_at": "2026-09-26 03:11:15.786678+00:00",
-      "winner_id": 433990857063137282,
+      "started_at": "2026-09-26 03:10:31.931422+00:00",
+      "ended_at": "2026-09-26 03:11:15.786678+00:00",
+      "winner_id": "433990857063137282",
       "category": "Sports",
       "question_text": "Who holds the NBA record for most career points scored?",
+      "image_url": null,
       "correct_answers": [
-        "LeBron James"
+        "gz3d6/qDx8AZxiP1"
       ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 43839,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:11:15.781770+00:00"
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 43839,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:11:15.781770+00:00"
+        }
+      ]
     },
     {
       "round_id": 4861,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:11:26.202848+00:00",
-      "round_ended_at": "2026-09-26 03:12:09.872076+00:00",
-      "winner_id": 433990857063137282,
+      "started_at": "2026-09-26 03:11:26.202848+00:00",
+      "ended_at": "2026-09-26 03:12:09.872076+00:00",
+      "winner_id": "433990857063137282",
       "category": "Sports",
       "question_text": "_________ Nets (NBA)",
+      "image_url": null,
       "correct_answers": [
-        "Brooklyn"
+        "jSrw9v6BnuQ="
       ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 43656,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:12:09.868885+00:00"
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 43656,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:12:09.868885+00:00"
+        }
+      ]
     },
     {
       "round_id": 4862,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:12:20.090031+00:00",
-      "round_ended_at": "2026-09-26 03:12:44.914872+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 03:12:20.090031+00:00",
+      "ended_at": "2026-09-26 03:12:44.914872+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What is the term for an ice hockey shot taken alone against the goalie with no other defenders, after a penalty?",
+      "image_url": null,
       "correct_answers": [
-        "Penalty Shot"
+        "nz3x+PmZnqorwyny"
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 24810,
-      "exact_match": true,
-      "points_awarded": 2,
-      "answered_at": "2026-09-26 03:12:44.910386+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 24810,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-26 03:12:44.910386+00:00"
+        }
+      ]
     },
     {
       "round_id": 4863,
       "mode": "standard",
-      "round_started_at": "2026-09-26 03:12:55.194445+00:00",
-      "round_ended_at": "2026-09-26 03:13:55.370374+00:00",
+      "started_at": "2026-09-26 03:12:55.194445+00:00",
+      "ended_at": "2026-09-26 03:13:55.370374+00:00",
       "winner_id": null,
       "category": "Sports",
       "question_text": "Who was the first golfer to win more than $1 million in official earnings in a single year?",
+      "image_url": null,
       "correct_answers": [
-        "Curtis Strange"
+        "jC3t7fyex9kM2Sfo164="
       ],
-      "answerer_id": null,
-      "response_time_ms": null,
-      "exact_match": null,
-      "points_awarded": null,
-      "answered_at": null
+      "answers": []
     },
     {
       "round_id": 4864,
       "mode": "insane",
-      "round_started_at": "2026-09-26 03:14:05.558884+00:00",
-      "round_ended_at": "2026-09-26 03:15:05.996924+00:00",
+      "started_at": "2026-09-26 03:14:05.558884+00:00",
+      "ended_at": "2026-09-26 03:15:05.996924+00:00",
       "winner_id": null,
       "category": "General Knowledge",
       "question_text": "Books of the New Testament",
+      "image_url": null,
       "correct_answers": [
-        "Matthew",
-        "Mark",
-        "Luke",
-        "John",
-        "Acts",
-        "Romans",
-        "1 Corinthians",
-        "2 Corinthians",
-        "Galatians",
-        "Ephesians",
-        "Philippians",
-        "Colossians",
-        "1 Thessalonians",
-        "2 Thessalonians",
-        "1 Timothy",
-        "2 Timothy",
-        "Titus",
-        "Philemon",
-        "Hebrews",
-        "James",
-        "1 Peter",
-        "2 Peter",
-        "1 John",
-        "2 John",
-        "3 John",
-        "Jude",
-        "Revelation"
+        "gjnr7f2IkA==",
+        "gjnt8g==",
+        "gy30/A==",
+        "hTf39w==",
+        "jjvr6g==",
+        "nTfy+Pue",
+        "/njc9ueEif4Qwifoww==",
+        "/Xjc9ueEif4Qwifoww==",
+        "iDnz+OGEhuQL",
+        "iij3/OaEhuQL",
+        "nzD29fydl+MZxTU=",
+        "jDfz9uaejusW2A==",
+        "/njL8fCelOsUxCjv0aX/",
+        "/XjL8fCelOsUxCjv0aX/",
+        "/njL8PiCk+IB",
+        "/XjL8PiCk+IB",
+        "mzHr7OY=",
+        "nzD29fCAiOQ=",
+        "hz396/CalA==",
+        "hTny/OY=",
+        "/njP/OGIlQ==",
+        "/XjP/OGIlQ==",
+        "/njV9v2D",
+        "/XjV9v2D",
+        "/HjV9v2D",
+        "hS37/A==",
+        "nT3p/PmMk+MXxQ=="
       ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 33212,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:14:38.773567+00:00"
-    },
-    {
-      "round_id": 4864,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 03:14:05.558884+00:00",
-      "round_ended_at": "2026-09-26 03:15:05.996924+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Books of the New Testament",
-      "correct_answers": [
-        "Matthew",
-        "Mark",
-        "Luke",
-        "John",
-        "Acts",
-        "Romans",
-        "1 Corinthians",
-        "2 Corinthians",
-        "Galatians",
-        "Ephesians",
-        "Philippians",
-        "Colossians",
-        "1 Thessalonians",
-        "2 Thessalonians",
-        "1 Timothy",
-        "2 Timothy",
-        "Titus",
-        "Philemon",
-        "Hebrews",
-        "James",
-        "1 Peter",
-        "2 Peter",
-        "1 John",
-        "2 John",
-        "3 John",
-        "Jude",
-        "Revelation"
-      ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 34092,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:14:39.653612+00:00"
-    },
-    {
-      "round_id": 4864,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 03:14:05.558884+00:00",
-      "round_ended_at": "2026-09-26 03:15:05.996924+00:00",
-      "winner_id": null,
-      "category": "General Knowledge",
-      "question_text": "Books of the New Testament",
-      "correct_answers": [
-        "Matthew",
-        "Mark",
-        "Luke",
-        "John",
-        "Acts",
-        "Romans",
-        "1 Corinthians",
-        "2 Corinthians",
-        "Galatians",
-        "Ephesians",
-        "Philippians",
-        "Colossians",
-        "1 Thessalonians",
-        "2 Thessalonians",
-        "1 Timothy",
-        "2 Timothy",
-        "Titus",
-        "Philemon",
-        "Hebrews",
-        "James",
-        "1 Peter",
-        "2 Peter",
-        "1 John",
-        "2 John",
-        "3 John",
-        "Jude",
-        "Revelation"
-      ],
-      "answerer_id": 433990857063137282,
-      "response_time_ms": 35187,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 03:14:40.748642+00:00"
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 33212,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:14:38.773567+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 34092,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:14:39.653612+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 35187,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 03:14:40.748642+00:00"
+        }
+      ]
     }
   ]
 }
