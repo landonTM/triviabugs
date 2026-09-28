@@ -24,9 +24,7 @@
       "category": "Logos",
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/LvN3eec.png",
-      "correct_answers": [
-        "mzfm9uGM"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Lord of the Rings",
       "question_text": "Which Vala was the tutor of Gandalf?",
       "image_url": null,
-      "correct_answers": [
-        "gTH69/uM"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,8 @@
       "category": "Whos That Pokemon (Gen 3)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/hhoxvpQ.png",
-      "correct_answers": [
-        "gjn07P2Ek+s="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
