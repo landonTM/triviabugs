@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Season · Bertha</title>
+<!-- site-meta -->
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#7cff6b">
+<meta name="description" content="The current season: standings, duel ratings, the season pass and spotlight categories.">
+<meta property="og:site_name" content="Bertha">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Season · Bertha">
+<meta property="og:description" content="The current season: standings, duel ratings, the season pass and spotlight categories.">
+<meta property="og:url" content="https://landontm.github.io/triviabugs/season.html">
+<meta property="og:image" content="https://landontm.github.io/triviabugs/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-meta -->
+<link rel="stylesheet" href="assets/arcade.css">
+<script src="assets/bertha.js"></script>
+<style>
+  .banner { border: 4px solid var(--yellow); background: var(--panel-2); padding: 24px 28px; margin-top: 24px; display: grid; grid-template-columns: 1fr auto; gap: 16px 28px; align-items: center; }
+  .banner h1 { margin: 0; font: clamp(22px, 4.5vw, 38px)/1.3 var(--pixel); color: var(--yellow); font-weight: 400; }
+  .banner .type { font-size: 26px; }
+  .banner .dates { color: var(--muted); }
+  .banner .clock { text-align: right; font: 10px/1.8 var(--pixel); color: var(--muted); }
+  .banner .clock b { display: block; font: clamp(16px, 3vw, 26px)/1.3 var(--pixel); color: var(--neon); font-weight: 400; }
+  .chips { display: flex; flex-wrap: wrap; gap: 10px; }
+  .chip-big { font: 11px/1 var(--pixel); padding: 10px 12px; border: 3px solid var(--yellow); color: var(--yellow); }
+  .tiers { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
+  .tier { border: 3px solid var(--line-dim); background: var(--panel); padding: 12px 14px; display: flex; flex-direction: column; gap: 6px; }
+  .tier .n { font: 11px/1.4 var(--pixel); color: var(--purple); }
+  .tier .x { color: var(--muted); }
+  .tier .r { font-size: 22px; line-height: 1.1; }
+  .tier.none .r { color: var(--muted); }
+  .bar { height: 14px; border: 2px solid var(--line-dim); background: var(--bg); min-width: 120px; }
+  .bar span { display: block; height: 100%; background: var(--yellow); }
+  .prize { color: var(--neon); }
+  .team { border: 3px solid var(--line-dim); background: var(--panel); padding: 14px 16px; }
+  .team + .team { margin-top: 10px; }
+  .team .tn { font-size: 30px; }
+  @media (max-width: 620px) { .banner { grid-template-columns: 1fr; } .banner .clock { text-align: left; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="btns" id="picker" style="margin-top:32px" role="group" aria-label="Season"></div>
+  <main id="app"><div class="loading">LOADING SEASON…</div></main>
+</div>
+
+<script>
+(async () => {
+  const { el } = B;
+  B.topbar("season.html");
+  const app = B.$("#app");
+  let data;
+  try {
+    await B.loadPlayers();
+    data = await B.json("season.json");
+  } catch (e) { B.fail(app, e); return; }
+  const list = data.seasons || [];
+  if (!list.length) { app.replaceChildren(el("div", { class: "loading" }, "NO SEASONS YET")); return; }
+
+  const pick = location.hash.slice(1);
+  let current = list.find(s => s.key === pick) || list.find(s => s.status === "active") || list.find(s => s.status === "upcoming") || list[list.length - 1];
+  const PLACE = ["1ST", "2ND", "3RD"];
+  let timer = null;
+
+  function table(head, rows) {
+    return el("div", { class: "table-scroll" }, el("table", { class: "scores" },
+      el("thead", {}, el("tr", {}, head.map(([h, num]) => el("th", { class: num ? "num" : "" }, h)))), el("tbody", {}, rows)));
+  }
+  const who = id => el("div", { class: "who" }, B.avatar(id), B.playerLink(id));
+
+  function draw() {
+    history.replaceState(null, "", `#${current.key}`);
+    B.$("#picker").replaceChildren(...list.map(s => el("button", { class: "btn", type: "button", "aria-pressed": String(s === current),
+      onclick: () => { current = s; draw(); } }, `${s.emoji} ${s.name.toUpperCase()}`)));
+    const s = current, out = [];
+    document.title = `${s.name} · Bertha`;
+
+    // ---------- banner + countdown ----------
+    const clock = el("b");
+    const target = B.ts(s.status === "upcoming" ? s.starts_at : s.ends_at);
+    clearInterval(timer);
+    const tick = () => { clock.textContent = s.status === "ended" ? "FINAL" : B.clock((target - Date.now()) / 1000); };
+    tick(); if (s.status !== "ended") timer = setInterval(tick, 1000);
+    out.push(el("section", { class: "banner" },
+      el("div", { style: { display: "flex", flexDirection: "column", gap: "10px", minWidth: 0 } },
+        el("h1", {}, `${s.emoji} ${s.name.toUpperCase()}`),
+        el("span", { class: "type" }, s.type_label ? el("span", {}, el("b", { style: { color: "var(--neon)", fontWeight: 400 } }, s.type_label.toUpperCase()), ` · ${s.type_blurb}`)
+          : "Type drawn at random at 9:00 AM ET on day one"),
+        el("span", { class: "dates" }, `${B.day(s.starts_at)} → ${B.day(s.ends_at)} · 10:00 AM ET`)),
+      el("div", { class: "clock" }, s.status === "upcoming" ? "STARTS IN" : s.status === "active" ? "ENDS IN" : "SEASON OVER", clock)));
+
+    // ---------- prizes ----------
+    out.push(el("h2", { class: "section" }, "PRIZES"));
+    out.push(el("div", { class: "tiles" },
+      el("div", { class: "tile", style: { "--c": "var(--yellow)" } }, el("span", { class: "label" }, "MOST POINTS"),
+        s.prize_xp.map((xp, i) => el("span", { class: "sub", style: { color: "var(--text)" } }, `${PLACE[i]} · +${B.fmt(xp)} XP`)),
+        el("span", { class: "sub" }, s.type && s.type !== "solos" ? "Team points = members' points added together" : "Trivia points earned during the season")),
+      el("div", { class: "tile", style: { "--c": "var(--purple)" } }, el("span", { class: "label" }, "DUEL RATING"),
+        s.duel_prize_xp.map((xp, i) => el("span", { class: "sub", style: { color: "var(--text)" } }, `${PLACE[i]} · +${B.fmt(xp)} XP`)),
+        el("span", { class: "sub" }, `Top season ELO · ${s.elo_min_matches}+ duels to qualify`)),
+      el("div", { class: "tile", style: { "--c": "var(--cyan)" } }, el("span", { class: "label" }, "SEASON PASS"),
+        el("span", { class: "value" }, `${s.levels} TIERS`), el("span", { class: "sub" }, `${B.fmt(s.total_xp)} ${s.emoji} XP to finish`))));
+
+    // ---------- spotlights ----------
+    out.push(el("h2", { class: "section" }, `SPOTLIGHTS · ${s.spotlight_multiplier}× POINTS`));
+    out.push(s.spotlights && s.spotlights.length
+      ? el("div", { class: "chips" }, s.spotlights.map(c => el("a", { class: "chip-big", href: `leaderboard.html#${encodeURIComponent("cat:" + c)}|weekly` }, `★ ${c.toUpperCase()}`)))
+      : el("p", { class: "page-sub" }, s.status === "upcoming" ? "Drawn when the season starts." : "No spotlight categories this season."));
+
+    // ---------- final results ----------
+    if (s.status === "ended" && (s.winners || []).length) {
+      out.push(el("h2", { class: "section" }, "FINAL RESULTS"));
+      out.push(table([["PLACE"], ["NAME"], ["POINTS", 1], ["PRIZE", 1]], s.winners.map(w => el("tr", {},
+        el("td", { class: "rank" }, PLACE[w.placement - 1] || `#${w.placement}`), el("td", {}, who(w.user_id)),
+        el("td", { class: "num" }, B.fmt(w.points)), el("td", { class: "num prize" }, `+${B.fmt(w.xp)} XP`)))));
+    }
+
+    // ---------- standings ----------
+    if (s.status !== "upcoming") {
+      if (s.teams && s.teams.length) {
+        out.push(el("h2", { class: "section" }, "TEAM STANDINGS"));
+        out.push(el("div", {}, s.teams.map((t, i) => el("div", { class: "team", style: { borderColor: i < 3 ? B.rankColor(i) : "" } },
+          el("div", { style: { display: "flex", justifyContent: "space-between", gap: "12px", flexWrap: "wrap" } },
+            el("span", { class: "tn" }, `${B.ordinal(i + 1)} · ${t.emoji || ""} ${t.name}`),
+            el("span", { class: "rank" }, `${B.fmt(t.points)} PTS`)),
+          el("div", { class: "found", style: { marginTop: "8px" } }, t.members.map(m => el("span", {}, B.playerLink(m.user_id), ` ${B.fmt(m.points)}`)))))));
+      } else {
+        out.push(el("h2", { class: "section" }, "STANDINGS"));
+        const st = s.standings || [];
+        out.push(st.length ? table([["RANK"], ["POINTS", 1], ["NAME"], ["CORRECT", 1], ["PRIZE", 1]], st.map((r, i) =>
+          el("tr", { class: "row", style: { color: i < 5 ? B.rankColor(i) : "var(--text)" }, onclick: () => (location.href = B.playerHref(r.user_id)) },
+            el("td", { class: "rank" }, B.ordinal(i + 1)), el("td", { class: "big num" }, B.fmt(r.points)), el("td", {}, who(r.user_id)),
+            el("td", { class: "num dim" }, B.fmt(r.correct)),
+            el("td", { class: "num prize" }, s.prize_xp[i] && s.status === "active" ? `+${B.fmt(s.prize_xp[i])} XP` : "")))) :
+          el("p", { class: "page-sub" }, "Nobody has scored yet. Be first!"));
+      }
+
+      // ---------- duel rating ----------
+      const elo = s.elo || { ranked: [], unranked: [] };
+      out.push(el("h2", { class: "section" }, "🔱 DUEL RATING"));
+      if (elo.ranked.length) {
+        out.push(table([["RANK"], ["RATING", 1], ["NAME"], ["W–L", 1], ["PEAK", 1], ["STREAK", 1]], elo.ranked.map((r, i) =>
+          el("tr", { class: "row", style: { color: i < 5 ? B.rankColor(i) : "var(--text)" }, onclick: () => (location.href = B.playerHref(r.user_id)) },
+            el("td", { class: "rank" }, B.ordinal(i + 1)), el("td", { class: "big num" }, B.fmt(r.rating)), el("td", {}, who(r.user_id)),
+            el("td", { class: "num dim" }, `${r.wins}–${r.losses}`), el("td", { class: "num dim" }, B.fmt(r.peak)), el("td", { class: "num dim" }, String(r.streak))))));
+      } else out.push(el("p", { class: "page-sub" }, `Nobody is ranked yet. ${s.elo_min_matches} duels this season gets you on the board.`));
+      if (elo.unranked.length) out.push(el("p", { class: "page-sub" }, "Not ranked yet: ",
+        elo.unranked.map((r, i) => el("span", {}, i ? ", " : "", B.playerLink(r.user_id), ` (${r.wins + r.losses}/${s.elo_min_matches})`))));
+    }
+
+    // ---------- the pass ----------
+    const pass = s.pass || [];
+    out.push(el("h2", { class: "section" }, "SEASON PASS"));
+    if (s.status !== "upcoming") {
+      out.push(pass.length ? table([["NAME"], ["TIER", 1], ["PROGRESS"], [`${s.emoji} XP`, 1]], pass.map(p =>
+        el("tr", {}, el("td", {}, who(p.user_id)),
+          el("td", { class: "num big" }, `${p.level}/${s.levels}`),
+          el("td", {}, el("div", { class: "bar" }, el("span", { style: { width: `${p.completed ? 100 : p.xp_for_level ? (100 * p.xp_into_level) / p.xp_for_level : 0}%` } }))),
+          el("td", { class: "num dim" }, B.fmt(p.xp))))) : el("p", { class: "page-sub" }, "No pass progress yet."));
+    }
+    out.push(el("div", { class: "btn-row-label" }, "EVERY TIER"));
+    out.push(el("div", { class: "tiers" }, s.tiers.map(t => el("div", { class: `tier${t.rewards.length ? "" : " none"}` },
+      el("span", { class: "n" }, `TIER ${t.level}`),
+      el("span", { class: "x" }, `${B.fmt(t.xp)} ${s.emoji} XP`),
+      el("span", { class: "r" }, t.rewards.length ? t.rewards.join(" + ") : "Rewards to be announced")))));
+
+    app.replaceChildren(...out);
+  }
+  draw();
+  B.footer("SEASON XP IGNORES DOUBLE XP AND BOOSTS");
+})();
+</script>
+</body>
+</html>

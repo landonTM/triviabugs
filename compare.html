@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compare · Bertha</title>
+<!-- site-meta -->
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#7cff6b">
+<meta name="description" content="Up to four players, every stat side by side.">
+<meta property="og:site_name" content="Bertha">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Compare · Bertha">
+<meta property="og:description" content="Up to four players, every stat side by side.">
+<meta property="og:url" content="https://landontm.github.io/triviabugs/compare.html">
+<meta property="og:image" content="https://landontm.github.io/triviabugs/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-meta -->
+<link rel="stylesheet" href="assets/arcade.css">
+<script src="assets/bertha.js"></script>
+<style>
+  .slots { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); margin: 20px 0 8px; }
+  .slot { border: 4px solid var(--c); background: var(--panel-2); padding: 16px; display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center; min-width: 0; }
+  .slot .nm { font-size: 30px; line-height: 1; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .slot .led { font: 10px/1.6 var(--pixel); color: var(--c); }
+  .slot .led b { display: block; font: 26px/1.2 var(--pixel); font-weight: 400; }
+  .slot select { width: 100%; }
+  .slot.add { border-style: dashed; border-color: var(--line-dim); justify-content: center; min-height: 200px; }
+  table.cmp { border-collapse: collapse; width: 100%; }
+  table.cmp th, table.cmp td { padding: 9px 12px; border-bottom: 2px solid var(--line-dim); text-align: right; white-space: nowrap; }
+  table.cmp th { font: 9px/1.6 var(--pixel); font-weight: 400; color: var(--muted); }
+  table.cmp td:first-child, table.cmp th:first-child { text-align: left; position: sticky; left: 0; background: var(--bg); font: 9px/1.6 var(--pixel); color: var(--muted); white-space: normal; min-width: 150px; }
+  table.cmp td.lead { color: var(--yellow); }
+  table.cmp td.lead::before { content: "★ "; }
+  table.cmp td.dim { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 class="page-title">COMPARE</h1>
+  <p class="page-sub">Up to four players, every stat side by side. ★ marks who leads each one.</p>
+  <div class="slots" id="slots"></div>
+  <div id="periods" style="margin-top:18px"></div>
+  <main id="app"><div class="loading">LOADING…</div></main>
+</div>
+
+<script>
+(async () => {
+  const { el } = B;
+  B.topbar("stats.html");
+  const app = B.$("#app");
+  const COLORS = ["var(--cyan)", "var(--pink)", "var(--yellow)", "var(--neon)"];
+  let lb;
+  try {
+    await B.loadPlayers();
+    lb = await B.json("stats/leaderboard.json");
+  } catch (e) { B.fail(app, e); return; }
+  const byId = Object.fromEntries(lb.players.map(p => [p.user_id, p]));
+  const everyone = [...lb.players].sort((a, b) => b.total_xp - a.total_xp);
+
+  const fromUrl = (B.param("ids") || "").split(",").filter(id => byId[id]);
+  let ids = [...new Set(fromUrl)].slice(0, 4);
+  for (const p of everyone) { if (ids.length >= 2) break; if (!ids.includes(p.user_id)) ids.push(p.user_id); }
+  let period = B.PERIODS.some(([k]) => k === location.hash.slice(1)) ? location.hash.slice(1) : "alltime";
+  const bundles = {};
+  const bundle = id => (bundles[id] = bundles[id] || B.json(`stats/users/${encodeURIComponent(id)}.json`).catch(() => ({})));
+
+  function url() { history.replaceState(null, "", `?ids=${ids.join(",")}#${period}`); }
+
+  // winner(s) of one metric among the chosen players
+  function leaders(m) {
+    const pd = m.period ? period : "alltime";
+    const vals = ids.map(id => {
+      const p = byId[id];
+      const ok = !m.qualify || m.qualify(p, pd);
+      const v = m.get(p, pd);
+      return ok && v ? v : null;
+    });
+    const real = vals.filter(v => v != null);
+    if (real.length < 1) return { vals, best: null };
+    const best = m.asc ? Math.min(...real) : Math.max(...real);
+    return { vals, best: real.filter(v => v === best).length === ids.length && ids.length > 1 ? null : best };
+  }
+
+  async function draw() {
+    url();
+    const metrics = B.METRICS;
+    const led = Object.fromEntries(ids.map(id => [id, 0]));
+    const results = metrics.map(m => {
+      const r = leaders(m);
+      if (r.best != null) ids.forEach((id, i) => { if (r.vals[i] === r.best) led[id]++; });
+      return [m, r];
+    });
+
+    // slot cards
+    const slots = ids.map((id, i) => {
+      const sel = el("select", { class: "btn", "aria-label": `Player ${i + 1}`, onchange: e => { ids[i] = e.target.value; draw(); } },
+        everyone.map(p => el("option", { value: p.user_id, selected: p.user_id === id, disabled: ids.includes(p.user_id) && p.user_id !== id }, B.name(p.user_id))));
+      return el("div", { class: "slot", style: { "--c": COLORS[i] } },
+        B.avatar(id, "lg"),
+        el("span", { class: "nm" }, B.playerLink(id)),
+        el("span", { class: "dim" }, `LV ${byId[id].level.level} · ${B.fmt(byId[id].total_xp)} XP`),
+        el("span", { class: "led" }, el("b", {}, String(led[id])), "STATS LED"),
+        sel,
+        ids.length > 2 ? el("button", { class: "btn", type: "button", onclick: () => { ids.splice(i, 1); draw(); } }, "REMOVE") : null);
+    });
+    if (ids.length < 4) {
+      slots.push(el("div", { class: "slot add" }, el("button", { class: "btn", type: "button", onclick: () => {
+        const next = everyone.find(p => !ids.includes(p.user_id));
+        if (next) { ids.push(next.user_id); draw(); }
+      } }, "+ ADD PLAYER")));
+    }
+    B.$("#slots").replaceChildren(...slots);
+    B.$("#periods").replaceChildren(B.periodButtons(period, k => { period = k; draw(); }));
+
+    // one table per stat group
+    const out = [];
+    const head = el("tr", {}, el("th", {}, ""), ids.map((id, i) => el("th", { style: { color: COLORS[i] } }, B.name(id))));
+    for (const [g, label] of B.GROUPS.filter(([g]) => g !== "categories")) {
+      const rows = results.filter(([m]) => m.group === g).map(([m, r]) => el("tr", {},
+        el("td", {}, m.label, m.period ? "" : el("span", { style: { color: "var(--line-dim)" } }, " · ALL-TIME")),
+        ids.map((id, i) => {
+          const v = r.vals[i];
+          return el("td", { class: v == null ? "dim" : v === r.best ? "lead" : "" }, v == null ? "—" : m.show(v));
+        })));
+      out.push(el("h2", { class: "section" }, label));
+      out.push(el("div", { class: "table-scroll" }, el("table", { class: "cmp" }, el("thead", {}, head.cloneNode(true)), el("tbody", {}, rows))));
+    }
+
+    // categories any of them has answered in this period
+    const cats = new Map();
+    for (const id of ids) for (const [c, [n]] of Object.entries(((byId[id].categories || {})[period]) || {})) cats.set(c, (cats.get(c) || 0) + n);
+    const catList = [...cats.entries()].sort((a, b) => b[1] - a[1]).map(([c]) => c);
+    if (catList.length) {
+      const catRow = c => {
+        const vals = ids.map(id => ((((byId[id].categories || {})[period]) || {})[c] || [0])[0]);
+        const best = Math.max(...vals);
+        const tie = vals.every(v => v === best);
+        return el("tr", {}, el("td", {}, c.toUpperCase()), vals.map(v => el("td", { class: !v ? "dim" : v === best && !tie ? "lead" : "" }, v ? B.fmt(v) : "—")));
+      };
+      const body = el("tbody", {}, catList.slice(0, 15).map(catRow));
+      out.push(el("h2", { class: "section" }, `CATEGORIES · CORRECT ANSWERS`));
+      out.push(el("div", { class: "table-scroll" }, el("table", { class: "cmp" }, el("thead", {}, head.cloneNode(true)), body)));
+      if (catList.length > 15) {
+        const more = el("button", { class: "btn", type: "button", style: { marginTop: "12px" } }, `SHOW ALL ${catList.length}`);
+        more.addEventListener("click", () => { body.append(...catList.slice(15).map(catRow)); more.remove(); });
+        out.push(more);
+      }
+    }
+
+    // duels between the chosen players
+    const bs = await Promise.all(ids.map(bundle));
+    const pairs = [];
+    ids.forEach((a, i) => ids.forEach((b, j) => {
+      if (j <= i) return;
+      const r = ((bs[i] || {}).rivals || []).find(x => x.user_id === b);
+      if (r) pairs.push([a, b, r]);
+    }));
+    out.push(el("h2", { class: "section" }, "HEAD TO HEAD"));
+    out.push(pairs.length ? el("div", { class: "mlist" }, pairs.map(([a, b, r]) => el("div", { class: "mrow", style: { "--c": "var(--purple)" } },
+      el("span", { class: "kind" }, `${r.played} DUEL${r.played === 1 ? "" : "S"}`),
+      el("span", { class: "what" }, B.playerLink(a), ` ${r.wins}–${r.losses}${r.ties ? `–${r.ties}` : ""} `, B.playerLink(b)),
+      el("span", { class: "when" }, r.wins > r.losses ? `${B.name(a)} leads` : r.wins < r.losses ? `${B.name(b)} leads` : "dead even"))))
+      : el("p", { class: "page-sub" }, "None of these players have dueled each other yet."));
+
+    app.replaceChildren(...out);
+  }
+  draw();
+  B.footer();
+})();
+</script>
+</body>
+</html>

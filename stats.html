@@ -4,6 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stats · Bertha</title>
+<!-- site-meta -->
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#7cff6b">
+<meta name="description" content="Everything Bertha knows about every player.">
+<meta property="og:site_name" content="Bertha">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Stats · Bertha">
+<meta property="og:description" content="Everything Bertha knows about every player.">
+<meta property="og:url" content="https://landontm.github.io/triviabugs/stats.html">
+<meta property="og:image" content="https://landontm.github.io/triviabugs/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-meta -->
 <link rel="stylesheet" href="assets/arcade.css">
 <script src="assets/bertha.js"></script>
 <style>
@@ -12,6 +27,12 @@
   .hero h1 { margin: 0; font-size: clamp(40px, 7vw, 64px); line-height: 1; font-weight: 400; overflow-wrap: anywhere; }
   .hero .lv { font: clamp(14px, 2.4vw, 20px)/1.4 var(--pixel); color: var(--neon); }
   .hero .meta { color: var(--muted); }
+  .loadout { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  .swatch { display: inline-block; width: 28px; height: 28px; border: 3px solid var(--line); vertical-align: middle; margin-right: 10px; }
+  .card-mvp { grid-column: 1 / -1; display: grid; grid-template-columns: 260px 1fr; gap: 18px; align-items: center; }
+  .card-mvp img { width: 100%; border: 3px solid var(--line-dim); }
+  .card-mvp .q { font-size: 28px; line-height: 1.15; white-space: pre-line; }
+  @media (max-width: 620px) { .card-mvp { grid-template-columns: 1fr; } }
   .picker { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
   .pcard { display: flex; align-items: center; gap: 14px; border: 3px solid var(--line-dim); background: var(--panel); padding: 14px; color: var(--text); min-width: 0; }
   .pcard:hover { border-color: var(--line); text-decoration: none; color: var(--text); }
@@ -53,6 +74,7 @@
     app.replaceChildren(
       el("h1", { class: "page-title" }, "STATS"),
       el("p", { class: "page-sub" }, "Pick a player to see every number Bertha keeps on them."),
+      el("p", {}, el("a", { class: "btn", href: "compare.html" }, "⚔ COMPARE PLAYERS")),
       el("div", { class: "picker" }, people.map(p => el("a", { class: "pcard", href: B.playerHref(p.user_id) },
         B.avatar(p.user_id, "lg"),
         el("span", { style: { display: "flex", flexDirection: "column", gap: "6px", minWidth: 0 } },
@@ -81,6 +103,11 @@
   const switcher = el("select", { class: "btn", "aria-label": "Switch player", onchange: e => (location.href = B.playerHref(e.target.value)) },
     [...lb.players].sort((a, b) => B.name(a.user_id).localeCompare(B.name(b.user_id)))
       .map(p => el("option", { value: p.user_id, selected: p.user_id === id }, B.name(p.user_id))));
+  // their equipped cosmetics: embed colour tints the page, MVP card in the header, the rest in LOADOUT
+  const eq = u.equipped || {};
+  const mvp = eq.mvp && eq.mvp.quote ? eq.mvp : null;
+  if (eq.embedcolor && eq.embedcolor.hex) document.documentElement.style.setProperty("--neon", eq.embedcolor.hex);
+  const fill = t => String(t || "").replaceAll("{user}", B.name(id)).replaceAll("{loser}", "the runner-up");
   const hero = el("section", { class: "hero" },
     B.avatar(id, "xl"),
     el("div", { class: "info" },
@@ -92,11 +119,29 @@
       el("div", { class: "meta" }, lvl.maxed ? "MAX LEVEL" : `${B.fmt(lvl.xp_into_level)} / ${B.fmt(lvl.xp_for_level)} XP to LV ${lvl.level + 1} · ${B.fmt(me.total_xp)} XP total`),
       u.activity && u.activity.first_answered_at
         ? el("div", { class: "meta" }, `Playing since ${B.day(u.activity.first_answered_at)}${me.current.last_played ? ` · last played ${me.current.last_played}` : ""}`) : null,
-      el("div", {}, switcher)));
+      el("div", { class: "btns" }, switcher, el("a", { class: "btn", href: `compare.html?ids=${encodeURIComponent(id)}` }, "⚔ COMPARE"))));
 
   const body = el("div");
   const periodBar = el("div", { class: "sticky" });
-  app.replaceChildren(hero, periodBar, body);
+  const loadout = [];
+  if (eq.footer) loadout.push(el("div", { class: "tile", style: { "--c": "var(--neon)" } }, el("span", { class: "label" }, "FOOTER"),
+    el("span", { class: "sub", style: { color: "var(--text)", fontSize: "24px" } }, eq.footer.template ? fill(eq.footer.template) : "Powered By Bertha! 🎲"),
+    el("span", { class: "sub" }, eq.footer.label)));
+  if (eq.emoji) loadout.push(el("div", { class: "tile", style: { "--c": "var(--neon)" } }, el("span", { class: "label" }, "EMOJI PACK"),
+    el("span", { class: "value", style: { whiteSpace: "normal" } }, `${eq.emoji.correct || ""} ${eq.emoji.streak || ""} ${eq.emoji.speed || ""}`),
+    el("span", { class: "sub" }, `${eq.emoji.label} · correct, streak, speed record`)));
+  if (eq.theme) loadout.push(el("div", { class: "tile", style: { "--c": "var(--neon)" } }, el("span", { class: "label" }, "RESPONSE THEME"),
+    el("span", { class: "value", style: { fontSize: "28px", whiteSpace: "normal" } }, eq.theme.label.replace(/ Response Theme$/, "")), el("span", { class: "sub" }, eq.theme.label)));
+  if (eq.embedcolor) loadout.push(el("div", { class: "tile", style: { "--c": "var(--neon)" } }, el("span", { class: "label" }, "EMBED COLOR"),
+    el("span", { class: "value", style: { fontSize: "28px" } }, eq.embedcolor.hex ? el("span", { class: "swatch", style: { background: eq.embedcolor.hex } }) : null,
+      eq.embedcolor.hex || "DEFAULT"), el("span", { class: "sub" }, eq.embedcolor.label)));
+  if (mvp) loadout.push(el("div", { class: "tile card-mvp", style: { "--c": "var(--neon)" } },
+    mvp.gif ? el("img", { src: mvp.gif, alt: `${mvp.label} GIF`, loading: "lazy" }) : el("span"),
+    el("div", { style: { display: "flex", flexDirection: "column", gap: "8px" } },
+      el("span", { class: "label" }, "MVP CARD · SHOWN WHEN THEY WIN"), el("span", { class: "q" }, fill(mvp.quote)), el("span", { class: "sub" }, mvp.label))));
+  const loadoutBox = loadout.length ? [el("h2", { class: "section" }, "LOADOUT"), el("div", { class: "loadout" }, loadout)] : [];
+
+  app.replaceChildren(hero, ...loadoutBox, periodBar, body);
 
   function tile(m, pd, color) {
     const v = m.get(me, m.period ? pd : "alltime");

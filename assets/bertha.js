@@ -10,7 +10,7 @@ const B = (() => {
   const MODE_LABELS = { standard: "TRIVIA", quickfire: "QUICKFIRE", hardcore: "HARDCORE", daily: "DAILY TRIVIA" };
   const MODE_COLORS = { standard: "#5ef2ff", quickfire: "#7cff6b", hardcore: "#ff4fa3", daily: "#ffd23f", duel: "#c79bff" };
   const NAV = [
-    ["index.html", "HOME"], ["leaderboard.html", "LEADERBOARD"], ["stats.html", "STATS"],
+    ["index.html", "HOME"], ["leaderboard.html", "LEADERBOARD"], ["stats.html", "STATS"], ["season.html", "SEASON"],
     ["replays.html", "REPLAYS"], ["kirkening.html", "KIRKENING"], ["bugs.html", "BUGS"],
   ];
   const PERIODS = [["daily", "TODAY"], ["weekly", "WEEK"], ["monthly", "MONTH"], ["yearly", "YEAR"], ["alltime", "ALL-TIME"]];
