@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "What is the term for a boxing win decided by the judges' scorecards without a knockout?",
       "image_url": null,
-      "correct_answers": [
-        "iz388OaEiOQ="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Sports",
       "question_text": "_________ Bulls (NBA)",
       "image_url": null,
-      "correct_answers": [
-        "jDD2+vSKiA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -69,9 +65,7 @@
       "category": "Sports",
       "question_text": "_________ Jets (NFL)",
       "image_url": null,
-      "correct_answers": [
-        "gT3oucyCleE="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -91,9 +85,7 @@
       "category": "Sports",
       "question_text": "What is the term for two consecutive faults on a serve, resulting in a lost point?",
       "image_url": null,
-      "correct_answers": [
-        "izfq+/mIx+wZ3iry"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -113,9 +105,7 @@
       "category": "Sports",
       "question_text": "What year was the first Super Bowl played?",
       "image_url": null,
-      "correct_answers": [
-        "/mGprg=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -127,9 +117,7 @@
       "category": "Sports",
       "question_text": "What color is the playing area of the courts at the US Open?",
       "image_url": null,
-      "correct_answers": [
-        "jTTq/A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -149,9 +137,7 @@
       "category": "Sports",
       "question_text": "Who has the most wins as a head coach in the NFL?",
       "image_url": null,
-      "correct_answers": [
-        "izfxucaFkuYZ"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -163,9 +149,7 @@
       "category": "Sports",
       "question_text": "What sport uses a broom?",
       "image_url": null,
-      "correct_answers": [
-        "jC3t9fyDgA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -185,9 +169,7 @@
       "category": "Sports",
       "question_text": "Who holds the record for most NASCAR wins?",
       "image_url": null,
-      "correct_answers": [
-        "nTH88fSfg6oozjLyyQ=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -199,48 +181,7 @@
       "category": "Star Wars",
       "question_text": "Star Wars: Characters",
       "image_url": null,
-      "correct_answers": [
-        "gy30/LW+jPMPyirt1bk=",
-        "gz32+LWile0ZxSc=",
-        "hznxucaCi+U=",
-        "jDD67veMhOkZ",
-        "gDr2tMKMiaozzijp0qI=",
-        "ljf7+A==",
-        "iznt7f3NsesczjQ=",
-        "ijXv/OeClaooyir20b/lGE4=",
-        "jHWsydo=",
-        "nWqy3ac=",
-        "gznx/frNpOsU2S/1w6LtGA==",
-        "jTf9+LWrgv4M",
-        "hTn9+/TNk+Idiw7zxL8=",
-        "iznt7f3NqusNxw==",
-        "ni32tNKCiaoywijo",
-        "nzn79PDNpucRzyfq0Q==",
-        "jjb+8vyDx9kT0jHn3KDpBA==",
-        "gjn8/LW6juQc3g==",
-        "jDfq9+HNo+UXwDM=",
-        "iD3x/OeMi6o/2S/jxqT5BQ==",
-        "nT3m",
-        "iTHx9w==",
-        "nzf6udGMiu8KxCg=",
-        "hCHz9rW/guQ=",
-        "nDbw8vA=",
-        "jRqyoQ==",
-        "izHxudGHhvgRxQ==",
-        "iCrw/uA=",
-        "jjDs9v6Mx94ZxSk=",
-        "jTn29bWile0ZxSc=",
-        "gjfxudiCk+IVyg==",
-        "jjzy8OeMi6o5yC3k0bk=",
-        "mD37/vDNpuQMwirq1bg=",
-        "hTnx/vrNoe8M3w==",
-        "mDnr7fo=",
-        "hTntud+Mlao6wijtww==",
-        "gTH697WjkuQa",
-        "iCr6/PGC",
-        "jDn7udeMie8=",
-        "iCr+9/HNquUezWbS0bnnH0U="
-      ],
+      "answer_count": 40,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -265,5 +206,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
