@@ -6,7 +6,9 @@
     "challenger_id": "184456115927384065",
     "opponent_id": "433990857063137282",
     "format": 7,
+    "format_label": "Best of 7",
     "winner_id": "433990857063137282",
+    "is_tie": false,
     "challenger_score": 1,
     "opponent_score": 3,
     "decided_by_tiebreaker": false,
@@ -21,20 +23,22 @@
       "answered_at": "2026-09-27 00:31:40.415687+00:00",
       "category": "General Knowledge",
       "question_text": "What is the largest rodent in the world?",
+      "image_url": null,
       "correct_answers": [
-        "Capybara"
+        "jDnv4PeMles="
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 14061,
       "answered_at": "2026-09-27 00:31:40.415687+00:00",
       "category": "General Knowledge",
       "question_text": "English playwright Christopher Marlowe coined the phrase 'The face that launched a thousand ships' in his tragedy Doctor Faustus when referring to which mythical Greek figure?",
+      "image_url": null,
       "correct_answers": [
-        "Helen of Troy"
+        "hz3z/PvNiOxY/zTpyQ=="
       ]
     },
     {
@@ -45,32 +49,35 @@
       "answered_at": "2026-09-27 00:31:40.415687+00:00",
       "category": "General Knowledge",
       "question_text": "James Augustus Hickey founded the first printed ‘what’ in India in 1780?",
+      "image_url": null,
       "correct_answers": [
-        "Newspaper"
+        "gT3o6uWMl+8K"
       ]
     },
     {
       "round_number": 4,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 2586,
       "answered_at": "2026-09-27 00:31:40.415687+00:00",
       "category": "General Knowledge",
       "question_text": "In what state is Area 51 located?",
+      "image_url": null,
       "correct_answers": [
-        "Nevada"
+        "gT3p+PGM"
       ]
     },
     {
       "round_number": 5,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 12753,
       "answered_at": "2026-09-27 00:31:40.415687+00:00",
       "category": "General Knowledge",
-      "question_text": "What part of the body produces insulin?",
+      "question_text": "Which organ is responsible for producing insulin?",
+      "image_url": null,
       "correct_answers": [
-        "Pancreas"
+        "nznx+ueIhvk="
       ]
     },
     {
@@ -81,20 +88,22 @@
       "answered_at": "2026-09-27 00:31:40.415687+00:00",
       "category": "General Knowledge",
       "question_text": "What is the primary ingredient in traditional tofu?",
+      "image_url": null,
       "correct_answers": [
-        "Soybeans"
+        "nDfm+/CMifk="
       ]
     },
     {
       "round_number": 7,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 12581,
       "answered_at": "2026-09-27 00:31:40.415687+00:00",
       "category": "General Knowledge",
       "question_text": "Bob and Mike Bryan were well known brothers in which sport?",
+      "image_url": null,
       "correct_answers": [
-        "Tennis"
+        "mz3x9/ye"
       ]
     }
   ]
