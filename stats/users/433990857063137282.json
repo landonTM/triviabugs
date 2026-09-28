@@ -2,12 +2,12 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 41,
-    "xp_into_level": 43677,
+    "xp_into_level": 46677,
     "xp_for_level": 58000,
-    "progress": 0.7530517241379311,
+    "progress": 0.8047758620689656,
     "maxed": false
   },
-  "total_xp": 896177,
+  "total_xp": 899177,
   "period_stats": {
     "daily_points": 92,
     "daily_correct": 53,
@@ -33,7 +33,7 @@
     "insane_guesses": 780,
     "day_streak": 6,
     "last_played_date": "2026-09-28",
-    "total_xp": 896177,
+    "total_xp": 899177,
     "game_wins": 29,
     "achievement_best_streak": 27
   },
@@ -2235,16 +2235,16 @@
       "sports": 27,
       "videogames": 65,
       "wrestling": 162,
-      "duelwins": 21,
+      "duelwins": 23,
       "duelstreak": 5
     }
   },
   "duel_stats": {
     "guild_id": "861055530638114836",
     "user_id": "433990857063137282",
-    "wins": 21,
+    "wins": 23,
     "losses": 23,
-    "current_streak": 0,
+    "current_streak": 2,
     "best_streak": 5,
     "ties": 1
   },
@@ -2630,8 +2630,8 @@
       "key": "trickortreat",
       "label": "Trick or Treat Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -3494,8 +3494,8 @@
       "key": "scarymovies",
       "label": "Scary Movies MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3609,11 +3609,11 @@
       "template": "With compliments from {user}. 💌"
     },
     "emoji": {
-      "key": "safari",
-      "label": "Safari Emoji Pack",
-      "correct": "🦁",
-      "streak": "🐒",
-      "speed": "🐆"
+      "key": "trickortreat",
+      "label": "Trick or Treat Emoji Pack",
+      "correct": "🍬",
+      "streak": "🧟",
+      "speed": "🕯️"
     },
     "theme": {
       "key": "cowboy",
@@ -3634,8 +3634,8 @@
   "rivals": [
     {
       "user_id": "184456115927384065",
-      "played": 33,
-      "wins": 18,
+      "played": 35,
+      "wins": 20,
       "losses": 15,
       "ties": 0
     },
