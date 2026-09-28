@@ -25,9 +25,7 @@
       "category": "Logos",
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/Yx3fpUD.png",
-      "correct_answers": [
-        "gx8="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -47,9 +45,7 @@
       "category": "Logos",
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/T2ezauw.png",
-      "correct_answers": [
-        "nDD69fk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -69,9 +65,7 @@
       "category": "Logos",
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/UEZ2xiH.png",
-      "correct_answers": [
-        "izHs9/CU"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -91,9 +85,7 @@
       "category": "Logos",
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/qFbb0Oh.png",
-      "correct_answers": [
-        "ljfqzeCPgg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -113,9 +105,7 @@
       "category": "Logos",
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/P83wEuv.png",
-      "correct_answers": [
-        "jDD67+eCiQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -126,5 +116,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
