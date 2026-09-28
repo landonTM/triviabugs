@@ -24,9 +24,7 @@
       "category": "General Knowledge",
       "question_text": "The likeness of which president is featured on the $2 bill of USA currency?",
       "image_url": null,
-      "correct_answers": [
-        "mzDw9PSex8AdzSDjwrjjGA=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Sports",
       "question_text": "This former NFL quarterback, a 2010 Pro Bowler, never started a game at QB in college",
       "image_url": null,
-      "correct_answers": [
-        "gjnr7bWuhvkLzio="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Entertainment",
       "question_text": "Who 'imagined' a better world?",
       "image_url": null,
-      "correct_answers": [
-        "hTf397WhguQWxCg="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Music",
       "question_text": "According to a Beatles song, who kept her face in a jar by the door?",
       "image_url": null,
-      "correct_answers": [
-        "ijT6+PuClaoqwiHkyQ=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "House of the Dragon",
       "question_text": "Where does Alicent secretly travel in the Season 2 finale to meet Rhaenyra?",
       "image_url": null,
-      "correct_answers": [
-        "iyr+/vqDlP4XxSM="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,9 +79,7 @@
       "category": "General Knowledge",
       "question_text": "How many players are there in a Quidditch team?",
       "image_url": null,
-      "correct_answers": [
-        "+A=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 7,
@@ -102,9 +90,7 @@
       "category": "Stranger Things",
       "question_text": "Who is tested in the group's sauna experiment?",
       "image_url": null,
-      "correct_answers": [
-        "jTHz9ezNr+sKzDTpxq4="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 8,
@@ -115,9 +101,7 @@
       "category": "Greek Mythology",
       "question_text": "Which god is associated with the oak tree?",
       "image_url": null,
-      "correct_answers": [
-        "lT3q6g=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 9,
@@ -128,9 +112,7 @@
       "category": "Computers",
       "question_text": "[Acronyms]What does CD-RW stand for?",
       "image_url": null,
-      "correct_answers": [
-        "jDfy6fSOk6o8wjXlnZnpAVnNompFsbs="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 10,
@@ -141,9 +123,8 @@
       "category": "Video Games",
       "question_text": "In which Call of Duty game are the Apothicons introduced in Zombies mode?",
       "image_url": null,
-      "correct_answers": [
-        "jTT++v7NqPoLiw/P+Q=="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
