@@ -6,7 +6,9 @@
     "challenger_id": "184456115927384065",
     "opponent_id": "433990857063137282",
     "format": 10,
+    "format_label": "Best of 10",
     "winner_id": "433990857063137282",
+    "is_tie": false,
     "challenger_score": 3,
     "opponent_score": 3,
     "decided_by_tiebreaker": true,
@@ -16,25 +18,27 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 13588,
       "answered_at": "2026-09-27 03:08:40.988511+00:00",
       "category": "US State Capitals",
       "question_text": "What is the USA state capital of Vermont?",
+      "image_url": null,
       "correct_answers": [
-        "Montpelier"
+        "gjfx7eWIi+Md2Q=="
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 6747,
       "answered_at": "2026-09-27 03:08:40.988511+00:00",
       "category": "Entertainment",
-      "question_text": "Term meaning 'to gradually decrease in volume'?",
+      "question_text": "In musical notation, 'decresc.' abbreviates which instruction to gradually decrease volume?",
+      "image_url": null,
       "correct_answers": [
-        "Decrescendo"
+        "iz386/CehO8Wzyk="
       ]
     },
     {
@@ -45,8 +49,9 @@
       "answered_at": "2026-09-27 03:08:40.988511+00:00",
       "category": "MLB",
       "question_text": "What was Ted Williams' nickname?",
+      "image_url": null,
       "correct_answers": [
-        "The Splendid Splinter"
+        "mzD6ucadi+8Wzy/ikJj8GkLKom5V"
       ]
     },
     {
@@ -57,56 +62,61 @@
       "answered_at": "2026-09-27 03:08:40.988511+00:00",
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/duJRErG.png",
       "correct_answers": [
-        "Saint Kitts and Nevis"
+        "nDn29+HNrOMM3zWm0aXoVmXBoGJU"
       ]
     },
     {
       "round_number": 5,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 2892,
       "answered_at": "2026-09-27 03:08:40.988511+00:00",
       "category": "Wrestling",
       "question_text": "John Cena defended the WWE Championship against Shawn Michaels in this WrestleMania's main event.",
+      "image_url": null,
       "correct_answers": [
-        "23"
+        "/Ws="
       ]
     },
     {
       "round_number": 6,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 15946,
       "answered_at": "2026-09-27 03:08:40.988511+00:00",
       "category": "Art and Literature",
       "question_text": "What other name does Stephen King write under?",
+      "image_url": null,
       "correct_answers": [
-        "Richard Bachman"
+        "nTH88fSfg6o6yiXu3ari"
       ]
     },
     {
       "round_number": 7,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 8813,
       "answered_at": "2026-09-27 03:08:40.988511+00:00",
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/q7TKXaJ.png",
       "correct_answers": [
-        "Monaco"
+        "gjfx+PaC"
       ]
     },
     {
       "round_number": 8,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 13371,
       "answered_at": "2026-09-27 03:08:40.988511+00:00",
       "category": "Music",
       "question_text": "Which Beatles song was a number one for \"Ferry Aid\"?",
+      "image_url": null,
       "correct_answers": [
-        "Let It Be"
+        "gz3rudyZx8gd"
       ]
     },
     {
@@ -117,8 +127,9 @@
       "answered_at": "2026-09-27 03:08:40.988511+00:00",
       "category": "MLB",
       "question_text": "Which pitcher threw the pitch that shattered Sammy Sosa's bat and exposed the cork inside?",
+      "image_url": null,
       "correct_answers": [
-        "Geremi Gonzalez"
+        "iD3t/PiEx80XxTzn3K72"
       ]
     },
     {
@@ -129,42 +140,44 @@
       "answered_at": "2026-09-27 03:08:40.988511+00:00",
       "category": "Video Games",
       "question_text": "What is the name of the secret organization in the Hotline Miami series?",
+      "image_url": null,
       "correct_answers": [
-        "50 Blessings"
+        "+mi/2/mIlPkRxSH1"
       ]
     },
     {
       "round_number": 11,
       "mode": "insane",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 2873,
       "answered_at": "2026-09-27 03:08:40.988511+00:00",
       "category": "General Knowledge",
       "question_text": "Major US and UK supermarket chains",
+      "image_url": null,
       "correct_answers": [
-        "Walmart",
-        "Kroger",
-        "Costco",
-        "Target",
-        "Safeway",
-        "Publix",
-        "Whole Foods",
-        "Trader Joe's",
-        "Aldi",
-        "Albertsons",
-        "Wegmans",
-        "Meijer",
-        "H-E-B",
-        "Sam's Club",
-        "Tesco",
-        "Sainsbury's",
-        "Asda",
-        "Morrisons",
-        "Waitrose",
-        "Lidl",
-        "Iceland",
-        "Co-op",
-        "Marks & Spencer"
+        "mDnz9PSfkw==",
+        "hCrw/vCf",
+        "jDfs7faC",
+        "mznt/vCZ",
+        "nDn5/OKMng==",
+        "ny399fyV",
+        "mDDw9fDNoeUXzzU=",
+        "myr+/fCfx8AXzmH1",
+        "jjT78A==",
+        "jjT9/OeZlOUW2A==",
+        "mD349PSDlA==",
+        "gj328/Cf",
+        "h3XatNc=",
+        "nDnyvubNpOYNyQ==",
+        "mz3s+vo=",
+        "nDn29+aPkvgBjDU=",
+        "jiv7+A==",
+        "gjft6/yeiOQL",
+        "mDn27eeClO8=",
+        "gzH79Q==",
+        "hjv69fSDgw==",
+        "jDey9uU=",
+        "gjnt8ubNwaor2yPo067+"
       ]
     }
   ]
