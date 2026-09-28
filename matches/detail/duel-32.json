@@ -6,7 +6,9 @@
     "challenger_id": "184456115927384065",
     "opponent_id": "433990857063137282",
     "format": 9,
+    "format_label": "Best of 9",
     "winner_id": "184456115927384065",
+    "is_tie": false,
     "challenger_score": 5,
     "opponent_score": 1,
     "decided_by_tiebreaker": false,
@@ -16,13 +18,14 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 4662,
       "answered_at": "2026-09-27 00:27:54.095825+00:00",
       "category": "General Knowledge",
       "question_text": "What Brazilian martial art, combining dance, acrobatics, and music, was developed by enslaved Africans?",
+      "image_url": null,
       "correct_answers": [
-        "Capoeira"
+        "jDnv9vCEles="
       ]
     },
     {
@@ -33,68 +36,74 @@
       "answered_at": "2026-09-27 00:27:54.095825+00:00",
       "category": "Slogans",
       "question_text": "Avoid the Noid.",
+      "image_url": null,
       "correct_answers": [
-        "Domino's Pizza"
+        "izfy8PuCwPlY+y/8yqo="
       ]
     },
     {
       "round_number": 3,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 7649,
       "answered_at": "2026-09-27 00:27:54.095825+00:00",
       "category": "Video Games",
       "question_text": "What cowboy-themed hero, known for his 'It's high noon' ultimate, is a damage character in Overwatch?",
+      "image_url": null,
       "correct_answers": [
-        "Cassidy"
+        "jDns6vyJng=="
       ]
     },
     {
       "round_number": 4,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 4472,
       "answered_at": "2026-09-27 00:27:54.095825+00:00",
       "category": "Art and Literature",
       "question_text": "How many lines are in a sonnet?",
+      "image_url": null,
       "correct_answers": [
-        "14"
+        "/mw="
       ]
     },
     {
       "round_number": 5,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 16087,
       "answered_at": "2026-09-27 00:27:54.095825+00:00",
       "category": "Quotes",
       "question_text": "Who said: \"I am not a crook.\"",
+      "image_url": null,
       "correct_answers": [
-        "Richard Nixon"
+        "nTH88fSfg6o2wj7p3g=="
       ]
     },
     {
       "round_number": 6,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 7629,
       "answered_at": "2026-09-27 00:27:54.095825+00:00",
       "category": "What Links",
       "question_text": "What word links Set, Come, Pack",
+      "image_url": null,
       "correct_answers": [
-        "Back"
+        "jTn88g=="
       ]
     },
     {
       "round_number": 7,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 12539,
       "answered_at": "2026-09-27 00:27:54.095825+00:00",
       "category": "Disney",
       "question_text": "In what other Disney Pixar film did Lotso the bear from Toy Story 3 make a cameo appearance?",
+      "image_url": null,
       "correct_answers": [
-        "Up"
+        "mig="
       ]
     }
   ]
