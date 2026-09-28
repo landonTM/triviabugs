@@ -3601,6 +3601,35 @@
       "source": null
     }
   ],
+  "equipped": {
+    "footer": {
+      "key": "compliments",
+      "label": "Compliments Footer",
+      "template": "With compliments from {user}. 💌"
+    },
+    "emoji": {
+      "key": "safari",
+      "label": "Safari Emoji Pack",
+      "correct": "🦁",
+      "streak": "🐒",
+      "speed": "🐆"
+    },
+    "theme": {
+      "key": "lolcat",
+      "label": "LOLCAT Response Theme"
+    },
+    "embedcolor": {
+      "key": "mint",
+      "label": "Mint Embed",
+      "hex": "#5CE1B0"
+    },
+    "mvp": {
+      "key": "magneto",
+      "label": "Magneto MVP",
+      "quote": "Save as many as you can. We will not live our days wondering if we could have saved more.",
+      "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjY2bnBqMGtrbmdmcHA5d2h0YXVqNmd2Y3BpMTZ3ajg3c2Fma3BxMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w1ou9ihg5KYyzTHy9P/giphy.gif"
+    }
+  },
   "rivals": [
     {
       "user_id": "184456115927384065",
