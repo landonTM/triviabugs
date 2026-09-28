@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "What is the name of the famous 1973 tennis exhibition match in which Billie Jean King defeated Bobby Riggs at the Houston Astrodome?",
       "image_url": null,
-      "correct_answers": [
-        "jTnr7fmIx+UeizLu1evfE1PBpQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Sports",
       "question_text": "Which Grand Slam tournament added a men's doubles championship in 1884, having previously been held at Oxford University?",
       "image_url": null,
-      "correct_answers": [
-        "mDHy+/mIg+UW"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -69,9 +65,7 @@
       "category": "Sports",
       "question_text": "What is the term for a shot hit before the ball bounces, typically played near the net?",
       "image_url": null,
-      "correct_answers": [
-        "mTfz9fCU"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -91,9 +85,7 @@
       "category": "Sports",
       "question_text": "What team won the 2016 MLS Cup?",
       "image_url": null,
-      "correct_answers": [
-        "nD3+7eGBgqorxDPo1K7+BQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -113,10 +105,9 @@
       "category": "Sports",
       "question_text": "Who won the 2016 Formula 1 World Driver's Championship?",
       "image_url": null,
-      "correct_answers": [
-        "gTH89rW/iPkazjTh"
-      ],
+      "answer_count": 1,
       "answers": []
     }
-  ]
+  ],
+  "xp": {}
 }
