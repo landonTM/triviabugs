@@ -1,3 +1,63 @@
 {
-  "week": null
+  "week": {
+    "week_start": "2026-09-28 10:00:00-04:00",
+    "week_end": "2026-10-05 10:00:00-04:00",
+    "missions": [
+      {
+        "slot": 1,
+        "kind": "category",
+        "difficulty": "easy",
+        "target": 5,
+        "category": "Wrestling",
+        "xp_reward": 5000,
+        "pass_xp_reward": 250,
+        "text": "Answer 5 Wrestling questions correctly",
+        "players": []
+      },
+      {
+        "slot": 2,
+        "kind": "daily",
+        "difficulty": "easy",
+        "target": 2,
+        "category": null,
+        "xp_reward": 5000,
+        "pass_xp_reward": 250,
+        "text": "Play in 2 Daily Trivia games",
+        "players": []
+      },
+      {
+        "slot": 3,
+        "kind": "games",
+        "difficulty": "medium",
+        "target": 12,
+        "category": null,
+        "xp_reward": 10000,
+        "pass_xp_reward": 500,
+        "text": "Play 12 games",
+        "players": []
+      },
+      {
+        "slot": 4,
+        "kind": "duel_wins",
+        "difficulty": "medium",
+        "target": 4,
+        "category": null,
+        "xp_reward": 10000,
+        "pass_xp_reward": 500,
+        "text": "Win 4 duels",
+        "players": []
+      },
+      {
+        "slot": 5,
+        "kind": "wins",
+        "difficulty": "hard",
+        "target": 8,
+        "category": null,
+        "xp_reward": 20000,
+        "pass_xp_reward": 1000,
+        "text": "Win 8 games",
+        "players": []
+      }
+    ]
+  }
 }
