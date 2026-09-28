@@ -6,7 +6,9 @@
     "challenger_id": "433990857063137282",
     "opponent_id": "184456115927384065",
     "format": 3,
+    "format_label": "Best of 3",
     "winner_id": "184456115927384065",
+    "is_tie": false,
     "challenger_score": 0,
     "opponent_score": 2,
     "decided_by_tiebreaker": false,
@@ -16,25 +18,27 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 6021,
       "answered_at": "2026-09-26 02:08:46.264852+00:00",
       "category": "Space",
       "question_text": "Ganymede is the largest moon of which planet?",
+      "image_url": null,
       "correct_answers": [
-        "Jupiter"
+        "hS3v8OGIlQ=="
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 17004,
       "answered_at": "2026-09-26 02:08:46.264852+00:00",
       "category": "Art and Literature",
       "question_text": "Which famous book contains the line 'It was the best of times it was the worst of times it was the age of wisdom'?",
+      "image_url": null,
       "correct_answers": [
-        "A Tale of Two Cities"
+        "jnjL+PmIx+UeixLx3+vPH1/Ns3g="
       ]
     }
   ]
