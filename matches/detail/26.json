@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "In what year was the first Wimbledon Championship held?",
       "image_url": null,
-      "correct_answers": [
-        "/mCorg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Sports",
       "question_text": "What NFL player holds the record for most career receiving yards?",
       "image_url": null,
-      "correct_answers": [
-        "hT3t6+zNteMbzg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -69,7 +65,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -89,9 +85,7 @@
       "category": "Sports",
       "question_text": "What is the term for tackling the quarterback behind the line of scrimmage in American football?",
       "image_url": null,
-      "correct_answers": [
-        "nDn88g=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -111,9 +105,7 @@
       "category": "Sports",
       "question_text": "_________ Blue Jays (MLB)",
       "image_url": null,
-      "correct_answers": [
-        "mzft9vuZiA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -133,9 +125,7 @@
       "category": "Sports",
       "question_text": "Which player won a record 10 Australian Open men's singles titles, as of 2023?",
       "image_url": null,
-      "correct_answers": [
-        "gTfp+P7No+AXwCnw2ag="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -155,9 +145,7 @@
       "category": "Sports",
       "question_text": "What Portuguese club did Cristiano Ronaldo begin his professional career at?",
       "image_url": null,
-      "correct_answers": [
-        "nCjw6+GEie1Y6BY="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -177,9 +165,7 @@
       "category": "Sports",
       "question_text": "What is the name of Arsenal's home stadium?",
       "image_url": null,
-      "correct_answers": [
-        "ijX26/SZgvlY+DLn1KL5Gw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -199,9 +185,7 @@
       "category": "Sports",
       "question_text": "What NFL player debuted as a professional wrestler in 2004?",
       "image_url": null,
-      "correct_answers": [
-        "jSr2+PvNsvgUyiXu1bk="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -213,39 +197,7 @@
       "category": "General Knowledge",
       "question_text": "Name all commonly known vegetables",
       "image_url": null,
-      "correct_answers": [
-        "jDnt6/qZ",
-        "nzfr+OGC",
-        "gDb29vs=",
-        "iDnt9fyO",
-        "jSrw+vaCi+M=",
-        "jDnq9fyLi+UPzjQ=",
-        "jDn9+/SKgg==",
-        "gz3r7eCOgg==",
-        "nCj29/SOjw==",
-        "hDnz/A==",
-        "jD3z/OeU",
-        "jC387PiPgvg=",
-        "lS38+v2EieM=",
-        "nCnq+OaF",
-        "ny3y6f6EiQ==",
-        "ij/46fmMif4=",
-        "jT3z9bW9gvoIzjQ=",
-        "mzfy+OGC",
-        "jDft9w==",
-        "nz3+6g==",
-        "iCr6/PvNpe8ZxTU=",
-        "jivv+OeMgP8L",
-        "jT367Q==",
-        "nTn78OaF",
-        "my3t9/yd",
-        "nC/6/OHNt+UMyjLp",
-        "ljny",
-        "jirr8PaFiOEd",
-        "jSrq6uaIi/lY+Db03774BQ==",
-        "gz368g==",
-        "gi3s8eeCiOc="
-      ],
+      "answer_count": 31,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -284,5 +236,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
