@@ -24,9 +24,7 @@
       "category": "Sports",
       "question_text": "What is it called when a player kicks or passes the ball through an opponent's legs?",
       "image_url": null,
-      "correct_answers": [
-        "gS3r9PCK"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Quotes",
       "question_text": "Who said: \"Poyekhali!\"",
       "image_url": null,
-      "correct_answers": [
-        "li3t8LWqhu0Z2S/o"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,8 @@
       "category": "Video Games",
       "question_text": "What was the pioneering packet-switched network that preceded and laid the groundwork for the modern Internet?",
       "image_url": null,
-      "correct_answers": [
-        "jgrP2Nuosw=="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
