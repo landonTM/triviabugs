@@ -3594,6 +3594,35 @@
       "source": null
     }
   ],
+  "equipped": {
+    "footer": {
+      "key": "compliments",
+      "label": "Compliments Footer",
+      "template": "With compliments from {user}. 💌"
+    },
+    "emoji": {
+      "key": "sweettooth",
+      "label": "Sweet Tooth Emoji Pack",
+      "correct": "🍭",
+      "streak": "🍩",
+      "speed": "🍬"
+    },
+    "theme": {
+      "key": "cowboy",
+      "label": "Cowboy Response Theme"
+    },
+    "embedcolor": {
+      "key": "mint",
+      "label": "Mint Embed",
+      "hex": "#5CE1B0"
+    },
+    "mvp": {
+      "key": "careful",
+      "label": "Careful MVP",
+      "quote": "Careful now, girl. I enjoy you, but be careful.",
+      "gif": "https://media.giphy.com/media/sKVraMKIs2ptEdbMtB/giphy.gif"
+    }
+  },
   "rivals": [
     {
       "user_id": "433990857063137282",
