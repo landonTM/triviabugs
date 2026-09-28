@@ -957,9 +957,6 @@
         "last_played": "2026-09-27",
         "duel_streak": 1,
         "duel_best_streak": 5,
-        "kirkening_reign_ms": 7935766,
-        "kirkening_years_won": 0,
-        "kirkening_longest_reign_ms": 6474009,
         "cosmetics_owned": 53
       },
       "periods": {
@@ -1041,7 +1038,6 @@
           "game_wins": 4,
           "wins_quickfire": 1,
           "achievements": 69,
-          "crowns": 3,
           "bug_reports": 58,
           "bugs_fixed": 55
         },
@@ -1078,7 +1074,6 @@
           "game_wins": 4,
           "wins_quickfire": 1,
           "achievements": 69,
-          "crowns": 3,
           "bug_reports": 58,
           "bugs_fixed": 55
         },
@@ -1115,7 +1110,6 @@
           "game_wins": 28,
           "wins_quickfire": 1,
           "achievements": 69,
-          "crowns": 3,
           "bug_reports": 58,
           "bugs_fixed": 55
         }
@@ -1824,9 +1818,6 @@
         "last_played": "2026-09-27",
         "duel_streak": 2,
         "duel_best_streak": 2,
-        "kirkening_reign_ms": 10420202,
-        "kirkening_years_won": 0,
-        "kirkening_longest_reign_ms": 6068017,
         "cosmetics_owned": 53
       },
       "periods": {
@@ -1898,7 +1889,6 @@
           "wins_hardcore": 1,
           "wins_standard": 3,
           "achievements": 62,
-          "crowns": 2,
           "bug_reports": 4,
           "bugs_fixed": 4
         },
@@ -1935,7 +1925,6 @@
           "wins_hardcore": 1,
           "wins_standard": 3,
           "achievements": 62,
-          "crowns": 2,
           "bug_reports": 4,
           "bugs_fixed": 4
         },
@@ -1972,7 +1961,6 @@
           "wins_hardcore": 1,
           "wins_standard": 3,
           "achievements": 62,
-          "crowns": 2,
           "bug_reports": 4,
           "bugs_fixed": 4
         }
@@ -3545,9 +3533,6 @@
         "duel_best_streak": 2,
         "boosts_banked": 1,
         "boost_hours_banked": 2.0,
-        "kirkening_reign_ms": 13580690,
-        "kirkening_years_won": 1,
-        "kirkening_longest_reign_ms": 6609824,
         "cosmetics_owned": 38
       },
       "periods": {
@@ -3613,7 +3598,6 @@
           "game_wins": 2,
           "wins_daily": 1,
           "achievements": 38,
-          "crowns": 3,
           "bug_reports": 8,
           "bugs_fixed": 8
         },
@@ -3647,7 +3631,6 @@
           "game_wins": 2,
           "wins_daily": 1,
           "achievements": 38,
-          "crowns": 3,
           "bug_reports": 8,
           "bugs_fixed": 8
         },
@@ -3681,7 +3664,6 @@
           "game_wins": 6,
           "wins_daily": 1,
           "achievements": 38,
-          "crowns": 3,
           "bug_reports": 8,
           "bugs_fixed": 8
         }
@@ -4264,9 +4246,6 @@
         "current_streak": 1,
         "day_streak": 0,
         "last_played": null,
-        "kirkening_reign_ms": 9644247,
-        "kirkening_years_won": 0,
-        "kirkening_longest_reign_ms": 9644247,
         "cosmetics_owned": 5
       },
       "periods": {
@@ -4286,8 +4265,7 @@
           "active_days": 1,
           "games_played": 0,
           "categories_played": 8,
-          "best_insane_round": 5,
-          "crowns": 1
+          "best_insane_round": 5
         },
         "yearly": {
           "points": 40,
@@ -4303,8 +4281,7 @@
           "active_days": 1,
           "games_played": 0,
           "categories_played": 8,
-          "best_insane_round": 5,
-          "crowns": 1
+          "best_insane_round": 5
         },
         "alltime": {
           "points": 40,
@@ -4321,7 +4298,6 @@
           "games_played": 0,
           "categories_played": 8,
           "best_insane_round": 5,
-          "crowns": 1,
           "game_wins": 0
         }
       },
@@ -4430,6 +4406,142 @@
             8
           ]
         }
+      }
+    },
+    {
+      "user_id": "225570740802420737",
+      "total_xp": 0,
+      "level": {
+        "level": 1,
+        "xp_into_level": 0,
+        "xp_for_level": 500,
+        "progress": 0.0,
+        "maxed": false
+      },
+      "current": {
+        "current_streak": 1,
+        "day_streak": 0,
+        "last_played": null,
+        "cosmetics_owned": 5
+      },
+      "periods": {
+        "daily": {},
+        "weekly": {},
+        "monthly": {
+          "points": 3,
+          "correct": 3,
+          "standard_correct": 1,
+          "insane_finds": 2,
+          "avg_guess_ms": 52794,
+          "fastest_ms": 52794,
+          "under_5s": 0,
+          "exact_spelling": 0,
+          "spelled": 0,
+          "best_streak": 0,
+          "active_days": 1,
+          "games_played": 0,
+          "categories_played": 2,
+          "best_insane_round": 1
+        },
+        "yearly": {
+          "points": 3,
+          "correct": 3,
+          "standard_correct": 1,
+          "insane_finds": 2,
+          "avg_guess_ms": 52794,
+          "fastest_ms": 52794,
+          "under_5s": 0,
+          "exact_spelling": 0,
+          "spelled": 0,
+          "best_streak": 0,
+          "active_days": 1,
+          "games_played": 0,
+          "categories_played": 2,
+          "best_insane_round": 1
+        },
+        "alltime": {
+          "points": 3,
+          "correct": 3,
+          "standard_correct": 1,
+          "insane_finds": 2,
+          "avg_guess_ms": 52794,
+          "fastest_ms": 52794,
+          "under_5s": 0,
+          "exact_spelling": 0,
+          "spelled": 0,
+          "best_streak": 1,
+          "active_days": 1,
+          "games_played": 0,
+          "categories_played": 2,
+          "best_insane_round": 1,
+          "game_wins": 0
+        }
+      },
+      "categories": {
+        "daily": {},
+        "weekly": {},
+        "monthly": {
+          "NBA": [
+            2,
+            2
+          ],
+          "Game of Thrones": [
+            1,
+            1
+          ]
+        },
+        "yearly": {
+          "NBA": [
+            2,
+            2
+          ],
+          "Game of Thrones": [
+            1,
+            1
+          ]
+        },
+        "alltime": {
+          "NBA": [
+            2,
+            2
+          ],
+          "Game of Thrones": [
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "user_id": "187400147989168132",
+      "total_xp": 0,
+      "level": {
+        "level": 1,
+        "xp_into_level": 0,
+        "xp_for_level": 500,
+        "progress": 0.0,
+        "maxed": false
+      },
+      "current": {
+        "cosmetics_owned": 5
+      },
+      "periods": {
+        "daily": {},
+        "weekly": {},
+        "monthly": {},
+        "yearly": {},
+        "alltime": {
+          "games_played": 0,
+          "game_wins": 0,
+          "best_streak": 0
+        }
+      },
+      "categories": {
+        "daily": {},
+        "weekly": {},
+        "monthly": {},
+        "yearly": {},
+        "alltime": {}
       }
     },
     {
@@ -4549,196 +4661,6 @@
       }
     },
     {
-      "user_id": "225570740802420737",
-      "total_xp": 0,
-      "level": {
-        "level": 1,
-        "xp_into_level": 0,
-        "xp_for_level": 500,
-        "progress": 0.0,
-        "maxed": false
-      },
-      "current": {
-        "current_streak": 1,
-        "day_streak": 0,
-        "last_played": null,
-        "kirkening_reign_ms": 5906664,
-        "kirkening_years_won": 0,
-        "kirkening_longest_reign_ms": 4169748,
-        "cosmetics_owned": 5
-      },
-      "periods": {
-        "daily": {},
-        "weekly": {},
-        "monthly": {
-          "points": 3,
-          "correct": 3,
-          "standard_correct": 1,
-          "insane_finds": 2,
-          "avg_guess_ms": 52794,
-          "fastest_ms": 52794,
-          "under_5s": 0,
-          "exact_spelling": 0,
-          "spelled": 0,
-          "best_streak": 0,
-          "active_days": 1,
-          "games_played": 0,
-          "categories_played": 2,
-          "best_insane_round": 1,
-          "crowns": 3
-        },
-        "yearly": {
-          "points": 3,
-          "correct": 3,
-          "standard_correct": 1,
-          "insane_finds": 2,
-          "avg_guess_ms": 52794,
-          "fastest_ms": 52794,
-          "under_5s": 0,
-          "exact_spelling": 0,
-          "spelled": 0,
-          "best_streak": 0,
-          "active_days": 1,
-          "games_played": 0,
-          "categories_played": 2,
-          "best_insane_round": 1,
-          "crowns": 3
-        },
-        "alltime": {
-          "points": 3,
-          "correct": 3,
-          "standard_correct": 1,
-          "insane_finds": 2,
-          "avg_guess_ms": 52794,
-          "fastest_ms": 52794,
-          "under_5s": 0,
-          "exact_spelling": 0,
-          "spelled": 0,
-          "best_streak": 1,
-          "active_days": 1,
-          "games_played": 0,
-          "categories_played": 2,
-          "best_insane_round": 1,
-          "crowns": 3,
-          "game_wins": 0
-        }
-      },
-      "categories": {
-        "daily": {},
-        "weekly": {},
-        "monthly": {
-          "NBA": [
-            2,
-            2
-          ],
-          "Game of Thrones": [
-            1,
-            1
-          ]
-        },
-        "yearly": {
-          "NBA": [
-            2,
-            2
-          ],
-          "Game of Thrones": [
-            1,
-            1
-          ]
-        },
-        "alltime": {
-          "NBA": [
-            2,
-            2
-          ],
-          "Game of Thrones": [
-            1,
-            1
-          ]
-        }
-      }
-    },
-    {
-      "user_id": "187400147989168132",
-      "total_xp": 0,
-      "level": {
-        "level": 1,
-        "xp_into_level": 0,
-        "xp_for_level": 500,
-        "progress": 0.0,
-        "maxed": false
-      },
-      "current": {
-        "kirkening_reign_ms": 167352,
-        "kirkening_years_won": 0,
-        "kirkening_longest_reign_ms": 167352,
-        "cosmetics_owned": 5
-      },
-      "periods": {
-        "daily": {},
-        "weekly": {},
-        "monthly": {
-          "crowns": 1
-        },
-        "yearly": {
-          "crowns": 1
-        },
-        "alltime": {
-          "crowns": 1,
-          "games_played": 0,
-          "game_wins": 0,
-          "best_streak": 0
-        }
-      },
-      "categories": {
-        "daily": {},
-        "weekly": {},
-        "monthly": {},
-        "yearly": {},
-        "alltime": {}
-      }
-    },
-    {
-      "user_id": "739131649966473306",
-      "total_xp": 0,
-      "level": {
-        "level": 1,
-        "xp_into_level": 0,
-        "xp_for_level": 500,
-        "progress": 0.0,
-        "maxed": false
-      },
-      "current": {
-        "kirkening_reign_ms": 11623655,
-        "kirkening_years_won": 0,
-        "kirkening_longest_reign_ms": 10593472,
-        "cosmetics_owned": 5
-      },
-      "periods": {
-        "daily": {},
-        "weekly": {},
-        "monthly": {
-          "crowns": 3
-        },
-        "yearly": {
-          "crowns": 3
-        },
-        "alltime": {
-          "crowns": 3,
-          "games_played": 0,
-          "game_wins": 0,
-          "best_streak": 0
-        }
-      },
-      "categories": {
-        "daily": {},
-        "weekly": {},
-        "monthly": {},
-        "yearly": {},
-        "alltime": {}
-      }
-    },
-    {
       "user_id": "727172669010870375",
       "total_xp": 0,
       "level": {
@@ -4828,7 +4750,7 @@
       }
     },
     {
-      "user_id": "1008207363637002290",
+      "user_id": "498222053032198185",
       "total_xp": 0,
       "level": {
         "level": 1,
@@ -4838,39 +4760,46 @@
         "maxed": false
       },
       "current": {
-        "duel_streak": 0,
-        "duel_best_streak": 0,
         "cosmetics_owned": 5
       },
       "periods": {
         "daily": {},
-        "weekly": {
-          "duels_played": 1,
-          "duel_wins": 0,
-          "duel_losses": 0,
-          "duel_ties": 1,
-          "duels_started": 0
-        },
-        "monthly": {
-          "duels_played": 1,
-          "duel_wins": 0,
-          "duel_losses": 0,
-          "duel_ties": 1,
-          "duels_started": 0
-        },
-        "yearly": {
-          "duels_played": 1,
-          "duel_wins": 0,
-          "duel_losses": 0,
-          "duel_ties": 1,
-          "duels_started": 0
-        },
+        "weekly": {},
+        "monthly": {},
+        "yearly": {},
         "alltime": {
-          "duels_played": 1,
-          "duel_wins": 0,
-          "duel_losses": 0,
-          "duel_ties": 1,
-          "duels_started": 0,
+          "games_played": 0,
+          "game_wins": 0,
+          "best_streak": 0
+        }
+      },
+      "categories": {
+        "daily": {},
+        "weekly": {},
+        "monthly": {},
+        "yearly": {},
+        "alltime": {}
+      }
+    },
+    {
+      "user_id": "739131649966473306",
+      "total_xp": 0,
+      "level": {
+        "level": 1,
+        "xp_into_level": 0,
+        "xp_for_level": 500,
+        "progress": 0.0,
+        "maxed": false
+      },
+      "current": {
+        "cosmetics_owned": 5
+      },
+      "periods": {
+        "daily": {},
+        "weekly": {},
+        "monthly": {},
+        "yearly": {},
+        "alltime": {
           "games_played": 0,
           "game_wins": 0,
           "best_streak": 0
