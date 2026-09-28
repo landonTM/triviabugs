@@ -2,23 +2,23 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 41,
-    "xp_into_level": 29319,
+    "xp_into_level": 29831,
     "xp_for_level": 58000,
-    "progress": 0.5055,
+    "progress": 0.5143275862068966,
     "maxed": false
   },
-  "total_xp": 881819,
+  "total_xp": 882331,
   "period_stats": {
-    "daily_points": 34,
-    "daily_correct": 14,
-    "weekly_points": 679,
-    "weekly_correct": 324,
-    "monthly_points": 3638,
-    "monthly_correct": 1725,
-    "yearly_points": 3812,
-    "yearly_correct": 1818,
-    "alltime_points": 3812,
-    "alltime_correct": 1818
+    "daily_points": 39,
+    "daily_correct": 19,
+    "weekly_points": 684,
+    "weekly_correct": 329,
+    "monthly_points": 3643,
+    "monthly_correct": 1730,
+    "yearly_points": 3817,
+    "yearly_correct": 1823,
+    "alltime_points": 3817,
+    "alltime_correct": 1823
   },
   "stats_row": {
     "user_id": "433990857063137282",
@@ -29,12 +29,12 @@
     "wins": 764,
     "current_streak": 9,
     "best_streak": 27,
-    "games_played": 87,
-    "insane_guesses": 750,
-    "day_streak": 5,
-    "last_played_date": "2026-09-27",
-    "total_xp": 881819,
-    "game_wins": 28,
+    "games_played": 88,
+    "insane_guesses": 755,
+    "day_streak": 6,
+    "last_played_date": "2026-09-28",
+    "total_xp": 882331,
+    "game_wins": 29,
     "achievement_best_streak": 27
   },
   "best_streak": 27,
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1055,
+  "total_insane_correct": 1060,
   "average_guess_ms": 17092.154652686764,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 28
   },
   "spelling_accuracy": {
-    "exact_count": 1403,
-    "total": 1604
+    "exact_count": 1408,
+    "total": 1609
   },
   "achievements": {
     "catalog": [
@@ -2225,7 +2225,7 @@
       "disney": 36,
       "entertainment": 0,
       "geo": 88,
-      "gk": 161,
+      "gk": 166,
       "got": 5,
       "marvel": 57,
       "movies": 1,
