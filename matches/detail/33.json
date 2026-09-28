@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "What term describes winning all four Grand Slam tournaments over a career, but not in the same calendar year?",
       "image_url": null,
-      "correct_answers": [
-        "jDnt/PCfx80KyijikJjgF0Y="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -38,5 +36,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
