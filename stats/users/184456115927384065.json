@@ -1,39 +1,39 @@
 {
   "user_id": "184456115927384065",
   "level": {
-    "level": 40,
-    "xp_into_level": 52917,
-    "xp_for_level": 55000,
-    "progress": 0.9621272727272727,
+    "level": 41,
+    "xp_into_level": 283,
+    "xp_for_level": 58000,
+    "progress": 0.004879310344827586,
     "maxed": false
   },
-  "total_xp": 850417,
+  "total_xp": 852783,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
+    "daily_points": 5,
+    "daily_correct": 4,
     "weekly_points": 1035,
     "weekly_correct": 445,
-    "monthly_points": 2397,
-    "monthly_correct": 1230,
-    "yearly_points": 2397,
-    "yearly_correct": 1230,
-    "alltime_points": 2397,
-    "alltime_correct": 1230
+    "monthly_points": 2402,
+    "monthly_correct": 1234,
+    "yearly_points": 2402,
+    "yearly_correct": 1234,
+    "alltime_points": 2402,
+    "alltime_correct": 1234
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 1750,
-    "questions_right": 583,
+    "total_points": 1754,
+    "questions_right": 586,
     "questions_wrong": 0,
-    "wins": 583,
-    "current_streak": 4,
+    "wins": 586,
+    "current_streak": 1,
     "best_streak": 21,
-    "games_played": 89,
-    "insane_guesses": 476,
-    "day_streak": 13,
-    "last_played_date": "2026-09-27",
-    "total_xp": 850417,
+    "games_played": 90,
+    "insane_guesses": 477,
+    "day_streak": 14,
+    "last_played_date": "2026-09-28",
+    "total_xp": 852783,
     "game_wins": 48,
     "achievement_best_streak": 21
   },
@@ -53,15 +53,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 647,
-  "average_guess_ms": 21015.5025728988,
+  "total_insane_correct": 648,
+  "average_guess_ms": 21114.31058020478,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
-    "active_days": 23
+    "active_days": 24
   },
   "spelling_accuracy": {
-    "exact_count": 1050,
-    "total": 1138
+    "exact_count": 1053,
+    "total": 1142
   },
   "achievements": {
     "catalog": [
@@ -2221,25 +2221,25 @@
       "disney": 21,
       "entertainment": 1,
       "geo": 84,
-      "gk": 122,
+      "gk": 123,
       "got": 1,
       "marvel": 9,
       "movies": 20,
-      "music": 14,
+      "music": 15,
       "pokemon": 4,
       "sports": 226,
       "videogames": 5,
       "wrestling": 115,
-      "duelwins": 14,
+      "duelwins": 15,
       "duelstreak": 2
     }
   },
   "duel_stats": {
     "guild_id": "861055530638114836",
     "user_id": "184456115927384065",
-    "wins": 14,
+    "wins": 15,
     "losses": 19,
-    "current_streak": 0,
+    "current_streak": 1,
     "best_streak": 2,
     "ties": 0
   },
@@ -2361,8 +2361,8 @@
       "key": "haunted",
       "label": "Haunted Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "footer",
@@ -3161,8 +3161,8 @@
       "key": "magneto",
       "label": "Magneto MVP",
       "unlock_level": 41,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "mvp",
@@ -3481,8 +3481,8 @@
       "key": "pumpkin",
       "label": "Pumpkin MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3629,8 +3629,8 @@
   "rivals": [
     {
       "user_id": "433990857063137282",
-      "played": 32,
-      "wins": 14,
+      "played": 33,
+      "wins": 15,
       "losses": 18,
       "ties": 0
     },
