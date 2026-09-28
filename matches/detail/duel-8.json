@@ -24,9 +24,7 @@
       "category": "Movies",
       "question_text": "In The Hunger Games, who mentors Katniss and Peeta?",
       "image_url": null,
-      "correct_answers": [
-        "hznm9PyZhOJY6iTjwqXtAkPd"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Family Guy",
       "question_text": "What street do the Griffin family live on?",
       "image_url": null,
-      "correct_answers": [
-        "nCjw9vuIlaor3zTj1b8="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Sports",
       "question_text": "Which club is based at Stamford Bridge?",
       "image_url": null,
-      "correct_answers": [
-        "jDD69eaIhg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "World Capitals",
       "question_text": "What is the capital of Suriname?",
       "image_url": null,
-      "correct_answers": [
-        "nznt+PiMleMaxA=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,8 @@
       "category": "Movies",
       "question_text": "In Toy Story, who voices Woody?",
       "image_url": null,
-      "correct_answers": [
-        "mzfyud2MieEL"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
