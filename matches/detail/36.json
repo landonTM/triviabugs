@@ -25,7 +25,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -45,9 +45,7 @@
       "category": "House of the Dragon",
       "question_text": "Alongside Viserys Targaryen, which Targaryen was a leading candidate at the Great Council shown in the series opening?",
       "image_url": null,
-      "correct_answers": [
-        "nTD+/PuUlKosyjTh0bn1E0U="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -67,9 +65,7 @@
       "category": "House of the Dragon",
       "question_text": "What alliance sails to take on Corlys in the Gullet in the Season 3 premiere?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6ucGfjusKyC7/"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -89,9 +85,7 @@
       "category": "House of the Dragon",
       "question_text": "In Fire & Blood, what name is given to the baseborn people who attempt to claim riderless dragons for Rhaenyra?",
       "image_url": null,
-      "correct_answers": [
-        "iyr+/vqDlO8dzzU="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -111,9 +105,7 @@
       "category": "House of the Dragon",
       "question_text": "In what Free City do Daemon and Laena live with their daughters before returning to Westeros?",
       "image_url": null,
-      "correct_answers": [
-        "nz3x7fqe"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -133,7 +125,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": []
     },
     {
@@ -145,9 +137,7 @@
       "category": "House of the Dragon",
       "question_text": "Whom does Corlys Velaryon initially propose Viserys should marry?",
       "image_url": null,
-      "correct_answers": [
-        "gzn69/TNse8UyjT/36U="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -167,7 +157,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -187,9 +177,7 @@
       "category": "House of the Dragon",
       "question_text": "What island stronghold is the traditional seat of House Targaryen?",
       "image_url": null,
-      "correct_answers": [
-        "iyr+/vqDlP4XxSM="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -209,23 +197,7 @@
       "category": "General Knowledge",
       "question_text": "Types of natural disasters",
       "image_url": null,
-      "correct_answers": [
-        "ijnt7f2ckusTzg==",
-        "hy3t6/yOhuQd",
-        "mzft9/SJiA==",
-        "iTTw9vE=",
-        "mDHz/fOEle8=",
-        "myvq9/SAjg==",
-        "mTfz+vSDjulY7jTzwL/lGUU=",
-        "iyrw7PKFkw==",
-        "gznx/eaBju4d",
-        "jTT24++Mle4=",
-        "ji7+9fSDhOId",
-        "hzn29eaZiPgV",
-        "nDHx8v2Ci+8=",
-        "hz3+7bW6hvwd",
-        "iTny8PuI"
-      ],
+      "answer_count": 15,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -278,5 +250,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
