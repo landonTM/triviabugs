@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "In golf, what is the term for a putter used off the green?",
       "image_url": null,
-      "correct_answers": [
-        "mz3n+ObNsO8czCM="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -39,9 +37,7 @@
       "category": "Sports",
       "question_text": "Who is the only head basketball coach to win both an NCAA national championship and an NBA title?",
       "image_url": null,
-      "correct_answers": [
-        "gznt6+zNpfgX3Cg="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -61,9 +57,7 @@
       "category": "Sports",
       "question_text": "Which country's national team is nicknamed the Selecao?",
       "image_url": null,
-      "correct_answers": [
-        "jSr+4/yB"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -83,9 +77,7 @@
       "category": "Sports",
       "question_text": "What was the original name Major Wingfield gave to his new game, before it became known as lawn tennis?",
       "image_url": null,
-      "correct_answers": [
-        "nCj3+PyfjvkMwi3j"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -97,9 +89,7 @@
       "category": "Sports",
       "question_text": "What number is at the 12 o'clock position on a dartboard?",
       "image_url": null,
-      "correct_answers": [
-        "/Wg="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -119,9 +109,7 @@
       "category": "Sports",
       "question_text": "_________ Pistons (NBA)",
       "image_url": null,
-      "correct_answers": [
-        "iz3r6/qEkw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -141,9 +129,7 @@
       "category": "Sports",
       "question_text": "What is the term for a quarterback's pass being caught by the opposing team?",
       "image_url": null,
-      "correct_answers": [
-        "hjbr/OeOgvoMwino"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -163,9 +149,7 @@
       "category": "Sports",
       "question_text": "Which club has won the most UEFA Champions League titles?",
       "image_url": null,
-      "correct_answers": [
-        "nT3+9bWghu4KwiI="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -185,9 +169,7 @@
       "category": "Sports",
       "question_text": "What annual marathon, the world's oldest, began in 1897?",
       "image_url": null,
-      "correct_answers": [
-        "jTfs7fqDx8cZ2Sfy2KTi"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -207,35 +189,7 @@
       "category": "General Knowledge",
       "question_text": "Pasta shapes",
       "image_url": null,
-      "correct_answers": [
-        "nCj+/v2Ik/4R",
-        "nz3x9/A=",
-        "iS3s8PmBjg==",
-        "nTH4+OGCieM=",
-        "iT3r7eCOhOMWzg==",
-        "gzHx/uCEie8=",
-        "gjn8+OeCieM=",
-        "jTfoucGEgg==",
-        "nTnp8PqBjg==",
-        "gzns+PKDhg==",
-        "mzft7fCBi+MWwg==",
-        "gCrl9g==",
-        "nTfr8PuE",
-        "lTHr8A==",
-        "iDbw+vaFjg==",
-        "jDnx9/CBi+UWwg==",
-        "gjnx8PaCk/4R",
-        "jjb4/PnNr+sR2Q==",
-        "gCr6+vaFju8M3yM=",
-        "iD3y/PmBjg==",
-        "jDnp+OGMl/oR",
-        "jS38+OGEieM=",
-        "mzn49fyMk+8UxyM=",
-        "nznv6fSfg+8UxyM=",
-        "nDD69fme",
-        "izHr+PmEieM=",
-        "mT3t9PyOguYUwg=="
-      ],
+      "answer_count": 27,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -274,5 +228,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
