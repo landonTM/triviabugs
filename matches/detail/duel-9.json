@@ -24,9 +24,7 @@
       "category": "Pokemon",
       "question_text": "What Pokémon is fighting with Nidorino in the opening for Pokémon Blue and Red?",
       "image_url": null,
-      "correct_answers": [
-        "iD3x/vSf"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Video Games",
       "question_text": "What does the acronym \"NES\" stand for?",
       "image_url": null,
-      "correct_answers": [
-        "gTHx7fCDg+VY7ijy1bn4F0LKu25Jqf5Wfh3stJU="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "General Knowledge",
       "question_text": "The English word \"science\" stems from the Latin word \"scire\", meaning \"to\" do what?",
       "image_url": null,
-      "correct_answers": [
-        "hDbw7g=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Geography",
       "question_text": "What strait, located between Malaysia and Indonesia, is the world's busiest shipping lane?",
       "image_url": null,
-      "correct_answers": [
-        "nCzt+PyZx+Ueiwvn3KrvFUo="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,8 @@
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
       "image_url": "https://i.imgur.com/Mc08OmO.png",
-      "correct_answers": [
-        "mzn27vSD"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
