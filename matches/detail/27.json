@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
       "image_url": null,
-      "correct_answers": [
-        "/ms="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Sports",
       "question_text": "Which club has won the most FA Cup titles?",
       "image_url": null,
-      "correct_answers": [
-        "jirs/PuMiw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -69,9 +65,7 @@
       "category": "Sports",
       "question_text": "_________ Panthers (NFL)",
       "image_url": null,
-      "correct_answers": [
-        "jDnt9vmEies="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -91,9 +85,7 @@
       "category": "Sports",
       "question_text": "What is the name of the main stadium at the US Open, named after a tennis legend?",
       "image_url": null,
-      "correct_answers": [
-        "jirr8eCfx8sLwyOm47/tEkLRuw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -104,5 +96,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
