@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "What card is shown for a serious foul that results in a player being sent off in soccer?",
       "image_url": null,
-      "correct_answers": [
-        "nT37udaMle4="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Sports",
       "question_text": "What is the name of the doubles serving formation where the server's partner stands on the same side of the court as the server?",
       "image_url": null,
-      "correct_answers": [
-        "ji3s7eeMi+MZxWbg37nhF1/NuWU="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -61,9 +57,7 @@
       "category": "Sports",
       "question_text": "In which country was the modern game of lawn tennis invented in the 1870s?",
       "image_url": null,
-      "correct_answers": [
-        "ijb49fSDgw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -83,9 +77,7 @@
       "category": "Sports",
       "question_text": "_________ Kings (NBA)",
       "image_url": null,
-      "correct_answers": [
-        "nDn86/SAguQMxA=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -97,10 +89,9 @@
       "category": "Sports",
       "question_text": "Who won the 2015 College Football Playoff (CFP) National Championship?",
       "image_url": null,
-      "correct_answers": [
-        "gDD29rW+k+sMzmbExajnE1LBpQ=="
-      ],
+      "answer_count": 1,
       "answers": []
     }
-  ]
+  ],
+  "xp": {}
 }
