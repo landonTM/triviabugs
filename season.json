@@ -151,11 +151,20 @@
       "standings": [
         {
           "user_id": "433990857063137282",
-          "points": 35,
-          "correct": 15
+          "points": 39,
+          "correct": 19
         }
       ],
-      "pass": [],
+      "pass": [
+        {
+          "user_id": "433990857063137282",
+          "xp": 512,
+          "level": 0,
+          "xp_into_level": 512,
+          "xp_for_level": 900,
+          "completed": false
+        }
+      ],
       "elo": {
         "ranked": [],
         "unranked": []
