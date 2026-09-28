@@ -150,34 +150,80 @@
       "elo_min_matches": 3,
       "standings": [
         {
-          "user_id": "433990857063137282",
-          "points": 75,
-          "correct": 38
+          "user_id": "795847206719717386",
+          "points": 94,
+          "correct": 55
         },
         {
-          "user_id": "795847206719717386",
-          "points": 39,
-          "correct": 27
+          "user_id": "433990857063137282",
+          "points": 92,
+          "correct": 53
         },
         {
           "user_id": "734768348201615400",
-          "points": 12,
-          "correct": 3
+          "points": 40,
+          "correct": 16
+        },
+        {
+          "user_id": "184456115927384065",
+          "points": 5,
+          "correct": 4
         }
       ],
       "pass": [
         {
           "user_id": "433990857063137282",
-          "xp": 512,
+          "xp": 1062,
+          "level": 1,
+          "xp_into_level": 162,
+          "xp_for_level": 970,
+          "completed": false
+        },
+        {
+          "user_id": "184456115927384065",
+          "xp": 983,
+          "level": 1,
+          "xp_into_level": 83,
+          "xp_for_level": 970,
+          "completed": false
+        },
+        {
+          "user_id": "734768348201615400",
+          "xp": 550,
           "level": 0,
-          "xp_into_level": 512,
+          "xp_into_level": 550,
+          "xp_for_level": 900,
+          "completed": false
+        },
+        {
+          "user_id": "795847206719717386",
+          "xp": 550,
+          "level": 0,
+          "xp_into_level": 550,
           "xp_for_level": 900,
           "completed": false
         }
       ],
       "elo": {
         "ranked": [],
-        "unranked": []
+        "unranked": [
+          {
+            "user_id": "184456115927384065",
+            "rating": 1017,
+            "wins": 1,
+            "losses": 0,
+            "streak": 1,
+            "peak": 1017
+          },
+          {
+            "user_id": "433990857063137282",
+            "rating": 983,
+            "wins": 0,
+            "losses": 1,
+            "streak": -1,
+            "peak": 1000
+          }
+        ]
       },
       "winners": [],
       "elo_winners": []
