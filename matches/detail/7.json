@@ -23,9 +23,7 @@
       "category": "Geography",
       "question_text": "Which UK country features a dragon on their flag?",
       "image_url": null,
-      "correct_answers": [
-        "mDnz/OY="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -45,9 +43,7 @@
       "category": "Computers",
       "question_text": "What field rate, in Hz, is used by traditional 625-line PAL television?",
       "image_url": null,
-      "correct_answers": [
-        "+mg="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -67,9 +63,7 @@
       "category": "Slogans",
       "question_text": "15 minutes could save you 15% or more on car insurance.",
       "image_url": null,
-      "correct_answers": [
-        "iB3W2to="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -89,9 +83,7 @@
       "category": "General Knowledge",
       "question_text": "What does a sphygmomanometer measure?",
       "image_url": null,
-      "correct_answers": [
-        "jTTw9vHNl/gd2DXzwq4="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -103,9 +95,7 @@
       "category": "Whos That Pokemon (Gen 8)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/HujZjGg.png",
-      "correct_answers": [
-        "jDft7/yGieMfwzI="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -117,9 +107,7 @@
       "category": "World Cup",
       "question_text": "Which organization governs the World Cup?",
       "image_url": null,
-      "correct_answers": [
-        "iRHZ2A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -139,9 +127,7 @@
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
       "image_url": "https://i.imgur.com/m1aPu8l.png",
-      "correct_answers": [
-        "nznx+PiM"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -161,9 +147,7 @@
       "category": "Entertainment",
       "question_text": "In the original Transformers animated series, what was Optimus Prime's name before he became Optimus Prime?",
       "image_url": null,
-      "correct_answers": [
-        "gCr29vvNt+sA"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -183,9 +167,7 @@
       "category": "Star Wars",
       "question_text": "Finish The Quote: Why, you stuck up, half-witted, scruffy-looking____",
       "image_url": null,
-      "correct_answers": [
-        "gT3t/7WFgvgczjQ="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -205,25 +187,7 @@
       "category": "Wrestling",
       "question_text": "Divas Champions",
       "image_url": null,
-      "correct_answers": [
-        "jhK/1fCI",
-        "gTH08vzNpe8Uxyc=",
-        "gjnt4OaI",
-        "ii76ucGClfgd2A==",
-        "gjH88fCBi+9Y5iXF36Tg",
-        "jT3r8bW9j+UdxS/+",
-        "jDD+6/mCk/4d",
-        "hDn27fmUiQ==",
-        "gznm9fQ=",
-        "nzn2/vA=",
-        "gj3z8PuM",
-        "hD3z9ezNrO8Uxz8=",
-        "gjH88vyIx8AZxiP1",
-        "jSr2/LWvguYUyg==",
-        "gTnr+PmUhg==",
-        "jjT2+vyMx8wX0w==",
-        "hTHz9fyMiaowyirq"
-      ],
+      "answer_count": 17,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -348,9 +312,7 @@
       "category": "US State Capitals",
       "question_text": "What is the USA state capital of Massachusetts?",
       "image_url": null,
-      "correct_answers": [
-        "jTfs7fqD"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -370,9 +332,7 @@
       "category": "General Knowledge",
       "question_text": "What is the formal term for a person who studies and writes about historical events?",
       "image_url": null,
-      "correct_answers": [
-        "hzHs7fqfjusW"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -392,9 +352,7 @@
       "category": "Video Games",
       "question_text": "In the original Resident Evil, what is the full name of the captain of S.T.A.R.S. Bravo Team?",
       "image_url": null,
-      "correct_answers": [
-        "ijbt8PaCx8cZ2S/o2Q=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -406,9 +364,7 @@
       "category": "Whos That Pokemon (Gen 7)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/45wMC4e.png",
-      "correct_answers": [
-        "gjHx8Pqf"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -420,9 +376,7 @@
       "category": "Movies",
       "question_text": "In Inside Out, which emotion is colored blue?",
       "image_url": null,
-      "correct_answers": [
-        "nDn79/CelA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -442,9 +396,7 @@
       "category": "Conundrums",
       "question_text": "Insipid",
       "image_url": null,
-      "correct_answers": [
-        "hjbs8OWEgw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -464,9 +416,7 @@
       "category": "Geography",
       "question_text": "On which continent does the Andes mountain range lie?",
       "image_url": null,
-      "correct_answers": [
-        "nDfq7f3Npucd2S/l0Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -486,9 +436,7 @@
       "category": "Pokemon",
       "question_text": "What ability is a copy of Clear Body?",
       "image_url": null,
-      "correct_answers": [
-        "mDD27fDNtOcXwCM="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -508,9 +456,7 @@
       "category": "Whos That Pokemon (Gen 3)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/MniPGM6.png",
-      "correct_answers": [
-        "mDnz6/CEiQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -530,15 +476,7 @@
       "category": "Harry Potter",
       "question_text": "The original seven UK-titled Harry Potter novels (subtitle only)",
       "image_url": null,
-      "correct_answers": [
-        "nzD29fqeiPoQzjShw+vfAkTKsw==",
-        "jDD+9PeIlaoXzWbV1aj+E1/X",
-        "nyr26vqDgvhYxCCm8bHnF0nFuA==",
-        "iDf99fCZx+UeiwDvwq4=",
-        "gCr7/OfNiOxY3y7jkJvkGU7Kv3M=",
-        "hznz/7ivi+UXz2bWwqLiFU4=",
-        "iz3+7f2Bnqowyirq37z/"
-      ],
+      "answer_count": 7,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -600,9 +538,7 @@
       "category": "Marvel",
       "question_text": "What scientist helps Bruce Banner search for a cure and uses the alias Mr. Blue?",
       "image_url": null,
-      "correct_answers": [
-        "nDny7PCBx9kMzjToww=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -622,9 +558,7 @@
       "category": "Video Games",
       "question_text": "Frank Lloyd Wright's son John invented what construction toy after being inspired by the interlocking beams used in Tokyo's Imperial Hotel?",
       "image_url": null,
-      "correct_answers": [
-        "gzHx+vqBiaoUxCH1"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -644,9 +578,7 @@
       "category": "Acronyms and Abbreviations",
       "question_text": "Military: POW",
       "image_url": null,
-      "correct_answers": [
-        "nyr26vqDgvhY5CCm56r+"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -666,9 +598,7 @@
       "category": "General Knowledge",
       "question_text": "What is the study of word origins called?",
       "image_url": null,
-      "correct_answers": [
-        "iizm9PqBiO0B"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -688,9 +618,7 @@
       "category": "Space",
       "question_text": "Hydrogen sulfide detected in Uranus's cloud tops is associated with what familiar smell?",
       "image_url": null,
-      "correct_answers": [
-        "nTfr7fCDx+8fzDU="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -702,9 +630,7 @@
       "category": "Music",
       "question_text": "In what year was Taylor Swift born?",
       "image_url": null,
-      "correct_answers": [
-        "/mGnoA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -724,9 +650,7 @@
       "category": "Art and Literature",
       "question_text": "Captain Hook, Tiger Lily, and Tinker Bell are characters in what story?",
       "image_url": null,
-      "correct_answers": [
-        "nz3r/OfNt+sW"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -746,9 +670,7 @@
       "category": "Whos That Pokemon (Gen 1)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/GRxldku.png",
-      "correct_answers": [
-        "gzH88vyZkuQf"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -768,9 +690,7 @@
       "category": "Entertainment",
       "question_text": "Which band is Eddie Vedder with?",
       "image_url": null,
-      "correct_answers": [
-        "nz3+6/nNresV"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -790,38 +710,7 @@
       "category": "Marvel",
       "question_text": "Marvel Shows",
       "image_url": null,
-      "correct_answers": [
-        "jj/69+Gex+UeixWo+OXFWG6KmiVj8w==",
-        "jj/69+HNpOsK3yP0",
-        "iznt/PGIkeMU",
-        "hT3s6vyOhqoyxCjjww==",
-        "gy30/LWuhu0d",
-        "hirw97WrjvkM",
-        "mzD6udGIge8WzyP0ww==",
-        "mzD6ucWYieMLwyP0",
-        "hjb37PiMifk=",
-        "nS3x+OKMnvk=",
-        "jDTw+P7Nwao8yiHh1bk=",
-        "mDnx/fS7jvkRxCg=",
-        "mzD6udOMi+kXxWbn3q+sAkPB9lxOs6pgdU7LvpTSaNm9",
-        "gzf08A==",
-        "mDD+7bWkgaRWhXk=",
-        "hzno8vCUgg==",
-        "gjfw97WmieMfwzI=",
-        "giuxudiMlfwdxw==",
-        "nDD6tN2Yi+E=",
-        "nD386/CZx8MW3Sf12aTi",
-        "ijv39g==",
-        "jj/+7f2Mx8sUx2bH3KTiEQ==",
-        "iznt/PGIkeMUkWbE37niVmrDt2JJ",
-        "hirw9/2IhvgM",
-        "ljfq67WrleMdxSLqyevCE0LDvmlIr7ZqaAq4gojfZdm9ddL4+w==",
-        "iiH66rWCgaovyi3n3q/t",
-        "gjnt7/CBx9AXxiTv1bg=",
-        "gz348PqD",
-        "mzD6udKEgf4dzw==",
-        "hz3z6uGfiOc="
-      ],
+      "answer_count": 30,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -953,9 +842,7 @@
       "category": "Computers",
       "question_text": "[Programming Languages]One of the oldest high-level programming languages in widespread use today. It was designed by John McCarthy in 1958 and quickly became a favored programming language for artificial intelligence",
       "image_url": null,
-      "correct_answers": [
-        "gxHMyQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -975,9 +862,7 @@
       "category": "General Knowledge",
       "question_text": "What Egyptian queen, whose bust now sits in a Berlin museum, was the wife of Pharaoh Akhenaten?",
       "image_url": null,
-      "correct_answers": [
-        "gT35/OeZjv4R"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -989,9 +874,7 @@
       "category": "Conundrums",
       "question_text": "Cathartic",
       "image_url": null,
-      "correct_answers": [
-        "jDnr8fSfk+Mb"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1011,9 +894,7 @@
       "category": "Video Games",
       "question_text": "In poker five cards of the same suit is called a(n) __________.",
       "image_url": null,
-      "correct_answers": [
-        "iTTq6v0="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1033,9 +914,7 @@
       "category": "Entertainment",
       "question_text": "Juliette Binoche won an academy award for best supporting role in which film?",
       "image_url": null,
-      "correct_answers": [
-        "ijb49fyej6ooyjLv1aX4"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1047,9 +926,7 @@
       "category": "Sports",
       "question_text": "What sport has a hooker in a scrum?",
       "image_url": null,
-      "correct_answers": [
-        "nS34++w="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1069,9 +946,7 @@
       "category": "Disney",
       "question_text": "In Dumbo, where is Mrs. Jumbo when the stork delivers her baby?",
       "image_url": null,
-      "correct_answers": [
-        "hja/7f2Ix+kR2SXzw+v4BErNuA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1091,9 +966,7 @@
       "category": "Lord of the Rings",
       "question_text": "What former capital city of Gondor served as a crossing point over the River Anduin during The War of the Ring?",
       "image_url": null,
-      "correct_answers": [
-        "gCv48PmEhv4Q"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1105,9 +978,7 @@
       "category": "World Cup",
       "question_text": "Which country placed fourth in the 1938 World Cup?",
       "image_url": null,
-      "correct_answers": [
-        "nC/6/fCD"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1127,65 +998,7 @@
       "category": "Space",
       "question_text": "Named moons of Jupiter",
       "image_url": null,
-      "correct_answers": [
-        "hjc=",
-        "ii3t9uWM",
-        "iDnx4PiIg+8=",
-        "jDnz9fyek+U=",
-        "jjX+9eGFgus=",
-        "hzHy+PmEhg==",
-        "ijT+6/Q=",
-        "nzns8OWFhu8=",
-        "nDHx9uWI",
-        "gyHs8OGFgus=",
-        "jDnt9PA=",
-        "jjb+9/6I",
-        "gz37+A==",
-        "mzD6+/A=",
-        "jjzt+OaZgus=",
-        "gj3r8OY=",
-        "jDnz9fyfleIXzg==",
-        "mzD69Pyek+U=",
-        "gj34+PaBjv4d",
-        "mznm/vCZgg==",
-        "jDD+9fGIie8=",
-        "hznt6fSBnuEd",
-        "hDnz4P6I",
-        "hjf8+OaZgg==",
-        "iir29/qAgg==",
-        "hivw9/qI",
-        "nyr+4fyJjuEd",
-        "ji3r9vuCgg==",
-        "mzDm9vuI",
-        "hz3t9Pydl+8=",
-        "jjHr9/A=",
-        "ii3t4PGCiu8=",
-        "ii3+9+GFgg==",
-        "ii3v9ueEgg==",
-        "gCrr8fqeju8=",
-        "nCjw9/GI",
-        "hDnz/A==",
-        "nzns8OGFgu8=",
-        "hz34/PiCie8=",
-        "gjb69PA=",
-        "jjf6/fA=",
-        "mzD69e2EieUd",
-        "jir88fA=",
-        "hDnz9fyOj+UKzg==",
-        "hz3z8P6I",
-        "jDnt6fo=",
-        "ii30/PmMg+8=",
-        "jCHz9fCDgg==",
-        "hDft/A==",
-        "hz3t6vA=",
-        "izH+",
-        "ijHt/PuI",
-        "nzD29fqdj/gX2D/o1Q==",
-        "ii3v8fCAgg==",
-        "mTnz/OGYg+U=",
-        "nznx/fyM",
-        "iirs+A=="
-      ],
+      "answer_count": 57,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1219,9 +1032,7 @@
       "category": "US State Flags",
       "question_text": "What USA state or territory is represented by this flag?",
       "image_url": "https://i.imgur.com/VaqPmAP.png",
-      "correct_answers": [
-        "gjHs6vqYleM="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1241,9 +1052,7 @@
       "category": "Conundrums",
       "question_text": "Dragonfly",
       "image_url": null,
-      "correct_answers": [
-        "iyr+/vqDgeYB"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1263,9 +1072,7 @@
       "category": "Star Wars",
       "question_text": "Who is Kanan Jarrus' apprentice?",
       "image_url": null,
-      "correct_answers": [
-        "iiLt+LWvleMczCP0"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1277,9 +1084,7 @@
       "category": "Art and Literature",
       "question_text": "What Shakespearean play refers to the date of epiphany?",
       "image_url": null,
-      "correct_answers": [
-        "my/69fOZj6o2wiHuxA=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1291,9 +1096,7 @@
       "category": "Lord of the Rings",
       "question_text": "In \"The Fellowship of the Ring\", what is the name of the ferry the hobbits use to escape the Black Riders?",
       "image_url": null,
-      "correct_answers": [
-        "jS388vmIhf8K0mbA1bn+Dw=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1305,9 +1108,7 @@
       "category": "Whos That Pokemon (Gen 6)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/ErPPhdC.png",
-      "correct_answers": [
-        "ny3y6f6MheUX"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1327,9 +1128,7 @@
       "category": "General Knowledge",
       "question_text": "Which Swiss psychologist is synonymous with the concepts of introvert and extrovert personalities?",
       "image_url": null,
-      "correct_answers": [
-        "jDnt9bWnkuQf"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -1349,9 +1148,7 @@
       "category": "Whos That Pokemon (Gen 5)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/I3N1snG.png",
-      "correct_answers": [
-        "nC/+9/uM"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1371,9 +1168,7 @@
       "category": "Conundrums",
       "question_text": "Rhetoric",
       "image_url": null,
-      "correct_answers": [
-        "nTD67fqfjuk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1393,86 +1188,7 @@
       "category": "Game of Thrones",
       "question_text": "Game of Thrones characters",
       "image_url": null,
-      "correct_answers": [
-        "hTfxucaDiP0=",
-        "izn69/CfnvlY/yf016r+D07K",
-        "myHt8PqDx8YZxSjvw7/pBA==",
-        "jD3t6vCEx8YZxSjvw7/pBA==",
-        "hTn29PDNq+sWxS/1xK7+",
-        "nDnx6vTNtP4Z2S0=",
-        "jirm+LW+k+sKwA==",
-        "jSr+97W+k+sKwA==",
-        "nTf9+7W+k+sKwA==",
-        "nTH88vqDx9kMyjTt",
-        "ijz7+OeJx9kMyjTt",
-        "jDnr/PmUiaor3yf02w==",
-        "mzD69vvNoPgd0izpyQ==",
-        "nDny7vCBi6osyjTqyQ==",
-        "hTft+P3NquUKxinoxA==",
-        "mTnt4OY=",
-        "nz3r4OfNpesdxy/12A==",
-        "nDnx/fqfx8kUziHn3q4=",
-        "iCr6/vqfx8kUziHn3q4=",
-        "jSr2/PuDgqoXzWbS0bn4Hg==",
-        "nzf76/yOjKooyj/o1Q==",
-        "iznp9ubNtO8Z3Cn0xKM=",
-        "gj3z8OaMie4Kzg==",
-        "nCz+9/uElKo6yjTnxKPpGUU=",
-        "nTf9/OeZx8gZ2Sfy2K7jGA==",
-        "hTf5/+eInqo6yjTnxKPpGUU=",
-        "mzfy9PCDx8gZ2Sfy2K7jGA==",
-        "giHt+vCBi+tY6Sf00b/kE0TK",
-        "gjnt/vSIlfNY/z/01afg",
-        "gDT69/uMx94B2SPq3A==",
-        "gzft+ObNs/MKzirq",
-        "myHo8PvNq+sWxS/1xK7+",
-        "nTny6vSUx8gXxzLp3g==",
-        "nTfw6vDNpeUU3yno",
-        "ljnt+LWqle8BwSn/",
-        "jTnz9vvNoPgd0izpyQ==",
-        "ii3t9vvNoPgd0izpyQ==",
-        "gjHs6vSDg+8R",
-        "iCr64LW6iPgV",
-        "izn+6/yCx8QZwyf02bg=",
-        "mTHs/OeUlKosyjTh0bn1E0U=",
-        "hDD+9bWpleUfxA==",
-        "lj/t8OGZgg==",
-        "mzft9OCDg6o/wifoxLjuF0XB",
-        "gjnx+vDNtesBzyP0",
-        "mzD6uduEgOIMiw3v3qw=",
-        "jSrw9/s=",
-        "iD3x/eeU",
-        "hzf79uc=",
-        "gCv3+A==",
-        "nDD+/A==",
-        "mznz8OaMx9kMyjTt",
-        "gj366/TNte8dzw==",
-        "hTf1/PvNte8dzw==",
-        "jT3t8PbNo+UWzyf0wqLjGA==",
-        "ijTz+OeEhqoryiji",
-        "gDr66+yDx8cZ2TLj3Kc=",
-        "izft+PvNqusK3yPq3A==",
-        "gyHs+LWslfgBxQ==",
-        "nTf98PvNpvgK0ig=",
-        "mDnz/fCfx8wKzj8=",
-        "ijzy7OeIx94Nxyr/",
-        "jSrm9/GIiaos3irqyQ==",
-        "hzH48bW+l+sK2Snx",
-        "niH97OeD",
-        "hjTm97W9hvMWzg==",
-        "gj3t4PvNs/gZxTI=",
-        "jTnt6/yek+sWixXj3Kb1",
-        "nyH8/PmBgg==",
-        "nDD26/CIiao6yjTnxKPpGUU=",
-        "nD3z4OaIx8gZ2Sfy2K7jGA==",
-        "jjTz8OaIlaoswyn03q4=",
-        "hTnx9ubNtOYBxTI=",
-        "iDHz9ew=",
-        "jCr+6uGIlQ==",
-        "nTH88vSfg6ozyjT1xKr+HQ==",
-        "nTfs9fyDx8wKzj8=",
-        "hT3w67WgiPgVxCjy"
-      ],
+      "answer_count": 78,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1602,5 +1318,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
