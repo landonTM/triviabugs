@@ -24,9 +24,7 @@
       "category": "Phobias",
       "question_text": "If you have Stygiophobia, what are you afraid of?",
       "image_url": null,
-      "correct_answers": [
-        "hz3z9Q=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Phobias",
       "question_text": "If you have Arachnophobia, what are you afraid of?",
       "image_url": null,
-      "correct_answers": [
-        "nCj2/fCflA=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Phobias",
       "question_text": "If you have Carcinophobia, what are you afraid of?",
       "image_url": null,
-      "correct_answers": [
-        "jDnx+vCf"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Phobias",
       "question_text": "If you have Ombrophobia, what are you afraid of?",
       "image_url": null,
-      "correct_answers": [
-        "nTn29w=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,8 @@
       "category": "Phobias",
       "question_text": "If you have Nephophobia, what are you afraid of?",
       "image_url": null,
-      "correct_answers": [
-        "jDTw7PGe"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
