@@ -19,323 +19,251 @@
     {
       "round_id": 5035,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:00:40.038448+00:00",
-      "round_ended_at": "2026-09-26 16:00:52.472066+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 16:00:40.038448+00:00",
+      "ended_at": "2026-09-26 16:00:52.472066+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What is the term for a boxing win decided by the judges' scorecards without a knockout?",
+      "image_url": null,
       "correct_answers": [
-        "Decision"
+        "iz388OaEiOQ="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 12419,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:00:52.467851+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 12419,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:00:52.467851+00:00"
+        }
+      ]
     },
     {
       "round_id": 5036,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:01:23.522466+00:00",
-      "round_ended_at": "2026-09-26 16:01:32.627711+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 16:01:23.522466+00:00",
+      "ended_at": "2026-09-26 16:01:32.627711+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "_________ Bulls (NBA)",
+      "image_url": null,
       "correct_answers": [
-        "Chicago"
+        "jDD2+vSKiA=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 9093,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:01:32.624298+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 9093,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:01:32.624298+00:00"
+        }
+      ]
     },
     {
       "round_id": 5037,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:02:02.914617+00:00",
-      "round_ended_at": "2026-09-26 16:02:20.380899+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 16:02:02.914617+00:00",
+      "ended_at": "2026-09-26 16:02:20.380899+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "_________ Jets (NFL)",
+      "image_url": null,
       "correct_answers": [
-        "New York"
+        "gT3oucyCleE="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 17454,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:02:20.377449+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 17454,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:02:20.377449+00:00"
+        }
+      ]
     },
     {
       "round_id": 5038,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:02:50.627182+00:00",
-      "round_ended_at": "2026-09-26 16:02:56.597709+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 16:02:50.627182+00:00",
+      "ended_at": "2026-09-26 16:02:56.597709+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What is the term for two consecutive faults on a serve, resulting in a lost point?",
+      "image_url": null,
       "correct_answers": [
-        "Double fault"
+        "izfq+/mIx+wZ3iry"
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 5959,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:02:56.594467+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 5959,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:02:56.594467+00:00"
+        }
+      ]
     },
     {
       "round_id": 5039,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:03:26.827335+00:00",
-      "round_ended_at": "2026-09-26 16:03:47.098650+00:00",
+      "started_at": "2026-09-26 16:03:26.827335+00:00",
+      "ended_at": "2026-09-26 16:03:47.098650+00:00",
       "winner_id": null,
       "category": "Sports",
       "question_text": "What year was the first Super Bowl played?",
+      "image_url": null,
       "correct_answers": [
-        "1967"
+        "/mGprg=="
       ],
-      "answerer_id": null,
-      "response_time_ms": null,
-      "exact_match": null,
-      "points_awarded": null,
-      "answered_at": null
+      "answers": []
     },
     {
       "round_id": 5040,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:04:17.378361+00:00",
-      "round_ended_at": "2026-09-26 16:04:25.375862+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 16:04:17.378361+00:00",
+      "ended_at": "2026-09-26 16:04:25.375862+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What color is the playing area of the courts at the US Open?",
+      "image_url": null,
       "correct_answers": [
-        "Blue"
+        "jTTq/A=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 7985,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:04:25.371477+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 7985,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:04:25.371477+00:00"
+        }
+      ]
     },
     {
       "round_id": 5041,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:04:55.621069+00:00",
-      "round_ended_at": "2026-09-26 16:05:15.841599+00:00",
+      "started_at": "2026-09-26 16:04:55.621069+00:00",
+      "ended_at": "2026-09-26 16:05:15.841599+00:00",
       "winner_id": null,
       "category": "Sports",
       "question_text": "Who has the most wins as a head coach in the NFL?",
+      "image_url": null,
       "correct_answers": [
-        "Don Shula"
+        "izfxucaFkuYZ"
       ],
-      "answerer_id": null,
-      "response_time_ms": null,
-      "exact_match": null,
-      "points_awarded": null,
-      "answered_at": null
+      "answers": []
     },
     {
       "round_id": 5042,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:05:46.420074+00:00",
-      "round_ended_at": "2026-09-26 16:06:01.453836+00:00",
-      "winner_id": 184456115927384065,
+      "started_at": "2026-09-26 16:05:46.420074+00:00",
+      "ended_at": "2026-09-26 16:06:01.453836+00:00",
+      "winner_id": "184456115927384065",
       "category": "Sports",
       "question_text": "What sport uses a broom?",
+      "image_url": null,
       "correct_answers": [
-        "Curling"
+        "jC3t9fyDgA=="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 15017,
-      "exact_match": true,
-      "points_awarded": 6,
-      "answered_at": "2026-09-26 16:06:01.448782+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 15017,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-26 16:06:01.448782+00:00"
+        }
+      ]
     },
     {
       "round_id": 5043,
       "mode": "standard",
-      "round_started_at": "2026-09-26 16:06:31.674069+00:00",
-      "round_ended_at": "2026-09-26 16:06:51.876849+00:00",
+      "started_at": "2026-09-26 16:06:31.674069+00:00",
+      "ended_at": "2026-09-26 16:06:51.876849+00:00",
       "winner_id": null,
       "category": "Sports",
       "question_text": "Who holds the record for most NASCAR wins?",
+      "image_url": null,
       "correct_answers": [
-        "Richard Petty"
+        "nTH88fSfg6oozjLyyQ=="
       ],
-      "answerer_id": null,
-      "response_time_ms": null,
-      "exact_match": null,
-      "points_awarded": null,
-      "answered_at": null
+      "answers": []
     },
     {
       "round_id": 5044,
       "mode": "insane",
-      "round_started_at": "2026-09-26 16:07:22.025798+00:00",
-      "round_ended_at": "2026-09-26 16:08:22.462703+00:00",
+      "started_at": "2026-09-26 16:07:22.025798+00:00",
+      "ended_at": "2026-09-26 16:08:22.462703+00:00",
       "winner_id": null,
       "category": "Star Wars",
       "question_text": "Star Wars: Characters",
+      "image_url": null,
       "correct_answers": [
-        "Luke Skywalker",
-        "Leia Organa",
-        "Han Solo",
-        "Chewbacca",
-        "Obi-Wan Kenobi",
-        "Yoda",
-        "Darth Vader",
-        "Emperor Palpatine",
-        "C-3PO",
-        "R2-D2",
-        "Lando Calrissian",
-        "Boba Fett",
-        "Jabba the Hutt",
-        "Darth Maul",
-        "Qui-Gon Jinn",
-        "Padme Amidala",
-        "Anakin Skywalker",
-        "Mace Windu",
-        "Count Dooku",
-        "General Grievous",
-        "Rey",
-        "Finn",
-        "Poe Dameron",
-        "Kylo Ren",
-        "Snoke",
-        "BB-8",
-        "Din Djarin",
-        "Grogu",
-        "Ahsoka Tano",
-        "Bail Organa",
-        "Mon Mothma",
-        "Admiral Ackbar",
-        "Wedge Antilles",
-        "Jango Fett",
-        "Watto",
-        "Jar Jar Binks",
-        "Nien Nunb",
-        "Greedo",
-        "Cad Bane",
-        "Grand Moff Tarkin"
+        "gy30/LW+jPMPyirt1bk=",
+        "gz32+LWile0ZxSc=",
+        "hznxucaCi+U=",
+        "jDD67veMhOkZ",
+        "gDr2tMKMiaozzijp0qI=",
+        "ljf7+A==",
+        "iznt7f3NsesczjQ=",
+        "ijXv/OeClaooyir20b/lGE4=",
+        "jHWsydo=",
+        "nWqy3ac=",
+        "gznx/frNpOsU2S/1w6LtGA==",
+        "jTf9+LWrgv4M",
+        "hTn9+/TNk+Idiw7zxL8=",
+        "iznt7f3NqusNxw==",
+        "ni32tNKCiaoywijo",
+        "nzn79PDNpucRzyfq0Q==",
+        "jjb+8vyDx9kT0jHn3KDpBA==",
+        "gjn8/LW6juQc3g==",
+        "jDfq9+HNo+UXwDM=",
+        "iD3x/OeMi6o/2S/jxqT5BQ==",
+        "nT3m",
+        "iTHx9w==",
+        "nzf6udGMiu8KxCg=",
+        "hCHz9rW/guQ=",
+        "nDbw8vA=",
+        "jRqyoQ==",
+        "izHxudGHhvgRxQ==",
+        "iCrw/uA=",
+        "jjDs9v6Mx94ZxSk=",
+        "jTn29bWile0ZxSc=",
+        "gjfxudiCk+IVyg==",
+        "jjzy8OeMi6o5yC3k0bk=",
+        "mD37/vDNpuQMwirq1bg=",
+        "hTnx/vrNoe8M3w==",
+        "mDnr7fo=",
+        "hTntud+Mlao6wijtww==",
+        "gTH697WjkuQa",
+        "iCr6/PGC",
+        "jDn7udeMie8=",
+        "iCr+9/HNquUezWbS0bnnH0U="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 49841,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 16:08:11.870097+00:00"
-    },
-    {
-      "round_id": 5044,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 16:07:22.025798+00:00",
-      "round_ended_at": "2026-09-26 16:08:22.462703+00:00",
-      "winner_id": null,
-      "category": "Star Wars",
-      "question_text": "Star Wars: Characters",
-      "correct_answers": [
-        "Luke Skywalker",
-        "Leia Organa",
-        "Han Solo",
-        "Chewbacca",
-        "Obi-Wan Kenobi",
-        "Yoda",
-        "Darth Vader",
-        "Emperor Palpatine",
-        "C-3PO",
-        "R2-D2",
-        "Lando Calrissian",
-        "Boba Fett",
-        "Jabba the Hutt",
-        "Darth Maul",
-        "Qui-Gon Jinn",
-        "Padme Amidala",
-        "Anakin Skywalker",
-        "Mace Windu",
-        "Count Dooku",
-        "General Grievous",
-        "Rey",
-        "Finn",
-        "Poe Dameron",
-        "Kylo Ren",
-        "Snoke",
-        "BB-8",
-        "Din Djarin",
-        "Grogu",
-        "Ahsoka Tano",
-        "Bail Organa",
-        "Mon Mothma",
-        "Admiral Ackbar",
-        "Wedge Antilles",
-        "Jango Fett",
-        "Watto",
-        "Jar Jar Binks",
-        "Nien Nunb",
-        "Greedo",
-        "Cad Bane",
-        "Grand Moff Tarkin"
-      ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 54528,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 16:08:16.556522+00:00"
-    },
-    {
-      "round_id": 5044,
-      "mode": "insane",
-      "round_started_at": "2026-09-26 16:07:22.025798+00:00",
-      "round_ended_at": "2026-09-26 16:08:22.462703+00:00",
-      "winner_id": null,
-      "category": "Star Wars",
-      "question_text": "Star Wars: Characters",
-      "correct_answers": [
-        "Luke Skywalker",
-        "Leia Organa",
-        "Han Solo",
-        "Chewbacca",
-        "Obi-Wan Kenobi",
-        "Yoda",
-        "Darth Vader",
-        "Emperor Palpatine",
-        "C-3PO",
-        "R2-D2",
-        "Lando Calrissian",
-        "Boba Fett",
-        "Jabba the Hutt",
-        "Darth Maul",
-        "Qui-Gon Jinn",
-        "Padme Amidala",
-        "Anakin Skywalker",
-        "Mace Windu",
-        "Count Dooku",
-        "General Grievous",
-        "Rey",
-        "Finn",
-        "Poe Dameron",
-        "Kylo Ren",
-        "Snoke",
-        "BB-8",
-        "Din Djarin",
-        "Grogu",
-        "Ahsoka Tano",
-        "Bail Organa",
-        "Mon Mothma",
-        "Admiral Ackbar",
-        "Wedge Antilles",
-        "Jango Fett",
-        "Watto",
-        "Jar Jar Binks",
-        "Nien Nunb",
-        "Greedo",
-        "Cad Bane",
-        "Grand Moff Tarkin"
-      ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 58674,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 16:08:20.703072+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 49841,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 16:08:11.870097+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 54528,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 16:08:16.556522+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 58674,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 16:08:20.703072+00:00"
+        }
+      ]
     }
   ]
 }
