@@ -25,7 +25,6 @@
   table.grid th { font: 10px/1.6 var(--pixel); color: var(--muted); font-weight: 400; }
   table.grid td:first-child, table.grid th:first-child { text-align: left; }
   .res-w { color: var(--neon); } .res-l { color: var(--pink); } .res-t { color: var(--yellow); }
-  .quote { color: var(--muted); font-style: italic; }
 </style>
 </head>
 <body>
@@ -65,12 +64,11 @@
   }
 
   // ---------- one player ----------
-  let u, matches, kirk;
+  let u, matches;
   try {
-    [u, matches, kirk] = await Promise.all([
+    [u, matches] = await Promise.all([
       B.json(`stats/users/${encodeURIComponent(id)}.json`),
       B.allMatches().catch(() => []),
-      B.json("kirkening.json").catch(() => ({ events: [] })),
     ]);
   } catch (e) { B.fail(app, e); return; }
   const me = lb.players.find(p => p.user_id === id);
@@ -176,17 +174,6 @@
           el("span", { class: "when" }, B.when(m.ended_at)));
       })));
       out.push(el("p", { class: "page-sub" }, "Every duel, plus games this player won or started."));
-    }
-
-    // Kirkening reigns
-    const reigns = [];
-    for (const ev of kirk.events || []) for (const r of ev.reigns) if (r.user_id === id) reigns.push({ ...r, year: ev.year });
-    if (reigns.length) {
-      out.push(el("h2", { class: "section" }, `KIRKENING REIGNS · ${reigns.length}`, el("a", { href: "kirkening.html" }, "KIRKENING ▸")));
-      out.push(el("div", { class: "mlist" }, reigns.map(r => el("div", { class: "mrow", style: { "--c": "var(--yellow)" } },
-        el("span", { class: "kind" }, `${r.year} · ${B.time(r.crowned_at)}`),
-        el("span", { class: "what" }, `Held for ${B.dur(r.reign_ms)}`, r.message_content ? el("span", { class: "quote" }, ` · "${r.message_content}"`) : null),
-        el("span", { class: "when" }, B.day(r.crowned_at))))));
     }
 
     // achievements

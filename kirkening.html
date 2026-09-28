@@ -21,9 +21,12 @@
   .reign .bar { grid-column: 2; height: 12px; background: var(--line-dim); }
   .reign .bar span { display: block; height: 100%; background: var(--yellow); }
   .reign .meta { grid-column: 2; color: var(--muted); }
+  .reign .quote { grid-column: 2; font-size: 24px; color: var(--text); overflow-wrap: anywhere; }
+  .reign .quote::before { content: "C"; color: var(--yellow); }
+  .reign .quote::after { content: "D"; color: var(--yellow); }
   .reign.final .t { color: var(--yellow); }
   .reign.final { border-bottom-color: var(--yellow); }
-  @media (max-width: 520px) { .throne { grid-template-columns: 1fr; } .reign { grid-template-columns: 1fr; } .reign .bar, .reign .meta { grid-column: 1; } }
+  @media (max-width: 520px) { .throne { grid-template-columns: 1fr; } .reign { grid-template-columns: 1fr; } .reign .bar, .reign .meta, .reign .quote { grid-column: 1; } }
 </style>
 </head>
 <body>
@@ -69,20 +72,54 @@
   tick(); setInterval(tick, 1000);
   out.push(cd);
 
-  // ---------- all-time ----------
-  const totals = [...(k.totals || [])].sort((a, b) => b.reign_ms - a.reign_ms || b.crowns - a.crowns);
+  // ---------- records + all-time table ----------
+  const totals = k.totals || [];
+  const allReigns = (k.events || []).flatMap(ev => ev.reigns.map(r => ({ ...r, year: ev.year })));
   if (totals.length) {
-    out.push(el("h2", { class: "section" }, "ALL-TIME KIRKS", el("a", { href: "leaderboard.html#kirkening_reign_ms|alltime" }, "LEADERBOARD ▸")));
-    out.push(el("div", { class: "table-scroll" }, el("table", { class: "scores" },
-      el("thead", {}, el("tr", {}, el("th", {}, "RANK"), el("th", { class: "num" }, "TIME HELD"), el("th", {}, "NAME"),
-        el("th", { class: "num" }, "CROWNS"), el("th", { class: "num" }, "LONGEST"), el("th", { class: "num" }, "YEARS KEPT"))),
-      el("tbody", {}, totals.map((t, i) => el("tr", { class: "row", style: { color: i < 5 ? B.rankColor(i) : "var(--text)" }, onclick: () => (location.href = B.playerHref(t.user_id)) },
-        el("td", { class: "rank" }, B.ordinal(i + 1)),
-        el("td", { class: "big num" }, B.dur(t.reign_ms)),
-        el("td", {}, el("div", { class: "who" }, B.avatar(t.user_id), B.playerLink(t.user_id))),
-        el("td", { class: "num dim" }, String(t.crowns)),
-        el("td", { class: "num dim" }, B.dur(t.longest_reign_ms)),
-        el("td", { class: "num dim" }, String(t.years_won))))))));
+    const best = f => [...totals].sort((a, b) => f(b) - f(a))[0];
+    const shortest = [...allReigns].filter(r => r.reign_ms > 0).sort((a, b) => a.reign_ms - b.reign_ms)[0];
+    const recs = [
+      ["MOST TIME AS KIRK", best(t => t.reign_ms), t => B.dur(t.reign_ms)],
+      ["MOST CROWNS", best(t => t.crowns), t => `${t.crowns} CROWNS`],
+      ["LONGEST SINGLE REIGN", best(t => t.longest_reign_ms), t => B.dur(t.longest_reign_ms)],
+      ["MOST YEARS KEPT", best(t => t.years_won), t => `${t.years_won} YEAR${t.years_won === 1 ? "" : "S"}`],
+    ];
+    out.push(el("h2", { class: "section" }, "RECORDS"));
+    out.push(el("div", { class: "tiles" },
+      recs.filter(([, t]) => t).map(([label, t, show], i) => el("div", { class: "tile", style: { "--c": B.rankColor(i) } },
+        el("span", { class: "label" }, label), el("span", { class: "value" }, show(t)), el("span", { class: "sub" }, B.playerLink(t.user_id)))),
+      shortest ? el("div", { class: "tile", style: { "--c": "var(--purple)" } },
+        el("span", { class: "label" }, "SHORTEST REIGN"), el("span", { class: "value" }, B.dur(shortest.reign_ms)),
+        el("span", { class: "sub" }, B.playerLink(shortest.user_id), ` · ${shortest.year}`)) : null,
+      el("div", { class: "tile", style: { "--c": "var(--cyan)" } },
+        el("span", { class: "label" }, "CROWNINGS EVER"), el("span", { class: "value" }, String(allReigns.length)),
+        el("span", { class: "sub" }, `${totals.length} different Kirks`))));
+
+    const COLS = [
+      ["reign_ms", "TIME HELD", t => B.dur(t.reign_ms)],
+      ["crowns", "CROWNS", t => String(t.crowns)],
+      ["longest_reign_ms", "LONGEST", t => B.dur(t.longest_reign_ms)],
+      ["avg", "AVERAGE", t => B.dur(t.crowns ? t.reign_ms / t.crowns : 0)],
+      ["years_won", "YEARS KEPT", t => String(t.years_won)],
+    ];
+    let sortKey = "reign_ms";
+    const val = (t, key) => (key === "avg" ? (t.crowns ? t.reign_ms / t.crowns : 0) : t[key]);
+    const tableBox = el("div", { class: "table-scroll" });
+    const sortBtns = el("div", { class: "btns", role: "group", "aria-label": "Sort Kirks by" });
+    const drawTable = () => {
+      sortBtns.replaceChildren(...COLS.map(([key, label]) => el("button", { class: "btn", type: "button", "aria-pressed": String(key === sortKey),
+        onclick: () => { sortKey = key; drawTable(); } }, label)));
+      const rows = [...totals].sort((a, b) => val(b, sortKey) - val(a, sortKey) || b.reign_ms - a.reign_ms);
+      tableBox.replaceChildren(el("table", { class: "scores" },
+        el("thead", {}, el("tr", {}, el("th", {}, "RANK"), el("th", {}, "NAME"), COLS.map(([key, label]) =>
+          el("th", { class: "num", style: { color: key === sortKey ? "var(--neon)" : "" } }, label)))),
+        el("tbody", {}, rows.map((t, i) => el("tr", { style: { color: i < 5 ? B.rankColor(i) : "var(--text)" } },
+          el("td", { class: "rank" }, B.ordinal(i + 1)),
+          el("td", {}, el("div", { class: "who" }, B.avatar(t.user_id), B.playerLink(t.user_id))),
+          COLS.map(([key, , show]) => el("td", { class: key === sortKey ? "big num" : "num dim" }, show(t))))))));
+    };
+    drawTable();
+    out.push(el("h2", { class: "section" }, "ALL-TIME KIRKS"), sortBtns, el("div", { style: { height: "14px" } }), tableBox);
   }
 
   // ---------- each year ----------
@@ -96,8 +133,8 @@
         el("span", { class: "t" }, B.time(r.crowned_at)),
         el("span", { class: "p" }, B.avatar(r.user_id), B.playerLink(r.user_id)),
         el("div", { class: "bar", title: B.dur(r.reign_ms) }, el("span", { style: { width: `${Math.max(1, (100 * r.reign_ms) / span)}%` } })),
-        el("span", { class: "meta" }, `Held ${B.dur(r.reign_ms)}`, final ? " · KEPT THE CROWN FOR THE YEAR" : "",
-          r.message_content ? ` · "${r.message_content}"` : ""));
+        el("span", { class: "meta" }, `Held ${B.dur(r.reign_ms)}`, final ? " · KEPT THE CROWN FOR THE YEAR" : ""),
+        r.message_content ? el("span", { class: "quote" }, r.message_content) : null);
     })));
   }
   if (!(k.events || []).length) out.push(el("div", { class: "loading" }, "NO CROWNINGS YET"));

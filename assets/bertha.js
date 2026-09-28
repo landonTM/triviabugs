@@ -116,7 +116,7 @@ const B = (() => {
   const GROUPS = [
     ["xp", "XP & LEVEL"], ["points", "POINTS & ANSWERS"], ["speed", "SPEED & ACCURACY"], ["streaks", "STREAKS"],
     ["games", "GAMES"], ["duels", "DUELS"], ["season", "SEASON"], ["progress", "MISSIONS & ACHIEVEMENTS"],
-    ["kirkening", "KIRKENING"], ["community", "COMMUNITY"], ["categories", "CATEGORIES"],
+    ["community", "COMMUNITY"], ["categories", "CATEGORIES"],
   ];
   const XP_NOTE = "XP earned is tracked per grant since Sep 28, 2026.";
   const GAMES_NOTE = "Per-mode game history starts Sep 22, 2026; all-time totals include everything before.";
@@ -190,11 +190,6 @@ const B = (() => {
     M("missions", "MISSIONS COMPLETED", "progress", per("missions")),
     M("achievements", "ACHIEVEMENTS UNLOCKED", "progress", per("achievements")),
     M("cosmetics_owned", "COSMETICS OWNED", "progress", cur("cosmetics_owned"), { period: false }),
-
-    M("crowns", "KIRKENING CROWNS", "kirkening", per("crowns")),
-    M("kirkening_reign_ms", "TIME AS KIRK", "kirkening", cur("kirkening_reign_ms"), { period: false, show: dur, note: "Time held during the Sept 10 events." }),
-    M("kirkening_longest_reign_ms", "LONGEST REIGN", "kirkening", cur("kirkening_longest_reign_ms"), { period: false, show: dur }),
-    M("kirkening_years_won", "YEARS KEPT THE CROWN", "kirkening", cur("kirkening_years_won"), { period: false }),
 
     M("bug_reports", "BUG REPORTS FILED", "community", per("bug_reports")),
     M("bugs_fixed", "REPORTS THAT GOT FIXED", "community", per("bugs_fixed")),

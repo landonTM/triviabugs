@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bertha · The Trivia Machine</title>
-<meta name="description" content="Leaderboards, player stats, match replays and the Kirkening for Bertha, the Discord trivia bot.">
+<meta name="description" content="Leaderboards, player stats and match replays for Bertha, the Discord trivia bot.">
 <link rel="stylesheet" href="assets/arcade.css">
 <script src="assets/bertha.js"></script>
 </head>
@@ -30,11 +30,10 @@
 
   try {
     await B.loadPlayers();
-    const [lb, matches, bugs, kirk, missions] = await Promise.all([
+    const [lb, matches, bugs, missions] = await Promise.all([
       B.json("stats/leaderboard.json"),
       B.allMatches(),
       B.json("bug-reports.json").catch(() => ({ reports: [] })),
-      B.json("kirkening.json").catch(() => null),
       B.json("missions.json").catch(() => ({ week: null })),
     ]);
     const levels = Object.fromEntries(lb.players.map(p => [p.user_id, p.level.level]));
@@ -83,7 +82,6 @@
     const tiles = [];
     const daily = matches.find(m => m.kind === "game" && m.mode === "daily" && m.winner_id);
     if (daily) tiles.push(["DAILY CHAMP", B.playerLink(daily.winner_id), `${daily.rounds_played} rounds · ${B.day(daily.ended_at)}`, "var(--yellow)"]);
-    if (kirk && kirk.holder) tiles.push(["THE KIRK", B.playerLink(kirk.holder.user_id), `crowned ${B.day(kirk.holder.updated_at)}`, "var(--yellow)", "kirkening.html"]);
     const streak = top("best_streak");
     if (streak) tiles.push(["LONGEST COMBO", `${streak.v} IN A ROW`, B.name(streak.p.user_id), "var(--cyan)"]);
     const games = matches.filter(m => m.kind === "game").length;
