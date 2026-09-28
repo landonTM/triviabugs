@@ -24,9 +24,7 @@
       "category": "Movies",
       "question_text": "In Ferris Bueller's Day Off, what expensive car belongs to Cameron's father?",
       "image_url": null,
-      "correct_answers": [
-        "iT3t6/Sfjg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Art and Literature",
       "question_text": "Who wrote the 'Noddy Stories'?",
       "image_url": null,
-      "correct_answers": [
-        "ijb2/bWvi/MMxCg="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,8 @@
       "category": "Video Games",
       "question_text": "Who is the main villain of the Crash Bandicoot series?",
       "image_url": null,
-      "correct_answers": [
-        "gT3wudaClf4d0w=="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
