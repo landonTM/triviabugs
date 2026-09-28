@@ -6,7 +6,9 @@
     "challenger_id": "433990857063137282",
     "opponent_id": "184456115927384065",
     "format": 3,
+    "format_label": "Best of 3",
     "winner_id": "433990857063137282",
+    "is_tie": false,
     "challenger_score": 2,
     "opponent_score": 0,
     "decided_by_tiebreaker": false,
@@ -16,25 +18,27 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 15508,
       "answered_at": "2026-09-24 22:12:37.029497+00:00",
       "category": "Music",
       "question_text": "Where does \"Gasolina\" rapper Daddy Yankee originate from?",
+      "image_url": null,
       "correct_answers": [
-        "Puerto Rico"
+        "ny366+GCx9gRyCk="
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 3883,
       "answered_at": "2026-09-24 22:12:37.029497+00:00",
       "category": "Marvel",
       "question_text": "Who is Matt Murdock's best friend and law partner?",
+      "image_url": null,
       "correct_answers": [
-        "Foggy Nelson"
+        "iTf4/uzNqe8U2Cno"
       ]
     }
   ]
