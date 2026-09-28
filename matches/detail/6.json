@@ -25,9 +25,7 @@
       "category": "Elements",
       "question_text": "What is the element symbol of \"Chromium\"?",
       "image_url": null,
-      "correct_answers": [
-        "jCo="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -47,9 +45,7 @@
       "category": "Elements",
       "question_text": "What is the element symbol of \"Radium\"?",
       "image_url": null,
-      "correct_answers": [
-        "nTk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -69,9 +65,7 @@
       "category": "Elements",
       "question_text": "What is the element symbol of \"Lawrencium\"?",
       "image_url": null,
-      "correct_answers": [
-        "gyo="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -91,9 +85,7 @@
       "category": "Elements",
       "question_text": "What is the element symbol of \"Argon\"?",
       "image_url": null,
-      "correct_answers": [
-        "jio="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "794420965387403265",
@@ -113,9 +105,7 @@
       "category": "Elements",
       "question_text": "What is the element symbol of \"Arsenic\"?",
       "image_url": null,
-      "correct_answers": [
-        "jis="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -126,5 +116,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
