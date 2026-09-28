@@ -24,9 +24,7 @@
       "category": "World Cup",
       "question_text": "Who collected the most Player Of The Match awards in 2022 Qatar (5)?",
       "image_url": null,
-      "correct_answers": [
-        "gzHw9/CBx8cd2DXv"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,8 @@
       "category": "Disney",
       "question_text": "In Alice in Wonderland, what is the White Rabbit carrying aside from his pocket watch when he meets Alice?",
       "image_url": null,
-      "correct_answers": [
-        "ujX96/CBi+s="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
