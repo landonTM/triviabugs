@@ -118,18 +118,11 @@ const B = (() => {
     ["games", "GAMES"], ["duels", "DUELS"], ["season", "SEASON"], ["progress", "MISSIONS & ACHIEVEMENTS"],
     ["community", "COMMUNITY"], ["categories", "CATEGORIES"],
   ];
-  const XP_NOTE = "XP earned is tracked per grant since Sep 28, 2026.";
   const GAMES_NOTE = "Per-mode game history starts Sep 22, 2026; all-time totals include everything before.";
   const M = (key, label, group, get, extra = {}) => ({ key, label, group, get, show: fmt, period: true, ...extra });
   const METRICS = [
     M("total_xp", "TOTAL XP", "xp", p => p.total_xp, { period: false }),
     M("level", "LEVEL", "xp", p => p.level.level, { period: false, tiebreak: p => p.total_xp }),
-    M("xp", "XP EARNED", "xp", per("xp"), { note: XP_NOTE }),
-    M("xp_game", "XP FROM GAMES", "xp", per("xp_game"), { note: XP_NOTE }),
-    M("xp_duel", "XP FROM DUELS", "xp", per("xp_duel"), { note: XP_NOTE }),
-    M("xp_achievement", "XP FROM ACHIEVEMENTS", "xp", per("xp_achievement"), { note: XP_NOTE }),
-    M("xp_mission", "XP FROM MISSIONS", "xp", per("xp_mission"), { note: XP_NOTE }),
-    M("xp_season_prize", "XP FROM SEASON PRIZES", "xp", per("xp_season_prize"), { note: XP_NOTE }),
     M("boost_hours_banked", "XP BOOST HOURS BANKED", "xp", cur("boost_hours_banked"), { period: false, show: v => `${v}h` }),
 
     M("points", "POINTS", "points", per("points")),

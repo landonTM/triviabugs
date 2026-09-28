@@ -117,8 +117,8 @@
     const COLORS = ["var(--yellow)", "var(--cyan)", "var(--pink)", "var(--neon)", "var(--purple)"];
     B.GROUPS.filter(([g]) => g !== "categories").forEach(([g, label], gi) => {
       const ms = B.METRICS.filter(m => m.group === g);
-      out.push(el("h2", { class: "section" }, label, g === "xp" || g === "games"
-        ? el("span", { class: "pill", style: { color: "var(--muted)" } }, g === "xp" ? "XP BY PERIOD SINCE SEP 28" : "MODES SINCE SEP 22") : null));
+      out.push(el("h2", { class: "section" }, label, g === "games"
+        ? el("span", { class: "pill", style: { color: "var(--muted)" } }, "MODES SINCE SEP 22") : null));
       out.push(el("div", { class: "tiles" }, ms.map(m => tile(m, period, COLORS[gi % COLORS.length]))));
     });
 
