@@ -25,9 +25,7 @@
       "category": "Sports",
       "question_text": "Tiger Woods became a professional golfer in what year?",
       "image_url": null,
-      "correct_answers": [
-        "/mGmrw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Sports",
       "question_text": "What was the nickname for Wimbledon's traditional rest day in the middle of the tournament, a tradition that ended in 2022?",
       "image_url": null,
-      "correct_answers": [
-        "gjH7/fmIx9kNxSLnyQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -69,9 +65,7 @@
       "category": "Sports",
       "question_text": "In what country did table tennis originate?",
       "image_url": null,
-      "correct_answers": [
-        "ijb49fSDgw=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -91,9 +85,7 @@
       "category": "Sports",
       "question_text": "In what year was tennis removed from the Olympic program, not returning as a full medal sport until 1988?",
       "image_url": null,
-      "correct_answers": [
-        "/mGtrQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -113,9 +105,7 @@
       "category": "Sports",
       "question_text": "What is the top domestic soccer league in France called?",
       "image_url": null,
-      "correct_answers": [
-        "gzH47PDN1g=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -135,9 +125,7 @@
       "category": "Sports",
       "question_text": "Who holds the NBA record for most career points scored?",
       "image_url": null,
-      "correct_answers": [
-        "gz3d6/qDx8AZxiP1"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -157,9 +145,7 @@
       "category": "Sports",
       "question_text": "_________ Nets (NBA)",
       "image_url": null,
-      "correct_answers": [
-        "jSrw9v6BnuQ="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -179,9 +165,7 @@
       "category": "Sports",
       "question_text": "What is the term for an ice hockey shot taken alone against the goalie with no other defenders, after a penalty?",
       "image_url": null,
-      "correct_answers": [
-        "nz3x+PmZnqorwyny"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -201,9 +185,7 @@
       "category": "Sports",
       "question_text": "Who was the first golfer to win more than $1 million in official earnings in a single year?",
       "image_url": null,
-      "correct_answers": [
-        "jC3t7fyex9kM2Sfo164="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -215,35 +197,7 @@
       "category": "General Knowledge",
       "question_text": "Books of the New Testament",
       "image_url": null,
-      "correct_answers": [
-        "gjnr7f2IkA==",
-        "gjnt8g==",
-        "gy30/A==",
-        "hTf39w==",
-        "jjvr6g==",
-        "nTfy+Pue",
-        "/njc9ueEif4Qwifoww==",
-        "/Xjc9ueEif4Qwifoww==",
-        "iDnz+OGEhuQL",
-        "iij3/OaEhuQL",
-        "nzD29fydl+MZxTU=",
-        "jDfz9uaejusW2A==",
-        "/njL8fCelOsUxCjv0aX/",
-        "/XjL8fCelOsUxCjv0aX/",
-        "/njL8PiCk+IB",
-        "/XjL8PiCk+IB",
-        "mzHr7OY=",
-        "nzD29fCAiOQ=",
-        "hz396/CalA==",
-        "hTny/OY=",
-        "/njP/OGIlQ==",
-        "/XjP/OGIlQ==",
-        "/njV9v2D",
-        "/XjV9v2D",
-        "/HjV9v2D",
-        "hS37/A==",
-        "nT3p/PmMk+MXxQ=="
-      ],
+      "answer_count": 27,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -268,5 +222,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
