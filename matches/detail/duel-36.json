@@ -24,9 +24,7 @@
       "category": "Marvel",
       "question_text": "What is Killmonger's relationship to T'Challa?",
       "image_url": null,
-      "correct_answers": [
-        "jDfq6vyD"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Disney",
       "question_text": "Who sent Aladdin into the Cave of Wonders?",
       "image_url": null,
-      "correct_answers": [
-        "hTn5+Oc="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
       "image_url": "https://i.imgur.com/7OqhNc4.png",
-      "correct_answers": [
-        "nz3t7A=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Pokemon",
       "question_text": "What type has the fewest special attacking moves?",
       "image_url": null,
-      "correct_answers": [
-        "nTf88g=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,8 @@
       "category": "Music",
       "question_text": "Which band released the debut album 'A Fever You Can't Sweat Out'?",
       "image_url": null,
-      "correct_answers": [
-        "nznx8PbMx+sMizLu1evIH1jHuQ=="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
