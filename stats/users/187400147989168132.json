@@ -3495,5 +3495,34 @@
       "source": null
     }
   ],
+  "equipped": {
+    "footer": {
+      "key": "default",
+      "label": "Poo & Trin Footer",
+      "template": null
+    },
+    "emoji": {
+      "key": "default",
+      "label": "Trivia Emoji Pack",
+      "correct": "👍",
+      "streak": "🔥",
+      "speed": "⏰"
+    },
+    "theme": {
+      "key": "default",
+      "label": "Standard Response Theme"
+    },
+    "embedcolor": {
+      "key": "default",
+      "label": "Default Embed",
+      "hex": null
+    },
+    "mvp": {
+      "key": "default",
+      "label": "Default MVP",
+      "quote": null,
+      "gif": null
+    }
+  },
   "rivals": []
 }
