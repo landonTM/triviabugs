@@ -68,17 +68,17 @@
         "text": "Play 12 games",
         "players": [
           {
+            "user_id": "433990857063137282",
+            "progress": 4,
+            "completed_at": null
+          },
+          {
             "user_id": "795847206719717386",
-            "progress": 3,
+            "progress": 4,
             "completed_at": null
           },
           {
             "user_id": "734768348201615400",
-            "progress": 3,
-            "completed_at": null
-          },
-          {
-            "user_id": "433990857063137282",
             "progress": 3,
             "completed_at": null
           },
@@ -129,6 +129,11 @@
           {
             "user_id": "795847206719717386",
             "progress": 3,
+            "completed_at": null
+          },
+          {
+            "user_id": "433990857063137282",
+            "progress": 1,
             "completed_at": null
           }
         ]
