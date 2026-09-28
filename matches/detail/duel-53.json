@@ -1,0 +1,151 @@
+{
+  "match": {
+    "id": 53,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 105,
+    "format_label": "First to 5",
+    "winner_id": "184456115927384065",
+    "is_tie": false,
+    "challenger_score": 5,
+    "opponent_score": 2,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-28 00:16:36.863254+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 4865,
+      "answered_at": "2026-09-28 00:16:36.865325+00:00",
+      "category": "Sports",
+      "question_text": "What is the name of the award given annually to the best young player in world soccer under 21?",
+      "correct_answers": [
+        "Golden Boy"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 00:16:36.865325+00:00",
+      "category": "Phobias",
+      "question_text": "If you have Sophophobia, what are you afraid of?",
+      "correct_answers": [
+        "Learning"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 00:16:36.865325+00:00",
+      "category": "Video Games",
+      "question_text": "What was the code name given to Sonic the Hedgehog 4 during its development?",
+      "correct_answers": [
+        "Project Needlemouse"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 12748,
+      "answered_at": "2026-09-28 00:16:36.865325+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "correct_answers": [
+        "South Sudan"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 00:16:36.865325+00:00",
+      "category": "Chemistry",
+      "question_text": "What is the most abundant protein in the human blood plasma?",
+      "correct_answers": [
+        "albumin"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 4735,
+      "answered_at": "2026-09-28 00:16:36.865325+00:00",
+      "category": "General Knowledge",
+      "question_text": "How many degrees are in a full circle?",
+      "correct_answers": [
+        "360"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 3956,
+      "answered_at": "2026-09-28 00:16:36.865325+00:00",
+      "category": "Music",
+      "question_text": "Thom Yorke is the lead singer with which band?",
+      "correct_answers": [
+        "Radiohead"
+      ]
+    },
+    {
+      "round_number": 8,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 9113,
+      "answered_at": "2026-09-28 00:16:36.865325+00:00",
+      "category": "Sports",
+      "question_text": "What is the Italian term for the emblem worn by the reigning Serie A champions the following season?",
+      "correct_answers": [
+        "Scudetto"
+      ]
+    },
+    {
+      "round_number": 9,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 00:16:36.865325+00:00",
+      "category": "Video Games",
+      "question_text": "What artificial intelligence companion frequently assists Master Chief?",
+      "correct_answers": [
+        "Cortana"
+      ]
+    },
+    {
+      "round_number": 10,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 9556,
+      "answered_at": "2026-09-28 00:16:36.865325+00:00",
+      "category": "Art and Literature",
+      "question_text": "A painting movement that flourished in France in the 1880s and 1890s in which subject matter was suggested rather than directly presented. It featured decorative, stylized, and evocative images?",
+      "correct_answers": [
+        "Symbolism"
+      ]
+    },
+    {
+      "round_number": 11,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 5715,
+      "answered_at": "2026-09-28 00:16:36.865325+00:00",
+      "category": "General Knowledge",
+      "question_text": "What does ET stand for in the 1982 Steven Spielberg film?",
+      "correct_answers": [
+        "Extraterrestrial"
+      ]
+    }
+  ]
+}
