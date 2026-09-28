@@ -23,9 +23,7 @@
       "category": "MLB",
       "question_text": "Which player led the American League in home runs in 1909 without hitting any over the fence?",
       "image_url": null,
-      "correct_answers": [
-        "myG/2vqPhQ=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -37,9 +35,7 @@
       "category": "Lord of the Rings",
       "question_text": "What are the Black Riders pursuing Arwen and Frodo to the Ford of Bruinen called?",
       "image_url": null,
-      "correct_answers": [
-        "gTnl/lZWiw=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -51,9 +47,7 @@
       "category": "Disney",
       "question_text": "Which of the seven dwarfs has the longest beard?",
       "image_url": null,
-      "correct_answers": [
-        "nDT6/OWU"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -73,9 +67,7 @@
       "category": "Computers",
       "question_text": "A network technician is configuring port security on switches. The interfaces on the switches are configured in such a way that when a violation occurs, packets with unknown source address are dropped and no notification is sent. Which violation mode is configured on the interfaces?",
       "image_url": null,
-      "correct_answers": [
-        "nyrw7fCOkw=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -87,9 +79,7 @@
       "category": "Game of Thrones",
       "question_text": "Who succeeds Jon Arryn as Robert Baratheon's Hand of the King?",
       "image_url": null,
-      "correct_answers": [
-        "gT37ucaZhvgT"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -109,9 +99,7 @@
       "category": "Quotes",
       "question_text": "Who said: \"We will bury you!\"",
       "image_url": null,
-      "correct_answers": [
-        "gTH08OGMx8EQ2TP12KjkE10="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -123,9 +111,7 @@
       "category": "Sports",
       "question_text": "In snooker, what is the standard maximum break (without a free ball)?",
       "image_url": null,
-      "correct_answers": [
-        "/myo"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -145,7 +131,7 @@
       "category": null,
       "question_text": null,
       "image_url": null,
-      "correct_answers": null,
+      "answer_count": 0,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -165,9 +151,7 @@
       "category": "Whos That Pokemon (Gen 8)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/t1mvhsG.png",
-      "correct_answers": [
-        "gC766+SajuY="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -179,16 +163,7 @@
       "category": "Geography",
       "question_text": "What European countries does Austria border?",
       "image_url": null,
-      "correct_answers": [
-        "iD3t9PSDng==",
-        "jCL6+v3Nte8I3iTq2ag=",
-        "nDTw7/SGjus=",
-        "hy3x/vSfng==",
-        "nDTw7/CDjus=",
-        "hiz+9ew=",
-        "nC/27e+IleYZxSI=",
-        "gzH6+v2ZguQL3yPv3g=="
-      ],
+      "answer_count": 8,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -250,9 +225,7 @@
       "category": "Pokemon",
       "question_text": "In Ruby/Sapphire/Emerald Pokéblock feeders in the Safari Zone attract Pokémon based on their what?",
       "image_url": null,
-      "correct_answers": [
-        "gTnr7OeI"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -264,9 +237,7 @@
       "category": "Harry Potter",
       "question_text": "To get into the Ministry of Magic via the visitor’s entrance, what number must be dialed?",
       "image_url": null,
-      "correct_answers": [
-        "+Wqrrac="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -278,9 +249,7 @@
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
       "image_url": "https://i.imgur.com/3H3Lfat.png",
-      "correct_answers": [
-        "mzD6ucWFjuYR2zbv3q7/"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -300,9 +269,7 @@
       "category": "Whos That Pokemon (Gen 1)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/rq8Q3HN.png",
-      "correct_answers": [
-        "iDfz/eCOjA=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -314,9 +281,7 @@
       "category": "Movies",
       "question_text": "In Scream, who plays Sidney Prescott?",
       "image_url": null,
-      "correct_answers": [
-        "gT3p/LWuhucIySPq3A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -336,9 +301,7 @@
       "category": "Quotes",
       "question_text": "Who said: \"If I have seen further, it is by standing on the shoulders of giants.\"",
       "image_url": null,
-      "correct_answers": [
-        "hiv++PbNqe8P3yno"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -358,9 +321,7 @@
       "category": "Space",
       "question_text": "One year on Jupiter lasts approximately how many Earth years, rounded to the nearest whole number?",
       "image_url": null,
-      "correct_answers": [
-        "/mo="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -380,9 +341,7 @@
       "category": "Wrestling",
       "question_text": "Bam Bam Bigelow faced Lawrence Taylor in this WrestleMania's main event.",
       "image_url": null,
-      "correct_answers": [
-        "/mk="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -402,9 +361,7 @@
       "category": "Conundrums",
       "question_text": "Deleterious",
       "image_url": null,
-      "correct_answers": [
-        "iz3z/OGIleMX3jU="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -416,28 +373,7 @@
       "category": "Video Games",
       "question_text": "PlayStation Consoles & Handhelds",
       "image_url": null,
-      "correct_answers": [
-        "nzT+4MaZhv4RxCg=",
-        "nwu/9vuI",
-        "nzT+4MaZhv4RxCimgg==",
-        "nwutucaBjuc=",
-        "nzT+4MaZhv4RxCimgw==",
-        "nwusucaBjuc=",
-        "nwusucaYl+8KixXq2aY=",
-        "nzT+4MaZhv4RxCimhA==",
-        "nwurucaBjuc=",
-        "nwurucWfiA==",
-        "nzT+4MaZhv4RxCimhQ==",
-        "nwuqucaBjuc=",
-        "nwuqucWfiA==",
-        "nwvP",
-        "nwvPtKfd17o=",
-        "nwvPtKbd17o=",
-        "nwvPudKC",
-        "nwvPucaZle8d3w==",
-        "nzT+4MaZhv4RxCim5qL4Fw==",
-        "nwu/z/yZhqorxy/r"
-      ],
+      "answer_count": 20,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -541,9 +477,7 @@
       "category": "Whos That Pokemon (Gen 1)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/y5dbZrK.png",
-      "correct_answers": [
-        "hDf5//yDgA=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -563,9 +497,7 @@
       "category": "Harry Potter",
       "question_text": "What is considered Harry's 'trademark spell'?",
       "image_url": null,
-      "correct_answers": [
-        "iiDv/PmBjusKxjP1"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -585,9 +517,7 @@
       "category": "Slogans",
       "question_text": "The nighttime sniffling sneezing coughing aching stuffy head fever so you can rest medicine.",
       "image_url": null,
-      "correct_answers": [
-        "gSHO7PyB"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -607,9 +537,7 @@
       "category": "Entertainment",
       "question_text": "Singing without instrumental back up is called what?",
       "image_url": null,
-      "correct_answers": [
-        "rnj8+OWdguYUyg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -629,9 +557,7 @@
       "category": "Pokemon",
       "question_text": "Which starter from Generation II cannot be found in a Pokéball in Super Smash Bros. Melee?",
       "image_url": null,
-      "correct_answers": [
-        "mzfr9vGEi+8="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -643,9 +569,7 @@
       "category": "World Cup",
       "question_text": "The 2026 World Cup was jointly hosted by ______, United States, and Mexico.",
       "image_url": null,
-      "correct_answers": [
-        "jDnx+PGM"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -665,9 +589,7 @@
       "category": "Game of Thrones",
       "question_text": "What is the name of the war fought between Robert Baratheon and the Targaryen dynasty?",
       "image_url": null,
-      "correct_answers": [
-        "nTf9/OeZwPlY+SPk1afgH0TK"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -687,9 +609,7 @@
       "category": "General Knowledge",
       "question_text": "The caber, kilts and bagpipes are all associated with which European country?",
       "image_url": null,
-      "correct_answers": [
-        "nDvw7fmMie4="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -709,9 +629,7 @@
       "category": "Whos That Pokemon (Gen 5)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/BIPkwUk.png",
-      "correct_answers": [
-        "hTfz7fyG"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -731,31 +649,7 @@
       "category": "Sports",
       "question_text": "Every Summer Olympics host city",
       "image_url": null,
-      "correct_answers": [
-        "jiz3/Pue",
-        "nznt8OY=",
-        "nCyxudmCkuML",
-        "gzfx/fqD",
-        "nCzw+v6FiOYV",
-        "jjbr7vCflw==",
-        "jjXs7fCfg+sV",
-        "gzfsudSDgO8UzjU=",
-        "jT3t9fyD",
-        "hz3z6vyDjOM=",
-        "gj3z+/qYleQd",
-        "nTfy/A==",
-        "mzf04Po=",
-        "gj3n8PaCx8kR3z8=",
-        "gi3x8PaF",
-        "gjfx7eeIhuY=",
-        "gjfs+vqa",
-        "nD3w7Pk=",
-        "jTnt+vCBiOQZ",
-        "jizz+PuZhg==",
-        "nCH79/CU",
-        "jT328/yDgA==",
-        "nTHwufGIx8AZxSPvwqQ="
-      ],
+      "answer_count": 23,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -880,9 +774,7 @@
       "category": "Art and Literature",
       "question_text": "Who wrote 'A Tale Of Two Cities'?",
       "image_url": null,
-      "correct_answers": [
-        "jDD+6/mIlKo8wiXt1aX/"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -902,9 +794,7 @@
       "category": "NBA",
       "question_text": "Which point guard won DPOY in 1996, the first at his position to do so?",
       "image_url": null,
-      "correct_answers": [
-        "iDnt4LW9hvMMxCg="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -924,9 +814,7 @@
       "category": "Marvel",
       "question_text": "What powerful substance enters Jane Foster's body?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udSIk+Id2Q=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -946,9 +834,7 @@
       "category": "General Knowledge",
       "question_text": "What is the largest species of penguin?",
       "image_url": null,
-      "correct_answers": [
-        "ijXv/OeClQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -968,9 +854,7 @@
       "category": "Wrestling",
       "question_text": "What is the name of WWE's second 'Big Four' summer pay-per-view, historically billed as 'the biggest party of the summer'?",
       "image_url": null,
-      "correct_answers": [
-        "nC3y9PCftOYZxg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -990,9 +874,7 @@
       "category": "Computers",
       "question_text": "Which company first produced the 3 1/2 inch floppy disk?",
       "image_url": null,
-      "correct_answers": [
-        "nDfx4A=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1012,9 +894,7 @@
       "category": "Conundrums",
       "question_text": "Termite",
       "image_url": null,
-      "correct_answers": [
-        "mz3t9PyZgg=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -1034,9 +914,7 @@
       "category": "Entertainment",
       "question_text": "Which movie served as the KTMA pilot episode for the show \"Mystery Science Theater 3000\"?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udKfgu8WixXq2abp"
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -1048,9 +926,7 @@
       "category": "Star Wars",
       "question_text": "Who is the manufacturer of the sport blaster carried by Princess Leia at the Battle of Endor?",
       "image_url": null,
-      "correct_answers": [
-        "nDft9saYkug="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "795847206719717386",
@@ -1070,39 +946,7 @@
       "category": "General Knowledge",
       "question_text": "Norse Gods",
       "image_url": null,
-      "correct_answers": [
-        "iSr2/vI=",
-        "mzDw6w==",
-        "jTnz/ec=",
-        "m5si6w==",
-        "hz329PGMi+Y=",
-        "jSr+/vw=",
-        "hjzq9/s=",
-        "nDH5",
-        "iTft6vCZjg==",
-        "mZsyWiWMlfg=",
-        "mZs+9fw=",
-        "mjTz6w==",
-        "h5spWiWf",
-        "hz3t9FZeJDoK",
-        "gTnx9/Q=",
-        "iD358/qD",
-        "iS3z9fQ=",
-        "ijHt",
-        "nJs+/vQ=",
-        "nDJcL/OD",
-        "gzf59w==",
-        "mZs+6w==",
-        "mZsp6w==",
-        "nCHx",
-        "hzRcNPs=",
-        "iDZcOA==",
-        "gTJcL+cuV/g=",
-        "iSr64Oc=",
-        "iSr64P+M",
-        "gzf08A==",
-        "gDz29w=="
-      ],
+      "answer_count": 31,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -1155,5 +999,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
