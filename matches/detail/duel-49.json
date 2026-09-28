@@ -24,9 +24,7 @@
       "category": "Entertainment",
       "question_text": "Hanna Barbera rose to fame by creating what duo for MGM?",
       "image_url": null,
-      "correct_answers": [
-        "mzfyufSDg6oyzjT0yQ=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Video Games",
       "question_text": "What dragon-like beings are central antagonists in The Elder Scrolls V: Skyrim?",
       "image_url": null,
-      "correct_answers": [
-        "iyr+/vqDlA=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Computers",
       "question_text": "How many layers are present in TCP/IP model?",
       "image_url": null,
-      "correct_answers": [
-        "+A=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Whos That Pokemon (Gen 4)",
       "question_text": "Who's that Pokémon?",
       "image_url": "https://cdn.discord.red/i/kdZ6mrl.png",
-      "correct_answers": [
-        "gjny9uaajuQd"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,8 @@
       "category": "General Knowledge",
       "question_text": "In publishing, what does POD mean?",
       "image_url": null,
-      "correct_answers": [
-        "nyr29+HNiORYzyPr0aXo"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
