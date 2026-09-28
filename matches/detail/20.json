@@ -25,9 +25,7 @@
       "category": "Art and Literature",
       "question_text": "A French movement pioneered by Picasso and Braque in the early twentieth century. It employs an analytic vision based on fragmentation and multiple viewpoints?",
       "image_url": null,
-      "correct_answers": [
-        "jC398OaA"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -47,9 +45,7 @@
       "category": "Art and Literature",
       "question_text": "Three main types of Greek columns are Doric, Ionic, and __________?",
       "image_url": null,
-      "correct_answers": [
-        "jDft8PuZj+MZxQ=="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -69,9 +65,7 @@
       "category": "Art and Literature",
       "question_text": "What Irish playwright and author, wrote \"The Importance of Being Earnest\" and \"The Picture of Dorian Gray\" among others?",
       "image_url": null,
-      "correct_answers": [
-        "gCv8+OfNsOMUzyM="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "184456115927384065",
@@ -91,9 +85,7 @@
       "category": "Art and Literature",
       "question_text": "Where would you find the Elgin Marbles?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udefjv4R2C6m/b7/E17J"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -113,10 +105,9 @@
       "category": "Art and Literature",
       "question_text": "In what book would you find a Heffalump?",
       "image_url": null,
-      "correct_answers": [
-        "mDHx9/yIx/4QzmbW36Tk"
-      ],
+      "answer_count": 1,
       "answers": []
     }
-  ]
+  ],
+  "xp": {}
 }
