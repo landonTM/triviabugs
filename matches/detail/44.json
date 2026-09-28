@@ -25,9 +25,7 @@
       "category": "Logos",
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/MIKWUk0.png",
-      "correct_answers": [
-        "hzfz8PGMnqoxxSg="
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "433990857063137282",
@@ -47,9 +45,7 @@
       "category": "Logos",
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/t8VZeqI.png",
-      "correct_answers": [
-        "nT37/fyZ"
-      ],
+      "answer_count": 1,
       "answers": [
         {
           "user_id": "734768348201615400",
@@ -60,5 +56,6 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": {}
 }
