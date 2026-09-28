@@ -19,19 +19,24 @@
     {
       "round_id": 4984,
       "mode": "standard",
-      "round_started_at": "2026-09-26 05:28:17.006952+00:00",
-      "round_ended_at": "2026-09-26 05:29:17.081266+00:00",
+      "started_at": "2026-09-26 05:28:17.006952+00:00",
+      "ended_at": "2026-09-26 05:29:17.081266+00:00",
       "winner_id": null,
       "category": "Sports",
       "question_text": "What term describes winning all four Grand Slam tournaments over a career, but not in the same calendar year?",
+      "image_url": null,
       "correct_answers": [
-        "Career Grand Slam"
+        "jDnt/PCfx80KyijikJjgF0Y="
       ],
-      "answerer_id": 184456115927384065,
-      "response_time_ms": 47644,
-      "exact_match": true,
-      "points_awarded": 1,
-      "answered_at": "2026-09-26 05:29:04.661349+00:00"
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 47644,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-26 05:29:04.661349+00:00"
+        }
+      ]
     }
   ]
 }
