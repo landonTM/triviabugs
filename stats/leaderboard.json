@@ -24,7 +24,8 @@
         "day_streak": 13,
         "last_played": "2026-09-27",
         "duel_streak": 2,
-        "duel_best_streak": 2
+        "duel_best_streak": 2,
+        "cosmetics_owned": 54
       },
       "periods": {
         "daily": {},
@@ -958,7 +959,8 @@
         "duel_best_streak": 5,
         "kirkening_reign_ms": 7935766,
         "kirkening_years_won": 0,
-        "kirkening_longest_reign_ms": 6474009
+        "kirkening_longest_reign_ms": 6474009,
+        "cosmetics_owned": 53
       },
       "periods": {
         "daily": {
@@ -1000,9 +1002,9 @@
           "played_hardcore": 5,
           "played_quickfire": 15,
           "played_standard": 3,
-          "wins_quickfire": 1,
-          "game_wins": 4,
           "wins_hardcore": 3,
+          "game_wins": 4,
+          "wins_quickfire": 1,
           "achievements": 22,
           "bug_reports": 3
         },
@@ -1035,9 +1037,9 @@
           "played_hardcore": 5,
           "played_quickfire": 15,
           "played_standard": 3,
-          "wins_quickfire": 1,
-          "game_wins": 4,
           "wins_hardcore": 3,
+          "game_wins": 4,
+          "wins_quickfire": 1,
           "achievements": 69,
           "crowns": 3,
           "bug_reports": 58,
@@ -1072,9 +1074,9 @@
           "played_hardcore": 5,
           "played_quickfire": 15,
           "played_standard": 3,
-          "wins_quickfire": 1,
-          "game_wins": 4,
           "wins_hardcore": 3,
+          "game_wins": 4,
+          "wins_quickfire": 1,
           "achievements": 69,
           "crowns": 3,
           "bug_reports": 58,
@@ -1109,9 +1111,9 @@
           "played_hardcore": 5,
           "played_quickfire": 15,
           "played_standard": 3,
-          "wins_quickfire": 1,
-          "game_wins": 28,
           "wins_hardcore": 3,
+          "game_wins": 28,
+          "wins_quickfire": 1,
           "achievements": 69,
           "crowns": 3,
           "bug_reports": 58,
@@ -1824,7 +1826,8 @@
         "duel_best_streak": 2,
         "kirkening_reign_ms": 10420202,
         "kirkening_years_won": 0,
-        "kirkening_longest_reign_ms": 6068017
+        "kirkening_longest_reign_ms": 6068017,
+        "cosmetics_owned": 53
       },
       "periods": {
         "daily": {},
@@ -2721,7 +2724,8 @@
         "day_streak": 13,
         "last_played": "2026-09-27",
         "duel_streak": 0,
-        "duel_best_streak": 2
+        "duel_best_streak": 2,
+        "cosmetics_owned": 52
       },
       "periods": {
         "daily": {
@@ -3543,7 +3547,8 @@
         "boost_hours_banked": 2.0,
         "kirkening_reign_ms": 13580690,
         "kirkening_years_won": 1,
-        "kirkening_longest_reign_ms": 6609824
+        "kirkening_longest_reign_ms": 6609824,
+        "cosmetics_owned": 38
       },
       "periods": {
         "daily": {},
@@ -4261,7 +4266,8 @@
         "last_played": null,
         "kirkening_reign_ms": 9644247,
         "kirkening_years_won": 0,
-        "kirkening_longest_reign_ms": 9644247
+        "kirkening_longest_reign_ms": 9644247,
+        "cosmetics_owned": 5
       },
       "periods": {
         "daily": {},
@@ -4439,7 +4445,8 @@
       "current": {
         "current_streak": 1,
         "day_streak": 0,
-        "last_played": null
+        "last_played": null,
+        "cosmetics_owned": 5
       },
       "periods": {
         "daily": {},
@@ -4557,7 +4564,8 @@
         "last_played": null,
         "kirkening_reign_ms": 5906664,
         "kirkening_years_won": 0,
-        "kirkening_longest_reign_ms": 4169748
+        "kirkening_longest_reign_ms": 4169748,
+        "cosmetics_owned": 5
       },
       "periods": {
         "daily": {},
@@ -4663,7 +4671,8 @@
       "current": {
         "kirkening_reign_ms": 167352,
         "kirkening_years_won": 0,
-        "kirkening_longest_reign_ms": 167352
+        "kirkening_longest_reign_ms": 167352,
+        "cosmetics_owned": 5
       },
       "periods": {
         "daily": {},
@@ -4702,7 +4711,8 @@
       "current": {
         "kirkening_reign_ms": 11623655,
         "kirkening_years_won": 0,
-        "kirkening_longest_reign_ms": 10593472
+        "kirkening_longest_reign_ms": 10593472,
+        "cosmetics_owned": 5
       },
       "periods": {
         "daily": {},
@@ -4741,7 +4751,8 @@
       "current": {
         "current_streak": 1,
         "day_streak": 0,
-        "last_played": null
+        "last_played": null,
+        "cosmetics_owned": 5
       },
       "periods": {
         "daily": {},
@@ -4828,7 +4839,8 @@
       },
       "current": {
         "duel_streak": 0,
-        "duel_best_streak": 0
+        "duel_best_streak": 0,
+        "cosmetics_owned": 5
       },
       "periods": {
         "daily": {},
