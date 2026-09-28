@@ -24,9 +24,7 @@
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
       "image_url": "https://i.imgur.com/XBzAfST.png",
-      "correct_answers": [
-        "iCr69/SJhg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "Slogans",
       "question_text": "Something to smile about.",
       "image_url": null,
-      "correct_answers": [
-        "ni3+8vCfx8UZ3yvj0ac="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Harry Potter",
       "question_text": "Who said it: 'We did it, we bashed them!\"?",
       "image_url": null,
-      "correct_answers": [
-        "nz367/Ce"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "Wrestling",
       "question_text": "What name did Cesaro and Sheamus use as a tag team during one WWE run?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udeMlQ=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "World Map",
       "question_text": "What country is highlighted on this map?",
       "image_url": "https://i.imgur.com/4Owvdkh.png",
-      "correct_answers": [
-        "gTH8+OeMgP8Z"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,9 +79,7 @@
       "category": "US State Capitals",
       "question_text": "What is the USA state capital of Washington?",
       "image_url": null,
-      "correct_answers": [
-        "gDTm9OWEhg=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 7,
@@ -102,9 +90,7 @@
       "category": "Marvel",
       "question_text": "What is Quicksilver's real name?",
       "image_url": null,
-      "correct_answers": [
-        "nzH67eeCx8cZ0y/r363q"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 8,
@@ -115,9 +101,7 @@
       "category": "General Knowledge",
       "question_text": "What was Bank of America originally established as?",
       "image_url": null,
-      "correct_answers": [
-        "jTnx8rWCgaox3yfqyQ=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 9,
@@ -128,9 +112,7 @@
       "category": "Disney",
       "question_text": "In what Full Length Animated Feature can the following line be heard: \"Great Father who loves us and named us so well\"?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6udmEk/4UzmbL1bnhF0LA"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 10,
@@ -141,9 +123,8 @@
       "category": "Harry Potter",
       "question_text": "What is the name of Dumbledore's phoenix?",
       "image_url": null,
-      "correct_answers": [
-        "qTno8vCe"
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
