@@ -6,7 +6,9 @@
     "challenger_id": "184456115927384065",
     "opponent_id": "433990857063137282",
     "format": 3,
+    "format_label": "Best of 3",
     "winner_id": "184456115927384065",
+    "is_tie": false,
     "challenger_score": 1,
     "opponent_score": 0,
     "decided_by_tiebreaker": false,
@@ -21,20 +23,22 @@
       "answered_at": "2026-09-26 02:13:13.361750+00:00",
       "category": "Computers",
       "question_text": "[Programming Languages]Compiled computer programming language created in 1959 and primarily used in business, finance, and administrative systems.",
+      "image_url": null,
       "correct_answers": [
-        "COBOL"
+        "jBfd1tk="
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 3928,
       "answered_at": "2026-09-26 02:13:13.361750+00:00",
       "category": "Entertainment",
       "question_text": "Tinky-Winky, Dipsy, Laa Laa, and Po are known as what?",
+      "image_url": null,
       "correct_answers": [
-        "The Teletubbies"
+        "mzD6ucGIi+8M3iTk2a7/"
       ]
     },
     {
@@ -45,8 +49,9 @@
       "answered_at": "2026-09-26 02:13:13.361750+00:00",
       "category": "Movies",
       "question_text": "In Mad Max: Fury Road, who is the warrior driving the War Rig?",
+      "image_url": null,
       "correct_answers": [
-        "Imperator Furiosa"
+        "hjXv/OeMk+UKiwDzwqLjBUo="
       ]
     }
   ]
