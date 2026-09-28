@@ -1,0 +1,403 @@
+{
+  "match": {
+    "id": 54,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "184456115927384065",
+    "format": 110,
+    "format_label": "First to 10",
+    "winner_id": "433990857063137282",
+    "is_tie": false,
+    "challenger_score": 10,
+    "opponent_score": 3,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-28 03:15:18.627950+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 7739,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "History",
+      "question_text": "According to legend, the ancient Greeks constructed a huge wooden model of which animal to gain entrance to Troy? (one word)",
+      "correct_answers": [
+        "Horse"
+      ]
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Entertainment",
+      "question_text": "In which film did Henry Fonda play a fallen priest?",
+      "correct_answers": [
+        "The Fugitive"
+      ]
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Stranger Things",
+      "question_text": "Who is the boys' science teacher in Season 1?",
+      "correct_answers": [
+        "Scott Clarke"
+      ]
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "The Simpsons",
+      "question_text": "What is the name of Springfield's local minor league baseball team, referenced in several episodes?",
+      "correct_answers": [
+        "Springfield Isotopes"
+      ]
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Entertainment",
+      "question_text": "Who was Dick Dastardley's pet?",
+      "correct_answers": [
+        "Muttley"
+      ]
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 12668,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "General Knowledge",
+      "question_text": "What drink from the Camellia sinensis plant has green, black and white varieties?",
+      "correct_answers": [
+        "Tea"
+      ]
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Conundrums",
+      "question_text": "Ignoble",
+      "correct_answers": [
+        "Ignoble"
+      ]
+    },
+    {
+      "round_number": 8,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "World Cup",
+      "question_text": "Cuba has had only 1 FIFA World Cup appearance. In what year did they appear?",
+      "correct_answers": [
+        "1938"
+      ]
+    },
+    {
+      "round_number": 9,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 6602,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "History",
+      "question_text": "The collapse of the Soviet Union took place in which year?",
+      "correct_answers": [
+        "1991"
+      ]
+    },
+    {
+      "round_number": 10,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Video Games",
+      "question_text": "Michael Fassbender voiced Logan, the player's brother, in which 2010 Lionhead RPG?",
+      "correct_answers": [
+        "Fable III"
+      ]
+    },
+    {
+      "round_number": 11,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 10906,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Movies",
+      "question_text": "In Cast Away, what causes Chuck to become stranded?",
+      "correct_answers": [
+        "Plane crash"
+      ]
+    },
+    {
+      "round_number": 12,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Video Games",
+      "question_text": "What Japanese-set Assassin's Creed installment released in 2025?",
+      "correct_answers": [
+        "Assassin's Creed Shadows"
+      ]
+    },
+    {
+      "round_number": 13,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 15160,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "World Cup",
+      "question_text": "Which country was the runner up of the 1990 World Cup?",
+      "correct_answers": [
+        "Argentina"
+      ]
+    },
+    {
+      "round_number": 14,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "NBA",
+      "question_text": "What college did Kareem Abdul-Jabbar go to?",
+      "correct_answers": [
+        "University of California, Los Angeles"
+      ]
+    },
+    {
+      "round_number": 15,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "General Knowledge",
+      "question_text": "In Half-Life, what is the name of the alien that attaches to heads?",
+      "correct_answers": [
+        "Headcrab"
+      ]
+    },
+    {
+      "round_number": 16,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Movies",
+      "question_text": "In Coco, what holiday is central to the film?",
+      "correct_answers": [
+        "Día de Muertos"
+      ]
+    },
+    {
+      "round_number": 17,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Music",
+      "question_text": "\"Don't You Want Me\" was a UK number one hit in 1981 for which electropop band?",
+      "correct_answers": [
+        "The Human League"
+      ]
+    },
+    {
+      "round_number": 18,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Family Guy",
+      "question_text": "What is the name of the high school Meg and Chris Griffin attend, named after a real actor?",
+      "correct_answers": [
+        "James Woods High School"
+      ]
+    },
+    {
+      "round_number": 19,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "A Knight of the Seven Kingdoms",
+      "question_text": "What animal appears on House Webber's sigil?",
+      "correct_answers": [
+        "Spider"
+      ]
+    },
+    {
+      "round_number": 20,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "House of the Dragon",
+      "question_text": "What island stronghold is the traditional seat of House Targaryen?",
+      "correct_answers": [
+        "Dragonstone"
+      ]
+    },
+    {
+      "round_number": 21,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Art and Literature",
+      "question_text": "What was the name of the author who released 'A Guide To Baby And Child Care' in 1946?",
+      "correct_answers": [
+        "Dr. Spock"
+      ]
+    },
+    {
+      "round_number": 22,
+      "mode": "standard",
+      "winner_id": 184456115927384065,
+      "response_time_ms": 17380,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Geography",
+      "question_text": "What sea is bordered by Turkey, Bulgaria, Romania, Ukraine, Russia, and Georgia?",
+      "correct_answers": [
+        "Black Sea"
+      ]
+    },
+    {
+      "round_number": 23,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "General Knowledge",
+      "question_text": "What year were PopTarts invented?",
+      "correct_answers": [
+        "1964"
+      ]
+    },
+    {
+      "round_number": 24,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 4129,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Stranger Things",
+      "question_text": "What monster hunts Hawkins in Season 1?",
+      "correct_answers": [
+        "Demogorgon"
+      ]
+    },
+    {
+      "round_number": 25,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 5350,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Wrestling",
+      "question_text": "What is the name of WWE's briefcase-based ladder match held annually?",
+      "correct_answers": [
+        "Money in the Bank"
+      ]
+    },
+    {
+      "round_number": 26,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Music",
+      "question_text": "Les McKeown was the lead singer with which Scottish pop group?",
+      "correct_answers": [
+        "The Bay City Rollers"
+      ]
+    },
+    {
+      "round_number": 27,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 4192,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Wrestling",
+      "question_text": "Who is nicknamed 'The Queen' in WWE?",
+      "correct_answers": [
+        "Charlotte Flair"
+      ]
+    },
+    {
+      "round_number": 28,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Entertainment",
+      "question_text": "This actress appeared in \"St. Elmo's Fire\", \"The Scarlet Letter\", and \"Striptease\"?",
+      "correct_answers": [
+        "Demi Moore"
+      ]
+    },
+    {
+      "round_number": 29,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 16194,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "MLB",
+      "question_text": "The MLB Comeback Player of the Year Award was developed through a sponsorship agreement involving which product?",
+      "correct_answers": [
+        "Viagra"
+      ]
+    },
+    {
+      "round_number": 30,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 14907,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Harry Potter",
+      "question_text": "What Animagus form is taken by Sirius Black?",
+      "correct_answers": [
+        "dog"
+      ]
+    },
+    {
+      "round_number": 31,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 8616,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "Space",
+      "question_text": "Which planet's core is thought to have formed first in our solar system?",
+      "correct_answers": [
+        "Jupiter"
+      ]
+    },
+    {
+      "round_number": 32,
+      "mode": "standard",
+      "winner_id": 433990857063137282,
+      "response_time_ms": 6067,
+      "answered_at": "2026-09-28 03:15:18.629957+00:00",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "correct_answers": [
+        "Sweden"
+      ]
+    }
+  ]
+}
