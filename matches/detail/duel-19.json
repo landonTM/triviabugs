@@ -24,9 +24,7 @@
       "category": "Space",
       "question_text": "Ganymede is the largest moon of which planet?",
       "image_url": null,
-      "correct_answers": [
-        "hS3v8OGIlQ=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,8 @@
       "category": "Art and Literature",
       "question_text": "Which famous book contains the line 'It was the best of times it was the worst of times it was the age of wisdom'?",
       "image_url": null,
-      "correct_answers": [
-        "jnjL+PmIx+UeixLx3+vPH1/Ns3g="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
