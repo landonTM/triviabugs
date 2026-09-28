@@ -41,10 +41,7 @@
   "fastest_guess": {
     "response_time_ms": 14181,
     "question_text": "In the movies Neville gives Harry Gillyweed before the Second Task. However, who gives it to him in the books?",
-    "category": "Harry Potter",
-    "correct_answers": [
-      "izf9++w="
-    ]
+    "category": "Harry Potter"
   },
   "best_category": {
     "category": "Harry Potter",
@@ -3522,5 +3519,6 @@
       "unlocked": false,
       "source": null
     }
-  ]
+  ],
+  "rivals": []
 }
