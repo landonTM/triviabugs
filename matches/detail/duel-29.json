@@ -6,7 +6,9 @@
     "challenger_id": "433990857063137282",
     "opponent_id": "184456115927384065",
     "format": 10,
+    "format_label": "Best of 10",
     "winner_id": "433990857063137282",
+    "is_tie": false,
     "challenger_score": 3,
     "opponent_score": 2,
     "decided_by_tiebreaker": false,
@@ -16,13 +18,14 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 6650,
       "answered_at": "2026-09-27 00:19:33.330566+00:00",
       "category": "Marvel",
       "question_text": "Who makes a supernatural bargain with Johnny Blaze in the first Ghost Rider film?",
+      "image_url": null,
       "correct_answers": [
-        "Mephisto"
+        "gj3v8fyek+U="
       ]
     },
     {
@@ -33,20 +36,22 @@
       "answered_at": "2026-09-27 00:19:33.330566+00:00",
       "category": "Star Wars",
       "question_text": "Finish The Quote: Why, you stuck up, half-witted, scruffy-looking____",
+      "image_url": null,
       "correct_answers": [
-        "Nerf herder"
+        "gT3t/7WFgvgczjQ="
       ]
     },
     {
       "round_number": 3,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 4879,
       "answered_at": "2026-09-27 00:19:33.330566+00:00",
       "category": "Conundrums",
       "question_text": "Envelope",
+      "image_url": null,
       "correct_answers": [
-        "Envelope"
+        "ijbp/PmCl+8="
       ]
     },
     {
@@ -57,20 +62,22 @@
       "answered_at": "2026-09-27 00:19:33.330566+00:00",
       "category": "Video Games",
       "question_text": "Who is the main character in Metal Gear Rising: Revengeance?",
+      "image_url": null,
       "correct_answers": [
-        "Raiden"
+        "nTn2/fCD"
       ]
     },
     {
       "round_number": 5,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 1792,
       "answered_at": "2026-09-27 00:19:33.330566+00:00",
       "category": "Logos",
       "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/PwfISyP.png",
       "correct_answers": [
-        "Pepsi"
+        "nz3v6vw="
       ]
     },
     {
@@ -81,8 +88,9 @@
       "answered_at": "2026-09-27 00:19:33.330566+00:00",
       "category": "Geography",
       "question_text": "What is the only sea without any coasts?",
+      "image_url": null,
       "correct_answers": [
-        "Sargasso Sea"
+        "nDnt/vSelOVY+CPn"
       ]
     },
     {
@@ -93,8 +101,9 @@
       "answered_at": "2026-09-27 00:19:33.330566+00:00",
       "category": "Pokemon",
       "question_text": "Cities in the Kanto Region take their name from what?",
+      "image_url": null,
       "correct_answers": [
-        "Colors"
+        "jDfz9uee"
       ]
     },
     {
@@ -105,32 +114,35 @@
       "answered_at": "2026-09-27 00:19:33.330566+00:00",
       "category": "Video Games",
       "question_text": "What is the name of the child performing the Black Sacrament in The Elder Scrolls V: Skyrim?",
+      "image_url": null,
       "correct_answers": [
-        "Aventus Aretino"
+        "ji769+GYlKo52SPy2aXj"
       ]
     },
     {
       "round_number": 9,
       "mode": "standard",
-      "winner_id": 184456115927384065,
+      "winner_id": "184456115927384065",
       "response_time_ms": 5891,
       "answered_at": "2026-09-27 00:19:33.330566+00:00",
       "category": "General Knowledge",
       "question_text": "What organ processes the sodium in the body?",
+      "image_url": null,
       "correct_answers": [
-        "Kidney"
+        "hDH79/CU"
       ]
     },
     {
       "round_number": 10,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 3508,
       "answered_at": "2026-09-27 00:19:33.330566+00:00",
       "category": "Elements",
       "question_text": "What is the element symbol of \"Gadolinium\"?",
+      "image_url": null,
       "correct_answers": [
-        "Gd"
+        "iDw="
       ]
     }
   ]
