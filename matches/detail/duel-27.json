@@ -6,7 +6,9 @@
     "challenger_id": "433990857063137282",
     "opponent_id": "184456115927384065",
     "format": 3,
+    "format_label": "Best of 3",
     "winner_id": "433990857063137282",
+    "is_tie": false,
     "challenger_score": 2,
     "opponent_score": 0,
     "decided_by_tiebreaker": false,
@@ -16,25 +18,27 @@
     {
       "round_number": 1,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 13275,
       "answered_at": "2026-09-27 00:00:28.461418+00:00",
       "category": "Space",
       "question_text": "What invisible component accounts for approximately 85% of the universe's matter?",
+      "image_url": null,
       "correct_answers": [
-        "Dark matter"
+        "iznt8rWAhv4MzjQ="
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 433990857063137282,
+      "winner_id": "433990857063137282",
       "response_time_ms": 12422,
       "answered_at": "2026-09-27 00:00:28.461418+00:00",
       "category": "Disney",
       "question_text": "What full length animated feature is the song \"Follow the Leader\" from?",
+      "image_url": null,
       "correct_answers": [
-        "Peter Pan"
+        "nz3r/OfNt+sW"
       ]
     }
   ]
