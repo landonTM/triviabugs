@@ -24,9 +24,7 @@
       "category": "Geography",
       "question_text": "Which country has the abbreviation \"CH\"?",
       "image_url": null,
-      "correct_answers": [
-        "nC/27e+IleYZxSI="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,7 @@
       "category": "US State Abbreviations",
       "question_text": "What is the abbreviation for Montana?",
       "image_url": null,
-      "correct_answers": [
-        "ggw="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 3,
@@ -50,9 +46,7 @@
       "category": "Greek Mythology",
       "question_text": "Who saved Andromeda from Cetus?",
       "image_url": null,
-      "correct_answers": [
-        "nz3t6vCYlA=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 4,
@@ -63,9 +57,7 @@
       "category": "General Knowledge",
       "question_text": "In what year did Canada stop producing the penny?",
       "image_url": null,
-      "correct_answers": [
-        "/Wiuqw=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 5,
@@ -76,9 +68,7 @@
       "category": "Geography",
       "question_text": "Which volcano is NOT located in Antarctica?",
       "image_url": null,
-      "correct_answers": [
-        "gjfq9+HNqesIwiP0"
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 6,
@@ -89,9 +79,7 @@
       "category": "World Capitals",
       "question_text": "What is the capital of Denmark?",
       "image_url": null,
-      "correct_answers": [
-        "jDfv/PuFhu0dxQ=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 7,
@@ -102,9 +90,7 @@
       "category": "Elements",
       "question_text": "What is the element symbol of \"Einsteinium\"?",
       "image_url": null,
-      "correct_answers": [
-        "iis="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 8,
@@ -115,9 +101,7 @@
       "category": "Marvel",
       "question_text": "Who is Daredevil's primary crime-lord enemy in the first season?",
       "image_url": null,
-      "correct_answers": [
-        "mDHz6vqDx8wR2C0="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 9,
@@ -128,9 +112,7 @@
       "category": "MLB",
       "question_text": "How many home runs did Roger Maris hit in his record-setting 1961 season?",
       "image_url": null,
-      "correct_answers": [
-        "+Wk="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 10,
@@ -141,9 +123,8 @@
       "category": "Art and Literature",
       "question_text": "What literary term describes attributing human feelings to nature or inanimate objects?",
       "image_url": null,
-      "correct_answers": [
-        "nznr8fCZjulYzSfq3KrvDw=="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
