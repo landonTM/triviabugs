@@ -6,7 +6,9 @@
     "challenger_id": "795847206719717386",
     "opponent_id": "794420965387403265",
     "format": 5,
+    "format_label": "Best of 5",
     "winner_id": "794420965387403265",
+    "is_tie": false,
     "challenger_score": 0,
     "opponent_score": 1,
     "decided_by_tiebreaker": false,
@@ -21,20 +23,22 @@
       "answered_at": "2026-09-24 00:48:06.482892+00:00",
       "category": "Chemistry",
       "question_text": "The individual units of proteins are called amino acids. What is the term for short chains of these amino acids?",
+      "image_url": null,
       "correct_answers": [
-        "Peptides"
+        "nz3v7fyJgvk="
       ]
     },
     {
       "round_number": 2,
       "mode": "standard",
-      "winner_id": 794420965387403265,
+      "winner_id": "794420965387403265",
       "response_time_ms": 11711,
       "answered_at": "2026-09-24 00:48:06.482892+00:00",
       "category": "Family Guy",
       "question_text": "What condition does Joe Swanson's son Kevin struggle with after returning from military service?",
+      "image_url": null,
       "correct_answers": [
-        "PTSD"
+        "nwzM3Q=="
       ]
     },
     {
@@ -45,8 +49,9 @@
       "answered_at": "2026-09-24 00:48:06.482892+00:00",
       "category": "Sports",
       "question_text": "Which English army officer patented an early standardized version of lawn tennis in 1874, becoming known as the sport's 'father'?",
+      "image_url": null,
       "correct_answers": [
-        "Walter Clopton Wingfield"
+        "mDnz7fCfx8kUxDby36WsIULKsW1OuLJh"
       ]
     },
     {
@@ -57,8 +62,9 @@
       "answered_at": "2026-09-24 00:48:06.482892+00:00",
       "category": "Sports",
       "question_text": "What was Muhammad Ali's birth name?",
+      "image_url": null,
       "correct_answers": [
-        "Cassius Clay"
+        "jDns6vyYlKo7xyf/"
       ]
     },
     {
@@ -69,8 +75,9 @@
       "answered_at": "2026-09-24 00:48:06.482892+00:00",
       "category": "Disney",
       "question_text": "What is the name of the mule in Old Yeller?",
+      "image_url": null,
       "correct_answers": [
-        "Jumper"
+        "hS3y6fCf"
       ]
     }
   ]
