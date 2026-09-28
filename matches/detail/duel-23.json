@@ -24,9 +24,7 @@
       "category": "Entertainment",
       "question_text": "Kelsey Grammer sings the closing theme song for which TV show?",
       "image_url": null,
-      "correct_answers": [
-        "iSr+6vyIlQ=="
-      ]
+      "answer_count": 1
     },
     {
       "round_number": 2,
@@ -37,9 +35,8 @@
       "category": "House of the Dragon",
       "question_text": "In Fire & Blood, which young son of Rhaenyra is captured during the events leading into the Battle of the Gullet?",
       "image_url": null,
-      "correct_answers": [
-        "mTHs/OeUlKosyjTh0bn1E0U="
-      ]
+      "answer_count": 1
     }
-  ]
+  ],
+  "xp": {}
 }
