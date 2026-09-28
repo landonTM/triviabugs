@@ -25,9 +25,7 @@
       "category": "Art and Literature",
       "question_text": "Which novel features Perks the station porter?",
       "image_url": null,
-      "correct_answers": [
-        "mzD6uceMjuYPyj+m86PlGk/Ws2U="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -39,9 +37,7 @@
       "category": "Art and Literature",
       "question_text": "Which poet, in his \"Elegy Written in a Country Churchyard\" told us that \"Full many a flower is born to blush unseen / And waste its sweetness on the desert air\"?",
       "image_url": null,
-      "correct_answers": [
-        "mzDw9PSex80Kyj8="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -53,9 +49,7 @@
       "category": "Art and Literature",
       "question_text": "Name the Shakespeare play from this ultra short plot summary: Urged on by his wife, a man murders his king in order to take his place?",
       "image_url": null,
-      "correct_answers": [
-        "gjn8+/CZjw=="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -67,9 +61,7 @@
       "category": "Art and Literature",
       "question_text": "A single print made from a metal or glass plate on which an image has been represented in paint, ink, etc?",
       "image_url": null,
-      "correct_answers": [
-        "gjfx9uGUl+8="
-      ],
+      "answer_count": 1,
       "answers": []
     },
     {
@@ -81,10 +73,9 @@
       "category": "Art and Literature",
       "question_text": "In what opera would you find Lt. Pinkerton?",
       "image_url": null,
-      "correct_answers": [
-        "gjn7+PiIx+gN3zLjwq3gDw=="
-      ],
+      "answer_count": 1,
       "answers": []
     }
-  ]
+  ],
+  "xp": {}
 }
