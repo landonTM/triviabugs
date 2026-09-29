@@ -178,9 +178,9 @@
       "pass": [
         {
           "user_id": "433990857063137282",
-          "xp": 8104,
+          "xp": 9154,
           "level": 7,
-          "xp_into_level": 334,
+          "xp_into_level": 1384,
           "xp_for_level": 1390,
           "completed": false
         },
@@ -193,18 +193,18 @@
           "completed": false
         },
         {
+          "user_id": "184456115927384065",
+          "xp": 3199,
+          "level": 3,
+          "xp_into_level": 289,
+          "xp_for_level": 1110,
+          "completed": false
+        },
+        {
           "user_id": "734768348201615400",
           "xp": 2750,
           "level": 2,
           "xp_into_level": 880,
-          "xp_for_level": 1040,
-          "completed": false
-        },
-        {
-          "user_id": "184456115927384065",
-          "xp": 2649,
-          "level": 2,
-          "xp_into_level": 779,
           "xp_for_level": 1040,
           "completed": false
         },
@@ -221,18 +221,18 @@
         "ranked": [
           {
             "user_id": "433990857063137282",
-            "rating": 994,
-            "wins": 3,
+            "rating": 1002,
+            "wins": 4,
             "losses": 2,
-            "streak": 1,
+            "streak": 2,
             "peak": 1006
           },
           {
             "user_id": "184456115927384065",
-            "rating": 985,
+            "rating": 977,
             "wins": 1,
-            "losses": 3,
-            "streak": -3,
+            "losses": 4,
+            "streak": -4,
             "peak": 1017
           }
         ],
