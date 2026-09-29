@@ -2024,6 +2024,54 @@
       "started_at": "2026-09-29 02:43:06.610154+00:00",
       "ended_at": "2026-09-29 02:49:50.299133+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 68,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "Disney"
+      ],
+      "started_by": "433990857063137282",
+      "winner_id": "433990857063137282",
+      "started_at": "2026-09-29 02:55:12.723397+00:00",
+      "ended_at": "2026-09-29 02:59:15.530883+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 69,
+      "kind": "game",
+      "mode": "standard",
+      "channel_id": "864342930076860426",
+      "total_rounds": 20,
+      "rounds_played": 2,
+      "categories": [
+        "Marvel"
+      ],
+      "started_by": "794420965387403265",
+      "winner_id": "433990857063137282",
+      "started_at": "2026-09-29 03:05:42.810523+00:00",
+      "ended_at": "2026-09-29 03:06:46.635679+00:00",
+      "end_reason": "stopped"
+    },
+    {
+      "id": 70,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 20,
+      "rounds_played": 20,
+      "categories": [
+        "Marvel"
+      ],
+      "started_by": "794420965387403265",
+      "winner_id": "794420965387403265",
+      "started_at": "2026-09-29 03:07:10.687549+00:00",
+      "ended_at": "2026-09-29 03:16:32.070040+00:00",
+      "end_reason": "completed"
     }
   ]
 }
