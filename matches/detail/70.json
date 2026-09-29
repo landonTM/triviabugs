@@ -1,0 +1,571 @@
+{
+  "game": {
+    "id": 70,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 20,
+    "rounds_played": 20,
+    "categories": [
+      "Marvel"
+    ],
+    "started_by": "794420965387403265",
+    "winner_id": "794420965387403265",
+    "started_at": "2026-09-29 03:07:10.687549+00:00",
+    "ended_at": "2026-09-29 03:16:32.070040+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5701,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:07:11.052859+00:00",
+      "ended_at": "2026-09-29 03:07:16.504265+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who teaches Stephen Strange the mystic arts?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 5435,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:07:16.498576+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5702,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:07:26.705639+00:00",
+      "ended_at": "2026-09-29 03:07:46.069676+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who sacrifices himself to save Peter Quill?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 19352,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:07:46.066355+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5703,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:07:56.306044+00:00",
+      "ended_at": "2026-09-29 03:08:37.279869+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "In what comic issue did Black Panther first appear?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 40961,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:08:37.276802+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5704,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:08:47.483741+00:00",
+      "ended_at": "2026-09-29 03:08:51.491419+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What crime lord is Daredevil's main enemy in the 2003 film?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 3995,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:08:51.488102+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5705,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:09:01.671897+00:00",
+      "ended_at": "2026-09-29 03:09:07.205384+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What giant Asgardian weapon does Loki send to Earth to kill Thor?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 5522,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:09:07.202125+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5706,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:09:17.423537+00:00",
+      "ended_at": "2026-09-29 03:09:23.860101+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Marvel",
+      "question_text": "What shrinking combat suit does Darren Cross develop?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 6422,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:09:23.855186+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5707,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:09:34.065798+00:00",
+      "ended_at": "2026-09-29 03:09:46.648849+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Marvel",
+      "question_text": "Which Maximoff sibling dies protecting Hawkeye and a child?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 12568,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:09:46.645480+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5708,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:09:56.854338+00:00",
+      "ended_at": "2026-09-29 03:10:32.497261+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who is Hank Pym's former colleague trying to help Ava?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 35630,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 03:10:32.492347+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5709,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:10:42.731537+00:00",
+      "ended_at": "2026-09-29 03:10:46.833100+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What New York neighborhood does Daredevil protect?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 4088,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:10:46.829809+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5710,
+      "mode": "insane",
+      "started_at": "2026-09-29 03:10:57.090568+00:00",
+      "ended_at": "2026-09-29 03:11:20.053695+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "Zodiac Signs",
+      "image_url": null,
+      "answer_count": 12,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 2678,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:10:59.772547+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 3623,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:11:00.716437+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 5206,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:11:02.299324+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 5796,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:11:02.889201+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 6615,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:11:03.708768+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 7354,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:11:04.447427+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 8501,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:11:05.594815+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 13188,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:11:10.281126+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 13305,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:11:10.398596+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 17140,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:11:14.233843+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 18205,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:11:15.298594+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 22955,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:11:20.048620+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5711,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:11:30.552053+00:00",
+      "ended_at": "2026-09-29 03:11:35.540994+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who is the head of Hammer Industries?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 4975,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:11:35.537198+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5712,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:11:45.897434+00:00",
+      "ended_at": "2026-09-29 03:12:04.704536+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What is Cloak's real name?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 18794,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:12:04.700922+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5713,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:12:14.903505+00:00",
+      "ended_at": "2026-09-29 03:12:19.568569+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What is Kitty Pryde's primary mutant power?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 4653,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:12:19.565296+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5714,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:12:29.863026+00:00",
+      "ended_at": "2026-09-29 03:13:02.692036+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Marvel",
+      "question_text": "Alongside his sister Lauren, what is the first name of the Strucker son with mutant powers in The Gifted?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 32809,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 03:13:02.684959+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5715,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:13:12.912498+00:00",
+      "ended_at": "2026-09-29 03:13:24.088345+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Marvel",
+      "question_text": "What is the name of the powerful mutant at the center of Legion?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 11160,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:13:24.084027+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5716,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:13:34.379917+00:00",
+      "ended_at": "2026-09-29 03:13:39.537149+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Marvel",
+      "question_text": "What is Gambit's real name?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 5143,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:13:39.533787+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5717,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:13:49.745218+00:00",
+      "ended_at": "2026-09-29 03:14:03.580564+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What is Killmonger's real name?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 13822,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:14:03.575544+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5718,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:14:13.832190+00:00",
+      "ended_at": "2026-09-29 03:14:37.050409+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What Tennessee town does Tony Stark investigate in Iron Man 3?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 23206,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 03:14:37.046919+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5719,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:14:47.292116+00:00",
+      "ended_at": "2026-09-29 03:15:11.292328+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Marvel",
+      "question_text": "Who gives Tony Stark access to Howard Stark's old materials and research?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 23985,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 03:15:11.287439+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5720,
+      "mode": "insane",
+      "started_at": "2026-09-29 03:15:21.514768+00:00",
+      "ended_at": "2026-09-29 03:16:21.691413+00:00",
+      "winner_id": null,
+      "category": "Geography",
+      "question_text": "Name the original 13 colonies",
+      "image_url": null,
+      "answer_count": 13,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 4556,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:15:26.073731+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 6729,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:15:28.247595+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 7202,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:15:28.720159+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 8562,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:15:30.080706+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 12228,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:15:33.746692+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 13861,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:15:35.379481+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 17245,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:15:38.763228+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 21572,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:15:43.090257+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 29057,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:15:50.574750+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 32115,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:15:53.633722+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 43204,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 03:16:04.723526+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 606,
+    "794420965387403265": 1017
+  }
+}
