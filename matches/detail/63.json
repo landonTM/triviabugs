@@ -1,0 +1,1238 @@
+{
+  "game": {
+    "id": 63,
+    "kind": "game",
+    "mode": "hardcore",
+    "channel_id": "864342930076860426",
+    "total_rounds": 50,
+    "rounds_played": 50,
+    "categories": [
+      "acronyms and abbreviations",
+      "house of the dragon",
+      "logos",
+      "what links",
+      "stranger things",
+      "the simpsons",
+      "Game of thrones",
+      "general knowledge",
+      "geography",
+      "harry potter",
+      "nba",
+      "slogans",
+      "sports",
+      "US geography",
+      "US state abbreviations",
+      "US state capitals",
+      "US state flags",
+      "US states (map)",
+      "world capitals",
+      "world flags",
+      "world map",
+      "wrestling"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-09-29 00:47:56.166732+00:00",
+    "ended_at": "2026-09-29 01:29:46.542741+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5615,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:47:56.907132+00:00",
+      "ended_at": "2026-09-29 00:48:17.308743+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "What is the word used to describe an animal/plant that is both male and female?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5616,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:48:48.146271+00:00",
+      "ended_at": "2026-09-29 00:48:56.827872+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Wrestling",
+      "question_text": "Who was the first-ever WWE Divas Champion?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 8663,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 00:48:56.824138+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5617,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:49:27.786279+00:00",
+      "ended_at": "2026-09-29 00:49:40.952535+00:00",
+      "winner_id": "795847206719717386",
+      "category": "The Simpsons",
+      "question_text": "What is the name of Marge's twin sister who adopted a daughter named Ling after several failed marriages?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 13148,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 00:49:40.948840+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5618,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:50:11.623671+00:00",
+      "ended_at": "2026-09-29 00:50:16.724877+00:00",
+      "winner_id": "795847206719717386",
+      "category": "NBA",
+      "question_text": "How many conferences are in the NBA?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5083,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 00:50:16.720543+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5619,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:50:47.604686+00:00",
+      "ended_at": "2026-09-29 00:50:57.628787+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Geography",
+      "question_text": "What is the most populated country in Africa?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 10006,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 00:50:57.623696+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5620,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:51:28.204939+00:00",
+      "ended_at": "2026-09-29 00:51:37.923525+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/mAgkfeH.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9701,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 00:51:37.919856+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5621,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:52:08.486073+00:00",
+      "ended_at": "2026-09-29 00:52:28.692163+00:00",
+      "winner_id": null,
+      "category": "Harry Potter",
+      "question_text": "Lumos is the spell that produces light from the user’s wand. What spell turns it off?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5622,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:52:59.453800+00:00",
+      "ended_at": "2026-09-29 00:53:19.737583+00:00",
+      "winner_id": null,
+      "category": "US State Capitals",
+      "question_text": "What is the USA state capital of Utah?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5623,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:53:50.562529+00:00",
+      "ended_at": "2026-09-29 00:53:56.437021+00:00",
+      "winner_id": "433990857063137282",
+      "category": "US State Abbreviations",
+      "question_text": "What is the abbreviation for Indiana?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 5861,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 00:53:56.433450+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5624,
+      "mode": "insane",
+      "started_at": "2026-09-29 00:54:26.632671+00:00",
+      "ended_at": "2026-09-29 00:55:26.911783+00:00",
+      "winner_id": null,
+      "category": "Marvel",
+      "question_text": "Marvel Shows",
+      "image_url": null,
+      "answer_count": 30,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4226,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:54:30.861178+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5533,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:54:32.168203+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 7725,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:54:34.360506+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9652,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:54:36.287554+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 13315,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:54:39.950360+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 15404,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:54:42.039296+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 16978,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:54:43.613597+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 19198,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:54:45.833865+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 21145,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:54:47.780117+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 23604,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:54:50.239016+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 29959,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:54:56.594664+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 35776,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:55:02.411981+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 40918,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:55:07.553831+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 43916,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:55:10.551498+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 48124,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:55:14.759503+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 58410,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:55:25.045362+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5625,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:55:57.782248+00:00",
+      "ended_at": "2026-09-29 00:56:18.222350+00:00",
+      "winner_id": null,
+      "category": "NBA",
+      "question_text": "When was the Larry O’Brien trophy created?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5626,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:56:48.935141+00:00",
+      "ended_at": "2026-09-29 00:56:56.012928+00:00",
+      "winner_id": "795847206719717386",
+      "category": "General Knowledge",
+      "question_text": "What popular orange-coloured citrus fruit is surprisingly a hybrid of the pomelo (25%) and mandarin (75%)?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 7058,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 00:56:56.008572+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5627,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:57:26.764758+00:00",
+      "ended_at": "2026-09-29 00:57:47.154125+00:00",
+      "winner_id": null,
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/YaA07yt.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5628,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:58:17.880386+00:00",
+      "ended_at": "2026-09-29 00:58:23.678975+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Stranger Things",
+      "question_text": "Who is Max Mayfield's stepbrother?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5781,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 00:58:23.674686+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5629,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:58:54.342764+00:00",
+      "ended_at": "2026-09-29 00:58:59.674248+00:00",
+      "winner_id": "795847206719717386",
+      "category": "House of the Dragon",
+      "question_text": "What actor plays Corlys Velaryon?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5315,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 00:58:59.670585+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5630,
+      "mode": "standard",
+      "started_at": "2026-09-29 00:59:30.335308+00:00",
+      "ended_at": "2026-09-29 00:59:38.053411+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Game of Thrones",
+      "question_text": "What term describes a Dothraki chieftain or warlord?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 7701,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 00:59:38.049442+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5631,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:00:08.625391+00:00",
+      "ended_at": "2026-09-29 01:00:28.833820+00:00",
+      "winner_id": null,
+      "category": "Slogans",
+      "question_text": "I'm Lovin' It.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5632,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:00:59.597014+00:00",
+      "ended_at": "2026-09-29 01:01:19.761556+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "What German festival famous for beer is held annually in Munich?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5633,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:01:50.476104+00:00",
+      "ended_at": "2026-09-29 01:02:01.060206+00:00",
+      "winner_id": "433990857063137282",
+      "category": "US State Abbreviations",
+      "question_text": "What state is AK?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 10567,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 01:02:01.055672+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5634,
+      "mode": "insane",
+      "started_at": "2026-09-29 01:02:31.258656+00:00",
+      "ended_at": "2026-09-29 01:03:31.191894+00:00",
+      "winner_id": null,
+      "category": "Wrestling",
+      "question_text": "Every WWE Women's World Champion (SmackDown Women's Championship lineage)",
+      "image_url": null,
+      "answer_count": 15,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5137,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:02:36.398698+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 7148,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:02:38.409867+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9237,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:02:40.498019+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 10540,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:02:41.801092+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 12070,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:02:43.331732+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 12912,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:02:44.173121+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 15918,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:02:47.179655+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 17819,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:02:49.080628+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 20999,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:02:52.260771+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 24271,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:02:55.532300+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 26886,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:02:58.147534+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 29477,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:03:00.738519+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 31784,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:03:03.045111+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 54685,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:03:25.946861+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 59925,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:03:31.186810+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5635,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:04:02.110024+00:00",
+      "ended_at": "2026-09-29 01:04:22.369583+00:00",
+      "winner_id": null,
+      "category": "Harry Potter",
+      "question_text": "When Harry attended his hearing at the Ministry of Magic, what colour paper aeroplanes flew into the lift at Level Four?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5636,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:04:53.049797+00:00",
+      "ended_at": "2026-09-29 01:05:07.204608+00:00",
+      "winner_id": "795847206719717386",
+      "category": "House of the Dragon",
+      "question_text": "Alongside House Bracken, which rival Riverlands house fights at the Burning Mill?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 14136,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 01:05:07.201051+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5637,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:05:38.321179+00:00",
+      "ended_at": "2026-09-29 01:05:45.296363+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Geography",
+      "question_text": "Montreal is in which Canadian province?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6958,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 01:05:45.292411+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5638,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:06:15.846787+00:00",
+      "ended_at": "2026-09-29 01:06:36.009458+00:00",
+      "winner_id": null,
+      "category": "US State Capitals",
+      "question_text": "What is the USA state capital of Pennsylvania?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5639,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:07:07.008674+00:00",
+      "ended_at": "2026-09-29 01:07:27.227468+00:00",
+      "winner_id": null,
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Education: PTA",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5640,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:07:57.993513+00:00",
+      "ended_at": "2026-09-29 01:08:18.886587+00:00",
+      "winner_id": null,
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/hr9515B.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5641,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:08:49.644936+00:00",
+      "ended_at": "2026-09-29 01:09:03.380083+00:00",
+      "winner_id": "795847206719717386",
+      "category": "General Knowledge",
+      "question_text": "In a standard Gregorian calendar, how many months begin with the letter 'J'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 13716,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 01:09:03.375998+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5642,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:09:34.061546+00:00",
+      "ended_at": "2026-09-29 01:09:54.237192+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "_________ Rams (NFL)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5643,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:10:24.947013+00:00",
+      "ended_at": "2026-09-29 01:10:45.244504+00:00",
+      "winner_id": null,
+      "category": "NBA",
+      "question_text": "Who was selected 4th overall by the Phoenix Suns in the 2016 NBA Draft?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5644,
+      "mode": "insane",
+      "started_at": "2026-09-29 01:11:15.502962+00:00",
+      "ended_at": "2026-09-29 01:12:15.657978+00:00",
+      "winner_id": null,
+      "category": "Geography",
+      "question_text": "Name all countries",
+      "image_url": null,
+      "answer_count": 200,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 26010,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:11:41.516682+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 27357,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:11:42.862854+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 31711,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:11:47.217595+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 32948,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:11:48.454563+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 34877,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:11:50.383044+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 37421,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:11:52.926964+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 38031,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:11:53.537111+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 38567,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:11:54.073728+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 40046,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:11:55.552628+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 42242,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:11:57.747828+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 43862,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:11:59.367835+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 46431,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:12:01.937277+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 49502,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:12:05.008070+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 52925,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:12:08.431464+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 57255,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:12:12.761210+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 59018,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:12:14.524721+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 59319,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:12:14.825282+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5645,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:12:46.591135+00:00",
+      "ended_at": "2026-09-29 01:13:06.844139+00:00",
+      "winner_id": null,
+      "category": "Harry Potter",
+      "question_text": "Whose patronus is a goat?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5646,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:13:37.521595+00:00",
+      "ended_at": "2026-09-29 01:13:57.818705+00:00",
+      "winner_id": null,
+      "category": "US State Capitals",
+      "question_text": "What is the USA state capital of Kansas?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5647,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:14:28.503575+00:00",
+      "ended_at": "2026-09-29 01:14:35.911115+00:00",
+      "winner_id": "795847206719717386",
+      "category": "House of the Dragon",
+      "question_text": "What is the name of Jacaerys Velaryon's dragon?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 7390,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 01:14:35.907291+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5648,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:15:06.638157+00:00",
+      "ended_at": "2026-09-29 01:15:19.500287+00:00",
+      "winner_id": "795847206719717386",
+      "category": "The Simpsons",
+      "question_text": "What is the official term for The Simpsons' opening sequence gag where the family arrives at the couch in a different way each episode?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 12846,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 01:15:19.496979+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5649,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:15:50.810930+00:00",
+      "ended_at": "2026-09-29 01:16:12.908874+00:00",
+      "winner_id": null,
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/jEafSQr.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5650,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:16:43.435047+00:00",
+      "ended_at": "2026-09-29 01:17:03.752800+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "What type of microorganism causes Lyme disease? (plural)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5651,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:17:34.401092+00:00",
+      "ended_at": "2026-09-29 01:17:54.932003+00:00",
+      "winner_id": null,
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Medical: ADHD",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5652,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:18:25.660671+00:00",
+      "ended_at": "2026-09-29 01:18:45.862221+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "In which year did Jenson Button win his first Formula One World Drivers' Championship?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5653,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:19:16.868215+00:00",
+      "ended_at": "2026-09-29 01:19:37.309724+00:00",
+      "winner_id": null,
+      "category": "Slogans",
+      "question_text": "Melts in your mouth, not in your hands.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5654,
+      "mode": "insane",
+      "started_at": "2026-09-29 01:20:10.422146+00:00",
+      "ended_at": "2026-09-29 01:21:10.862484+00:00",
+      "winner_id": null,
+      "category": "Game of Thrones",
+      "question_text": "Every Targaryen King of the Seven Kingdoms",
+      "image_url": null,
+      "answer_count": 17,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9348,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:20:19.772850+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 14999,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:20:25.423573+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 18716,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:20:29.141554+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 24555,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:20:34.979645+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 28925,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:20:39.349483+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 39460,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:20:49.884413+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 56384,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:21:06.808334+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5655,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:21:41.758434+00:00",
+      "ended_at": "2026-09-29 01:21:50.651736+00:00",
+      "winner_id": "795847206719717386",
+      "category": "House of the Dragon",
+      "question_text": "What actor plays adult Helaena Targaryen?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 8875,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 01:21:50.647866+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5656,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:22:21.337115+00:00",
+      "ended_at": "2026-09-29 01:22:30.326026+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Capitals",
+      "question_text": "What is the capital of Jamaica?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 8972,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 01:22:30.322700+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5657,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:23:01.002414+00:00",
+      "ended_at": "2026-09-29 01:23:21.169164+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "The US 1899-founded Gideons International organization is famous for distributing ___ to 200 countries for free?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5658,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:23:51.982854+00:00",
+      "ended_at": "2026-09-29 01:23:55.626297+00:00",
+      "winner_id": "795847206719717386",
+      "category": "NBA",
+      "question_text": "Charlotte ______?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3626,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 01:23:55.622300+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5659,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:24:26.324850+00:00",
+      "ended_at": "2026-09-29 01:24:46.687244+00:00",
+      "winner_id": null,
+      "category": "Harry Potter",
+      "question_text": "What is the only antidote to Basilisk venom?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5660,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:25:17.535248+00:00",
+      "ended_at": "2026-09-29 01:25:37.766817+00:00",
+      "winner_id": null,
+      "category": "Game of Thrones",
+      "question_text": "What is the name of the massive slave trading city Daenerys conquers before Meereen?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5661,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:26:12.042591+00:00",
+      "ended_at": "2026-09-29 01:26:17.851813+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Wrestling",
+      "question_text": "Who is nicknamed 'Mr. WrestleMania'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5795,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 01:26:17.848514+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5662,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:26:48.688738+00:00",
+      "ended_at": "2026-09-29 01:26:52.831695+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Geography",
+      "question_text": "What sport's Hall of Fame is in Cooperstown, New York?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 4126,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 01:26:52.827879+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5663,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:27:25.367296+00:00",
+      "ended_at": "2026-09-29 01:27:45.814928+00:00",
+      "winner_id": null,
+      "category": "Slogans",
+      "question_text": "For fast, fast, fast relief.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5664,
+      "mode": "insane",
+      "started_at": "2026-09-29 01:28:16.016860+00:00",
+      "ended_at": "2026-09-29 01:29:16.171551+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "Name all coffee brands commonly known",
+      "image_url": null,
+      "answer_count": 19,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9438,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:28:25.458620+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 14305,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:28:30.325566+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 17699,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:28:33.719084+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 18030,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:28:34.050673+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 55227,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 01:29:11.247252+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 708,
+    "795847206719717386": 3780
+  }
+}
