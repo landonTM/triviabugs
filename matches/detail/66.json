@@ -1,0 +1,237 @@
+{
+  "game": {
+    "id": 66,
+    "kind": "game",
+    "mode": "hardcore",
+    "channel_id": "864342930076860426",
+    "total_rounds": 10,
+    "rounds_played": 10,
+    "categories": [
+      "Sports"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "184456115927384065",
+    "started_at": "2026-09-29 02:17:34.819799+00:00",
+    "ended_at": "2026-09-29 02:25:11.210256+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5674,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:17:35.322870+00:00",
+      "ended_at": "2026-09-29 02:17:39.836174+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "The Stanley Cup is a championship trophy awarded annually to the playoff winner in what sport?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 4496,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 02:17:39.830158+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5675,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:18:10.066314+00:00",
+      "ended_at": "2026-09-29 02:18:30.298639+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Which NFL team lost its first 26 games across the 1976 and 1977 seasons?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5676,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:19:00.536815+00:00",
+      "ended_at": "2026-09-29 02:19:09.837062+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "Which club has won the most English Premier League titles?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 9287,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 02:19:09.833704+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5677,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:19:40.154465+00:00",
+      "ended_at": "2026-09-29 02:19:46.802998+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "_________ Giants (NFL)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 6635,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 02:19:46.799471+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5678,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:20:17.014539+00:00",
+      "ended_at": "2026-09-29 02:20:24.172178+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "What is the top domestic soccer league in England called?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 7144,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 02:20:24.168708+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5679,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:20:54.631004+00:00",
+      "ended_at": "2026-09-29 02:21:05.274621+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "What is the term for a method of determining a winner after extra time, involving alternating kicks from the penalty spot?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 10626,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 02:21:05.269965+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5680,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:21:35.631868+00:00",
+      "ended_at": "2026-09-29 02:21:44.100450+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "In hockey, what is it called when a player scores three goals in a single game?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 8452,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 02:21:44.096077+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5681,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:22:14.369403+00:00",
+      "ended_at": "2026-09-29 02:22:22.847621+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Sports",
+      "question_text": "_________ Vikings (NFL)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 8462,
+          "exact_match": false,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 02:22:22.842025+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5682,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:22:53.047581+00:00",
+      "ended_at": "2026-09-29 02:23:09.902178+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Sports",
+      "question_text": "_________ Braves (MLB)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 16840,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 02:23:09.898807+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5683,
+      "mode": "insane",
+      "started_at": "2026-09-29 02:23:40.527039+00:00",
+      "ended_at": "2026-09-29 02:24:40.767307+00:00",
+      "winner_id": null,
+      "category": "Geography",
+      "question_text": "Name all oceans",
+      "image_url": null,
+      "answer_count": 5,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 6045,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 02:23:46.574787+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 8304,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 02:23:48.833578+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 16149,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 02:23:56.678787+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 24234,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 02:24:04.763558+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "184456115927384065": 826,
+    "433990857063137282": 208
+  }
+}
