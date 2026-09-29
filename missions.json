@@ -41,24 +41,24 @@
         "text": "Play in 2 Daily Trivia games",
         "players": [
           {
-            "user_id": "433990857063137282",
-            "progress": 1,
-            "completed_at": null
+            "user_id": "734768348201615400",
+            "progress": 2,
+            "completed_at": "2026-09-29 18:49:57.529860+00:00"
           },
           {
-            "user_id": "734768348201615400",
-            "progress": 1,
-            "completed_at": null
+            "user_id": "433990857063137282",
+            "progress": 2,
+            "completed_at": "2026-09-29 18:49:57.534956+00:00"
           },
           {
             "user_id": "795847206719717386",
-            "progress": 1,
-            "completed_at": null
+            "progress": 2,
+            "completed_at": "2026-09-29 18:49:57.539443+00:00"
           },
           {
             "user_id": "184456115927384065",
-            "progress": 1,
-            "completed_at": null
+            "progress": 2,
+            "completed_at": "2026-09-29 18:49:57.545406+00:00"
           }
         ]
       },
@@ -74,22 +74,22 @@
         "players": [
           {
             "user_id": "433990857063137282",
-            "progress": 10,
+            "progress": 11,
             "completed_at": null
           },
           {
             "user_id": "795847206719717386",
-            "progress": 7,
+            "progress": 8,
             "completed_at": null
           },
           {
             "user_id": "734768348201615400",
-            "progress": 5,
+            "progress": 6,
             "completed_at": null
           },
           {
             "user_id": "184456115927384065",
-            "progress": 4,
+            "progress": 5,
             "completed_at": null
           },
           {
@@ -138,7 +138,7 @@
         "players": [
           {
             "user_id": "795847206719717386",
-            "progress": 6,
+            "progress": 7,
             "completed_at": null
           },
           {
