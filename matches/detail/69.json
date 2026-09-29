@@ -1,0 +1,63 @@
+{
+  "game": {
+    "id": 69,
+    "kind": "game",
+    "mode": "standard",
+    "channel_id": "864342930076860426",
+    "total_rounds": 20,
+    "rounds_played": 2,
+    "categories": [
+      "Marvel"
+    ],
+    "started_by": "794420965387403265",
+    "winner_id": "433990857063137282",
+    "started_at": "2026-09-29 03:05:42.810523+00:00",
+    "ended_at": "2026-09-29 03:06:46.635679+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 5699,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:05:43.243304+00:00",
+      "ended_at": "2026-09-29 03:05:57.034667+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Marvel",
+      "question_text": "Who is the true mastermind behind the Mandarin attacks?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 13774,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:05:57.030406+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5700,
+      "mode": "standard",
+      "started_at": "2026-09-29 03:06:27.255802+00:00",
+      "ended_at": "2026-09-29 03:06:46.409397+00:00",
+      "winner_id": null,
+      "category": "Marvel",
+      "question_text": "What mystical city trains Danny Rand?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 6601,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 03:06:33.868266+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 168
+  }
+}
