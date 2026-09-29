@@ -2,23 +2,23 @@
   "user_id": "184456115927384065",
   "level": {
     "level": 41,
-    "xp_into_level": 699,
+    "xp_into_level": 1374,
     "xp_for_level": 58000,
-    "progress": 0.012051724137931034,
+    "progress": 0.023689655172413792,
     "maxed": false
   },
-  "total_xp": 853199,
+  "total_xp": 853874,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 1036,
-    "weekly_correct": 444,
-    "monthly_points": 2409,
-    "monthly_correct": 1236,
-    "yearly_points": 2409,
-    "yearly_correct": 1236,
-    "alltime_points": 2409,
-    "alltime_correct": 1236
+    "daily_points": 4,
+    "daily_correct": 4,
+    "weekly_points": 1040,
+    "weekly_correct": 448,
+    "monthly_points": 2413,
+    "monthly_correct": 1240,
+    "yearly_points": 2413,
+    "yearly_correct": 1240,
+    "alltime_points": 2413,
+    "alltime_correct": 1240
   },
   "stats_row": {
     "user_id": "184456115927384065",
@@ -29,11 +29,11 @@
     "wins": 588,
     "current_streak": 1,
     "best_streak": 21,
-    "games_played": 91,
-    "insane_guesses": 477,
+    "games_played": 92,
+    "insane_guesses": 481,
     "day_streak": 14,
     "last_played_date": "2026-09-28",
-    "total_xp": 853199,
+    "total_xp": 853874,
     "game_wins": 48,
     "achievement_best_streak": 21
   },
@@ -53,15 +53,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 648,
+  "total_insane_correct": 652,
   "average_guess_ms": 21113.88945578231,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
-    "active_days": 24
+    "active_days": 25
   },
   "spelling_accuracy": {
-    "exact_count": 1055,
-    "total": 1144
+    "exact_count": 1059,
+    "total": 1148
   },
   "achievements": {
     "catalog": [
@@ -2221,7 +2221,7 @@
       "disney": 21,
       "entertainment": 1,
       "geo": 84,
-      "gk": 123,
+      "gk": 127,
       "got": 1,
       "marvel": 9,
       "movies": 21,
@@ -2625,8 +2625,8 @@
       "key": "trickortreat",
       "label": "Trick or Treat Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -3489,8 +3489,8 @@
       "key": "scarymovies",
       "label": "Scary Movies MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
