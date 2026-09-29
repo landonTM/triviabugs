@@ -1,39 +1,39 @@
 {
   "user_id": "734768348201615400",
   "level": {
-    "level": 42,
-    "xp_into_level": 20274,
-    "xp_for_level": 61000,
-    "progress": 0.3323606557377049,
+    "level": 43,
+    "xp_into_level": 9994,
+    "xp_for_level": 64000,
+    "progress": 0.15615625,
     "maxed": false
   },
-  "total_xp": 930774,
+  "total_xp": 981494,
   "period_stats": {
-    "daily_points": 198,
-    "daily_correct": 103,
-    "weekly_points": 1425,
-    "weekly_correct": 822,
-    "monthly_points": 5655,
-    "monthly_correct": 3155,
-    "yearly_points": 5854,
-    "yearly_correct": 3298,
-    "alltime_points": 5854,
-    "alltime_correct": 3298
+    "daily_points": 44,
+    "daily_correct": 29,
+    "weekly_points": 1469,
+    "weekly_correct": 851,
+    "monthly_points": 5699,
+    "monthly_correct": 3184,
+    "yearly_points": 5898,
+    "yearly_correct": 3327,
+    "alltime_points": 5898,
+    "alltime_correct": 3327
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 3669,
-    "questions_right": 1113,
+    "total_points": 3687,
+    "questions_right": 1116,
     "questions_wrong": 0,
-    "wins": 1113,
+    "wins": 1116,
     "current_streak": 1,
     "best_streak": 37,
-    "games_played": 57,
-    "insane_guesses": 1256,
+    "games_played": 58,
+    "insane_guesses": 1282,
     "day_streak": 14,
     "last_played_date": "2026-09-28",
-    "total_xp": 930774,
+    "total_xp": 981494,
     "game_wins": 28,
     "achievement_best_streak": 37
   },
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 1139,
-    "correct": 766
+    "points": 1143,
+    "correct": 770
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2185,
-  "average_guess_ms": 15580.700808625337,
+  "total_insane_correct": 2211,
+  "average_guess_ms": 15558.400537634408,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
-    "active_days": 30
+    "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 2102,
-    "total": 2516
+    "exact_count": 2128,
+    "total": 2545
   },
   "achievements": {
     "catalog": [
@@ -2210,7 +2210,8 @@
       "hardcore_win": "2026-09-26 20:14:00.638954+00:00",
       "play_50_games": "2026-09-26 20:32:37.584830+00:00",
       "spelling_bee": "2026-09-26 21:14:07.094426+00:00",
-      "hardcore_spelling": "2026-09-26 21:14:07.096748+00:00"
+      "hardcore_spelling": "2026-09-26 21:14:07.096748+00:00",
+      "geo_250": "2026-09-29 00:15:26.775172+00:00"
     },
     "baselines": {
       "points": 1842,
@@ -2220,16 +2221,16 @@
     "category_counts": {
       "disney": 33,
       "entertainment": 10,
-      "geo": 240,
+      "geo": 260,
       "gk": 197,
       "got": 0,
       "marvel": 28,
-      "movies": 4,
+      "movies": 7,
       "music": 21,
       "pokemon": 8,
       "sports": 85,
       "videogames": 19,
-      "wrestling": 335,
+      "wrestling": 339,
       "duelwins": 4,
       "duelstreak": 2
     }
@@ -2489,8 +2490,8 @@
       "key": "jeopardybot",
       "label": "Jeopardy Bot Emoji Pack",
       "unlock_level": 43,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "emoji",
@@ -2625,8 +2626,8 @@
       "key": "trickortreat",
       "label": "Trick or Treat Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -3489,8 +3490,8 @@
       "key": "scarymovies",
       "label": "Scary Movies MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
