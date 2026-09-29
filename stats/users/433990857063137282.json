@@ -1,39 +1,39 @@
 {
   "user_id": "433990857063137282",
   "level": {
-    "level": 42,
-    "xp_into_level": 42783,
-    "xp_for_level": 61000,
-    "progress": 0.7013606557377049,
+    "level": 43,
+    "xp_into_level": 6783,
+    "xp_for_level": 64000,
+    "progress": 0.105984375,
     "maxed": false
   },
-  "total_xp": 953283,
+  "total_xp": 978283,
   "period_stats": {
-    "daily_points": 210,
-    "daily_correct": 67,
-    "weekly_points": 893,
-    "weekly_correct": 388,
-    "monthly_points": 3967,
-    "monthly_correct": 1841,
-    "yearly_points": 4141,
-    "yearly_correct": 1934,
-    "alltime_points": 4141,
-    "alltime_correct": 1934
+    "daily_points": 287,
+    "daily_correct": 84,
+    "weekly_points": 970,
+    "weekly_correct": 405,
+    "monthly_points": 4044,
+    "monthly_correct": 1858,
+    "yearly_points": 4218,
+    "yearly_correct": 1951,
+    "alltime_points": 4218,
+    "alltime_correct": 1951
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3030,
-    "questions_right": 820,
+    "total_points": 3102,
+    "questions_right": 832,
     "questions_wrong": 0,
-    "wins": 820,
-    "current_streak": 1,
+    "wins": 832,
+    "current_streak": 4,
     "best_streak": 27,
     "games_played": 102,
-    "insane_guesses": 810,
+    "insane_guesses": 815,
     "day_streak": 7,
     "last_played_date": "2026-09-29",
-    "total_xp": 953283,
+    "total_xp": 978283,
     "game_wins": 35,
     "achievement_best_streak": 27
   },
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 696,
-    "correct": 119
+    "points": 768,
+    "correct": 131
   },
   "best_insane_round": {
     "question_text": "Name every US state",
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1115,
-  "average_guess_ms": 16733.529914529914,
+  "total_insane_correct": 1120,
+  "average_guess_ms": 16568.95667870036,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 1504,
-    "total": 1720
+    "exact_count": 1520,
+    "total": 1737
   },
   "achievements": {
     "catalog": [
@@ -2218,7 +2218,8 @@
       "videogames_50": "2026-09-28 18:02:11.656180+00:00",
       "wins_30": "2026-09-28 23:53:59.679344+00:00",
       "play_100_games": "2026-09-29 03:06:47.435670+00:00",
-      "duelwins_25": "2026-09-29 04:25:35.670314+00:00"
+      "duelwins_25": "2026-09-29 04:25:35.670314+00:00",
+      "geo_100": "2026-09-29 19:40:56.906175+00:00"
     },
     "baselines": {
       "points": 632,
@@ -2228,9 +2229,9 @@
     "category_counts": {
       "disney": 41,
       "entertainment": 0,
-      "geo": 100,
+      "geo": 102,
       "gk": 186,
-      "got": 5,
+      "got": 8,
       "marvel": 67,
       "movies": 2,
       "music": 10,
@@ -2497,8 +2498,8 @@
       "key": "jeopardybot",
       "label": "Jeopardy Bot Emoji Pack",
       "unlock_level": 43,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "emoji",
@@ -3612,11 +3613,11 @@
       "template": "Cursed by {user} 🔮"
     },
     "emoji": {
-      "key": "trickortreat",
-      "label": "Trick or Treat Emoji Pack",
-      "correct": "🍬",
-      "streak": "🧟",
-      "speed": "🕯️"
+      "key": "jeopardybot",
+      "label": "Jeopardy Bot Emoji Pack",
+      "correct": "🤯",
+      "streak": "😱",
+      "speed": "⏳"
     },
     "theme": {
       "key": "zombie",
