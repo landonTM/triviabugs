@@ -1,40 +1,40 @@
 {
   "user_id": "795847206719717386",
   "level": {
-    "level": 43,
-    "xp_into_level": 48836,
-    "xp_for_level": 64000,
-    "progress": 0.7630625,
+    "level": 44,
+    "xp_into_level": 46707,
+    "xp_for_level": 67000,
+    "progress": 0.6971194029850746,
     "maxed": false
   },
-  "total_xp": 1020336,
+  "total_xp": 1082207,
   "period_stats": {
-    "daily_points": 577,
-    "daily_correct": 267,
-    "weekly_points": 1397,
-    "weekly_correct": 722,
-    "monthly_points": 6803,
-    "monthly_correct": 3817,
-    "yearly_points": 6909,
-    "yearly_correct": 3876,
-    "alltime_points": 6909,
-    "alltime_correct": 3876
+    "daily_points": 681,
+    "daily_correct": 312,
+    "weekly_points": 1501,
+    "weekly_correct": 767,
+    "monthly_points": 6907,
+    "monthly_correct": 3862,
+    "yearly_points": 7013,
+    "yearly_correct": 3921,
+    "alltime_points": 7013,
+    "alltime_correct": 3921
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 4501,
-    "questions_right": 1468,
+    "total_points": 4582,
+    "questions_right": 1490,
     "questions_wrong": 0,
-    "wins": 1468,
+    "wins": 1490,
     "current_streak": 1,
     "best_streak": 22,
-    "games_played": 67,
-    "insane_guesses": 1454,
+    "games_played": 70,
+    "insane_guesses": 1477,
     "day_streak": 4,
     "last_played_date": "2026-09-29",
-    "total_xp": 1020336,
-    "game_wins": 37,
+    "total_xp": 1082207,
+    "game_wins": 39,
     "achievement_best_streak": 17
   },
   "best_streak": 22,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 915,
-    "correct": 660
+    "points": 941,
+    "correct": 677
   },
   "best_insane_round": {
     "question_text": "Name all countries",
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2408,
-  "average_guess_ms": 19793.98297002725,
+  "total_insane_correct": 2431,
+  "average_guess_ms": 19631.234228187917,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 2890,
-    "total": 3277
+    "exact_count": 2930,
+    "total": 3322
   },
   "achievements": {
     "catalog": [
@@ -2213,7 +2213,8 @@
       "hardcore_marathon": "2026-09-29 00:47:16.399316+00:00",
       "quickfire_win": "2026-09-29 01:33:58.633250+00:00",
       "duelstreak_3": "2026-09-29 01:48:32.442358+00:00",
-      "geo_250": "2026-09-29 18:49:26.480956+00:00"
+      "geo_250": "2026-09-29 18:49:26.480956+00:00",
+      "wrestling_250": "2026-09-29 22:41:30.048588+00:00"
     },
     "baselines": {
       "points": 1991,
@@ -2223,7 +2224,7 @@
     "category_counts": {
       "disney": 68,
       "entertainment": 10,
-      "geo": 256,
+      "geo": 265,
       "gk": 211,
       "got": 78,
       "marvel": 79,
@@ -2232,7 +2233,7 @@
       "pokemon": 31,
       "sports": 24,
       "videogames": 24,
-      "wrestling": 264,
+      "wrestling": 281,
       "duelwins": 6,
       "duelstreak": 3
     }
@@ -2308,8 +2309,8 @@
       "key": "sponsors",
       "label": "Sponsors Footer",
       "unlock_level": 44,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "footer",
@@ -2644,8 +2645,8 @@
       "key": "spoopy",
       "label": "Spoopy Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -3172,8 +3173,8 @@
       "key": "birdsofprey",
       "label": "Birds of Prey MVP",
       "unlock_level": 44,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "mvp",
@@ -3540,8 +3541,8 @@
       "key": "cancelled",
       "label": "Cancelled MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
