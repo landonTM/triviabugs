@@ -1,0 +1,599 @@
+{
+  "game": {
+    "id": 73,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 20,
+    "rounds_played": 20,
+    "categories": [
+      "sports"
+    ],
+    "started_by": "734768348201615400",
+    "winner_id": "734768348201615400",
+    "started_at": "2026-09-29 21:47:53.889056+00:00",
+    "ended_at": "2026-09-29 21:56:27.254640+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5821,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:47:54.200091+00:00",
+      "ended_at": "2026-09-29 21:48:23.094509+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "Who was the first pinch hitter to score a home run in World Series play?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 28874,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 21:48:23.090266+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5822,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:48:33.340811+00:00",
+      "ended_at": "2026-09-29 21:49:03.608762+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "Who was the first NHL goalie to score a goal?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 30249,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 21:49:03.605346+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5823,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:49:13.843170+00:00",
+      "ended_at": "2026-09-29 21:49:17.796603+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "_________ Ravens (NFL)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3936,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:49:17.793405+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5824,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:49:28.043544+00:00",
+      "ended_at": "2026-09-29 21:49:31.769925+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "_________ Athletics (MLB, historically through 2024)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3709,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:49:31.766490+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5825,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:49:42.280482+00:00",
+      "ended_at": "2026-09-29 21:49:47.356783+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "Which club has won the most Bundesliga titles in Germany?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5058,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:49:47.352644+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5826,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:49:57.639507+00:00",
+      "ended_at": "2026-09-29 21:50:06.533521+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "What is the nickname of the Netherlands men's national soccer team?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 8878,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:50:06.529401+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5827,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:50:16.791662+00:00",
+      "ended_at": "2026-09-29 21:50:20.973307+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "_________ Timberwolves (NBA)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4167,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:50:20.970068+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5828,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:50:31.349243+00:00",
+      "ended_at": "2026-09-29 21:50:39.722746+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "Which player holds the record for most Wimbledon women's singles titles, with 9?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 8359,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:50:39.719307+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5829,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:50:49.986778+00:00",
+      "ended_at": "2026-09-29 21:50:53.143652+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "How many soccer players should be on the field at the same time?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 3142,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:50:53.138074+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5830,
+      "mode": "insane",
+      "started_at": "2026-09-29 21:51:03.755936+00:00",
+      "ended_at": "2026-09-29 21:52:03.953881+00:00",
+      "winner_id": null,
+      "category": "NBA",
+      "question_text": "Every team to win an NBA championship",
+      "image_url": null,
+      "answer_count": 21,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6477,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:10.235238+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9532,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:13.290936+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 12442,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:16.200940+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 15004,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:18.762591+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 17923,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:21.681176+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 21052,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:24.810468+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 25718,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:29.476735+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 28202,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:31.961071+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 30167,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:33.925635+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 33364,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:37.122178+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 36925,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:40.683380+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 38580,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:42.338512+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 42835,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:46.593428+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 44395,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:48.154023+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 48374,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:52.132819+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 52632,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:51:56.391033+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5831,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:52:14.760319+00:00",
+      "ended_at": "2026-09-29 21:52:21.082397+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "The Kangaroo Hoppet is a long distance cross-country skiing race that is held in which country?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6308,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:52:21.078978+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5832,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:52:31.315319+00:00",
+      "ended_at": "2026-09-29 21:52:43.924489+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "What is the term for a defensive player who specializes in marking and tackling opposing forwards?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 12595,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:52:43.921127+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5833,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:52:54.826086+00:00",
+      "ended_at": "2026-09-29 21:53:00.578859+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Sports",
+      "question_text": "How many holes are there in a full round of golf?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 5738,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:53:00.574217+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5834,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:53:12.330822+00:00",
+      "ended_at": "2026-09-29 21:53:16.780869+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "A shuttlecock is used in what sport?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4434,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:53:16.777557+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5835,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:53:26.988873+00:00",
+      "ended_at": "2026-09-29 21:54:27.121009+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "What was Joe DiMaggio's nickname?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5836,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:54:37.421114+00:00",
+      "ended_at": "2026-09-29 21:54:44.558113+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "Which team won the 2019 Super Bowl?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 7117,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:54:44.554332+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5837,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:54:54.906635+00:00",
+      "ended_at": "2026-09-29 21:55:00.666701+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "Shaquille Rashaun O'Neal retired in 2011 from what sport?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5742,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:55:00.663315+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5838,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:55:11.826832+00:00",
+      "ended_at": "2026-09-29 21:55:18.225886+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "What is the term for the middle of the field where midfielders primarily operate?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6382,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:55:18.222603+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5839,
+      "mode": "standard",
+      "started_at": "2026-09-29 21:55:28.485087+00:00",
+      "ended_at": "2026-09-29 21:55:38.308826+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "_________ Jaguars (NFL)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9805,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 21:55:38.305575+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5840,
+      "mode": "insane",
+      "started_at": "2026-09-29 21:55:48.690746+00:00",
+      "ended_at": "2026-09-29 21:56:16.544863+00:00",
+      "winner_id": null,
+      "category": "Geography",
+      "question_text": "Every country in South America",
+      "image_url": null,
+      "answer_count": 12,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 3591,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:55:52.284835+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5474,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:55:54.167362+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 6592,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:55:55.285344+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 7664,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:55:56.356955+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 8286,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:55:56.979022+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 9604,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:55:58.297198+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9793,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:55:58.486007+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 14110,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:56:02.803612+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 15490,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:56:04.183199+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 17297,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:56:05.990236+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 25504,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:56:14.197772+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 27844,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 21:56:16.537832+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "184456115927384065": 189,
+    "433990857063137282": 240,
+    "734768348201615400": 1240
+  }
+}
