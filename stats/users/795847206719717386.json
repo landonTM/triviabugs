@@ -2,39 +2,39 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 43,
-    "xp_into_level": 48188,
+    "xp_into_level": 48836,
     "xp_for_level": 64000,
-    "progress": 0.7529375,
+    "progress": 0.7630625,
     "maxed": false
   },
-  "total_xp": 1019688,
+  "total_xp": 1020336,
   "period_stats": {
-    "daily_points": 535,
-    "daily_correct": 245,
-    "weekly_points": 1355,
-    "weekly_correct": 700,
-    "monthly_points": 6761,
-    "monthly_correct": 3795,
-    "yearly_points": 6867,
-    "yearly_correct": 3854,
-    "alltime_points": 6867,
-    "alltime_correct": 3854
+    "daily_points": 577,
+    "daily_correct": 267,
+    "weekly_points": 1397,
+    "weekly_correct": 722,
+    "monthly_points": 6803,
+    "monthly_correct": 3817,
+    "yearly_points": 6909,
+    "yearly_correct": 3876,
+    "alltime_points": 6909,
+    "alltime_correct": 3876
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 4477,
-    "questions_right": 1464,
+    "total_points": 4501,
+    "questions_right": 1468,
     "questions_wrong": 0,
-    "wins": 1464,
+    "wins": 1468,
     "current_streak": 1,
     "best_streak": 22,
-    "games_played": 66,
-    "insane_guesses": 1436,
+    "games_played": 67,
+    "insane_guesses": 1454,
     "day_streak": 4,
     "last_played_date": "2026-09-29",
-    "total_xp": 1019688,
-    "game_wins": 36,
+    "total_xp": 1020336,
+    "game_wins": 37,
     "achievement_best_streak": 17
   },
   "best_streak": 22,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 897,
-    "correct": 642
+    "points": 915,
+    "correct": 660
   },
   "best_insane_round": {
     "question_text": "Name all countries",
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2390,
-  "average_guess_ms": 19828.858606557376,
+  "total_insane_correct": 2408,
+  "average_guess_ms": 19793.98297002725,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 2870,
-    "total": 3255
+    "exact_count": 2890,
+    "total": 3277
   },
   "achievements": {
     "catalog": [
@@ -2232,7 +2232,7 @@
       "pokemon": 31,
       "sports": 24,
       "videogames": 24,
-      "wrestling": 246,
+      "wrestling": 264,
       "duelwins": 6,
       "duelstreak": 3
     }
@@ -3532,8 +3532,8 @@
       "key": "rubber",
       "label": "Rubber MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
