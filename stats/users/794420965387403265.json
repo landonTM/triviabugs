@@ -2,39 +2,39 @@
   "user_id": "794420965387403265",
   "level": {
     "level": 30,
-    "xp_into_level": 11375,
+    "xp_into_level": 13892,
     "xp_for_level": 35000,
-    "progress": 0.325,
+    "progress": 0.3969142857142857,
     "maxed": false
   },
-  "total_xp": 368875,
+  "total_xp": 371392,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 158,
-    "weekly_correct": 75,
-    "monthly_points": 831,
-    "monthly_correct": 405,
-    "yearly_points": 831,
-    "yearly_correct": 405,
-    "alltime_points": 831,
-    "alltime_correct": 405
+    "daily_points": 55,
+    "daily_correct": 26,
+    "weekly_points": 213,
+    "weekly_correct": 101,
+    "monthly_points": 886,
+    "monthly_correct": 431,
+    "yearly_points": 886,
+    "yearly_correct": 431,
+    "alltime_points": 886,
+    "alltime_correct": 431
   },
   "stats_row": {
     "user_id": "794420965387403265",
     "guild_id": "861055530638114836",
-    "total_points": 618,
-    "questions_right": 192,
+    "total_points": 659,
+    "questions_right": 204,
     "questions_wrong": 0,
-    "wins": 192,
-    "current_streak": 1,
+    "wins": 204,
+    "current_streak": 2,
     "best_streak": 7,
-    "games_played": 26,
-    "insane_guesses": 144,
+    "games_played": 27,
+    "insane_guesses": 158,
     "day_streak": 1,
     "last_played_date": "2026-09-28",
-    "total_xp": 368875,
-    "game_wins": 6,
+    "total_xp": 371392,
+    "game_wins": 7,
     "achievement_best_streak": 7
   },
   "best_streak": 7,
@@ -44,24 +44,24 @@
     "category": "Elements"
   },
   "best_category": {
-    "category": "General Knowledge",
-    "points": 97,
-    "correct": 73
+    "category": "Marvel",
+    "points": 123,
+    "correct": 57
   },
   "best_insane_round": {
     "question_text": "Human Organs",
     "category": "General Knowledge",
     "guesses": 14
   },
-  "total_insane_correct": 213,
-  "average_guess_ms": 18050.1875,
+  "total_insane_correct": 227,
+  "average_guess_ms": 17872.88725490196,
   "activity": {
     "first_answered_at": "2026-09-08 22:30:21.511683+00:00",
-    "active_days": 12
+    "active_days": 13
   },
   "spelling_accuracy": {
-    "exact_count": 324,
-    "total": 405
+    "exact_count": 348,
+    "total": 431
   },
   "achievements": {
     "catalog": [
@@ -2184,7 +2184,8 @@
       "duel_perfect_sweep": "2026-09-24 00:48:07.059953+00:00",
       "duel_nail_biter": "2026-09-24 00:48:07.061881+00:00",
       "duel_spelling_bee": "2026-09-24 00:48:07.063401+00:00",
-      "points_500": "2026-09-28 23:14:23.330348+00:00"
+      "points_500": "2026-09-28 23:14:23.330348+00:00",
+      "quickfire_win": "2026-09-29 03:16:32.755158+00:00"
     },
     "baselines": {
       "points": 118,
@@ -2194,10 +2195,10 @@
     "category_counts": {
       "disney": 8,
       "entertainment": 3,
-      "geo": 7,
-      "gk": 16,
+      "geo": 14,
+      "gk": 23,
       "got": 1,
-      "marvel": 13,
+      "marvel": 25,
       "movies": 1,
       "music": 1,
       "pokemon": 8,
@@ -2335,8 +2336,8 @@
       "key": "haunted",
       "label": "Haunted Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "footer",
@@ -3455,8 +3456,8 @@
       "key": "pumpkin",
       "label": "Pumpkin MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3573,9 +3574,9 @@
   ],
   "equipped": {
     "footer": {
-      "key": "powered",
-      "label": "Powered Footer",
-      "template": "Powered by {user}! ⚡"
+      "key": "haunted",
+      "label": "Haunted Footer",
+      "template": "Haunted by {user} 👻"
     },
     "emoji": {
       "key": "oceanic",
