@@ -2,38 +2,38 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 42,
-    "xp_into_level": 36381,
+    "xp_into_level": 42783,
     "xp_for_level": 61000,
-    "progress": 0.5964098360655737,
+    "progress": 0.7013606557377049,
     "maxed": false
   },
-  "total_xp": 946881,
+  "total_xp": 953283,
   "period_stats": {
-    "daily_points": 206,
-    "daily_correct": 66,
-    "weekly_points": 889,
-    "weekly_correct": 387,
-    "monthly_points": 3963,
-    "monthly_correct": 1840,
-    "yearly_points": 4137,
-    "yearly_correct": 1933,
-    "alltime_points": 4137,
-    "alltime_correct": 1933
+    "daily_points": 210,
+    "daily_correct": 67,
+    "weekly_points": 893,
+    "weekly_correct": 388,
+    "monthly_points": 3967,
+    "monthly_correct": 1841,
+    "yearly_points": 4141,
+    "yearly_correct": 1934,
+    "alltime_points": 4141,
+    "alltime_correct": 1934
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3026,
-    "questions_right": 819,
+    "total_points": 3030,
+    "questions_right": 820,
     "questions_wrong": 0,
-    "wins": 819,
-    "current_streak": 4,
+    "wins": 820,
+    "current_streak": 1,
     "best_streak": 27,
-    "games_played": 101,
+    "games_played": 102,
     "insane_guesses": 810,
-    "day_streak": 6,
-    "last_played_date": "2026-09-28",
-    "total_xp": 946881,
+    "day_streak": 7,
+    "last_played_date": "2026-09-29",
+    "total_xp": 953283,
     "game_wins": 35,
     "achievement_best_streak": 27
   },
@@ -54,14 +54,14 @@
     "guesses": 17
   },
   "total_insane_correct": 1115,
-  "average_guess_ms": 16735.07334963325,
+  "average_guess_ms": 16733.529914529914,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 1503,
-    "total": 1719
+    "exact_count": 1504,
+    "total": 1720
   },
   "achievements": {
     "catalog": [
@@ -2231,7 +2231,7 @@
       "geo": 100,
       "gk": 186,
       "got": 5,
-      "marvel": 66,
+      "marvel": 67,
       "movies": 2,
       "music": 10,
       "pokemon": 9,
@@ -2649,8 +2649,8 @@
       "key": "spoopy",
       "label": "Spoopy Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -3545,8 +3545,8 @@
       "key": "cancelled",
       "label": "Cancelled MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
