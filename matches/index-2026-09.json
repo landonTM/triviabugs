@@ -2008,6 +2008,22 @@
       "started_at": "2026-09-29 02:17:34.819799+00:00",
       "ended_at": "2026-09-29 02:25:11.210256+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 67,
+      "kind": "game",
+      "mode": "hardcore",
+      "channel_id": "861424168875982848",
+      "total_rounds": 10,
+      "rounds_played": 10,
+      "categories": [
+        "Logos"
+      ],
+      "started_by": "433990857063137282",
+      "winner_id": "433990857063137282",
+      "started_at": "2026-09-29 02:43:06.610154+00:00",
+      "ended_at": "2026-09-29 02:49:50.299133+00:00",
+      "end_reason": "completed"
     }
   ]
 }
