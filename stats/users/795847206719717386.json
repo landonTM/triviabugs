@@ -2,39 +2,39 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 42,
-    "xp_into_level": 9682,
+    "xp_into_level": 23776,
     "xp_for_level": 61000,
-    "progress": 0.15872131147540983,
+    "progress": 0.38977049180327866,
     "maxed": false
   },
-  "total_xp": 920182,
+  "total_xp": 934276,
   "period_stats": {
-    "daily_points": 299,
-    "daily_correct": 139,
-    "weekly_points": 1130,
-    "weekly_correct": 599,
-    "monthly_points": 6525,
-    "monthly_correct": 3689,
-    "yearly_points": 6631,
-    "yearly_correct": 3748,
-    "alltime_points": 6631,
-    "alltime_correct": 3748
+    "daily_points": 314,
+    "daily_correct": 145,
+    "weekly_points": 1145,
+    "weekly_correct": 605,
+    "monthly_points": 6540,
+    "monthly_correct": 3695,
+    "yearly_points": 6646,
+    "yearly_correct": 3754,
+    "alltime_points": 6646,
+    "alltime_correct": 3754
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 4308,
-    "questions_right": 1425,
+    "total_points": 4320,
+    "questions_right": 1428,
     "questions_wrong": 0,
-    "wins": 1425,
+    "wins": 1428,
     "current_streak": 1,
     "best_streak": 22,
-    "games_played": 62,
-    "insane_guesses": 1369,
+    "games_played": 64,
+    "insane_guesses": 1372,
     "day_streak": 3,
     "last_played_date": "2026-09-28",
-    "total_xp": 920182,
-    "game_wins": 32,
+    "total_xp": 934276,
+    "game_wins": 34,
     "achievement_best_streak": 17
   },
   "best_streak": 22,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 849,
-    "correct": 603
+    "points": 861,
+    "correct": 606
   },
   "best_insane_round": {
     "question_text": "Name all countries",
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2323,
-  "average_guess_ms": 20035.04701754386,
+  "total_insane_correct": 2326,
+  "average_guess_ms": 20019.83263305322,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 2765,
-    "total": 3149
+    "exact_count": 2771,
+    "total": 3155
   },
   "achievements": {
     "catalog": [
@@ -2210,7 +2210,9 @@
       "disney_50": "2026-09-26 18:43:53.027618+00:00",
       "wins_30": "2026-09-28 23:19:06.512105+00:00",
       "hardcore_spelling": "2026-09-29 00:02:05.824226+00:00",
-      "hardcore_marathon": "2026-09-29 00:47:16.399316+00:00"
+      "hardcore_marathon": "2026-09-29 00:47:16.399316+00:00",
+      "quickfire_win": "2026-09-29 01:33:58.633250+00:00",
+      "duelstreak_3": "2026-09-29 01:48:32.442358+00:00"
     },
     "baselines": {
       "points": 1991,
@@ -2221,7 +2223,7 @@
       "disney": 66,
       "entertainment": 10,
       "geo": 247,
-      "gk": 206,
+      "gk": 209,
       "got": 73,
       "marvel": 78,
       "movies": 17,
@@ -2229,18 +2231,18 @@
       "pokemon": 30,
       "sports": 24,
       "videogames": 22,
-      "wrestling": 207,
-      "duelwins": 5,
-      "duelstreak": 2
+      "wrestling": 210,
+      "duelwins": 6,
+      "duelstreak": 3
     }
   },
   "duel_stats": {
     "guild_id": "861055530638114836",
     "user_id": "795847206719717386",
-    "wins": 5,
+    "wins": 6,
     "losses": 3,
-    "current_streak": 2,
-    "best_streak": 2,
+    "current_streak": 3,
+    "best_streak": 3,
     "ties": 0
   },
   "cosmetics": [
@@ -2633,8 +2635,8 @@
       "key": "haunted",
       "label": "Haunted Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -3505,8 +3507,8 @@
       "key": "playgame",
       "label": "Play Game MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3604,33 +3606,33 @@
       "template": "With compliments from {user}. 💌"
     },
     "emoji": {
-      "key": "sweettooth",
-      "label": "Sweet Tooth Emoji Pack",
-      "correct": "🍭",
-      "streak": "🍩",
-      "speed": "🍬"
+      "key": "haunted",
+      "label": "Haunted Emoji Pack",
+      "correct": "💀",
+      "streak": "⚰️",
+      "speed": "🕸️"
     },
     "theme": {
       "key": "cowboy",
       "label": "Cowboy Response Theme"
     },
     "embedcolor": {
-      "key": "mint",
-      "label": "Mint Embed",
-      "hex": "#5CE1B0"
+      "key": "periwinkle",
+      "label": "Periwinkle Embed",
+      "hex": "#8093F1"
     },
     "mvp": {
-      "key": "careful",
-      "label": "Careful MVP",
-      "quote": "Careful now, girl. I enjoy you, but be careful.",
-      "gif": "https://media.giphy.com/media/sKVraMKIs2ptEdbMtB/giphy.gif"
+      "key": "scarymovies",
+      "label": "Scary Movies MVP",
+      "quote": "What's your favorite scary movie?",
+      "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWNtYmt1bGh1dG9mZmp4OGljN2lrN2ZnYXBuOWc4d2NmNWltOHEyeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RSeauh7Iyr9Yoys5Dd/giphy.gif"
     }
   },
   "rivals": [
     {
       "user_id": "433990857063137282",
-      "played": 4,
-      "wins": 2,
+      "played": 5,
+      "wins": 3,
       "losses": 2,
       "ties": 0
     },
