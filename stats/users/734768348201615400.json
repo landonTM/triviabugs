@@ -2,39 +2,39 @@
   "user_id": "734768348201615400",
   "level": {
     "level": 44,
-    "xp_into_level": 69,
+    "xp_into_level": 11571,
     "xp_for_level": 67000,
-    "progress": 0.0010298507462686568,
+    "progress": 0.17270149253731343,
     "maxed": false
   },
-  "total_xp": 1035569,
+  "total_xp": 1047071,
   "period_stats": {
-    "daily_points": 374,
-    "daily_correct": 205,
-    "weekly_points": 1553,
-    "weekly_correct": 873,
-    "monthly_points": 6029,
-    "monthly_correct": 3360,
-    "yearly_points": 6228,
-    "yearly_correct": 3503,
-    "alltime_points": 6228,
-    "alltime_correct": 3503
+    "daily_points": 562,
+    "daily_correct": 274,
+    "weekly_points": 1741,
+    "weekly_correct": 942,
+    "monthly_points": 6217,
+    "monthly_correct": 3429,
+    "yearly_points": 6416,
+    "yearly_correct": 3572,
+    "alltime_points": 6416,
+    "alltime_correct": 3572
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 3894,
-    "questions_right": 1169,
+    "total_points": 4056,
+    "questions_right": 1212,
     "questions_wrong": 0,
-    "wins": 1169,
-    "current_streak": 10,
+    "wins": 1212,
+    "current_streak": 1,
     "best_streak": 37,
-    "games_played": 66,
-    "insane_guesses": 1405,
+    "games_played": 69,
+    "insane_guesses": 1431,
     "day_streak": 15,
     "last_played_date": "2026-09-29",
-    "total_xp": 1035569,
-    "game_wins": 31,
+    "total_xp": 1047071,
+    "game_wins": 34,
     "achievement_best_streak": 37
   },
   "best_streak": 37,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 1204,
-    "correct": 815
+    "points": 1216,
+    "correct": 827
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2334,
-  "average_guess_ms": 15346.878528656973,
+  "total_insane_correct": 2360,
+  "average_guess_ms": 15075.442244224421,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 2269,
-    "total": 2721
+    "exact_count": 2327,
+    "total": 2790
   },
   "achievements": {
     "catalog": [
@@ -2221,9 +2221,9 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 33,
+      "disney": 36,
       "entertainment": 10,
-      "geo": 317,
+      "geo": 363,
       "gk": 212,
       "got": 0,
       "marvel": 28,
@@ -2232,7 +2232,7 @@
       "pokemon": 8,
       "sports": 100,
       "videogames": 20,
-      "wrestling": 384,
+      "wrestling": 396,
       "duelwins": 4,
       "duelstreak": 2
     }
@@ -3532,8 +3532,8 @@
       "key": "rubber",
       "label": "Rubber MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
