@@ -2,38 +2,38 @@
   "user_id": "184456115927384065",
   "level": {
     "level": 41,
-    "xp_into_level": 2950,
+    "xp_into_level": 9086,
     "xp_for_level": 58000,
-    "progress": 0.05086206896551724,
+    "progress": 0.1566551724137931,
     "maxed": false
   },
-  "total_xp": 855450,
+  "total_xp": 861586,
   "period_stats": {
-    "daily_points": 44,
-    "daily_correct": 14,
-    "weekly_points": 1080,
-    "weekly_correct": 458,
-    "monthly_points": 2453,
-    "monthly_correct": 1250,
-    "yearly_points": 2453,
-    "yearly_correct": 1250,
-    "alltime_points": 2453,
-    "alltime_correct": 1250
+    "daily_points": 52,
+    "daily_correct": 19,
+    "weekly_points": 1079,
+    "weekly_correct": 457,
+    "monthly_points": 2461,
+    "monthly_correct": 1255,
+    "yearly_points": 2461,
+    "yearly_correct": 1255,
+    "alltime_points": 2461,
+    "alltime_correct": 1255
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 1797,
-    "questions_right": 594,
+    "total_points": 1801,
+    "questions_right": 595,
     "questions_wrong": 0,
-    "wins": 594,
-    "current_streak": 5,
+    "wins": 595,
+    "current_streak": 1,
     "best_streak": 21,
-    "games_played": 93,
-    "insane_guesses": 485,
-    "day_streak": 14,
-    "last_played_date": "2026-09-28",
-    "total_xp": 855450,
+    "games_played": 94,
+    "insane_guesses": 489,
+    "day_streak": 15,
+    "last_played_date": "2026-09-29",
+    "total_xp": 861586,
     "game_wins": 49,
     "achievement_best_streak": 21
   },
@@ -53,15 +53,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 656,
-  "average_guess_ms": 20979.136363636364,
+  "total_insane_correct": 660,
+  "average_guess_ms": 20953.30924369748,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 25
   },
   "spelling_accuracy": {
-    "exact_count": 1069,
-    "total": 1158
+    "exact_count": 1074,
+    "total": 1163
   },
   "achievements": {
     "catalog": [
@@ -2224,12 +2224,12 @@
       "gk": 127,
       "got": 1,
       "marvel": 9,
-      "movies": 21,
+      "movies": 22,
       "music": 15,
       "pokemon": 4,
       "sports": 232,
       "videogames": 5,
-      "wrestling": 115,
+      "wrestling": 119,
       "duelwins": 15,
       "duelstreak": 2
     }
