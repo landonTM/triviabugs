@@ -2,66 +2,66 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 44,
-    "xp_into_level": 48232,
+    "xp_into_level": 52900,
     "xp_for_level": 67000,
-    "progress": 0.7198805970149253,
+    "progress": 0.7895522388059701,
     "maxed": false
   },
-  "total_xp": 1083732,
+  "total_xp": 1088400,
   "period_stats": {
-    "daily_points": 801,
-    "daily_correct": 374,
-    "weekly_points": 1621,
-    "weekly_correct": 829,
-    "monthly_points": 7027,
-    "monthly_correct": 3924,
-    "yearly_points": 7133,
-    "yearly_correct": 3983,
-    "alltime_points": 7133,
-    "alltime_correct": 3983
+    "daily_points": 1067,
+    "daily_correct": 511,
+    "weekly_points": 1887,
+    "weekly_correct": 966,
+    "monthly_points": 7293,
+    "monthly_correct": 4061,
+    "yearly_points": 7399,
+    "yearly_correct": 4120,
+    "alltime_points": 7399,
+    "alltime_correct": 4120
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 4662,
-    "questions_right": 1512,
+    "total_points": 4839,
+    "questions_right": 1560,
     "questions_wrong": 0,
-    "wins": 1512,
-    "current_streak": 2,
+    "wins": 1560,
+    "current_streak": 3,
     "best_streak": 22,
-    "games_played": 75,
-    "insane_guesses": 1517,
+    "games_played": 78,
+    "insane_guesses": 1606,
     "day_streak": 4,
     "last_played_date": "2026-09-29",
-    "total_xp": 1083732,
-    "game_wins": 41,
-    "achievement_best_streak": 17
+    "total_xp": 1088400,
+    "game_wins": 43,
+    "achievement_best_streak": 18
   },
   "best_streak": 22,
   "fastest_guess": {
-    "response_time_ms": 2366,
-    "question_text": "Just Do It.",
-    "category": "Slogans"
+    "response_time_ms": 2295,
+    "question_text": "What logo is this?",
+    "category": "Logos"
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 953,
-    "correct": 689
+    "points": 983,
+    "correct": 719
   },
   "best_insane_round": {
     "question_text": "Name all countries",
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2471,
-  "average_guess_ms": 19469.257275132273,
+  "total_insane_correct": 2560,
+  "average_guess_ms": 19116.71923076923,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 2988,
-    "total": 3384
+    "exact_count": 3115,
+    "total": 3521
   },
   "achievements": {
     "catalog": [
@@ -2225,15 +2225,15 @@
       "disney": 77,
       "entertainment": 10,
       "geo": 283,
-      "gk": 211,
+      "gk": 230,
       "got": 80,
       "marvel": 79,
       "movies": 18,
       "music": 12,
       "pokemon": 31,
       "sports": 24,
-      "videogames": 24,
-      "wrestling": 293,
+      "videogames": 49,
+      "wrestling": 323,
       "duelwins": 6,
       "duelstreak": 3
     }
@@ -2653,8 +2653,8 @@
       "key": "fnaf",
       "label": "FNAF Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -2757,8 +2757,8 @@
       "key": "dracula",
       "label": "Dracula Response Theme",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "theme",
@@ -3557,8 +3557,8 @@
       "key": "comeback",
       "label": "Come Back MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
