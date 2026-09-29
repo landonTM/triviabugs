@@ -15,18 +15,18 @@
         "players": [
           {
             "user_id": "795847206719717386",
-            "progress": 7,
+            "progress": 10,
             "completed_at": "2026-09-29 01:29:47.628187+00:00"
+          },
+          {
+            "user_id": "734768348201615400",
+            "progress": 9,
+            "completed_at": "2026-09-29 22:44:48.785218+00:00"
           },
           {
             "user_id": "433990857063137282",
             "progress": 5,
             "completed_at": "2026-09-29 01:35:52.649325+00:00"
-          },
-          {
-            "user_id": "734768348201615400",
-            "progress": 3,
-            "completed_at": null
           }
         ]
       },
@@ -79,17 +79,17 @@
           },
           {
             "user_id": "795847206719717386",
-            "progress": 10,
-            "completed_at": null
+            "progress": 12,
+            "completed_at": "2026-09-29 22:44:48.793466+00:00"
           },
           {
             "user_id": "734768348201615400",
-            "progress": 8,
+            "progress": 11,
             "completed_at": null
           },
           {
             "user_id": "184456115927384065",
-            "progress": 6,
+            "progress": 7,
             "completed_at": null
           },
           {
@@ -138,12 +138,12 @@
         "players": [
           {
             "user_id": "795847206719717386",
-            "progress": 8,
+            "progress": 9,
             "completed_at": "2026-09-29 20:03:04.741438+00:00"
           },
           {
             "user_id": "734768348201615400",
-            "progress": 1,
+            "progress": 2,
             "completed_at": null
           },
           {
