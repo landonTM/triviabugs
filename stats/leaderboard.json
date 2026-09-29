@@ -1199,22 +1199,22 @@
           "bug_reports": 1
         },
         "weekly": {
-          "points": 1432,
-          "correct": 821,
-          "standard_correct": 231,
-          "insane_finds": 590,
-          "avg_guess_ms": 13055,
+          "points": 1413,
+          "correct": 811,
+          "standard_correct": 225,
+          "insane_finds": 586,
+          "avg_guess_ms": 12713,
           "fastest_ms": 2593,
           "under_5s": 62,
-          "exact_spelling": 690,
-          "spelled": 821,
+          "exact_spelling": 682,
+          "spelled": 811,
           "best_streak": 37,
           "active_days": 8,
           "games_played": 26,
           "categories_played": 38,
           "best_insane_round": 26,
           "best_game_points": 177,
-          "games_started": 5,
+          "games_started": 4,
           "duels_played": 4,
           "duel_wins": 3,
           "duel_losses": 1,
@@ -1463,8 +1463,8 @@
             29
           ],
           "Video Games": [
-            17,
-            43
+            16,
+            41
           ],
           "Pokemon": [
             1,
@@ -1483,8 +1483,8 @@
             2
           ],
           "Disney": [
-            6,
-            17
+            5,
+            15
           ],
           "US State Flags": [
             1,
@@ -1495,12 +1495,12 @@
             14
           ],
           "Chemistry": [
-            18,
-            24
+            17,
+            20
           ],
           "Star Wars": [
-            3,
-            4
+            2,
+            3
           ],
           "Space": [
             7,
@@ -1551,12 +1551,12 @@
             143
           ],
           "World Cup": [
-            25,
-            36
+            24,
+            32
           ],
           "Wrestling": [
-            254,
-            376
+            250,
+            372
           ],
           "Geography": [
             173,
@@ -1567,8 +1567,8 @@
             48
           ],
           "Movies": [
-            6,
-            8
+            5,
+            6
           ],
           "Acronyms and Abbreviations": [
             15,
