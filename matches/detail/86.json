@@ -1,0 +1,1450 @@
+{
+  "game": {
+    "id": 86,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 50,
+    "rounds_played": 50,
+    "categories": [
+      "World Flags"
+    ],
+    "started_by": "734768348201615400",
+    "winner_id": "734768348201615400",
+    "started_at": "2026-09-29 23:12:42.279421+00:00",
+    "ended_at": "2026-09-29 23:30:58.747480+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5933,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:12:42.695179+00:00",
+      "ended_at": "2026-09-29 23:12:58.723104+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/eDocaIL.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 16006,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:12:58.719383+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5934,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:13:09.075991+00:00",
+      "ended_at": "2026-09-29 23:13:15.661872+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/OS83E0Y.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6568,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:13:15.658672+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5935,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:13:27.768267+00:00",
+      "ended_at": "2026-09-29 23:13:31.996265+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/jwR0mTj.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4210,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:13:31.992783+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5936,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:13:42.217755+00:00",
+      "ended_at": "2026-09-29 23:13:45.964867+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/6UkAfly.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3732,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:13:45.961261+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5937,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:13:56.341889+00:00",
+      "ended_at": "2026-09-29 23:14:00.828630+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/Ma1ivs0.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4472,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:14:00.825482+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5938,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:14:11.057300+00:00",
+      "ended_at": "2026-09-29 23:14:15.741045+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/y7JWUm0.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4669,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:14:15.737738+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5939,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:14:25.980870+00:00",
+      "ended_at": "2026-09-29 23:14:30.517375+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/biZHNNQ.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4522,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:14:30.513603+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5940,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:14:40.790046+00:00",
+      "ended_at": "2026-09-29 23:14:44.504141+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/mbWf2iq.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3698,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:14:44.499099+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5941,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:14:54.792627+00:00",
+      "ended_at": "2026-09-29 23:15:00.791212+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/l6TGY4c.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5984,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:15:00.788070+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5942,
+      "mode": "insane",
+      "started_at": "2026-09-29 23:15:11.043399+00:00",
+      "ended_at": "2026-09-29 23:16:11.216163+00:00",
+      "winner_id": null,
+      "category": "Disney",
+      "question_text": "Disney princesses",
+      "image_url": null,
+      "answer_count": 13,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 2936,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:15:13.982429+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3746,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:15:14.792302+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4849,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:15:15.894863+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6300,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:15:17.346045+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 8075,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:15:19.121104+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 10511,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:15:21.557278+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 11368,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:15:22.414279+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 14110,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:15:25.156277+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 19676,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:15:30.721690+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 39823,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:15:50.869105+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 42513,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:15:53.559476+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 45712,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:15:56.757580+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5943,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:16:24.581579+00:00",
+      "ended_at": "2026-09-29 23:16:28.286580+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/3KXMyBS.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3689,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:16:28.283325+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5944,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:16:38.550767+00:00",
+      "ended_at": "2026-09-29 23:16:42.155470+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/3vTYQpq.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3589,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:16:42.150637+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5945,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:16:52.509438+00:00",
+      "ended_at": "2026-09-29 23:17:00.617321+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/R36hcy9.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 8089,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:17:00.613854+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5946,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:17:11.163779+00:00",
+      "ended_at": "2026-09-29 23:17:14.716006+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/7qSsp7Z.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3534,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:17:14.712658+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5947,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:17:24.949117+00:00",
+      "ended_at": "2026-09-29 23:17:28.867801+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/svMrHDC.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3902,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:17:28.864570+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5948,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:17:39.268157+00:00",
+      "ended_at": "2026-09-29 23:17:42.597001+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/qvcmPb7.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3312,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:17:42.593802+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5949,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:17:52.856681+00:00",
+      "ended_at": "2026-09-29 23:17:56.431345+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/00SGRuz.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3557,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:17:56.428085+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5950,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:18:07.365302+00:00",
+      "ended_at": "2026-09-29 23:18:10.779740+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/ttIhE04.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3398,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:18:10.775980+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5951,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:18:21.522571+00:00",
+      "ended_at": "2026-09-29 23:18:24.045110+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/AVX1jHf.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 2505,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:18:24.039854+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5952,
+      "mode": "insane",
+      "started_at": "2026-09-29 23:18:34.213221+00:00",
+      "ended_at": "2026-09-29 23:19:14.083819+00:00",
+      "winner_id": null,
+      "category": "Harry Potter",
+      "question_text": "The original seven UK-titled Harry Potter novels (subtitle only)",
+      "image_url": null,
+      "answer_count": 7,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 19334,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:18:53.549949+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 23929,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:18:58.144769+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 29010,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:19:03.225383+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 30944,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:19:05.159978+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 33577,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:19:07.792327+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 36308,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:19:10.523943+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 39865,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:19:14.080288+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5953,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:19:24.485580+00:00",
+      "ended_at": "2026-09-29 23:19:32.506713+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/PJpxYhW.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 8005,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:19:32.503446+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5954,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:19:42.750686+00:00",
+      "ended_at": "2026-09-29 23:19:45.639399+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/Os7kijz.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 2874,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:19:45.636111+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5955,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:19:55.859283+00:00",
+      "ended_at": "2026-09-29 23:20:01.550264+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/iO3sAPy.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5675,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:20:01.546260+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5956,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:20:11.756821+00:00",
+      "ended_at": "2026-09-29 23:20:15.572498+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/NMMpFNh.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3801,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:20:15.569217+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5957,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:20:25.865999+00:00",
+      "ended_at": "2026-09-29 23:20:30.054586+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/Zphmsnu.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4174,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:20:30.051325+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5958,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:20:40.285441+00:00",
+      "ended_at": "2026-09-29 23:20:44.207267+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/mdyAHBg.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3908,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:20:44.203987+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5959,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:20:54.530758+00:00",
+      "ended_at": "2026-09-29 23:21:14.983194+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/bMd1cb8.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 20438,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 23:21:14.979881+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5960,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:21:25.932016+00:00",
+      "ended_at": "2026-09-29 23:21:30.855770+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/FxoBzcY.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4909,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:21:30.852437+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5961,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:21:41.138019+00:00",
+      "ended_at": "2026-09-29 23:21:45.081930+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/WSCunIE.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3927,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:21:45.076889+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5962,
+      "mode": "insane",
+      "started_at": "2026-09-29 23:21:55.635728+00:00",
+      "ended_at": "2026-09-29 23:22:55.805646+00:00",
+      "winner_id": null,
+      "category": "Wrestling",
+      "question_text": "World Heavyweight Champions (2002-2013)",
+      "image_url": null,
+      "answer_count": 25,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3619,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:21:59.257763+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3668,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:21:59.306798+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4384,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:00.022620+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 7300,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:02.938758+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 8990,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:04.628688+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9343,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:04.981874+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 11826,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:07.465000+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 12293,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:07.931641+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 13390,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:09.028380+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 14171,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:09.810097+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 14739,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:10.377631+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 16093,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:11.731509+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 16521,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:12.159551+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 17898,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:13.536843+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 19807,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:15.445801+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 19931,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:15.569333+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 21871,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:17.509609+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 22679,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:18.317472+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 23843,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:19.482120+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 26112,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:21.750143+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 26459,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:22.097307+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 28612,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:24.250709+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 30132,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:25.770307+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 32115,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:22:27.754013+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5963,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:23:06.353994+00:00",
+      "ended_at": "2026-09-29 23:23:11.764927+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/eMO7Y0z.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5390,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:23:11.760827+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5964,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:23:22.018235+00:00",
+      "ended_at": "2026-09-29 23:23:31.333324+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/qZEuijY.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9298,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:23:31.330135+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5965,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:23:41.769040+00:00",
+      "ended_at": "2026-09-29 23:23:45.659091+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/gGhBri9.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3872,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:23:45.656002+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5966,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:23:55.924982+00:00",
+      "ended_at": "2026-09-29 23:24:00.197497+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/PmWAhic.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4255,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:24:00.194346+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5967,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:24:10.566737+00:00",
+      "ended_at": "2026-09-29 23:24:13.765652+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/nieDYXN.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3181,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:24:13.762533+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5968,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:24:24.069116+00:00",
+      "ended_at": "2026-09-29 23:24:28.601926+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/kRM1chU.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4517,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:24:28.598676+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5969,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:24:39.001456+00:00",
+      "ended_at": "2026-09-29 23:24:42.771474+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/dPkirdh.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3754,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:24:42.766671+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5970,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:24:53.029121+00:00",
+      "ended_at": "2026-09-29 23:24:56.775045+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/f8OOur7.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3731,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:24:56.771849+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5971,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:25:07.058562+00:00",
+      "ended_at": "2026-09-29 23:25:13.868893+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/18t0zMj.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6794,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:25:13.863928+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5972,
+      "mode": "insane",
+      "started_at": "2026-09-29 23:25:24.152314+00:00",
+      "ended_at": "2026-09-29 23:26:24.366691+00:00",
+      "winner_id": null,
+      "category": "Geography",
+      "question_text": "What European countries does Austria border?",
+      "image_url": null,
+      "answer_count": 8,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3694,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:25:27.848480+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3743,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:25:27.898010+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6626,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:25:30.780885+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 8781,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:25:32.936303+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 10340,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:25:34.495204+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 13087,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:25:37.241659+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 37814,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:26:01.968899+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5973,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:26:34.734207+00:00",
+      "ended_at": "2026-09-29 23:26:41.607043+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/oMLG5ri.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6853,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:26:41.603029+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5974,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:26:51.838085+00:00",
+      "ended_at": "2026-09-29 23:26:56.449882+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/DhviZ7r.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4594,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:26:56.446394+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5975,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:27:06.684799+00:00",
+      "ended_at": "2026-09-29 23:28:07.107456+00:00",
+      "winner_id": null,
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/b9STlvA.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5976,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:28:17.456263+00:00",
+      "ended_at": "2026-09-29 23:28:21.483993+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/DGQwjWZ.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4010,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:28:21.479999+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5978,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:28:31.852221+00:00",
+      "ended_at": "2026-09-29 23:28:36.784811+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/qNyJQ5d.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4918,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:28:36.781375+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5980,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:28:47.140176+00:00",
+      "ended_at": "2026-09-29 23:28:52.093755+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/RpLNeK5.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4938,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:28:52.090541+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5981,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:29:02.301091+00:00",
+      "ended_at": "2026-09-29 23:29:06.165357+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/LPm5b84.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3850,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:29:06.162067+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5983,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:29:16.372646+00:00",
+      "ended_at": "2026-09-29 23:29:20.763860+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/w7y4yrx.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4377,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:29:20.760371+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5985,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:29:31.386514+00:00",
+      "ended_at": "2026-09-29 23:29:37.635301+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/WjFxXYM.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6235,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:29:37.632149+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5987,
+      "mode": "insane",
+      "started_at": "2026-09-29 23:29:47.877932+00:00",
+      "ended_at": "2026-09-29 23:30:48.104578+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "Car Manufacturers",
+      "image_url": null,
+      "answer_count": 74,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4271,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:29:52.152223+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 17746,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:05.627086+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 18523,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:06.403601+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 20136,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:08.016321+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 21101,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:08.981847+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 23060,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:10.941094+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 25672,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:13.553055+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 29316,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:17.197217+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 34676,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:22.556354+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 36303,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:24.183682+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 44988,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:32.868936+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 48227,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:36.108280+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 49236,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:37.116772+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 50756,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:38.636775+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 51901,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:39.781930+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 53334,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:41.214514+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 56087,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:30:43.967730+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "734768348201615400": 2576,
+    "795847206719717386": 1391
+  }
+}
