@@ -1,0 +1,33 @@
+{
+  "game": {
+    "id": 77,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 10,
+    "rounds_played": 0,
+    "categories": [
+      "What Links"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": null,
+    "started_at": "2026-09-29 22:39:17.630202+00:00",
+    "ended_at": "2026-09-29 22:39:24.134480+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 5880,
+      "mode": "standard",
+      "started_at": "2026-09-29 22:39:18.287992+00:00",
+      "ended_at": "2026-09-29 22:39:23.780041+00:00",
+      "winner_id": null,
+      "category": "What Links",
+      "question_text": "What word links Moon, Cheese, Whale",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    }
+  ],
+  "xp": {}
+}
