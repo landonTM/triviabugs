@@ -1893,6 +1893,90 @@
       "started_at": "2026-09-29 00:05:42.706962+00:00",
       "ended_at": "2026-09-29 00:47:15.602078+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 63,
+      "kind": "game",
+      "mode": "hardcore",
+      "channel_id": "864342930076860426",
+      "total_rounds": 50,
+      "rounds_played": 50,
+      "categories": [
+        "acronyms and abbreviations",
+        "house of the dragon",
+        "logos",
+        "what links",
+        "stranger things",
+        "the simpsons",
+        "Game of thrones",
+        "general knowledge",
+        "geography",
+        "harry potter",
+        "nba",
+        "slogans",
+        "sports",
+        "US geography",
+        "US state abbreviations",
+        "US state capitals",
+        "US state flags",
+        "US states (map)",
+        "world capitals",
+        "world flags",
+        "world map",
+        "wrestling"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-09-29 00:47:56.166732+00:00",
+      "ended_at": "2026-09-29 01:29:46.542741+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 64,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "Wrestling"
+      ],
+      "started_by": "433990857063137282",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-09-29 01:30:55.424774+00:00",
+      "ended_at": "2026-09-29 01:33:58.007349+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 65,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 4,
+      "categories": [
+        "Wrestling"
+      ],
+      "started_by": "433990857063137282",
+      "winner_id": "433990857063137282",
+      "started_at": "2026-09-29 01:34:05.539729+00:00",
+      "ended_at": "2026-09-29 01:35:51.499015+00:00",
+      "end_reason": "stopped"
+    },
+    {
+      "id": 58,
+      "kind": "duel",
+      "channel_id": "864342930076860426",
+      "challenger_id": "433990857063137282",
+      "opponent_id": "795847206719717386",
+      "format": 9,
+      "format_label": "Best of 9",
+      "winner_id": "795847206719717386",
+      "is_tie": false,
+      "challenger_score": 1,
+      "opponent_score": 4,
+      "decided_by_tiebreaker": false,
+      "ended_at": "2026-09-29 01:48:31.536523+00:00"
     }
   ]
 }
