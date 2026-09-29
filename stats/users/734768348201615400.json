@@ -2,38 +2,38 @@
   "user_id": "734768348201615400",
   "level": {
     "level": 43,
-    "xp_into_level": 21047,
+    "xp_into_level": 23665,
     "xp_for_level": 64000,
-    "progress": 0.328859375,
+    "progress": 0.369765625,
     "maxed": false
   },
-  "total_xp": 992547,
+  "total_xp": 995165,
   "period_stats": {
-    "daily_points": 132,
-    "daily_correct": 81,
-    "weekly_points": 1420,
-    "weekly_correct": 805,
-    "monthly_points": 5787,
-    "monthly_correct": 3236,
-    "yearly_points": 5986,
-    "yearly_correct": 3379,
-    "alltime_points": 5986,
-    "alltime_correct": 3379
+    "daily_points": 175,
+    "daily_correct": 109,
+    "weekly_points": 1463,
+    "weekly_correct": 833,
+    "monthly_points": 5830,
+    "monthly_correct": 3264,
+    "yearly_points": 6029,
+    "yearly_correct": 3407,
+    "alltime_points": 6029,
+    "alltime_correct": 3407
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 3736,
-    "questions_right": 1129,
+    "total_points": 3754,
+    "questions_right": 1132,
     "questions_wrong": 0,
-    "wins": 1129,
-    "current_streak": 3,
+    "wins": 1132,
+    "current_streak": 1,
     "best_streak": 37,
-    "games_played": 60,
-    "insane_guesses": 1321,
+    "games_played": 61,
+    "insane_guesses": 1346,
     "day_streak": 15,
     "last_played_date": "2026-09-29",
-    "total_xp": 992547,
+    "total_xp": 995165,
     "game_wins": 28,
     "achievement_best_streak": 37
   },
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2250,
-  "average_guess_ms": 15606.56067316209,
+  "total_insane_correct": 2275,
+  "average_guess_ms": 15577.536219081272,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 2168,
-    "total": 2597
+    "exact_count": 2191,
+    "total": 2625
   },
   "achievements": {
     "catalog": [
@@ -2221,7 +2221,7 @@
     "category_counts": {
       "disney": 33,
       "entertainment": 10,
-      "geo": 263,
+      "geo": 288,
       "gk": 205,
       "got": 0,
       "marvel": 28,
@@ -2634,8 +2634,8 @@
       "key": "haunted",
       "label": "Haunted Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -3506,8 +3506,8 @@
       "key": "playgame",
       "label": "Play Game MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
