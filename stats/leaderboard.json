@@ -2084,44 +2084,44 @@
     },
     {
       "user_id": "433990857063137282",
-      "total_xp": 917345,
+      "total_xp": 928381,
       "level": {
         "level": 42,
-        "xp_into_level": 6845,
+        "xp_into_level": 17881,
         "xp_for_level": 61000,
-        "progress": 0.11221311475409836,
+        "progress": 0.2931311475409836,
         "maxed": false
       },
       "current": {
-        "current_streak": 9,
+        "current_streak": 1,
         "day_streak": 6,
         "last_played": "2026-09-28",
         "duel_streak": 1,
         "duel_best_streak": 5,
-        "season_xp": 6953,
-        "season_level": 6,
+        "season_xp": 8104,
+        "season_level": 7,
         "elo": 994,
         "elo_peak": 1006,
         "elo_wins": 3,
         "elo_losses": 2,
         "elo_streak": 1,
-        "cosmetics_owned": 65
+        "cosmetics_owned": 66
       },
       "periods": {
         "daily": {
-          "points": 139,
-          "correct": 40,
-          "standard_correct": 23,
-          "insane_finds": 17,
-          "avg_guess_ms": 8922,
+          "points": 188,
+          "correct": 60,
+          "standard_correct": 34,
+          "insane_finds": 26,
+          "avg_guess_ms": 11419,
           "fastest_ms": 2850,
           "under_5s": 9,
-          "exact_spelling": 36,
-          "spelled": 40,
+          "exact_spelling": 53,
+          "spelled": 60,
           "best_streak": 9,
           "active_days": 1,
-          "games_played": 6,
-          "categories_played": 8,
+          "games_played": 9,
+          "categories_played": 10,
           "best_insane_round": 8,
           "best_game_points": 62,
           "games_started": 4,
@@ -2134,70 +2134,75 @@
           "duel_avg_ms": 7385,
           "duel_fastest_ms": 2961,
           "played_hardcore": 4,
-          "played_quickfire": 2,
+          "played_quickfire": 4,
+          "played_standard": 1,
           "wins_hardcore": 1,
-          "game_wins": 2,
-          "wins_quickfire": 1,
+          "game_wins": 4,
+          "wins_quickfire": 2,
+          "wins_standard": 1,
+          "xp_achievement": 10000,
+          "xp": 21038,
           "xp_duel": 1650,
-          "xp": 10002,
-          "xp_game": 3352,
+          "xp_game": 4388,
           "xp_mission": 5000,
+          "achievements": 1,
           "missions": 1
         },
         "weekly": {
-          "points": 822,
-          "correct": 361,
-          "standard_correct": 118,
-          "insane_finds": 243,
-          "avg_guess_ms": 12856,
+          "points": 871,
+          "correct": 381,
+          "standard_correct": 129,
+          "insane_finds": 252,
+          "avg_guess_ms": 13178,
           "fastest_ms": 2423,
           "under_5s": 37,
-          "exact_spelling": 325,
-          "spelled": 361,
+          "exact_spelling": 342,
+          "spelled": 381,
           "best_streak": 9,
           "active_days": 7,
-          "games_played": 37,
+          "games_played": 40,
           "categories_played": 29,
           "best_insane_round": 17,
           "best_game_points": 210,
           "games_started": 10,
-          "duels_played": 48,
-          "duel_wins": 24,
+          "duels_played": 47,
+          "duel_wins": 23,
           "duel_losses": 23,
           "duel_ties": 1,
-          "duels_started": 18,
+          "duels_started": 17,
           "duel_rounds_won": 93,
           "duel_avg_ms": 9077,
           "duel_fastest_ms": 1792,
           "played_daily": 4,
           "played_hardcore": 11,
-          "played_quickfire": 18,
-          "played_standard": 4,
-          "wins_quickfire": 3,
-          "game_wins": 8,
+          "played_quickfire": 20,
+          "played_standard": 5,
+          "wins_standard": 1,
+          "game_wins": 10,
+          "wins_quickfire": 4,
           "wins_hardcore": 5,
-          "xp_duel": 37650,
-          "xp": 329845,
+          "xp_duel": 36900,
+          "xp": 340131,
           "xp_mission": 5000,
-          "xp_achievement": 89000,
-          "xp_game": 198195,
-          "achievements": 22,
+          "xp_achievement": 99000,
+          "xp_game": 199231,
+          "achievements": 23,
           "missions": 1,
           "bug_reports": 4
         },
         "monthly": {
-          "points": 3896,
-          "correct": 1814,
-          "standard_correct": 749,
-          "insane_finds": 1065,
-          "avg_guess_ms": 16050,
+          "points": 3945,
+          "correct": 1834,
+          "standard_correct": 760,
+          "insane_finds": 1074,
+          "avg_guess_ms": 16058,
           "fastest_ms": 2222,
           "under_5s": 212,
-          "exact_spelling": 1481,
-          "spelled": 1693,
+          "exact_spelling": 1498,
+          "spelled": 1713,
           "best_streak": 27,
           "active_days": 27,
-          "games_played": 37,
+          "games_played": 40,
           "categories_played": 44,
           "best_insane_round": 17,
           "best_game_points": 210,
@@ -2212,34 +2217,35 @@
           "duel_fastest_ms": 1792,
           "played_daily": 4,
           "played_hardcore": 11,
-          "played_quickfire": 18,
-          "played_standard": 4,
-          "wins_quickfire": 3,
-          "game_wins": 8,
+          "played_quickfire": 20,
+          "played_standard": 5,
+          "wins_standard": 1,
+          "game_wins": 10,
+          "wins_quickfire": 4,
           "wins_hardcore": 5,
           "xp_duel": 37650,
-          "xp": 917345,
+          "xp": 928381,
           "xp_mission": 5000,
-          "xp_achievement": 676500,
-          "xp_game": 198195,
-          "achievements": 71,
+          "xp_achievement": 686500,
+          "xp_game": 199231,
+          "achievements": 72,
           "missions": 1,
           "bug_reports": 59,
           "bugs_fixed": 55
         },
         "yearly": {
-          "points": 4070,
-          "correct": 1907,
-          "standard_correct": 802,
-          "insane_finds": 1105,
-          "avg_guess_ms": 16760,
+          "points": 4119,
+          "correct": 1927,
+          "standard_correct": 813,
+          "insane_finds": 1114,
+          "avg_guess_ms": 16759,
           "fastest_ms": 2222,
           "under_5s": 215,
-          "exact_spelling": 1481,
-          "spelled": 1693,
+          "exact_spelling": 1498,
+          "spelled": 1713,
           "best_streak": 27,
           "active_days": 29,
-          "games_played": 37,
+          "games_played": 40,
           "categories_played": 46,
           "best_insane_round": 17,
           "best_game_points": 210,
@@ -2254,34 +2260,35 @@
           "duel_fastest_ms": 1792,
           "played_daily": 4,
           "played_hardcore": 11,
-          "played_quickfire": 18,
-          "played_standard": 4,
-          "wins_quickfire": 3,
-          "game_wins": 8,
+          "played_quickfire": 20,
+          "played_standard": 5,
+          "wins_standard": 1,
+          "game_wins": 10,
+          "wins_quickfire": 4,
           "wins_hardcore": 5,
           "xp_duel": 37650,
-          "xp": 917345,
+          "xp": 928381,
           "xp_mission": 5000,
-          "xp_achievement": 676500,
-          "xp_game": 198195,
-          "achievements": 71,
+          "xp_achievement": 686500,
+          "xp_game": 199231,
+          "achievements": 72,
           "missions": 1,
           "bug_reports": 59,
           "bugs_fixed": 55
         },
         "alltime": {
-          "points": 4070,
-          "correct": 1907,
-          "standard_correct": 802,
-          "insane_finds": 1105,
-          "avg_guess_ms": 16760,
+          "points": 4119,
+          "correct": 1927,
+          "standard_correct": 813,
+          "insane_finds": 1114,
+          "avg_guess_ms": 16759,
           "fastest_ms": 2222,
           "under_5s": 215,
-          "exact_spelling": 1481,
-          "spelled": 1693,
+          "exact_spelling": 1498,
+          "spelled": 1713,
           "best_streak": 27,
           "active_days": 29,
-          "games_played": 98,
+          "games_played": 101,
           "categories_played": 46,
           "best_insane_round": 17,
           "best_game_points": 210,
@@ -2296,17 +2303,18 @@
           "duel_fastest_ms": 1792,
           "played_daily": 4,
           "played_hardcore": 11,
-          "played_quickfire": 18,
-          "played_standard": 4,
-          "wins_quickfire": 3,
-          "game_wins": 33,
+          "played_quickfire": 20,
+          "played_standard": 5,
+          "wins_standard": 1,
+          "game_wins": 35,
+          "wins_quickfire": 4,
           "wins_hardcore": 5,
           "xp_duel": 37650,
-          "xp": 917345,
+          "xp": 928381,
           "xp_mission": 5000,
-          "xp_achievement": 676500,
-          "xp_game": 198195,
-          "achievements": 71,
+          "xp_achievement": 686500,
+          "xp_game": 199231,
+          "achievements": 72,
           "missions": 1,
           "bug_reports": 59,
           "bugs_fixed": 55
@@ -2314,17 +2322,25 @@
       },
       "categories": {
         "daily": {
-          "General Knowledge": [
+          "Disney": [
             3,
-            3
+            12
+          ],
+          "General Knowledge": [
+            8,
+            8
           ],
           "Geography": [
-            2,
-            7
+            6,
+            11
           ],
           "Logos": [
             9,
             54
+          ],
+          "Marvel": [
+            8,
+            28
           ],
           "Sports": [
             2,
@@ -2365,8 +2381,8 @@
             36
           ],
           "Geography": [
-            21,
-            27
+            25,
+            31
           ],
           "Greek Mythology": [
             3,
@@ -2377,8 +2393,8 @@
             68
           ],
           "General Knowledge": [
-            81,
-            88
+            86,
+            93
           ],
           "Movies": [
             2,
@@ -2453,12 +2469,12 @@
             2
           ],
           "Disney": [
-            21,
-            36
+            24,
+            48
           ],
           "Marvel": [
-            17,
-            91
+            25,
+            119
           ],
           "US State Abbreviations": [
             3,
@@ -2495,8 +2511,8 @@
             100
           ],
           "Geography": [
-            146,
-            190
+            150,
+            194
           ],
           "Whos That Pokemon (Gen 1)": [
             1,
@@ -2515,8 +2531,8 @@
             7
           ],
           "General Knowledge": [
-            361,
-            461
+            366,
+            466
           ],
           "World Cup": [
             15,
@@ -2615,12 +2631,12 @@
             4
           ],
           "Disney": [
-            82,
-            141
+            85,
+            153
           ],
           "Marvel": [
-            186,
-            538
+            194,
+            566
           ],
           "World Capitals": [
             2,
@@ -2677,8 +2693,8 @@
             100
           ],
           "Geography": [
-            150,
-            198
+            154,
+            202
           ],
           "Whos That Pokemon (Gen 1)": [
             2,
@@ -2697,8 +2713,8 @@
             7
           ],
           "General Knowledge": [
-            368,
-            483
+            373,
+            488
           ],
           "Movies": [
             27,
@@ -2801,12 +2817,12 @@
             4
           ],
           "Disney": [
-            99,
-            172
+            102,
+            184
           ],
           "Marvel": [
-            186,
-            538
+            194,
+            566
           ],
           "World Capitals": [
             2,
@@ -2863,8 +2879,8 @@
             100
           ],
           "Geography": [
-            150,
-            198
+            154,
+            202
           ],
           "Whos That Pokemon (Gen 1)": [
             2,
@@ -2883,8 +2899,8 @@
             7
           ],
           "General Knowledge": [
-            368,
-            483
+            373,
+            488
           ],
           "Movies": [
             27,
@@ -2987,12 +3003,12 @@
             4
           ],
           "Disney": [
-            99,
-            172
+            102,
+            184
           ],
           "Marvel": [
-            186,
-            538
+            194,
+            566
           ],
           "World Capitals": [
             2,
@@ -3895,79 +3911,107 @@
     },
     {
       "user_id": "794420965387403265",
-      "total_xp": 368875,
+      "total_xp": 371392,
       "level": {
         "level": 30,
-        "xp_into_level": 11375,
+        "xp_into_level": 13892,
         "xp_for_level": 35000,
-        "progress": 0.325,
+        "progress": 0.3969142857142857,
         "maxed": false
       },
       "current": {
-        "current_streak": 1,
+        "current_streak": 2,
         "day_streak": 1,
         "last_played": "2026-09-28",
         "duel_streak": 2,
         "duel_best_streak": 2,
         "boosts_banked": 2,
         "boost_hours_banked": 6.0,
-        "season_xp": 550,
-        "season_level": 0,
-        "cosmetics_owned": 39
+        "season_xp": 1100,
+        "season_level": 1,
+        "cosmetics_owned": 41
       },
       "periods": {
-        "daily": {},
+        "daily": {
+          "points": 55,
+          "correct": 26,
+          "standard_correct": 12,
+          "insane_finds": 14,
+          "avg_guess_ms": 15036,
+          "fastest_ms": 3995,
+          "under_5s": 4,
+          "exact_spelling": 24,
+          "spelled": 26,
+          "best_streak": 5,
+          "active_days": 1,
+          "games_played": 1,
+          "categories_played": 3,
+          "best_insane_round": 7,
+          "best_game_points": 55,
+          "games_started": 2,
+          "played_quickfire": 1,
+          "wins_quickfire": 1,
+          "game_wins": 1,
+          "xp_achievement": 1500,
+          "xp": 2517,
+          "xp_game": 1017,
+          "achievements": 1
+        },
         "weekly": {
-          "points": 158,
-          "correct": 75,
-          "standard_correct": 41,
-          "insane_finds": 34,
-          "avg_guess_ms": 20243,
+          "points": 213,
+          "correct": 101,
+          "standard_correct": 53,
+          "insane_finds": 48,
+          "avg_guess_ms": 19064,
           "fastest_ms": 2299,
-          "under_5s": 8,
-          "exact_spelling": 62,
-          "spelled": 75,
+          "under_5s": 12,
+          "exact_spelling": 86,
+          "spelled": 101,
           "best_streak": 7,
-          "active_days": 4,
-          "games_played": 6,
+          "active_days": 5,
+          "games_played": 7,
           "categories_played": 25,
           "best_insane_round": 10,
           "best_game_points": 110,
-          "duels_played": 3,
+          "games_started": 2,
+          "duels_played": 2,
           "duel_wins": 2,
-          "duel_losses": 1,
+          "duel_losses": 0,
           "duel_ties": 0,
           "duels_started": 0,
           "duel_rounds_won": 3,
           "duel_avg_ms": 9337,
           "duel_fastest_ms": 3486,
           "played_daily": 3,
+          "played_quickfire": 1,
           "played_standard": 3,
+          "wins_quickfire": 1,
+          "game_wins": 3,
           "wins_standard": 1,
-          "game_wins": 2,
           "wins_daily": 1,
           "xp_duel": 3000,
-          "xp": 90625,
-          "xp_game": 31875,
-          "xp_achievement": 55750,
-          "achievements": 11
+          "xp": 93142,
+          "xp_game": 32892,
+          "xp_achievement": 57250,
+          "achievements": 12
         },
         "monthly": {
-          "points": 831,
-          "correct": 405,
-          "standard_correct": 192,
-          "insane_finds": 213,
-          "avg_guess_ms": 18050,
+          "points": 886,
+          "correct": 431,
+          "standard_correct": 204,
+          "insane_finds": 227,
+          "avg_guess_ms": 17873,
           "fastest_ms": 2299,
-          "under_5s": 36,
-          "exact_spelling": 324,
-          "spelled": 405,
+          "under_5s": 40,
+          "exact_spelling": 348,
+          "spelled": 431,
           "best_streak": 7,
-          "active_days": 12,
-          "games_played": 6,
+          "active_days": 13,
+          "games_played": 7,
           "categories_played": 39,
           "best_insane_round": 14,
           "best_game_points": 110,
+          "games_started": 2,
           "duels_played": 4,
           "duel_wins": 3,
           "duel_losses": 1,
@@ -3977,34 +4021,37 @@
           "duel_avg_ms": 9337,
           "duel_fastest_ms": 3486,
           "played_daily": 3,
+          "played_quickfire": 1,
           "played_standard": 3,
+          "wins_quickfire": 1,
+          "game_wins": 3,
           "wins_standard": 1,
-          "game_wins": 2,
           "wins_daily": 1,
           "xp_duel": 3750,
-          "xp": 368875,
-          "xp_game": 31875,
-          "xp_achievement": 333250,
-          "achievements": 39,
+          "xp": 371392,
+          "xp_game": 32892,
+          "xp_achievement": 334750,
+          "achievements": 40,
           "bug_reports": 8,
           "bugs_fixed": 8
         },
         "yearly": {
-          "points": 831,
-          "correct": 405,
-          "standard_correct": 192,
-          "insane_finds": 213,
-          "avg_guess_ms": 18050,
+          "points": 886,
+          "correct": 431,
+          "standard_correct": 204,
+          "insane_finds": 227,
+          "avg_guess_ms": 17873,
           "fastest_ms": 2299,
-          "under_5s": 36,
-          "exact_spelling": 324,
-          "spelled": 405,
+          "under_5s": 40,
+          "exact_spelling": 348,
+          "spelled": 431,
           "best_streak": 7,
-          "active_days": 12,
-          "games_played": 6,
+          "active_days": 13,
+          "games_played": 7,
           "categories_played": 39,
           "best_insane_round": 14,
           "best_game_points": 110,
+          "games_started": 2,
           "duels_played": 4,
           "duel_wins": 3,
           "duel_losses": 1,
@@ -4014,34 +4061,37 @@
           "duel_avg_ms": 9337,
           "duel_fastest_ms": 3486,
           "played_daily": 3,
+          "played_quickfire": 1,
           "played_standard": 3,
+          "wins_quickfire": 1,
+          "game_wins": 3,
           "wins_standard": 1,
-          "game_wins": 2,
           "wins_daily": 1,
           "xp_duel": 3750,
-          "xp": 368875,
-          "xp_game": 31875,
-          "xp_achievement": 333250,
-          "achievements": 39,
+          "xp": 371392,
+          "xp_game": 32892,
+          "xp_achievement": 334750,
+          "achievements": 40,
           "bug_reports": 8,
           "bugs_fixed": 8
         },
         "alltime": {
-          "points": 831,
-          "correct": 405,
-          "standard_correct": 192,
-          "insane_finds": 213,
-          "avg_guess_ms": 18050,
+          "points": 886,
+          "correct": 431,
+          "standard_correct": 204,
+          "insane_finds": 227,
+          "avg_guess_ms": 17873,
           "fastest_ms": 2299,
-          "under_5s": 36,
-          "exact_spelling": 324,
-          "spelled": 405,
+          "under_5s": 40,
+          "exact_spelling": 348,
+          "spelled": 431,
           "best_streak": 7,
-          "active_days": 12,
-          "games_played": 26,
+          "active_days": 13,
+          "games_played": 27,
           "categories_played": 39,
           "best_insane_round": 14,
           "best_game_points": 110,
+          "games_started": 2,
           "duels_played": 4,
           "duel_wins": 3,
           "duel_losses": 1,
@@ -4051,21 +4101,36 @@
           "duel_avg_ms": 9337,
           "duel_fastest_ms": 3486,
           "played_daily": 3,
+          "played_quickfire": 1,
           "played_standard": 3,
+          "wins_quickfire": 1,
+          "game_wins": 7,
           "wins_standard": 1,
-          "game_wins": 6,
           "wins_daily": 1,
           "xp_duel": 3750,
-          "xp": 368875,
-          "xp_game": 31875,
-          "xp_achievement": 333250,
-          "achievements": 39,
+          "xp": 371392,
+          "xp_game": 32892,
+          "xp_achievement": 334750,
+          "achievements": 40,
           "bug_reports": 8,
           "bugs_fixed": 8
         }
       },
       "categories": {
-        "daily": {},
+        "daily": {
+          "General Knowledge": [
+            7,
+            7
+          ],
+          "Geography": [
+            7,
+            7
+          ],
+          "Marvel": [
+            12,
+            41
+          ]
+        },
         "weekly": {
           "Whos That Pokemon (Gen 2)": [
             2,
@@ -4076,8 +4141,8 @@
             2
           ],
           "General Knowledge": [
-            14,
-            19
+            21,
+            26
           ],
           "Disney": [
             3,
@@ -4112,8 +4177,8 @@
             5
           ],
           "Marvel": [
-            1,
-            4
+            13,
+            45
           ],
           "Lord of the Rings": [
             2,
@@ -4140,8 +4205,8 @@
             6
           ],
           "Geography": [
-            3,
-            3
+            10,
+            10
           ],
           "House of the Dragon": [
             1,
@@ -4186,8 +4251,8 @@
             4
           ],
           "General Knowledge": [
-            73,
-            97
+            80,
+            104
           ],
           "Disney": [
             29,
@@ -4230,8 +4295,8 @@
             34
           ],
           "Marvel": [
-            45,
-            82
+            57,
+            123
           ],
           "Lord of the Rings": [
             2,
@@ -4286,8 +4351,8 @@
             6
           ],
           "Geography": [
-            23,
-            27
+            30,
+            34
           ],
           "House of the Dragon": [
             1,
@@ -4344,8 +4409,8 @@
             4
           ],
           "General Knowledge": [
-            73,
-            97
+            80,
+            104
           ],
           "Disney": [
             29,
@@ -4388,8 +4453,8 @@
             34
           ],
           "Marvel": [
-            45,
-            82
+            57,
+            123
           ],
           "Lord of the Rings": [
             2,
@@ -4444,8 +4509,8 @@
             6
           ],
           "Geography": [
-            23,
-            27
+            30,
+            34
           ],
           "House of the Dragon": [
             1,
@@ -4502,8 +4567,8 @@
             4
           ],
           "General Knowledge": [
-            73,
-            97
+            80,
+            104
           ],
           "Disney": [
             29,
@@ -4546,8 +4611,8 @@
             34
           ],
           "Marvel": [
-            45,
-            82
+            57,
+            123
           ],
           "Lord of the Rings": [
             2,
@@ -4602,8 +4667,8 @@
             6
           ],
           "Geography": [
-            23,
-            27
+            30,
+            34
           ],
           "House of the Dragon": [
             1,
