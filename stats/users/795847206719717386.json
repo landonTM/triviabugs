@@ -2,39 +2,39 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 43,
-    "xp_into_level": 24168,
+    "xp_into_level": 48188,
     "xp_for_level": 64000,
-    "progress": 0.377625,
+    "progress": 0.7529375,
     "maxed": false
   },
-  "total_xp": 995668,
+  "total_xp": 1019688,
   "period_stats": {
-    "daily_points": 529,
-    "daily_correct": 244,
-    "weekly_points": 1349,
-    "weekly_correct": 699,
-    "monthly_points": 6755,
-    "monthly_correct": 3794,
-    "yearly_points": 6861,
-    "yearly_correct": 3853,
-    "alltime_points": 6861,
-    "alltime_correct": 3853
+    "daily_points": 535,
+    "daily_correct": 245,
+    "weekly_points": 1355,
+    "weekly_correct": 700,
+    "monthly_points": 6761,
+    "monthly_correct": 3795,
+    "yearly_points": 6867,
+    "yearly_correct": 3854,
+    "alltime_points": 6867,
+    "alltime_correct": 3854
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 4471,
-    "questions_right": 1463,
+    "total_points": 4477,
+    "questions_right": 1464,
     "questions_wrong": 0,
-    "wins": 1463,
+    "wins": 1464,
     "current_streak": 1,
     "best_streak": 22,
-    "games_played": 65,
+    "games_played": 66,
     "insane_guesses": 1436,
     "day_streak": 4,
     "last_played_date": "2026-09-29",
-    "total_xp": 995668,
-    "game_wins": 35,
+    "total_xp": 1019688,
+    "game_wins": 36,
     "achievement_best_streak": 17
   },
   "best_streak": 22,
@@ -54,14 +54,14 @@
     "guesses": 30
   },
   "total_insane_correct": 2390,
-  "average_guess_ms": 19840.35133287765,
+  "average_guess_ms": 19828.858606557376,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 2869,
-    "total": 3254
+    "exact_count": 2870,
+    "total": 3255
   },
   "achievements": {
     "catalog": [
@@ -2372,8 +2372,8 @@
       "key": "cursed",
       "label": "Cursed Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "footer",
@@ -3524,8 +3524,8 @@
       "key": "stupidbitch",
       "label": "Stupid Bitch MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
