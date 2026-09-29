@@ -161,26 +161,26 @@
         },
         {
           "user_id": "433990857063137282",
-          "points": 218,
-          "correct": 84
+          "points": 230,
+          "correct": 86
+        },
+        {
+          "user_id": "184456115927384065",
+          "points": 56,
+          "correct": 20
         },
         {
           "user_id": "794420965387403265",
           "points": 18,
           "correct": 11
-        },
-        {
-          "user_id": "184456115927384065",
-          "points": 16,
-          "correct": 10
         }
       ],
       "pass": [
         {
           "user_id": "433990857063137282",
-          "xp": 5438,
+          "xp": 6196,
           "level": 5,
-          "xp_into_level": 238,
+          "xp_into_level": 996,
           "xp_for_level": 1250,
           "completed": false
         },
@@ -202,9 +202,9 @@
         },
         {
           "user_id": "184456115927384065",
-          "xp": 1949,
+          "xp": 2649,
           "level": 2,
-          "xp_into_level": 79,
+          "xp_into_level": 779,
           "xp_for_level": 1040,
           "completed": false
         },
@@ -220,20 +220,20 @@
       "elo": {
         "ranked": [
           {
-            "user_id": "184456115927384065",
+            "user_id": "433990857063137282",
             "rating": 994,
-            "wins": 1,
+            "wins": 3,
             "losses": 2,
-            "streak": -2,
-            "peak": 1017
+            "streak": 1,
+            "peak": 1006
           },
           {
-            "user_id": "433990857063137282",
+            "user_id": "184456115927384065",
             "rating": 985,
-            "wins": 2,
-            "losses": 2,
-            "streak": -1,
-            "peak": 1006
+            "wins": 1,
+            "losses": 3,
+            "streak": -3,
+            "peak": 1017
           }
         ],
         "unranked": [
