@@ -1,0 +1,103 @@
+{
+  "game": {
+    "id": 65,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 5,
+    "rounds_played": 4,
+    "categories": [
+      "Wrestling"
+    ],
+    "started_by": "433990857063137282",
+    "winner_id": "433990857063137282",
+    "started_at": "2026-09-29 01:34:05.539729+00:00",
+    "ended_at": "2026-09-29 01:35:51.499015+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 5670,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:34:05.754081+00:00",
+      "ended_at": "2026-09-29 01:34:42.568384+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Wrestling",
+      "question_text": "What is Billy Gunn's real name?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 36799,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 01:34:42.565139+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5671,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:34:52.900778+00:00",
+      "ended_at": "2026-09-29 01:35:03.476805+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Wrestling",
+      "question_text": "John Cena defended the WWE Championship against Triple H in this WrestleMania's main event.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 10560,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 01:35:03.473099+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5672,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:35:13.728301+00:00",
+      "ended_at": "2026-09-29 01:35:28.388923+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Wrestling",
+      "question_text": "Which state was the location of WrestleMania 28?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 14646,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 01:35:28.385428+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5673,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:35:38.654589+00:00",
+      "ended_at": "2026-09-29 01:35:51.206685+00:00",
+      "winner_id": null,
+      "category": "Wrestling",
+      "question_text": "What is the term for a match that can only be won by forcing an opponent to verbally submit?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 6953,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 01:35:45.619134+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 241
+  }
+}
