@@ -1,0 +1,100 @@
+{
+  "match": {
+    "id": 59,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "184456115927384065",
+    "opponent_id": "433990857063137282",
+    "format": 9,
+    "format_label": "Best of 9",
+    "winner_id": "433990857063137282",
+    "is_tie": false,
+    "challenger_score": 1,
+    "opponent_score": 4,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-29 02:13:28.772652+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": "433990857063137282",
+      "response_time_ms": 2961,
+      "answered_at": "2026-09-29 02:13:28.774590+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/nDrLoAP.png",
+      "answer_count": 1
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": "433990857063137282",
+      "response_time_ms": 3909,
+      "answered_at": "2026-09-29 02:13:28.774590+00:00",
+      "category": "Stranger Things",
+      "question_text": "What does Will cough up after returning home?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-29 02:13:28.774590+00:00",
+      "category": "Music",
+      "question_text": "Alan White replaced Tony McCarroll as the drummer for which band?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-29 02:13:28.774590+00:00",
+      "category": "The Simpsons",
+      "question_text": "Who voices Moe Szyslak and Chief Wiggum, among many other characters?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": "184456115927384065",
+      "response_time_ms": 3432,
+      "answered_at": "2026-09-29 02:13:28.774590+00:00",
+      "category": "Video Games",
+      "question_text": "How many controller ports does the Nintendo GameCube console have?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": "433990857063137282",
+      "response_time_ms": 8380,
+      "answered_at": "2026-09-29 02:13:28.774590+00:00",
+      "category": "World Cup",
+      "question_text": "From 1998 to 2022, the tournaments included how many teams?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": "433990857063137282",
+      "response_time_ms": 15130,
+      "answered_at": "2026-09-29 02:13:28.774590+00:00",
+      "category": "Conundrums",
+      "question_text": "Lethargic",
+      "image_url": null,
+      "answer_count": 1
+    }
+  ],
+  "xp": {
+    "184456115927384065": 150,
+    "433990857063137282": 1500
+  }
+}
