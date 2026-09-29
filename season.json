@@ -156,8 +156,8 @@
         },
         {
           "user_id": "433990857063137282",
-          "points": 292,
-          "correct": 103
+          "points": 341,
+          "correct": 123
         },
         {
           "user_id": "734768348201615400",
@@ -165,23 +165,23 @@
           "correct": 146
         },
         {
+          "user_id": "794420965387403265",
+          "points": 73,
+          "correct": 37
+        },
+        {
           "user_id": "184456115927384065",
           "points": 56,
           "correct": 20
-        },
-        {
-          "user_id": "794420965387403265",
-          "points": 18,
-          "correct": 11
         }
       ],
       "pass": [
         {
           "user_id": "433990857063137282",
-          "xp": 6953,
-          "level": 6,
-          "xp_into_level": 503,
-          "xp_for_level": 1320,
+          "xp": 8104,
+          "level": 7,
+          "xp_into_level": 334,
+          "xp_for_level": 1390,
           "completed": false
         },
         {
@@ -210,10 +210,10 @@
         },
         {
           "user_id": "794420965387403265",
-          "xp": 550,
-          "level": 0,
-          "xp_into_level": 550,
-          "xp_for_level": 900,
+          "xp": 1100,
+          "level": 1,
+          "xp_into_level": 200,
+          "xp_for_level": 970,
           "completed": false
         }
       ],
