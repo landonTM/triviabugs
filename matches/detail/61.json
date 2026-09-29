@@ -1,0 +1,453 @@
+{
+  "game": {
+    "id": 61,
+    "kind": "game",
+    "mode": "hardcore",
+    "channel_id": "861424168875982848",
+    "total_rounds": 10,
+    "rounds_played": 10,
+    "categories": [
+      "What Links"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-09-28 23:54:11.897238+00:00",
+    "ended_at": "2026-09-29 00:02:04.768189+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5555,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:54:12.161860+00:00",
+      "ended_at": "2026-09-28 23:54:19.443517+00:00",
+      "winner_id": "795847206719717386",
+      "category": "What Links",
+      "question_text": "What word links Paper, Box, Storm",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 7266,
+          "exact_match": true,
+          "points_awarded": 9,
+          "answered_at": "2026-09-28 23:54:19.440086+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5556,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:54:49.923494+00:00",
+      "ended_at": "2026-09-28 23:54:53.905475+00:00",
+      "winner_id": "433990857063137282",
+      "category": "What Links",
+      "question_text": "What word links School, Note, Guide",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 3969,
+          "exact_match": true,
+          "points_awarded": 9,
+          "answered_at": "2026-09-28 23:54:53.902149+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5557,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:55:24.254748+00:00",
+      "ended_at": "2026-09-28 23:55:44.807634+00:00",
+      "winner_id": null,
+      "category": "What Links",
+      "question_text": "What word links Short, First, Bag",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5558,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:56:15.102306+00:00",
+      "ended_at": "2026-09-28 23:56:18.993784+00:00",
+      "winner_id": "795847206719717386",
+      "category": "What Links",
+      "question_text": "What word links Gem, Lime, Wall",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3878,
+          "exact_match": true,
+          "points_awarded": 9,
+          "answered_at": "2026-09-28 23:56:18.990477+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5559,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:56:49.290016+00:00",
+      "ended_at": "2026-09-28 23:56:55.921277+00:00",
+      "winner_id": "433990857063137282",
+      "category": "What Links",
+      "question_text": "What word links Pepper, Sugar, Salt",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 6617,
+          "exact_match": true,
+          "points_awarded": 9,
+          "answered_at": "2026-09-28 23:56:55.917833+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5560,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:57:26.125379+00:00",
+      "ended_at": "2026-09-28 23:57:38.878881+00:00",
+      "winner_id": "795847206719717386",
+      "category": "What Links",
+      "question_text": "What word links Show, Cow, Scout",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 12739,
+          "exact_match": true,
+          "points_awarded": 9,
+          "answered_at": "2026-09-28 23:57:38.874886+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5561,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:58:09.215573+00:00",
+      "ended_at": "2026-09-28 23:58:29.730113+00:00",
+      "winner_id": null,
+      "category": "What Links",
+      "question_text": "What word links Fish, Mine, Rush",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5562,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:58:59.975427+00:00",
+      "ended_at": "2026-09-28 23:59:12.040847+00:00",
+      "winner_id": "795847206719717386",
+      "category": "What Links",
+      "question_text": "What word links Race, Train, Sound",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 12048,
+          "exact_match": true,
+          "points_awarded": 9,
+          "answered_at": "2026-09-28 23:59:12.037491+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5563,
+      "mode": "standard",
+      "started_at": "2026-09-28 23:59:42.305563+00:00",
+      "ended_at": "2026-09-29 00:00:02.480163+00:00",
+      "winner_id": null,
+      "category": "What Links",
+      "question_text": "What word links Fore, Arrow, Stone",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5564,
+      "mode": "insane",
+      "started_at": "2026-09-29 00:00:32.919498+00:00",
+      "ended_at": "2026-09-29 00:01:33.194145+00:00",
+      "winner_id": null,
+      "category": "Geography",
+      "question_text": "Name every US state",
+      "image_url": null,
+      "answer_count": 50,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3738,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:36.660486+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4707,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:37.629096+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5242,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:38.164254+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6447,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:39.368827+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6744,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:39.666409+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 8009,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:40.931638+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 8354,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:41.275739+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9410,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:42.332125+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 10680,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:43.602609+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 10866,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:43.788080+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 12251,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:45.173215+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 12460,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:45.381896+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 13765,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:46.686861+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 15231,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:48.153601+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 15303,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:48.225185+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 16463,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:49.385657+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 17255,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:50.176949+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 17938,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:50.860297+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 18809,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:51.731306+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 19317,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:52.239504+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 21844,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:54.765957+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 22070,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:54.992257+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 23862,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:56.784632+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 26349,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:00:59.271616+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 28113,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:01.034765+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 28437,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:01.359687+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 29876,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:02.798367+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 31081,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:04.003641+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 33772,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:06.693947+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 35620,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:08.542473+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 40572,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:13.494029+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 44690,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:17.612005+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 46925,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:19.846774+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 49777,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:22.699304+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 54364,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:27.286556+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 58829,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:31.751622+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 60037,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 00:01:32.958968+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 159,
+    "734768348201615400": 720,
+    "795847206719717386": 846
+  }
+}
