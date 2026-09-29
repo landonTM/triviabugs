@@ -9,28 +9,28 @@
   },
   "total_xp": 861586,
   "period_stats": {
-    "daily_points": 52,
-    "daily_correct": 19,
-    "weekly_points": 1079,
-    "weekly_correct": 457,
-    "monthly_points": 2461,
-    "monthly_correct": 1255,
-    "yearly_points": 2461,
-    "yearly_correct": 1255,
-    "alltime_points": 2461,
-    "alltime_correct": 1255
+    "daily_points": 58,
+    "daily_correct": 22,
+    "weekly_points": 1085,
+    "weekly_correct": 460,
+    "monthly_points": 2467,
+    "monthly_correct": 1258,
+    "yearly_points": 2467,
+    "yearly_correct": 1258,
+    "alltime_points": 2467,
+    "alltime_correct": 1258
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 1801,
-    "questions_right": 595,
+    "total_points": 1805,
+    "questions_right": 596,
     "questions_wrong": 0,
-    "wins": 595,
+    "wins": 596,
     "current_streak": 1,
     "best_streak": 21,
     "games_played": 94,
-    "insane_guesses": 489,
+    "insane_guesses": 491,
     "day_streak": 15,
     "last_played_date": "2026-09-29",
     "total_xp": 861586,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Sports",
-    "points": 995,
-    "correct": 296
+    "points": 999,
+    "correct": 297
   },
   "best_insane_round": {
     "question_text": "WWE Champions",
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 660,
-  "average_guess_ms": 20953.30924369748,
+  "total_insane_correct": 662,
+  "average_guess_ms": 20923.424496644297,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 25
   },
   "spelling_accuracy": {
-    "exact_count": 1074,
-    "total": 1163
+    "exact_count": 1076,
+    "total": 1166
   },
   "achievements": {
     "catalog": [
@@ -2227,7 +2227,7 @@
       "movies": 22,
       "music": 15,
       "pokemon": 4,
-      "sports": 232,
+      "sports": 233,
       "videogames": 5,
       "wrestling": 119,
       "duelwins": 15,
