@@ -1,0 +1,117 @@
+{
+  "game": {
+    "id": 82,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 15,
+    "rounds_played": 4,
+    "categories": [
+      "Game of Thrones",
+      "House of the Dragon",
+      "Harry Potter"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-09-29 22:57:39.414540+00:00",
+    "ended_at": "2026-09-29 22:59:12.034575+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 5903,
+      "mode": "standard",
+      "started_at": "2026-09-29 22:57:39.764200+00:00",
+      "ended_at": "2026-09-29 22:57:44.555187+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Game of Thrones",
+      "question_text": "What surname is given to bastards born in the Stormlands?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4773,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 22:57:44.552056+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5904,
+      "mode": "standard",
+      "started_at": "2026-09-29 22:57:54.843047+00:00",
+      "ended_at": "2026-09-29 22:58:24.098077+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Harry Potter",
+      "question_text": "How do Harry and the Weasleys travel to the Quidditch World Cup?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 29236,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 22:58:24.094761+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5905,
+      "mode": "standard",
+      "started_at": "2026-09-29 22:58:34.340658+00:00",
+      "ended_at": "2026-09-29 22:58:38.415016+00:00",
+      "winner_id": "795847206719717386",
+      "category": "House of the Dragon",
+      "question_text": "Who helps Rhaenyra send food to the starving smallfolk of King's Landing?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4055,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 22:58:38.411360+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5906,
+      "mode": "standard",
+      "started_at": "2026-09-29 22:58:48.757522+00:00",
+      "ended_at": "2026-09-29 22:58:52.637008+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Game of Thrones",
+      "question_text": "What actor plays Daenerys Targaryen in the HBO series?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3864,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 22:58:52.633819+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5907,
+      "mode": "standard",
+      "started_at": "2026-09-29 22:59:02.964714+00:00",
+      "ended_at": "2026-09-29 22:59:11.774225+00:00",
+      "winner_id": null,
+      "category": "Harry Potter",
+      "question_text": "Why did the Ministry stop using owls for interoffice memos?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    }
+  ],
+  "xp": {
+    "795847206719717386": 256
+  }
+}
