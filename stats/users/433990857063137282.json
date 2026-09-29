@@ -2,39 +2,39 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 42,
-    "xp_into_level": 6092,
+    "xp_into_level": 6845,
     "xp_for_level": 61000,
-    "progress": 0.09986885245901639,
+    "progress": 0.11221311475409836,
     "maxed": false
   },
-  "total_xp": 916592,
+  "total_xp": 917345,
   "period_stats": {
-    "daily_points": 77,
-    "daily_correct": 23,
-    "weekly_points": 760,
-    "weekly_correct": 344,
-    "monthly_points": 3834,
-    "monthly_correct": 1797,
-    "yearly_points": 4008,
-    "yearly_correct": 1890,
-    "alltime_points": 4008,
-    "alltime_correct": 1890
+    "daily_points": 139,
+    "daily_correct": 40,
+    "weekly_points": 822,
+    "weekly_correct": 361,
+    "monthly_points": 3896,
+    "monthly_correct": 1814,
+    "yearly_points": 4070,
+    "yearly_correct": 1907,
+    "alltime_points": 4070,
+    "alltime_correct": 1907
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 2915,
-    "questions_right": 794,
+    "total_points": 2969,
+    "questions_right": 803,
     "questions_wrong": 0,
-    "wins": 794,
-    "current_streak": 2,
+    "wins": 803,
+    "current_streak": 9,
     "best_streak": 27,
-    "games_played": 97,
-    "insane_guesses": 792,
+    "games_played": 98,
+    "insane_guesses": 800,
     "day_streak": 6,
     "last_played_date": "2026-09-28",
-    "total_xp": 916592,
-    "game_wins": 32,
+    "total_xp": 917345,
+    "game_wins": 33,
     "achievement_best_streak": 27
   },
   "best_streak": 27,
@@ -44,24 +44,24 @@
     "category": "US State Abbreviations"
   },
   "best_category": {
-    "category": "Wrestling",
-    "points": 656,
-    "correct": 323
+    "category": "Logos",
+    "points": 696,
+    "correct": 119
   },
   "best_insane_round": {
     "question_text": "Name every US state",
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1097,
-  "average_guess_ms": 16899.21815889029,
+  "total_insane_correct": 1105,
+  "average_guess_ms": 16760.16209476309,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 1465,
-    "total": 1676
+    "exact_count": 1481,
+    "total": 1693
   },
   "achievements": {
     "catalog": [
@@ -2235,7 +2235,7 @@
       "pokemon": 9,
       "sports": 29,
       "videogames": 66,
-      "wrestling": 173,
+      "wrestling": 181,
       "duelwins": 24,
       "duelstreak": 5
     }
@@ -2375,8 +2375,8 @@
       "key": "cursed",
       "label": "Cursed Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "footer",
@@ -3527,8 +3527,8 @@
       "key": "stupidbitch",
       "label": "Stupid Bitch MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3605,9 +3605,9 @@
   ],
   "equipped": {
     "footer": {
-      "key": "compliments",
-      "label": "Compliments Footer",
-      "template": "With compliments from {user}. 💌"
+      "key": "cursed",
+      "label": "Cursed Footer",
+      "template": "Cursed by {user} 🔮"
     },
     "emoji": {
       "key": "trickortreat",
@@ -3626,10 +3626,10 @@
       "hex": "#5CE1B0"
     },
     "mvp": {
-      "key": "primetime",
-      "label": "Prime Time MVP",
-      "quote": "This is it, {loser}! Your big break in TV! Welcome to prime time, bitch!",
-      "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzE3N216OTFiMGV5MnNrdTd5d2FxMjZpcThmaDI1azR1cnhyaGI5OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PK7IAHdB0l9mg/giphy.gif"
+      "key": "stupidbitch",
+      "label": "Stupid Bitch MVP",
+      "quote": "YOU STUPID BITCH, YOU FILTHY SLUT! I'LL TEACH YOU TO FUCK WITH ME!",
+      "gif": "https://media.giphy.com/media/0cbbW3i8kzCahcvxmb/giphy.gif"
     }
   },
   "rivals": [
