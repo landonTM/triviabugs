@@ -2,23 +2,23 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 43,
-    "xp_into_level": 6783,
+    "xp_into_level": 18514,
     "xp_for_level": 64000,
-    "progress": 0.105984375,
+    "progress": 0.28928125,
     "maxed": false
   },
-  "total_xp": 978283,
+  "total_xp": 990014,
   "period_stats": {
-    "daily_points": 287,
-    "daily_correct": 84,
-    "weekly_points": 970,
-    "weekly_correct": 405,
-    "monthly_points": 4044,
-    "monthly_correct": 1858,
-    "yearly_points": 4218,
-    "yearly_correct": 1951,
-    "alltime_points": 4218,
-    "alltime_correct": 1951
+    "daily_points": 289,
+    "daily_correct": 86,
+    "weekly_points": 972,
+    "weekly_correct": 407,
+    "monthly_points": 4046,
+    "monthly_correct": 1860,
+    "yearly_points": 4220,
+    "yearly_correct": 1953,
+    "alltime_points": 4220,
+    "alltime_correct": 1953
   },
   "stats_row": {
     "user_id": "433990857063137282",
@@ -29,11 +29,11 @@
     "wins": 832,
     "current_streak": 4,
     "best_streak": 27,
-    "games_played": 102,
-    "insane_guesses": 815,
+    "games_played": 103,
+    "insane_guesses": 817,
     "day_streak": 7,
     "last_played_date": "2026-09-29",
-    "total_xp": 978283,
+    "total_xp": 990014,
     "game_wins": 35,
     "achievement_best_streak": 27
   },
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1120,
+  "total_insane_correct": 1122,
   "average_guess_ms": 16568.95667870036,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 1520,
-    "total": 1737
+    "exact_count": 1522,
+    "total": 1739
   },
   "achievements": {
     "catalog": [
@@ -2229,7 +2229,7 @@
     "category_counts": {
       "disney": 41,
       "entertainment": 0,
-      "geo": 102,
+      "geo": 104,
       "gk": 186,
       "got": 8,
       "marvel": 67,
@@ -2386,8 +2386,8 @@
       "key": "summoned",
       "label": "Summoned Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "footer",
@@ -3554,8 +3554,8 @@
       "key": "phil",
       "label": "Phil MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
