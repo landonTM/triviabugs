@@ -1,0 +1,100 @@
+{
+  "match": {
+    "id": 58,
+    "kind": "duel",
+    "channel_id": "864342930076860426",
+    "challenger_id": "433990857063137282",
+    "opponent_id": "795847206719717386",
+    "format": 9,
+    "format_label": "Best of 9",
+    "winner_id": "795847206719717386",
+    "is_tie": false,
+    "challenger_score": 1,
+    "opponent_score": 4,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-29 01:48:31.536523+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-29 01:48:31.538901+00:00",
+      "category": "Conundrums",
+      "question_text": "Irrigate",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": "795847206719717386",
+      "response_time_ms": 5503,
+      "answered_at": "2026-09-29 01:48:31.538901+00:00",
+      "category": "Music",
+      "question_text": "What band featured Sting, Stewart Copeland and Andy Summers?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": "795847206719717386",
+      "response_time_ms": 2133,
+      "answered_at": "2026-09-29 01:48:31.538901+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/1dQ8NBz.png",
+      "answer_count": 1
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": "433990857063137282",
+      "response_time_ms": 6547,
+      "answered_at": "2026-09-29 01:48:31.538901+00:00",
+      "category": "Conundrums",
+      "question_text": "Compass",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": "795847206719717386",
+      "response_time_ms": 5810,
+      "answered_at": "2026-09-29 01:48:31.538901+00:00",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/68B62BL.png",
+      "answer_count": 1
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-29 01:48:31.538901+00:00",
+      "category": "Greek Mythology",
+      "question_text": "Who was the mother of Achilles?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": "795847206719717386",
+      "response_time_ms": 13006,
+      "answered_at": "2026-09-29 01:48:31.538901+00:00",
+      "category": "Geography",
+      "question_text": "The prefix Sino- (As in Sino-American) is used to refer to what nationality?",
+      "image_url": null,
+      "answer_count": 1
+    }
+  ],
+  "xp": {
+    "433990857063137282": 150,
+    "795847206719717386": 1500
+  }
+}
