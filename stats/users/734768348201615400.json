@@ -2,38 +2,38 @@
   "user_id": "734768348201615400",
   "level": {
     "level": 43,
-    "xp_into_level": 12151,
+    "xp_into_level": 21047,
     "xp_for_level": 64000,
-    "progress": 0.189859375,
+    "progress": 0.328859375,
     "maxed": false
   },
-  "total_xp": 983651,
+  "total_xp": 992547,
   "period_stats": {
-    "daily_points": 71,
-    "daily_correct": 47,
-    "weekly_points": 1436,
-    "weekly_correct": 827,
-    "monthly_points": 5726,
-    "monthly_correct": 3202,
-    "yearly_points": 5925,
-    "yearly_correct": 3345,
-    "alltime_points": 5925,
-    "alltime_correct": 3345
+    "daily_points": 106,
+    "daily_correct": 75,
+    "weekly_points": 1394,
+    "weekly_correct": 799,
+    "monthly_points": 5761,
+    "monthly_correct": 3230,
+    "yearly_points": 5960,
+    "yearly_correct": 3373,
+    "alltime_points": 5960,
+    "alltime_correct": 3373
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 3700,
-    "questions_right": 1120,
+    "total_points": 3712,
+    "questions_right": 1125,
     "questions_wrong": 0,
-    "wins": 1120,
+    "wins": 1125,
     "current_streak": 2,
     "best_streak": 37,
-    "games_played": 59,
-    "insane_guesses": 1296,
-    "day_streak": 14,
-    "last_played_date": "2026-09-28",
-    "total_xp": 983651,
+    "games_played": 60,
+    "insane_guesses": 1319,
+    "day_streak": 15,
+    "last_played_date": "2026-09-29",
+    "total_xp": 992547,
     "game_wins": 28,
     "achievement_best_streak": 37
   },
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 1149,
-    "correct": 776
+    "points": 1171,
+    "correct": 798
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2225,
-  "average_guess_ms": 15581.689285714287,
+  "total_insane_correct": 2248,
+  "average_guess_ms": 15638.299555555555,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 2143,
-    "total": 2563
+    "exact_count": 2162,
+    "total": 2591
   },
   "achievements": {
     "catalog": [
@@ -2221,7 +2221,7 @@
     "category_counts": {
       "disney": 33,
       "entertainment": 10,
-      "geo": 261,
+      "geo": 263,
       "gk": 205,
       "got": 0,
       "marvel": 28,
@@ -2229,8 +2229,8 @@
       "music": 22,
       "pokemon": 8,
       "sports": 85,
-      "videogames": 19,
-      "wrestling": 345,
+      "videogames": 20,
+      "wrestling": 367,
       "duelwins": 4,
       "duelstreak": 2
     }
@@ -3498,8 +3498,8 @@
       "key": "herejohnny",
       "label": "Here's Johnny MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
