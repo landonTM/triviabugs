@@ -151,18 +151,18 @@
       "standings": [
         {
           "user_id": "795847206719717386",
-          "points": 412,
-          "correct": 209
+          "points": 515,
+          "correct": 257
         },
         {
           "user_id": "734768348201615400",
-          "points": 242,
-          "correct": 132
+          "points": 261,
+          "correct": 146
         },
         {
           "user_id": "433990857063137282",
-          "points": 153,
-          "correct": 63
+          "points": 181,
+          "correct": 71
         },
         {
           "user_id": "794420965387403265",
@@ -171,21 +171,29 @@
         },
         {
           "user_id": "184456115927384065",
-          "points": 12,
-          "correct": 6
+          "points": 16,
+          "correct": 10
         }
       ],
       "pass": [
         {
           "user_id": "433990857063137282",
-          "xp": 3311,
+          "xp": 3861,
           "level": 3,
-          "xp_into_level": 401,
+          "xp_into_level": 951,
           "xp_for_level": 1110,
           "completed": false
         },
         {
           "user_id": "795847206719717386",
+          "xp": 3300,
+          "level": 3,
+          "xp_into_level": 390,
+          "xp_for_level": 1110,
+          "completed": false
+        },
+        {
+          "user_id": "734768348201615400",
           "xp": 2750,
           "level": 2,
           "xp_into_level": 880,
@@ -193,19 +201,11 @@
           "completed": false
         },
         {
-          "user_id": "734768348201615400",
-          "xp": 2200,
-          "level": 2,
-          "xp_into_level": 330,
-          "xp_for_level": 1040,
-          "completed": false
-        },
-        {
           "user_id": "184456115927384065",
-          "xp": 1399,
-          "level": 1,
-          "xp_into_level": 499,
-          "xp_for_level": 970,
+          "xp": 1949,
+          "level": 2,
+          "xp_into_level": 79,
+          "xp_for_level": 1040,
           "completed": false
         },
         {
