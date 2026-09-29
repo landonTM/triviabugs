@@ -1,40 +1,40 @@
 {
   "user_id": "734768348201615400",
   "level": {
-    "level": 43,
-    "xp_into_level": 49905,
-    "xp_for_level": 64000,
-    "progress": 0.779765625,
+    "level": 44,
+    "xp_into_level": 69,
+    "xp_for_level": 67000,
+    "progress": 0.0010298507462686568,
     "maxed": false
   },
-  "total_xp": 1021405,
+  "total_xp": 1035569,
   "period_stats": {
-    "daily_points": 253,
-    "daily_correct": 146,
-    "weekly_points": 1432,
-    "weekly_correct": 814,
-    "monthly_points": 5908,
-    "monthly_correct": 3301,
-    "yearly_points": 6107,
-    "yearly_correct": 3444,
-    "alltime_points": 6107,
-    "alltime_correct": 3444
+    "daily_points": 374,
+    "daily_correct": 205,
+    "weekly_points": 1553,
+    "weekly_correct": 873,
+    "monthly_points": 6029,
+    "monthly_correct": 3360,
+    "yearly_points": 6228,
+    "yearly_correct": 3503,
+    "alltime_points": 6228,
+    "alltime_correct": 3503
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 3810,
-    "questions_right": 1147,
+    "total_points": 3894,
+    "questions_right": 1169,
     "questions_wrong": 0,
-    "wins": 1147,
-    "current_streak": 4,
+    "wins": 1169,
+    "current_streak": 10,
     "best_streak": 37,
-    "games_played": 62,
-    "insane_guesses": 1368,
+    "games_played": 66,
+    "insane_guesses": 1405,
     "day_streak": 15,
     "last_played_date": "2026-09-29",
-    "total_xp": 1021405,
-    "game_wins": 29,
+    "total_xp": 1035569,
+    "game_wins": 31,
     "achievement_best_streak": 37
   },
   "best_streak": 37,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 1171,
-    "correct": 798
+    "points": 1204,
+    "correct": 815
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2297,
-  "average_guess_ms": 15500.770706190062,
+  "total_insane_correct": 2334,
+  "average_guess_ms": 15346.878528656973,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 2223,
-    "total": 2662
+    "exact_count": 2269,
+    "total": 2721
   },
   "achievements": {
     "catalog": [
@@ -2212,7 +2212,8 @@
       "spelling_bee": "2026-09-26 21:14:07.094426+00:00",
       "hardcore_spelling": "2026-09-26 21:14:07.096748+00:00",
       "geo_250": "2026-09-29 00:15:26.775172+00:00",
-      "sports_100": "2026-09-29 21:55:38.515762+00:00"
+      "sports_100": "2026-09-29 21:55:38.515762+00:00",
+      "wins_30": "2026-09-29 22:44:44.157604+00:00"
     },
     "baselines": {
       "points": 1842,
@@ -2222,8 +2223,8 @@
     "category_counts": {
       "disney": 33,
       "entertainment": 10,
-      "geo": 296,
-      "gk": 205,
+      "geo": 317,
+      "gk": 212,
       "got": 0,
       "marvel": 28,
       "movies": 7,
@@ -2231,7 +2232,7 @@
       "pokemon": 8,
       "sports": 100,
       "videogames": 20,
-      "wrestling": 367,
+      "wrestling": 384,
       "duelwins": 4,
       "duelstreak": 2
     }
@@ -2307,8 +2308,8 @@
       "key": "sponsors",
       "label": "Sponsors Footer",
       "unlock_level": 44,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "footer",
@@ -2371,8 +2372,8 @@
       "key": "cursed",
       "label": "Cursed Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "footer",
@@ -2747,8 +2748,8 @@
       "key": "zombie",
       "label": "Zombie Response Theme",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "theme",
@@ -3171,8 +3172,8 @@
       "key": "birdsofprey",
       "label": "Birds of Prey MVP",
       "unlock_level": 44,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "mvp",
@@ -3515,16 +3516,16 @@
       "key": "primetime",
       "label": "Prime Time MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
       "key": "stupidbitch",
       "label": "Stupid Bitch MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3622,10 +3623,10 @@
       "hex": "#8093F1"
     },
     "mvp": {
-      "key": "deeney",
-      "label": "Deeney MVP",
-      "quote": "Here's Hogg..... DEENEY!",
-      "gif": "https://media.giphy.com/media/Jf6DbAQhdSt6HEm8Ci/giphy.gif"
+      "key": "birdsofprey",
+      "label": "Birds of Prey MVP",
+      "quote": "I suppose if you are going to execute a bird of prey, the most humane way would be death by firing squad.",
+      "gif": "https://media.giphy.com/media/cK2bsYaimCOPxwPdr9/giphy.gif"
     }
   },
   "rivals": [
