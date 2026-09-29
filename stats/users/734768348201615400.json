@@ -2,38 +2,38 @@
   "user_id": "734768348201615400",
   "level": {
     "level": 43,
-    "xp_into_level": 23665,
+    "xp_into_level": 48665,
     "xp_for_level": 64000,
-    "progress": 0.369765625,
+    "progress": 0.760390625,
     "maxed": false
   },
-  "total_xp": 995165,
+  "total_xp": 1020165,
   "period_stats": {
-    "daily_points": 175,
-    "daily_correct": 109,
-    "weekly_points": 1413,
-    "weekly_correct": 811,
-    "monthly_points": 5830,
-    "monthly_correct": 3264,
-    "yearly_points": 6029,
-    "yearly_correct": 3407,
-    "alltime_points": 6029,
-    "alltime_correct": 3407
+    "daily_points": 253,
+    "daily_correct": 146,
+    "weekly_points": 1432,
+    "weekly_correct": 814,
+    "monthly_points": 5908,
+    "monthly_correct": 3301,
+    "yearly_points": 6107,
+    "yearly_correct": 3444,
+    "alltime_points": 6107,
+    "alltime_correct": 3444
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 3754,
-    "questions_right": 1132,
+    "total_points": 3810,
+    "questions_right": 1147,
     "questions_wrong": 0,
-    "wins": 1132,
-    "current_streak": 1,
+    "wins": 1147,
+    "current_streak": 4,
     "best_streak": 37,
     "games_played": 61,
-    "insane_guesses": 1346,
+    "insane_guesses": 1368,
     "day_streak": 15,
     "last_played_date": "2026-09-29",
-    "total_xp": 995165,
+    "total_xp": 1020165,
     "game_wins": 28,
     "achievement_best_streak": 37
   },
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2275,
-  "average_guess_ms": 15577.536219081272,
+  "total_insane_correct": 2297,
+  "average_guess_ms": 15500.770706190062,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 2191,
-    "total": 2625
+    "exact_count": 2223,
+    "total": 2662
   },
   "achievements": {
     "catalog": [
@@ -2211,7 +2211,8 @@
       "play_50_games": "2026-09-26 20:32:37.584830+00:00",
       "spelling_bee": "2026-09-26 21:14:07.094426+00:00",
       "hardcore_spelling": "2026-09-26 21:14:07.096748+00:00",
-      "geo_250": "2026-09-29 00:15:26.775172+00:00"
+      "geo_250": "2026-09-29 00:15:26.775172+00:00",
+      "sports_100": "2026-09-29 21:55:38.515762+00:00"
     },
     "baselines": {
       "points": 1842,
@@ -2221,14 +2222,14 @@
     "category_counts": {
       "disney": 33,
       "entertainment": 10,
-      "geo": 288,
+      "geo": 296,
       "gk": 205,
       "got": 0,
       "marvel": 28,
       "movies": 7,
       "music": 22,
       "pokemon": 8,
-      "sports": 85,
+      "sports": 100,
       "videogames": 20,
       "wrestling": 367,
       "duelwins": 4,
