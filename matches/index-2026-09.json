@@ -2117,6 +2117,38 @@
       "started_at": "2026-09-29 19:27:22.258924+00:00",
       "ended_at": "2026-09-29 20:03:03.758216+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 73,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 20,
+      "rounds_played": 20,
+      "categories": [
+        "sports"
+      ],
+      "started_by": "734768348201615400",
+      "winner_id": "734768348201615400",
+      "started_at": "2026-09-29 21:47:53.889056+00:00",
+      "ended_at": "2026-09-29 21:56:27.254640+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 74,
+      "kind": "game",
+      "mode": "hardcore",
+      "channel_id": "861424168875982848",
+      "total_rounds": 20,
+      "rounds_played": 10,
+      "categories": [
+        "Logos"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-09-29 22:18:15.378526+00:00",
+      "ended_at": "2026-09-29 22:26:13.744762+00:00",
+      "end_reason": "stopped"
     }
   ]
 }
