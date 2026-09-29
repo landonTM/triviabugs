@@ -1,0 +1,107 @@
+{
+  "game": {
+    "id": 68,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 5,
+    "rounds_played": 5,
+    "categories": [
+      "Disney"
+    ],
+    "started_by": "433990857063137282",
+    "winner_id": "433990857063137282",
+    "started_at": "2026-09-29 02:55:12.723397+00:00",
+    "ended_at": "2026-09-29 02:59:15.530883+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5694,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:55:12.993535+00:00",
+      "ended_at": "2026-09-29 02:56:13.171515+00:00",
+      "winner_id": null,
+      "category": "Disney",
+      "question_text": "Who convinced Dumbo he could fly?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5695,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:56:23.448063+00:00",
+      "ended_at": "2026-09-29 02:57:23.658189+00:00",
+      "winner_id": null,
+      "category": "Disney",
+      "question_text": "In the Hunchback of Notre Dame, what was the name of the Captain of the Guard?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5696,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:57:33.898370+00:00",
+      "ended_at": "2026-09-29 02:57:59.114633+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Disney",
+      "question_text": "In Mickey’s Christmas Carol who plays the part of the Ghost of Christmas Past?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 25199,
+          "exact_match": true,
+          "points_awarded": 3,
+          "answered_at": "2026-09-29 02:57:59.110411+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5697,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:58:09.523845+00:00",
+      "ended_at": "2026-09-29 02:58:43.528924+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Disney",
+      "question_text": "What is the name of the evil centaur Hercules saves Megara from when they first meet?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 33990,
+          "exact_match": true,
+          "points_awarded": 3,
+          "answered_at": "2026-09-29 02:58:43.525405+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5698,
+      "mode": "standard",
+      "started_at": "2026-09-29 02:58:53.760838+00:00",
+      "ended_at": "2026-09-29 02:59:05.173320+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Disney",
+      "question_text": "What season of the year was Bambi born in?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 11397,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-29 02:59:05.169755+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 262
+  }
+}
