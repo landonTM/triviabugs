@@ -1,0 +1,45 @@
+{
+  "game": {
+    "id": 81,
+    "kind": "game",
+    "mode": "standard",
+    "channel_id": "861424168875982848",
+    "total_rounds": 16,
+    "rounds_played": 1,
+    "categories": [
+      "Game of Thrones",
+      "House of the Dragon",
+      "Harry Potter"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-09-29 22:56:53.513272+00:00",
+    "ended_at": "2026-09-29 22:57:29.788004+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 5902,
+      "mode": "standard",
+      "started_at": "2026-09-29 22:56:53.910246+00:00",
+      "ended_at": "2026-09-29 22:57:29.304057+00:00",
+      "winner_id": null,
+      "category": "Harry Potter",
+      "question_text": "What is Harry's youngest son's name?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9463,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 22:57:03.390126+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "795847206719717386": 129
+  }
+}
