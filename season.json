@@ -151,18 +151,18 @@
       "standings": [
         {
           "user_id": "795847206719717386",
-          "points": 672,
-          "correct": 327
+          "points": 727,
+          "correct": 359
         },
         {
           "user_id": "433990857063137282",
-          "points": 359,
-          "correct": 129
+          "points": 363,
+          "correct": 130
         },
         {
           "user_id": "734768348201615400",
-          "points": 269,
-          "correct": 150
+          "points": 304,
+          "correct": 178
         },
         {
           "user_id": "794420965387403265",
@@ -171,41 +171,41 @@
         },
         {
           "user_id": "184456115927384065",
-          "points": 56,
-          "correct": 20
+          "points": 64,
+          "correct": 25
         }
       ],
       "pass": [
         {
           "user_id": "433990857063137282",
-          "xp": 9154,
-          "level": 7,
-          "xp_into_level": 1384,
-          "xp_for_level": 1390,
+          "xp": 9954,
+          "level": 8,
+          "xp_into_level": 794,
+          "xp_for_level": 1460,
           "completed": false
         },
         {
           "user_id": "795847206719717386",
-          "xp": 5127,
-          "level": 4,
-          "xp_into_level": 1107,
-          "xp_for_level": 1180,
+          "xp": 5927,
+          "level": 5,
+          "xp_into_level": 727,
+          "xp_for_level": 1250,
           "completed": false
         },
         {
           "user_id": "184456115927384065",
-          "xp": 3199,
+          "xp": 3999,
           "level": 3,
-          "xp_into_level": 289,
+          "xp_into_level": 1089,
           "xp_for_level": 1110,
           "completed": false
         },
         {
           "user_id": "734768348201615400",
-          "xp": 2750,
-          "level": 2,
-          "xp_into_level": 880,
-          "xp_for_level": 1040,
+          "xp": 3550,
+          "level": 3,
+          "xp_into_level": 640,
+          "xp_for_level": 1110,
           "completed": false
         },
         {
