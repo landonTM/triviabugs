@@ -74,7 +74,7 @@
         "players": [
           {
             "user_id": "433990857063137282",
-            "progress": 9,
+            "progress": 10,
             "completed_at": null
           },
           {
@@ -94,7 +94,7 @@
           },
           {
             "user_id": "794420965387403265",
-            "progress": 1,
+            "progress": 2,
             "completed_at": null
           }
         ]
@@ -148,6 +148,11 @@
           },
           {
             "user_id": "184456115927384065",
+            "progress": 1,
+            "completed_at": null
+          },
+          {
+            "user_id": "794420965387403265",
             "progress": 1,
             "completed_at": null
           }
