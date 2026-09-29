@@ -1,0 +1,432 @@
+{
+  "game": {
+    "id": 83,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 15,
+    "rounds_played": 15,
+    "categories": [
+      "Logos",
+      "who’s that pokemon (gen 1)",
+      "world map",
+      "flags"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": "734768348201615400",
+    "started_at": "2026-09-29 23:00:51.313486+00:00",
+    "ended_at": "2026-09-29 23:07:51.982687+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5908,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:00:51.777998+00:00",
+      "ended_at": "2026-09-29 23:01:17.071190+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/ii5rr9F.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 25277,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 23:01:17.066106+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5909,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:01:27.494071+00:00",
+      "ended_at": "2026-09-29 23:01:36.797275+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/xOLzING.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9284,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:01:36.793984+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5910,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:01:47.221220+00:00",
+      "ended_at": "2026-09-29 23:02:10.824767+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/YOBQKuj.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 23583,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 23:02:10.820719+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5911,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:02:21.217845+00:00",
+      "ended_at": "2026-09-29 23:02:46.001400+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/OOOKn0t.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 24765,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 23:02:45.998080+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5912,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:02:56.373041+00:00",
+      "ended_at": "2026-09-29 23:03:01.813742+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/mcDugwB.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5423,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:03:01.810455+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5913,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:03:12.193531+00:00",
+      "ended_at": "2026-09-29 23:03:17.921736+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/YUtwP7k.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5710,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:03:17.918124+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5914,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:03:28.769116+00:00",
+      "ended_at": "2026-09-29 23:03:49.622797+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/ZRSfjjh.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 20838,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 23:03:49.619550+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5915,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:04:00.296926+00:00",
+      "ended_at": "2026-09-29 23:04:06.428692+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/JUwRlb6.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6117,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:04:06.425463+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5916,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:04:16.799580+00:00",
+      "ended_at": "2026-09-29 23:04:28.720626+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/zChCrog.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 11905,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:04:28.715369+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5917,
+      "mode": "insane",
+      "started_at": "2026-09-29 23:04:38.914980+00:00",
+      "ended_at": "2026-09-29 23:05:39.113644+00:00",
+      "winner_id": null,
+      "category": "Acronyms and Abbreviations",
+      "question_text": "The NATO phonetic alphabet",
+      "image_url": null,
+      "answer_count": 26,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4014,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:04:42.932083+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6392,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:04:45.309178+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6869,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:04:45.786587+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 7598,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:04:46.515843+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 8963,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:04:47.880532+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9348,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:04:48.265372+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 10085,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:04:49.002958+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 11134,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:04:50.051858+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 13604,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:04:52.522160+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 15196,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:04:54.113747+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 18427,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:04:57.344324+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 28530,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:05:07.448053+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 29689,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:05:08.606288+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 33141,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:05:12.058738+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 34048,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:05:12.966154+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 35374,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-29 23:05:14.291687+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5918,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:05:49.705925+00:00",
+      "ended_at": "2026-09-29 23:06:17.817882+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/UammPKQ.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 28097,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 23:06:17.814504+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5919,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:06:28.142779+00:00",
+      "ended_at": "2026-09-29 23:06:49.528077+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/mWfKGSn.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 21366,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 23:06:49.524512+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5920,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:06:59.833931+00:00",
+      "ended_at": "2026-09-29 23:07:12.446881+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/iNmZn0K.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 12592,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:07:12.442828+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5921,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:07:22.737555+00:00",
+      "ended_at": "2026-09-29 23:07:26.545854+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/vwmb6s3.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3790,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:07:26.542446+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5922,
+      "mode": "standard",
+      "started_at": "2026-09-29 23:07:36.899613+00:00",
+      "ended_at": "2026-09-29 23:07:41.801380+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/CK2BgyY.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4883,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 23:07:41.798188+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "734768348201615400": 827,
+    "795847206719717386": 806
+  }
+}
