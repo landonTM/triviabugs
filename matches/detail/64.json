@@ -1,0 +1,116 @@
+{
+  "game": {
+    "id": 64,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 5,
+    "rounds_played": 5,
+    "categories": [
+      "Wrestling"
+    ],
+    "started_by": "433990857063137282",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-09-29 01:30:55.424774+00:00",
+    "ended_at": "2026-09-29 01:33:58.007349+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 5665,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:30:55.729807+00:00",
+      "ended_at": "2026-09-29 01:31:01.231374+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Wrestling",
+      "question_text": "What is the real name of Naomi?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5483,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 01:31:01.228141+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5666,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:31:11.484712+00:00",
+      "ended_at": "2026-09-29 01:31:40.644876+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Wrestling",
+      "question_text": "What manager is known by the nickname 'Classy'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 29139,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 01:31:40.640962+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5667,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:31:50.887423+00:00",
+      "ended_at": "2026-09-29 01:32:18.008678+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Wrestling",
+      "question_text": "Which state was the location of WrestleMania 12?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 27101,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-29 01:32:18.005060+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 5668,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:32:28.240945+00:00",
+      "ended_at": "2026-09-29 01:33:28.404148+00:00",
+      "winner_id": null,
+      "category": "Wrestling",
+      "question_text": "What is Erick Rowan's real name?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 5669,
+      "mode": "standard",
+      "started_at": "2026-09-29 01:33:39.011677+00:00",
+      "ended_at": "2026-09-29 01:33:47.860789+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Wrestling",
+      "question_text": "Which referee called for the bell whilst Bret Hart was in the sharpshooter in the 1997 Montreal Screwjob?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 8834,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-29 01:33:47.857447+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 311,
+    "795847206719717386": 314
+  }
+}
