@@ -2,38 +2,38 @@
   "user_id": "734768348201615400",
   "level": {
     "level": 43,
-    "xp_into_level": 9994,
+    "xp_into_level": 12151,
     "xp_for_level": 64000,
-    "progress": 0.15615625,
+    "progress": 0.189859375,
     "maxed": false
   },
-  "total_xp": 981494,
+  "total_xp": 983651,
   "period_stats": {
-    "daily_points": 44,
-    "daily_correct": 29,
-    "weekly_points": 1469,
-    "weekly_correct": 851,
-    "monthly_points": 5699,
-    "monthly_correct": 3184,
-    "yearly_points": 5898,
-    "yearly_correct": 3327,
-    "alltime_points": 5898,
-    "alltime_correct": 3327
+    "daily_points": 63,
+    "daily_correct": 43,
+    "weekly_points": 1488,
+    "weekly_correct": 865,
+    "monthly_points": 5718,
+    "monthly_correct": 3198,
+    "yearly_points": 5917,
+    "yearly_correct": 3341,
+    "alltime_points": 5917,
+    "alltime_correct": 3341
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 3687,
-    "questions_right": 1116,
+    "total_points": 3693,
+    "questions_right": 1117,
     "questions_wrong": 0,
-    "wins": 1116,
+    "wins": 1117,
     "current_streak": 1,
     "best_streak": 37,
-    "games_played": 58,
-    "insane_guesses": 1282,
+    "games_played": 59,
+    "insane_guesses": 1295,
     "day_streak": 14,
     "last_played_date": "2026-09-28",
-    "total_xp": 981494,
+    "total_xp": 983651,
     "game_wins": 28,
     "achievement_best_streak": 37
   },
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 1143,
-    "correct": 770
+    "points": 1148,
+    "correct": 775
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2211,
-  "average_guess_ms": 15558.400537634408,
+  "total_insane_correct": 2224,
+  "average_guess_ms": 15550.143240823634,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 2128,
-    "total": 2545
+    "exact_count": 2139,
+    "total": 2559
   },
   "achievements": {
     "catalog": [
@@ -2221,8 +2221,8 @@
     "category_counts": {
       "disney": 33,
       "entertainment": 10,
-      "geo": 260,
-      "gk": 197,
+      "geo": 261,
+      "gk": 205,
       "got": 0,
       "marvel": 28,
       "movies": 7,
@@ -2230,7 +2230,7 @@
       "pokemon": 8,
       "sports": 85,
       "videogames": 19,
-      "wrestling": 339,
+      "wrestling": 344,
       "duelwins": 4,
       "duelstreak": 2
     }
