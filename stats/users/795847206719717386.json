@@ -2,66 +2,66 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 41,
-    "xp_into_level": 45086,
+    "xp_into_level": 53432,
     "xp_for_level": 58000,
-    "progress": 0.7773448275862069,
+    "progress": 0.9212413793103448,
     "maxed": false
   },
-  "total_xp": 897586,
+  "total_xp": 905932,
   "period_stats": {
-    "daily_points": 297,
-    "daily_correct": 163,
-    "weekly_points": 804,
-    "weekly_correct": 457,
-    "monthly_points": 6199,
-    "monthly_correct": 3547,
-    "yearly_points": 6305,
-    "yearly_correct": 3606,
-    "alltime_points": 6305,
-    "alltime_correct": 3606
+    "daily_points": 88,
+    "daily_correct": 43,
+    "weekly_points": 919,
+    "weekly_correct": 503,
+    "monthly_points": 6314,
+    "monthly_correct": 3593,
+    "yearly_points": 6420,
+    "yearly_correct": 3652,
+    "alltime_points": 6420,
+    "alltime_correct": 3652
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 4089,
-    "questions_right": 1390,
+    "total_points": 4170,
+    "questions_right": 1402,
     "questions_wrong": 0,
-    "wins": 1390,
+    "wins": 1402,
     "current_streak": 1,
     "best_streak": 22,
-    "games_played": 60,
-    "insane_guesses": 1262,
+    "games_played": 61,
+    "insane_guesses": 1296,
     "day_streak": 3,
     "last_played_date": "2026-09-28",
-    "total_xp": 897586,
-    "game_wins": 30,
+    "total_xp": 905932,
+    "game_wins": 31,
     "achievement_best_streak": 17
   },
   "best_streak": 22,
   "fastest_guess": {
-    "response_time_ms": 2525,
-    "question_text": "What is Randy Orton's finishing move called?",
-    "category": "Wrestling"
+    "response_time_ms": 2366,
+    "question_text": "Just Do It.",
+    "category": "Slogans"
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 819,
-    "correct": 578
+    "points": 826,
+    "correct": 585
   },
   "best_insane_round": {
     "question_text": "Name all countries",
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2216,
-  "average_guess_ms": 20310.002877697843,
+  "total_insane_correct": 2250,
+  "average_guess_ms": 20208.17332382311,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
-    "active_days": 28
+    "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 2627,
-    "total": 3007
+    "exact_count": 2672,
+    "total": 3053
   },
   "achievements": {
     "catalog": [
@@ -2208,7 +2208,8 @@
       "duelwins_5": "2026-09-24 22:41:04.742127+00:00",
       "hardcore_win": "2026-09-26 16:28:59.685588+00:00",
       "disney_50": "2026-09-26 18:43:53.027618+00:00",
-      "wins_30": "2026-09-28 23:19:06.512105+00:00"
+      "wins_30": "2026-09-28 23:19:06.512105+00:00",
+      "hardcore_spelling": "2026-09-29 00:02:05.824226+00:00"
     },
     "baselines": {
       "points": 1991,
@@ -2218,16 +2219,16 @@
     "category_counts": {
       "disney": 66,
       "entertainment": 10,
-      "geo": 207,
-      "gk": 184,
-      "got": 63,
+      "geo": 226,
+      "gk": 185,
+      "got": 65,
       "marvel": 62,
-      "movies": 8,
+      "movies": 17,
       "music": 11,
       "pokemon": 30,
       "sports": 24,
       "videogames": 22,
-      "wrestling": 182,
+      "wrestling": 189,
       "duelwins": 5,
       "duelstreak": 2
     }
