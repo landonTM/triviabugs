@@ -9,28 +9,28 @@
   },
   "total_xp": 908474,
   "period_stats": {
-    "daily_points": 28,
-    "daily_correct": 8,
-    "weekly_points": 711,
-    "weekly_correct": 329,
-    "monthly_points": 3785,
-    "monthly_correct": 1782,
-    "yearly_points": 3959,
-    "yearly_correct": 1875,
-    "alltime_points": 3959,
-    "alltime_correct": 1875
+    "daily_points": 37,
+    "daily_correct": 12,
+    "weekly_points": 720,
+    "weekly_correct": 333,
+    "monthly_points": 3794,
+    "monthly_correct": 1786,
+    "yearly_points": 3968,
+    "yearly_correct": 1879,
+    "alltime_points": 3968,
+    "alltime_correct": 1879
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 2871,
-    "questions_right": 784,
+    "total_points": 2877,
+    "questions_right": 785,
     "questions_wrong": 0,
-    "wins": 784,
+    "wins": 785,
     "current_streak": 1,
     "best_streak": 27,
     "games_played": 93,
-    "insane_guesses": 787,
+    "insane_guesses": 790,
     "day_streak": 6,
     "last_played_date": "2026-09-28",
     "total_xp": 908474,
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1092,
-  "average_guess_ms": 16927.399744572158,
+  "total_insane_correct": 1095,
+  "average_guess_ms": 16919.286989795917,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 1453,
-    "total": 1661
+    "exact_count": 1457,
+    "total": 1665
   },
   "achievements": {
     "catalog": [
@@ -2226,7 +2226,7 @@
     "category_counts": {
       "disney": 37,
       "entertainment": 0,
-      "geo": 93,
+      "geo": 95,
       "gk": 179,
       "got": 5,
       "marvel": 58,
@@ -2235,7 +2235,7 @@
       "pokemon": 9,
       "sports": 27,
       "videogames": 66,
-      "wrestling": 165,
+      "wrestling": 167,
       "duelwins": 23,
       "duelstreak": 5
     }
