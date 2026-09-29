@@ -2,12 +2,12 @@
   "user_id": "184456115927384065",
   "level": {
     "level": 41,
-    "xp_into_level": 9086,
+    "xp_into_level": 9275,
     "xp_for_level": 58000,
-    "progress": 0.1566551724137931,
+    "progress": 0.15991379310344828,
     "maxed": false
   },
-  "total_xp": 861586,
+  "total_xp": 861775,
   "period_stats": {
     "daily_points": 58,
     "daily_correct": 22,
@@ -29,11 +29,11 @@
     "wins": 596,
     "current_streak": 1,
     "best_streak": 21,
-    "games_played": 94,
+    "games_played": 95,
     "insane_guesses": 491,
     "day_streak": 15,
     "last_played_date": "2026-09-29",
-    "total_xp": 861586,
+    "total_xp": 861775,
     "game_wins": 49,
     "achievement_best_streak": 21
   },
@@ -2633,8 +2633,8 @@
       "key": "haunted",
       "label": "Haunted Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -3505,8 +3505,8 @@
       "key": "playgame",
       "label": "Play Game MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
