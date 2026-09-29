@@ -9,28 +9,28 @@
   },
   "total_xp": 983651,
   "period_stats": {
-    "daily_points": 63,
-    "daily_correct": 43,
-    "weekly_points": 1488,
-    "weekly_correct": 865,
-    "monthly_points": 5718,
-    "monthly_correct": 3198,
-    "yearly_points": 5917,
-    "yearly_correct": 3341,
-    "alltime_points": 5917,
-    "alltime_correct": 3341
+    "daily_points": 71,
+    "daily_correct": 47,
+    "weekly_points": 1436,
+    "weekly_correct": 827,
+    "monthly_points": 5726,
+    "monthly_correct": 3202,
+    "yearly_points": 5925,
+    "yearly_correct": 3345,
+    "alltime_points": 5925,
+    "alltime_correct": 3345
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 3693,
-    "questions_right": 1117,
+    "total_points": 3700,
+    "questions_right": 1120,
     "questions_wrong": 0,
-    "wins": 1117,
-    "current_streak": 1,
+    "wins": 1120,
+    "current_streak": 2,
     "best_streak": 37,
     "games_played": 59,
-    "insane_guesses": 1295,
+    "insane_guesses": 1296,
     "day_streak": 14,
     "last_played_date": "2026-09-28",
     "total_xp": 983651,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 1148,
-    "correct": 775
+    "points": 1149,
+    "correct": 776
   },
   "best_insane_round": {
     "question_text": "Name all capital cities",
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2224,
-  "average_guess_ms": 15550.143240823634,
+  "total_insane_correct": 2225,
+  "average_guess_ms": 15581.689285714287,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 2139,
-    "total": 2559
+    "exact_count": 2143,
+    "total": 2563
   },
   "achievements": {
     "catalog": [
@@ -2226,11 +2226,11 @@
       "got": 0,
       "marvel": 28,
       "movies": 7,
-      "music": 21,
+      "music": 22,
       "pokemon": 8,
       "sports": 85,
       "videogames": 19,
-      "wrestling": 344,
+      "wrestling": 345,
       "duelwins": 4,
       "duelstreak": 2
     }
