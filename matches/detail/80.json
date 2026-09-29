@@ -1,0 +1,33 @@
+{
+  "game": {
+    "id": 80,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 15,
+    "rounds_played": 0,
+    "categories": [
+      "Game of Thrones"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": null,
+    "started_at": "2026-09-29 22:56:01.843835+00:00",
+    "ended_at": "2026-09-29 22:56:09.117090+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 5901,
+      "mode": "standard",
+      "started_at": "2026-09-29 22:56:02.231544+00:00",
+      "ended_at": "2026-09-29 22:56:08.794536+00:00",
+      "winner_id": null,
+      "category": "Game of Thrones",
+      "question_text": "Which House's sigil is a purple lightning bolt on a black field?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    }
+  ],
+  "xp": {}
+}
