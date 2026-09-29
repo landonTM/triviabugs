@@ -155,14 +155,14 @@
           "correct": 311
         },
         {
+          "user_id": "433990857063137282",
+          "points": 292,
+          "correct": 103
+        },
+        {
           "user_id": "734768348201615400",
           "points": 261,
           "correct": 146
-        },
-        {
-          "user_id": "433990857063137282",
-          "points": 230,
-          "correct": 86
         },
         {
           "user_id": "184456115927384065",
@@ -178,10 +178,10 @@
       "pass": [
         {
           "user_id": "433990857063137282",
-          "xp": 6196,
-          "level": 5,
-          "xp_into_level": 996,
-          "xp_for_level": 1250,
+          "xp": 6953,
+          "level": 6,
+          "xp_into_level": 503,
+          "xp_for_level": 1320,
           "completed": false
         },
         {
