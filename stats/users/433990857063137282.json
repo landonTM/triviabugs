@@ -2,38 +2,38 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 43,
-    "xp_into_level": 18754,
+    "xp_into_level": 19964,
     "xp_for_level": 64000,
-    "progress": 0.29303125,
+    "progress": 0.3119375,
     "maxed": false
   },
-  "total_xp": 990254,
+  "total_xp": 991464,
   "period_stats": {
-    "daily_points": 297,
-    "daily_correct": 91,
-    "weekly_points": 980,
-    "weekly_correct": 412,
-    "monthly_points": 4054,
-    "monthly_correct": 1865,
-    "yearly_points": 4228,
-    "yearly_correct": 1958,
-    "alltime_points": 4228,
-    "alltime_correct": 1958
+    "daily_points": 380,
+    "daily_correct": 128,
+    "weekly_points": 1063,
+    "weekly_correct": 449,
+    "monthly_points": 4137,
+    "monthly_correct": 1902,
+    "yearly_points": 4311,
+    "yearly_correct": 1995,
+    "alltime_points": 4311,
+    "alltime_correct": 1995
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3106,
-    "questions_right": 833,
+    "total_points": 3168,
+    "questions_right": 849,
     "questions_wrong": 0,
-    "wins": 833,
+    "wins": 849,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 104,
-    "insane_guesses": 821,
+    "games_played": 106,
+    "insane_guesses": 842,
     "day_streak": 7,
     "last_played_date": "2026-09-29",
-    "total_xp": 990254,
+    "total_xp": 991464,
     "game_wins": 35,
     "achievement_best_streak": 27
   },
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 768,
-    "correct": 131
+    "points": 830,
+    "correct": 147
   },
   "best_insane_round": {
     "question_text": "Name every US state",
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1126,
-  "average_guess_ms": 16555.938701923078,
+  "total_insane_correct": 1147,
+  "average_guess_ms": 16387.674528301886,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 1527,
-    "total": 1744
+    "exact_count": 1562,
+    "total": 1781
   },
   "achievements": {
     "catalog": [
@@ -2230,7 +2230,7 @@
       "disney": 41,
       "entertainment": 0,
       "geo": 108,
-      "gk": 186,
+      "gk": 193,
       "got": 8,
       "marvel": 67,
       "movies": 2,
@@ -2238,7 +2238,7 @@
       "pokemon": 9,
       "sports": 30,
       "videogames": 68,
-      "wrestling": 181,
+      "wrestling": 195,
       "duelwins": 25,
       "duelstreak": 5
     }
