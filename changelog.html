@@ -28,6 +28,8 @@
   .release .intro { color: var(--muted); margin: 0 0 6px; }
   .release h3 { margin: 22px 0 8px; font: 11px/1.6 var(--pixel); color: var(--c); font-weight: 400; }
   .release ul { margin: 0; padding-left: 26px; }
+  .release ul ul { margin-top: 4px; }
+  .release .subhead { margin: 14px 0 6px; font-size: 24px; }
   .release li { margin: 6px 0; overflow-wrap: anywhere; }
   .release li::marker { color: var(--c); }
   .release b { color: var(--text); font-weight: 400; text-decoration: underline; text-decoration-color: var(--c); text-underline-offset: 4px; }
@@ -46,7 +48,25 @@
   let data;
   try { data = await B.json("changelog.json"); } catch (e) { B.fail(app, e); return; }
   const releases = data.releases || [];
-  const COLORS = { added: "var(--neon)", changed: "var(--cyan)", fixed: "var(--pink)" };
+  const COLORS = { added: "var(--neon)", changed: "var(--cyan)", fixed: "var(--pink)", "behind the scenes": "var(--muted)" };
+  const CYCLE = ["var(--yellow)", "var(--neon)", "var(--cyan)", "var(--pink)", "var(--purple)"];
+  // A section's items: entries (level 0), sub-entries nested under the entry above (level 1), and sub-headings.
+  function sectionBody(items) {
+    const out = [];
+    let list = null, lastLi = null;
+    for (const raw of items) {
+      const it = typeof raw === "string" ? { text: raw, level: 0 } : raw;
+      if (it.heading) { out.push(el("p", { class: "subhead" }, B.md(it.text))); list = lastLi = null; continue; }
+      if (!list) { list = el("ul"); out.push(list); }
+      const li = el("li", {}, B.md(it.text));
+      if (it.level && lastLi) {
+        let sub = lastLi.querySelector(":scope > ul");
+        if (!sub) { sub = el("ul"); lastLi.append(sub); }
+        sub.append(li);
+      } else { list.append(li); lastLi = li; }
+    }
+    return out;
+  }
   const title = r => (r.title.toLowerCase() === "unreleased" ? "NEW SINCE THE LAST CHANGELOG" : r.title.toUpperCase());
 
   app.replaceChildren(
@@ -55,9 +75,9 @@
     ...(releases.length ? releases.map((r, i) => el("section", { class: `release${i === 0 ? " latest" : ""}` },
       el("h2", {}, title(r)),
       (r.intro || []).map(line => el("p", { class: "intro" }, B.md(line))),
-      (r.sections || []).map(s => el("div", { style: { "--c": COLORS[s.name.toLowerCase()] || "var(--muted)" } },
-        el("h3", {}, `${s.name.toUpperCase()} · ${s.items.length}`),
-        el("ul", {}, s.items.map(item => el("li", {}, B.md(item)))))))) :
+      (r.sections || []).map((s, si) => el("div", { style: { "--c": COLORS[s.name.toLowerCase()] || CYCLE[si % CYCLE.length] } },
+        el("h3", {}, s.name.toUpperCase()),
+        sectionBody(s.items))))) :
       [el("div", { class: "loading" }, "NOTHING HERE YET")]));
   B.footer();
 })();
