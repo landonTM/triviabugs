@@ -89,7 +89,7 @@
           },
           {
             "user_id": "433990857063137282",
-            "progress": 22,
+            "progress": 23,
             "completed_at": "2026-09-29 20:03:04.736522+00:00"
           },
           {
@@ -99,7 +99,7 @@
           },
           {
             "user_id": "184456115927384065",
-            "progress": 8,
+            "progress": 9,
             "completed_at": null
           },
           {
@@ -167,12 +167,12 @@
             "completed_at": null
           },
           {
-            "user_id": "433990857063137282",
-            "progress": 1,
+            "user_id": "184456115927384065",
+            "progress": 2,
             "completed_at": null
           },
           {
-            "user_id": "184456115927384065",
+            "user_id": "433990857063137282",
             "progress": 1,
             "completed_at": null
           }
