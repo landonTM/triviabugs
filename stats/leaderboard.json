@@ -62,19 +62,19 @@
           "achievements": 2
         },
         "weekly": {
-          "points": 2262,
-          "correct": 1117,
-          "standard_correct": 413,
-          "insane_finds": 704,
-          "avg_guess_ms": 13608,
+          "points": 2239,
+          "correct": 1095,
+          "standard_correct": 409,
+          "insane_finds": 686,
+          "avg_guess_ms": 13328,
           "fastest_ms": 2279,
           "under_5s": 167,
-          "exact_spelling": 1034,
-          "spelled": 1117,
+          "exact_spelling": 1014,
+          "spelled": 1095,
           "best_streak": 38,
           "active_days": 7,
-          "games_played": 39,
-          "categories_played": 45,
+          "games_played": 38,
+          "categories_played": 43,
           "best_insane_round": 30,
           "best_game_points": 163,
           "games_started": 25,
@@ -89,12 +89,12 @@
           "played_daily": 6,
           "played_hardcore": 8,
           "played_quickfire": 16,
-          "played_standard": 9,
+          "played_standard": 8,
           "wins_quickfire": 11,
-          "game_wins": 26,
+          "game_wins": 25,
           "wins_daily": 3,
           "wins_hardcore": 6,
-          "wins_standard": 6,
+          "wins_standard": 5,
           "xp_duel": 6150,
           "xp": 514167,
           "xp_achievement": 191000,
@@ -280,13 +280,9 @@
             61,
             69
           ],
-          "Whos That Pokemon (Gen 6)": [
-            1,
-            1
-          ],
           "Conundrums": [
-            14,
-            40
+            12,
+            37
           ],
           "NBA": [
             24,
@@ -304,13 +300,9 @@
             123,
             165
           ],
-          "Whos That Pokemon (Gen 5)": [
-            1,
-            1
-          ],
           "Game of Thrones": [
-            42,
-            67
+            24,
+            49
           ],
           "Star Wars": [
             12,
@@ -2154,18 +2146,18 @@
           "bug_reports": 2
         },
         "weekly": {
-          "points": 1097,
-          "correct": 459,
-          "standard_correct": 177,
+          "points": 1095,
+          "correct": 458,
+          "standard_correct": 176,
           "insane_finds": 282,
-          "avg_guess_ms": 12906,
+          "avg_guess_ms": 12840,
           "fastest_ms": 2374,
           "under_5s": 60,
-          "exact_spelling": 416,
-          "spelled": 459,
+          "exact_spelling": 415,
+          "spelled": 458,
           "best_streak": 9,
-          "active_days": 8,
-          "games_played": 51,
+          "active_days": 7,
+          "games_played": 50,
           "categories_played": 29,
           "best_insane_round": 17,
           "best_game_points": 210,
@@ -2181,7 +2173,7 @@
           "played_daily": 5,
           "played_hardcore": 12,
           "played_quickfire": 29,
-          "played_standard": 5,
+          "played_standard": 4,
           "wins_standard": 1,
           "game_wins": 11,
           "wins_quickfire": 5,
@@ -2418,8 +2410,8 @@
             77
           ],
           "General Knowledge": [
-            103,
-            110
+            102,
+            108
           ],
           "Movies": [
             3,
