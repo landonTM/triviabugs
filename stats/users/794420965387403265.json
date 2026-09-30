@@ -2,39 +2,39 @@
   "user_id": "794420965387403265",
   "level": {
     "level": 30,
-    "xp_into_level": 34124,
+    "xp_into_level": 34979,
     "xp_for_level": 35000,
-    "progress": 0.9749714285714286,
+    "progress": 0.9994,
     "maxed": false
   },
-  "total_xp": 391624,
+  "total_xp": 392479,
   "period_stats": {
-    "daily_points": 171,
-    "daily_correct": 74,
-    "weekly_points": 384,
-    "weekly_correct": 175,
-    "monthly_points": 1057,
-    "monthly_correct": 505,
-    "yearly_points": 1057,
-    "yearly_correct": 505,
-    "alltime_points": 1057,
-    "alltime_correct": 505
+    "daily_points": 224,
+    "daily_correct": 95,
+    "weekly_points": 437,
+    "weekly_correct": 196,
+    "monthly_points": 1110,
+    "monthly_correct": 526,
+    "yearly_points": 1110,
+    "yearly_correct": 526,
+    "alltime_points": 1110,
+    "alltime_correct": 526
   },
   "stats_row": {
     "user_id": "794420965387403265",
     "guild_id": "861055530638114836",
-    "total_points": 798,
-    "questions_right": 246,
+    "total_points": 842,
+    "questions_right": 258,
     "questions_wrong": 0,
-    "wins": 246,
-    "current_streak": 3,
+    "wins": 258,
+    "current_streak": 1,
     "best_streak": 18,
-    "games_played": 29,
-    "insane_guesses": 190,
+    "games_played": 30,
+    "insane_guesses": 199,
     "day_streak": 2,
     "last_played_date": "2026-09-29",
-    "total_xp": 391624,
-    "game_wins": 9,
+    "total_xp": 392479,
+    "game_wins": 10,
     "achievement_best_streak": 18
   },
   "best_streak": 18,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Marvel",
-    "points": 213,
-    "correct": 84
+    "points": 219,
+    "correct": 86
   },
   "best_insane_round": {
     "question_text": "Human Organs",
     "category": "General Knowledge",
     "guesses": 14
   },
-  "total_insane_correct": 259,
-  "average_guess_ms": 17528.841463414636,
+  "total_insane_correct": 268,
+  "average_guess_ms": 17263.93023255814,
   "activity": {
     "first_answered_at": "2026-09-08 22:30:21.511683+00:00",
     "active_days": 14
   },
   "spelling_accuracy": {
-    "exact_count": 407,
-    "total": 505
+    "exact_count": 425,
+    "total": 526
   },
   "achievements": {
     "catalog": [
@@ -2199,14 +2199,14 @@
       "disney": 14,
       "entertainment": 3,
       "geo": 14,
-      "gk": 49,
+      "gk": 58,
       "got": 2,
-      "marvel": 52,
+      "marvel": 54,
       "movies": 3,
       "music": 1,
-      "pokemon": 14,
+      "pokemon": 22,
       "sports": 1,
-      "videogames": 10,
+      "videogames": 12,
       "wrestling": 16,
       "duelwins": 3,
       "duelstreak": 2
