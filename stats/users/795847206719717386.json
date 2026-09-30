@@ -2,39 +2,39 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 45,
-    "xp_into_level": 14917,
+    "xp_into_level": 17237,
     "xp_for_level": 70000,
-    "progress": 0.2131,
+    "progress": 0.24624285714285715,
     "maxed": false
   },
-  "total_xp": 1117417,
+  "total_xp": 1119737,
   "period_stats": {
-    "daily_points": 399,
-    "daily_correct": 164,
-    "weekly_points": 2239,
-    "weekly_correct": 1095,
-    "monthly_points": 7726,
-    "monthly_correct": 4243,
-    "yearly_points": 7832,
-    "yearly_correct": 4302,
-    "alltime_points": 7832,
-    "alltime_correct": 4302
+    "daily_points": 421,
+    "daily_correct": 171,
+    "weekly_points": 2261,
+    "weekly_correct": 1102,
+    "monthly_points": 7748,
+    "monthly_correct": 4250,
+    "yearly_points": 7854,
+    "yearly_correct": 4309,
+    "alltime_points": 7854,
+    "alltime_correct": 4309
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 5184,
-    "questions_right": 1654,
+    "total_points": 5206,
+    "questions_right": 1661,
     "questions_wrong": 0,
-    "wins": 1654,
-    "current_streak": 6,
+    "wins": 1661,
+    "current_streak": 4,
     "best_streak": 38,
-    "games_played": 84,
+    "games_played": 85,
     "insane_guesses": 1694,
     "day_streak": 5,
     "last_played_date": "2026-09-30",
-    "total_xp": 1117417,
-    "game_wins": 48,
+    "total_xp": 1119737,
+    "game_wins": 49,
     "achievement_best_streak": 38
   },
   "best_streak": 38,
@@ -45,8 +45,8 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 992,
-    "correct": 728
+    "points": 996,
+    "correct": 729
   },
   "best_insane_round": {
     "question_text": "Name all countries",
@@ -54,14 +54,14 @@
     "guesses": 30
   },
   "total_insane_correct": 2648,
-  "average_guess_ms": 18527.785973397822,
+  "average_guess_ms": 18531.113786875376,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 30
   },
   "spelling_accuracy": {
-    "exact_count": 3283,
-    "total": 3703
+    "exact_count": 3290,
+    "total": 3710
   },
   "achievements": {
     "catalog": [
@@ -2224,28 +2224,28 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 86,
+      "disney": 87,
       "entertainment": 10,
       "geo": 302,
-      "gk": 244,
+      "gk": 245,
       "got": 80,
       "marvel": 79,
-      "movies": 24,
+      "movies": 25,
       "music": 18,
       "pokemon": 31,
       "sports": 28,
       "videogames": 61,
-      "wrestling": 332,
-      "duelwins": 6,
+      "wrestling": 333,
+      "duelwins": 7,
       "duelstreak": 3
     }
   },
   "duel_stats": {
     "guild_id": "861055530638114836",
     "user_id": "795847206719717386",
-    "wins": 6,
-    "losses": 3,
-    "current_streak": 3,
+    "wins": 7,
+    "losses": 4,
+    "current_streak": 1,
     "best_streak": 3,
     "ties": 0
   },
@@ -3583,8 +3583,8 @@
       "key": "wholebag",
       "label": "Whole Bag MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3642,9 +3642,9 @@
     },
     {
       "user_id": "734768348201615400",
-      "played": 2,
-      "wins": 2,
-      "losses": 0,
+      "played": 4,
+      "wins": 3,
+      "losses": 1,
       "ties": 0
     },
     {
@@ -3664,22 +3664,22 @@
   ],
   "xp_sources": {
     "level": {
-      "duel": 9150,
+      "duel": 10950,
       "achievement": 791250,
-      "game": 277017,
+      "game": 277537,
       "mission": 40000
     },
     "game_layers": {
       "replay": 76,
-      "boost": 3202,
+      "boost": 3462,
       "daily": 6916,
       "hardcore": 4750,
-      "base": 37333
+      "base": 37593
     },
     "pass": {
       "season_0": {
-        "game": 13264,
-        "duel": 550,
+        "game": 13524,
+        "duel": 1400,
         "pumpkin": 515,
         "mission": 2000
       }
