@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20260930d">
-<script src="assets/bertha.js?v=20260930d"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20260930e">
+<script src="assets/bertha.js?v=20260930e"></script>
 </head>
 <body>
 <div class="wrap">
@@ -81,6 +81,12 @@
         el("div", { class: "result" }, result)));
   }
 
+  // The first 10 rounds, then a SHOW ALL button (a 50-round game is a very long page on a phone).
+  function roundList(cards) {
+    const box = el("div", { class: "mlist" });
+    return [box, B.showMore(box, cards, 10, "ROUNDS")];
+  }
+
   function drawGame() {
     const g = data.game, rounds = data.rounds || [];
     const k = B.matchKind(g);
@@ -136,7 +142,7 @@
       el("h2", { class: "section" }, "FINAL SCORES"), table,
       hasXp ? null : el("p", { class: "page-sub" }, "XP per match is recorded for games played from Sep 28, 2026."),
       el("h2", { class: "section" }, `ROUND BY ROUND · ${rounds.length}`),
-      el("div", { class: "mlist" }, cards),
+      ...roundList(cards),
     ].filter(Boolean));
   }
 
@@ -166,7 +172,7 @@
       B.fightCard(m, levels),
       xpLine,
       el("h2", { class: "section" }, `ROUND BY ROUND · ${cards.length}`),
-      el("div", { class: "mlist" }, cards),
+      ...roundList(cards),
       cards.length ? null : el("p", { class: "page-sub" }, "No round detail was recorded for this duel."),
     ].filter(Boolean));
   }

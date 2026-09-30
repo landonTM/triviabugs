@@ -121,7 +121,9 @@ const B = (() => {
   }
   function avatar(id, size = "") {
     const initial = Array.from(name(id))[0] || "?";
-    const box = el("span", { class: `av ${size}`, style: { background: colorFor(id) }, "aria-hidden": "true" });
+    // The border is the player's equipped embed colour (players.json "color"), so their cosmetics show everywhere.
+    const border = players[id] && players[id].color;
+    const box = el("span", { class: `av ${size}`, style: { background: colorFor(id), borderColor: border || null }, "aria-hidden": "true" });
     const url = players[id] && players[id].avatar_url;
     if (url) {
       const img = el("img", { src: url, alt: "", loading: "lazy" });
@@ -321,6 +323,33 @@ const B = (() => {
           title: `${name(id)}${eq.has(id) ? " (equipped)" : ""}` }, avatar(id, "sm")))));
   }
 
+  // ---------- long lists ----------
+  // Puts the first `first` nodes in `box` and returns a "SHOW ALL n <label>" button that adds the rest (or null when
+  // there's nothing hidden). Keeps long pages short on phones.
+  function showMore(box, nodes, first, label) {
+    box.replaceChildren(...nodes.slice(0, first));
+    if (nodes.length <= first) return null;
+    const btn = el("button", { class: "btn more", type: "button", onclick: () => { box.append(...nodes.slice(first)); btn.remove(); } },
+      `SHOW ALL ${nodes.length} ${label}`);
+    return btn;
+  }
+
+  // ---------- tables on phones ----------
+  // On narrow screens (arcade.css) each table row becomes a card; its cells need their column's name to label the
+  // numbers, so every table.scores / table.grid gets data-label on each cell, and the name cell a .cell-who class.
+  function labelTable(table) {
+    const heads = [...table.querySelectorAll("thead th")].map(th => th.textContent.trim());
+    for (const tr of table.querySelectorAll("tbody tr")) {
+      [...tr.children].forEach((td, i) => {
+        if (heads[i] && !td.dataset.label) td.dataset.label = heads[i];
+        if (td.querySelector(".who")) td.classList.add("cell-who");
+        if (td.querySelector(".bar")) td.classList.add("cell-wide");
+      });
+    }
+  }
+  new MutationObserver(() => document.querySelectorAll("table.scores, table.grid").forEach(labelTable))
+    .observe(document.documentElement, { childList: true, subtree: true });
+
   // ---------- chrome ----------
   function topbar(active) {
     const nav = el("nav", { "aria-label": "Site", id: "sitenav" },
@@ -369,7 +398,7 @@ const B = (() => {
   return {
     json, el, $, fmt, secs, pct, ts, when, time, day, dur, ordinal, rankColor, loadPlayers, name, avatar, playerHref,
     playerLink, colorFor, emoji, md, XP_SOURCES, XP_LAYERS, XP_LAYERS_SHORT, METRICS, METRIC, GROUPS, PERIODS, categoryMetric, allCategories, ranking, rankOf,
-    COSMETIC_TYPE, cosmeticCard, allMatches, matchHref, matchKind, matchTitle, fightCard, topbar, footer, fail, param, periodButtons,
+    COSMETIC_TYPE, cosmeticCard, showMore, allMatches, matchHref, matchKind, matchTitle, fightCard, topbar, footer, fail, param, periodButtons,
     secondsToDaily, clock, MODE_COLORS,
   };
 })();

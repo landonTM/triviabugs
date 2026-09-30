@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20260930d">
-<script src="assets/bertha.js?v=20260930d"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20260930e">
+<script src="assets/bertha.js?v=20260930e"></script>
 <style>
   .hero { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; margin-top: 32px; }
   .hero .info { flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
@@ -38,7 +38,12 @@
   .pcard:hover { border-color: var(--line); text-decoration: none; color: var(--text); }
   .pcard .n { font-size: 28px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .pcard .s { font: 10px/1.6 var(--pixel); color: var(--muted); }
-  .sticky { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 12px 0; border-bottom: 3px solid var(--line-dim); }
+  .sticky { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 12px 0; border-bottom: 3px solid var(--line-dim); display: flex; flex-direction: column; gap: 10px; }
+  .sticky .btns { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .jump { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
+  .jump .chip { flex: 0 0 auto; font: 9px/1 var(--pixel); color: var(--muted); border: 2px solid var(--line-dim); padding: 8px 10px; white-space: nowrap; }
+  .jump .chip:hover { color: var(--text); border-color: var(--line); text-decoration: none; }
+  #app h2.section { scroll-margin-top: 150px; }
   .tile .rank { font: 9px/1.6 var(--pixel); color: var(--muted); }
   .tile .rank.top { color: var(--yellow); }
   table.grid { border-collapse: collapse; width: 100%; }
@@ -219,13 +224,17 @@
     const cats = Object.entries((me.categories || {})[period] || {}).sort((a, b) => b[1][0] - a[1][0]);
     out.push(el("h2", { class: "section" }, `CATEGORIES · ${cats.length}`));
     if (cats.length) {
+      const catRows = cats.map(([c, [n, pts]]) => {
+        const r = B.rankOf(lb, B.categoryMetric(c), period, id);
+        return el("tr", {}, el("td", {}, el("a", { href: `leaderboard.html#${encodeURIComponent("cat:" + c)}|${period}` }, c)),
+          el("td", {}, B.fmt(n)), el("td", {}, B.fmt(pts)), el("td", { style: { color: r === 1 ? "var(--yellow)" : "" } }, r ? `#${r}` : "—"));
+      });
+      const catBody = el("tbody");
+      const moreCats = B.showMore(catBody, catRows, 10, "CATEGORIES");  // top 10 first: some players have 45+
       out.push(el("div", { class: "table-scroll" }, el("table", { class: "grid" },
         el("thead", {}, el("tr", {}, el("th", {}, "CATEGORY"), el("th", {}, "CORRECT"), el("th", {}, "POINTS"), el("th", {}, "RANK"))),
-        el("tbody", {}, cats.map(([c, [n, pts]]) => {
-          const r = B.rankOf(lb, B.categoryMetric(c), period, id);
-          return el("tr", {}, el("td", {}, el("a", { href: `leaderboard.html#${encodeURIComponent("cat:" + c)}|${period}` }, c)),
-            el("td", {}, B.fmt(n)), el("td", {}, B.fmt(pts)), el("td", { style: { color: r === 1 ? "var(--yellow)" : "" } }, r ? `#${r}` : "—"));
-        })))));
+        catBody)));
+      if (moreCats) out.push(moreCats);
     } else out.push(el("p", { class: "page-sub" }, "No correct answers in this period."));
 
     // head-to-head
@@ -268,11 +277,14 @@
       el("div", { class: "bd", style: { color: on ? "var(--text)" : "var(--muted)" } },
         on ? `Unlocked ${B.day(ach.unlocked[a.key])}` : "Locked", a.reward_xp ? ` · +${B.fmt(a.reward_xp)} XP` : ""));
     out.push(el("h2", { class: "section" }, `ACHIEVEMENTS ${got.length} / ${ach.catalog.length}`));
-    const grid = el("div", { class: "badges" }, got.map(a => badge(a, true)));
+    // The 6 most recent unlocks first (a full list is thousands of pixels on a phone), then SHOW ALL / SHOW LOCKED.
+    const grid = el("div", { class: "badges" });
+    const moreGot = B.showMore(grid, got.map(a => badge(a, true)), 6, "UNLOCKED");
     out.push(grid);
+    if (moreGot) out.push(moreGot);
     if (locked.length) {
-      const more = el("button", { class: "btn", type: "button", style: { marginTop: "14px" } }, `SHOW ${locked.length} LOCKED`);
-      more.addEventListener("click", () => { grid.append(...locked.map(a => badge(a, false))); more.remove(); });
+      const more = el("button", { class: "btn more", type: "button" }, `SHOW ${locked.length} LOCKED`);
+      more.addEventListener("click", () => { if (moreGot && moreGot.isConnected) moreGot.click(); grid.append(...locked.map(a => badge(a, false))); more.remove(); });
       out.push(more);
     }
 
@@ -290,6 +302,17 @@
           el("span", { class: "label" }, LABELS[t] || t.toUpperCase()), el("span", { class: "value" }, `${n.have} / ${n.all}`)))));
     }
     body.replaceChildren(...out);
+
+    // Jump chips in the sticky bar, one per section, so a long profile doesn't mean scrolling through all of it.
+    const SHORT = { "XP & LEVEL": "XP", "WHERE THE XP CAME FROM": "XP SOURCES", "HEAD TO HEAD": "RIVALS", "RECENT MATCHES": "MATCHES",
+      "MISSIONS & ACHIEVEMENTS": "MISSIONS" };
+    const chips = [...body.querySelectorAll("h2.section")].map((h, i) => {
+      const full = (h.firstChild && h.firstChild.textContent || "").trim();
+      const text = SHORT[full] || full.replace(/\s*[·\d/].*$/, "").split(" & ")[0];
+      h.id = `sec-${i}`;
+      return el("a", { class: "chip", href: `#sec-${i}`, onclick: e => { e.preventDefault(); h.scrollIntoView({ behavior: "smooth" }); } }, text);
+    });
+    periodBar.append(el("nav", { class: "jump", "aria-label": "Jump to section" }, chips));
   }
   draw();
   B.footer();
