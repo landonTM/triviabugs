@@ -2,39 +2,39 @@
   "user_id": "184456115927384065",
   "level": {
     "level": 41,
-    "xp_into_level": 23708,
+    "xp_into_level": 36914,
     "xp_for_level": 58000,
-    "progress": 0.4087586206896552,
+    "progress": 0.636448275862069,
     "maxed": false
   },
-  "total_xp": 876208,
+  "total_xp": 889414,
   "period_stats": {
-    "daily_points": 152,
-    "daily_correct": 53,
-    "weekly_points": 1246,
-    "weekly_correct": 522,
-    "monthly_points": 2629,
-    "monthly_correct": 1321,
-    "yearly_points": 2629,
-    "yearly_correct": 1321,
-    "alltime_points": 2629,
-    "alltime_correct": 1321
+    "daily_points": 173,
+    "daily_correct": 69,
+    "weekly_points": 1267,
+    "weekly_correct": 538,
+    "monthly_points": 2650,
+    "monthly_correct": 1337,
+    "yearly_points": 2650,
+    "yearly_correct": 1337,
+    "alltime_points": 2650,
+    "alltime_correct": 1337
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 1929,
-    "questions_right": 621,
+    "total_points": 1935,
+    "questions_right": 622,
     "questions_wrong": 0,
-    "wins": 621,
-    "current_streak": 2,
+    "wins": 622,
+    "current_streak": 1,
     "best_streak": 21,
-    "games_played": 99,
-    "insane_guesses": 529,
+    "games_played": 100,
+    "insane_guesses": 544,
     "day_streak": 16,
     "last_played_date": "2026-09-30",
-    "total_xp": 876208,
-    "game_wins": 50,
+    "total_xp": 889414,
+    "game_wins": 51,
     "achievement_best_streak": 21
   },
   "best_streak": 21,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Sports",
-    "points": 1089,
-    "correct": 312
+    "points": 1095,
+    "correct": 313
   },
   "best_insane_round": {
     "question_text": "WWE Champions",
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 700,
-  "average_guess_ms": 20619.777777777777,
+  "total_insane_correct": 715,
+  "average_guess_ms": 20598.490353697747,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1130,
-    "total": 1229
+    "exact_count": 1145,
+    "total": 1245
   },
   "achievements": {
     "catalog": [
@@ -2211,7 +2211,8 @@
       "win_50_question_game": "2026-09-26 23:28:53.664157+00:00",
       "duelwins_10": "2026-09-27 00:34:16.881470+00:00",
       "duel_best_of_10_win": "2026-09-27 03:16:08.596790+00:00",
-      "wins_50": "2026-09-30 22:01:40.862983+00:00"
+      "wins_50": "2026-09-30 22:01:40.862983+00:00",
+      "play_100_games": "2026-09-30 22:49:17.790736+00:00"
     },
     "baselines": {
       "points": 231,
@@ -2228,9 +2229,9 @@
       "movies": 22,
       "music": 15,
       "pokemon": 4,
-      "sports": 248,
+      "sports": 249,
       "videogames": 5,
-      "wrestling": 139,
+      "wrestling": 154,
       "duelwins": 15,
       "duelstreak": 2
     }
@@ -2370,8 +2371,8 @@
       "key": "cursed",
       "label": "Cursed Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "footer",
@@ -3522,8 +3523,8 @@
       "key": "stupidbitch",
       "label": "Stupid Bitch MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3645,22 +3646,22 @@
   ],
   "xp_sources": {
     "level": {
-      "achievement": 669250,
+      "achievement": 679250,
       "mission": 5000,
-      "game": 174208,
+      "game": 177414,
       "duel": 27750
     },
     "game_layers": {
       "replay": 65,
       "daily": 1635,
-      "hardcore": 1416,
-      "base": 5425
+      "hardcore": 2485,
+      "base": 7562
     },
     "pass": {
       "season_0": {
         "mission": 250,
         "duel": 1250,
-        "game": 4689
+        "game": 5239
       }
     }
   }
