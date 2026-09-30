@@ -156,13 +156,13 @@
         },
         {
           "user_id": "734768348201615400",
-          "points": 859,
-          "correct": 426
+          "points": 886,
+          "correct": 446
         },
         {
           "user_id": "433990857063137282",
-          "points": 603,
-          "correct": 225
+          "points": 608,
+          "correct": 228
         },
         {
           "user_id": "794420965387403265",
@@ -171,49 +171,49 @@
         },
         {
           "user_id": "184456115927384065",
-          "points": 87,
-          "correct": 42
+          "points": 90,
+          "correct": 44
         }
       ],
       "pass": [
         {
           "user_id": "795847206719717386",
-          "xp": 15779,
+          "xp": 16329,
           "level": 12,
-          "xp_into_level": 359,
+          "xp_into_level": 909,
           "xp_for_level": 1740,
           "completed": false
         },
         {
           "user_id": "433990857063137282",
-          "xp": 13906,
+          "xp": 14456,
           "level": 11,
-          "xp_into_level": 156,
+          "xp_into_level": 706,
           "xp_for_level": 1670,
           "completed": false
         },
         {
           "user_id": "734768348201615400",
-          "xp": 9344,
+          "xp": 9894,
           "level": 8,
-          "xp_into_level": 184,
+          "xp_into_level": 734,
           "xp_for_level": 1460,
           "completed": false
         },
         {
           "user_id": "184456115927384065",
-          "xp": 4539,
+          "xp": 5089,
           "level": 4,
-          "xp_into_level": 519,
+          "xp_into_level": 1069,
           "xp_for_level": 1180,
           "completed": false
         },
         {
           "user_id": "794420965387403265",
-          "xp": 2750,
-          "level": 2,
-          "xp_into_level": 880,
-          "xp_for_level": 1040,
+          "xp": 3300,
+          "level": 3,
+          "xp_into_level": 390,
+          "xp_for_level": 1110,
           "completed": false
         }
       ],
