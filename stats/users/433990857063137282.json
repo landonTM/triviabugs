@@ -2,38 +2,38 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 43,
-    "xp_into_level": 20573,
+    "xp_into_level": 21129,
     "xp_for_level": 64000,
-    "progress": 0.321453125,
+    "progress": 0.330140625,
     "maxed": false
   },
-  "total_xp": 992073,
+  "total_xp": 992629,
   "period_stats": {
-    "daily_points": 19,
-    "daily_correct": 7,
-    "weekly_points": 1095,
-    "weekly_correct": 460,
-    "monthly_points": 4169,
-    "monthly_correct": 1913,
-    "yearly_points": 4343,
-    "yearly_correct": 2006,
-    "alltime_points": 4343,
-    "alltime_correct": 2006
+    "daily_points": 31,
+    "daily_correct": 13,
+    "weekly_points": 1107,
+    "weekly_correct": 466,
+    "monthly_points": 4181,
+    "monthly_correct": 1919,
+    "yearly_points": 4355,
+    "yearly_correct": 2012,
+    "alltime_points": 4355,
+    "alltime_correct": 2012
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3196,
-    "questions_right": 856,
+    "total_points": 3204,
+    "questions_right": 858,
     "questions_wrong": 0,
-    "wins": 856,
+    "wins": 858,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 108,
-    "insane_guesses": 846,
+    "games_played": 110,
+    "insane_guesses": 850,
     "day_streak": 7,
     "last_played_date": "2026-09-29",
-    "total_xp": 992073,
+    "total_xp": 992629,
     "game_wins": 35,
     "achievement_best_streak": 27
   },
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1151,
-  "average_guess_ms": 16313.430409356724,
+  "total_insane_correct": 1155,
+  "average_guess_ms": 16289.528588098015,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 30
   },
   "spelling_accuracy": {
-    "exact_count": 1572,
-    "total": 1792
+    "exact_count": 1578,
+    "total": 1798
   },
   "achievements": {
     "catalog": [
@@ -2231,14 +2231,14 @@
       "entertainment": 0,
       "geo": 108,
       "gk": 196,
-      "got": 8,
-      "marvel": 67,
+      "got": 12,
+      "marvel": 68,
       "movies": 2,
       "music": 10,
       "pokemon": 9,
       "sports": 30,
       "videogames": 69,
-      "wrestling": 195,
+      "wrestling": 196,
       "duelwins": 25,
       "duelstreak": 5
     }
