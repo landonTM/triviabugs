@@ -1,0 +1,53 @@
+{
+  "match": {
+    "id": 62,
+    "kind": "duel",
+    "channel_id": "861424168875982848",
+    "challenger_id": "734768348201615400",
+    "opponent_id": "795847206719717386",
+    "format": 3,
+    "format_label": "Best of 3",
+    "winner_id": "795847206719717386",
+    "is_tie": false,
+    "challenger_score": 0,
+    "opponent_score": 2,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-30 20:45:42.898207+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": "795847206719717386",
+      "response_time_ms": 17177,
+      "answered_at": "2026-09-30 20:45:42.899724+00:00",
+      "category": "Stranger Things",
+      "question_text": "What experiment number was Henry Creel given?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": "795847206719717386",
+      "response_time_ms": 5233,
+      "answered_at": "2026-09-30 20:45:42.899724+00:00",
+      "category": "Pokemon",
+      "question_text": "What Region is this  ?",
+      "image_url": "http://i.imgur.com/Y9FRa1b.png",
+      "answer_count": 1
+    }
+  ],
+  "xp": {
+    "795847206719717386": 1500
+  },
+  "pass_xp": {
+    "795847206719717386": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 1500,
+      "duel": 550,
+      "emoji": "🎃"
+    }
+  }
+}
