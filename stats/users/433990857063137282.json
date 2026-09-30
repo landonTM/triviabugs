@@ -3664,5 +3664,35 @@
       "losses": 2,
       "ties": 0
     }
-  ]
+  ],
+  "xp_sources": {
+    "level": {
+      "duel": 39150,
+      "mission": 30000,
+      "achievement": 718500,
+      "game": 207341
+    },
+    "game_layers": {
+      "daily": 3491,
+      "replay": 19,
+      "hardcore": 1752,
+      "base": 12760
+    },
+    "pass": {
+      "season_0": {
+        "pumpkin": 577,
+        "game": 10029,
+        "duel": 2350,
+        "mission": 1500
+      }
+    },
+    "pumpkins": {
+      "season_0": {
+        "smashed": 4,
+        "missed": 0,
+        "xp": 577,
+        "best": 207
+      }
+    }
+  }
 }
