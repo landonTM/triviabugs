@@ -2428,6 +2428,47 @@
       "started_at": "2026-09-30 00:14:51.439922+00:00",
       "ended_at": "2026-09-30 00:26:11.204469+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 92,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 30,
+      "rounds_played": 30,
+      "categories": [
+        "Marvel"
+      ],
+      "started_by": "794420965387403265",
+      "winner_id": "794420965387403265",
+      "started_at": "2026-09-30 01:48:33.799860+00:00",
+      "ended_at": "2026-09-30 02:03:24.906252+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 93,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 20,
+      "rounds_played": 20,
+      "categories": [
+        "Disney",
+        "family guy",
+        "marvel",
+        "movies",
+        "video games",
+        "whos that Pokemon (gen 1)",
+        "whos that Pokemon (gen 2)",
+        "whos that Pokemon (gen 3)",
+        "whos that Pokemon (gen 8)",
+        "wrestling"
+      ],
+      "started_by": "794420965387403265",
+      "winner_id": "794420965387403265",
+      "started_at": "2026-09-30 02:04:26.606580+00:00",
+      "ended_at": "2026-09-30 02:15:43.289826+00:00",
+      "end_reason": "completed"
     }
   ]
 }
