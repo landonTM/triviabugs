@@ -1,0 +1,87 @@
+{
+  "releases": [
+    {
+      "title": "Unreleased",
+      "intro": [
+        "Everything since the Monday 2026-09-28 changelog (Duels 2.0 + Season 0)."
+      ],
+      "sections": [
+        {
+          "name": "Added",
+          "items": [
+            "**The Bertha website** is live at **https://berthabot.me**: home, scores, player pages, game and duel replays, and the bug tracker (now at berthabot.me/bugs.html). The bot's bug-report link points there.",
+            "**Bot status line**: Bertha's Discord status shows a live game, the Daily Trivia countdown, or rotating season / Double XP / Kirkening lines.",
+            "**Replay bonus**: +5% level XP for each back-to-back game (next game within 10 minutes, games of 10+ questions), up to +25%, shown on the XP card.",
+            "**61 new logos** (39 brands + 22 NBA teams, none with the name in the logo).",
+            "**Geography Fun Facts**: all 358 Geography questions now have one.",
+            "**New category: K-Pop** -- 100 questions on K-pop from 2016 onward (no Fun Facts or insane rounds yet).",
+            "`/trivia start`, `/quickfire` and `/hardcore`: opening the category box suggests **🔁 Last time: ...** first, the categories you picked in your last game.",
+            "`/kirkening` is listed in `/help`.",
+            "Website: **Cosmetics** page -- every cosmetic with a preview, how it unlocks (level or season tier), and who owns and has it equipped; pick a player to see their collection.",
+            "Website: **Changelog** page -- this changelog, kept up to date automatically.",
+            "Website: replays show where each player's XP came from (base plus Daily, Double XP, hardcore, replay bonus and XP Boost) and the season pass XP they got, including the 550 cap and flaming pumpkins. Older replays were updated too, and duels from before Sep 28 now show their XP.",
+            "Website: player pages have a **Where the XP came from** section -- level XP by source (games, duels, achievements, missions), game XP vs. bonuses, season pass XP by source, and flaming pumpkin stats.",
+            "Website: the season page shows where each player's pass XP came from, and a flaming pumpkin leaderboard."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "**Season pass XP is capped at 550 per game or duel.** Missions and pumpkins aren't capped.",
+            "**Streak XP has no cap**: +2% per streak answer, no ceiling.",
+            "**Seasonal Spotlights no longer affect insane rounds** (no bonus, no star).",
+            "**Fun Fact hints show 70% of the time** instead of every round, so the regular hints get used too. Conundrums always show theirs. Same for duels.",
+            "**Duel rounds are 30 seconds**: 15s to the hint, then 15s more (was 10 + 10).",
+            "**A game that ends from inactivity now pays out XP** like `/trivia stop`, instead of everyone losing their rounds.",
+            "**`/enable` and `/disable` are open to everyone** again. `/disable` only takes a real category and can never turn off the last enabled one.",
+            "**Duels that nobody wins end as a tie**: a 0-0 Best of N, or five unanswered tiebreaker questions, no longer hands someone a random win.",
+            "**A full tie in a round-robin season match goes to the higher seed** (some group matches went to the lower seed).",
+            "An expired duel challenge says \"expired\" instead of \"declined\".",
+            "The Level 100 progress bar says \"to MAX\" instead of \"to Level 101\".",
+            "The flaming pumpkin's pass tier-up card shows the pass XP gained and a progress bar to the next tier, like the XP card does.",
+            "35 Geography questions reworded after review (one answer changed to Egypt)."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Restarting the bot during Daily Trivia no longer kills that day's game; it resumes, and a Daily Trivia missed while the bot was down starts as soon as it's back.",
+            "Daily Trivia can't start on top of a duel.",
+            "A failed \"correct answer\" post could freeze the game.",
+            "An insane round could finish twice, and end-of-game could pay out twice.",
+            "One player's XP error no longer stops XP for everyone after them.",
+            "Level-ups could show twice or not at all when XP landed from two places at once.",
+            "The 4-point window starts when the question is actually posted (a slow image upload could cost points).",
+            "No stray question after `/trivia stop`, and stopping no longer erases the last round's winner from replays.",
+            "A game cut off by a restart in its last round now pays out.",
+            "`/trivia test` no longer affects the real channel streak.",
+            "Insane-round achievement tiers are also checked when an insane round times out.",
+            "A failed game start no longer leaves the channel stuck on \"a game is already running\".",
+            "Two games or two duels can't start in the same channel at once.",
+            "Resumed hardcore games use the right time limit.",
+            "Decimal duel answers get a proper hint (13.8 no longer shows as 13).",
+            "A failed duel result card no longer skips the payouts; `/duel stop` after the result says \"already over\".",
+            "Weekly Challenge rewards are retried until actually paid.",
+            "The Monday recap ignores `/trivia test` rounds and uses one consistent 7-day window.",
+            "Leaderboard ties have a stable order.",
+            "`/boost` uses the boost's own duration; double-clicking activate says \"already active\" instead of erroring.",
+            "Season spotlight rollover avoids bringing last season's picks straight back.",
+            "Scheduled posts (Double XP, Kirkening, recap, Daily Trivia, website export) keep running after an error instead of stopping until the next restart.",
+            "`/fixed` rejects unknown finding IDs.",
+            "Website: game replays showed a stray \"null\" under Final Scores.",
+            "Website: the FNAF and Scooby emoji packs showed as raw text on player pages instead of the emoji."
+          ]
+        },
+        {
+          "name": "Behind the scenes",
+          "items": [
+            "Every level and pass XP grant is logged with its source and breakdown; older level XP was backfilled. Pumpkins, streak breaks and hint timing are tracked too (not shown anywhere yet).",
+            "The website only ever shows the 12-person roster.",
+            "Deploys restart the bot when it's running older code, and check every question source against the live questions.",
+            "Why each bug fix exists is written up in `docs/fixes-2026-09-30.md`."
+          ]
+        }
+      ]
+    }
+  ]
+}
