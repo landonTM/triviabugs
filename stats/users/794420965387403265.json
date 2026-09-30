@@ -1,39 +1,39 @@
 {
   "user_id": "794420965387403265",
   "level": {
-    "level": 30,
-    "xp_into_level": 34979,
-    "xp_for_level": 35000,
-    "progress": 0.9994,
+    "level": 31,
+    "xp_into_level": 9979,
+    "xp_for_level": 37000,
+    "progress": 0.2697027027027027,
     "maxed": false
   },
-  "total_xp": 392479,
+  "total_xp": 402479,
   "period_stats": {
-    "daily_points": 224,
-    "daily_correct": 95,
-    "weekly_points": 425,
-    "weekly_correct": 193,
-    "monthly_points": 1110,
-    "monthly_correct": 526,
-    "yearly_points": 1110,
-    "yearly_correct": 526,
-    "alltime_points": 1110,
-    "alltime_correct": 526
+    "daily_points": 251,
+    "daily_correct": 106,
+    "weekly_points": 391,
+    "weekly_correct": 173,
+    "monthly_points": 1137,
+    "monthly_correct": 537,
+    "yearly_points": 1137,
+    "yearly_correct": 537,
+    "alltime_points": 1137,
+    "alltime_correct": 537
   },
   "stats_row": {
     "user_id": "794420965387403265",
     "guild_id": "861055530638114836",
-    "total_points": 842,
-    "questions_right": 258,
+    "total_points": 865,
+    "questions_right": 265,
     "questions_wrong": 0,
-    "wins": 258,
+    "wins": 265,
     "current_streak": 1,
     "best_streak": 18,
     "games_played": 30,
-    "insane_guesses": 199,
+    "insane_guesses": 203,
     "day_streak": 2,
     "last_played_date": "2026-09-29",
-    "total_xp": 392479,
+    "total_xp": 402479,
     "game_wins": 10,
     "achievement_best_streak": 18
   },
@@ -53,15 +53,15 @@
     "category": "General Knowledge",
     "guesses": 14
   },
-  "total_insane_correct": 268,
-  "average_guess_ms": 17263.93023255814,
+  "total_insane_correct": 272,
+  "average_guess_ms": 17336.603773584906,
   "activity": {
     "first_answered_at": "2026-09-08 22:30:21.511683+00:00",
     "active_days": 14
   },
   "spelling_accuracy": {
-    "exact_count": 425,
-    "total": 526
+    "exact_count": 436,
+    "total": 537
   },
   "achievements": {
     "catalog": [
@@ -2188,7 +2188,8 @@
       "quickfire_win": "2026-09-29 03:16:32.755158+00:00",
       "streak_10": "2026-09-30 01:58:14.771475+00:00",
       "streak_15": "2026-09-30 02:00:43.760738+00:00",
-      "marvel_50": "2026-09-30 02:01:17.322890+00:00"
+      "marvel_50": "2026-09-30 02:01:17.322890+00:00",
+      "gk_50": "2026-09-30 18:18:55.429529+00:00"
     },
     "baselines": {
       "points": 118,
@@ -2199,12 +2200,12 @@
       "disney": 14,
       "entertainment": 3,
       "geo": 14,
-      "gk": 58,
+      "gk": 63,
       "got": 2,
       "marvel": 54,
       "movies": 3,
       "music": 1,
-      "pokemon": 22,
+      "pokemon": 23,
       "sports": 1,
       "videogames": 12,
       "wrestling": 16,
@@ -2835,8 +2836,8 @@
       "key": "skyblue",
       "label": "Sky Blue Embed",
       "unlock_level": 31,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "embedcolor",
@@ -3593,9 +3594,9 @@
       "label": "Shakespearean Response Theme"
     },
     "embedcolor": {
-      "key": "cyan",
-      "label": "Cyan Embed",
-      "hex": "#00B4D8"
+      "key": "skyblue",
+      "label": "Sky Blue Embed",
+      "hex": "#4CC9F0"
     },
     "mvp": {
       "key": "scarymovies",
