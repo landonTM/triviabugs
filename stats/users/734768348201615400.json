@@ -1,45 +1,45 @@
 {
   "user_id": "734768348201615400",
   "level": {
-    "level": 44,
-    "xp_into_level": 26090,
-    "xp_for_level": 67000,
-    "progress": 0.38940298507462684,
+    "level": 45,
+    "xp_into_level": 22573,
+    "xp_for_level": 70000,
+    "progress": 0.3224714285714286,
     "maxed": false
   },
-  "total_xp": 1061590,
+  "total_xp": 1125073,
   "period_stats": {
-    "daily_points": 118,
-    "daily_correct": 58,
-    "weekly_points": 1764,
-    "weekly_correct": 947,
-    "monthly_points": 6384,
-    "monthly_correct": 3512,
-    "yearly_points": 6583,
-    "yearly_correct": 3655,
-    "alltime_points": 6583,
-    "alltime_correct": 3655
+    "daily_points": 309,
+    "daily_correct": 141,
+    "weekly_points": 1955,
+    "weekly_correct": 1030,
+    "monthly_points": 6575,
+    "monthly_correct": 3595,
+    "yearly_points": 6774,
+    "yearly_correct": 3738,
+    "alltime_points": 6774,
+    "alltime_correct": 3738
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 4170,
-    "questions_right": 1242,
+    "total_points": 4314,
+    "questions_right": 1278,
     "questions_wrong": 0,
-    "wins": 1242,
-    "current_streak": 9,
-    "best_streak": 37,
-    "games_played": 72,
-    "insane_guesses": 1484,
+    "wins": 1278,
+    "current_streak": 45,
+    "best_streak": 45,
+    "games_played": 73,
+    "insane_guesses": 1531,
     "day_streak": 16,
     "last_played_date": "2026-09-30",
-    "total_xp": 1061590,
-    "game_wins": 36,
-    "achievement_best_streak": 37
+    "total_xp": 1125073,
+    "game_wins": 37,
+    "achievement_best_streak": 45
   },
-  "best_streak": 37,
+  "best_streak": 45,
   "fastest_guess": {
-    "response_time_ms": 2223,
+    "response_time_ms": 2161,
     "question_text": "What country is represented by this flag?",
     "category": "World Flags"
   },
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2413,
-  "average_guess_ms": 14901.75845410628,
+  "total_insane_correct": 2460,
+  "average_guess_ms": 14605.976525821596,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 32
   },
   "spelling_accuracy": {
-    "exact_count": 2398,
-    "total": 2873
+    "exact_count": 2474,
+    "total": 2956
   },
   "achievements": {
     "catalog": [
@@ -2215,7 +2215,9 @@
       "sports_100": "2026-09-29 21:55:38.515762+00:00",
       "wins_30": "2026-09-29 22:44:44.157604+00:00",
       "duelwins_5": "2026-09-30 20:43:34.712807+00:00",
-      "duelstreak_3": "2026-09-30 20:43:34.714984+00:00"
+      "duelstreak_3": "2026-09-30 20:43:34.714984+00:00",
+      "gk_250": "2026-09-30 20:59:38.331320+00:00",
+      "videogames_50": "2026-09-30 21:10:13.032761+00:00"
     },
     "baselines": {
       "points": 1842,
@@ -2225,15 +2227,15 @@
     "category_counts": {
       "disney": 43,
       "entertainment": 11,
-      "geo": 380,
-      "gk": 236,
+      "geo": 416,
+      "gk": 252,
       "got": 1,
       "marvel": 28,
-      "movies": 8,
+      "movies": 9,
       "music": 35,
       "pokemon": 9,
       "sports": 100,
-      "videogames": 26,
+      "videogames": 56,
       "wrestling": 396,
       "duelwins": 5,
       "duelstreak": 3
@@ -2382,8 +2384,8 @@
       "key": "summoned",
       "label": "Summoned Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "footer",
@@ -3550,8 +3552,8 @@
       "key": "phil",
       "label": "Phil MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3649,8 +3651,8 @@
   ],
   "xp_sources": {
     "level": {
-      "game": 243040,
-      "achievement": 790750,
+      "game": 246523,
+      "achievement": 850750,
       "duel": 7800,
       "mission": 20000
     },
@@ -3658,21 +3660,21 @@
       "boost": 4063,
       "hardcore": 1832,
       "daily": 6164,
-      "base": 22436
+      "base": 25919
     },
     "pass": {
       "season_0": {
-        "pumpkin": 216,
-        "game": 8678,
+        "pumpkin": 304,
+        "game": 9228,
         "duel": 550,
         "mission": 1000
       }
     },
     "pumpkins": {
       "season_0": {
-        "smashed": 1,
+        "smashed": 2,
         "missed": 0,
-        "xp": 216,
+        "xp": 304,
         "best": 216
       }
     }
