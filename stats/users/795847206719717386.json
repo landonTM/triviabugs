@@ -11,8 +11,8 @@
   "period_stats": {
     "daily_points": 421,
     "daily_correct": 171,
-    "weekly_points": 2261,
-    "weekly_correct": 1102,
+    "weekly_points": 2242,
+    "weekly_correct": 1096,
     "monthly_points": 7748,
     "monthly_correct": 4250,
     "yearly_points": 7854,
@@ -3670,11 +3670,11 @@
       "mission": 40000
     },
     "game_layers": {
+      "base": 37593,
       "replay": 76,
       "boost": 3462,
       "daily": 6916,
-      "hardcore": 4750,
-      "base": 37593
+      "hardcore": 4750
     },
     "pass": {
       "season_0": {
