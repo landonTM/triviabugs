@@ -1,0 +1,967 @@
+{
+  "game": {
+    "id": 104,
+    "kind": "game",
+    "mode": "hardcore",
+    "channel_id": "861424168875982848",
+    "total_rounds": 40,
+    "rounds_played": 40,
+    "categories": [
+      "logos",
+      "sports",
+      "world flags",
+      "arts and literature"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "184456115927384065",
+    "started_at": "2026-09-30 22:17:16.053830+00:00",
+    "ended_at": "2026-09-30 22:49:17.425221+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 6392,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:17:16.432184+00:00",
+      "ended_at": "2026-09-30 22:17:36.620824+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "What is the record for most rebounds in an NBA game?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6393,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:18:06.934809+00:00",
+      "ended_at": "2026-09-30 22:18:10.037928+00:00",
+      "winner_id": "184456115927384065",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/h9YUraD.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 2452,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:18:10.033554+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6394,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:18:40.357546+00:00",
+      "ended_at": "2026-09-30 22:19:01.600199+00:00",
+      "winner_id": null,
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/eZyMHEL.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6395,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:19:32.043494+00:00",
+      "ended_at": "2026-09-30 22:19:47.169062+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "What is the club nickname for Liverpool?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 14954,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:19:47.165368+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6396,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:20:19.832180+00:00",
+      "ended_at": "2026-09-30 22:20:23.966151+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/5Gr6Eyw.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3700,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:20:23.962928+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6397,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:20:54.338326+00:00",
+      "ended_at": "2026-09-30 22:21:00.280489+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "What is the five-ring symbol of the Olympics called?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5736,
+          "exact_match": false,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:21:00.276552+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6398,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:21:30.570267+00:00",
+      "ended_at": "2026-09-30 22:21:33.901923+00:00",
+      "winner_id": "184456115927384065",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/LbQj8rK.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 2867,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:21:33.896325+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6399,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:22:04.293165+00:00",
+      "ended_at": "2026-09-30 22:22:24.710199+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Who was the youngest women's singles champion of the US Open in the Open Era, winning in 1979 at age 16?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6400,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:22:54.934499+00:00",
+      "ended_at": "2026-09-30 22:23:15.477259+00:00",
+      "winner_id": null,
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/mM7Ju48.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6401,
+      "mode": "insane",
+      "started_at": "2026-09-30 22:23:45.866561+00:00",
+      "ended_at": "2026-09-30 22:24:46.155537+00:00",
+      "winner_id": null,
+      "category": "Disney",
+      "question_text": "Disney's The Lion King characters",
+      "image_url": null,
+      "answer_count": 12,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6508,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:23:52.662614+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 8038,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:23:54.192331+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 10568,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:23:56.723136+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 13104,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:23:59.258467+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 15437,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:24:01.592224+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 17009,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:24:03.163612+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 19177,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:24:05.331807+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 19371,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:24:05.525583+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 56084,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:24:42.238368+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6402,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:25:17.088684+00:00",
+      "ended_at": "2026-09-30 22:25:22.105500+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/1VsVFYK.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4541,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:25:22.101047+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6403,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:25:52.526158+00:00",
+      "ended_at": "2026-09-30 22:25:58.262901+00:00",
+      "winner_id": "433990857063137282",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/MrAUl3e.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 4947,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:25:58.258691+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6404,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:26:28.625588+00:00",
+      "ended_at": "2026-09-30 22:26:32.481654+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/THNCPFu.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3303,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:26:32.478137+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6405,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:27:03.653296+00:00",
+      "ended_at": "2026-09-30 22:27:23.855034+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "In what year was the French Open first held, originally as a competition only open to French club members?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6406,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:27:54.121517+00:00",
+      "ended_at": "2026-09-30 22:27:56.834270+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/UQpfmrn.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 2237,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:27:56.830748+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6407,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:28:27.201768+00:00",
+      "ended_at": "2026-09-30 22:28:32.083968+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "_________ Dodgers (MLB)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4671,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:28:32.080515+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6408,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:29:02.483239+00:00",
+      "ended_at": "2026-09-30 22:29:05.902402+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "What organization governs soccer in Europe?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3198,
+          "exact_match": false,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:29:05.898763+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6409,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:29:36.263177+00:00",
+      "ended_at": "2026-09-30 22:29:56.431360+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Finish this phrase: You drive for show, but putt for \"________\"?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6410,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:30:26.698643+00:00",
+      "ended_at": "2026-09-30 22:30:30.218226+00:00",
+      "winner_id": "184456115927384065",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/o8tYKMr.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 2766,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:30:30.214315+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6411,
+      "mode": "insane",
+      "started_at": "2026-09-30 22:31:00.399426+00:00",
+      "ended_at": "2026-09-30 22:32:00.557938+00:00",
+      "winner_id": null,
+      "category": "Wrestling",
+      "question_text": "WrestleMania Main Eventers (Nights 1 & 2)",
+      "image_url": null,
+      "answer_count": 47,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 5417,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:05.973522+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 7614,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:08.171058+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 8843,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:09.399940+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 11420,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:11.977167+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 15116,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:15.672434+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 22259,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:22.815785+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 24887,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:25.443776+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 28292,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:28.848414+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 32293,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:32.849895+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 34818,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:35.375314+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 38652,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:39.209380+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 40924,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:41.481347+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 42819,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:43.376614+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 49270,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:49.827140+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 56665,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:31:57.222155+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6412,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:32:31.027046+00:00",
+      "ended_at": "2026-09-30 22:32:51.765498+00:00",
+      "winner_id": null,
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoAtari.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6413,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:33:22.170566+00:00",
+      "ended_at": "2026-09-30 22:33:42.316699+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Which team did the Chicago Cubs play in the 1945 World Series?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6414,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:34:12.737230+00:00",
+      "ended_at": "2026-09-30 22:34:17.558168+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "_________ Patriots (NFL)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4667,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:34:17.554111+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6415,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:34:47.911900+00:00",
+      "ended_at": "2026-09-30 22:35:08.166068+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "What is the only country to have won medals in the Winter Olympics but not the Summer Olympics?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6416,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:35:38.402431+00:00",
+      "ended_at": "2026-09-30 22:35:43.553567+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/dZe1Bd4.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4774,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:35:43.550054+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6417,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:36:13.950555+00:00",
+      "ended_at": "2026-09-30 22:36:34.568655+00:00",
+      "winner_id": null,
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/m1NghpY.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6418,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:37:04.829743+00:00",
+      "ended_at": "2026-09-30 22:37:25.248508+00:00",
+      "winner_id": null,
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoConverse.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6419,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:37:55.551204+00:00",
+      "ended_at": "2026-09-30 22:38:15.752351+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Who was the first NFL running back to finish the season with 10 or more carries and gain negative yards?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6420,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:38:46.115131+00:00",
+      "ended_at": "2026-09-30 22:39:06.294306+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "_________ Lions (NFL)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6421,
+      "mode": "insane",
+      "started_at": "2026-09-30 22:39:36.759549+00:00",
+      "ended_at": "2026-09-30 22:40:37.334548+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "Egyptian Gods",
+      "image_url": null,
+      "answer_count": 39,
+      "answers": []
+    },
+    {
+      "round_id": 6422,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:41:08.015730+00:00",
+      "ended_at": "2026-09-30 22:41:15.222256+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "What famous tennis venue, home to a Grand Slam tournament, hosted the tennis competition at the 2012 London Olympics?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 7038,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:41:15.218145+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6423,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:41:45.480921+00:00",
+      "ended_at": "2026-09-30 22:42:07.057877+00:00",
+      "winner_id": null,
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/KejcQ5w.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6424,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:42:37.696144+00:00",
+      "ended_at": "2026-09-30 22:42:58.109578+00:00",
+      "winner_id": null,
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/ZV9HxNk.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6425,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:43:28.562173+00:00",
+      "ended_at": "2026-09-30 22:43:49.143159+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "_________ Cowboys (NFL)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6426,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:44:19.517725+00:00",
+      "ended_at": "2026-09-30 22:44:39.796361+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "The UEFA Champions League is an annual club football competition featuring clubs from which continent?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6427,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:45:10.221838+00:00",
+      "ended_at": "2026-09-30 22:45:21.578076+00:00",
+      "winner_id": "184456115927384065",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/Vbr5Tam.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 10989,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:45:21.574145+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6428,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:45:51.989885+00:00",
+      "ended_at": "2026-09-30 22:45:58.405279+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "What driver tied Michael Schumacher's record of 7 Formula 1 World Championships in 2020?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 6229,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:45:58.401945+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6429,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:46:14.351783+00:00",
+      "ended_at": "2026-09-30 22:46:22.023566+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "What is the name of the rivalry match between Celtic and Rangers in Scotland?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 7379,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:46:22.019233+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6430,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:46:53.933405+00:00",
+      "ended_at": "2026-09-30 22:47:14.483352+00:00",
+      "winner_id": null,
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/dLexEX4.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6431,
+      "mode": "insane",
+      "started_at": "2026-09-30 22:47:44.838326+00:00",
+      "ended_at": "2026-09-30 22:48:46.900064+00:00",
+      "winner_id": null,
+      "category": "Wrestling",
+      "question_text": "WWE Champions",
+      "image_url": null,
+      "answer_count": 56,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 5708,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:47:52.607939+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 7900,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:47:54.799874+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 29484,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:16.384563+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 35501,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:22.401255+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 37994,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:24.894455+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 39668,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:26.568201+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 41928,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:28.828329+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 43065,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:29.964707+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 46263,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:33.162661+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 48241,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:35.141217+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 48852,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:35.752373+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 51004,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:37.904182+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 53663,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:40.562671+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 56476,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:43.375672+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 59049,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:48:45.948979+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "184456115927384065": 3206,
+    "433990857063137282": 604,
+    "734768348201615400": 1646
+  },
+  "xp_layers": {
+    "184456115927384065": {
+      "base": 2137,
+      "hardcore": 1069
+    },
+    "734768348201615400": {
+      "base": 1045,
+      "replay": 78,
+      "hardcore": 523
+    },
+    "433990857063137282": {
+      "base": 366,
+      "replay": 55,
+      "hardcore": 183
+    }
+  },
+  "pass_xp": {
+    "184456115927384065": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 3206,
+      "game": 550,
+      "emoji": "🎃"
+    },
+    "734768348201615400": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 1568,
+      "game": 550,
+      "emoji": "🎃"
+    },
+    "433990857063137282": {
+      "season_key": "season_0",
+      "total": 549,
+      "uncapped": 549,
+      "game": 549,
+      "emoji": "🎃"
+    }
+  }
+}
