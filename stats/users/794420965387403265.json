@@ -2,17 +2,17 @@
   "user_id": "794420965387403265",
   "level": {
     "level": 31,
-    "xp_into_level": 9979,
+    "xp_into_level": 12035,
     "xp_for_level": 37000,
-    "progress": 0.2697027027027027,
+    "progress": 0.3252702702702703,
     "maxed": false
   },
-  "total_xp": 402479,
+  "total_xp": 404535,
   "period_stats": {
     "daily_points": 251,
     "daily_correct": 106,
-    "weekly_points": 391,
-    "weekly_correct": 173,
+    "weekly_points": 342,
+    "weekly_correct": 152,
     "monthly_points": 1137,
     "monthly_correct": 537,
     "yearly_points": 1137,
@@ -29,11 +29,11 @@
     "wins": 265,
     "current_streak": 1,
     "best_streak": 18,
-    "games_played": 30,
+    "games_played": 31,
     "insane_guesses": 203,
-    "day_streak": 2,
-    "last_played_date": "2026-09-29",
-    "total_xp": 402479,
+    "day_streak": 3,
+    "last_played_date": "2026-09-30",
+    "total_xp": 404535,
     "game_wins": 10,
     "achievement_best_streak": 18
   },
@@ -3476,8 +3476,8 @@
       "key": "herejohnny",
       "label": "Here's Johnny MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
