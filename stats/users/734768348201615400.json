@@ -2,12 +2,12 @@
   "user_id": "734768348201615400",
   "level": {
     "level": 45,
-    "xp_into_level": 34195,
+    "xp_into_level": 35841,
     "xp_for_level": 70000,
-    "progress": 0.4885,
+    "progress": 0.5120142857142858,
     "maxed": false
   },
-  "total_xp": 1136695,
+  "total_xp": 1138341,
   "period_stats": {
     "daily_points": 422,
     "daily_correct": 174,
@@ -29,11 +29,11 @@
     "wins": 1294,
     "current_streak": 1,
     "best_streak": 45,
-    "games_played": 74,
+    "games_played": 75,
     "insane_guesses": 1548,
     "day_streak": 16,
     "last_played_date": "2026-09-30",
-    "total_xp": 1136695,
+    "total_xp": 1138341,
     "game_wins": 38,
     "achievement_best_streak": 45
   },
@@ -2657,8 +2657,8 @@
       "key": "fnaf",
       "label": "FNAF Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -2761,8 +2761,8 @@
       "key": "dracula",
       "label": "Dracula Response Theme",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "theme",
@@ -3561,8 +3561,8 @@
       "key": "comeback",
       "label": "Come Back MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3652,21 +3652,22 @@
   ],
   "xp_sources": {
     "level": {
-      "game": 248145,
+      "game": 249791,
       "achievement": 860750,
       "duel": 7800,
       "mission": 20000
     },
     "game_layers": {
+      "replay": 78,
       "boost": 4063,
-      "hardcore": 2373,
+      "hardcore": 2896,
       "daily": 6164,
-      "base": 27000
+      "base": 28045
     },
     "pass": {
       "season_0": {
         "pumpkin": 304,
-        "game": 9778,
+        "game": 10328,
         "duel": 550,
         "mission": 1000
       }
