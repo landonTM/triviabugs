@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": 98,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "1547066139891212328",
+    "total_rounds": 1,
+    "rounds_played": 1,
+    "categories": [
+      "marvel",
+      "Logos"
+    ],
+    "started_by": "433990857063137282",
+    "winner_id": "433990857063137282",
+    "started_at": "2026-09-30 16:58:38.954694+00:00",
+    "ended_at": "2026-09-30 16:58:53.573860+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 6241,
+      "mode": "standard",
+      "started_at": "2026-09-30 16:58:39.402163+00:00",
+      "ended_at": "2026-09-30 16:58:43.374696+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Marvel",
+      "question_text": "Who helps Thor escape Asgard despite being imprisoned there?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 3762,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 16:58:43.370372+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 128
+  }
+}
