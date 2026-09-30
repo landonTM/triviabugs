@@ -101,7 +101,7 @@
       return roundCard(i + 1, r, result);
     });
 
-    app.replaceChildren(
+    app.replaceChildren(...[
       el("div", { class: "btn-row-label", style: { color: k.color, marginTop: "40px" } }, k.label),
       el("h1", { class: "page-title", style: { color: "var(--text)", marginTop: "8px" } }, B.matchTitle(g)),
       el("p", { class: "page-sub" },
@@ -111,7 +111,8 @@
       el("h2", { class: "section" }, "FINAL SCORES"), table,
       hasXp ? null : el("p", { class: "page-sub" }, "XP per match is recorded for games played from Sep 28, 2026."),
       el("h2", { class: "section" }, `ROUND BY ROUND · ${rounds.length}`),
-      el("div", { class: "mlist" }, cards));
+      el("div", { class: "mlist" }, cards),
+    ].filter(Boolean));
   }
 
   function drawDuel() {
