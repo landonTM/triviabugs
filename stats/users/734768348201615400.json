@@ -2,23 +2,23 @@
   "user_id": "734768348201615400",
   "level": {
     "level": 45,
-    "xp_into_level": 22573,
+    "xp_into_level": 24195,
     "xp_for_level": 70000,
-    "progress": 0.3224714285714286,
+    "progress": 0.34564285714285714,
     "maxed": false
   },
-  "total_xp": 1125073,
+  "total_xp": 1126695,
   "period_stats": {
-    "daily_points": 360,
-    "daily_correct": 157,
-    "weekly_points": 2006,
-    "weekly_correct": 1046,
-    "monthly_points": 6626,
-    "monthly_correct": 3611,
-    "yearly_points": 6825,
-    "yearly_correct": 3754,
-    "alltime_points": 6825,
-    "alltime_correct": 3754
+    "daily_points": 361,
+    "daily_correct": 158,
+    "weekly_points": 2007,
+    "weekly_correct": 1047,
+    "monthly_points": 6627,
+    "monthly_correct": 3612,
+    "yearly_points": 6826,
+    "yearly_correct": 3755,
+    "alltime_points": 6826,
+    "alltime_correct": 3755
   },
   "stats_row": {
     "user_id": "734768348201615400",
@@ -29,12 +29,12 @@
     "wins": 1285,
     "current_streak": 3,
     "best_streak": 45,
-    "games_played": 73,
-    "insane_guesses": 1540,
+    "games_played": 74,
+    "insane_guesses": 1541,
     "day_streak": 16,
     "last_played_date": "2026-09-30",
-    "total_xp": 1125073,
-    "game_wins": 37,
+    "total_xp": 1126695,
+    "game_wins": 38,
     "achievement_best_streak": 45
   },
   "best_streak": 45,
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2469,
+  "total_insane_correct": 2470,
   "average_guess_ms": 14561.274708171206,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 32
   },
   "spelling_accuracy": {
-    "exact_count": 2483,
-    "total": 2972
+    "exact_count": 2484,
+    "total": 2973
   },
   "achievements": {
     "catalog": [
@@ -2228,7 +2228,7 @@
       "disney": 43,
       "entertainment": 11,
       "geo": 416,
-      "gk": 261,
+      "gk": 262,
       "got": 1,
       "marvel": 28,
       "movies": 9,
@@ -3651,21 +3651,21 @@
   ],
   "xp_sources": {
     "level": {
-      "game": 246523,
+      "game": 248145,
       "achievement": 850750,
       "duel": 7800,
       "mission": 20000
     },
     "game_layers": {
       "boost": 4063,
-      "hardcore": 1832,
+      "hardcore": 2373,
       "daily": 6164,
-      "base": 25919
+      "base": 27000
     },
     "pass": {
       "season_0": {
         "pumpkin": 304,
-        "game": 9228,
+        "game": 9778,
         "duel": 550,
         "mission": 1000
       }
