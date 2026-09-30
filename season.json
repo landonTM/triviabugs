@@ -179,6 +179,12 @@
         {
           "user_id": "795847206719717386",
           "xp": 16329,
+          "sources": {
+            "game": 13264,
+            "pumpkin": 515,
+            "mission": 2000,
+            "duel": 550
+          },
           "level": 12,
           "xp_into_level": 909,
           "xp_for_level": 1740,
@@ -187,6 +193,12 @@
         {
           "user_id": "433990857063137282",
           "xp": 14456,
+          "sources": {
+            "mission": 1500,
+            "pumpkin": 577,
+            "game": 10029,
+            "duel": 2350
+          },
           "level": 11,
           "xp_into_level": 706,
           "xp_for_level": 1670,
@@ -195,6 +207,11 @@
         {
           "user_id": "734768348201615400",
           "xp": 9894,
+          "sources": {
+            "mission": 1000,
+            "pumpkin": 216,
+            "game": 8678
+          },
           "level": 8,
           "xp_into_level": 734,
           "xp_for_level": 1460,
@@ -203,6 +220,11 @@
         {
           "user_id": "184456115927384065",
           "xp": 5089,
+          "sources": {
+            "mission": 250,
+            "game": 3589,
+            "duel": 1250
+          },
           "level": 4,
           "xp_into_level": 1069,
           "xp_for_level": 1180,
@@ -211,10 +233,36 @@
         {
           "user_id": "794420965387403265",
           "xp": 3300,
+          "sources": {
+            "game": 3300
+          },
           "level": 3,
           "xp_into_level": 390,
           "xp_for_level": 1110,
           "completed": false
+        }
+      ],
+      "pumpkins": [
+        {
+          "user_id": "433990857063137282",
+          "smashed": 4,
+          "missed": 0,
+          "xp": 577,
+          "best": 207
+        },
+        {
+          "user_id": "795847206719717386",
+          "smashed": 3,
+          "missed": 0,
+          "xp": 515,
+          "best": 184
+        },
+        {
+          "user_id": "734768348201615400",
+          "smashed": 1,
+          "missed": 0,
+          "xp": 216,
+          "best": 216
         }
       ],
       "elo": {
