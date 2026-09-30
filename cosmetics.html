@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cosmetics · Bertha</title>
+<!-- site-meta -->
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#7cff6b">
+<meta name="description" content="Every cosmetic Bertha has, how to unlock it, and who owns it.">
+<meta property="og:site_name" content="Bertha">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Cosmetics · Bertha">
+<meta property="og:description" content="Every cosmetic Bertha has, how to unlock it, and who owns it.">
+<meta property="og:url" content="https://berthabot.me/cosmetics.html">
+<meta property="og:image" content="https://berthabot.me/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-meta -->
+<link rel="stylesheet" href="assets/arcade.css?v=20260930">
+<script src="assets/bertha.js?v=20260930"></script>
+<style>
+  .filters { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+  .cgrid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+  .ccard { border: 3px solid var(--line-dim); background: var(--panel); padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+  .ccard.mine { border-color: var(--neon); }
+  .ccard.locked { opacity: .45; }
+  .ccard .top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .ccard .nm { font-size: 28px; line-height: 1.05; }
+  .ccard .how { font: 9px/1.6 var(--pixel); color: var(--c, var(--cyan)); white-space: nowrap; }
+  .ccard .pv { border-left: 4px solid var(--edge, var(--line-dim)); background: var(--panel-2); padding: 10px 12px; font-size: 22px; overflow-wrap: anywhere; }
+  .ccard .pv p { margin: 0 0 6px; } .ccard .pv p:last-child { margin: 0; }
+  .ccard .emo { display: flex; gap: 18px; font-size: 40px; line-height: 1; }
+  .ccard .emo figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .ccard .emo figcaption { font: 8px/1.4 var(--pixel); color: var(--muted); }
+  .ccard .emo img.cemoji { height: 40px; }
+  .ccard .gif { width: 100%; max-height: 180px; object-fit: cover; border: 3px solid var(--line-dim); background: var(--bg); }
+  .ccard .owners { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .ccard .owners .cnt { font: 9px/1.6 var(--pixel); color: var(--muted); margin-right: 4px; }
+  .ccard .owners a { display: inline-flex; position: relative; }
+  .ccard .owners a.eq .av { border-color: var(--neon); }
+  .legend { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <main id="app"><div class="loading">LOADING COSMETICS…</div></main>
+</div>
+
+<script>
+(async () => {
+  const { el } = B;
+  B.topbar("cosmetics.html");
+  const app = B.$("#app");
+  let data;
+  try {
+    await B.loadPlayers();
+    data = await B.json("cosmetics.json");
+  } catch (e) { B.fail(app, e); return; }
+  const types = data.types || [];
+  const PLURAL = { footer: "FOOTERS", emoji: "EMOJI PACKS", theme: "RESPONSE THEMES", embedcolor: "EMBED COLORS", mvp: "MVP CARDS" };
+  const WHAT = {
+    footer: "The line under the game's messages, for games you start.",
+    emoji: "Replaces 👍 🔥 ⏰ on your correct answers, streaks and speed records.",
+    theme: "Rewrites the wording of game messages: the start, correct answers, streaks and more.",
+    embedcolor: "The colour down the side of your command and game messages.",
+    mvp: "The card Bertha posts when you win a game.",
+  };
+  const hash = location.hash.slice(1).split("|");
+  let type = types.some(t => t.type === hash[0]) ? hash[0] : (types[0] || {}).type;
+  let who = hash[1] || "";
+  const roster = Object.keys(await B.json("players.json").then(d => d.players || {}).catch(() => ({})));
+
+  function unlockText(u) {
+    if (u.how === "level") return u.level <= 1 ? ["EVERYONE", "var(--muted)"] : [`LEVEL ${u.level}`, "var(--cyan)"];
+    if (u.how === "season") return [`${u.emoji} ${u.season.toUpperCase()} · TIER ${u.tier}`, "var(--yellow)"];
+    return ["SPECIAL GRANT", "var(--pink)"];
+  }
+  const fill = t => String(t || "").replaceAll("{user}", who ? B.name(who) : "you").replaceAll("{loser}", "the runner-up");
+
+  function preview(t, item) {
+    const p = item.preview || {};
+    if (t === "footer") return el("div", { class: "pv" }, fill(p.template));
+    if (t === "emoji") return el("div", { class: "emo" }, [["correct", "CORRECT"], ["streak", "STREAK"], ["speed", "SPEED"]].map(([k, cap]) =>
+      el("figure", {}, el("span", {}, B.emoji(p[k])), el("figcaption", {}, cap))));
+    if (t === "theme") return el("div", { class: "pv" }, (p.lines || []).map(line => el("p", {}, B.md(fill(line)))));
+    if (t === "embedcolor") return el("div", { class: "pv", style: { "--edge": p.hex || "var(--line-dim)" } },
+      p.hex ? el("span", {}, el("b", { style: { color: p.hex, fontWeight: 400 } }, "■ "), p.hex) : "Each message keeps its own colour.");
+    // MVP card
+    return el("div", { style: { display: "flex", flexDirection: "column", gap: "8px" } },
+      p.gif ? el("img", { class: "gif", src: p.gif, alt: `${item.label} GIF`, loading: "lazy" }) : null,
+      el("div", { class: "pv" }, p.quote ? fill(p.quote) : "No card: the game just ends."));
+  }
+
+  function card(t, item) {
+    const [how, color] = unlockText(item.unlock);
+    const owns = item.owners || [], eq = new Set(item.equipped || []);
+    const mine = who && owns.includes(who);
+    const everyone = item.unlock.how === "level" && item.unlock.level <= 1;
+    return el("div", { class: `ccard${who ? (mine ? " mine" : " locked") : ""}`, style: { "--c": color } },
+      el("div", { class: "top" }, el("span", { class: "nm" }, item.label), el("span", { class: "how" }, how)),
+      preview(t, item),
+      el("div", { class: "owners" },
+        el("span", { class: "cnt" }, everyone ? `EVERYONE HAS THIS${eq.size ? ` · ${eq.size} EQUIPPED` : ""}`
+          : owns.length ? `OWNED BY ${owns.length}${eq.size ? ` · ${eq.size} EQUIPPED` : ""}` : "NOBODY HAS IT YET"),
+        (everyone ? [...eq] : owns).map(id => el("a", { href: B.playerHref(id), class: eq.has(id) ? "eq" : "",
+          title: `${B.name(id)}${eq.has(id) ? " (equipped)" : ""}` }, B.avatar(id, "sm")))));
+  }
+
+  function draw() {
+    history.replaceState(null, "", `#${type}${who ? `|${who}` : ""}`);
+    const t = types.find(x => x.type === type) || types[0];
+    const items = t ? t.items : [];
+    const owned = who ? items.filter(i => (i.owners || []).includes(who)).length : null;
+    const picker = el("select", { class: "btn", "aria-label": "Show one player's cosmetics", onchange: e => { who = e.target.value; draw(); } },
+      el("option", { value: "" }, "EVERYONE"),
+      [...roster].sort((a, b) => B.name(a).localeCompare(B.name(b))).map(id => el("option", { value: id, selected: id === who }, B.name(id))));
+    app.replaceChildren(
+      el("h1", { class: "page-title" }, "COSMETICS"),
+      el("p", { class: "page-sub" }, "Every cosmetic Bertha has, how to unlock it, and who owns it. Pick a player to see their collection."),
+      el("div", { class: "btns", role: "group", "aria-label": "Cosmetic type" }, types.map(x =>
+        el("button", { class: "btn", type: "button", "aria-pressed": String(x.type === type), onclick: () => { type = x.type; draw(); } },
+          `${PLURAL[x.type] || x.label.toUpperCase()} ${x.items.length}`))),
+      el("div", { class: "filters", style: { margin: "14px 0 6px" } }, picker,
+        who ? el("span", { class: "legend" }, `${B.name(who)} owns ${owned} of ${items.length}`) : null),
+      el("p", { class: "page-sub" }, WHAT[type] || ""),
+      el("div", { class: "cgrid" }, items.map(i => card(type, i))));
+  }
+  draw();
+  B.footer("GREEN BORDER ON AN AVATAR = EQUIPPED");
+})();
+</script>
+</body>
+</html>

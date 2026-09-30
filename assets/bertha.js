@@ -11,7 +11,8 @@ const B = (() => {
   const MODE_COLORS = { standard: "#5ef2ff", quickfire: "#7cff6b", hardcore: "#ff4fa3", daily: "#ffd23f", duel: "#c79bff" };
   const NAV = [
     ["index.html", "HOME"], ["leaderboard.html", "LEADERBOARD"], ["stats.html", "STATS"], ["season.html", "SEASON"],
-    ["replays.html", "REPLAYS"], ["kirkening.html", "KIRKENING"], ["bugs.html", "BUGS"],
+    ["replays.html", "REPLAYS"], ["cosmetics.html", "COSMETICS"], ["kirkening.html", "KIRKENING"],
+    ["changelog.html", "CHANGELOG"], ["bugs.html", "BUGS"],
   ];
   const PERIODS = [["daily", "TODAY"], ["weekly", "WEEK"], ["monthly", "MONTH"], ["yearly", "YEAR"], ["alltime", "ALL-TIME"]];
 
@@ -49,6 +50,27 @@ const B = (() => {
   }
   const $ = sel => document.querySelector(sel);
 
+  // Discord custom emoji markup (<:name:id>, <a:name:id>) -> images from Discord's CDN; everything else stays text.
+  function emoji(text) {
+    const s = String(text ?? ""), out = [], re = /<(a?):([A-Za-z0-9_~]+):(\d+)>/g;
+    let last = 0, m;
+    while ((m = re.exec(s))) {
+      if (m.index > last) out.push(s.slice(last, m.index));
+      out.push(el("img", { class: "cemoji", src: `https://cdn.discordapp.com/emojis/${m[3]}.${m[1] ? "gif" : "png"}?size=48`,
+        alt: `:${m[2]}:`, title: `:${m[2]}:`, loading: "lazy" }));
+      last = re.lastIndex;
+    }
+    if (last < s.length) out.push(s.slice(last));
+    return out;
+  }
+  // **bold** and `code` -- the only Markdown in changelog entries and response-theme text -- as nodes, never HTML.
+  function md(text) {
+    return String(text ?? "").split(/(\*\*[^*]+\*\*|`[^`]+`)/).filter(Boolean).flatMap(part =>
+      part.length > 4 && part.startsWith("**") && part.endsWith("**") ? [el("b", {}, emoji(part.slice(2, -2)))]
+        : part.length > 2 && part.startsWith("`") && part.endsWith("`") ? [el("code", {}, part.slice(1, -1))]
+        : emoji(part));
+  }
+
   // ---------- formatting ----------
   const fmt = n => (n == null ? "—" : Number(n).toLocaleString("en-US"));
   const secs = ms => (ms == null || ms === 0 ? "—" : `${(ms / 1000).toFixed(1)}s`);
@@ -76,6 +98,14 @@ const B = (() => {
   }
   const ordinal = n => `${n}${["TH", "ST", "ND", "RD"][(n % 100 >= 11 && n % 100 <= 13) || n % 10 > 3 ? 0 : n % 10]}`;
   const rankColor = i => RANK_COLORS[i % RANK_COLORS.length];
+
+  // xp_log / season_xp_log sources and a game's XP layers (the bot's utils/site_metrics.py::xp_breakdown)
+  const XP_SOURCES = { game: "GAMES", duel: "DUELS", achievement: "ACHIEVEMENTS", mission: "MISSIONS",
+    season_prize: "SEASON PRIZES", duel_prize: "DUEL RATING PRIZES", pumpkin: "FLAMING PUMPKINS", other: "OTHER" };
+  const XP_LAYERS = { base: "BASE XP", daily: "DAILY TRIVIA (2×)", double_xp_weekend: "DOUBLE XP WEEKEND",
+    hardcore: "HARDCORE (1.5×)", replay: "REPLAY BONUS", boost: "XP BOOST (2×)" };
+  const XP_LAYERS_SHORT = { daily: "daily", double_xp_weekend: "double XP", hardcore: "hardcore", replay: "replay",
+    boost: "boost" };
 
   // ---------- players ----------
   let players = {};
@@ -295,7 +325,7 @@ const B = (() => {
 
   return {
     json, el, $, fmt, secs, pct, ts, when, time, day, dur, ordinal, rankColor, loadPlayers, name, avatar, playerHref,
-    playerLink, colorFor, METRICS, METRIC, GROUPS, PERIODS, categoryMetric, allCategories, ranking, rankOf,
+    playerLink, colorFor, emoji, md, XP_SOURCES, XP_LAYERS, XP_LAYERS_SHORT, METRICS, METRIC, GROUPS, PERIODS, categoryMetric, allCategories, ranking, rankOf,
     allMatches, matchHref, matchKind, matchTitle, fightCard, topbar, footer, fail, param, periodButtons,
     secondsToDaily, clock, MODE_COLORS,
   };

@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css">
-<script src="assets/bertha.js"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20260930">
+<script src="assets/bertha.js?v=20260930"></script>
 <style>
   .hero { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; margin-top: 32px; }
   .hero .info { flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
@@ -86,13 +86,15 @@
   }
 
   // ---------- one player ----------
-  let u, matches;
+  let u, matches, seasonList;
   try {
-    [u, matches] = await Promise.all([
+    [u, matches, seasonList] = await Promise.all([
       B.json(`stats/users/${encodeURIComponent(id)}.json`),
       B.allMatches().catch(() => []),
+      B.json("season.json").then(d => d.seasons || []).catch(() => []),
     ]);
   } catch (e) { B.fail(app, e); return; }
+  const seasonsByKey = Object.fromEntries(seasonList.map(s => [s.key, s]));
   const me = lb.players.find(p => p.user_id === id);
   if (!me) { B.fail(app, new Error("this player isn't on the leaderboard yet")); return; }
   document.title = `${B.name(id)} · Stats · Bertha`;
@@ -128,7 +130,7 @@
     el("span", { class: "sub", style: { color: "var(--text)", fontSize: "24px" } }, eq.footer.template ? fill(eq.footer.template) : "Powered By Bertha! 🎲"),
     el("span", { class: "sub" }, eq.footer.label)));
   if (eq.emoji) loadout.push(el("div", { class: "tile", style: { "--c": "var(--neon)" } }, el("span", { class: "label" }, "EMOJI PACK"),
-    el("span", { class: "value", style: { whiteSpace: "normal" } }, `${eq.emoji.correct || ""} ${eq.emoji.streak || ""} ${eq.emoji.speed || ""}`),
+    el("span", { class: "value", style: { whiteSpace: "normal" } }, B.emoji(`${eq.emoji.correct || ""} ${eq.emoji.streak || ""} ${eq.emoji.speed || ""}`)),
     el("span", { class: "sub" }, `${eq.emoji.label} · correct, streak, speed record`)));
   if (eq.theme) loadout.push(el("div", { class: "tile", style: { "--c": "var(--neon)" } }, el("span", { class: "label" }, "RESPONSE THEME"),
     el("span", { class: "value", style: { fontSize: "28px", whiteSpace: "normal" } }, eq.theme.label.replace(/ Response Theme$/, "")), el("span", { class: "sub" }, eq.theme.label)));
@@ -176,6 +178,41 @@
       out.push(el("h2", { class: "section" }, "RECORDS"));
       out.push(el("div", { class: "tiles" }, hl.map(([l, v, s]) => el("div", { class: "tile", style: { "--c": "var(--neon)" } },
         el("span", { class: "label" }, l), el("span", { class: "value" }, v), el("span", { class: "sub" }, s)))));
+    }
+
+    // where the XP came from -- all-time, not per period (xp_log / season_xp_log / pumpkin_log)
+    const xs = u.xp_sources;
+    if (xs) {
+      const sorted = obj => Object.entries(obj || {}).filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]);
+      const bars = (rows, color) => {
+        const total = rows.reduce((a, [, v]) => a + v, 0);
+        return el("div", { class: "srcs", style: { "--c": color } }, rows.map(([lab, v]) => el("div", { class: "src" },
+          el("span", { class: "lab" }, lab),
+          el("div", { class: "bar" }, el("span", { style: { width: `${total ? (100 * v) / total : 0}%` } })),
+          el("span", { class: "amt" }, B.fmt(v)), el("span", { class: "pc" }, B.pct(v, total)))));
+      };
+      out.push(el("h2", { class: "section" }, "WHERE THE XP CAME FROM",
+        el("span", { class: "pill", style: { color: "var(--muted)" } }, "ALL-TIME")));
+      out.push(el("div", { class: "btn-row-label" }, "LEVEL XP BY SOURCE"));
+      out.push(bars(sorted(xs.level).map(([k, v]) => [B.XP_SOURCES[k] || k.toUpperCase(), v]), "var(--neon)"));
+      const layers = sorted(xs.game_layers);
+      if (layers.length) {
+        out.push(el("div", { class: "btn-row-label" }, "GAME XP: BASE VS BONUSES · GAMES SINCE SEP 28"));
+        out.push(bars(layers.map(([k, v]) => [B.XP_LAYERS[k] || k.toUpperCase(), v]), "var(--cyan)"));
+      }
+      for (const [key, src] of Object.entries(xs.pass || {})) {
+        const sn = seasonsByKey[key] || { name: key, emoji: "💠" };
+        out.push(el("div", { class: "btn-row-label" }, `${sn.emoji} ${sn.name.toUpperCase()} PASS XP BY SOURCE`));
+        out.push(bars(sorted(src).map(([k, v]) => [B.XP_SOURCES[k] || k.toUpperCase(), v]), "var(--yellow)"));
+      }
+      for (const [key, pk] of Object.entries(xs.pumpkins || {})) {
+        const sn = seasonsByKey[key] || { name: key };
+        out.push(el("div", { class: "btn-row-label" }, `🎃 FLAMING PUMPKINS · ${sn.name.toUpperCase()}`));
+        out.push(el("div", { class: "tiles" },
+          [["SMASHED", B.fmt(pk.smashed)], ["PASS XP FROM PUMPKINS", B.fmt(pk.xp)], ["BIGGEST PUMPKIN", B.fmt(pk.best)],
+            ...(pk.missed ? [["MISSED", B.fmt(pk.missed)]] : [])].map(([l, v]) =>
+            el("div", { class: "tile", style: { "--c": "#ff8a3d" } }, el("span", { class: "label" }, l), el("span", { class: "value" }, v)))));
+      }
     }
 
     // categories for this period

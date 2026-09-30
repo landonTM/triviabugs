@@ -208,3 +208,24 @@ footer.site {
   border-top: 3px solid var(--line-dim); font: 10px/1.8 var(--pixel); color: var(--muted);
 }
 .pill { display: inline-block; font: 9px/1 var(--pixel); padding: 5px 7px; border: 2px solid currentColor; vertical-align: middle; }
+
+/* ---------- custom emoji, inline code ---------- */
+img.cemoji { height: 1.1em; width: auto; vertical-align: -0.2em; image-rendering: auto; }
+code { font-family: var(--term); color: var(--cyan); background: var(--panel-2); padding: 0 5px; border: 2px solid var(--line-dim); }
+
+/* ---------- small line under an XP number (replays) ---------- */
+.xpsub { font-size: 17px; line-height: 1.2; color: var(--muted); min-width: 120px; }
+
+/* ---------- source bars (player page XP breakdown) ---------- */
+.srcs { display: flex; flex-direction: column; gap: 6px; }
+.src { display: grid; grid-template-columns: minmax(150px, 230px) 1fr 120px 56px; gap: 14px; align-items: center; }
+.src .lab { font: 10px/1.6 var(--pixel); color: var(--muted); }
+.src .bar { height: 16px; border: 2px solid var(--line-dim); background: var(--bg); }
+.src .bar span { display: block; height: 100%; background: var(--c, var(--neon)); }
+.src .amt { text-align: right; font-variant-numeric: tabular-nums; }
+.src .pc { text-align: right; color: var(--muted); }
+@media (max-width: 620px) {
+  .src { grid-template-columns: 1fr auto auto; gap: 4px 12px; }
+  .src .bar { grid-column: 1 / -1; grid-row: 2; }
+}
+.av.sm { width: 28px; height: 28px; border-width: 2px; font-size: 11px; }

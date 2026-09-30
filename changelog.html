@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Changelog · Bertha</title>
+<!-- site-meta -->
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#7cff6b">
+<meta name="description" content="Everything that's changed in Bertha.">
+<meta property="og:site_name" content="Bertha">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Changelog · Bertha">
+<meta property="og:description" content="Everything that's changed in Bertha.">
+<meta property="og:url" content="https://berthabot.me/changelog.html">
+<meta property="og:image" content="https://berthabot.me/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-meta -->
+<link rel="stylesheet" href="assets/arcade.css?v=20260930">
+<script src="assets/bertha.js?v=20260930"></script>
+<style>
+  .release { border: 4px solid var(--line-dim); background: var(--panel); padding: 20px 24px; margin-top: 28px; }
+  .release.latest { border-color: var(--neon); }
+  .release h2 { margin: 0 0 8px; font: clamp(14px, 2.4vw, 20px)/1.4 var(--pixel); color: var(--yellow); font-weight: 400; }
+  .release .intro { color: var(--muted); margin: 0 0 6px; }
+  .release h3 { margin: 22px 0 8px; font: 11px/1.6 var(--pixel); color: var(--c); font-weight: 400; }
+  .release ul { margin: 0; padding-left: 26px; }
+  .release li { margin: 6px 0; overflow-wrap: anywhere; }
+  .release li::marker { color: var(--c); }
+  .release b { color: var(--text); font-weight: 400; text-decoration: underline; text-decoration-color: var(--c); text-underline-offset: 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <main id="app"><div class="loading">LOADING CHANGELOG…</div></main>
+</div>
+
+<script>
+(async () => {
+  const { el } = B;
+  B.topbar("changelog.html");
+  const app = B.$("#app");
+  let data;
+  try { data = await B.json("changelog.json"); } catch (e) { B.fail(app, e); return; }
+  const releases = data.releases || [];
+  const COLORS = { added: "var(--neon)", changed: "var(--cyan)", fixed: "var(--pink)" };
+  const title = r => (r.title.toLowerCase() === "unreleased" ? "NEW SINCE THE LAST CHANGELOG" : r.title.toUpperCase());
+
+  app.replaceChildren(
+    el("h1", { class: "page-title" }, "CHANGELOG"),
+    el("p", { class: "page-sub" }, "Everything that's changed in Bertha, newest first."),
+    ...(releases.length ? releases.map((r, i) => el("section", { class: `release${i === 0 ? " latest" : ""}` },
+      el("h2", {}, title(r)),
+      (r.intro || []).map(line => el("p", { class: "intro" }, B.md(line))),
+      (r.sections || []).map(s => el("div", { style: { "--c": COLORS[s.name.toLowerCase()] || "var(--muted)" } },
+        el("h3", {}, `${s.name.toUpperCase()} · ${s.items.length}`),
+        el("ul", {}, s.items.map(item => el("li", {}, B.md(item)))))))) :
+      [el("div", { class: "loading" }, "NOTHING HERE YET")]));
+  B.footer();
+})();
+</script>
+</body>
+</html>

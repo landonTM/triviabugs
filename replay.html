@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css">
-<script src="assets/bertha.js"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20260930">
+<script src="assets/bertha.js?v=20260930"></script>
 </head>
 <body>
 <div class="wrap">
@@ -42,8 +42,33 @@
     const lb = await B.json("stats/leaderboard.json").catch(() => ({ players: [] }));
     levels = Object.fromEntries(lb.players.map(p => [p.user_id, p.level.level]));
   } catch (e) { B.fail(app, e); return; }
-  const xp = data.xp || {};
-  const hasXp = Object.keys(xp).length > 0;
+  const xp = data.xp || {}, layers = data.xp_layers || {}, pass = data.pass_xp || {};
+  const hasXp = Object.keys(xp).length > 0, hasPass = Object.keys(pass).length > 0;
+
+  // Level XP, with the bonuses on top of base underneath (Daily 2x, Double XP, hardcore, replay, XP Boost).
+  function xpCell(id) {
+    const lay = layers[id] || {};
+    const order = Object.keys(B.XP_LAYERS_SHORT);
+    const extras = Object.entries(lay).filter(([k, v]) => k !== "base" && v)
+      .sort((x, y) => (order.indexOf(x[0]) + 1 || 99) - (order.indexOf(y[0]) + 1 || 99));
+    return el("td", { class: "num", style: { color: "var(--neon)" } }, xp[id] ? `+${B.fmt(xp[id])}` : "—",
+      extras.length ? el("div", { class: "xpsub" }, `${B.fmt(lay.base || 0)} base`,
+        extras.map(([k, v]) => ` + ${B.fmt(v)} ${B.XP_LAYERS_SHORT[k] || k}`)) : null);
+  }
+  // Season pass XP: the capped game/duel grant, plus any flaming pumpkin smashed in this game.
+  function passNotes(p) {
+    const notes = [], main = (p.game || 0) + (p.duel || 0);
+    if (p.uncapped > main) notes.push(`capped from ${B.fmt(p.uncapped)}`);
+    if (p.pumpkin) notes.push(`incl. ${B.fmt(p.pumpkin)} from a flaming pumpkin`);
+    return notes;
+  }
+  function passCell(id) {
+    const p = pass[id];
+    if (!p) return el("td", { class: "num dim" }, "—");
+    const notes = passNotes(p);
+    return el("td", { class: "num", style: { color: "var(--yellow)" } }, `+${B.fmt(p.total)} ${p.emoji}`,
+      notes.length ? el("div", { class: "xpsub" }, notes.join(" · ")) : null);
+  }
 
   // One round. Answers are never published, so the card shows the question and what happened.
   function roundCard(n, r, result) {
@@ -68,18 +93,19 @@
       const t = (tally[a.user_id] = tally[a.user_id] || { pts: 0, correct: 0 });
       t.pts += a.points_awarded || 0; t.correct++;
     }
-    for (const id of Object.keys(xp)) tally[id] = tally[id] || { pts: 0, correct: 0 };
+    for (const id of [...Object.keys(xp), ...Object.keys(pass)]) tally[id] = tally[id] || { pts: 0, correct: 0 };
     const standings = Object.entries(tally).sort((a, b) => b[1].pts - a[1].pts || (xp[b[0]] || 0) - (xp[a[0]] || 0));
     const REASONS = { completed: "Played to the end", stopped: "Stopped early", inactivity_timeout: "Ended: nobody was typing",
       consecutive_skips: "Ended: too many unanswered rounds", error: "Ended by an error", abandoned: "Abandoned" };
 
     const table = standings.length ? el("div", { class: "table-scroll" }, el("table", { class: "scores" },
       el("thead", {}, el("tr", {}, el("th", {}, "RANK"), el("th", { class: "num" }, "PTS"), el("th", {}, "NAME"),
-        el("th", { class: "num" }, "CORRECT"), hasXp ? el("th", { class: "num" }, "XP EARNED") : null)),
+        el("th", { class: "num" }, "CORRECT"), hasXp ? el("th", { class: "num" }, "XP EARNED") : null,
+        hasPass ? el("th", { class: "num" }, "PASS XP") : null)),
       el("tbody", {}, standings.map(([id, t], i) => el("tr", { class: "row", style: { color: B.rankColor(i) }, onclick: () => (location.href = B.playerHref(id)) },
         el("td", { class: "rank" }, B.ordinal(i + 1)), el("td", { class: "big num" }, String(t.pts)),
         el("td", {}, el("div", { class: "who" }, B.avatar(id), B.playerLink(id))), el("td", { class: "num dim" }, String(t.correct)),
-        hasXp ? el("td", { class: "num", style: { color: "var(--neon)" } }, xp[id] ? `+${B.fmt(xp[id])}` : "—") : null))))) : el("p", {}, "Nobody scored.");
+        hasXp ? xpCell(id) : null, hasPass ? passCell(id) : null))))) : el("p", {}, "Nobody scored.");
 
     const cards = rounds.map((r, i) => {
       const ans = r.answers || [];
@@ -130,7 +156,9 @@
     });
     const xpLine = hasXp
       ? el("div", { class: "xpline" }, el("span", { class: "label" }, "XP EARNED"),
-          [m.challenger_id, m.opponent_id].map(id => el("span", {}, B.playerLink(id), el("b", {}, xp[id] ? ` +${B.fmt(xp[id])}` : " +0"))))
+          [m.challenger_id, m.opponent_id].map(id => el("span", {}, B.playerLink(id), el("b", {}, xp[id] ? ` +${B.fmt(xp[id])}` : " +0"),
+            pass[id] ? el("span", { style: { color: "var(--yellow)" } }, ` · +${B.fmt(pass[id].total)} ${pass[id].emoji}`,
+              passNotes(pass[id]).length ? el("span", { class: "xpsub" }, ` (${passNotes(pass[id]).join(", ")})`) : null) : null)))
       : el("p", { class: "page-sub" }, "XP per match is recorded for duels played from Sep 28, 2026.");
     app.replaceChildren(...[
       el("div", { class: "btn-row-label", style: { color: B.MODE_COLORS.duel, marginTop: "40px" } }, `DUEL · ${(m.format_label || "").toUpperCase()}`),
