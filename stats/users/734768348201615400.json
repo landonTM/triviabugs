@@ -2,46 +2,46 @@
   "user_id": "734768348201615400",
   "level": {
     "level": 44,
-    "xp_into_level": 20590,
+    "xp_into_level": 26090,
     "xp_for_level": 67000,
-    "progress": 0.3073134328358209,
+    "progress": 0.38940298507462684,
     "maxed": false
   },
-  "total_xp": 1056090,
+  "total_xp": 1061590,
   "period_stats": {
-    "daily_points": 77,
-    "daily_correct": 44,
-    "weekly_points": 1723,
-    "weekly_correct": 933,
-    "monthly_points": 6343,
-    "monthly_correct": 3498,
-    "yearly_points": 6542,
-    "yearly_correct": 3641,
-    "alltime_points": 6542,
-    "alltime_correct": 3641
+    "daily_points": 118,
+    "daily_correct": 58,
+    "weekly_points": 1764,
+    "weekly_correct": 947,
+    "monthly_points": 6384,
+    "monthly_correct": 3512,
+    "yearly_points": 6583,
+    "yearly_correct": 3655,
+    "alltime_points": 6583,
+    "alltime_correct": 3655
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 4134,
-    "questions_right": 1233,
+    "total_points": 4170,
+    "questions_right": 1242,
     "questions_wrong": 0,
-    "wins": 1233,
-    "current_streak": 1,
+    "wins": 1242,
+    "current_streak": 9,
     "best_streak": 37,
     "games_played": 72,
-    "insane_guesses": 1479,
+    "insane_guesses": 1484,
     "day_streak": 16,
     "last_played_date": "2026-09-30",
-    "total_xp": 1056090,
+    "total_xp": 1061590,
     "game_wins": 36,
     "achievement_best_streak": 37
   },
   "best_streak": 37,
   "fastest_guess": {
-    "response_time_ms": 2593,
-    "question_text": "What promotion was Sting most associated with before joining WWE?",
-    "category": "Wrestling"
+    "response_time_ms": 2223,
+    "question_text": "What country is represented by this flag?",
+    "category": "World Flags"
   },
   "best_category": {
     "category": "Wrestling",
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2408,
-  "average_guess_ms": 14963.903487429036,
+  "total_insane_correct": 2413,
+  "average_guess_ms": 14901.75845410628,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 32
   },
   "spelling_accuracy": {
-    "exact_count": 2387,
-    "total": 2859
+    "exact_count": 2398,
+    "total": 2873
   },
   "achievements": {
     "catalog": [
@@ -2213,7 +2213,9 @@
       "hardcore_spelling": "2026-09-26 21:14:07.096748+00:00",
       "geo_250": "2026-09-29 00:15:26.775172+00:00",
       "sports_100": "2026-09-29 21:55:38.515762+00:00",
-      "wins_30": "2026-09-29 22:44:44.157604+00:00"
+      "wins_30": "2026-09-29 22:44:44.157604+00:00",
+      "duelwins_5": "2026-09-30 20:43:34.712807+00:00",
+      "duelstreak_3": "2026-09-30 20:43:34.714984+00:00"
     },
     "baselines": {
       "points": 1842,
@@ -2223,7 +2225,7 @@
     "category_counts": {
       "disney": 43,
       "entertainment": 11,
-      "geo": 371,
+      "geo": 380,
       "gk": 236,
       "got": 1,
       "marvel": 28,
@@ -2231,19 +2233,19 @@
       "music": 35,
       "pokemon": 9,
       "sports": 100,
-      "videogames": 21,
+      "videogames": 26,
       "wrestling": 396,
-      "duelwins": 4,
-      "duelstreak": 2
+      "duelwins": 5,
+      "duelstreak": 3
     }
   },
   "duel_stats": {
     "guild_id": "861055530638114836",
     "user_id": "734768348201615400",
-    "wins": 4,
-    "losses": 2,
-    "current_streak": 2,
-    "best_streak": 2,
+    "wins": 5,
+    "losses": 3,
+    "current_streak": 0,
+    "best_streak": 3,
     "ties": 0
   },
   "cosmetics": [
@@ -3631,25 +3633,25 @@
   },
   "rivals": [
     {
+      "user_id": "795847206719717386",
+      "played": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0
+    },
+    {
       "user_id": "433990857063137282",
       "played": 4,
       "wins": 4,
       "losses": 0,
-      "ties": 0
-    },
-    {
-      "user_id": "795847206719717386",
-      "played": 2,
-      "wins": 0,
-      "losses": 2,
       "ties": 0
     }
   ],
   "xp_sources": {
     "level": {
       "game": 243040,
-      "achievement": 786750,
-      "duel": 6300,
+      "achievement": 790750,
+      "duel": 7800,
       "mission": 20000
     },
     "game_layers": {
@@ -3662,6 +3664,7 @@
       "season_0": {
         "pumpkin": 216,
         "game": 8678,
+        "duel": 550,
         "mission": 1000
       }
     },
