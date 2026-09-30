@@ -66,7 +66,7 @@
       "response_time_ms": null,
       "answered_at": "2026-09-27 03:11:29.138380+00:00",
       "category": "Geography",
-      "question_text": "Which volcano is NOT located in Antarctica?",
+      "question_text": "Which volcano south of Hamilton, Victoria, produced the lava flows containing the Byaduk Caves?",
       "image_url": null,
       "answer_count": 1
     },
@@ -126,5 +126,9 @@
       "answer_count": 1
     }
   ],
-  "xp": {}
+  "xp": {
+    "184456115927384065": 450,
+    "433990857063137282": 1500
+  },
+  "pass_xp": {}
 }
