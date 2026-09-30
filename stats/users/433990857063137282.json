@@ -2,38 +2,38 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 43,
-    "xp_into_level": 23491,
+    "xp_into_level": 23995,
     "xp_for_level": 64000,
-    "progress": 0.367046875,
+    "progress": 0.374921875,
     "maxed": false
   },
-  "total_xp": 994991,
+  "total_xp": 995495,
   "period_stats": {
-    "daily_points": 62,
-    "daily_correct": 33,
-    "weekly_points": 1095,
-    "weekly_correct": 458,
-    "monthly_points": 4212,
-    "monthly_correct": 1939,
-    "yearly_points": 4386,
-    "yearly_correct": 2032,
-    "alltime_points": 4386,
-    "alltime_correct": 2032
+    "daily_points": 82,
+    "daily_correct": 52,
+    "weekly_points": 1115,
+    "weekly_correct": 477,
+    "monthly_points": 4232,
+    "monthly_correct": 1958,
+    "yearly_points": 4406,
+    "yearly_correct": 2051,
+    "alltime_points": 4406,
+    "alltime_correct": 2051
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3226,
-    "questions_right": 869,
+    "total_points": 3228,
+    "questions_right": 870,
     "questions_wrong": 0,
-    "wins": 869,
+    "wins": 870,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 113,
-    "insane_guesses": 859,
+    "games_played": 114,
+    "insane_guesses": 877,
     "day_streak": 8,
     "last_played_date": "2026-09-30",
-    "total_xp": 994991,
+    "total_xp": 995495,
     "game_wins": 36,
     "achievement_best_streak": 27
   },
@@ -49,19 +49,19 @@
     "correct": 156
   },
   "best_insane_round": {
-    "question_text": "Name every US state",
-    "category": "Geography",
-    "guesses": 17
+    "question_text": "Minecraft Block Types",
+    "category": "Video Games",
+    "guesses": 18
   },
-  "total_insane_correct": 1164,
-  "average_guess_ms": 16510.278801843317,
+  "total_insane_correct": 1182,
+  "average_guess_ms": 16554.23590333717,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 30
   },
   "spelling_accuracy": {
-    "exact_count": 1597,
-    "total": 1818
+    "exact_count": 1614,
+    "total": 1837
   },
   "achievements": {
     "catalog": [
@@ -2227,7 +2227,7 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 44,
+      "disney": 45,
       "entertainment": 0,
       "geo": 108,
       "gk": 203,
@@ -2237,7 +2237,7 @@
       "music": 12,
       "pokemon": 10,
       "sports": 30,
-      "videogames": 69,
+      "videogames": 87,
       "wrestling": 196,
       "duelwins": 25,
       "duelstreak": 5
@@ -3670,18 +3670,18 @@
       "duel": 39150,
       "mission": 30000,
       "achievement": 718500,
-      "game": 207341
+      "game": 207845
     },
     "game_layers": {
       "daily": 3491,
       "replay": 19,
       "hardcore": 1752,
-      "base": 12760
+      "base": 13264
     },
     "pass": {
       "season_0": {
         "pumpkin": 577,
-        "game": 10029,
+        "game": 10533,
         "duel": 2350,
         "mission": 1500
       }
