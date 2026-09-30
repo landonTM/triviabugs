@@ -22,7 +22,7 @@
       "response_time_ms": 6718,
       "answered_at": "2026-09-22 23:41:10.470439+00:00",
       "category": "Geography",
-      "question_text": "How many countries does Mexico border?",
+      "question_text": "How many countries share a land border with Mexico?",
       "image_url": null,
       "answer_count": 1
     },
@@ -38,5 +38,8 @@
       "answer_count": 1
     }
   ],
-  "xp": {}
+  "xp": {
+    "433990857063137282": 1500
+  },
+  "pass_xp": {}
 }
