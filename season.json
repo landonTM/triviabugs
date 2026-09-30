@@ -166,8 +166,8 @@
         },
         {
           "user_id": "794420965387403265",
-          "points": 244,
-          "correct": 111
+          "points": 297,
+          "correct": 132
         },
         {
           "user_id": "184456115927384065",
@@ -210,9 +210,9 @@
         },
         {
           "user_id": "794420965387403265",
-          "xp": 2200,
+          "xp": 2750,
           "level": 2,
-          "xp_into_level": 330,
+          "xp_into_level": 880,
           "xp_for_level": 1040,
           "completed": false
         }
