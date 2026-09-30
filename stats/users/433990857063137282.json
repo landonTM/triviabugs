@@ -9,24 +9,24 @@
   },
   "total_xp": 992629,
   "period_stats": {
-    "daily_points": 31,
-    "daily_correct": 13,
-    "weekly_points": 1107,
-    "weekly_correct": 466,
-    "monthly_points": 4181,
-    "monthly_correct": 1919,
-    "yearly_points": 4355,
-    "yearly_correct": 2012,
-    "alltime_points": 4355,
-    "alltime_correct": 2012
+    "daily_points": 33,
+    "daily_correct": 14,
+    "weekly_points": 1109,
+    "weekly_correct": 467,
+    "monthly_points": 4183,
+    "monthly_correct": 1920,
+    "yearly_points": 4357,
+    "yearly_correct": 2013,
+    "alltime_points": 4357,
+    "alltime_correct": 2013
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3204,
-    "questions_right": 858,
+    "total_points": 3206,
+    "questions_right": 859,
     "questions_wrong": 0,
-    "wins": 858,
+    "wins": 859,
     "current_streak": 1,
     "best_streak": 27,
     "games_played": 110,
@@ -45,8 +45,8 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 858,
-    "correct": 154
+    "points": 860,
+    "correct": 155
   },
   "best_insane_round": {
     "question_text": "Name every US state",
@@ -54,14 +54,14 @@
     "guesses": 17
   },
   "total_insane_correct": 1155,
-  "average_guess_ms": 16289.528588098015,
+  "average_guess_ms": 16314.064102564103,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 30
   },
   "spelling_accuracy": {
-    "exact_count": 1578,
-    "total": 1798
+    "exact_count": 1579,
+    "total": 1799
   },
   "achievements": {
     "catalog": [
