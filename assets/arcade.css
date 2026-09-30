@@ -229,3 +229,23 @@ code { font-family: var(--term); color: var(--cyan); background: var(--panel-2);
   .src .bar { grid-column: 1 / -1; grid-row: 2; }
 }
 .av.sm { width: 28px; height: 28px; border-width: 2px; font-size: 11px; }
+
+/* ---------- cosmetic cards (cosmetics.html gallery, season.html tiers; B.cosmeticCard) ---------- */
+.cgrid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.ccard { border: 3px solid var(--line-dim); background: var(--panel); padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.ccard.mine { border-color: var(--neon); }
+.ccard.locked { opacity: .45; }
+.ccard .top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.ccard .nm { font-size: 28px; line-height: 1.05; }
+.ccard .how { font: 9px/1.6 var(--pixel); color: var(--c, var(--cyan)); white-space: nowrap; }
+.ccard .pv { border-left: 4px solid var(--edge, var(--line-dim)); background: var(--panel-2); padding: 10px 12px; font-size: 22px; overflow-wrap: anywhere; }
+.ccard .pv p { margin: 0 0 6px; } .ccard .pv p:last-child { margin: 0; }
+.ccard .emo { display: flex; gap: 18px; font-size: 40px; line-height: 1; }
+.ccard .emo figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.ccard .emo figcaption { font: 8px/1.4 var(--pixel); color: var(--muted); }
+.ccard .emo img.cemoji { height: 40px; }
+.ccard .gif { width: 100%; max-height: 180px; object-fit: cover; border: 3px solid var(--line-dim); background: var(--bg); }
+.ccard .owners { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.ccard .owners .cnt { font: 9px/1.6 var(--pixel); color: var(--muted); margin-right: 4px; }
+.ccard .owners a { display: inline-flex; position: relative; }
+.ccard .owners a.eq .av { border-color: var(--neon); }

@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20260930">
-<script src="assets/bertha.js?v=20260930"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20260930b">
+<script src="assets/bertha.js?v=20260930b"></script>
 <style>
   .banner { border: 4px solid var(--yellow); background: var(--panel-2); padding: 24px 28px; margin-top: 24px; display: grid; grid-template-columns: 1fr auto; gap: 16px 28px; align-items: center; }
   .banner h1 { margin: 0; font: clamp(22px, 4.5vw, 38px)/1.3 var(--pixel); color: var(--yellow); font-weight: 400; }
@@ -30,9 +30,10 @@
   .banner .clock b { display: block; font: clamp(16px, 3vw, 26px)/1.3 var(--pixel); color: var(--neon); font-weight: 400; }
   .chips { display: flex; flex-wrap: wrap; gap: 10px; }
   .chip-big { font: 11px/1 var(--pixel); padding: 10px 12px; border: 3px solid var(--yellow); color: var(--yellow); }
-  .tiers { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
-  .tier { border: 3px solid var(--line-dim); background: var(--panel); padding: 12px 14px; display: flex; flex-direction: column; gap: 6px; }
-  .tier .n { font: 11px/1.4 var(--pixel); color: var(--purple); }
+  .tiers { display: flex; flex-direction: column; gap: 14px; }
+  .tier { border: 3px solid var(--line-dim); background: var(--panel-2); padding: 14px 16px; display: flex; flex-direction: column; gap: 12px; }
+  .tier .head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; }
+  .tier .n { font: 13px/1.4 var(--pixel); color: var(--purple); }
   .tier .x { color: var(--muted); }
   .tier .r { font-size: 22px; line-height: 1.1; }
   .tier.none .r { color: var(--muted); }
@@ -61,6 +62,17 @@
     await B.loadPlayers();
     data = await B.json("season.json");
   } catch (e) { B.fail(app, e); return; }
+  // Each tier's rewards as full cosmetic cards (cosmetics.json), keyed "<season name>|<tier>"; a reward with no
+  // cosmetic yet (or no cosmetics.json) falls back to its name.
+  const byTier = new Map();
+  for (const t of (await B.json("cosmetics.json").catch(() => ({ types: [] }))).types || []) {
+    for (const item of t.items) {
+      if (item.unlock.how !== "season") continue;
+      const k = `${item.unlock.season}|${item.unlock.tier}`;
+      if (!byTier.has(k)) byTier.set(k, []);
+      byTier.get(k).push({ type: t.type, item });
+    }
+  }
   const list = data.seasons || [];
   if (!list.length) { app.replaceChildren(el("div", { class: "loading" }, "NO SEASONS YET")); return; }
 
@@ -179,10 +191,16 @@
       }
     }
     out.push(el("div", { class: "btn-row-label" }, "EVERY TIER"));
-    out.push(el("div", { class: "tiers" }, s.tiers.map(t => el("div", { class: `tier${t.rewards.length ? "" : " none"}` },
-      el("span", { class: "n" }, `TIER ${t.level}`),
-      el("span", { class: "x" }, `${B.fmt(t.xp)} ${s.emoji} XP`),
-      el("span", { class: "r" }, t.rewards.length ? t.rewards.join(" + ") : "Rewards to be announced")))));
+    out.push(el("div", { class: "tiers" }, s.tiers.map(t => {
+      const cards = (byTier.get(`${s.name}|${t.level}`) || [])
+        .sort((a, b) => t.rewards.indexOf(a.item.label) - t.rewards.indexOf(b.item.label));
+      const carded = new Set(cards.map(c => c.item.label));
+      const rest = t.rewards.filter(r => !carded.has(r));
+      return el("section", { class: `tier${t.rewards.length ? "" : " none"}` },
+        el("div", { class: "head" }, el("span", { class: "n" }, `TIER ${t.level}`), el("span", { class: "x" }, `${B.fmt(t.xp)} ${s.emoji} XP`)),
+        cards.length ? el("div", { class: "cgrid" }, cards.map(c => B.cosmeticCard(c.type, c.item, { tag: B.COSMETIC_TYPE[c.type] }))) : null,
+        rest.length || !t.rewards.length ? el("span", { class: "r" }, rest.length ? rest.join(" + ") : "Rewards to be announced") : null);
+    })));
 
     app.replaceChildren(...out);
   }

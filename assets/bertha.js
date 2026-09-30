@@ -284,6 +284,43 @@ const B = (() => {
       side(m.opponent_id, m.opponent_score, "p2", "var(--pink)"));
   }
 
+  // ---------- cosmetics (cosmetics.json -- the gallery and the season page's tiers) ----------
+  const COSMETIC_TYPE = { footer: "FOOTER", emoji: "EMOJI PACK", theme: "RESPONSE THEME", embedcolor: "EMBED COLOR", mvp: "MVP CARD" };
+  function cosmeticUnlock(u) {
+    if (u.how === "level") return u.level <= 1 ? ["EVERYONE", "var(--muted)"] : [`LEVEL ${u.level}`, "var(--cyan)"];
+    if (u.how === "season") return [`${u.emoji} ${u.season.toUpperCase()} · TIER ${u.tier}`, "var(--yellow)"];
+    return ["SPECIAL GRANT", "var(--pink)"];
+  }
+  function cosmeticPreview(t, item, fill) {
+    const p = item.preview || {};
+    if (t === "footer") return el("div", { class: "pv" }, fill(p.template));
+    if (t === "emoji") return el("div", { class: "emo" }, [["correct", "CORRECT"], ["streak", "STREAK"], ["speed", "SPEED"]].map(([k, cap]) =>
+      el("figure", {}, el("span", {}, emoji(p[k])), el("figcaption", {}, cap))));
+    if (t === "theme") return el("div", { class: "pv" }, (p.lines || []).map(line => el("p", {}, md(fill(line)))));
+    if (t === "embedcolor") return el("div", { class: "pv", style: { "--edge": p.hex || "var(--line-dim)" } },
+      p.hex ? el("span", {}, el("b", { style: { color: p.hex, fontWeight: 400 } }, "■ "), p.hex) : "Each message keeps its own colour.");
+    return el("div", { style: { display: "flex", flexDirection: "column", gap: "8px" } },  // MVP card
+      p.gif ? el("img", { class: "gif", src: p.gif, alt: `${item.label} GIF`, loading: "lazy" }) : null,
+      el("div", { class: "pv" }, p.quote ? fill(p.quote) : "No card: the game just ends."));
+  }
+  // One cosmetic: name, a tag (how it unlocks, or opts.tag), its preview, and who owns / has it equipped.
+  // opts.who highlights one player's collection (dims what they don't own); "{user}" in previews becomes their name.
+  function cosmeticCard(t, item, opts = {}) {
+    const who = opts.who || "";
+    const fill = s => String(s || "").replaceAll("{user}", who ? name(who) : "you").replaceAll("{loser}", "the runner-up");
+    const [how, color] = opts.tag ? [opts.tag, opts.tagColor || "var(--purple)"] : cosmeticUnlock(item.unlock);
+    const owns = item.owners || [], eq = new Set(item.equipped || []);
+    const everyone = item.unlock.how === "level" && item.unlock.level <= 1;
+    return el("div", { class: `ccard${who ? (owns.includes(who) ? " mine" : " locked") : ""}`, style: { "--c": color } },
+      el("div", { class: "top" }, el("span", { class: "nm" }, item.label), el("span", { class: "how" }, how)),
+      cosmeticPreview(t, item, fill),
+      el("div", { class: "owners" },
+        el("span", { class: "cnt" }, everyone ? `EVERYONE HAS THIS${eq.size ? ` · ${eq.size} EQUIPPED` : ""}`
+          : owns.length ? `OWNED BY ${owns.length}${eq.size ? ` · ${eq.size} EQUIPPED` : ""}` : "NOBODY HAS IT YET"),
+        (everyone ? [...eq] : owns).map(id => el("a", { href: playerHref(id), class: eq.has(id) ? "eq" : "",
+          title: `${name(id)}${eq.has(id) ? " (equipped)" : ""}` }, avatar(id, "sm")))));
+  }
+
   // ---------- chrome ----------
   function topbar(active) {
     const nav = el("nav", { "aria-label": "Site" },
@@ -326,7 +363,7 @@ const B = (() => {
   return {
     json, el, $, fmt, secs, pct, ts, when, time, day, dur, ordinal, rankColor, loadPlayers, name, avatar, playerHref,
     playerLink, colorFor, emoji, md, XP_SOURCES, XP_LAYERS, XP_LAYERS_SHORT, METRICS, METRIC, GROUPS, PERIODS, categoryMetric, allCategories, ranking, rankOf,
-    allMatches, matchHref, matchKind, matchTitle, fightCard, topbar, footer, fail, param, periodButtons,
+    COSMETIC_TYPE, cosmeticCard, allMatches, matchHref, matchKind, matchTitle, fightCard, topbar, footer, fail, param, periodButtons,
     secondsToDaily, clock, MODE_COLORS,
   };
 })();
