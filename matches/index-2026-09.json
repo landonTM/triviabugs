@@ -2645,6 +2645,25 @@
       "started_at": "2026-09-30 22:01:43.540328+00:00",
       "ended_at": "2026-09-30 22:16:24.772066+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 104,
+      "kind": "game",
+      "mode": "hardcore",
+      "channel_id": "861424168875982848",
+      "total_rounds": 40,
+      "rounds_played": 40,
+      "categories": [
+        "logos",
+        "sports",
+        "world flags",
+        "arts and literature"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-09-30 22:17:16.053830+00:00",
+      "ended_at": "2026-09-30 22:49:17.425221+00:00",
+      "end_reason": "completed"
     }
   ]
 }
