@@ -9,28 +9,28 @@
   },
   "total_xp": 997610,
   "period_stats": {
-    "daily_points": 115,
-    "daily_correct": 70,
-    "weekly_points": 1148,
-    "weekly_correct": 495,
-    "monthly_points": 4265,
-    "monthly_correct": 1976,
-    "yearly_points": 4439,
-    "yearly_correct": 2069,
-    "alltime_points": 4439,
-    "alltime_correct": 2069
+    "daily_points": 128,
+    "daily_correct": 73,
+    "weekly_points": 1161,
+    "weekly_correct": 498,
+    "monthly_points": 4278,
+    "monthly_correct": 1979,
+    "yearly_points": 4452,
+    "yearly_correct": 2072,
+    "alltime_points": 4452,
+    "alltime_correct": 2072
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3246,
-    "questions_right": 873,
+    "total_points": 3258,
+    "questions_right": 875,
     "questions_wrong": 0,
-    "wins": 873,
+    "wins": 875,
     "current_streak": 1,
     "best_streak": 27,
     "games_played": 116,
-    "insane_guesses": 892,
+    "insane_guesses": 893,
     "day_streak": 8,
     "last_played_date": "2026-09-30",
     "total_xp": 997610,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 864,
-    "correct": 156
+    "points": 870,
+    "correct": 157
   },
   "best_insane_round": {
     "question_text": "Minecraft Block Types",
     "category": "Video Games",
     "guesses": 18
   },
-  "total_insane_correct": 1197,
-  "average_guess_ms": 16528.933486238533,
+  "total_insane_correct": 1198,
+  "average_guess_ms": 16499.329519450803,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 30
   },
   "spelling_accuracy": {
-    "exact_count": 1630,
-    "total": 1855
+    "exact_count": 1632,
+    "total": 1858
   },
   "achievements": {
     "catalog": [
@@ -2227,9 +2227,9 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 45,
+      "disney": 46,
       "entertainment": 0,
-      "geo": 108,
+      "geo": 109,
       "gk": 214,
       "got": 12,
       "marvel": 73,
