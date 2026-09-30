@@ -1,67 +1,67 @@
 {
   "user_id": "795847206719717386",
   "level": {
-    "level": 44,
-    "xp_into_level": 52900,
-    "xp_for_level": 67000,
-    "progress": 0.7895522388059701,
+    "level": 45,
+    "xp_into_level": 7463,
+    "xp_for_level": 70000,
+    "progress": 0.10661428571428572,
     "maxed": false
   },
-  "total_xp": 1088400,
+  "total_xp": 1109963,
   "period_stats": {
-    "daily_points": 1067,
-    "daily_correct": 511,
-    "weekly_points": 1887,
-    "weekly_correct": 966,
-    "monthly_points": 7293,
-    "monthly_correct": 4061,
-    "yearly_points": 7399,
-    "yearly_correct": 4120,
-    "alltime_points": 7399,
-    "alltime_correct": 4120
+    "daily_points": 275,
+    "daily_correct": 111,
+    "weekly_points": 2196,
+    "weekly_correct": 1095,
+    "monthly_points": 7602,
+    "monthly_correct": 4190,
+    "yearly_points": 7708,
+    "yearly_correct": 4249,
+    "alltime_points": 7708,
+    "alltime_correct": 4249
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 4839,
-    "questions_right": 1560,
+    "total_points": 5083,
+    "questions_right": 1624,
     "questions_wrong": 0,
-    "wins": 1560,
-    "current_streak": 3,
-    "best_streak": 22,
-    "games_played": 78,
-    "insane_guesses": 1606,
+    "wins": 1624,
+    "current_streak": 7,
+    "best_streak": 38,
+    "games_played": 81,
+    "insane_guesses": 1671,
     "day_streak": 4,
     "last_played_date": "2026-09-29",
-    "total_xp": 1088400,
-    "game_wins": 43,
-    "achievement_best_streak": 18
+    "total_xp": 1109963,
+    "game_wins": 46,
+    "achievement_best_streak": 38
   },
-  "best_streak": 22,
+  "best_streak": 38,
   "fastest_guess": {
-    "response_time_ms": 2295,
+    "response_time_ms": 2279,
     "question_text": "What logo is this?",
     "category": "Logos"
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 983,
-    "correct": 719
+    "points": 992,
+    "correct": 728
   },
   "best_insane_round": {
     "question_text": "Name all countries",
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2560,
-  "average_guess_ms": 19116.71923076923,
+  "total_insane_correct": 2625,
+  "average_guess_ms": 18622.12253694581,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
-    "active_days": 29
+    "active_days": 30
   },
   "spelling_accuracy": {
-    "exact_count": 3115,
-    "total": 3521
+    "exact_count": 3234,
+    "total": 3650
   },
   "achievements": {
     "catalog": [
@@ -2214,7 +2214,9 @@
       "quickfire_win": "2026-09-29 01:33:58.633250+00:00",
       "duelstreak_3": "2026-09-29 01:48:32.442358+00:00",
       "geo_250": "2026-09-29 18:49:26.480956+00:00",
-      "wrestling_250": "2026-09-29 22:41:30.048588+00:00"
+      "wrestling_250": "2026-09-29 22:41:30.048588+00:00",
+      "streak_20": "2026-09-30 00:09:56.472412+00:00",
+      "streak_25": "2026-09-30 00:12:22.299240+00:00"
     },
     "baselines": {
       "points": 1991,
@@ -2224,16 +2226,16 @@
     "category_counts": {
       "disney": 77,
       "entertainment": 10,
-      "geo": 283,
-      "gk": 230,
+      "geo": 302,
+      "gk": 243,
       "got": 80,
       "marvel": 79,
-      "movies": 18,
-      "music": 12,
+      "movies": 24,
+      "music": 18,
       "pokemon": 31,
       "sports": 24,
-      "videogames": 49,
-      "wrestling": 323,
+      "videogames": 61,
+      "wrestling": 332,
       "duelwins": 6,
       "duelstreak": 3
     }
@@ -3565,8 +3567,8 @@
       "key": "forgettosmile",
       "label": "Forget to Smile MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
