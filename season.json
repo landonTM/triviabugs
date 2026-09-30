@@ -151,8 +151,8 @@
       "standings": [
         {
           "user_id": "795847206719717386",
-          "points": 1391,
-          "correct": 677
+          "points": 1700,
+          "correct": 806
         },
         {
           "user_id": "734768348201615400",
@@ -161,8 +161,8 @@
         },
         {
           "user_id": "433990857063137282",
-          "points": 533,
-          "correct": 191
+          "points": 565,
+          "correct": 202
         },
         {
           "user_id": "184456115927384065",
@@ -178,18 +178,18 @@
       "pass": [
         {
           "user_id": "795847206719717386",
-          "xp": 12845,
-          "level": 10,
-          "xp_into_level": 695,
-          "xp_for_level": 1600,
+          "xp": 14679,
+          "level": 11,
+          "xp_into_level": 929,
+          "xp_for_level": 1670,
           "completed": false
         },
         {
           "user_id": "433990857063137282",
-          "xp": 12008,
-          "level": 9,
-          "xp_into_level": 1388,
-          "xp_for_level": 1530,
+          "xp": 12617,
+          "level": 10,
+          "xp_into_level": 467,
+          "xp_for_level": 1600,
           "completed": false
         },
         {
