@@ -323,9 +323,15 @@ const B = (() => {
 
   // ---------- chrome ----------
   function topbar(active) {
-    const nav = el("nav", { "aria-label": "Site" },
+    const nav = el("nav", { "aria-label": "Site", id: "sitenav" },
       NAV.map(([href, label]) => el("a", { href, "aria-current": href === active ? "page" : null }, label)));
-    const bar = el("header", { class: "topbar" }, nav, el("span", { class: "hiscore", id: "hiscore" }));
+    // Phones get a menu button (the current page's name) that opens the links as a grid; desktop shows them inline.
+    const here = (NAV.find(([href]) => href === active) || [null, "MENU"])[1];
+    const setOpen = open => { bar.classList.toggle("open", open); toggle.setAttribute("aria-expanded", String(open)); };
+    const toggle = el("button", { class: "menu-btn", type: "button", "aria-expanded": "false", "aria-controls": "sitenav",
+      onclick: () => setOpen(!bar.classList.contains("open")) }, el("span", { "aria-hidden": "true" }, "☰"), here);
+    const bar = el("header", { class: "topbar" }, toggle, nav, el("span", { class: "hiscore", id: "hiscore" }));
+    document.addEventListener("keydown", e => { if (e.key === "Escape") setOpen(false); });
     document.querySelector(".wrap").prepend(bar);
     json("stats/leaderboard.json").then(lb => {
       const top = lb.players[0];
