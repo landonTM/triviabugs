@@ -55,7 +55,7 @@
       "response_time_ms": null,
       "answered_at": "2026-09-24 00:38:42.496507+00:00",
       "category": "Geography",
-      "question_text": "What strait, located between Malaysia and Indonesia, is the world's busiest shipping lane?",
+      "question_text": "Which strait separates the Malay Peninsula from the Indonesian island of Sumatra?",
       "image_url": null,
       "answer_count": 1
     },
@@ -71,5 +71,9 @@
       "answer_count": 1
     }
   ],
-  "xp": {}
+  "xp": {
+    "184456115927384065": 1500,
+    "433990857063137282": 150
+  },
+  "pass_xp": {}
 }
