@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-29T00:39:48.030840+00:00",
+  "generated_at": "2026-09-30T01:54:59.997432+00:00",
   "reports": [
+    {
+      "id": 84,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1554672676197376071",
+      "reported_by": "433990857063137282",
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-09-30T01:54:59.992010+00:00",
+      "fixed_at": null,
+      "category": "Marvel",
+      "question_type": "standard",
+      "question_text": "What material is Captain America's iconic shield made from?",
+      "correct_answers": [
+        "mTH96/SDjv8V"
+      ]
+    },
     {
       "id": 83,
       "guild_id": "861055530638114836",
