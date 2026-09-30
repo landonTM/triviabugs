@@ -3620,5 +3620,22 @@
       "losses": 0,
       "ties": 0
     }
-  ]
+  ],
+  "xp_sources": {
+    "level": {
+      "duel": 3750,
+      "game": 39035,
+      "achievement": 361750
+    },
+    "game_layers": {
+      "base": 6944,
+      "replay": 147,
+      "daily": 1028
+    },
+    "pass": {
+      "season_0": {
+        "game": 3300
+      }
+    }
+  }
 }
