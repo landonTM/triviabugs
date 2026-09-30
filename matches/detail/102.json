@@ -1,0 +1,448 @@
+{
+  "game": {
+    "id": 102,
+    "kind": "game",
+    "mode": "hardcore",
+    "channel_id": "861424168875982848",
+    "total_rounds": 20,
+    "rounds_played": 20,
+    "categories": [
+      "Sports"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "184456115927384065",
+    "started_at": "2026-09-30 21:45:12.277604+00:00",
+    "ended_at": "2026-09-30 22:01:39.660972+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 6352,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:45:12.668281+00:00",
+      "ended_at": "2026-09-30 21:45:32.807479+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "What is a golf score of two under par on a hole called?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6353,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:46:03.048159+00:00",
+      "ended_at": "2026-09-30 21:46:09.347917+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "Which club did Paris Saint-Germain defeat on penalties to win the 2026 UEFA Champions League final?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 6040,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 21:46:09.343439+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6354,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:46:39.860659+00:00",
+      "ended_at": "2026-09-30 21:47:00.108654+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "What boxer holds the record for most career knockouts?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6355,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:47:30.573589+00:00",
+      "ended_at": "2026-09-30 21:47:35.288790+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "What is the break between the two halves of a soccer match called?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 4550,
+          "exact_match": false,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 21:47:35.285137+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6356,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:48:05.488792+00:00",
+      "ended_at": "2026-09-30 21:48:19.064872+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "Which club is based at Signal Iduna Park?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 10864,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 21:48:19.061367+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6357,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:48:49.828684+00:00",
+      "ended_at": "2026-09-30 21:49:21.088609+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Which basketball team did Michael Jordan play for in college?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6358,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:49:51.378390+00:00",
+      "ended_at": "2026-09-30 21:49:55.191672+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "_________ Eagles (NFL)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 3632,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 21:49:55.188166+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6359,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:50:25.648956+00:00",
+      "ended_at": "2026-09-30 21:50:45.851508+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "_________ Brewers (MLB)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6360,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:51:16.059461+00:00",
+      "ended_at": "2026-09-30 21:51:36.426181+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Which English club is nicknamed 'The Magpies'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6361,
+      "mode": "insane",
+      "started_at": "2026-09-30 21:52:06.642839+00:00",
+      "ended_at": "2026-09-30 21:53:06.812008+00:00",
+      "winner_id": null,
+      "category": "Marvel",
+      "question_text": "Marvel Superheroes and Villains",
+      "image_url": null,
+      "answer_count": 923,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 7306,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 21:52:14.115215+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 9558,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 21:52:16.367765+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 12101,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 21:52:18.911069+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 12430,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 21:52:19.239827+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 13907,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 21:52:20.716554+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 22561,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 21:52:29.370634+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 30296,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 21:52:37.107821+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6362,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:53:37.306320+00:00",
+      "ended_at": "2026-09-30 21:53:51.727525+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "What trophy is awarded to the NHL playoff champion?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 13941,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 21:53:51.723979+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6363,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:54:22.006290+00:00",
+      "ended_at": "2026-09-30 21:54:28.135550+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "What English club is nicknamed 'The Gunners'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 5152,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 21:54:28.132180+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6364,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:54:58.338656+00:00",
+      "ended_at": "2026-09-30 21:55:02.485662+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "What is the maximum number of players a soccer team can have on the field at once, including the goalkeeper?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 3981,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 21:55:02.481208+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6365,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:55:32.889115+00:00",
+      "ended_at": "2026-09-30 21:55:53.441451+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "_________ Diamondbacks (MLB)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6366,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:56:23.855965+00:00",
+      "ended_at": "2026-09-30 21:56:29.442066+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Sports",
+      "question_text": "_________ Cavaliers (NBA)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 5083,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 21:56:29.438582+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6367,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:56:59.681934+00:00",
+      "ended_at": "2026-09-30 21:57:19.880247+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "What does the abbreviation VAR stand for in modern soccer?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6368,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:57:50.262871+00:00",
+      "ended_at": "2026-09-30 21:57:57.487497+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "What is the name of South America's soccer governing body?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 6962,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 21:57:57.482985+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6369,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:58:27.733891+00:00",
+      "ended_at": "2026-09-30 21:58:47.941185+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "_________ Pelicans (NBA)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6370,
+      "mode": "standard",
+      "started_at": "2026-09-30 21:59:18.141558+00:00",
+      "ended_at": "2026-09-30 21:59:38.472077+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "What does the French term 'jeu de paume,' the medieval precursor to tennis, translate to in English?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6371,
+      "mode": "insane",
+      "started_at": "2026-09-30 22:00:08.755353+00:00",
+      "ended_at": "2026-09-30 22:01:09.175331+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "Norse Gods",
+      "image_url": null,
+      "answer_count": 31,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 2645,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:00:11.818341+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 3600,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:00:12.773769+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 6779,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:00:15.952623+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 8010,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:00:17.183743+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 10336,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:00:19.510379+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "184456115927384065": 1443,
+    "433990857063137282": 1298
+  },
+  "xp_layers": {
+    "184456115927384065": {
+      "base": 962,
+      "hardcore": 481
+    },
+    "433990857063137282": {
+      "base": 865,
+      "hardcore": 433
+    }
+  },
+  "pass_xp": {
+    "184456115927384065": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 1443,
+      "game": 550,
+      "emoji": "🎃"
+    },
+    "433990857063137282": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 1298,
+      "game": 550,
+      "emoji": "🎃"
+    }
+  }
+}
