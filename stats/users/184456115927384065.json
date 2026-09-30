@@ -9,24 +9,24 @@
   },
   "total_xp": 862126,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 1095,
-    "weekly_correct": 470,
-    "monthly_points": 2477,
-    "monthly_correct": 1268,
-    "yearly_points": 2477,
-    "yearly_correct": 1268,
-    "alltime_points": 2477,
-    "alltime_correct": 1268
+    "daily_points": 7,
+    "daily_correct": 4,
+    "weekly_points": 1102,
+    "weekly_correct": 474,
+    "monthly_points": 2484,
+    "monthly_correct": 1272,
+    "yearly_points": 2484,
+    "yearly_correct": 1272,
+    "alltime_points": 2484,
+    "alltime_correct": 1272
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 1805,
-    "questions_right": 596,
+    "total_points": 1812,
+    "questions_right": 600,
     "questions_wrong": 0,
-    "wins": 596,
+    "wins": 600,
     "current_streak": 1,
     "best_streak": 21,
     "games_played": 96,
@@ -54,14 +54,14 @@
     "guesses": 16
   },
   "total_insane_correct": 672,
-  "average_guess_ms": 20923.424496644297,
+  "average_guess_ms": 20995.691666666666,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
-    "active_days": 25
+    "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1086,
-    "total": 1176
+    "exact_count": 1089,
+    "total": 1180
   },
   "achievements": {
     "catalog": [
