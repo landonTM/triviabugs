@@ -72,9 +72,20 @@ const B = (() => {
   }
 
   // ---------- formatting ----------
-  const fmt = n => (n == null ? "—" : Number(n).toLocaleString("en-US"));
-  const secs = ms => (ms == null || ms === 0 ? "—" : `${(ms / 1000).toFixed(1)}s`);
-  const pct = (a, b) => (b ? `${Math.round((100 * a) / b)}%` : "—");
+  // ---------- numbers are shown exactly, never rounded ----------
+  // (Landon, 2026-09-30: "2.2s" made 2.16s and 2.22s look tied.) Whole numbers and single answer times (whole
+  // milliseconds) show in full. Only an endless decimal -- an average, or a percentage like 22/37 -- has to stop
+  // somewhere: those keep 3 decimals of a second / 2 decimals of a percent, finer than any real difference between
+  // players.
+  const trim = s => (s.includes(".") ? s.replace(/0+$/, "").replace(/\.$/, "") : s);
+  function fmt(n) {
+    if (n == null) return "—";
+    const [i, f] = String(Number(n)).split(".");  // String() is the shortest exact form -- no float noise, no rounding
+    return Number(i).toLocaleString("en-US") + (f ? `.${f}` : "");
+  }
+  const secs = ms => (ms == null || ms === 0 ? "—" : `${(ms / 1000).toFixed(3)}s`);
+  const pctOf = v => `${trim(Number(v).toFixed(2))}%`;
+  const pct = (a, b) => (b ? pctOf((100 * a) / b) : "—");
   function ts(s) {
     if (!s) return null;
     // "2026-09-27 18:00:07.571969+00:00" -> ISO with millisecond precision (Safari rejects the raw form)
@@ -90,11 +101,13 @@ const B = (() => {
   const when = s => { const d = ts(s); return d ? ET.format(d) : "—"; };
   const time = s => { const d = ts(s); return d ? ET_TIME.format(d) : "—"; };
   const day = s => { const d = ts(s); return d ? ET_DATE.format(d) : "—"; };
+  // Exact to the second: "1h 04m 23s", "4m 07s", "23s" (days as hours: "31h 02m 00s").
   function dur(ms) {
     if (ms == null || ms < 0) return "—";
-    const m = Math.round(ms / 60000);
-    if (m < 1) return `${Math.round(ms / 1000)}s`;
-    return m >= 60 ? `${Math.floor(m / 60)}h ${String(m % 60).padStart(2, "0")}m` : `${m}m`;
+    const t = Math.floor(ms / 1000), h = Math.floor(t / 3600), m = Math.floor(t / 60) % 60, sec = t % 60;
+    const p2 = n => String(n).padStart(2, "0");
+    if (h) return `${h}h ${p2(m)}m ${p2(sec)}s`;
+    return m ? `${m}m ${p2(sec)}s` : `${sec}s`;
   }
   const ordinal = n => `${n}${["TH", "ST", "ND", "RD"][(n % 100 >= 11 && n % 100 <= 13) || n % 10 > 3 ? 0 : n % 10]}`;
   const rankColor = i => RANK_COLORS[i % RANK_COLORS.length];
@@ -144,7 +157,7 @@ const B = (() => {
   const per = key => (p, pd) => ((p.periods[pd] || {})[key]) || 0;
   const cur = key => p => (p.current || {})[key] || 0;
   const ratio = (a, b) => (p, pd) => { const s = p.periods[pd] || {}; return s[b] ? (100 * (s[a] || 0)) / s[b] : 0; };
-  const pctShow = v => `${Math.round(v)}%`;
+  const pctShow = pctOf;
   const GROUPS = [
     ["xp", "XP & LEVEL"], ["points", "POINTS & ANSWERS"], ["speed", "SPEED & ACCURACY"], ["streaks", "STREAKS"],
     ["games", "GAMES"], ["duels", "DUELS"], ["season", "SEASON"], ["progress", "MISSIONS & ACHIEVEMENTS"],
@@ -155,7 +168,8 @@ const B = (() => {
   const METRICS = [
     M("total_xp", "TOTAL XP", "xp", p => p.total_xp, { period: false }),
     M("level", "LEVEL", "xp", p => p.level.level, { period: false, tiebreak: p => p.total_xp }),
-    M("boost_hours_banked", "XP BOOST HOURS BANKED", "xp", cur("boost_hours_banked"), { period: false, show: v => `${v}h` }),
+    M("boost_hours_banked", "XP BOOST TIME BANKED", "xp", p => (p.current || {}).boost_secs_banked ?? Math.round(3600 * ((p.current || {}).boost_hours_banked || 0)),
+      { period: false, show: v => dur(v * 1000) }),
 
     M("points", "POINTS", "points", per("points")),
     M("correct", "CORRECT ANSWERS", "points", per("correct")),
