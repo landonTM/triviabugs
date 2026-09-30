@@ -2,39 +2,39 @@
   "user_id": "184456115927384065",
   "level": {
     "level": 41,
-    "xp_into_level": 10894,
+    "xp_into_level": 22337,
     "xp_for_level": 58000,
-    "progress": 0.18782758620689655,
+    "progress": 0.38512068965517243,
     "maxed": false
   },
-  "total_xp": 863394,
+  "total_xp": 874837,
   "period_stats": {
-    "daily_points": 10,
-    "daily_correct": 6,
-    "weekly_points": 1104,
-    "weekly_correct": 475,
-    "monthly_points": 2487,
-    "monthly_correct": 1274,
-    "yearly_points": 2487,
-    "yearly_correct": 1274,
-    "alltime_points": 2487,
-    "alltime_correct": 1274
+    "daily_points": 95,
+    "daily_correct": 26,
+    "weekly_points": 1189,
+    "weekly_correct": 495,
+    "monthly_points": 2572,
+    "monthly_correct": 1294,
+    "yearly_points": 2572,
+    "yearly_correct": 1294,
+    "alltime_points": 2572,
+    "alltime_correct": 1294
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 1815,
-    "questions_right": 602,
+    "total_points": 1893,
+    "questions_right": 615,
     "questions_wrong": 0,
-    "wins": 602,
+    "wins": 615,
     "current_streak": 1,
     "best_streak": 21,
-    "games_played": 97,
-    "insane_guesses": 501,
+    "games_played": 98,
+    "insane_guesses": 508,
     "day_streak": 16,
     "last_played_date": "2026-09-30",
-    "total_xp": 863394,
-    "game_wins": 49,
+    "total_xp": 874837,
+    "game_wins": 50,
     "achievement_best_streak": 21
   },
   "best_streak": 21,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Sports",
-    "points": 999,
-    "correct": 297
+    "points": 1077,
+    "correct": 310
   },
   "best_insane_round": {
     "question_text": "WWE Champions",
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 672,
-  "average_guess_ms": 21052.20764119601,
+  "total_insane_correct": 679,
+  "average_guess_ms": 20768.359349593495,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1091,
-    "total": 1182
+    "exact_count": 1106,
+    "total": 1202
   },
   "achievements": {
     "catalog": [
@@ -2210,7 +2210,8 @@
       "gk_100": "2026-09-26 23:16:47.637047+00:00",
       "win_50_question_game": "2026-09-26 23:28:53.664157+00:00",
       "duelwins_10": "2026-09-27 00:34:16.881470+00:00",
-      "duel_best_of_10_win": "2026-09-27 03:16:08.596790+00:00"
+      "duel_best_of_10_win": "2026-09-27 03:16:08.596790+00:00",
+      "wins_50": "2026-09-30 22:01:40.862983+00:00"
     },
     "baselines": {
       "points": 231,
@@ -2221,13 +2222,13 @@
       "disney": 21,
       "entertainment": 1,
       "geo": 94,
-      "gk": 128,
+      "gk": 132,
       "got": 1,
-      "marvel": 9,
+      "marvel": 12,
       "movies": 22,
       "music": 15,
       "pokemon": 4,
-      "sports": 233,
+      "sports": 246,
       "videogames": 5,
       "wrestling": 124,
       "duelwins": 15,
@@ -2745,8 +2746,8 @@
       "key": "zombie",
       "label": "Zombie Response Theme",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "theme",
@@ -3513,8 +3514,8 @@
       "key": "primetime",
       "label": "Prime Time MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3644,21 +3645,21 @@
   ],
   "xp_sources": {
     "level": {
-      "achievement": 659250,
+      "achievement": 669250,
       "mission": 5000,
-      "game": 171394,
+      "game": 172837,
       "duel": 27750
     },
     "game_layers": {
       "daily": 1635,
-      "hardcore": 500,
-      "base": 3592
+      "hardcore": 981,
+      "base": 4554
     },
     "pass": {
       "season_0": {
         "mission": 250,
         "duel": 1250,
-        "game": 3589
+        "game": 4139
       }
     }
   }
