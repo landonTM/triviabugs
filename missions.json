@@ -84,7 +84,7 @@
         "players": [
           {
             "user_id": "433990857063137282",
-            "progress": 24,
+            "progress": 25,
             "completed_at": "2026-09-29 20:03:04.736522+00:00"
           },
           {
@@ -94,12 +94,12 @@
           },
           {
             "user_id": "734768348201615400",
-            "progress": 17,
+            "progress": 18,
             "completed_at": "2026-09-29 23:07:52.886864+00:00"
           },
           {
             "user_id": "184456115927384065",
-            "progress": 10,
+            "progress": 11,
             "completed_at": null
           },
           {
@@ -162,13 +162,13 @@
             "completed_at": null
           },
           {
-            "user_id": "794420965387403265",
+            "user_id": "184456115927384065",
             "progress": 3,
             "completed_at": null
           },
           {
-            "user_id": "184456115927384065",
-            "progress": 2,
+            "user_id": "794420965387403265",
+            "progress": 3,
             "completed_at": null
           },
           {
