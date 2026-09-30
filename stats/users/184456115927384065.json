@@ -2,38 +2,38 @@
   "user_id": "184456115927384065",
   "level": {
     "level": 41,
-    "xp_into_level": 9626,
+    "xp_into_level": 10894,
     "xp_for_level": 58000,
-    "progress": 0.1659655172413793,
+    "progress": 0.18782758620689655,
     "maxed": false
   },
-  "total_xp": 862126,
+  "total_xp": 863394,
   "period_stats": {
-    "daily_points": 7,
-    "daily_correct": 4,
-    "weekly_points": 1102,
-    "weekly_correct": 474,
-    "monthly_points": 2484,
-    "monthly_correct": 1272,
-    "yearly_points": 2484,
-    "yearly_correct": 1272,
-    "alltime_points": 2484,
-    "alltime_correct": 1272
+    "daily_points": 10,
+    "daily_correct": 6,
+    "weekly_points": 1105,
+    "weekly_correct": 476,
+    "monthly_points": 2487,
+    "monthly_correct": 1274,
+    "yearly_points": 2487,
+    "yearly_correct": 1274,
+    "alltime_points": 2487,
+    "alltime_correct": 1274
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 1812,
-    "questions_right": 600,
+    "total_points": 1815,
+    "questions_right": 602,
     "questions_wrong": 0,
-    "wins": 600,
+    "wins": 602,
     "current_streak": 1,
     "best_streak": 21,
-    "games_played": 96,
+    "games_played": 97,
     "insane_guesses": 501,
-    "day_streak": 15,
-    "last_played_date": "2026-09-29",
-    "total_xp": 862126,
+    "day_streak": 16,
+    "last_played_date": "2026-09-30",
+    "total_xp": 863394,
     "game_wins": 49,
     "achievement_best_streak": 21
   },
@@ -54,14 +54,14 @@
     "guesses": 16
   },
   "total_insane_correct": 672,
-  "average_guess_ms": 20995.691666666666,
+  "average_guess_ms": 21052.20764119601,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1089,
-    "total": 1180
+    "exact_count": 1091,
+    "total": 1182
   },
   "achievements": {
     "catalog": [
@@ -2220,8 +2220,8 @@
     "category_counts": {
       "disney": 21,
       "entertainment": 1,
-      "geo": 93,
-      "gk": 127,
+      "geo": 94,
+      "gk": 128,
       "got": 1,
       "marvel": 9,
       "movies": 22,
