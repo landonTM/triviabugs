@@ -1,0 +1,813 @@
+{
+  "game": {
+    "id": 92,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 30,
+    "rounds_played": 30,
+    "categories": [
+      "Marvel"
+    ],
+    "started_by": "794420965387403265",
+    "winner_id": "794420965387403265",
+    "started_at": "2026-09-30 01:48:33.799860+00:00",
+    "ended_at": "2026-09-30 02:03:24.906252+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 6133,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:48:34.267635+00:00",
+      "ended_at": "2026-09-30 01:48:40.788065+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Which villain's scheme accidentally causes the original Avengers to unite?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 6505,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:48:40.783801+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6134,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:48:51.686354+00:00",
+      "ended_at": "2026-09-30 01:49:19.158982+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What mysterious location does Coulson repeatedly describe as 'a magical place'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 27458,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 01:49:19.154975+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6135,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:49:29.382432+00:00",
+      "ended_at": "2026-09-30 01:50:00.356108+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What is the name of Peter Quill's blue-skinned Ravager mentor?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 30960,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 01:50:00.352798+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6136,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:50:10.575173+00:00",
+      "ended_at": "2026-09-30 01:50:17.152547+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What is the civilian identity of the stunt motorcyclist Ghost Rider?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 6564,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:50:17.149235+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6137,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:50:27.426199+00:00",
+      "ended_at": "2026-09-30 01:50:31.693005+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What is Iron Fist's real name?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 4254,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:50:31.689472+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6138,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:50:41.943837+00:00",
+      "ended_at": "2026-09-30 01:50:51.178715+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What military scientist is one of Wolverine's major enemies in X2 and X-Men Origins: Wolverine?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 9222,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:50:51.175440+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6139,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:51:01.458171+00:00",
+      "ended_at": "2026-09-30 01:51:22.854567+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who is the main crime boss enemy in the 2004 Punisher film?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 21383,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 01:51:22.851128+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6140,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:51:33.586703+00:00",
+      "ended_at": "2026-09-30 01:51:38.711388+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who plays Eddie Brock in Venom?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 5111,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:51:38.707218+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6141,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:51:48.933360+00:00",
+      "ended_at": "2026-09-30 01:52:18.020416+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What young mutant known as Firefist is targeted in Deadpool 2?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 29073,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 01:52:18.016642+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6142,
+      "mode": "insane",
+      "started_at": "2026-09-30 01:52:28.190155+00:00",
+      "ended_at": "2026-09-30 01:53:28.354133+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "Fast Food Chains",
+      "image_url": null,
+      "answer_count": 75,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 5781,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:52:33.974966+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 9362,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:52:37.555490+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 11212,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:52:39.405711+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 12813,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:52:41.006231+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 15519,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:52:43.712596+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 20439,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:52:48.632300+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 33074,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:53:01.267726+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 39462,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:53:07.655858+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 45089,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:53:13.283035+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 46922,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:53:15.115339+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 48727,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:53:16.920402+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 53027,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:53:21.220300+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6143,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:53:38.721296+00:00",
+      "ended_at": "2026-09-30 01:53:46.020591+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Marvel",
+      "question_text": "Which directing duo directed Marvel's Avengers: Endgame?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 7278,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:53:46.014801+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6144,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:53:56.347988+00:00",
+      "ended_at": "2026-09-30 01:54:00.111520+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who is Gamora's adoptive father?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 3751,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:54:00.108074+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6145,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:54:10.361236+00:00",
+      "ended_at": "2026-09-30 01:54:18.928060+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What material is Captain America's iconic shield made from?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 8555,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:54:18.924887+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6146,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:54:29.156823+00:00",
+      "ended_at": "2026-09-30 01:54:39.285026+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What actor is revealed to be portraying the Mandarin persona?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 10114,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:54:39.281016+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6147,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:54:49.472103+00:00",
+      "ended_at": "2026-09-30 01:54:56.838330+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What type of people are Daisy Johnson and her mother Jiaying?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 7352,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:54:56.833877+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6148,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:55:07.180614+00:00",
+      "ended_at": "2026-09-30 01:55:10.868460+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who is the Grandmaster's champion before Thor arrives?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 3675,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:55:10.865194+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6149,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:55:21.074080+00:00",
+      "ended_at": "2026-09-30 01:55:33.076768+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What is the Vulture's real name?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 11991,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:55:33.073490+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6150,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:55:43.300093+00:00",
+      "ended_at": "2026-09-30 01:56:09.943880+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "In what comic issue did the Avengers first appear as a team?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 26632,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 01:56:09.940854+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6151,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:56:20.212139+00:00",
+      "ended_at": "2026-09-30 01:56:27.126441+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Which disgraced journalist bonds with the symbiote to become Venom?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 6902,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:56:27.123265+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6152,
+      "mode": "insane",
+      "started_at": "2026-09-30 01:56:37.381853+00:00",
+      "ended_at": "2026-09-30 01:57:37.645516+00:00",
+      "winner_id": null,
+      "category": "Disney",
+      "question_text": "Disney's Peter Pan characters",
+      "image_url": null,
+      "answer_count": 13,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 3770,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:56:41.154708+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 6867,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:56:44.251604+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 13137,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:56:50.521298+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 38381,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 01:57:15.765428+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6153,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:57:48.147002+00:00",
+      "ended_at": "2026-09-30 01:57:59.305479+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who is Tony Stark's business partner and eventual enemy in Iron Man?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 11145,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:57:59.302013+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6154,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:58:09.600988+00:00",
+      "ended_at": "2026-09-30 01:58:14.607244+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What super-powered Harlem resident has a romantic relationship with Jessica Jones?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 4994,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:58:14.603925+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6155,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:58:25.000621+00:00",
+      "ended_at": "2026-09-30 01:58:31.981272+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What demon serves as the main villain of the first Ghost Rider film?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 6968,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:58:31.977540+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6156,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:58:42.161353+00:00",
+      "ended_at": "2026-09-30 01:59:02.038054+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "In Agents of S.H.I.E.L.D., what hacker collective is Skye associated with at the beginning of the series?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 19861,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 01:59:02.034393+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6157,
+      "mode": "standard",
+      "started_at": "2026-09-30 01:59:12.826085+00:00",
+      "ended_at": "2026-09-30 01:59:50.789604+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who uses HYDRA trigger words to control Bucky in Civil War?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 37951,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 01:59:50.786194+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6158,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:00:00.991315+00:00",
+      "ended_at": "2026-09-30 02:00:28.382308+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What does Thanos do after obtaining all six Infinity Stones?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 27377,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 02:00:28.378613+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6159,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:00:38.827099+00:00",
+      "ended_at": "2026-09-30 02:00:43.030486+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who is Black Bolt's wife and queen?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 4191,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 02:00:43.027147+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6160,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:00:54.718356+00:00",
+      "ended_at": "2026-09-30 02:01:17.018544+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who physically holds the Power Stone first during the Guardians' final confrontation with Ronan?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 22288,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 02:01:17.015141+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6161,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:01:30.399279+00:00",
+      "ended_at": "2026-09-30 02:02:03.994573+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "What is the Silver Surfer's real name?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 33582,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 02:02:03.990871+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6162,
+      "mode": "insane",
+      "started_at": "2026-09-30 02:02:14.337857+00:00",
+      "ended_at": "2026-09-30 02:03:14.570889+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "iPhone Models",
+      "image_url": null,
+      "answer_count": 55,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 3119,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:17.459643+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 5628,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:19.968608+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 10173,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:24.513270+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 12719,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:27.059362+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 14927,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:29.267579+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 17269,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:31.609974+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 19409,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:33.750083+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 26322,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:40.662521+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 35901,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:50.241351+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 37994,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:52.334385+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 40634,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:54.974928+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 43380,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:57.720825+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 45478,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:02:59.818745+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 47990,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:03:02.330401+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 162,
+    "794420965387403265": 1790
+  }
+}
