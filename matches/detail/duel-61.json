@@ -1,0 +1,116 @@
+{
+  "match": {
+    "id": 61,
+    "kind": "duel",
+    "channel_id": "861424168875982848",
+    "challenger_id": "734768348201615400",
+    "opponent_id": "795847206719717386",
+    "format": 7,
+    "format_label": "Best of 7",
+    "winner_id": "734768348201615400",
+    "is_tie": false,
+    "challenger_score": 4,
+    "opponent_score": 2,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-09-30 20:43:34.228713+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": "734768348201615400",
+      "response_time_ms": 21685,
+      "answered_at": "2026-09-30 20:43:34.230776+00:00",
+      "category": "Computers",
+      "question_text": "[Input/Output]Laser Printer?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": "795847206719717386",
+      "response_time_ms": 18345,
+      "answered_at": "2026-09-30 20:43:34.230776+00:00",
+      "category": "General Knowledge",
+      "question_text": "What was the original name of the search engine \"Google\"?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-09-30 20:43:34.230776+00:00",
+      "category": "Video Games",
+      "question_text": "Who is Mega Man's sister?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": "734768348201615400",
+      "response_time_ms": 23278,
+      "answered_at": "2026-09-30 20:43:34.230776+00:00",
+      "category": "Movies",
+      "question_text": "In Bridesmaids, who is Annie's best friend getting married?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": "734768348201615400",
+      "response_time_ms": 19009,
+      "answered_at": "2026-09-30 20:43:34.230776+00:00",
+      "category": "NBA",
+      "question_text": "Who is the only player to win DPOY with 3 different teams?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 6,
+      "mode": "standard",
+      "winner_id": "795847206719717386",
+      "response_time_ms": 5478,
+      "answered_at": "2026-09-30 20:43:34.230776+00:00",
+      "category": "General Knowledge",
+      "question_text": "Who was the youngest person ever elected to the U.S. presidency?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 7,
+      "mode": "standard",
+      "winner_id": "734768348201615400",
+      "response_time_ms": 18916,
+      "answered_at": "2026-09-30 20:43:34.230776+00:00",
+      "category": "US State Capitals",
+      "question_text": "What is the USA state capital of Virginia?",
+      "image_url": null,
+      "answer_count": 1
+    }
+  ],
+  "xp": {
+    "734768348201615400": 1500,
+    "795847206719717386": 300
+  },
+  "pass_xp": {
+    "734768348201615400": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 1500,
+      "duel": 550,
+      "emoji": "🎃"
+    },
+    "795847206719717386": {
+      "season_key": "season_0",
+      "total": 300,
+      "uncapped": 300,
+      "duel": 300,
+      "emoji": "🎃"
+    }
+  }
+}
