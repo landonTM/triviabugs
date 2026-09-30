@@ -3605,9 +3605,9 @@
   ],
   "equipped": {
     "footer": {
-      "key": "compliments",
-      "label": "Compliments Footer",
-      "template": "With compliments from {user}. 💌"
+      "key": "cursed",
+      "label": "Cursed Footer",
+      "template": "Cursed by {user} 🔮"
     },
     "emoji": {
       "key": "haunted",
@@ -3617,8 +3617,8 @@
       "speed": "🕸️"
     },
     "theme": {
-      "key": "cowboy",
-      "label": "Cowboy Response Theme"
+      "key": "dracula",
+      "label": "Dracula Response Theme"
     },
     "embedcolor": {
       "key": "periwinkle",
@@ -3626,10 +3626,10 @@
       "hex": "#8093F1"
     },
     "mvp": {
-      "key": "scarymovies",
-      "label": "Scary Movies MVP",
-      "quote": "What's your favorite scary movie?",
-      "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWNtYmt1bGh1dG9mZmp4OGljN2lrN2ZnYXBuOWc4d2NmNWltOHEyeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RSeauh7Iyr9Yoys5Dd/giphy.gif"
+      "key": "cancelled",
+      "label": "Cancelled MVP",
+      "quote": "Sorry. You're cancelled",
+      "gif": "https://media.giphy.com/media/ya29NyWRkrfgzcRXf9/giphy.gif"
     }
   },
   "rivals": [
