@@ -1,54 +1,6 @@
 {
   "releases": [
     {
-      "title": "Unreleased",
-      "intro": [],
-      "sections": [
-        {
-          "name": "Added",
-          "items": [
-            {
-              "text": "Website: **Cosmetics** page -- every cosmetic with a preview, how it unlocks (level or season tier), and who owns and has it equipped; pick a player to see their collection, or filter to level rewards or a season pass (sorted by level or tier).",
-              "level": 0
-            },
-            {
-              "text": "Website: **Changelog** page -- every Bertha changelog, kept up to date automatically.",
-              "level": 0
-            },
-            {
-              "text": "Website: replays show where each player's XP came from (base plus Daily, Double XP, hardcore, replay bonus and XP Boost) and the season pass XP they got, including flaming pumpkins. Older replays were updated too, and duels from before Sep 28 now show their XP.",
-              "level": 0
-            },
-            {
-              "text": "Website: player pages have a **Where the XP came from** section -- level XP by source (games, duels, achievements, missions), game XP vs. bonuses, season pass XP by source, and flaming pumpkin stats.",
-              "level": 0
-            },
-            {
-              "text": "Website: the season page's tier list shows every reward as a full cosmetic card (preview and who owns it).",
-              "level": 0
-            },
-            {
-              "text": "Website: the season page shows where each player's pass XP came from, and a flaming pumpkin leaderboard.",
-              "level": 0
-            }
-          ]
-        },
-        {
-          "name": "Fixed",
-          "items": [
-            {
-              "text": "Website: game replays showed a stray \"null\" under Final Scores.",
-              "level": 0
-            },
-            {
-              "text": "Website: the FNAF and Scooby emoji packs showed as raw text on player pages instead of the emoji.",
-              "level": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Bertha Update 9/30/26",
       "intro": [],
       "sections": [
