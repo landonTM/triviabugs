@@ -2,12 +2,12 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 43,
-    "xp_into_level": 26110,
+    "xp_into_level": 26714,
     "xp_for_level": 64000,
-    "progress": 0.40796875,
+    "progress": 0.41740625,
     "maxed": false
   },
-  "total_xp": 997610,
+  "total_xp": 998214,
   "period_stats": {
     "daily_points": 128,
     "daily_correct": 73,
@@ -29,11 +29,11 @@
     "wins": 875,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 116,
+    "games_played": 117,
     "insane_guesses": 893,
     "day_streak": 8,
     "last_played_date": "2026-09-30",
-    "total_xp": 997610,
+    "total_xp": 998214,
     "game_wins": 36,
     "achievement_best_streak": 27
   },
@@ -3670,18 +3670,18 @@
       "duel": 39150,
       "mission": 30000,
       "achievement": 718500,
-      "game": 209960
+      "game": 210564
     },
     "game_layers": {
+      "base": 15014,
       "daily": 3491,
-      "replay": 58,
-      "hardcore": 2444,
-      "base": 14648
+      "replay": 113,
+      "hardcore": 2627
     },
     "pass": {
       "season_0": {
         "pumpkin": 577,
-        "game": 11633,
+        "game": 12182,
         "duel": 2350,
         "mission": 1500
       }
