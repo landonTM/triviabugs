@@ -2,39 +2,39 @@
   "user_id": "734768348201615400",
   "level": {
     "level": 44,
-    "xp_into_level": 14302,
+    "xp_into_level": 20590,
     "xp_for_level": 67000,
-    "progress": 0.2134626865671642,
+    "progress": 0.3073134328358209,
     "maxed": false
   },
-  "total_xp": 1049802,
+  "total_xp": 1056090,
   "period_stats": {
-    "daily_points": 50,
-    "daily_correct": 24,
-    "weekly_points": 1795,
-    "weekly_correct": 961,
-    "monthly_points": 6316,
-    "monthly_correct": 3478,
-    "yearly_points": 6515,
-    "yearly_correct": 3621,
-    "alltime_points": 6515,
-    "alltime_correct": 3621
+    "daily_points": 77,
+    "daily_correct": 44,
+    "weekly_points": 1772,
+    "weekly_correct": 955,
+    "monthly_points": 6343,
+    "monthly_correct": 3498,
+    "yearly_points": 6542,
+    "yearly_correct": 3641,
+    "alltime_points": 6542,
+    "alltime_correct": 3641
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 4124,
-    "questions_right": 1230,
+    "total_points": 4134,
+    "questions_right": 1233,
     "questions_wrong": 0,
-    "wins": 1230,
+    "wins": 1233,
     "current_streak": 1,
     "best_streak": 37,
-    "games_played": 71,
-    "insane_guesses": 1462,
+    "games_played": 72,
+    "insane_guesses": 1479,
     "day_streak": 16,
     "last_played_date": "2026-09-30",
-    "total_xp": 1049802,
-    "game_wins": 35,
+    "total_xp": 1056090,
+    "game_wins": 36,
     "achievement_best_streak": 37
   },
   "best_streak": 37,
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2391,
-  "average_guess_ms": 14964.286178861788,
+  "total_insane_correct": 2408,
+  "average_guess_ms": 14963.903487429036,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 32
   },
   "spelling_accuracy": {
-    "exact_count": 2369,
-    "total": 2839
+    "exact_count": 2387,
+    "total": 2859
   },
   "achievements": {
     "catalog": [
@@ -2228,8 +2228,8 @@
       "got": 1,
       "marvel": 28,
       "movies": 8,
-      "music": 22,
-      "pokemon": 8,
+      "music": 35,
+      "pokemon": 9,
       "sports": 100,
       "videogames": 21,
       "wrestling": 396,
