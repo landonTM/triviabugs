@@ -2,23 +2,23 @@
   "user_id": "184456115927384065",
   "level": {
     "level": 41,
-    "xp_into_level": 22337,
+    "xp_into_level": 23708,
     "xp_for_level": 58000,
-    "progress": 0.38512068965517243,
+    "progress": 0.4087586206896552,
     "maxed": false
   },
-  "total_xp": 874837,
+  "total_xp": 876208,
   "period_stats": {
-    "daily_points": 95,
-    "daily_correct": 26,
-    "weekly_points": 1189,
-    "weekly_correct": 495,
-    "monthly_points": 2572,
-    "monthly_correct": 1294,
-    "yearly_points": 2572,
-    "yearly_correct": 1294,
-    "alltime_points": 2572,
-    "alltime_correct": 1294
+    "daily_points": 100,
+    "daily_correct": 31,
+    "weekly_points": 1194,
+    "weekly_correct": 500,
+    "monthly_points": 2577,
+    "monthly_correct": 1299,
+    "yearly_points": 2577,
+    "yearly_correct": 1299,
+    "alltime_points": 2577,
+    "alltime_correct": 1299
   },
   "stats_row": {
     "user_id": "184456115927384065",
@@ -29,11 +29,11 @@
     "wins": 615,
     "current_streak": 1,
     "best_streak": 21,
-    "games_played": 98,
-    "insane_guesses": 508,
+    "games_played": 99,
+    "insane_guesses": 513,
     "day_streak": 16,
     "last_played_date": "2026-09-30",
-    "total_xp": 874837,
+    "total_xp": 876208,
     "game_wins": 50,
     "achievement_best_streak": 21
   },
@@ -53,15 +53,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 679,
+  "total_insane_correct": 684,
   "average_guess_ms": 20768.359349593495,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 26
   },
   "spelling_accuracy": {
-    "exact_count": 1106,
-    "total": 1202
+    "exact_count": 1111,
+    "total": 1207
   },
   "achievements": {
     "catalog": [
@@ -2222,7 +2222,7 @@
       "disney": 21,
       "entertainment": 1,
       "geo": 94,
-      "gk": 132,
+      "gk": 137,
       "got": 1,
       "marvel": 12,
       "movies": 22,
@@ -3647,19 +3647,20 @@
     "level": {
       "achievement": 669250,
       "mission": 5000,
-      "game": 172837,
+      "game": 174208,
       "duel": 27750
     },
     "game_layers": {
+      "replay": 65,
       "daily": 1635,
-      "hardcore": 981,
-      "base": 4554
+      "hardcore": 1416,
+      "base": 5425
     },
     "pass": {
       "season_0": {
         "mission": 250,
         "duel": 1250,
-        "game": 4139
+        "game": 4689
       }
     }
   }
