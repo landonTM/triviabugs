@@ -2,38 +2,38 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 43,
-    "xp_into_level": 19964,
+    "xp_into_level": 20573,
     "xp_for_level": 64000,
-    "progress": 0.3119375,
+    "progress": 0.321453125,
     "maxed": false
   },
-  "total_xp": 991464,
+  "total_xp": 992073,
   "period_stats": {
-    "daily_points": 380,
-    "daily_correct": 128,
-    "weekly_points": 1063,
-    "weekly_correct": 449,
-    "monthly_points": 4137,
-    "monthly_correct": 1902,
-    "yearly_points": 4311,
-    "yearly_correct": 1995,
-    "alltime_points": 4311,
-    "alltime_correct": 1995
+    "daily_points": 19,
+    "daily_correct": 7,
+    "weekly_points": 1095,
+    "weekly_correct": 460,
+    "monthly_points": 4169,
+    "monthly_correct": 1913,
+    "yearly_points": 4343,
+    "yearly_correct": 2006,
+    "alltime_points": 4343,
+    "alltime_correct": 2006
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3168,
-    "questions_right": 849,
+    "total_points": 3196,
+    "questions_right": 856,
     "questions_wrong": 0,
-    "wins": 849,
+    "wins": 856,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 106,
-    "insane_guesses": 842,
+    "games_played": 108,
+    "insane_guesses": 846,
     "day_streak": 7,
     "last_played_date": "2026-09-29",
-    "total_xp": 991464,
+    "total_xp": 992073,
     "game_wins": 35,
     "achievement_best_streak": 27
   },
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 830,
-    "correct": 147
+    "points": 858,
+    "correct": 154
   },
   "best_insane_round": {
     "question_text": "Name every US state",
     "category": "Geography",
     "guesses": 17
   },
-  "total_insane_correct": 1147,
-  "average_guess_ms": 16387.674528301886,
+  "total_insane_correct": 1151,
+  "average_guess_ms": 16313.430409356724,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
-    "active_days": 29
+    "active_days": 30
   },
   "spelling_accuracy": {
-    "exact_count": 1562,
-    "total": 1781
+    "exact_count": 1572,
+    "total": 1792
   },
   "achievements": {
     "catalog": [
@@ -2230,14 +2230,14 @@
       "disney": 41,
       "entertainment": 0,
       "geo": 108,
-      "gk": 193,
+      "gk": 196,
       "got": 8,
       "marvel": 67,
       "movies": 2,
       "music": 10,
       "pokemon": 9,
       "sports": 30,
-      "videogames": 68,
+      "videogames": 69,
       "wrestling": 195,
       "duelwins": 25,
       "duelstreak": 5
@@ -2658,8 +2658,8 @@
       "key": "fnaf",
       "label": "FNAF Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -2762,8 +2762,8 @@
       "key": "dracula",
       "label": "Dracula Response Theme",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "theme",
@@ -3562,8 +3562,8 @@
       "key": "comeback",
       "label": "Come Back MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
