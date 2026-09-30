@@ -2490,6 +2490,22 @@
       "started_at": "2026-09-30 02:17:51.316082+00:00",
       "ended_at": "2026-09-30 02:30:53.917273+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 95,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 20,
+      "rounds_played": 20,
+      "categories": [
+        "logos"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-09-30 15:22:22.857973+00:00",
+      "ended_at": "2026-09-30 15:31:00.241185+00:00",
+      "end_reason": "completed"
     }
   ]
 }
