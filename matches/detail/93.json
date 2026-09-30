@@ -1,0 +1,453 @@
+{
+  "game": {
+    "id": 93,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 20,
+    "rounds_played": 20,
+    "categories": [
+      "Disney",
+      "family guy",
+      "marvel",
+      "movies",
+      "video games",
+      "whos that Pokemon (gen 1)",
+      "whos that Pokemon (gen 2)",
+      "whos that Pokemon (gen 3)",
+      "whos that Pokemon (gen 8)",
+      "wrestling"
+    ],
+    "started_by": "794420965387403265",
+    "winner_id": "794420965387403265",
+    "started_at": "2026-09-30 02:04:26.606580+00:00",
+    "ended_at": "2026-09-30 02:15:43.289826+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 6163,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:04:27.195925+00:00",
+      "ended_at": "2026-09-30 02:04:44.150227+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Disney",
+      "question_text": "In Tarzan where are Jane and her father from?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 16938,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 02:04:44.146227+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6164,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:04:54.782360+00:00",
+      "ended_at": "2026-09-30 02:04:59.664971+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Wrestling",
+      "question_text": "Who uses the finishing move of 'F5'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 4865,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 02:04:59.659120+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6165,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:05:11.957968+00:00",
+      "ended_at": "2026-09-30 02:05:16.898556+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Whos That Pokemon (Gen 1)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/vMjgxYs.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 4927,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 02:05:16.895016+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6166,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:05:27.512652+00:00",
+      "ended_at": "2026-09-30 02:05:52.049640+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Video Games",
+      "question_text": "Klondike is the most popular form of this game.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 24523,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 02:05:52.046209+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6167,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:06:02.540938+00:00",
+      "ended_at": "2026-09-30 02:06:09.655141+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Whos That Pokemon (Gen 3)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/eFw7O6a.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 7102,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 02:06:09.651964+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6168,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:06:20.161311+00:00",
+      "ended_at": "2026-09-30 02:06:23.761986+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Whos That Pokemon (Gen 2)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/5eIF2yf.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 3588,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 02:06:23.758781+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6169,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:06:34.223466+00:00",
+      "ended_at": "2026-09-30 02:06:40.059902+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Whos That Pokemon (Gen 8)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/3Ao22xR.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 5824,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 02:06:40.056622+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6170,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:06:50.858277+00:00",
+      "ended_at": "2026-09-30 02:07:34.716547+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Wrestling",
+      "question_text": "Who won the Men's Royal Rumble in 2023?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 43845,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:07:34.712870+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6171,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:07:45.153515+00:00",
+      "ended_at": "2026-09-30 02:08:09.639839+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Disney",
+      "question_text": "Which city did Anger berate for ruining pizza in \"Inside Out\"?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 24474,
+          "exact_match": true,
+          "points_awarded": 3,
+          "answered_at": "2026-09-30 02:08:09.636796+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6172,
+      "mode": "insane",
+      "started_at": "2026-09-30 02:08:20.562033+00:00",
+      "ended_at": "2026-09-30 02:09:20.761645+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Every Winter Olympics host city",
+      "image_url": null,
+      "answer_count": 22,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 10411,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:08:30.975635+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6173,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:09:31.456838+00:00",
+      "ended_at": "2026-09-30 02:09:56.820899+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Movies",
+      "question_text": "In Bridesmaids, who is Annie's best friend getting married?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 25349,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 02:09:56.817043+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6174,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:10:07.279839+00:00",
+      "ended_at": "2026-09-30 02:10:53.583660+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Family Guy",
+      "question_text": "What is the name of Glenn Quagmire's father, introduced in a later season as a transgender woman?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 46290,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:10:53.580391+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6175,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:11:04.043542+00:00",
+      "ended_at": "2026-09-30 02:11:22.218277+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Whos That Pokemon (Gen 8)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/VKE7PyV.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 18162,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 02:11:22.214816+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6176,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:11:32.765677+00:00",
+      "ended_at": "2026-09-30 02:11:37.428965+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Video Games",
+      "question_text": "Where does the annual Poker World Series take place?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 4651,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 02:11:37.425624+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6177,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:11:47.928165+00:00",
+      "ended_at": "2026-09-30 02:12:04.222846+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Marvel",
+      "question_text": "Who forges Stormbreaker for Thor?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 16281,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 02:12:04.219316+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6178,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:12:14.878267+00:00",
+      "ended_at": "2026-09-30 02:13:15.146593+00:00",
+      "winner_id": null,
+      "category": "Disney",
+      "question_text": "In the movie, the Haunted Mansion, what is the name of the mansion?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6179,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:13:25.489349+00:00",
+      "ended_at": "2026-09-30 02:13:50.104675+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Movies",
+      "question_text": "Which famous singer was portrayed by actor Kevin Spacey in the 2004 biographical film \"Beyond the Sea\"?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 24602,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 02:13:50.101477+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6180,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:14:00.555194+00:00",
+      "ended_at": "2026-09-30 02:14:06.943867+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Wrestling",
+      "question_text": "What stable did Bray Wyatt lead, including Luke Harper and Erick Rowan?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 6376,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 02:14:06.940584+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6181,
+      "mode": "standard",
+      "started_at": "2026-09-30 02:14:17.300227+00:00",
+      "ended_at": "2026-09-30 02:14:22.547211+00:00",
+      "winner_id": "794420965387403265",
+      "category": "Whos That Pokemon (Gen 1)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/LsfwWH7.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 5235,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 02:14:22.544044+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6182,
+      "mode": "insane",
+      "started_at": "2026-09-30 02:14:32.699818+00:00",
+      "ended_at": "2026-09-30 02:15:32.850633+00:00",
+      "winner_id": null,
+      "category": "Game of Thrones",
+      "question_text": "The nine major regions of Westeros during Robert Baratheon's reign",
+      "image_url": null,
+      "answer_count": 9,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 5370,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:14:38.072690+00:00"
+        },
+        {
+          "user_id": "794420965387403265",
+          "response_time_ms": 5576,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:14:38.278177+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 10001,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:14:42.703326+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 20195,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:14:52.897318+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 23812,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 02:14:56.514186+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 394,
+    "794420965387403265": 1442
+  }
+}
