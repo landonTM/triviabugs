@@ -2,12 +2,12 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 45,
-    "xp_into_level": 8513,
+    "xp_into_level": 11697,
     "xp_for_level": 70000,
-    "progress": 0.12161428571428572,
+    "progress": 0.1671,
     "maxed": false
   },
-  "total_xp": 1111013,
+  "total_xp": 1114197,
   "period_stats": {
     "daily_points": 390,
     "daily_correct": 155,
@@ -29,12 +29,12 @@
     "wins": 1654,
     "current_streak": 6,
     "best_streak": 38,
-    "games_played": 82,
+    "games_played": 83,
     "insane_guesses": 1685,
     "day_streak": 5,
     "last_played_date": "2026-09-30",
-    "total_xp": 1111013,
-    "game_wins": 47,
+    "total_xp": 1114197,
+    "game_wins": 48,
     "achievement_best_streak": 38
   },
   "best_streak": 38,
@@ -2391,8 +2391,8 @@
       "key": "nightmare",
       "label": "Nightmare Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -3575,8 +3575,8 @@
       "key": "mother",
       "label": "Mother MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
