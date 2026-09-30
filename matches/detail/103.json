@@ -1,0 +1,593 @@
+{
+  "game": {
+    "id": 103,
+    "kind": "game",
+    "mode": "hardcore",
+    "channel_id": "861424168875982848",
+    "total_rounds": 20,
+    "rounds_played": 20,
+    "categories": [
+      "Sports"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "734768348201615400",
+    "started_at": "2026-09-30 22:01:43.540328+00:00",
+    "ended_at": "2026-09-30 22:16:24.772066+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 6372,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:01:43.789400+00:00",
+      "ended_at": "2026-09-30 22:01:46.476873+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "_________ Red Sox (MLB)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 2516,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:01:46.473192+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6373,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:02:16.730664+00:00",
+      "ended_at": "2026-09-30 22:02:21.720513+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "Which club is nicknamed 'The Foxes', famous for their underdog Premier League title win in 2016?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4737,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:02:21.716678+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6374,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:02:52.052778+00:00",
+      "ended_at": "2026-09-30 22:02:55.788410+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Sports",
+      "question_text": "_________ Titans (NFL)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 3534,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:02:55.784999+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6375,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:03:26.000323+00:00",
+      "ended_at": "2026-09-30 22:03:46.463331+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Who holds the record for most career major championships won by a male golfer, with 18?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6376,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:04:16.865646+00:00",
+      "ended_at": "2026-09-30 22:04:37.015232+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "Which American player completed the first calendar-year Grand Slam in women's tennis, in 1953?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6377,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:05:07.412806+00:00",
+      "ended_at": "2026-09-30 22:05:20.541062+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "What is the added time played at the end of each half to compensate for stoppages called?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 12749,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:05:20.536875+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6378,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:05:50.750590+00:00",
+      "ended_at": "2026-09-30 22:06:11.260739+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "What is the record for red cards given in a single soccer game?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6379,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:06:41.478067+00:00",
+      "ended_at": "2026-09-30 22:07:01.963307+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "What is the informal name for the doubles formation where one partner stays at the net and the other at the baseline?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6380,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:07:32.184663+00:00",
+      "ended_at": "2026-09-30 22:07:39.867354+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "Which player is Serena Williams' older sister, also a multiple Grand Slam champion?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 7486,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:07:39.863280+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6381,
+      "mode": "insane",
+      "started_at": "2026-09-30 22:08:10.021608+00:00",
+      "ended_at": "2026-09-30 22:09:10.232476+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "Major US and UK supermarket chains",
+      "image_url": null,
+      "answer_count": 23,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3443,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:13.673467+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 3972,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:14.202612+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5325,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:15.555106+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 7069,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:17.299469+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 7397,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:17.626687+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 10491,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:20.720880+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 13579,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:23.809332+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 13822,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:24.051768+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 17895,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:28.125582+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 25982,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:36.212067+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 34446,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:44.676260+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 37904,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:48.133764+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 49110,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:08:59.340022+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6382,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:09:40.642456+00:00",
+      "ended_at": "2026-09-30 22:09:50.707284+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "Who did Drew Brees pass in all time NFL passing yards in 2018?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9662,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:09:50.703662+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6383,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:10:21.123887+00:00",
+      "ended_at": "2026-09-30 22:10:39.099076+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "What French club is based in Paris and became a global power after Qatari investment in 2011?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 17749,
+          "exact_match": false,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:10:39.095730+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6384,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:11:10.489389+00:00",
+      "ended_at": "2026-09-30 22:11:23.635998+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "Squash is a member of which sport family?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 12858,
+          "exact_match": false,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:11:23.631987+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6385,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:11:53.975488+00:00",
+      "ended_at": "2026-09-30 22:11:58.272803+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "_________ 76ers (NBA)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4114,
+          "exact_match": false,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:11:58.266588+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6386,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:12:28.498545+00:00",
+      "ended_at": "2026-09-30 22:12:32.083483+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Sports",
+      "question_text": "What sport uses terms like 'love,' 'deuce,' and 'ace'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 3381,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:12:32.079835+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6387,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:13:02.404196+00:00",
+      "ended_at": "2026-09-30 22:13:07.497239+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "_________ Rays (MLB)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4863,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:13:07.493409+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6388,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:13:37.744708+00:00",
+      "ended_at": "2026-09-30 22:13:42.793717+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "What is the nickname of the England men's national soccer team?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4790,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:13:42.789280+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6389,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:14:13.002500+00:00",
+      "ended_at": "2026-09-30 22:14:17.106324+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Sports",
+      "question_text": "What Italian club is nicknamed 'The Rossoneri'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3885,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:14:17.102914+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6390,
+      "mode": "standard",
+      "started_at": "2026-09-30 22:14:47.881195+00:00",
+      "ended_at": "2026-09-30 22:15:07.055745+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Sports",
+      "question_text": "_________ Pacers (NBA)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 18982,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 22:15:07.049198+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6391,
+      "mode": "insane",
+      "started_at": "2026-09-30 22:15:37.220609+00:00",
+      "ended_at": "2026-09-30 22:15:54.345723+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "Poo and Trin Discord Member",
+      "image_url": null,
+      "answer_count": 12,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 3669,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:15:41.201262+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 4629,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:15:42.161272+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 4790,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:15:42.322043+00:00"
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5987,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:15:43.518505+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 6049,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:15:43.581099+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 7139,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:15:44.671228+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 8474,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:15:46.006088+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 8810,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:15:46.342132+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 9108,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:15:46.640411+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 9602,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:15:47.133659+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 10264,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:15:47.795562+00:00"
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 16809,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 22:15:54.340634+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "184456115927384065": 1371,
+    "433990857063137282": 817,
+    "734768348201615400": 1622
+  },
+  "xp_layers": {
+    "184456115927384065": {
+      "base": 871,
+      "replay": 65,
+      "hardcore": 435
+    },
+    "734768348201615400": {
+      "base": 1081,
+      "hardcore": 541
+    },
+    "433990857063137282": {
+      "base": 519,
+      "replay": 39,
+      "hardcore": 259
+    }
+  },
+  "pass_xp": {
+    "184456115927384065": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 1306,
+      "game": 550,
+      "emoji": "🎃"
+    },
+    "734768348201615400": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 1622,
+      "game": 550,
+      "emoji": "🎃"
+    },
+    "433990857063137282": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 778,
+      "game": 550,
+      "emoji": "🎃"
+    }
+  }
+}
