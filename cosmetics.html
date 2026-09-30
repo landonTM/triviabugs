@@ -133,17 +133,17 @@
     const picker = el("select", { class: "btn", "aria-label": "Show one player's cosmetics", onchange: e => { who = e.target.value; draw(); } },
       el("option", { value: "" }, "EVERYONE"),
       [...roster].sort((a, b) => B.name(a).localeCompare(B.name(b))).map(id => el("option", { value: id, selected: id === who }, B.name(id))));
+    // A dropdown rather than buttons: every new season pass adds an option, which a button row wouldn't fit.
+    const sourcePicker = el("select", { class: "btn", "aria-label": "Unlocked by", onchange: e => { source = e.target.value; draw(); } },
+      SOURCES.map(([k, label]) => el("option", { value: k, selected: k === source },
+        `${k === "all" ? "ALL UNLOCKS" : label} (${t ? (k === "all" ? t.items.length : t.items.filter(i => sourceOf(i.unlock) === k).length) : 0})`)));
     app.replaceChildren(
       el("h1", { class: "page-title" }, "COSMETICS"),
       el("p", { class: "page-sub" }, "Every cosmetic Bertha has, how to unlock it, and who owns it. Pick a player to see their collection."),
       el("div", { class: "btns", role: "group", "aria-label": "Cosmetic type" }, types.map(x =>
         el("button", { class: "btn", type: "button", "aria-pressed": String(x.type === type), onclick: () => { type = x.type; draw(); } },
           `${PLURAL[x.type] || x.label.toUpperCase()} ${shown(x.items).length}`))),
-      el("div", { class: "btn-row-label" }, "UNLOCKED BY"),
-      el("div", { class: "btns", role: "group", "aria-label": "Unlocked by" }, SOURCES.map(([k, label]) =>
-        el("button", { class: "btn", type: "button", "aria-pressed": String(k === source), onclick: () => { source = k; draw(); } },
-          `${label} ${t ? (k === "all" ? t.items.length : t.items.filter(i => sourceOf(i.unlock) === k).length) : 0}`))),
-      el("div", { class: "filters", style: { margin: "14px 0 6px" } }, picker,
+      el("div", { class: "filters", style: { margin: "14px 0 6px" } }, picker, sourcePicker,
         who ? el("span", { class: "legend" }, `${B.name(who)} owns ${owned} of ${items.length}`) : null),
       el("p", { class: "page-sub" }, WHAT[type] || ""),
       items.length ? el("div", { class: "cgrid" }, items.map(i => card(type, i)))
