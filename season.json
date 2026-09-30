@@ -151,18 +151,18 @@
       "standings": [
         {
           "user_id": "795847206719717386",
-          "points": 1824,
-          "correct": 859
+          "points": 1846,
+          "correct": 866
         },
         {
           "user_id": "734768348201615400",
-          "points": 886,
-          "correct": 446
+          "points": 928,
+          "correct": 461
         },
         {
           "user_id": "433990857063137282",
-          "points": 608,
-          "correct": 228
+          "points": 628,
+          "correct": 247
         },
         {
           "user_id": "794420965387403265",
@@ -178,42 +178,43 @@
       "pass": [
         {
           "user_id": "795847206719717386",
-          "xp": 16329,
+          "xp": 17439,
           "sources": {
-            "game": 13264,
+            "game": 13524,
             "pumpkin": 515,
             "mission": 2000,
-            "duel": 550
+            "duel": 1400
           },
-          "level": 12,
-          "xp_into_level": 909,
-          "xp_for_level": 1740,
+          "level": 13,
+          "xp_into_level": 279,
+          "xp_for_level": 1810,
           "completed": false
         },
         {
           "user_id": "433990857063137282",
-          "xp": 14456,
+          "xp": 14960,
           "sources": {
             "mission": 1500,
             "pumpkin": 577,
-            "game": 10029,
+            "game": 10533,
             "duel": 2350
           },
           "level": 11,
-          "xp_into_level": 706,
+          "xp_into_level": 1210,
           "xp_for_level": 1670,
           "completed": false
         },
         {
           "user_id": "734768348201615400",
-          "xp": 9894,
+          "xp": 10444,
           "sources": {
+            "duel": 550,
             "mission": 1000,
             "pumpkin": 216,
             "game": 8678
           },
           "level": 8,
-          "xp_into_level": 734,
+          "xp_into_level": 1284,
           "xp_for_level": 1460,
           "completed": false
         },
@@ -268,6 +269,14 @@
       "elo": {
         "ranked": [
           {
+            "user_id": "795847206719717386",
+            "rating": 1013,
+            "wins": 2,
+            "losses": 1,
+            "streak": 1,
+            "peak": 1021
+          },
+          {
             "user_id": "433990857063137282",
             "rating": 1002,
             "wins": 4,
@@ -286,11 +295,11 @@
         ],
         "unranked": [
           {
-            "user_id": "795847206719717386",
-            "rating": 1021,
+            "user_id": "734768348201615400",
+            "rating": 1008,
             "wins": 1,
-            "losses": 0,
-            "streak": 1,
+            "losses": 1,
+            "streak": -1,
             "peak": 1021
           }
         ]
