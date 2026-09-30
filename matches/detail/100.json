@@ -1,0 +1,358 @@
+{
+  "game": {
+    "id": 100,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 10,
+    "rounds_played": 10,
+    "categories": null,
+    "started_by": "795847206719717386",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-09-30 20:35:19.851126+00:00",
+    "ended_at": "2026-09-30 20:42:17.646953+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 6292,
+      "mode": "standard",
+      "started_at": "2026-09-30 20:35:20.403592+00:00",
+      "ended_at": "2026-09-30 20:35:44.188318+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Slogans",
+      "question_text": "Don't leave home without it.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 23530,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 20:35:44.183489+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6293,
+      "mode": "standard",
+      "started_at": "2026-09-30 20:35:54.667492+00:00",
+      "ended_at": "2026-09-30 20:36:04.539341+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Disney",
+      "question_text": "In what full length feature animation were there an estimated 1,000,000 hand drawn bubbles?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9724,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-09-30 20:36:04.535736+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6294,
+      "mode": "standard",
+      "started_at": "2026-09-30 20:36:15.321578+00:00",
+      "ended_at": "2026-09-30 20:36:51.615051+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Movies",
+      "question_text": "In Die Hard, who is the main villain?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 36105,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 20:36:51.611651+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6295,
+      "mode": "standard",
+      "started_at": "2026-09-30 20:37:02.068807+00:00",
+      "ended_at": "2026-09-30 20:38:02.335507+00:00",
+      "winner_id": null,
+      "category": "Entertainment",
+      "question_text": "Who was 'hooked on a feeling'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6296,
+      "mode": "standard",
+      "started_at": "2026-09-30 20:38:12.999639+00:00",
+      "ended_at": "2026-09-30 20:38:19.230608+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Computers",
+      "question_text": "Founded in 1997, what company began streaming on-demand video in 2007 and released House of Cards in 2013 as one of its landmark original series?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6087,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 20:38:19.226110+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6297,
+      "mode": "standard",
+      "started_at": "2026-09-30 20:38:29.650627+00:00",
+      "ended_at": "2026-09-30 20:38:54.270251+00:00",
+      "winner_id": "795847206719717386",
+      "category": "General Knowledge",
+      "question_text": "What year was the RoboSapien toy robot released?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 24370,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 20:38:54.266801+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6298,
+      "mode": "standard",
+      "started_at": "2026-09-30 20:39:04.622184+00:00",
+      "ended_at": "2026-09-30 20:39:28.125498+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Star Wars",
+      "question_text": "Who is Kylo Ren's Father?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 23237,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 20:39:28.122078+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6299,
+      "mode": "standard",
+      "started_at": "2026-09-30 20:39:39.059284+00:00",
+      "ended_at": "2026-09-30 20:39:51.417608+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Wrestling",
+      "question_text": "Which state was the location of WrestleMania 40?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 12169,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-09-30 20:39:51.414176+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6300,
+      "mode": "standard",
+      "started_at": "2026-09-30 20:40:01.879597+00:00",
+      "ended_at": "2026-09-30 20:40:56.778003+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Disney",
+      "question_text": "What color hat did Timothy Mouse wear in Dumbo?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 54709,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-09-30 20:40:56.772266+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6301,
+      "mode": "insane",
+      "started_at": "2026-09-30 20:41:07.010304+00:00",
+      "ended_at": "2026-09-30 20:42:07.340195+00:00",
+      "winner_id": null,
+      "category": "Video Games",
+      "question_text": "Minecraft Block Types",
+      "image_url": null,
+      "answer_count": 1156,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 12705,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:20.044816+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 14076,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:21.415938+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 15096,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:22.436397+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 15764,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:23.104163+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 17598,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:24.938242+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 18732,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:26.072398+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 22954,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:30.294453+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 23586,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:30.926385+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 24654,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:31.993591+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 29057,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:36.397095+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 30403,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:37.742644+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 31968,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:39.307602+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 33693,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:41.033072+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 39694,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:47.033673+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 43098,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:41:50.437949+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 54583,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:42:01.923443+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 56094,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:42:03.433739+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 57706,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-09-30 20:42:05.046061+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 504,
+    "795847206719717386": 520
+  },
+  "xp_layers": {
+    "795847206719717386": {
+      "base": 260,
+      "boost": 260
+    },
+    "433990857063137282": {
+      "base": 504
+    }
+  },
+  "pass_xp": {
+    "795847206719717386": {
+      "season_key": "season_0",
+      "total": 260,
+      "uncapped": 260,
+      "game": 260,
+      "emoji": "🎃"
+    },
+    "433990857063137282": {
+      "season_key": "season_0",
+      "total": 504,
+      "uncapped": 504,
+      "game": 504,
+      "emoji": "🎃"
+    }
+  }
+}
