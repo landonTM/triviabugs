@@ -68,9 +68,24 @@
     embedcolor: "The colour down the side of your command and game messages.",
     mvp: "The card Bertha posts when you win a game.",
   };
-  const hash = location.hash.slice(1).split("|");
+  const hash = decodeURIComponent(location.hash.slice(1)).split("|");
   let type = types.some(t => t.type === hash[0]) ? hash[0] : (types[0] || {}).type;
   let who = hash[1] || "";
+  // Where it comes from: "level", "season:<name>" (one per season pass), or "special"; "all" shows everything.
+  const sourceOf = u => (u.how === "level" ? "level" : u.how === "season" ? `season:${u.season}` : "special");
+  const allItems = types.flatMap(t => t.items);
+  const seasonSources = [...new Map(allItems.filter(i => i.unlock.how === "season")
+    .map(i => [sourceOf(i.unlock), `${i.unlock.emoji} ${i.unlock.season.toUpperCase()} PASS`])).entries()];
+  const SOURCES = [["all", "ALL"], ["level", "LEVEL REWARDS"], ...seasonSources,
+    ...(allItems.some(i => i.unlock.how === "special") ? [["special", "SPECIAL"]] : [])];
+  let source = SOURCES.some(([k]) => k === hash[2]) ? hash[2] : "all";
+  // Level rewards in level order, a season pass in tier order; ALL keeps the catalog's order.
+  function shown(items) {
+    if (source === "all") return items;
+    const list = items.filter(i => sourceOf(i.unlock) === source);
+    const rank = u => (u.how === "level" ? u.level : u.how === "season" ? u.tier : 0);
+    return list.map((i, n) => [i, n]).sort((a, b) => rank(a[0].unlock) - rank(b[0].unlock) || a[1] - b[1]).map(([i]) => i);
+  }
   const roster = Object.keys(await B.json("players.json").then(d => d.players || {}).catch(() => ({})));
 
   function unlockText(u) {
@@ -110,9 +125,10 @@
   }
 
   function draw() {
-    history.replaceState(null, "", `#${type}${who ? `|${who}` : ""}`);
+    history.replaceState(null, "", `#${type}|${who}${source !== "all" ? `|${source}` : ""}`.replace(/\|+$/, ""));
     const t = types.find(x => x.type === type) || types[0];
-    const items = t ? t.items : [];
+    const items = t ? shown(t.items) : [];
+    const sourceLabel = (SOURCES.find(([k]) => k === source) || [])[1] || "";
     const owned = who ? items.filter(i => (i.owners || []).includes(who)).length : null;
     const picker = el("select", { class: "btn", "aria-label": "Show one player's cosmetics", onchange: e => { who = e.target.value; draw(); } },
       el("option", { value: "" }, "EVERYONE"),
@@ -122,11 +138,16 @@
       el("p", { class: "page-sub" }, "Every cosmetic Bertha has, how to unlock it, and who owns it. Pick a player to see their collection."),
       el("div", { class: "btns", role: "group", "aria-label": "Cosmetic type" }, types.map(x =>
         el("button", { class: "btn", type: "button", "aria-pressed": String(x.type === type), onclick: () => { type = x.type; draw(); } },
-          `${PLURAL[x.type] || x.label.toUpperCase()} ${x.items.length}`))),
+          `${PLURAL[x.type] || x.label.toUpperCase()} ${shown(x.items).length}`))),
+      el("div", { class: "btn-row-label" }, "UNLOCKED BY"),
+      el("div", { class: "btns", role: "group", "aria-label": "Unlocked by" }, SOURCES.map(([k, label]) =>
+        el("button", { class: "btn", type: "button", "aria-pressed": String(k === source), onclick: () => { source = k; draw(); } },
+          `${label} ${t ? (k === "all" ? t.items.length : t.items.filter(i => sourceOf(i.unlock) === k).length) : 0}`))),
       el("div", { class: "filters", style: { margin: "14px 0 6px" } }, picker,
         who ? el("span", { class: "legend" }, `${B.name(who)} owns ${owned} of ${items.length}`) : null),
       el("p", { class: "page-sub" }, WHAT[type] || ""),
-      el("div", { class: "cgrid" }, items.map(i => card(type, i))));
+      items.length ? el("div", { class: "cgrid" }, items.map(i => card(type, i)))
+        : el("p", { class: "page-sub" }, `No ${(PLURAL[type] || "cosmetics").toLowerCase()} come from ${sourceLabel.toLowerCase()} yet.`));
   }
   draw();
   B.footer("GREEN BORDER ON AN AVATAR = EQUIPPED");
