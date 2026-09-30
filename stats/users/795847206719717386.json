@@ -9,16 +9,16 @@
   },
   "total_xp": 1114197,
   "period_stats": {
-    "daily_points": 390,
-    "daily_correct": 155,
-    "weekly_points": 2311,
-    "weekly_correct": 1139,
-    "monthly_points": 7717,
-    "monthly_correct": 4234,
-    "yearly_points": 7823,
-    "yearly_correct": 4293,
-    "alltime_points": 7823,
-    "alltime_correct": 4293
+    "daily_points": 399,
+    "daily_correct": 164,
+    "weekly_points": 2320,
+    "weekly_correct": 1148,
+    "monthly_points": 7726,
+    "monthly_correct": 4243,
+    "yearly_points": 7832,
+    "yearly_correct": 4302,
+    "alltime_points": 7832,
+    "alltime_correct": 4302
   },
   "stats_row": {
     "user_id": "795847206719717386",
@@ -30,7 +30,7 @@
     "current_streak": 6,
     "best_streak": 38,
     "games_played": 83,
-    "insane_guesses": 1685,
+    "insane_guesses": 1694,
     "day_streak": 5,
     "last_played_date": "2026-09-30",
     "total_xp": 1114197,
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2639,
+  "total_insane_correct": 2648,
   "average_guess_ms": 18527.785973397822,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 30
   },
   "spelling_accuracy": {
-    "exact_count": 3275,
-    "total": 3694
+    "exact_count": 3283,
+    "total": 3703
   },
   "achievements": {
     "catalog": [
@@ -2224,7 +2224,7 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 77,
+      "disney": 86,
       "entertainment": 10,
       "geo": 302,
       "gk": 244,
