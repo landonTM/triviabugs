@@ -1,0 +1,3010 @@
+{
+  "types": [
+    {
+      "type": "footer",
+      "label": "Footer",
+      "items": [
+        {
+          "key": "default",
+          "label": "Poo & Trin Footer",
+          "unlock": {
+            "how": "level",
+            "level": 1
+          },
+          "preview": {
+            "template": "Powered By Bertha! 🎲"
+          },
+          "owners": [
+            "130899127968989184",
+            "184456115927384065",
+            "187400147989168132",
+            "225570740802420737",
+            "433990857063137282",
+            "498222053032198185",
+            "671182574692990976",
+            "727172669010870375",
+            "734768348201615400",
+            "739131649966473306",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "130899127968989184",
+            "184456115927384065",
+            "187400147989168132",
+            "225570740802420737",
+            "498222053032198185",
+            "671182574692990976",
+            "727172669010870375",
+            "739131649966473306"
+          ]
+        },
+        {
+          "key": "started",
+          "label": "Started Footer",
+          "unlock": {
+            "how": "level",
+            "level": 5
+          },
+          "preview": {
+            "template": "Started by {user}! 🚀"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "hosted",
+          "label": "Hosted Footer",
+          "unlock": {
+            "how": "level",
+            "level": 12
+          },
+          "preview": {
+            "template": "Hosted by {user}! 🎙️"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "734768348201615400"
+          ]
+        },
+        {
+          "key": "approved",
+          "label": "Approved Footer",
+          "unlock": {
+            "how": "level",
+            "level": 18
+          },
+          "preview": {
+            "template": "Approved by {user}. ✅"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "powered",
+          "label": "Powered Footer",
+          "unlock": {
+            "how": "level",
+            "level": 25
+          },
+          "preview": {
+            "template": "Powered by {user}! ⚡"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "courtesy",
+          "label": "Courtesy Footer",
+          "unlock": {
+            "how": "level",
+            "level": 32
+          },
+          "preview": {
+            "template": "Courtesy of {user}. 🎁"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "compliments",
+          "label": "Compliments Footer",
+          "unlock": {
+            "how": "level",
+            "level": 38
+          },
+          "preview": {
+            "template": "With compliments from {user}. 💌"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "sponsors",
+          "label": "Sponsors Footer",
+          "unlock": {
+            "how": "level",
+            "level": 44
+          },
+          "preview": {
+            "template": "Brought to you by our following sponsors, {user}. 🤝"
+          },
+          "owners": [
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "directed",
+          "label": "Directed Footer",
+          "unlock": {
+            "how": "level",
+            "level": 51
+          },
+          "preview": {
+            "template": "Directed by {user}. 🎬"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "dominated",
+          "label": "Dominated Footer",
+          "unlock": {
+            "how": "level",
+            "level": 58
+          },
+          "preview": {
+            "template": "Being dominated by {user}! 🔥"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "vanquished",
+          "label": "Vanquished Footer",
+          "unlock": {
+            "how": "level",
+            "level": 65
+          },
+          "preview": {
+            "template": "Getting vanquished by {user}! ⚔️"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "masterpiece",
+          "label": "Masterpiece Footer",
+          "unlock": {
+            "how": "level",
+            "level": 73
+          },
+          "preview": {
+            "template": "A {user} masterpiece. 🎨"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "premier",
+          "label": "Premiere Footer",
+          "unlock": {
+            "how": "level",
+            "level": 83
+          },
+          "preview": {
+            "template": "A {user} Premier. 🍿"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "exclusive",
+          "label": "Exclusive Footer",
+          "unlock": {
+            "how": "level",
+            "level": 99
+          },
+          "preview": {
+            "template": "A {user} Exclusive. 💎"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "haunted",
+          "label": "Haunted Footer",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 1
+          },
+          "preview": {
+            "template": "Haunted by {user} 👻"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "794420965387403265"
+          ]
+        },
+        {
+          "key": "cursed",
+          "label": "Cursed Footer",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 6
+          },
+          "preview": {
+            "template": "Cursed by {user} 🔮"
+          },
+          "owners": [
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "433990857063137282",
+            "795847206719717386"
+          ]
+        },
+        {
+          "key": "summoned",
+          "label": "Summoned Footer",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 9
+          },
+          "preview": {
+            "template": "Summoned by {user} 🧙"
+          },
+          "owners": [
+            "433990857063137282",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "nightmare",
+          "label": "Nightmare Footer",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 12
+          },
+          "preview": {
+            "template": "A nightmare by {user} 🎃"
+          },
+          "owners": [
+            "795847206719717386"
+          ],
+          "equipped": []
+        }
+      ]
+    },
+    {
+      "type": "emoji",
+      "label": "Emoji Pack",
+      "items": [
+        {
+          "key": "default",
+          "label": "Trivia Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 1
+          },
+          "preview": {
+            "correct": "👍",
+            "streak": "🔥",
+            "speed": "⏰"
+          },
+          "owners": [
+            "130899127968989184",
+            "184456115927384065",
+            "187400147989168132",
+            "225570740802420737",
+            "433990857063137282",
+            "498222053032198185",
+            "671182574692990976",
+            "727172669010870375",
+            "734768348201615400",
+            "739131649966473306",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "130899127968989184",
+            "184456115927384065",
+            "187400147989168132",
+            "225570740802420737",
+            "498222053032198185",
+            "671182574692990976",
+            "727172669010870375",
+            "739131649966473306"
+          ]
+        },
+        {
+          "key": "hustler",
+          "label": "Hustler Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 4
+          },
+          "preview": {
+            "correct": "😀",
+            "streak": "💪",
+            "speed": "💨"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "breadwinner",
+          "label": "Bread Winner Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 8
+          },
+          "preview": {
+            "correct": "✅",
+            "streak": "📈",
+            "speed": "💸"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "dog",
+          "label": "Dog Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 12
+          },
+          "preview": {
+            "correct": "🐶",
+            "streak": "🐾",
+            "speed": "🐕"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "foodie",
+          "label": "Foodie Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 16
+          },
+          "preview": {
+            "correct": "😋",
+            "streak": "🍕",
+            "speed": "🌮"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "nerd",
+          "label": "Nerd Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 20
+          },
+          "preview": {
+            "correct": "🤓",
+            "streak": "📚",
+            "speed": "🧠"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "734768348201615400"
+          ]
+        },
+        {
+          "key": "oceanic",
+          "label": "Oceanic Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 23
+          },
+          "preview": {
+            "correct": "🐬",
+            "streak": "🌊",
+            "speed": "🦈"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "poo",
+          "label": "Poo Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 24
+          },
+          "preview": {
+            "correct": "💩",
+            "streak": "💩",
+            "speed": "💩"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "safari",
+          "label": "Safari Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 27
+          },
+          "preview": {
+            "correct": "🦁",
+            "streak": "🐒",
+            "speed": "🐆"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "sweettooth",
+          "label": "Sweet Tooth Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 32
+          },
+          "preview": {
+            "correct": "🍭",
+            "streak": "🍩",
+            "speed": "🍬"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "lover",
+          "label": "Lover Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 35
+          },
+          "preview": {
+            "correct": "💕",
+            "streak": "❣️",
+            "speed": "💘"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "cat",
+          "label": "Cat Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 39
+          },
+          "preview": {
+            "correct": "😻",
+            "streak": "😽",
+            "speed": "🐈"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "jeopardybot",
+          "label": "Jeopardy Bot Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 43
+          },
+          "preview": {
+            "correct": "🤯",
+            "streak": "😱",
+            "speed": "⏳"
+          },
+          "owners": [
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "433990857063137282"
+          ]
+        },
+        {
+          "key": "lucky",
+          "label": "Lucky Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 47
+          },
+          "preview": {
+            "correct": "🍀",
+            "streak": "🎰",
+            "speed": "🐇"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "angel",
+          "label": "Angel Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 51
+          },
+          "preview": {
+            "correct": "😇",
+            "streak": "🪽",
+            "speed": "☁️"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "bot",
+          "label": "Bot Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 55
+          },
+          "preview": {
+            "correct": "🤖",
+            "streak": "🚀",
+            "speed": "⚙️"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "rockstar",
+          "label": "Rockstar Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 58
+          },
+          "preview": {
+            "correct": "🎸",
+            "streak": "🎤",
+            "speed": "🎧"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "toxic",
+          "label": "Toxic Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 62
+          },
+          "preview": {
+            "correct": "🤬",
+            "streak": "🗑️",
+            "speed": "⚠️"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "devil",
+          "label": "Devil Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 65
+          },
+          "preview": {
+            "correct": "😈",
+            "streak": "👹",
+            "speed": "👺"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "fire",
+          "label": "Fire Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 68
+          },
+          "preview": {
+            "correct": "❤️‍🔥",
+            "streak": "☄️",
+            "speed": "🧯"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "arcade",
+          "label": "Arcade Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 72
+          },
+          "preview": {
+            "correct": "👾",
+            "streak": "🕹️",
+            "speed": "🏎️"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "meme",
+          "label": "Meme Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 74
+          },
+          "preview": {
+            "correct": "🗿",
+            "streak": "💀",
+            "speed": "🧍‍♂️"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "magic",
+          "label": "Magic Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 78
+          },
+          "preview": {
+            "correct": "🧙‍♂️",
+            "streak": "🪄",
+            "speed": "🔮"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "starry",
+          "label": "Starry Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 81
+          },
+          "preview": {
+            "correct": "🌙",
+            "streak": "🌌",
+            "speed": "🌠"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "kings",
+          "label": "King's Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 85
+          },
+          "preview": {
+            "correct": "⚔️",
+            "streak": "🛡️",
+            "speed": "🗡️"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "diamond",
+          "label": "Diamond Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 88
+          },
+          "preview": {
+            "correct": "💎",
+            "streak": "✨",
+            "speed": "💍"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "goat",
+          "label": "GOAT Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 91
+          },
+          "preview": {
+            "correct": "🐐",
+            "streak": "👑",
+            "speed": "👏"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "royalty",
+          "label": "Royalty Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 95
+          },
+          "preview": {
+            "correct": "👑",
+            "streak": "🏰",
+            "speed": "🐎"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "champion",
+          "label": "Champion Emoji Pack",
+          "unlock": {
+            "how": "level",
+            "level": 99
+          },
+          "preview": {
+            "correct": "🏆",
+            "streak": "🏅",
+            "speed": "⚡️"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "trickortreat",
+          "label": "Trick or Treat Emoji Pack",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 2
+          },
+          "preview": {
+            "correct": "🍬",
+            "streak": "🧟",
+            "speed": "🕯️"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "794420965387403265"
+          ]
+        },
+        {
+          "key": "haunted",
+          "label": "Haunted Emoji Pack",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 4
+          },
+          "preview": {
+            "correct": "💀",
+            "streak": "⚰️",
+            "speed": "🕸️"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "795847206719717386"
+          ]
+        },
+        {
+          "key": "spoopy",
+          "label": "Spoopy Emoji Pack",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 8
+          },
+          "preview": {
+            "correct": "👻",
+            "streak": "🎃",
+            "speed": "🦇"
+          },
+          "owners": [
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "fnaf",
+          "label": "FNAF Emoji Pack",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 10
+          },
+          "preview": {
+            "correct": "<:freddy:1553490697942995014>",
+            "streak": "<:chica:1553490713143025724>",
+            "speed": "<:glitchtrap:1553490638392266922>"
+          },
+          "owners": [
+            "433990857063137282",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "scooby",
+          "label": "Scooby Emoji Pack",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 15
+          },
+          "preview": {
+            "correct": "<:scoobycry:1295895958592425984>",
+            "streak": "<:mysterymachine:1553490677202157711>",
+            "speed": "<:shaggy:1295894146640511019>"
+          },
+          "owners": [],
+          "equipped": []
+        }
+      ]
+    },
+    {
+      "type": "theme",
+      "label": "Response Theme",
+      "items": [
+        {
+          "key": "default",
+          "label": "Standard Response Theme",
+          "unlock": {
+            "how": "level",
+            "level": 1
+          },
+          "preview": {
+            "lines": [
+              "❓ New trivia round started by Poo!",
+              "👍 The answer was **Paris**. You gain **4** points for answering in **3.21** seconds!",
+              "**Poo**'s score is now **12**.",
+              "👍 **Poo** is on a streak of **5** — a new personal best!"
+            ]
+          },
+          "owners": [
+            "130899127968989184",
+            "184456115927384065",
+            "187400147989168132",
+            "225570740802420737",
+            "433990857063137282",
+            "498222053032198185",
+            "671182574692990976",
+            "727172669010870375",
+            "734768348201615400",
+            "739131649966473306",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "130899127968989184",
+            "184456115927384065",
+            "187400147989168132",
+            "225570740802420737",
+            "498222053032198185",
+            "671182574692990976",
+            "727172669010870375",
+            "734768348201615400",
+            "739131649966473306"
+          ]
+        },
+        {
+          "key": "robot",
+          "label": "Robot Response Theme",
+          "unlock": {
+            "how": "level",
+            "level": 10
+          },
+          "preview": {
+            "lines": [
+              "🤖 TRIVIA.EXE INITIALIZED BY Poo!",
+              "👍 ANSWER CONFIRMED: **Paris**. ALLOCATING **4** points. RESPONSE TIME: **3.21** SECONDS.",
+              "UNIT **Poo** SCORE UPDATED: **12**.",
+              "👍 UNIT **Poo** STREAK COUNTER: **5**. NEW MAXIMUM RECORDED."
+            ]
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "shakespearean",
+          "label": "Shakespearean Response Theme",
+          "unlock": {
+            "how": "level",
+            "level": 20
+          },
+          "preview": {
+            "lines": [
+              "❓ Hark! A trivia round hath been started by Poo!",
+              "👍 The answer was, in truth, **Paris**. Thou dost gain **4** points for thine answer given in **3.21** seconds!",
+              "**Poo**'s score standeth now at **12**.",
+              "👍 **Poo** is upon a streak of **5** — a new personal best, verily!"
+            ]
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "794420965387403265"
+          ]
+        },
+        {
+          "key": "cowboy",
+          "label": "Cowboy Response Theme",
+          "unlock": {
+            "how": "level",
+            "level": 30
+          },
+          "preview": {
+            "lines": [
+              "❓ New trivia round rustled up by Poo!",
+              "👍 The answer was **Paris**. Ya gain **4** points fer answerin' in **3.21** seconds!",
+              "**Poo**'s score is now **12**, partner.",
+              "👍 **Poo**'s on a streak of **5** — a new personal best, yee-haw!"
+            ]
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "lolcat",
+          "label": "LOLCAT Response Theme",
+          "unlock": {
+            "how": "level",
+            "level": 40
+          },
+          "preview": {
+            "lines": [
+              "❓ NEW TRIVIA ROUNDZ STARTED BY Poo!!1",
+              "👍 TEH ANSWR WAZ **Paris**. U GETZ **4** points 4 ANSWRIN IN **3.21** SECONDZ!",
+              "**Poo**'z SCORE IZ NAO **12**.",
+              "👍 **Poo** ON A STREEK OF **5** — NEW BESTEST EVR!!1"
+            ]
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "passiveaggressive",
+          "label": "Sassy Response Theme",
+          "unlock": {
+            "how": "level",
+            "level": 50
+          },
+          "preview": {
+            "lines": [
+              "❓ Oh look, a new trivia round started by Poo. Fine.",
+              "👍 Oh, the answer was **Paris**. Wow, you got **4** points for that in **3.21** seconds. Impressive, I guess.",
+              "**Poo**'s score is now **12**. Good for them.",
+              "👍 **Poo**'s on a streak of **5** — a new personal best. Must be nice."
+            ]
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "valleygirl",
+          "label": "Valley Girl Response Theme",
+          "unlock": {
+            "how": "level",
+            "level": 60
+          },
+          "preview": {
+            "lines": [
+              "❓ OMG a new trivia round was like, totally started by Poo!",
+              "👍 Okay so the answer was like, **Paris**. You literally got **4** points for answering in **3.21** seconds, that's so cool!",
+              "**Poo**'s score is like, **12** now!",
+              "👍 **Poo** is like, on a streak of **5** — that's literally a new personal best!!"
+            ]
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "pirate",
+          "label": "Pirate Response Theme",
+          "unlock": {
+            "how": "level",
+            "level": 70
+          },
+          "preview": {
+            "lines": [
+              "❓ New trivia voyage started by Poo!",
+              "👍 The answer was **Paris**. Ye gain **4** points fer answerin' in **3.21** seconds!",
+              "**Poo**'s score be now **12**.",
+              "👍 **Poo** be on a streak of **5** riddles — a new personal best, arrr!"
+            ]
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "caveman",
+          "label": "Caveman Response Theme",
+          "unlock": {
+            "how": "level",
+            "level": 80
+          },
+          "preview": {
+            "lines": [
+              "❓ Poo START TRIVIA!",
+              "👍 ANSWER WAS **Paris**. YOU GET **4** points FOR ANSWER IN **3.21** SECOND!",
+              "**Poo** SCORE NOW **12**.",
+              "👍 **Poo** WIN **5** IN ROW — BEST EVER!"
+            ]
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "alien",
+          "label": "Alien Response Theme",
+          "unlock": {
+            "how": "level",
+            "level": 90
+          },
+          "preview": {
+            "lines": [
+              "❓ Trivia transmission initiated by Poo!",
+              "👍 The correct transmission was **Paris**. You are awarded **4** points for responding in **3.21** Earth-seconds!",
+              "**Poo**'s point allotment is now **12**.",
+              "👍 **Poo** has achieved a correct-response streak of **5** — a new specimen record!"
+            ]
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "zombie",
+          "label": "Zombie Response Theme",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 5
+          },
+          "preview": {
+            "lines": [
+              "🧟 Uhhhh... new trivia... Poo made it... braaaains...",
+              "👍 Uhhhh... answer was **Paris**... you get **4** points... **3.21** seconds... braaaains...",
+              "**Poo**... score is **12**... uhhhh... goood...",
+              "👍 **Poo**... streak of **5**... new best... uhhhh... horde proud... braaaains..."
+            ]
+          },
+          "owners": [
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "433990857063137282"
+          ]
+        },
+        {
+          "key": "dracula",
+          "label": "Dracula Response Theme",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 10
+          },
+          "preview": {
+            "lines": [
+              "🦇 Veelcome to my castle... a trivia round haz been zummoned by Poo!",
+              "👍 Vhe answer vaz **Paris**. You gain **4** points for answering in **3.21** zecondz... deeliciously quick!",
+              "**Poo**'z zcore now ztandz at **12**... most impreessive.",
+              "👍 **Poo** iz on a ztreak of **5** — a new personal beest. Immortality beckons!"
+            ]
+          },
+          "owners": [
+            "433990857063137282",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "795847206719717386"
+          ]
+        },
+        {
+          "key": "scoobydoo",
+          "label": "Scooby Doo Response Theme",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 15
+          },
+          "preview": {
+            "lines": [
+              "🔍 Ruh-roh! Rew trivia round rarted by Poo! Rooby-Dooby-Doo!",
+              "👍 Reah! The answer was **Paris**! Rou rot it in **3.21** seconds, ro rou gain **4** points! Rooby-Dooby-Doo!",
+              "**Poo**'s score is now **12**! Ret's ro — Rooby Racks ror everyone!",
+              "👍 Reah! **Poo** is on a streak of **5** — a rew personal best, rou rot it! Rooby-Dooby-Doo!"
+            ]
+          },
+          "owners": [],
+          "equipped": []
+        }
+      ]
+    },
+    {
+      "type": "embedcolor",
+      "label": "Embed",
+      "items": [
+        {
+          "key": "default",
+          "label": "Default Embed",
+          "unlock": {
+            "how": "level",
+            "level": 1
+          },
+          "preview": {
+            "hex": null
+          },
+          "owners": [
+            "130899127968989184",
+            "184456115927384065",
+            "187400147989168132",
+            "225570740802420737",
+            "433990857063137282",
+            "498222053032198185",
+            "671182574692990976",
+            "727172669010870375",
+            "734768348201615400",
+            "739131649966473306",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "130899127968989184",
+            "184456115927384065",
+            "187400147989168132",
+            "225570740802420737",
+            "498222053032198185",
+            "671182574692990976",
+            "727172669010870375",
+            "739131649966473306"
+          ]
+        },
+        {
+          "key": "lime",
+          "label": "Lime Embed",
+          "unlock": {
+            "how": "level",
+            "level": 2
+          },
+          "preview": {
+            "hex": "#B5E48C"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "olive",
+          "label": "Olive Embed",
+          "unlock": {
+            "how": "level",
+            "level": 6
+          },
+          "preview": {
+            "hex": "#606C38"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "mustard",
+          "label": "Mustard Embed",
+          "unlock": {
+            "how": "level",
+            "level": 7
+          },
+          "preview": {
+            "hex": "#D4A017"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "chocolate",
+          "label": "Chocolate Embed",
+          "unlock": {
+            "how": "level",
+            "level": 11
+          },
+          "preview": {
+            "hex": "#6F4E37"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "brickred",
+          "label": "Brick Red Embed",
+          "unlock": {
+            "how": "level",
+            "level": 14
+          },
+          "preview": {
+            "hex": "#9E2A2B"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "slategrey",
+          "label": "Slate Grey Embed",
+          "unlock": {
+            "how": "level",
+            "level": 17
+          },
+          "preview": {
+            "hex": "#6C757D"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "coral",
+          "label": "Coral Embed",
+          "unlock": {
+            "how": "level",
+            "level": 19
+          },
+          "preview": {
+            "hex": "#FF6B6B"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "sunsetorange",
+          "label": "Sunset Orange Embed",
+          "unlock": {
+            "how": "level",
+            "level": 22
+          },
+          "preview": {
+            "hex": "#F3722C"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "amber",
+          "label": "Amber Embed",
+          "unlock": {
+            "how": "level",
+            "level": 26
+          },
+          "preview": {
+            "hex": "#F8961E"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "cyan",
+          "label": "Cyan Embed",
+          "unlock": {
+            "how": "level",
+            "level": 27
+          },
+          "preview": {
+            "hex": "#00B4D8"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "skyblue",
+          "label": "Sky Blue Embed",
+          "unlock": {
+            "how": "level",
+            "level": 31
+          },
+          "preview": {
+            "hex": "#4CC9F0"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "794420965387403265"
+          ]
+        },
+        {
+          "key": "mint",
+          "label": "Mint Embed",
+          "unlock": {
+            "how": "level",
+            "level": 34
+          },
+          "preview": {
+            "hex": "#5CE1B0"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "433990857063137282"
+          ]
+        },
+        {
+          "key": "hotpink",
+          "label": "Hot Pink Embed",
+          "unlock": {
+            "how": "level",
+            "level": 37
+          },
+          "preview": {
+            "hex": "#F72585"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "blush",
+          "label": "Blush Embed",
+          "unlock": {
+            "how": "level",
+            "level": 39
+          },
+          "preview": {
+            "hex": "#FFC2D1"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "periwinkle",
+          "label": "Periwinkle Embed",
+          "unlock": {
+            "how": "level",
+            "level": 42
+          },
+          "preview": {
+            "hex": "#8093F1"
+          },
+          "owners": [
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "734768348201615400",
+            "795847206719717386"
+          ]
+        },
+        {
+          "key": "teal",
+          "label": "Teal Embed",
+          "unlock": {
+            "how": "level",
+            "level": 46
+          },
+          "preview": {
+            "hex": "#2EC4B6"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "rose",
+          "label": "Rose Embed",
+          "unlock": {
+            "how": "level",
+            "level": 48
+          },
+          "preview": {
+            "hex": "#FF8FA3"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "steelblue",
+          "label": "Steel Blue Embed",
+          "unlock": {
+            "how": "level",
+            "level": 51
+          },
+          "preview": {
+            "hex": "#457B9D"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "crimsonred",
+          "label": "Crimson Red Embed",
+          "unlock": {
+            "how": "level",
+            "level": 54
+          },
+          "preview": {
+            "hex": "#E63946"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "lavender",
+          "label": "Lavender Embed",
+          "unlock": {
+            "how": "level",
+            "level": 57
+          },
+          "preview": {
+            "hex": "#B298DC"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "turquoise",
+          "label": "Turquoise Embed",
+          "unlock": {
+            "how": "level",
+            "level": 59
+          },
+          "preview": {
+            "hex": "#40E0D0"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "goldenyellow",
+          "label": "Golden Yellow Embed",
+          "unlock": {
+            "how": "level",
+            "level": 62
+          },
+          "preview": {
+            "hex": "#F9C74F"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "magenta",
+          "label": "Magenta Embed",
+          "unlock": {
+            "how": "level",
+            "level": 64
+          },
+          "preview": {
+            "hex": "#D00070"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "emeraldgreen",
+          "label": "Emerald Green Embed",
+          "unlock": {
+            "how": "level",
+            "level": 66
+          },
+          "preview": {
+            "hex": "#43AA8B"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "forestgreen",
+          "label": "Forest Green Embed",
+          "unlock": {
+            "how": "level",
+            "level": 69
+          },
+          "preview": {
+            "hex": "#2D6A4F"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "orchid",
+          "label": "Orchid Embed",
+          "unlock": {
+            "how": "level",
+            "level": 72
+          },
+          "preview": {
+            "hex": "#C77DFF"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "bronze",
+          "label": "Bronze Embed",
+          "unlock": {
+            "how": "level",
+            "level": 76
+          },
+          "preview": {
+            "hex": "#A47148"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "maroon",
+          "label": "Maroon Embed",
+          "unlock": {
+            "how": "level",
+            "level": 77
+          },
+          "preview": {
+            "hex": "#800F2C"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "charcoal",
+          "label": "Charcoal Embed",
+          "unlock": {
+            "how": "level",
+            "level": 81
+          },
+          "preview": {
+            "hex": "#343A40"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "copper",
+          "label": "Copper Embed",
+          "unlock": {
+            "how": "level",
+            "level": 84
+          },
+          "preview": {
+            "hex": "#B87333"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "navy",
+          "label": "Navy Embed",
+          "unlock": {
+            "how": "level",
+            "level": 86
+          },
+          "preview": {
+            "hex": "#1D3557"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "silver",
+          "label": "Silver Embed",
+          "unlock": {
+            "how": "level",
+            "level": 89
+          },
+          "preview": {
+            "hex": "#C0C0C0"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "indigo",
+          "label": "Indigo Embed",
+          "unlock": {
+            "how": "level",
+            "level": 92
+          },
+          "preview": {
+            "hex": "#3A0CA3"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "pearlwhite",
+          "label": "Pearl White Embed",
+          "unlock": {
+            "how": "level",
+            "level": 96
+          },
+          "preview": {
+            "hex": "#F1FAEE"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "royalpurple",
+          "label": "Royal Purple Embed",
+          "unlock": {
+            "how": "level",
+            "level": 97
+          },
+          "preview": {
+            "hex": "#7209B7"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "jetblack",
+          "label": "Jet Black Embed",
+          "unlock": {
+            "how": "level",
+            "level": 99
+          },
+          "preview": {
+            "hex": "#1A1A1A"
+          },
+          "owners": [],
+          "equipped": []
+        }
+      ]
+    },
+    {
+      "type": "mvp",
+      "label": "MVP",
+      "items": [
+        {
+          "key": "default",
+          "label": "Default MVP",
+          "unlock": {
+            "how": "level",
+            "level": 1
+          },
+          "preview": {
+            "quote": null,
+            "gif": null
+          },
+          "owners": [
+            "130899127968989184",
+            "184456115927384065",
+            "187400147989168132",
+            "225570740802420737",
+            "433990857063137282",
+            "498222053032198185",
+            "671182574692990976",
+            "727172669010870375",
+            "734768348201615400",
+            "739131649966473306",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "130899127968989184",
+            "184456115927384065",
+            "187400147989168132",
+            "225570740802420737",
+            "498222053032198185",
+            "671182574692990976",
+            "727172669010870375",
+            "739131649966473306"
+          ]
+        },
+        {
+          "key": "canal",
+          "label": "Canal MVP",
+          "unlock": {
+            "how": "level",
+            "level": 3
+          },
+          "preview": {
+            "quote": "Canal looks happy",
+            "gif": "https://media.giphy.com/media/sTdNbA5Y4VOZaTV6cw/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "epicvictory",
+          "label": "Epic Victory MVP",
+          "unlock": {
+            "how": "level",
+            "level": 9
+          },
+          "preview": {
+            "quote": "Another epic victory! Big win!",
+            "gif": "https://media.giphy.com/media/Lb57UuNusxb7YSxMJa/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "offoutttyl",
+          "label": "Off Out Ttyl MVP",
+          "unlock": {
+            "how": "level",
+            "level": 13
+          },
+          "preview": {
+            "quote": "Off out ttyl",
+            "gif": "https://media.giphy.com/media/wcbByLgcnFH68AxroU/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "whattamaneuver",
+          "label": "WHATTAMANEUVER MVP",
+          "unlock": {
+            "how": "level",
+            "level": 18
+          },
+          "preview": {
+            "quote": "WHATTA MANEUVER",
+            "gif": "https://media.giphy.com/media/R1JnqBag8zhqhHEnLa/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "tomorrowusee",
+          "label": "tomorrow u see MVP",
+          "unlock": {
+            "how": "level",
+            "level": 21
+          },
+          "preview": {
+            "quote": "I'm going to sleep 💤😴tomorrow u see 👀",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzMxNXg3M2Y3aDR3YXJjMW52YTA2aW1wY2E2bmZpeHhzbjhqZGptbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5i0RdWktDx0xW/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "rabbit",
+          "label": "Rabbit MVP",
+          "unlock": {
+            "how": "level",
+            "level": 24
+          },
+          "preview": {
+            "quote": "Just ran over a rabbit. Devastated.",
+            "gif": "https://media.giphy.com/media/uaq6WxbUpI312mz8RX/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "careful",
+          "label": "Careful MVP",
+          "unlock": {
+            "how": "level",
+            "level": 28
+          },
+          "preview": {
+            "quote": "Careful now, girl. I enjoy you, but be careful.",
+            "gif": "https://media.giphy.com/media/sKVraMKIs2ptEdbMtB/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "noanswer",
+          "label": "No Answer MVP",
+          "unlock": {
+            "how": "level",
+            "level": 29
+          },
+          "preview": {
+            "quote": "i don’t even have an answer on this one i really don’t get why you’ve had to do that",
+            "gif": "https://media.giphy.com/media/EeX7RZxANYhBv6fdWS/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "funung",
+          "label": "Funung MVP",
+          "unlock": {
+            "how": "level",
+            "level": 33
+          },
+          "preview": {
+            "quote": "Funung",
+            "gif": "https://media.giphy.com/media/ASKTzATxt0Bk9fbvAB/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "deeney",
+          "label": "Deeney MVP",
+          "unlock": {
+            "how": "level",
+            "level": 36
+          },
+          "preview": {
+            "quote": "Here's Hogg..... DEENEY!",
+            "gif": "https://media.giphy.com/media/Jf6DbAQhdSt6HEm8Ci/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "term",
+          "label": "Term MVP",
+          "unlock": {
+            "how": "level",
+            "level": 38
+          },
+          "preview": {
+            "quote": "Hate that term. Especially cause you’re from the Uk. Just say shitting or something",
+            "gif": "https://media.giphy.com/media/LI9UnrOs5EzKfWK4BC/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "magneto",
+          "label": "Magneto MVP",
+          "unlock": {
+            "how": "level",
+            "level": 41
+          },
+          "preview": {
+            "quote": "Save as many as you can. We will not live our days wondering if we could have saved more.",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjY2bnBqMGtrbmdmcHA5d2h0YXVqNmd2Y3BpMTZ3ajg3c2Fma3BxMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w1ou9ihg5KYyzTHy9P/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "birdsofprey",
+          "label": "Birds of Prey MVP",
+          "unlock": {
+            "how": "level",
+            "level": 44
+          },
+          "preview": {
+            "quote": "I suppose if you are going to execute a bird of prey, the most humane way would be death by firing squad.",
+            "gif": "https://media.giphy.com/media/cK2bsYaimCOPxwPdr9/giphy.gif"
+          },
+          "owners": [
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "734768348201615400"
+          ]
+        },
+        {
+          "key": "bourbons",
+          "label": "Bourbons MVP",
+          "unlock": {
+            "how": "level",
+            "level": 49
+          },
+          "preview": {
+            "quote": "The Bourbon's are back.",
+            "gif": "https://media.giphy.com/media/Hg97455BiXV9lUwXxe/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "ahshit",
+          "label": "Ah shit MVP",
+          "unlock": {
+            "how": "level",
+            "level": 50
+          },
+          "preview": {
+            "quote": "Ah shit, here we go again",
+            "gif": "https://media.giphy.com/media/XYfMMlPl5UU7Uz7JNt/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "lion",
+          "label": "Lion MVP",
+          "unlock": {
+            "how": "level",
+            "level": 52
+          },
+          "preview": {
+            "quote": "A lion doesn't concern himself with the opinions of a sheep",
+            "gif": "https://media.giphy.com/media/mH72ulD5Uov624QiiQ/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "fear",
+          "label": "Fear MVP",
+          "unlock": {
+            "how": "level",
+            "level": 53
+          },
+          "preview": {
+            "quote": "Do you think God stays in Heaven because, he too, lives in fear of what he’s created here on Earth",
+            "gif": "https://media.giphy.com/media/ev7mcmCC6wA81JXPU6/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "boy",
+          "label": "Boy MVP",
+          "unlock": {
+            "how": "level",
+            "level": 55
+          },
+          "preview": {
+            "quote": "You're a boy, in a mans world, and I'm a man who loves to play with boys! No, no, no, no, wait a minute! SHUT UP! Hold on. No, no, no, no! Shut up, hold on! HOLD ON A SECOND! WHAT I MEANT TO SAY--LISTEN! {loser}! {loser}, what I meant to say... is you're a boy, and I'm a man. And tonight, I'm gonna love to manhandle you! NO, WAIT A MINUTE! Hold on a second, HOLD ON! SHUT UP! SHUT UP! SHUT! UP! {loser}! You remember this, pal! You're a boy... And I'm a man, when you and I get together here tonight, I'm gonna get on top of you, and--NO! {loser}, GET YOUR BUTT OUT HERE SO I CAN KICK YOUR BUTT!",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3YTBkOHBkNmhlcXliczVtYWd6NnJiMnU3ejg1YWVzZTl5dXlmNXl2ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT3aAN2Jh7adJxLaFc/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "itisnow",
+          "label": "IT IS NOW! MVP",
+          "unlock": {
+            "how": "level",
+            "level": 56
+          },
+          "preview": {
+            "quote": "Some people are on the pitch, they think it's all over.... IT IS NOW!",
+            "gif": "https://media.giphy.com/media/r0MOlziflL9dwZpw0k/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "free",
+          "label": "Free MVP",
+          "unlock": {
+            "how": "level",
+            "level": 57
+          },
+          "preview": {
+            "quote": "All the ways you wish you could be, that's me. I look like you wanna look, I fuck like you wanna fuck, I am smart, capable, and most importantly, I am free in all the ways that you are not.",
+            "gif": "https://media.giphy.com/media/BtMHKOnZTbiqGiKJdE/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "letterboxd",
+          "label": "Letterboxd MVP",
+          "unlock": {
+            "how": "level",
+            "level": 61
+          },
+          "preview": {
+            "quote": "Those letterbox people paying to switch the movie poster 😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG1va3dhZGt6OHd4bTcxdWdibmNobjh4eDAyc3c4b3prdGRoMDZjNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0phGMrcaB1fCHgaX2/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "war",
+          "label": "War MVP",
+          "unlock": {
+            "how": "level",
+            "level": 63
+          },
+          "preview": {
+            "quote": "War, war never changes",
+            "gif": "https://media.giphy.com/media/FwkR3a4AAIWUEXklY1/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "honor",
+          "label": "Honor MVP",
+          "unlock": {
+            "how": "level",
+            "level": 65
+          },
+          "preview": {
+            "quote": "{loser} - I shall wear this as a badge of honor\n{user} - Wear it in silence or I’ll honor you again.",
+            "gif": "https://media.giphy.com/media/fHQluAv15G24p8D84H/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "victory",
+          "label": "Victory MVP",
+          "unlock": {
+            "how": "level",
+            "level": 66
+          },
+          "preview": {
+            "quote": "Peace has cost you your strength. Victory has defeated you!",
+            "gif": "https://media.giphy.com/media/rYg9VVAVffWAbtGk8q/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "beating",
+          "label": "Beating MVP",
+          "unlock": {
+            "how": "level",
+            "level": 67
+          },
+          "preview": {
+            "quote": "Maggie Thatcher your boys took a hell of a beating",
+            "gif": "https://media.giphy.com/media/Fg8HEDMHkchSFvSv5W/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "gambit",
+          "label": "Gambit MVP",
+          "unlock": {
+            "how": "level",
+            "level": 68
+          },
+          "preview": {
+            "quote": "The cards always be in my favor",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDhmbXh2Y2YxN2lvNnlhbHB5N2dpbGhwNGNpemlhYWJnYWo2eXBxeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/iAiaD6vpjApoda0wYt/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "illbeback",
+          "label": "I'll be back MVP",
+          "unlock": {
+            "how": "level",
+            "level": 70
+          },
+          "preview": {
+            "quote": "I’ll be Back",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXprcGp3b25peHdqa3cwY2Z4ZTc4dXZkcGdseGQzNWo3bGt6c3preiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/LFEjnqmVmbKk8/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "makeyourselffamous",
+          "label": "Make yourself Famous MVP",
+          "unlock": {
+            "how": "level",
+            "level": 71
+          },
+          "preview": {
+            "quote": "Climb the ladder kid! Make yourself famous!",
+            "gif": "https://media.giphy.com/media/JM2EbBelsSn6gvgdVr/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "dragon",
+          "label": "Dragon MVP",
+          "unlock": {
+            "how": "level",
+            "level": 73
+          },
+          "preview": {
+            "quote": "The lords of Westeros are sheep. Are you a sheep? No. You're a dragon. Be a dragon",
+            "gif": "https://media.giphy.com/media/oN6ELISO7HOeWxUgk1/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "keptyouwaitinghuh",
+          "label": "Kept You Waiting, Huh? MVP",
+          "unlock": {
+            "how": "level",
+            "level": 75
+          },
+          "preview": {
+            "quote": "Kept you waiting, huh?",
+            "gif": "https://media.giphy.com/media/vxR6h6QmezvOmoiLfB/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "solskjaer",
+          "label": "Solskjaer MVP",
+          "unlock": {
+            "how": "level",
+            "level": 77
+          },
+          "preview": {
+            "quote": "... AND SOLSKJAER HAS WON IT",
+            "gif": "https://media.giphy.com/media/DpwPJ6uOob0PNXu1ZQ/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "slaveobeys",
+          "label": "Slave Obeys MVP",
+          "unlock": {
+            "how": "level",
+            "level": 79
+          },
+          "preview": {
+            "quote": "A man chooses, a slave obeys",
+            "gif": "https://media.giphy.com/media/vposeR4owc2B4PNKMw/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "boyhooddream",
+          "label": "Boyhood Dream MVP",
+          "unlock": {
+            "how": "level",
+            "level": 80
+          },
+          "preview": {
+            "quote": "The boyhood dream has come true for {user}",
+            "gif": "https://media.giphy.com/media/1blfimlU7aahF2dpC1/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "nottoday",
+          "label": "Not Today MVP",
+          "unlock": {
+            "how": "level",
+            "level": 82
+          },
+          "preview": {
+            "quote": "There is only one god and his name is Death, and there is only one thing we say to Death: Not today.",
+            "gif": "https://media.giphy.com/media/BYDEu3Q0KyRXtw3WEW/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "allday",
+          "label": "All Day MVP",
+          "unlock": {
+            "how": "level",
+            "level": 83
+          },
+          "preview": {
+            "quote": "I can do this all day.",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazk2aWhocXpkMnVzZGxjcXpoeDdreWlnczFkdWkzbXhqd3hpeWk0MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1lL0ENA9UiySk/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "stopme",
+          "label": "Stop Me MVP",
+          "unlock": {
+            "how": "level",
+            "level": 84
+          },
+          "preview": {
+            "quote": "The question isn’t who is going to let me: it’s who is going to stop me",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGRvMTJsaW13MWJlcW9sYmdyNnp2d2VhNGh0dWZ1NXNueHgxMm02MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H7i7yFW41bHfdrpPZk/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "power",
+          "label": "Power MVP",
+          "unlock": {
+            "how": "level",
+            "level": 85
+          },
+          "preview": {
+            "quote": "Power is power.",
+            "gif": "https://media.giphy.com/media/KiqhLiw8Ds7Pd28Mhk/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "brokeninhalf",
+          "label": "Broken in Half MVP",
+          "unlock": {
+            "how": "level",
+            "level": 86
+          },
+          "preview": {
+            "quote": "Good God almighty, {user} killed them. As God as my witness, {loser} is broken in half.",
+            "gif": "https://media.giphy.com/media/ILN8a1sLDCUB0KGF0U/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "rigged",
+          "label": "Rigged MVP",
+          "unlock": {
+            "how": "level",
+            "level": 87
+          },
+          "preview": {
+            "quote": "Truth is… the game was rigged from the start",
+            "gif": "https://media.giphy.com/media/5b2lxT0eJk9pNBLrXT/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "smile",
+          "label": "Smile MVP",
+          "unlock": {
+            "how": "level",
+            "level": 88
+          },
+          "preview": {
+            "quote": "Fun isn't something one considers when balancing the universe. But this... does put a smile on my face.",
+            "gif": "https://media.giphy.com/media/kXsN25nMvSGiCTznbO/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "heistofthecentury",
+          "label": "Heist of the Century MVP",
+          "unlock": {
+            "how": "level",
+            "level": 89
+          },
+          "preview": {
+            "quote": "{user} with the heist of the century!",
+            "gif": "https://media.giphy.com/media/eH63GT6BGRNXrHG926/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "avengersassemble",
+          "label": "Avengers Assemble MVP",
+          "unlock": {
+            "how": "level",
+            "level": 90
+          },
+          "preview": {
+            "quote": "Avengers, Assemble!",
+            "gif": "https://media.giphy.com/media/XrZKxpLzMUVHpsV9Tc/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "tellher",
+          "label": "Tell Her MVP",
+          "unlock": {
+            "how": "level",
+            "level": 91
+          },
+          "preview": {
+            "quote": "Tell Cersei. I want her to know it was me.",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGsxbmdyZXNiZWc0aXF3ZTQyc21mYmRxNWJsNWlyejR4OG02OTBpNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/iiDipW55ZH1rpkmzSh/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "gameofthrones",
+          "label": "Game of Thrones MVP",
+          "unlock": {
+            "how": "level",
+            "level": 92
+          },
+          "preview": {
+            "quote": "When you play the game of thrones, you win or you die. There is no middle ground.",
+            "gif": "https://media.giphy.com/media/hT1DKj8pn5PDW2OFB1/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "thanos",
+          "label": "Thanos MVP",
+          "unlock": {
+            "how": "level",
+            "level": 93
+          },
+          "preview": {
+            "quote": "Fine. I’ll do it myself.",
+            "gif": "https://media.giphy.com/media/QQBQ6LeaDRCiUYHCvt/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "forthehead",
+          "label": "For The Head MVP",
+          "unlock": {
+            "how": "level",
+            "level": 94
+          },
+          "preview": {
+            "quote": "You should have gone for the head.",
+            "gif": "https://media.giphy.com/media/ChaZJWzGWBBsyERW6T/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "conquered",
+          "label": "Conquered MVP",
+          "unlock": {
+            "how": "level",
+            "level": 95
+          },
+          "preview": {
+            "quote": "I came, I saw, I conquered",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWVwejVnanQ5bHhtd2Q1YnY5YjM1dmJuZnE2M3NjNjI2ZnRscXFyMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/rexdkS6uQrhHP7QvZy/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "oppenheimer",
+          "label": "Oppenheimer MVP",
+          "unlock": {
+            "how": "level",
+            "level": 96
+          },
+          "preview": {
+            "quote": "I have become death, destroyer of worlds",
+            "gif": "https://media.giphy.com/media/yaK53pITXASgrn06Ot/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "death",
+          "label": "Death MVP",
+          "unlock": {
+            "how": "level",
+            "level": 97
+          },
+          "preview": {
+            "quote": "Death can have me when it earns me",
+            "gif": "https://media.giphy.com/media/1qg971Zds8wpXbqdBg/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "inevitable",
+          "label": "Inevitable MVP",
+          "unlock": {
+            "how": "level",
+            "level": 98
+          },
+          "preview": {
+            "quote": "I am… Inevitable",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZtNjE1NG9yc2g1OW16OW9jZjM2ZWo2YmZzYTFneWF2c3QyNTMxcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ie76dJeem4xBDcf83e/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "patience",
+          "label": "Patience MVP",
+          "unlock": {
+            "how": "special"
+          },
+          "preview": {
+            "quote": "Good things come to those who wait",
+            "gif": "https://media0.giphy.com/media/MsX7HnsJimnzzD9iRE/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "pumpkin",
+          "label": "Pumpkin MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 1
+          },
+          "preview": {
+            "quote": "PUMKIN",
+            "gif": "https://media.giphy.com/media/cogXMr2IKCyRNXoGjy/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "scarymovies",
+          "label": "Scary Movies MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 2
+          },
+          "preview": {
+            "quote": "What's your favorite scary movie?",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWNtYmt1bGh1dG9mZmp4OGljN2lrN2ZnYXBuOWc4d2NmNWltOHEyeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RSeauh7Iyr9Yoys5Dd/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "794420965387403265"
+          ]
+        },
+        {
+          "key": "herejohnny",
+          "label": "Here's Johnny MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 3
+          },
+          "preview": {
+            "quote": "HERE'S JOHNNY!",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHBpM28zb2xjY2Q1NGsybjZtdmt0bmg4ZG54c2U3dTF4OTltb2NxMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QSToNb4xXf51m/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "794420965387403265",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "playgame",
+          "label": "Play Game MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 4
+          },
+          "preview": {
+            "quote": "Hello {loser}, I want to play a game",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHVvN216aXFjcTF5bXY3eXMwNGJ0cnA3MDF3NW9zd3AzYzMzMW9kbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cewvmYhuz58pATZaVv/giphy.gif"
+          },
+          "owners": [
+            "184456115927384065",
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "primetime",
+          "label": "Prime Time MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 5
+          },
+          "preview": {
+            "quote": "This is it, {loser}! Your big break in TV! Welcome to prime time, bitch!",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzE3N216OTFiMGV5MnNrdTd5d2FxMjZpcThmaDI1azR1cnhyaGI5OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PK7IAHdB0l9mg/giphy.gif"
+          },
+          "owners": [
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "stupidbitch",
+          "label": "Stupid Bitch MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 6
+          },
+          "preview": {
+            "quote": "YOU STUPID BITCH, YOU FILTHY SLUT! I'LL TEACH YOU TO FUCK WITH ME!",
+            "gif": "https://media.giphy.com/media/0cbbW3i8kzCahcvxmb/giphy.gif"
+          },
+          "owners": [
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "433990857063137282"
+          ]
+        },
+        {
+          "key": "rubber",
+          "label": "Rubber MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 7
+          },
+          "preview": {
+            "quote": "{loser} Look at me! I'm all rubber!",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3M0eTd4MDQzZmx4ZHhwenpxNHJoa3R1cmRmOTE4bnY3dXpvNTBrZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hUt2pa8rPPUGajN3N1/giphy.gif"
+          },
+          "owners": [
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "cancelled",
+          "label": "Cancelled MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 8
+          },
+          "preview": {
+            "quote": "Sorry. You're cancelled",
+            "gif": "https://media.giphy.com/media/ya29NyWRkrfgzcRXf9/giphy.gif"
+          },
+          "owners": [
+            "433990857063137282",
+            "734768348201615400",
+            "795847206719717386"
+          ],
+          "equipped": [
+            "795847206719717386"
+          ]
+        },
+        {
+          "key": "phil",
+          "label": "Phil MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 9
+          },
+          "preview": {
+            "quote": "How's it hanging, Phil?",
+            "gif": "https://media.giphy.com/media/8fqpBen6CG0srsbIoG/giphy.gif"
+          },
+          "owners": [
+            "433990857063137282",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "comeback",
+          "label": "Come Back MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 10
+          },
+          "preview": {
+            "quote": "I always come back.",
+            "gif": "https://media.giphy.com/media/1SIgCBVYCbFdv5RqDS/giphy.gif"
+          },
+          "owners": [
+            "433990857063137282",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "forgettosmile",
+          "label": "Forget to Smile MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 11
+          },
+          "preview": {
+            "quote": "Don't forget to smile",
+            "gif": "https://media.giphy.com/media/fJISuhys7hFNMvTnDV/giphy.gif"
+          },
+          "owners": [
+            "433990857063137282",
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "mother",
+          "label": "Mother MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 12
+          },
+          "preview": {
+            "quote": "Your mother sucks cocks in Hell, {loser}, you faithless slime.",
+            "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWVsMHBhOHliOGpmczlqNzlmMDAyZjMyN2d2YjQzbWhhcmphNDk1NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT9KVHs6I3EfDKnVte/giphy.gif"
+          },
+          "owners": [
+            "795847206719717386"
+          ],
+          "equipped": []
+        },
+        {
+          "key": "wholebag",
+          "label": "Whole Bag MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 13
+          },
+          "preview": {
+            "quote": "Why, of course. I believe there's a wholeeee bag. I'm almost sure of it.",
+            "gif": "https://media.giphy.com/media/evhhXX0wfoWHApbZKE/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "wassup",
+          "label": "WASSUP MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 14
+          },
+          "preview": {
+            "quote": "WAZZZZZUPPP!",
+            "gif": "https://media.giphy.com/media/DAlZhp0uCQTvpTjBXI/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        },
+        {
+          "key": "melvindoo",
+          "label": "Melvin Doo MVP",
+          "unlock": {
+            "how": "season",
+            "season": "Season 0",
+            "emoji": "🎃",
+            "tier": 15
+          },
+          "preview": {
+            "quote": "{user}: I got a call here for a Mister Doo? I got a call for Mister Doo.\n{loser}: Uh, Melvin Doo?\n{user}: Nah. Scooby.",
+            "gif": "https://media.giphy.com/media/lwWyu3L1xwI61U19zP/giphy.gif"
+          },
+          "owners": [],
+          "equipped": []
+        }
+      ]
+    }
+  ]
+}
