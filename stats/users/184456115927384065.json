@@ -3641,5 +3641,25 @@
       "losses": 1,
       "ties": 0
     }
-  ]
+  ],
+  "xp_sources": {
+    "level": {
+      "achievement": 659250,
+      "mission": 5000,
+      "game": 171394,
+      "duel": 27750
+    },
+    "game_layers": {
+      "daily": 1635,
+      "hardcore": 500,
+      "base": 3592
+    },
+    "pass": {
+      "season_0": {
+        "mission": 250,
+        "duel": 1250,
+        "game": 3589
+      }
+    }
+  }
 }
