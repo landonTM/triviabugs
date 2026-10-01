@@ -71,15 +71,15 @@
           "achievements": 7
         },
         "weekly": {
-          "points": 4055,
-          "correct": 1843,
-          "standard_correct": 818,
-          "insane_finds": 1025,
-          "avg_guess_ms": 11100.190709046456,
+          "points": 4033,
+          "correct": 1828,
+          "standard_correct": 815,
+          "insane_finds": 1013,
+          "avg_guess_ms": 11080.19018404908,
           "fastest_ms": 919,
           "under_5s": 431,
-          "exact_spelling": 1667,
-          "spelled": 1843,
+          "exact_spelling": 1652,
+          "spelled": 1828,
           "best_streak": 56,
           "active_days": 7,
           "games_played": 66,
@@ -342,8 +342,8 @@
         },
         "weekly": {
           "Video Games": [
-            67,
-            74
+            55,
+            62
           ],
           "Conundrums": [
             11,
@@ -394,16 +394,16 @@
             55
           ],
           "Slogans": [
-            11,
-            24
+            10,
+            22
           ],
           "US State Capitals": [
             1,
             1
           ],
           "Whos That Pokemon (Gen 1)": [
-            4,
-            16
+            3,
+            12
           ],
           "What Links": [
             6,
@@ -438,8 +438,8 @@
             29
           ],
           "Harry Potter": [
-            35,
-            60
+            34,
+            56
           ],
           "Whos That Pokemon (Gen 4)": [
             1,
@@ -1184,15 +1184,15 @@
           "xp": 2142
         },
         "weekly": {
-          "points": 1855,
-          "correct": 919,
-          "standard_correct": 327,
-          "insane_finds": 592,
-          "avg_guess_ms": 10226.688073394494,
+          "points": 1827,
+          "correct": 906,
+          "standard_correct": 322,
+          "insane_finds": 584,
+          "avg_guess_ms": 10280.416149068324,
           "fastest_ms": 2161,
-          "under_5s": 140,
-          "exact_spelling": 767,
-          "spelled": 919,
+          "under_5s": 138,
+          "exact_spelling": 755,
+          "spelled": 906,
           "best_streak": 45,
           "active_days": 8,
           "games_played": 33,
@@ -1404,8 +1404,8 @@
             13
           ],
           "Video Games": [
-            48,
-            64
+            47,
+            63
           ],
           "Pokemon": [
             2,
@@ -1440,8 +1440,8 @@
             3
           ],
           "Space": [
-            4,
-            7
+            3,
+            3
           ],
           "Whos That Pokemon (Gen 1)": [
             1,
@@ -1484,8 +1484,8 @@
             1
           ],
           "Sports": [
-            59,
-            227
+            58,
+            223
           ],
           "General Knowledge": [
             154,
@@ -1496,12 +1496,12 @@
             36
           ],
           "Wrestling": [
-            209,
-            341
+            208,
+            337
           ],
           "Geography": [
-            112,
-            143
+            105,
+            136
           ],
           "Logos": [
             18,
@@ -1520,8 +1520,8 @@
             10
           ],
           "World Flags": [
-            106,
-            430
+            105,
+            426
           ],
           "Whos That Pokemon (Gen 5)": [
             1,
@@ -3165,22 +3165,22 @@
           "missions": 1
         },
         "weekly": {
-          "points": 1682,
-          "correct": 654,
-          "standard_correct": 426,
+          "points": 1670,
+          "correct": 650,
+          "standard_correct": 422,
           "insane_finds": 228,
-          "avg_guess_ms": 17899.990610328638,
+          "avg_guess_ms": 17860.20853080569,
           "fastest_ms": 1145,
           "under_5s": 92,
-          "exact_spelling": 616,
-          "spelled": 654,
+          "exact_spelling": 612,
+          "spelled": 650,
           "best_streak": 43,
           "active_days": 7,
           "games_played": 77,
-          "categories_played": 28,
+          "categories_played": 26,
           "best_insane_round": 16,
           "best_game_points": 88,
-          "games_started": 68,
+          "games_started": 67,
           "duels_played": 34,
           "duel_wins": 12,
           "duel_losses": 22,
@@ -3360,10 +3360,6 @@
             4,
             18
           ],
-          "Quotes": [
-            1,
-            4
-          ],
           "World Cup": [
             3,
             6
@@ -3408,13 +3404,9 @@
             4,
             7
           ],
-          "Game of Thrones": [
-            1,
-            2
-          ],
           "Movies": [
-            21,
-            53
+            20,
+            49
           ],
           "NBA": [
             3,
@@ -3449,8 +3441,8 @@
             5
           ],
           "Disney": [
-            11,
-            14
+            10,
+            12
           ],
           "Art and Literature": [
             16,
