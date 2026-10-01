@@ -2,39 +2,39 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 46,
-    "xp_into_level": 9815,
+    "xp_into_level": 17083,
     "xp_for_level": 73000,
-    "progress": 0.13445205479452055,
+    "progress": 0.234013698630137,
     "maxed": false
   },
-  "total_xp": 1182315,
+  "total_xp": 1189583,
   "period_stats": {
-    "daily_points": 82,
-    "daily_correct": 44,
-    "weekly_points": 2248,
-    "weekly_correct": 1085,
-    "monthly_points": 7830,
-    "monthly_correct": 4294,
-    "yearly_points": 7936,
-    "yearly_correct": 4353,
-    "alltime_points": 7936,
-    "alltime_correct": 4353
+    "daily_points": 105,
+    "daily_correct": 54,
+    "weekly_points": 2225,
+    "weekly_correct": 1066,
+    "monthly_points": 7853,
+    "monthly_correct": 4304,
+    "yearly_points": 7959,
+    "yearly_correct": 4363,
+    "alltime_points": 7959,
+    "alltime_correct": 4363
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 5263,
-    "questions_right": 1680,
+    "total_points": 5286,
+    "questions_right": 1690,
     "questions_wrong": 0,
-    "wins": 1680,
-    "current_streak": 10,
+    "wins": 1690,
+    "current_streak": 3,
     "best_streak": 38,
-    "games_played": 87,
+    "games_played": 88,
     "insane_guesses": 1719,
     "day_streak": 5,
     "last_played_date": "2026-09-30",
-    "total_xp": 1182315,
-    "game_wins": 51,
+    "total_xp": 1189583,
+    "game_wins": 52,
     "achievement_best_streak": 38
   },
   "best_streak": 38,
@@ -54,14 +54,14 @@
     "guesses": 30
   },
   "total_insane_correct": 2673,
-  "average_guess_ms": 18509.11488095238,
+  "average_guess_ms": 18546.22721893491,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 3332,
-    "total": 3754
+    "exact_count": 3340,
+    "total": 3764
   },
   "achievements": {
     "catalog": [
@@ -2218,7 +2218,8 @@
       "streak_20": "2026-09-30 00:09:56.472412+00:00",
       "streak_25": "2026-09-30 00:12:22.299240+00:00",
       "wins_50": "2026-10-01 00:20:53.524071+00:00",
-      "gk_250": "2026-10-01 00:37:44.793081+00:00"
+      "gk_250": "2026-10-01 00:37:44.793081+00:00",
+      "duel_rival_slayer": "2026-10-01 00:47:39.961167+00:00"
     },
     "baselines": {
       "points": 1991,
@@ -2228,7 +2229,7 @@
     "category_counts": {
       "disney": 87,
       "entertainment": 10,
-      "geo": 312,
+      "geo": 314,
       "gk": 254,
       "got": 80,
       "marvel": 79,
@@ -2238,16 +2239,16 @@
       "sports": 28,
       "videogames": 61,
       "wrestling": 349,
-      "duelwins": 7,
+      "duelwins": 8,
       "duelstreak": 3
     }
   },
   "duel_stats": {
     "guild_id": "861055530638114836",
     "user_id": "795847206719717386",
-    "wins": 7,
+    "wins": 8,
     "losses": 4,
-    "current_streak": 1,
+    "current_streak": 2,
     "best_streak": 3,
     "ties": 0
   },
@@ -3593,8 +3594,8 @@
       "key": "wassup",
       "label": "WASSUP MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3619,8 +3620,8 @@
       "speed": "🕸️"
     },
     "theme": {
-      "key": "dracula",
-      "label": "Dracula Response Theme"
+      "key": "cowboy",
+      "label": "Cowboy Response Theme"
     },
     "embedcolor": {
       "key": "teal",
@@ -3637,8 +3638,8 @@
   "rivals": [
     {
       "user_id": "433990857063137282",
-      "played": 5,
-      "wins": 3,
+      "played": 6,
+      "wins": 4,
       "losses": 2,
       "ties": 0
     },
@@ -3666,22 +3667,22 @@
   ],
   "xp_sources": {
     "level": {
-      "duel": 10950,
-      "achievement": 851250,
-      "game": 280115,
+      "duel": 12450,
+      "achievement": 856250,
+      "game": 280883,
       "mission": 40000
     },
     "game_layers": {
-      "base": 38882,
+      "base": 39266,
       "replay": 76,
-      "boost": 4751,
+      "boost": 5135,
       "daily": 6916,
       "hardcore": 4750
     },
     "pass": {
       "season_0": {
-        "game": 14242,
-        "duel": 1400,
+        "game": 14626,
+        "duel": 1950,
         "pumpkin": 515,
         "mission": 2000
       }
@@ -3706,12 +3707,30 @@
       "mode": "quickfire"
     },
     {
+      "ms": 1730,
+      "answered_at": "2026-10-01 01:07:42.808020+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/PJpxYhW.png",
+      "game_id": 108,
+      "mode": "quickfire"
+    },
+    {
       "ms": 2039,
       "answered_at": "2026-10-01 00:26:05.180335+00:00",
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
       "image_url": "https://i.imgur.com/FoEC4xl.png",
       "game_id": 106,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2234,
+      "answered_at": "2026-10-01 01:06:54.899554+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/LgwBULL.png",
+      "game_id": 108,
       "mode": "quickfire"
     },
     {
@@ -3766,24 +3785,6 @@
       "question_text": "What logo is this?",
       "image_url": "https://berthabot.me/logos/logoBeats.png",
       "game_id": 106,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 2368,
-      "answered_at": "2026-09-29 23:58:30.495124+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/sbIamVK.png",
-      "game_id": 89,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 2371,
-      "answered_at": "2026-09-29 23:53:32.893848+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/T2ezauw.png",
-      "game_id": 89,
       "mode": "quickfire"
     }
   ]
