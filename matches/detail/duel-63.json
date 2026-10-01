@@ -1,0 +1,86 @@
+{
+  "match": {
+    "id": 63,
+    "kind": "duel",
+    "channel_id": "861424168875982848",
+    "challenger_id": "795847206719717386",
+    "opponent_id": "433990857063137282",
+    "format": 7,
+    "format_label": "Best of 7",
+    "winner_id": "795847206719717386",
+    "is_tie": false,
+    "challenger_score": 3,
+    "opponent_score": 0,
+    "decided_by_tiebreaker": false,
+    "ended_at": "2026-10-01 00:47:39.385718+00:00"
+  },
+  "rounds": [
+    {
+      "round_number": 1,
+      "mode": "standard",
+      "winner_id": "795847206719717386",
+      "response_time_ms": 18355,
+      "answered_at": "2026-10-01 00:47:39.387632+00:00",
+      "category": "Disney",
+      "question_text": "In Mulan, who claims to be King of the Rock?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 2,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-10-01 00:47:39.387632+00:00",
+      "category": "Disney",
+      "question_text": "In one scene during Cinderella the King is asleep and dreaming. What is he dreaming about?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 3,
+      "mode": "standard",
+      "winner_id": "795847206719717386",
+      "response_time_ms": 22232,
+      "answered_at": "2026-10-01 00:47:39.387632+00:00",
+      "category": "Greek Mythology",
+      "question_text": "Who is punished in Tartarus for killing his son and attempting to feed him to the Gods?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 4,
+      "mode": "standard",
+      "winner_id": "795847206719717386",
+      "response_time_ms": 6864,
+      "answered_at": "2026-10-01 00:47:39.387632+00:00",
+      "category": "Video Games",
+      "question_text": "Which studio created the original Ratchet & Clank?",
+      "image_url": null,
+      "answer_count": 1
+    },
+    {
+      "round_number": 5,
+      "mode": "standard",
+      "winner_id": null,
+      "response_time_ms": null,
+      "answered_at": "2026-10-01 00:47:39.387632+00:00",
+      "category": "Disney",
+      "question_text": "What was Disney's first live action film that had no animation?",
+      "image_url": null,
+      "answer_count": 1
+    }
+  ],
+  "xp": {
+    "795847206719717386": 1500
+  },
+  "pass_xp": {
+    "795847206719717386": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 1500,
+      "duel": 550,
+      "emoji": "🎃"
+    }
+  }
+}
