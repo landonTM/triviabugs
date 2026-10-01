@@ -1,47 +1,47 @@
 {
   "user_id": "184456115927384065",
   "level": {
-    "level": 41,
-    "xp_into_level": 36914,
-    "xp_for_level": 58000,
-    "progress": 0.636448275862069,
+    "level": 42,
+    "xp_into_level": 15688,
+    "xp_for_level": 61000,
+    "progress": 0.2571803278688525,
     "maxed": false
   },
-  "total_xp": 889414,
+  "total_xp": 926188,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 1252,
-    "weekly_correct": 527,
-    "monthly_points": 2650,
-    "monthly_correct": 1337,
-    "yearly_points": 2650,
-    "yearly_correct": 1337,
-    "alltime_points": 2650,
-    "alltime_correct": 1337
+    "daily_points": 101,
+    "daily_correct": 20,
+    "weekly_points": 1353,
+    "weekly_correct": 547,
+    "monthly_points": 2751,
+    "monthly_correct": 1357,
+    "yearly_points": 2751,
+    "yearly_correct": 1357,
+    "alltime_points": 2751,
+    "alltime_correct": 1357
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 1935,
-    "questions_right": 622,
+    "total_points": 2035,
+    "questions_right": 641,
     "questions_wrong": 0,
-    "wins": 622,
-    "current_streak": 1,
+    "wins": 641,
+    "current_streak": 6,
     "best_streak": 21,
-    "games_played": 100,
-    "insane_guesses": 544,
+    "games_played": 104,
+    "insane_guesses": 545,
     "day_streak": 16,
     "last_played_date": "2026-09-30",
-    "total_xp": 889414,
-    "game_wins": 51,
+    "total_xp": 926188,
+    "game_wins": 55,
     "achievement_best_streak": 21
   },
   "best_streak": 21,
   "fastest_guess": {
-    "response_time_ms": 2416,
-    "question_text": "What logo is this?",
-    "category": "Logos"
+    "response_time_ms": 2393,
+    "question_text": "What country is represented by this flag?",
+    "category": "World Flags"
   },
   "best_category": {
     "category": "Sports",
@@ -53,15 +53,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 715,
-  "average_guess_ms": 20598.490353697747,
+  "total_insane_correct": 716,
+  "average_guess_ms": 20176.90171606864,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
-    "active_days": 26
+    "active_days": 27
   },
   "spelling_accuracy": {
-    "exact_count": 1145,
-    "total": 1245
+    "exact_count": 1165,
+    "total": 1265
   },
   "achievements": {
     "catalog": [
@@ -2212,7 +2212,8 @@
       "duelwins_10": "2026-09-27 00:34:16.881470+00:00",
       "duel_best_of_10_win": "2026-09-27 03:16:08.596790+00:00",
       "wins_50": "2026-09-30 22:01:40.862983+00:00",
-      "play_100_games": "2026-09-30 22:49:17.790736+00:00"
+      "play_100_games": "2026-09-30 22:49:17.790736+00:00",
+      "geo_100": "2026-10-01 02:50:27.745000+00:00"
     },
     "baselines": {
       "points": 231,
@@ -2222,7 +2223,7 @@
     "category_counts": {
       "disney": 22,
       "entertainment": 1,
-      "geo": 98,
+      "geo": 117,
       "gk": 137,
       "got": 1,
       "marvel": 12,
@@ -2231,7 +2232,7 @@
       "pokemon": 4,
       "sports": 249,
       "videogames": 5,
-      "wrestling": 154,
+      "wrestling": 155,
       "duelwins": 15,
       "duelstreak": 2
     }
@@ -2891,8 +2892,8 @@
       "key": "periwinkle",
       "label": "Periwinkle Embed",
       "unlock_level": 42,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "embedcolor",
@@ -3531,8 +3532,8 @@
       "key": "rubber",
       "label": "Rubber MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3646,26 +3647,35 @@
   ],
   "xp_sources": {
     "level": {
-      "achievement": 679250,
-      "mission": 5000,
-      "game": 177414,
+      "achievement": 704250,
+      "mission": 15000,
+      "game": 179188,
       "duel": 27750
     },
     "game_layers": {
       "replay": 65,
       "daily": 1635,
-      "hardcore": 2485,
-      "base": 7562
+      "hardcore": 2982,
+      "base": 8839
     },
     "pass": {
       "season_0": {
-        "mission": 250,
+        "mission": 750,
         "duel": 1250,
-        "game": 5239
+        "game": 6877
       }
     }
   },
   "fastest_answers": [
+    {
+      "ms": 2393,
+      "answered_at": "2026-10-01 02:59:10.187664+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/RLgBmmx.png",
+      "game_id": 116,
+      "mode": "hardcore"
+    },
     {
       "ms": 2416,
       "answered_at": "2026-09-26 03:24:00.334264+00:00",
@@ -3691,6 +3701,24 @@
       "question_text": "_________ Red Sox (MLB)",
       "image_url": null,
       "game_id": 103,
+      "mode": "hardcore"
+    },
+    {
+      "ms": 2516,
+      "answered_at": "2026-10-01 03:06:33.500146+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/UN8GHa4.png",
+      "game_id": 119,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2641,
+      "answered_at": "2026-10-01 03:02:54.905765+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/3KXMyBS.png",
+      "game_id": 117,
       "mode": "hardcore"
     },
     {
@@ -3721,40 +3749,13 @@
       "mode": null
     },
     {
-      "ms": 2867,
-      "answered_at": "2026-09-30 22:21:33.896325+00:00",
+      "ms": 2826,
+      "answered_at": "2026-10-01 02:50:27.568080+00:00",
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
-      "image_url": "https://i.imgur.com/LbQj8rK.png",
-      "game_id": 104,
+      "image_url": "https://i.imgur.com/UzHuET8.png",
+      "game_id": 115,
       "mode": "hardcore"
-    },
-    {
-      "ms": 2943,
-      "answered_at": "2026-09-26 04:14:31.465347+00:00",
-      "category": "Sports",
-      "question_text": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
-      "image_url": null,
-      "game_id": 27,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 3142,
-      "answered_at": "2026-09-29 21:50:53.138074+00:00",
-      "category": "Sports",
-      "question_text": "How many soccer players should be on the field at the same time?",
-      "image_url": null,
-      "game_id": 73,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 3186,
-      "answered_at": "2026-09-26 03:02:47.549130+00:00",
-      "category": "Sports",
-      "question_text": "How many points is a three-point shot worth in basketball?",
-      "image_url": null,
-      "game_id": 18,
-      "mode": "quickfire"
     }
   ]
 }
