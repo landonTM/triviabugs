@@ -71,15 +71,15 @@
           "achievements": 7
         },
         "weekly": {
-          "points": 4033,
-          "correct": 1828,
-          "standard_correct": 815,
-          "insane_finds": 1013,
-          "avg_guess_ms": 11080.19018404908,
+          "points": 4018,
+          "correct": 1821,
+          "standard_correct": 811,
+          "insane_finds": 1010,
+          "avg_guess_ms": 11048.943279901356,
           "fastest_ms": 919,
-          "under_5s": 431,
-          "exact_spelling": 1652,
-          "spelled": 1828,
+          "under_5s": 430,
+          "exact_spelling": 1646,
+          "spelled": 1821,
           "best_streak": 56,
           "active_days": 7,
           "games_played": 66,
@@ -362,12 +362,12 @@
             14
           ],
           "General Knowledge": [
-            249,
-            295
+            248,
+            291
           ],
           "Game of Thrones": [
-            35,
-            60
+            34,
+            58
           ],
           "Star Wars": [
             13,
@@ -414,8 +414,8 @@
             19
           ],
           "Entertainment": [
-            10,
-            13
+            9,
+            11
           ],
           "Greek Mythology": [
             9,
@@ -458,8 +458,8 @@
             10
           ],
           "World Cup": [
-            43,
-            53
+            42,
+            49
           ],
           "Art and Literature": [
             2,
@@ -478,8 +478,8 @@
             7
           ],
           "Sports": [
-            20,
-            21
+            17,
+            18
           ],
           "Wrestling": [
             260,
@@ -1184,19 +1184,19 @@
           "xp": 2142
         },
         "weekly": {
-          "points": 1827,
-          "correct": 906,
-          "standard_correct": 322,
-          "insane_finds": 584,
-          "avg_guess_ms": 10280.416149068324,
+          "points": 1822,
+          "correct": 901,
+          "standard_correct": 321,
+          "insane_finds": 580,
+          "avg_guess_ms": 10168.803738317756,
           "fastest_ms": 2161,
           "under_5s": 138,
-          "exact_spelling": 755,
-          "spelled": 906,
+          "exact_spelling": 750,
+          "spelled": 901,
           "best_streak": 45,
           "active_days": 8,
           "games_played": 33,
-          "categories_played": 37,
+          "categories_played": 36,
           "best_insane_round": 25,
           "best_game_points": 232,
           "games_started": 7,
@@ -1484,8 +1484,8 @@
             1
           ],
           "Sports": [
-            58,
-            223
+            54,
+            219
           ],
           "General Knowledge": [
             154,
@@ -1522,10 +1522,6 @@
           "World Flags": [
             105,
             426
-          ],
-          "Whos That Pokemon (Gen 5)": [
-            1,
-            1
           ],
           "Slogans": [
             1,
@@ -3165,15 +3161,15 @@
           "missions": 1
         },
         "weekly": {
-          "points": 1670,
-          "correct": 650,
+          "points": 1669,
+          "correct": 649,
           "standard_correct": 422,
-          "insane_finds": 228,
+          "insane_finds": 227,
           "avg_guess_ms": 17860.20853080569,
           "fastest_ms": 1145,
           "under_5s": 92,
-          "exact_spelling": 612,
-          "spelled": 650,
+          "exact_spelling": 611,
+          "spelled": 649,
           "best_streak": 43,
           "active_days": 7,
           "games_played": 77,
@@ -3425,8 +3421,8 @@
             4
           ],
           "Sports": [
-            178,
-            692
+            177,
+            691
           ],
           "Music": [
             12,
