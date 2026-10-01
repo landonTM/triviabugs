@@ -166,8 +166,8 @@
         },
         {
           "user_id": "184456115927384065",
-          "points": 354,
-          "correct": 127
+          "points": 503,
+          "correct": 179
         },
         {
           "user_id": "794420965387403265",
@@ -205,6 +205,19 @@
           "completed": false
         },
         {
+          "user_id": "184456115927384065",
+          "xp": 12505,
+          "sources": {
+            "mission": 750,
+            "game": 10505,
+            "duel": 1250
+          },
+          "level": 10,
+          "xp_into_level": 355,
+          "xp_for_level": 1600,
+          "completed": false
+        },
+        {
           "user_id": "734768348201615400",
           "xp": 12182,
           "sources": {
@@ -216,19 +229,6 @@
           "level": 10,
           "xp_into_level": 32,
           "xp_for_level": 1600,
-          "completed": false
-        },
-        {
-          "user_id": "184456115927384065",
-          "xp": 8877,
-          "sources": {
-            "mission": 750,
-            "game": 6877,
-            "duel": 1250
-          },
-          "level": 7,
-          "xp_into_level": 1107,
-          "xp_for_level": 1390,
           "completed": false
         },
         {
