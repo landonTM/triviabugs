@@ -133,6 +133,54 @@
       "started_at": "2026-10-01 01:29:59.544927+00:00",
       "ended_at": "2026-10-01 01:30:06.466678+00:00",
       "end_reason": "stopped"
+    },
+    {
+      "id": 112,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 20,
+      "rounds_played": 20,
+      "categories": [
+        "Logos"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-10-01 01:30:15.520751+00:00",
+      "ended_at": "2026-10-01 01:37:30.521236+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 113,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 20,
+      "rounds_played": 19,
+      "categories": [
+        "Logos"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-10-01 01:38:55.303985+00:00",
+      "ended_at": "2026-10-01 01:47:00.651960+00:00",
+      "end_reason": "stopped"
+    },
+    {
+      "id": 114,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 20,
+      "rounds_played": 19,
+      "categories": [
+        "Logos"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-10-01 01:47:16.776972+00:00",
+      "ended_at": "2026-10-01 01:53:40.490684+00:00",
+      "end_reason": "stopped"
     }
   ]
 }
