@@ -151,8 +151,8 @@
       "standings": [
         {
           "user_id": "795847206719717386",
-          "points": 1951,
-          "correct": 920
+          "points": 2166,
+          "correct": 1017
         },
         {
           "user_id": "734768348201615400",
@@ -161,8 +161,8 @@
         },
         {
           "user_id": "433990857063137282",
-          "points": 675,
-          "correct": 269
+          "points": 706,
+          "correct": 279
         },
         {
           "user_id": "794420965387403265",
@@ -178,30 +178,30 @@
       "pass": [
         {
           "user_id": "795847206719717386",
-          "xp": 19091,
+          "xp": 21396,
           "sources": {
-            "game": 14626,
-            "pumpkin": 515,
+            "game": 16826,
+            "pumpkin": 620,
             "mission": 2000,
             "duel": 1950
           },
-          "level": 14,
-          "xp_into_level": 121,
-          "xp_for_level": 1880,
-          "completed": false
+          "level": 15,
+          "xp_into_level": 0,
+          "xp_for_level": 0,
+          "completed": true
         },
         {
           "user_id": "433990857063137282",
-          "xp": 16718,
+          "xp": 17356,
           "sources": {
             "mission": 1500,
             "pumpkin": 577,
-            "game": 12291,
+            "game": 12929,
             "duel": 2350
           },
-          "level": 12,
-          "xp_into_level": 1298,
-          "xp_for_level": 1740,
+          "level": 13,
+          "xp_into_level": 196,
+          "xp_for_level": 1810,
           "completed": false
         },
         {
@@ -245,18 +245,18 @@
       ],
       "pumpkins": [
         {
+          "user_id": "795847206719717386",
+          "smashed": 4,
+          "missed": 0,
+          "xp": 620,
+          "best": 184
+        },
+        {
           "user_id": "433990857063137282",
           "smashed": 4,
           "missed": 0,
           "xp": 577,
           "best": 207
-        },
-        {
-          "user_id": "795847206719717386",
-          "smashed": 3,
-          "missed": 0,
-          "xp": 515,
-          "best": 184
         },
         {
           "user_id": "734768348201615400",
