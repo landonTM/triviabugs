@@ -321,3 +321,96 @@ a.frow:hover { border-color: var(--line); border-left-color: var(--c); text-deco
   .frow .fq { grid-column: 1 / -1; grid-row: 2; }
   .frow .fimg { grid-row: 1; grid-column: 3; }
 }
+
+/* ======================================================================================================
+   Arcade polish (2026-10-01): pixel drop shadows, press-in buttons and cards, CRT glow, pixel icons,
+   bar charts. Everything below only layers on top of the rules above.
+   ====================================================================================================== */
+
+/* ---------- CRT: a soft glow from the top of the screen and darker corners, over the scanlines ---------- */
+body {
+  background-image:
+    radial-gradient(ellipse 90% 55% at 50% -8%, rgba(124, 92, 255, .16), transparent 70%),
+    repeating-linear-gradient(0deg, rgba(255,255,255,.035) 0 1px, transparent 1px 4px);
+  background-attachment: fixed, scroll;
+}
+body::after {
+  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 50;
+  background: radial-gradient(ellipse 120% 100% at 50% 50%, transparent 62%, rgba(0, 0, 0, .42) 100%);
+}
+/* one faint bright band rolling down the screen, like an old monitor's refresh */
+body::before {
+  content: ""; position: fixed; left: 0; right: 0; top: -20vh; height: 18vh; pointer-events: none; z-index: 49;
+  background: linear-gradient(180deg, transparent, rgba(180, 160, 255, .035) 50%, transparent);
+  animation: crt-roll 9s linear infinite;
+}
+@keyframes crt-roll { to { transform: translateY(140vh); } }
+@media (prefers-reduced-motion: reduce) { body::before { animation: none; display: none; } }
+
+/* ---------- pixel icons ---------- */
+.px-icon { width: 1em; height: 1em; flex: 0 0 auto; display: inline-block; vertical-align: -0.1em; }
+.topbar nav a { display: inline-flex; align-items: center; gap: 8px; }
+.topbar nav a .px-icon { width: 12px; height: 12px; color: var(--muted); }
+.topbar nav a:hover .px-icon, .topbar nav a[aria-current="page"] .px-icon { color: currentColor; }
+@media (max-width: 719px) { .topbar nav a { gap: 10px; } .topbar nav a .px-icon { width: 14px; height: 14px; } }
+h2.section .sec-t { display: inline-flex; align-items: center; gap: .6em; }
+h2.section .sec-t .px-icon { width: 1.05em; height: 1.05em; filter: drop-shadow(2px 2px 0 var(--shadow)); }
+
+/* ---------- hard pixel drop shadows (in each card's own colour) ---------- */
+.tile, .mission { box-shadow: 5px 5px 0 color-mix(in srgb, var(--c, var(--cyan)) 28%, transparent); }
+.panel, .fight { box-shadow: 6px 6px 0 var(--shadow); }
+.mrow, .frow, .round, .badge, .ccard, .pcard { box-shadow: 4px 4px 0 rgba(59, 26, 143, .55); }
+.badge.got { box-shadow: 4px 4px 0 rgba(255, 210, 63, .22); }
+.ccard.mine { box-shadow: 4px 4px 0 rgba(124, 255, 107, .22); }
+.round.insane { box-shadow: 4px 4px 0 rgba(255, 79, 163, .25); }
+.mrow { border-left: 6px solid var(--c, var(--cyan)); }
+
+/* ---------- buttons and links-as-cards press in when tapped, lift on hover ---------- */
+.btn { box-shadow: 3px 3px 0 var(--shadow); transition: transform .06s steps(1), box-shadow .06s steps(1); }
+.btn:active:not(:disabled) { transform: translate(3px, 3px); box-shadow: 0 0 0 var(--shadow); }
+.btn[aria-pressed="true"], .btn.on { box-shadow: 3px 3px 0 rgba(124, 255, 107, .35); }
+a.mrow, a.frow, a.pcard, .scores tr.row { transition: transform .08s steps(2), box-shadow .08s steps(2); }
+@media (hover: hover) {
+  a.mrow:hover, a.frow:hover, a.pcard:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 rgba(59, 26, 143, .75); }
+}
+a.mrow:active, a.frow:active, a.pcard:active { transform: translate(4px, 4px); box-shadow: 0 0 0 transparent; }
+.topbar .menu-btn { box-shadow: 3px 3px 0 var(--shadow); }
+.topbar .menu-btn:active { transform: translate(3px, 3px); box-shadow: none; }
+@media (max-width: 719px) {
+  .topbar nav a { box-shadow: 3px 3px 0 var(--shadow); }
+  .topbar nav a:active { transform: translate(3px, 3px); box-shadow: none; }
+}
+@media (prefers-reduced-motion: reduce) { .btn, a.mrow, a.frow, a.pcard { transition: none; } }
+
+/* ---------- match rows: who won, and the whole title on phones ---------- */
+.mrow .what { display: flex; align-items: center; gap: 12px; }
+.mrow .what .t { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mrow .faces { display: inline-flex; flex: 0 0 auto; }
+.mrow .faces .av + .av { margin-left: -8px; }
+.av.none { background: var(--panel-2); color: var(--muted); border-color: var(--line-dim); }
+@media (max-width: 720px) {
+  .mrow .what { font-size: 23px; line-height: 1.1; align-items: flex-start; }
+  .mrow .what .t { white-space: normal; overflow-wrap: anywhere; }
+}
+
+/* ---------- bar charts (B.barChart) ---------- */
+.chart { border: 4px solid var(--line); background: var(--panel); padding: 14px 16px 12px; box-shadow: 6px 6px 0 var(--shadow); }
+.chart-read { min-height: 2.4em; font-size: 24px; line-height: 1.2; margin-bottom: 10px; }
+.chart-read .k { font: 10px/1.6 var(--pixel); color: var(--yellow); margin-right: 10px; }
+.chart-bars {
+  display: flex; align-items: flex-end; gap: 3px; height: 160px; padding-bottom: 2px;
+  background: repeating-linear-gradient(0deg, var(--line-dim) 0 2px, transparent 2px 40px); border-bottom: 3px solid var(--line-dim);
+}
+.chart-col { flex: 1 1 0; min-width: 0; height: 100%; display: flex; align-items: flex-end; padding: 0; margin: 0; border: 0; background: none; cursor: pointer; }
+.chart-col .stack { width: 100%; display: flex; flex-direction: column-reverse; min-height: 3px; }
+.chart-col.zero .stack { background: var(--line-dim); }
+.chart-col .stack span { min-height: 2px; }
+.chart-col:hover .stack, .chart-col.on .stack { outline: 2px solid var(--text); outline-offset: 1px; }
+.chart-axis { display: flex; gap: 3px; margin-top: 6px; }
+.chart-axis span { flex: 1 1 0; min-width: 0; font: 8px/1.4 var(--pixel); color: var(--muted); white-space: nowrap; overflow: visible; direction: rtl; text-align: right; }
+.chart-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 10px; font: 9px/1.6 var(--pixel); color: var(--muted); }
+.chart-legend i { display: inline-block; width: 10px; height: 10px; margin-right: 6px; vertical-align: -1px; }
+@media (max-width: 620px) { .chart-bars { height: 130px; gap: 2px; } .chart-axis { gap: 2px; } .chart-read { font-size: 21px; } }
+
+.dim { color: var(--muted); }
+.tile .label .px-icon { width: 11px; height: 11px; vertical-align: -1px; margin-right: 2px; }

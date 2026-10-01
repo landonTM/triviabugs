@@ -19,8 +19,36 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20261001b">
-<script src="assets/bertha.js?v=20261001b"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20261001c">
+<script src="assets/bertha.js?v=20261001c"></script>
+<style>
+  /* momentum strip: one block per round, in the colour of whoever won it */
+  .strip-read { min-height: 2.4em; font-size: 22px; line-height: 1.2; margin-bottom: 10px; }
+  .strip-read .k { font: 10px/1.6 var(--pixel); color: var(--yellow); margin-right: 10px; }
+  .strip { display: flex; flex-wrap: wrap; gap: 4px; }
+  .strip button { flex: 0 0 auto; width: 26px; height: 30px; padding: 0; border: 0; cursor: pointer; background: var(--c);
+    box-shadow: 3px 3px 0 rgba(0,0,0,.45); font: 8px/30px var(--pixel); color: var(--bg); text-align: center; }
+  .strip button.none { background: transparent; border: 2px dashed var(--line-dim); box-shadow: none; }
+  .strip button.ins { outline: 3px solid var(--pink); outline-offset: -3px; }
+  .strip button.on { transform: translateY(-4px); box-shadow: 0 0 0 2px var(--text), 3px 7px 0 rgba(0,0,0,.45); }
+  @media (max-width: 620px) { .strip button { width: 22px; height: 26px; line-height: 26px; } }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 12px; font-size: 20px; }
+  .legend .sw { display: inline-block; width: 12px; height: 12px; margin-right: 8px; vertical-align: 0; }
+
+  /* score race */
+  .race svg { display: block; width: 100%; height: 200px; }
+  .race .ax { display: flex; justify-content: space-between; font: 8px/1.6 var(--pixel); color: var(--muted); margin-top: 6px; }
+
+  /* who answered: avatar, time, and the points tier it landed in */
+  .who-ans { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+  .tier { font: 9px/1 var(--pixel); padding: 5px 7px; border: 2px solid currentColor; }
+  /* insane round: every find on a track from the start of the round to the end */
+  .track { position: relative; height: 34px; margin: 10px 0 6px; border: 3px solid var(--line-dim); background:
+    repeating-linear-gradient(90deg, transparent 0 calc(10% - 2px), var(--line-dim) calc(10% - 2px) 10%), var(--bg); }
+  .track i { position: absolute; top: 4px; bottom: 4px; width: 6px; margin-left: -3px; background: var(--c); box-shadow: 0 0 6px var(--c); }
+  .track-ax { display: flex; justify-content: space-between; font: 8px/1.6 var(--pixel); color: var(--muted); }
+  .found .sw { display: inline-block; width: 10px; height: 10px; margin-right: 6px; }
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -69,6 +97,79 @@
       notes.length ? el("div", { class: "xpsub" }, notes.join(" · ")) : null);
   }
 
+  // Which hint window a standard answer landed in (the bot's answer_log.hint_window, recorded from Sep 28): 0 before
+  // any hint, 1 after hint 1, 2 after hint 2. Points can't tell you this -- a Seasonal Spotlight multiplies them --
+  // so older answers (and hardcore, which has no hints) just show their points.
+  const WINDOWS = [["BEFORE HINTS", "var(--neon)"], ["AFTER HINT 1", "var(--yellow)"], ["AFTER HINT 2", "var(--pink)"]];
+  function answeredBy(id, ms, pts, extra, hintWindow) {
+    const w = WINDOWS[hintWindow];
+    return el("span", { class: "who-ans" }, el("span", { style: { color: "var(--neon)" } }, "✓"), B.avatar(id, "sm"), B.playerLink(id),
+      el("span", {}, B.secs(ms)),
+      pts ? el("span", { class: "tier", style: { color: w ? w[1] : "var(--cyan)" } }, w ? `+${pts} · ${w[0]}` : `+${pts} PTS`) : null,
+      extra || null);
+  }
+  // Insane round: each find as a mark on a track from the round's start to its end, in its finder's colour.
+  function insaneTrack(r, colorOf) {
+    const ans = r.answers || [];
+    const len = Math.max(1, (B.ts(r.ended_at) || 0) - (B.ts(r.started_at) || 0), ...ans.map(a => a.response_time_ms || 0));
+    return [el("div", { class: "track", role: "img", "aria-label": `${ans.length} answers found over ${B.dur(len)}` },
+      ans.map(a => el("i", { style: { left: `${(100 * (a.response_time_ms || 0)) / len}%`, "--c": colorOf(a.user_id) },
+        title: `${B.name(a.user_id)} · ${B.secs(a.response_time_ms)}` }))),
+      el("div", { class: "track-ax" }, el("span", {}, "START"), el("span", {}, B.dur(len)))];
+  }
+  // A row of blocks, one per round, coloured by who won it; tapping one shows what happened in the readout above.
+  function momentumStrip(blocks, legend) {
+    const read = el("div", { class: "strip-read", "aria-live": "polite" });
+    let on = null;
+    const strip = el("div", { class: "strip" }, blocks.map((b, i) => {
+      const btn = el("button", { type: "button", class: `${b.color ? "" : "none"}${b.insane ? " ins" : ""}`.trim(),
+        style: { "--c": b.color || "transparent" }, "aria-label": `Round ${b.no}` }, b.insane ? "!" : "");
+      const pick = () => { if (on) on.classList.remove("on"); on = btn; btn.classList.add("on"); read.replaceChildren(el("span", { class: "k" }, `ROUND ${b.no}`), ...b.text); };
+      btn.addEventListener("click", pick);
+      btn.addEventListener("mouseenter", pick);
+      if (i === 0) setTimeout(pick);
+      return btn;
+    }));
+    return el("div", { class: "chart" }, read, strip,
+      el("div", { class: "legend" }, legend.map(([id, c]) => el("span", {}, el("i", { class: "sw", style: { background: c } }), B.name(id))),
+        el("span", { class: "dim" }, el("i", { class: "sw", style: { border: "2px dashed var(--line-dim)" } }), "nobody"),
+        blocks.some(b => b.insane) ? el("span", { class: "dim" }, el("i", { class: "sw", style: { outline: "3px solid var(--pink)", outlineOffset: "-3px" } }), "insane round") : null));
+  }
+  // Running score per player across the rounds, as pixel step lines (top 5 of the final standings).
+  function scoreRace(rounds, ids, colorOf) {
+    const n = rounds.length, run = Object.fromEntries(ids.map(id => [id, [0]]));
+    rounds.forEach(r => {
+      const got = {};
+      for (const a of r.answers || []) got[a.user_id] = (got[a.user_id] || 0) + (a.points_awarded || 0);
+      for (const id of ids) run[id].push(run[id][run[id].length - 1] + (got[id] || 0));
+    });
+    const max = Math.max(1, ...ids.map(id => run[id][n]));
+    const W = 1000, H = 200, pad = 8;
+    const x = i => (W * i) / n, y = v => H - pad - ((H - 2 * pad) * v) / max;
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    svg.setAttribute("preserveAspectRatio", "none");
+    svg.setAttribute("role", "img");
+    svg.setAttribute("aria-label", "Running score after each round");
+    for (let g = 1; g < 4; g++) {
+      const ln = document.createElementNS(svg.namespaceURI, "line");
+      Object.entries({ x1: 0, x2: W, y1: y((max * g) / 4), y2: y((max * g) / 4), stroke: "#2a2440", "stroke-width": 2, "vector-effect": "non-scaling-stroke" })
+        .forEach(([k, v]) => ln.setAttribute(k, v));
+      svg.append(ln);
+    }
+    [...ids].reverse().forEach(id => {  // leader drawn last, on top
+      const pts = run[id].flatMap((v, i) => (i ? [`${x(i)},${y(run[id][i - 1])}`, `${x(i)},${y(v)}`] : [`${x(0)},${y(0)}`]));
+      const pl = document.createElementNS(svg.namespaceURI, "polyline");
+      Object.entries({ points: pts.join(" "), fill: "none", stroke: colorOf(id), "stroke-width": 4, "stroke-linejoin": "miter",
+        "shape-rendering": "crispEdges", "vector-effect": "non-scaling-stroke" }).forEach(([k, v]) => pl.setAttribute(k, v));
+      svg.append(pl);
+    });
+    return el("div", { class: "chart race" }, svg,
+      el("div", { class: "ax" }, el("span", {}, "ROUND 1"), el("span", {}, `ROUND ${n}`)),
+      el("div", { class: "legend" }, ids.map(id => el("span", {}, el("i", { class: "sw", style: { background: colorOf(id) } }),
+        B.name(id), el("span", { class: "dim" }, ` ${B.fmt(run[id][n])} pts`)))));
+  }
+
   // One round. Answers are never published, so the card shows the question and what happened.
   function roundCard(n, r, result) {
     const insane = r.mode === "insane";
@@ -112,6 +213,8 @@
         el("td", {}, el("div", { class: "who" }, B.avatar(id), B.playerLink(id))), el("td", { class: "num dim" }, String(t.correct)),
         hasXp ? xpCell(id) : null, hasPass ? passCell(id) : null))))) : el("p", {}, "Nobody scored.");
 
+    // Each player keeps one colour for the whole replay: their row colour in FINAL SCORES (the top 5), grey after that.
+    const colorOf = id => { const i = standings.findIndex(([sid]) => sid === String(id)); return i >= 0 && i < 5 ? B.rankColor(i) : "#8b86a8"; };
     const cards = rounds.map((r, i) => {
       const ans = r.answers || [];
       let result;
@@ -119,18 +222,37 @@
         const by = {};
         for (const a of ans) by[a.user_id] = (by[a.user_id] || 0) + 1;
         result = ans.length
-          ? el("div", { class: "found" }, el("span", { style: { color: "var(--pink)" } }, `${ans.length} FOUND:`),
-              Object.entries(by).sort((a, b) => b[1] - a[1]).map(([id, n]) => el("span", {}, B.playerLink(id), ` ×${n}`)))
+          ? el("div", {}, ...insaneTrack(r, colorOf), el("div", { class: "found" }, el("span", { style: { color: "var(--pink)" } }, `${ans.length} FOUND:`),
+              Object.entries(by).sort((a, b) => b[1] - a[1]).map(([id, n]) => el("span", {}, el("i", { class: "sw", style: { background: colorOf(id) } }), B.playerLink(id), ` ×${n}`))))
           : el("span", { style: { color: "var(--muted)" } }, "NOBODY FOUND ANY");
       } else if (ans.length) {
         const a = ans[0];
-        result = el("span", {}, el("span", { style: { color: "var(--neon)" } }, "✓ "), B.playerLink(a.user_id),
-          ` in ${B.secs(a.response_time_ms)} · +${a.points_awarded} pts`, a.exact_match === false ? " · close spelling" : "");
+        result = answeredBy(a.user_id, a.response_time_ms, a.points_awarded, a.exact_match === false ? el("span", { class: "dim" }, "close spelling") : null, a.hint_window);
       } else {
         result = el("span", { style: { color: "var(--muted)" } }, "✗ NOBODY GOT IT");
       }
       return roundCard(i + 1, r, result);
     });
+
+    function momentumSection() {
+      if (rounds.length < 2) return [];
+      const blocks = rounds.map((r, i) => {
+        const ans = r.answers || [];
+        if (r.mode === "insane") {
+          const by = {};
+          for (const a of ans) by[a.user_id] = (by[a.user_id] || 0) + 1;
+          const top = Object.entries(by).sort((a, b) => b[1] - a[1])[0];
+          return { no: i + 1, insane: true, color: top ? colorOf(top[0]) : null,
+            text: [`insane round · ${ans.length} found`, top ? el("span", { class: "dim" }, ` · most by ${B.name(top[0])} (${top[1]})`) : ""] };
+        }
+        const a = ans[0];
+        return a ? { no: i + 1, color: colorOf(a.user_id), text: [B.name(a.user_id), el("span", { class: "dim" }, ` · ${B.secs(a.response_time_ms)} · +${a.points_awarded}`)] }
+          : { no: i + 1, color: null, text: [el("span", { class: "dim" }, "nobody got it")] };
+      });
+      const ids = standings.slice(0, 5).filter(([, t]) => t.pts > 0).map(([id]) => id);
+      return [el("h2", { class: "section" }, "MOMENTUM"), momentumStrip(blocks, ids.map(id => [id, colorOf(id)])),
+        ids.length ? el("h2", { class: "section" }, "SCORE RACE") : null, ids.length ? scoreRace(rounds, ids, colorOf) : null];
+    }
 
     app.replaceChildren(...[
       el("div", { class: "btn-row-label", style: { color: k.color, marginTop: "40px" } }, k.label),
@@ -141,6 +263,7 @@
         g.started_by ? el("span", {}, " · started by ", B.playerLink(g.started_by)) : null),
       el("h2", { class: "section" }, "FINAL SCORES"), table,
       hasXp || !beforeXpLog(g.started_at) ? null : el("p", { class: "page-sub" }, "XP per match is recorded for games played from Sep 28, 2026."),
+      ...momentumSection(),
       el("h2", { class: "section" }, `ROUND BY ROUND · ${rounds.length}`),
       ...roundList(cards),
     ].filter(Boolean));
@@ -160,8 +283,7 @@
       if (w && !tiebreak) score[w] = (score[w] || 0) + 1;
       const running = `${score[m.challenger_id]}–${score[m.opponent_id]}`;
       const result = w
-        ? el("span", {}, el("span", { style: { color: "var(--neon)" } }, "✓ "), B.playerLink(w),
-            ` in ${B.secs(r.response_time_ms)} · ${tiebreak ? "wins the tiebreaker" : `score ${running}`}`)
+        ? answeredBy(w, r.response_time_ms, 0, el("span", { class: "dim" }, tiebreak ? "wins the tiebreaker" : `score ${running}`))
         : el("span", { style: { color: "var(--muted)" } }, `✗ NOBODY GOT IT · ${tiebreak ? "tiebreaker" : `score ${running}`}`);
       return roundCard(r.round_number, r, result);
     });
@@ -171,12 +293,27 @@
             pass[id] ? el("span", { style: { color: "var(--yellow)" } }, ` · +${B.fmt(pass[id].total)} ${pass[id].emoji}`,
               passNotes(pass[id]).length ? el("span", { class: "xpsub" }, ` (${passNotes(pass[id]).join(", ")})`) : null) : null)))
       : beforeXpLog(m.ended_at) ? el("p", { class: "page-sub" }, "XP per match is recorded for duels played from Sep 28, 2026.") : null;
+    // The fight card's colours: challenger cyan, opponent pink.
+    function duelMomentum() {
+      const rs = data.rounds || [];
+      if (rs.length < 2) return [];
+      const side = { [String(m.challenger_id)]: "var(--cyan)", [String(m.opponent_id)]: "var(--pink)" };
+      const blocks = rs.map(r => {
+        const w = r.winner_id != null ? String(r.winner_id) : null;
+        return { no: r.round_number, insane: r.mode === "insane", color: w ? side[w] : null,
+          text: w ? [B.name(w), el("span", { class: "dim" }, ` · ${B.secs(r.response_time_ms)}${r.mode === "insane" ? " · tiebreaker" : ""}`)]
+            : [el("span", { class: "dim" }, "nobody got it")] };
+      });
+      return [el("h2", { class: "section" }, "MOMENTUM"),
+        momentumStrip(blocks, [[m.challenger_id, "var(--cyan)"], [m.opponent_id, "var(--pink)"]])];
+    }
     app.replaceChildren(...[
       el("div", { class: "btn-row-label", style: { color: B.MODE_COLORS.duel, marginTop: "40px" } }, `DUEL · ${(m.format_label || "").toUpperCase()}`),
       el("h1", { class: "page-title", style: { color: "var(--text)", marginTop: "8px" } }, B.matchTitle(m)),
       el("p", { class: "page-sub" }, `${B.when(m.ended_at)} ET${m.decided_by_tiebreaker ? " · decided by an insane-round tiebreaker" : ""}`),
       B.fightCard(m, levels),
       xpLine,
+      ...duelMomentum(),
       el("h2", { class: "section" }, `ROUND BY ROUND · ${cards.length}`),
       ...roundList(cards),
       cards.length ? null : el("p", { class: "page-sub" }, "No round detail was recorded for this duel."),

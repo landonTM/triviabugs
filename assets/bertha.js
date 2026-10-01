@@ -394,13 +394,16 @@ const B = (() => {
       });
     }
   }
-  new MutationObserver(() => document.querySelectorAll("table.scores, table.grid").forEach(labelTable))
+  new MutationObserver(() => {
+    document.querySelectorAll("table.scores, table.grid").forEach(labelTable);
+    document.querySelectorAll("h2.section:not([data-ic])").forEach(decorateSection);
+  })
     .observe(document.documentElement, { childList: true, subtree: true });
 
   // ---------- chrome ----------
   function topbar(active) {
     const nav = el("nav", { "aria-label": "Site", id: "sitenav" },
-      NAV.map(([href, label]) => el("a", { href, "aria-current": href === active ? "page" : null }, label)));
+      NAV.map(([href, label]) => el("a", { href, "aria-current": href === active ? "page" : null }, icon(NAV_ICONS[href]), label)));
     // Phones get a menu button (the current page's name) that opens the links as a grid; desktop shows them inline.
     const here = (NAV.find(([href]) => href === active) || [null, "MENU"])[1];
     const setOpen = open => { bar.classList.toggle("open", open); toggle.setAttribute("aria-expanded", String(open)); };
@@ -442,10 +445,144 @@ const B = (() => {
     return d ? `${d}D ${rest}` : rest;
   }
 
+  // ---------- pixel icons ----------
+  // 8x8 pixel art, "#" = lit. Drawn as one crisp SVG path in currentColor, so an icon takes its text's colour.
+  const ICONS = {
+    home: "...##...|..####..|.######.|########|.##..##.|.##..##.|.##..##.|.######.",
+    trophy: "########|#.####.#|#.####.#|.######.|..####..|...##...|..####..|.######.",
+    chart: "......##|......##|...##.##|...##.##|##.##.##|##.##.##|##.##.##|########",
+    star: "...##...|...##...|########|.######.|..####..|.##..##.|##....##|........",
+    play: ".##.....|.####...|.######.|.#######|.######.|.####...|.##.....|........",
+    gem: ".######.|##.##.##|########|.######.|..####..|...##...|........|........",
+    crown: "#..##..#|#..##..#|##.##.##|########|########|.######.|........|........",
+    scroll: "######..|#....##.|#.###..#|#......#|#.####.#|#......#|#.###..#|########",
+    bug: "#..##..#|.######.|##.##.##|.######.|##.##.##|.######.|#.####.#|........",
+    bolt: "....###.|...###..|..###...|.######.|...###..|..###...|.##.....|#.......",
+    fire: "...#....|..##....|..###.#.|.#####..|.######.|###..###|###..###|.######.",
+    swords: "#......#|.#....#.|..#..#..|...##...|...##...|..#..#..|##....##|##....##",
+    target: ".######.|#......#|#.####.#|#.#..#.#|#.#..#.#|#.####.#|#......#|.######.",
+    medal: "##....##|.##..##.|..####..|.######.|##.##.##|##.##.##|.######.|..####..",
+    coin: "..####..|.##..##.|##.##.##|##.##.##|##.##.##|##.##.##|.##..##.|..####..",
+    joystick: "..###...|..###...|...#....|...#....|.######.|########|##.##.##|########",
+    grid: "###.###.|###.###.|###.###.|........|###.###.|###.###.|###.###.|........",
+    xp: "...##...|..####..|.##..##.|##.##.##|.##..##.|..####..|...##...|........",
+    shirt: ".##..##.|########|########|.######.|.######.|.######.|.######.|........",
+    clock: ".######.|#...#..#|#...#..#|#...###.|#......#|#......#|#......#|.######.",
+  };
+  const iconPaths = {};
+  function icon(key, cls = "") {
+    if (!ICONS[key]) return null;
+    if (!iconPaths[key]) {
+      iconPaths[key] = ICONS[key].split("|").flatMap((row, y) =>
+        [...row].map((c, x) => (c === "#" ? `M${x} ${y}h1v1h-1z` : ""))).join("");
+    }
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("viewBox", "0 0 8 8");
+    svg.setAttribute("class", `px-icon ${cls}`.trim());
+    svg.setAttribute("aria-hidden", "true");
+    svg.setAttribute("shape-rendering", "crispEdges");
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", iconPaths[key]);
+    path.setAttribute("fill", "currentColor");
+    svg.append(path);
+    return svg;
+  }
+  const NAV_ICONS = { "index.html": "home", "leaderboard.html": "trophy", "stats.html": "chart", "season.html": "star",
+    "replays.html": "play", "cosmetics.html": "gem", "kirkening.html": "crown", "changelog.html": "scroll", "bugs.html": "bug" };
+  // Section headings get an icon from their wording (first match wins), so no page has to pick one by hand.
+  const SECTION_ICONS = [
+    [/FASTEST|SPEED|QUICK/, "bolt"], [/STREAK|COMBO/, "fire"], [/FIGHT|DUEL|HEAD TO HEAD|RIVAL|VERSUS/, "swords"],
+    [/MISSION/, "target"], [/ACHIEVEMENT|BADGE/, "medal"], [/HIGH SCORE|LEADERBOARD|STANDING|FINAL SCORE|PODIUM|CHAMPION|PRIZE/, "trophy"],
+    [/HALL OF FAME|RECORD|SEASON|TIER|SPOTLIGHT/, "star"], [/KIRK|CROWNING/, "crown"], [/ACTIVITY|MOMENTUM|SCORE RACE/, "chart"], [/REPLAY|MATCH|ROUND/, "play"],
+    [/XP|LEVEL/, "xp"], [/POINT/, "coin"], [/GAME/, "joystick"], [/CATEGOR/, "grid"], [/COSMETIC|LOADOUT/, "shirt"],
+    [/BUG|COMMUNITY|REPORT/, "bug"], [/KIRK|CROWN|REIGN/, "crown"], [/CHANGE|UPDATE/, "scroll"], [/PUMPKIN/, "fire"],
+  ];
+  function decorateSection(h) {
+    if (h.dataset.ic) return;
+    h.dataset.ic = "1";
+    const first = h.firstChild;
+    if (!first || first.nodeType !== Node.TEXT_NODE) return;
+    // A heading that already starts with its own emoji (the season page's 🔱 DUEL RATING) keeps just that.
+    const hit = !/^\s*\p{Extended_Pictographic}/u.test(first.textContent) && SECTION_ICONS.find(([re]) => re.test(first.textContent.toUpperCase()));
+    const t = el("span", { class: "sec-t" });
+    h.insertBefore(t, first);
+    if (hit) t.append(icon(hit[1]));
+    t.append(first);
+  }
+
+  // ---------- bar chart ----------
+  // cols: [{label, short, segs: [{v, color}]}], oldest first. Bars are stacked segments; tapping (or hovering) a
+  // column shows its exact numbers in the readout line above -- the bars are only the picture, the readout is the
+  // record. opts.readout(col) -> text/nodes for that column; the newest column is selected to start.
+  function barChart(cols, opts = {}) {
+    const max = Math.max(1, ...cols.map(c => c.segs.reduce((a, s) => a + s.v, 0)));
+    const readout = el("div", { class: "chart-read", "aria-live": "polite" });
+    const bars = el("div", { class: "chart-bars" });
+    let picked = null;
+    const pick = (btn, c) => {
+      if (picked) picked.classList.remove("on");
+      picked = btn; btn.classList.add("on");
+      readout.replaceChildren(...[].concat(opts.readout ? opts.readout(c) : c.label));
+    };
+    cols.forEach((c, i) => {
+      const total = c.segs.reduce((a, s) => a + s.v, 0);
+      const btn = el("button", { class: `chart-col${total ? "" : " zero"}`, type: "button", "aria-label": c.label },
+        el("span", { class: "stack", style: { height: `${(100 * total) / max}%` } },
+          c.segs.filter(s => s.v).map(s => el("span", { style: { flexGrow: s.v, background: s.color } }))));
+      btn.addEventListener("click", () => pick(btn, c));
+      btn.addEventListener("mouseenter", () => pick(btn, c));
+      bars.append(btn);
+      if (i === cols.length - 1) pick(btn, c);
+    });
+    // Axis labels: the newest column, then every `every` columns back from it, so the latest day is always named.
+    const every = Math.max(1, Math.ceil(cols.length / 5));
+    const axis = el("div", { class: "chart-axis" },
+      cols.map((c, i) => el("span", {}, (cols.length - 1 - i) % every === 0 ? c.short || c.label : "")));
+    return el("div", { class: "chart" }, readout, bars, axis,
+      opts.legend ? el("div", { class: "chart-legend" }, opts.legend.map(([label, color]) =>
+        el("span", {}, el("i", { style: { background: color } }), label))) : null);
+  }
+  // Calendar days from `from` to `to` (both "YYYY-MM-DD", UTC), inclusive.
+  function dayRange(from, to) {
+    const out = [];
+    for (let d = Date.parse(`${from}T00:00:00Z`), end = Date.parse(`${to}T00:00:00Z`); d <= end; d += 86400000) {
+      out.push(new Date(d).toISOString().slice(0, 10));
+    }
+    return out;
+  }
+  const SHORT_DAY = new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" });
+  const shortDay = iso => SHORT_DAY.format(new Date(`${iso}T00:00:00Z`)).toUpperCase();
+  const ET_ISO = new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit" });
+  // A timestamp's calendar day in Eastern time, "YYYY-MM-DD" (the server's day for games; Daily Trivia is 2 PM ET).
+  const etIso = s => { const d = ts(s); return d ? ET_ISO.format(d) : null; };
+
+  // ---------- match rows (home, replays) ----------
+  // One match as a list row: the winner's avatar (both fighters for a duel), mode, title and time.
+  function matchRow(m) {
+    const k = matchKind(m);
+    const faces = m.kind === "duel"
+      ? el("span", { class: "faces" }, avatar(m.challenger_id, "sm"), avatar(m.opponent_id, "sm"))
+      : el("span", { class: "faces" }, m.winner_id ? avatar(m.winner_id, "sm") : el("span", { class: "av sm none" }, "–"));
+    return el("a", { class: "mrow", href: matchHref(m), style: { "--c": k.color } },
+      el("span", { class: "kind" }, k.label),
+      el("span", { class: "what" }, faces, el("span", { class: "t" }, matchTitle(m))),
+      el("span", { class: "when" }, when(m.ended_at)));
+  }
+  // "4m ago", "3h 12m ago", "2d ago" -- a ticker label, not a stat.
+  function ago(s) {
+    const d = ts(s);
+    if (!d) return "—";
+    const m = Math.max(0, Math.floor((Date.now() - d) / 60000));
+    if (m < 1) return "just now";
+    if (m < 60) return `${m}m ago`;
+    if (m < 1440) return `${Math.floor(m / 60)}h ${String(m % 60).padStart(2, "0")}m ago`;
+    return `${Math.floor(m / 1440)}d ago`;
+  }
+
   return {
     json, el, $, fmt, secs, pct, ts, when, time, day, calDay, hash, dur, ordinal, rankColor, loadPlayers, name, avatar, playerHref,
     playerLink, colorFor, emoji, md, XP_SOURCES, XP_LAYERS, XP_LAYERS_SHORT, METRICS, METRIC, GROUPS, PERIODS, categoryMetric, allCategories, ranking, rankOf,
     COSMETIC_TYPE, cosmeticCard, showMore, allMatches, matchHref, matchKind, matchTitle, fightCard, topbar, footer, fail, param, periodButtons,
-    secondsToDaily, clock, MODE_COLORS, fastestRow,
+    secondsToDaily, clock, MODE_COLORS, fastestRow, icon, barChart, dayRange, shortDay, etIso, matchRow, ago,
   };
 })();
