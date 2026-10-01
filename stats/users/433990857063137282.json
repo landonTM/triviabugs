@@ -9,16 +9,16 @@
   },
   "total_xp": 1015081,
   "period_stats": {
-    "daily_points": 351,
-    "daily_correct": 128,
-    "weekly_points": 1508,
-    "weekly_correct": 622,
-    "monthly_points": 4621,
-    "monthly_correct": 2105,
-    "yearly_points": 4803,
-    "yearly_correct": 2200,
-    "alltime_points": 4803,
-    "alltime_correct": 2200
+    "daily_points": 352,
+    "daily_correct": 129,
+    "weekly_points": 1506,
+    "weekly_correct": 620,
+    "monthly_points": 4622,
+    "monthly_correct": 2106,
+    "yearly_points": 4804,
+    "yearly_correct": 2201,
+    "alltime_points": 4804,
+    "alltime_correct": 2201
   },
   "stats_row": {
     "user_id": "433990857063137282",
@@ -30,7 +30,7 @@
     "current_streak": 2,
     "best_streak": 27,
     "games_played": 132,
-    "insane_guesses": 937,
+    "insane_guesses": 938,
     "day_streak": 9,
     "last_played_date": "2026-10-01",
     "total_xp": 1015081,
@@ -53,15 +53,15 @@
     "category": "Video Games",
     "guesses": 18
   },
-  "total_insane_correct": 1242,
+  "total_insane_correct": 1243,
   "average_guess_ms": 15681.2254697286,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 1739,
-    "total": 1986
+    "exact_count": 1740,
+    "total": 1987
   },
   "achievements": {
     "catalog": [
@@ -2231,7 +2231,7 @@
       "disney": 55,
       "entertainment": 0,
       "geo": 114,
-      "gk": 228,
+      "gk": 229,
       "got": 12,
       "marvel": 73,
       "movies": 3,
