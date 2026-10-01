@@ -2,66 +2,66 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 43,
-    "xp_into_level": 26823,
+    "xp_into_level": 27509,
     "xp_for_level": 64000,
-    "progress": 0.419109375,
+    "progress": 0.429828125,
     "maxed": false
   },
-  "total_xp": 998323,
+  "total_xp": 999009,
   "period_stats": {
-    "daily_points": 1,
-    "daily_correct": 1,
-    "weekly_points": 1159,
-    "weekly_correct": 496,
-    "monthly_points": 4279,
-    "monthly_correct": 1980,
-    "yearly_points": 4453,
-    "yearly_correct": 2073,
-    "alltime_points": 4453,
-    "alltime_correct": 2073
+    "daily_points": 32,
+    "daily_correct": 11,
+    "weekly_points": 1189,
+    "weekly_correct": 505,
+    "monthly_points": 4310,
+    "monthly_correct": 1990,
+    "yearly_points": 4484,
+    "yearly_correct": 2083,
+    "alltime_points": 4484,
+    "alltime_correct": 2083
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3258,
-    "questions_right": 875,
+    "total_points": 3286,
+    "questions_right": 882,
     "questions_wrong": 0,
-    "wins": 875,
+    "wins": 882,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 118,
-    "insane_guesses": 894,
+    "games_played": 121,
+    "insane_guesses": 897,
     "day_streak": 8,
     "last_played_date": "2026-09-30",
-    "total_xp": 998323,
+    "total_xp": 999009,
     "game_wins": 36,
     "achievement_best_streak": 27
   },
   "best_streak": 27,
   "fastest_guess": {
-    "response_time_ms": 2222,
-    "question_text": "What state is UT?",
-    "category": "US State Abbreviations"
+    "response_time_ms": 2190,
+    "question_text": "What logo is this?",
+    "category": "Logos"
   },
   "best_category": {
     "category": "Logos",
-    "points": 870,
-    "correct": 157
+    "points": 898,
+    "correct": 164
   },
   "best_insane_round": {
     "question_text": "Minecraft Block Types",
     "category": "Video Games",
     "guesses": 18
   },
-  "total_insane_correct": 1199,
-  "average_guess_ms": 16499.329519450803,
+  "total_insane_correct": 1202,
+  "average_guess_ms": 16397.919409761635,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 1633,
-    "total": 1859
+    "exact_count": 1642,
+    "total": 1869
   },
   "achievements": {
     "catalog": [
@@ -2229,8 +2229,8 @@
     "category_counts": {
       "disney": 46,
       "entertainment": 0,
-      "geo": 109,
-      "gk": 215,
+      "geo": 110,
+      "gk": 217,
       "got": 12,
       "marvel": 73,
       "movies": 3,
@@ -3586,8 +3586,8 @@
       "key": "wholebag",
       "label": "Whole Bag MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3670,18 +3670,18 @@
       "duel": 39150,
       "mission": 30000,
       "achievement": 718500,
-      "game": 210673
+      "game": 211359
     },
     "game_layers": {
-      "base": 15123,
+      "base": 15761,
       "daily": 3491,
-      "replay": 113,
+      "replay": 161,
       "hardcore": 2627
     },
     "pass": {
       "season_0": {
         "pumpkin": 577,
-        "game": 12291,
+        "game": 12929,
         "duel": 2350,
         "mission": 1500
       }
@@ -3696,6 +3696,15 @@
     }
   },
   "fastest_answers": [
+    {
+      "ms": 2190,
+      "answered_at": "2026-10-01 01:34:49.237165+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/tkhiKuQ.png",
+      "game_id": 112,
+      "mode": "quickfire"
+    },
     {
       "ms": 2222,
       "answered_at": "2026-09-10 16:10:55.695812+00:00",
@@ -3775,15 +3784,6 @@
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/UdkF1wf.png",
       "game_id": 88,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 2536,
-      "answered_at": "2026-09-29 23:30:15.235126+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/PeXL8b9.png",
-      "game_id": 87,
       "mode": "quickfire"
     }
   ]
