@@ -17,6 +17,38 @@
       "started_at": "2026-10-01 00:20:20.251068+00:00",
       "ended_at": "2026-10-01 00:20:52.904490+00:00",
       "end_reason": "stopped"
+    },
+    {
+      "id": 106,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 20,
+      "rounds_played": 20,
+      "categories": [
+        "World Flags",
+        "Logos"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-10-01 00:26:02.174319+00:00",
+      "ended_at": "2026-10-01 00:37:55.103266+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 63,
+      "kind": "duel",
+      "channel_id": "861424168875982848",
+      "challenger_id": "795847206719717386",
+      "opponent_id": "433990857063137282",
+      "format": 7,
+      "format_label": "Best of 7",
+      "winner_id": "795847206719717386",
+      "is_tie": false,
+      "challenger_score": 3,
+      "opponent_score": 0,
+      "decided_by_tiebreaker": false,
+      "ended_at": "2026-10-01 00:47:39.385718+00:00"
     }
   ]
 }
