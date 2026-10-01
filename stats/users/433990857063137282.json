@@ -9,28 +9,28 @@
   },
   "total_xp": 1015081,
   "period_stats": {
-    "daily_points": 352,
-    "daily_correct": 129,
-    "weekly_points": 1506,
-    "weekly_correct": 620,
-    "monthly_points": 4622,
-    "monthly_correct": 2106,
-    "yearly_points": 4804,
-    "yearly_correct": 2201,
-    "alltime_points": 4804,
-    "alltime_correct": 2201
+    "daily_points": 408,
+    "daily_correct": 159,
+    "weekly_points": 1560,
+    "weekly_correct": 648,
+    "monthly_points": 4660,
+    "monthly_correct": 2127,
+    "yearly_points": 4860,
+    "yearly_correct": 2231,
+    "alltime_points": 4860,
+    "alltime_correct": 2231
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3565,
-    "questions_right": 959,
+    "total_points": 3602,
+    "questions_right": 970,
     "questions_wrong": 0,
-    "wins": 959,
+    "wins": 970,
     "current_streak": 2,
     "best_streak": 27,
     "games_played": 132,
-    "insane_guesses": 938,
+    "insane_guesses": 957,
     "day_streak": 9,
     "last_played_date": "2026-10-01",
     "total_xp": 1015081,
@@ -53,15 +53,15 @@
     "category": "Video Games",
     "guesses": 18
   },
-  "total_insane_correct": 1243,
-  "average_guess_ms": 15681.2254697286,
+  "total_insane_correct": 1262,
+  "average_guess_ms": 15708.434468524252,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 1740,
-    "total": 1987
+    "exact_count": 1768,
+    "total": 2017
   },
   "achievements": {
     "catalog": [
@@ -2228,18 +2228,18 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 55,
-      "entertainment": 0,
-      "geo": 114,
-      "gk": 229,
-      "got": 12,
-      "marvel": 73,
+      "disney": 56,
+      "entertainment": 1,
+      "geo": 122,
+      "gk": 230,
+      "got": 13,
+      "marvel": 74,
       "movies": 3,
       "music": 12,
       "pokemon": 10,
       "sports": 33,
       "videogames": 88,
-      "wrestling": 209,
+      "wrestling": 212,
       "duelwins": 25,
       "duelstreak": 5
     }
