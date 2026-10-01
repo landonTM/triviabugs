@@ -1,0 +1,204 @@
+{
+  "categories": [
+    {
+      "emoji": "🎮",
+      "label": "Trivia Games",
+      "blurb": "Start, join, and stop games",
+      "commands": [
+        [
+          [
+            "trivia start"
+          ],
+          "Start a trivia game (multiple rounds)"
+        ],
+        [
+          [
+            "quickfire"
+          ],
+          "Start a trivia game with a shorter delay between rounds"
+        ],
+        [
+          [
+            "hardcore"
+          ],
+          "Start a hardcore trivia game: 6 points flat, 20 seconds, no hints"
+        ],
+        [
+          [
+            "trivia stop"
+          ],
+          "Stop the current game in this channel"
+        ]
+      ]
+    },
+    {
+      "emoji": "⚔️",
+      "label": "Trivia Duels",
+      "blurb": "1v1 someone, best of 3 to 10, with a rematch button",
+      "commands": [
+        [
+          [
+            "duel challenge"
+          ],
+          "Challenge another player to a 1v1 Trivia Duel"
+        ],
+        [
+          [
+            "duel stop"
+          ],
+          "Stop the duel in this channel (a duelist stopping it forfeits)"
+        ],
+        [
+          [
+            "duelstats"
+          ],
+          "View your (or someone else's) Trivia Duel record"
+        ]
+      ]
+    },
+    {
+      "emoji": "📊",
+      "label": "Stats & Leaderboards",
+      "blurb": "Track your progress and rank",
+      "commands": [
+        [
+          [
+            "stats"
+          ],
+          "View your (or someone else's) trivia stats"
+        ],
+        [
+          [
+            "rival"
+          ],
+          "Compare your lifetime stats head-to-head against another player"
+        ],
+        [
+          [
+            "leaderboard"
+          ],
+          "View the trivia leaderboard"
+        ],
+        [
+          [
+            "rank",
+            "levels"
+          ],
+          "See your level, browse every level's reward"
+        ],
+        [
+          [
+            "achievements"
+          ],
+          "See your achievement progress"
+        ],
+        [
+          [
+            "challenges"
+          ],
+          "See this week's challenges and your progress on them"
+        ],
+        [
+          [
+            "boost"
+          ],
+          "View your XP Boosts, or activate, pause or unpause one"
+        ],
+        [
+          [
+            "kirkening"
+          ],
+          "See who's currently Kirked, and when next year's Kirkening begins"
+        ]
+      ]
+    },
+    {
+      "emoji": "🎨",
+      "label": "Cosmetics",
+      "blurb": "Customize your look in-game",
+      "commands": [
+        [
+          [
+            "cosmetics"
+          ],
+          "Browse your cosmetics, or view one in detail"
+        ],
+        [
+          [
+            "equip"
+          ],
+          "Equip a cosmetic you've unlocked"
+        ],
+        [
+          [
+            "preview"
+          ],
+          "See what a cosmetic looks like, even if you haven't unlocked it yet"
+        ]
+      ]
+    },
+    {
+      "emoji": "🎟️",
+      "label": "Seasons",
+      "blurb": "The season pass, its tiers and prizes",
+      "commands": [
+        [
+          [
+            "season"
+          ],
+          "Season info and standings -- page back through every past season"
+        ],
+        [
+          [
+            "pass",
+            "battlepass"
+          ],
+          "See your season pass tier, browse every tier's reward"
+        ],
+        [
+          [
+            "track"
+          ],
+          "Pick which season pass your season XP goes to"
+        ],
+        [
+          [
+            "team set"
+          ],
+          "Rename your season team and/or change its emoji"
+        ],
+        [
+          [
+            "team view"
+          ],
+          "See your season team, its members and its points"
+        ]
+      ]
+    },
+    {
+      "emoji": "📚",
+      "label": "Categories",
+      "blurb": "Browse and manage question categories",
+      "commands": [
+        [
+          [
+            "categories"
+          ],
+          "List all trivia categories, question counts, and enabled status"
+        ],
+        [
+          [
+            "enable"
+          ],
+          "Enable a category for this server's default trivia rotation"
+        ],
+        [
+          [
+            "disable"
+          ],
+          "Disable a category from this server's default trivia rotation"
+        ]
+      ]
+    }
+  ]
+}
