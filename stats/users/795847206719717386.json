@@ -2,39 +2,39 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 47,
-    "xp_into_level": 8619,
+    "xp_into_level": 10509,
     "xp_for_level": 76000,
-    "progress": 0.11340789473684211,
+    "progress": 0.1382763157894737,
     "maxed": false
   },
-  "total_xp": 1254119,
+  "total_xp": 1256009,
   "period_stats": {
-    "daily_points": 1167,
-    "daily_correct": 514,
-    "weekly_points": 3268,
-    "weekly_correct": 1515,
-    "monthly_points": 8915,
-    "monthly_correct": 4764,
-    "yearly_points": 9021,
-    "yearly_correct": 4823,
-    "alltime_points": 9021,
-    "alltime_correct": 4823
+    "daily_points": 1198,
+    "daily_correct": 523,
+    "weekly_points": 3299,
+    "weekly_correct": 1524,
+    "monthly_points": 8946,
+    "monthly_correct": 4773,
+    "yearly_points": 9052,
+    "yearly_correct": 4832,
+    "alltime_points": 9052,
+    "alltime_correct": 4832
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 6127,
-    "questions_right": 1929,
+    "total_points": 6158,
+    "questions_right": 1938,
     "questions_wrong": 0,
-    "wins": 1929,
-    "current_streak": 56,
+    "wins": 1938,
+    "current_streak": 1,
     "best_streak": 56,
-    "games_played": 102,
+    "games_played": 105,
     "insane_guesses": 1940,
     "day_streak": 6,
     "last_played_date": "2026-10-01",
-    "total_xp": 1254119,
-    "game_wins": 66,
+    "total_xp": 1256009,
+    "game_wins": 67,
     "achievement_best_streak": 56
   },
   "best_streak": 56,
@@ -45,8 +45,8 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 1403,
-    "correct": 364
+    "points": 1434,
+    "correct": 373
   },
   "best_insane_round": {
     "question_text": "Name all countries",
@@ -54,14 +54,14 @@
     "guesses": 30
   },
   "total_insane_correct": 2894,
-  "average_guess_ms": 17487.71695178849,
+  "average_guess_ms": 17461.486584107326,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 3762,
-    "total": 4224
+    "exact_count": 3770,
+    "total": 4233
   },
   "achievements": {
     "catalog": [
@@ -3671,19 +3671,19 @@
     "level": {
       "duel": 12450,
       "achievement": 881250,
-      "game": 320419,
+      "game": 322309,
       "mission": 40000
     },
     "game_layers": {
-      "base": 56847,
-      "replay": 2263,
-      "boost": 24903,
+      "base": 57738,
+      "replay": 2317,
+      "boost": 25848,
       "daily": 6916,
       "hardcore": 4750
     },
     "pass": {
       "season_0": {
-        "game": 22118,
+        "game": 23009,
         "duel": 1950,
         "pumpkin": 1184,
         "mission": 2000
@@ -3772,21 +3772,21 @@
       "mode": "quickfire"
     },
     {
+      "ms": 1665,
+      "answered_at": "2026-10-01 13:38:11.795771+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/i7BJLKf.png",
+      "game_id": 158,
+      "mode": "quickfire"
+    },
+    {
       "ms": 1699,
       "answered_at": "2026-10-01 01:22:42.841742+00:00",
       "category": "Logos",
       "question_text": "What logo is this?",
       "image_url": "https://berthabot.me/logos/logoNBC.png",
       "game_id": 110,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 1730,
-      "answered_at": "2026-10-01 01:07:42.808020+00:00",
-      "category": "World Flags",
-      "question_text": "What country is represented by this flag?",
-      "image_url": "https://i.imgur.com/PJpxYhW.png",
-      "game_id": 108,
       "mode": "quickfire"
     }
   ]
