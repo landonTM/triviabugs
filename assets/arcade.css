@@ -414,3 +414,37 @@ a.mrow:active, a.frow:active, a.pcard:active { transform: translate(4px, 4px); b
 
 .dim { color: var(--muted); }
 .tile .label .px-icon { width: 11px; height: 11px; vertical-align: -1px; margin-right: 2px; }
+
+/* ---------- a lone last box in a two-column grid spans both columns, so both sides stay even (phones) ---------- */
+@media (max-width: 620px) {
+  .tiles > :last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+@media (max-width: 719px) {
+  .topbar nav a:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+/* a player's name as a tile's value wraps instead of being cut off ("obdrispook...") */
+.tile .value:has(a) { white-space: normal; overflow-wrap: anywhere; line-height: 1.05; }
+
+/* ---------- page-to-page slide: the new page steps in from the side of the tab you picked (B's pagereveal) ---------- */
+@view-transition { navigation: auto; }
+.topbar { view-transition-name: topbar; }  /* the menu bar stays put while the page under it slides */
+::view-transition-old(root) { animation: vt-out-fwd .2s steps(4, end) both; }
+::view-transition-new(root) { animation: vt-in-fwd .26s steps(5, end) both; }
+html:active-view-transition-type(back)::view-transition-old(root) { animation-name: vt-out-back; }
+html:active-view-transition-type(back)::view-transition-new(root) { animation-name: vt-in-back; }
+::view-transition-group(topbar) { animation-duration: .2s; }
+@keyframes vt-out-fwd { to { opacity: 0; transform: translateX(-40px); } }
+@keyframes vt-in-fwd { from { opacity: 0; transform: translateX(48px); } }
+@keyframes vt-out-back { to { opacity: 0; transform: translateX(40px); } }
+@keyframes vt-in-back { from { opacity: 0; transform: translateX(-48px); } }
+
+/* the phone menu's buttons drop in one after another when it opens */
+@media (max-width: 719px) {
+  .topbar.open nav a { animation: nav-in .16s steps(3, end) both; animation-delay: calc(var(--i, 0) * 22ms); }
+}
+@keyframes nav-in { from { opacity: 0; transform: translateY(-10px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition { navigation: none; }
+  .topbar.open nav a { animation: none; }
+}
