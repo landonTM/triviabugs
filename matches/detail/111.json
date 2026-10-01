@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": 111,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 16,
+    "rounds_played": 0,
+    "categories": [
+      "world flags",
+      "logos"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": null,
+    "started_at": "2026-10-01 01:29:59.544927+00:00",
+    "ended_at": "2026-10-01 01:30:06.466678+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 6512,
+      "mode": "standard",
+      "started_at": "2026-10-01 01:29:59.960410+00:00",
+      "ended_at": "2026-10-01 01:30:06.221594+00:00",
+      "winner_id": null,
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/xhVuaYj.png",
+      "answer_count": 1,
+      "answers": []
+    }
+  ],
+  "xp": {},
+  "xp_layers": {},
+  "pass_xp": {}
+}
