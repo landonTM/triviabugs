@@ -151,8 +151,8 @@
       "standings": [
         {
           "user_id": "795847206719717386",
-          "points": 1846,
-          "correct": 866
+          "points": 1928,
+          "correct": 910
         },
         {
           "user_id": "734768348201615400",
@@ -161,8 +161,8 @@
         },
         {
           "user_id": "433990857063137282",
-          "points": 674,
-          "correct": 268
+          "points": 675,
+          "correct": 269
         },
         {
           "user_id": "794420965387403265",
@@ -178,29 +178,29 @@
       "pass": [
         {
           "user_id": "795847206719717386",
-          "xp": 17439,
+          "xp": 18157,
           "sources": {
-            "game": 13524,
+            "game": 14242,
             "pumpkin": 515,
             "mission": 2000,
             "duel": 1400
           },
           "level": 13,
-          "xp_into_level": 279,
+          "xp_into_level": 997,
           "xp_for_level": 1810,
           "completed": false
         },
         {
           "user_id": "433990857063137282",
-          "xp": 16609,
+          "xp": 16718,
           "sources": {
             "mission": 1500,
             "pumpkin": 577,
-            "game": 12182,
+            "game": 12291,
             "duel": 2350
           },
           "level": 12,
-          "xp_into_level": 1189,
+          "xp_into_level": 1298,
           "xp_for_level": 1740,
           "completed": false
         },
