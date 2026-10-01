@@ -165,14 +165,14 @@
           "correct": 279
         },
         {
+          "user_id": "184456115927384065",
+          "points": 354,
+          "correct": 127
+        },
+        {
           "user_id": "794420965387403265",
           "points": 324,
           "correct": 143
-        },
-        {
-          "user_id": "184456115927384065",
-          "points": 253,
-          "correct": 107
         }
       ],
       "pass": [
@@ -220,15 +220,15 @@
         },
         {
           "user_id": "184456115927384065",
-          "xp": 6739,
+          "xp": 8877,
           "sources": {
-            "mission": 250,
-            "game": 5239,
+            "mission": 750,
+            "game": 6877,
             "duel": 1250
           },
-          "level": 6,
-          "xp_into_level": 289,
-          "xp_for_level": 1320,
+          "level": 7,
+          "xp_into_level": 1107,
+          "xp_for_level": 1390,
           "completed": false
         },
         {
