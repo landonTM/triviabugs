@@ -2,42 +2,42 @@
   "user_id": "184456115927384065",
   "level": {
     "level": 42,
-    "xp_into_level": 47353,
+    "xp_into_level": 49459,
     "xp_for_level": 61000,
-    "progress": 0.7762786885245901,
+    "progress": 0.8108032786885246,
     "maxed": false
   },
-  "total_xp": 957853,
+  "total_xp": 959959,
   "period_stats": {
-    "daily_points": 376,
-    "daily_correct": 117,
-    "weekly_points": 1628,
-    "weekly_correct": 644,
-    "monthly_points": 3026,
-    "monthly_correct": 1454,
-    "yearly_points": 3026,
-    "yearly_correct": 1454,
-    "alltime_points": 3026,
-    "alltime_correct": 1454
+    "daily_points": 448,
+    "daily_correct": 140,
+    "weekly_points": 1700,
+    "weekly_correct": 667,
+    "monthly_points": 3098,
+    "monthly_correct": 1477,
+    "yearly_points": 3098,
+    "yearly_correct": 1477,
+    "alltime_points": 3098,
+    "alltime_correct": 1477
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 2310,
-    "questions_right": 738,
+    "total_points": 2382,
+    "questions_right": 761,
     "questions_wrong": 0,
-    "wins": 738,
-    "current_streak": 20,
-    "best_streak": 30,
-    "games_played": 124,
+    "wins": 761,
+    "current_streak": 43,
+    "best_streak": 43,
+    "games_played": 129,
     "insane_guesses": 545,
     "day_streak": 17,
     "last_played_date": "2026-10-01",
-    "total_xp": 957853,
-    "game_wins": 75,
-    "achievement_best_streak": 30
+    "total_xp": 959959,
+    "game_wins": 80,
+    "achievement_best_streak": 43
   },
-  "best_streak": 30,
+  "best_streak": 43,
   "fastest_guess": {
     "response_time_ms": 1145,
     "question_text": "What country is represented by this flag?",
@@ -54,14 +54,14 @@
     "guesses": 16
   },
   "total_insane_correct": 716,
-  "average_guess_ms": 19966.456639566397,
+  "average_guess_ms": 19838.917214191853,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 27
   },
   "spelling_accuracy": {
-    "exact_count": 1261,
-    "total": 1362
+    "exact_count": 1282,
+    "total": 1385
   },
   "achievements": {
     "catalog": [
@@ -2225,7 +2225,7 @@
     "category_counts": {
       "disney": 22,
       "entertainment": 1,
-      "geo": 214,
+      "geo": 237,
       "gk": 137,
       "got": 1,
       "marvel": 12,
@@ -3582,8 +3582,8 @@
       "key": "wholebag",
       "label": "Whole Bag MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3651,20 +3651,20 @@
     "level": {
       "achievement": 729250,
       "mission": 15000,
-      "game": 185853,
+      "game": 187959,
       "duel": 27750
     },
     "game_layers": {
       "replay": 65,
       "daily": 1635,
       "hardcore": 2982,
-      "base": 15504
+      "base": 17610
     },
     "pass": {
       "season_0": {
         "mission": 750,
         "duel": 1250,
-        "game": 13542
+        "game": 15648
       }
     }
   },
@@ -3703,6 +3703,15 @@
       "question_text": "What country is represented by this flag?",
       "image_url": "https://i.imgur.com/uZ5WnBU.png",
       "game_id": 124,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2303,
+      "answered_at": "2026-10-01 04:12:08.385648+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/524Qfs3.png",
+      "game_id": 142,
       "mode": "quickfire"
     },
     {
@@ -3749,15 +3758,6 @@
       "image_url": null,
       "game_id": 103,
       "mode": "hardcore"
-    },
-    {
-      "ms": 2516,
-      "answered_at": "2026-10-01 03:06:33.500146+00:00",
-      "category": "World Flags",
-      "question_text": "What country is represented by this flag?",
-      "image_url": "https://i.imgur.com/UN8GHa4.png",
-      "game_id": 119,
-      "mode": "quickfire"
     }
   ]
 }
