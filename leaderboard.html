@@ -82,18 +82,7 @@
       : el("span", { class: "pill", style: { color: "var(--muted)" } }, "ALL-TIME / CURRENT ONLY"));
     const bits = [m.note, m.period && period === "daily" ? "Today resets at midnight UTC." : null,
       m.period && ["weekly", "monthly", "yearly"].includes(period) ? "Week, month and year are the last 7, 30 and 365 days." : null];
-    // Fastest Answer, all-time: the 50 fastest answers with everyone combined (one player can hold several spots),
-    // instead of each player's single best.
-    const top = mKey === "fastest_ms" && period === "alltime" ? lb.fastest_top || [] : null;
-    if (top) bits.push(`The ${top.length} fastest answers, everyone combined. Standard rounds of Trivia, Quickfire, Hardcore and Daily Trivia; no duels or insane rounds.`);
     B.$("#note").textContent = bits.filter(Boolean).join(" ");
-    if (top) {
-      if (!top.length) { app.replaceChildren(el("div", { class: "loading" }, "NO ANSWERS YET · PLAY A GAME")); return; }
-      const list = el("div", { class: "fastlist" });
-      const more = B.showMore(list, top.map((f, i) => B.fastestRow(f, i, true)), 10, "ANSWERS");
-      app.replaceChildren(...[list, more].filter(Boolean));
-      return;
-    }
 
     // table
     const rows = B.ranking(lb, m, period);
@@ -105,8 +94,19 @@
         el("td", { class: "big num" }, m.show(v)),
         el("td", {}, el("div", { class: "who" }, B.avatar(p.user_id), B.playerLink(p.user_id))),
         el("td", { class: "num dim" }, String(p.level.level))));
-    app.replaceChildren(el("div", { class: "table-scroll" },
-      el("table", { class: "scores" }, el("thead", {}, head), el("tbody", {}, body))));
+    const out = [el("div", { class: "table-scroll" },
+      el("table", { class: "scores" }, el("thead", {}, head), el("tbody", {}, body)))];
+    // Fastest Answer, all-time: under each player's best, the 50 fastest answers with everyone combined (one player
+    // can hold several spots).
+    const top = mKey === "fastest_ms" && period === "alltime" ? lb.fastest_top || [] : [];
+    if (top.length) {
+      const list = el("div", { class: "fastlist" });
+      out.push(el("h2", { class: "section" }, `TOP ${top.length} FASTEST ANSWERS`,
+          el("span", { class: "pill", style: { color: "var(--muted)" } }, "EVERYONE COMBINED")),
+        el("p", { class: "page-sub" }, "Standard rounds of Trivia, Quickfire, Hardcore and Daily Trivia; no duels or insane rounds."),
+        list, B.showMore(list, top.map((f, i) => B.fastestRow(f, i, true)), 10, "ANSWERS"));
+    }
+    app.replaceChildren(...out.filter(Boolean));
   }
 
   function go(key) {
