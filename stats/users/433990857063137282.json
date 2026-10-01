@@ -2,38 +2,38 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 43,
-    "xp_into_level": 31172,
+    "xp_into_level": 31857,
     "xp_for_level": 64000,
-    "progress": 0.4870625,
+    "progress": 0.497765625,
     "maxed": false
   },
-  "total_xp": 1002672,
+  "total_xp": 1003357,
   "period_stats": {
-    "daily_points": 223,
-    "daily_correct": 64,
-    "weekly_points": 1380,
-    "weekly_correct": 558,
-    "monthly_points": 4501,
-    "monthly_correct": 2043,
-    "yearly_points": 4675,
-    "yearly_correct": 2136,
-    "alltime_points": 4675,
-    "alltime_correct": 2136
+    "daily_points": 258,
+    "daily_correct": 86,
+    "weekly_points": 1415,
+    "weekly_correct": 580,
+    "monthly_points": 4536,
+    "monthly_correct": 2065,
+    "yearly_points": 4710,
+    "yearly_correct": 2158,
+    "alltime_points": 4710,
+    "alltime_correct": 2158
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3477,
-    "questions_right": 935,
+    "total_points": 3495,
+    "questions_right": 940,
     "questions_wrong": 0,
-    "wins": 935,
+    "wins": 940,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 128,
-    "insane_guesses": 897,
+    "games_played": 129,
+    "insane_guesses": 914,
     "day_streak": 9,
     "last_played_date": "2026-10-01",
-    "total_xp": 1002672,
+    "total_xp": 1003357,
     "game_wins": 42,
     "achievement_best_streak": 27
   },
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 1089,
-    "correct": 217
+    "points": 1107,
+    "correct": 222
   },
   "best_insane_round": {
     "question_text": "Minecraft Block Types",
     "category": "Video Games",
     "guesses": 18
   },
-  "total_insane_correct": 1202,
-  "average_guess_ms": 15938.094218415417,
+  "total_insane_correct": 1219,
+  "average_guess_ms": 15882.858359957401,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 1684,
-    "total": 1922
+    "exact_count": 1702,
+    "total": 1944
   },
   "achievements": {
     "catalog": [
@@ -2230,7 +2230,7 @@
       "disney": 46,
       "entertainment": 0,
       "geo": 110,
-      "gk": 217,
+      "gk": 228,
       "got": 12,
       "marvel": 73,
       "movies": 3,
@@ -2238,7 +2238,7 @@
       "pokemon": 10,
       "sports": 33,
       "videogames": 87,
-      "wrestling": 196,
+      "wrestling": 201,
       "duelwins": 25,
       "duelstreak": 5
     }
@@ -2666,8 +2666,8 @@
       "key": "scooby",
       "label": "Scooby Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "theme",
@@ -2770,8 +2770,8 @@
       "key": "scoobydoo",
       "label": "Scooby Doo Response Theme",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "embedcolor",
@@ -3602,8 +3602,8 @@
       "key": "melvindoo",
       "label": "Melvin Doo MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     }
   ],
   "equipped": {
@@ -3670,10 +3670,10 @@
       "duel": 39150,
       "mission": 30000,
       "achievement": 718500,
-      "game": 215022
+      "game": 215707
     },
     "game_layers": {
-      "base": 19289,
+      "base": 19974,
       "daily": 3491,
       "replay": 296,
       "hardcore": 2627
@@ -3681,7 +3681,7 @@
     "pass": {
       "season_0": {
         "pumpkin": 577,
-        "game": 16378,
+        "game": 16928,
         "duel": 2350,
         "mission": 1500
       }
@@ -3689,7 +3689,7 @@
     "pumpkins": {
       "season_0": {
         "smashed": 4,
-        "missed": 0,
+        "missed": 1,
         "xp": 577,
         "best": 207
       }
@@ -3721,6 +3721,33 @@
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/fuHXqh2.png",
       "game_id": 156,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 1534,
+      "answered_at": "2026-10-01 14:03:12.962636+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/W5EObcj.png",
+      "game_id": 161,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 1592,
+      "answered_at": "2026-10-01 14:03:37.722045+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/mM7Ju48.png",
+      "game_id": 161,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 1703,
+      "answered_at": "2026-10-01 14:02:48.157734+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/UEZ2xiH.png",
+      "game_id": 161,
       "mode": "quickfire"
     },
     {
@@ -3757,33 +3784,6 @@
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/Y9KIfY6.png",
       "game_id": 159,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 1901,
-      "answered_at": "2026-10-01 13:17:09.020267+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/UQpfmrn.png",
-      "game_id": 153,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 1917,
-      "answered_at": "2026-10-01 13:22:44.249034+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/t8VZeqI.png",
-      "game_id": 155,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 1932,
-      "answered_at": "2026-10-01 13:22:31.295734+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/PeXL8b9.png",
-      "game_id": 155,
       "mode": "quickfire"
     }
   ]
