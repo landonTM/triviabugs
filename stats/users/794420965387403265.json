@@ -3637,5 +3637,97 @@
         "game": 3300
       }
     }
-  }
+  },
+  "fastest_answers": [
+    {
+      "ms": 2299,
+      "answered_at": "2026-09-23 18:47:31.384475+00:00",
+      "category": "Elements",
+      "question_text": "What is the element symbol of \"Argon\"?",
+      "image_url": null,
+      "game_id": 6,
+      "mode": "standard"
+    },
+    {
+      "ms": 2810,
+      "answered_at": "2026-09-09 20:43:58.109864+00:00",
+      "category": "Movies",
+      "question_text": "In Joker, what is Arthur's last name?",
+      "image_url": null,
+      "game_id": null,
+      "mode": null
+    },
+    {
+      "ms": 3245,
+      "answered_at": "2026-09-19 03:48:02.022812+00:00",
+      "category": "US State Abbreviations",
+      "question_text": "What is the abbreviation for Georgia?",
+      "image_url": null,
+      "game_id": null,
+      "mode": null
+    },
+    {
+      "ms": 3257,
+      "answered_at": "2026-09-15 22:06:33.079822+00:00",
+      "category": "Video Games",
+      "question_text": "What company developed and publishes the Sonic the Hedgehog franchise?",
+      "image_url": null,
+      "game_id": null,
+      "mode": null
+    },
+    {
+      "ms": 3402,
+      "answered_at": "2026-09-16 18:49:21.065596+00:00",
+      "category": "General Knowledge",
+      "question_text": "Which domestic animal was worshipped by the ancient Egyptians?",
+      "image_url": null,
+      "game_id": null,
+      "mode": null
+    },
+    {
+      "ms": 3437,
+      "answered_at": "2026-09-15 03:44:45.443097+00:00",
+      "category": "Marvel",
+      "question_text": "What is Ant-Man's real name in the 2015 film?",
+      "image_url": null,
+      "game_id": null,
+      "mode": null
+    },
+    {
+      "ms": 3588,
+      "answered_at": "2026-09-30 02:06:23.758781+00:00",
+      "category": "Whos That Pokemon (Gen 2)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/5eIF2yf.png",
+      "game_id": 93,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 3629,
+      "answered_at": "2026-09-21 18:09:08.632385+00:00",
+      "category": "General Knowledge",
+      "question_text": "The fictional character Norville Rogers is better known by the nickname...?",
+      "image_url": null,
+      "game_id": null,
+      "mode": null
+    },
+    {
+      "ms": 3647,
+      "answered_at": "2026-09-15 18:15:57.101428+00:00",
+      "category": "Star Wars",
+      "question_text": "Finish The Quote: May the ___ be with you.",
+      "image_url": null,
+      "game_id": null,
+      "mode": null
+    },
+    {
+      "ms": 3675,
+      "answered_at": "2026-09-30 01:55:10.865194+00:00",
+      "category": "Marvel",
+      "question_text": "Who is the Grandmaster's champion before Thor arrives?",
+      "image_url": null,
+      "game_id": 92,
+      "mode": "quickfire"
+    }
+  ]
 }
