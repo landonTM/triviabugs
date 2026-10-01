@@ -113,17 +113,17 @@
           "missions": 4
         },
         "monthly": {
-          "points": 9503,
-          "correct": 4986,
-          "standard_correct": 2006,
+          "points": 9499,
+          "correct": 4984,
+          "standard_correct": 2004,
           "insane_finds": 2980,
-          "avg_guess_ms": 16344.822033898305,
+          "avg_guess_ms": 16338.7749500998,
           "fastest_ms": 919,
           "under_5s": 618,
           "exact_spelling": 4034,
           "spelled": 4558,
           "best_streak": 56,
-          "active_days": 29,
+          "active_days": 28,
           "games_played": 72,
           "categories_played": 51,
           "best_insane_round": 31,
@@ -548,8 +548,8 @@
             4
           ],
           "Game of Thrones": [
-            211,
-            448
+            209,
+            444
           ],
           "Star Wars": [
             36,
@@ -1227,17 +1227,17 @@
           "bug_reports": 2
         },
         "monthly": {
-          "points": 6470,
-          "correct": 3517,
-          "standard_correct": 1222,
-          "insane_finds": 2295,
-          "avg_guess_ms": 14424.229132569559,
+          "points": 6467,
+          "correct": 3514,
+          "standard_correct": 1221,
+          "insane_finds": 2293,
+          "avg_guess_ms": 14397.875511875513,
           "fastest_ms": 2161,
           "under_5s": 331,
           "exact_spelling": 2505,
           "spelled": 3003,
           "best_streak": 45,
-          "active_days": 30,
+          "active_days": 29,
           "games_played": 43,
           "categories_played": 49,
           "best_insane_round": 26,
@@ -1622,8 +1622,8 @@
             8
           ],
           "NBA": [
-            93,
-            176
+            92,
+            175
           ],
           "Elements": [
             6,
@@ -2231,17 +2231,17 @@
           "bug_reports": 7
         },
         "monthly": {
-          "points": 4605,
-          "correct": 2094,
-          "standard_correct": 890,
+          "points": 4600,
+          "correct": 2091,
+          "standard_correct": 887,
           "insane_finds": 1204,
-          "avg_guess_ms": 14724.952808988764,
+          "avg_guess_ms": 14667.942502818489,
           "fastest_ms": 134,
           "under_5s": 302,
           "exact_spelling": 1790,
           "spelled": 2041,
           "best_streak": 27,
-          "active_days": 29,
+          "active_days": 28,
           "games_played": 75,
           "categories_played": 45,
           "best_insane_round": 20,
@@ -2562,16 +2562,16 @@
             5
           ],
           "Entertainment": [
-            18,
-            36
+            17,
+            34
           ],
           "Wrestling": [
             321,
             631
           ],
           "Harry Potter": [
-            12,
-            16
+            11,
+            15
           ],
           "Sports": [
             47,
@@ -2654,8 +2654,8 @@
             11
           ],
           "Music": [
-            24,
-            36
+            23,
+            34
           ],
           "Stranger Things": [
             4,
