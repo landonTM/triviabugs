@@ -1,0 +1,91 @@
+{
+  "game": {
+    "id": 105,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 20,
+    "rounds_played": 2,
+    "categories": [
+      "logos",
+      "flags"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-10-01 00:20:20.251068+00:00",
+    "ended_at": "2026-10-01 00:20:52.904490+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 6432,
+      "mode": "standard",
+      "started_at": "2026-10-01 00:20:20.609097+00:00",
+      "ended_at": "2026-10-01 00:20:27.380012+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoNbaSanAntonioSpurs.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6004,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 00:20:27.374426+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6433,
+      "mode": "standard",
+      "started_at": "2026-10-01 00:20:37.703797+00:00",
+      "ended_at": "2026-10-01 00:20:41.200755+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/gKA8Jjn.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 1211,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 00:20:41.197190+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6434,
+      "mode": "standard",
+      "started_at": "2026-10-01 00:20:51.521739+00:00",
+      "ended_at": "2026-10-01 00:20:52.475946+00:00",
+      "winner_id": null,
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/0RrKSEO.png",
+      "answer_count": 1,
+      "answers": []
+    }
+  ],
+  "xp": {
+    "795847206719717386": 336
+  },
+  "xp_layers": {
+    "795847206719717386": {
+      "base": 168,
+      "boost": 168
+    }
+  },
+  "pass_xp": {
+    "795847206719717386": {
+      "season_key": "season_0",
+      "total": 168,
+      "uncapped": 168,
+      "game": 168,
+      "emoji": "🎃"
+    }
+  }
+}
