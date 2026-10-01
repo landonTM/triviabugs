@@ -151,8 +151,8 @@
       "standings": [
         {
           "user_id": "795847206719717386",
-          "points": 3528,
-          "correct": 1607
+          "points": 3649,
+          "correct": 1650
         },
         {
           "user_id": "734768348201615400",
@@ -161,13 +161,13 @@
         },
         {
           "user_id": "433990857063137282",
-          "points": 1086,
-          "correct": 431
+          "points": 1111,
+          "correct": 450
         },
         {
           "user_id": "184456115927384065",
-          "points": 703,
-          "correct": 249
+          "points": 705,
+          "correct": 251
         },
         {
           "user_id": "794420965387403265",
@@ -178,10 +178,10 @@
       "pass": [
         {
           "user_id": "795847206719717386",
-          "xp": 30542,
+          "xp": 32314,
           "sources": {
-            "game": 25408,
-            "pumpkin": 1184,
+            "game": 27058,
+            "pumpkin": 1306,
             "mission": 2000,
             "duel": 1950
           },
@@ -192,11 +192,11 @@
         },
         {
           "user_id": "433990857063137282",
-          "xp": 22891,
+          "xp": 23857,
           "sources": {
             "mission": 1500,
             "pumpkin": 577,
-            "game": 18464,
+            "game": 19430,
             "duel": 2350
           },
           "level": 15,
@@ -206,28 +206,28 @@
         },
         {
           "user_id": "184456115927384065",
-          "xp": 17648,
+          "xp": 18126,
           "sources": {
             "mission": 750,
-            "game": 15648,
+            "game": 16126,
             "duel": 1250
           },
           "level": 13,
-          "xp_into_level": 488,
+          "xp_into_level": 966,
           "xp_for_level": 1810,
           "completed": false
         },
         {
           "user_id": "734768348201615400",
-          "xp": 12182,
+          "xp": 12732,
           "sources": {
             "duel": 550,
             "mission": 1000,
             "pumpkin": 304,
-            "game": 10328
+            "game": 10878
           },
           "level": 10,
-          "xp_into_level": 32,
+          "xp_into_level": 582,
           "xp_for_level": 1600,
           "completed": false
         },
@@ -246,9 +246,9 @@
       "pumpkins": [
         {
           "user_id": "795847206719717386",
-          "smashed": 7,
+          "smashed": 8,
           "missed": 0,
-          "xp": 1184,
+          "xp": 1306,
           "best": 241
         },
         {
