@@ -2,38 +2,38 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 43,
-    "xp_into_level": 31857,
+    "xp_into_level": 32293,
     "xp_for_level": 64000,
-    "progress": 0.497765625,
+    "progress": 0.504578125,
     "maxed": false
   },
-  "total_xp": 1003357,
+  "total_xp": 1003793,
   "period_stats": {
-    "daily_points": 258,
-    "daily_correct": 86,
-    "weekly_points": 1415,
-    "weekly_correct": 580,
-    "monthly_points": 4536,
-    "monthly_correct": 2065,
-    "yearly_points": 4710,
-    "yearly_correct": 2158,
-    "alltime_points": 4710,
-    "alltime_correct": 2158
+    "daily_points": 294,
+    "daily_correct": 103,
+    "weekly_points": 1451,
+    "weekly_correct": 597,
+    "monthly_points": 4572,
+    "monthly_correct": 2082,
+    "yearly_points": 4746,
+    "yearly_correct": 2175,
+    "alltime_points": 4746,
+    "alltime_correct": 2175
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3495,
-    "questions_right": 940,
+    "total_points": 3521,
+    "questions_right": 947,
     "questions_wrong": 0,
-    "wins": 940,
-    "current_streak": 1,
+    "wins": 947,
+    "current_streak": 2,
     "best_streak": 27,
-    "games_played": 129,
-    "insane_guesses": 914,
+    "games_played": 130,
+    "insane_guesses": 924,
     "day_streak": 9,
     "last_played_date": "2026-10-01",
-    "total_xp": 1003357,
+    "total_xp": 1003793,
     "game_wins": 42,
     "achievement_best_streak": 27
   },
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 1107,
-    "correct": 222
+    "points": 1133,
+    "correct": 229
   },
   "best_insane_round": {
     "question_text": "Minecraft Block Types",
     "category": "Video Games",
     "guesses": 18
   },
-  "total_insane_correct": 1219,
-  "average_guess_ms": 15882.858359957401,
+  "total_insane_correct": 1229,
+  "average_guess_ms": 15808.99577167019,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 1702,
-    "total": 1944
+    "exact_count": 1717,
+    "total": 1961
   },
   "achievements": {
     "catalog": [
@@ -2237,8 +2237,8 @@
       "music": 12,
       "pokemon": 10,
       "sports": 33,
-      "videogames": 87,
-      "wrestling": 201,
+      "videogames": 88,
+      "wrestling": 209,
       "duelwins": 25,
       "duelstreak": 5
     }
@@ -3670,10 +3670,10 @@
       "duel": 39150,
       "mission": 30000,
       "achievement": 718500,
-      "game": 215707
+      "game": 216143
     },
     "game_layers": {
-      "base": 19974,
+      "base": 20410,
       "daily": 3491,
       "replay": 296,
       "hardcore": 2627
@@ -3681,7 +3681,7 @@
     "pass": {
       "season_0": {
         "pumpkin": 577,
-        "game": 16928,
+        "game": 17364,
         "duel": 2350,
         "mission": 1500
       }
@@ -3733,6 +3733,15 @@
       "mode": "quickfire"
     },
     {
+      "ms": 1581,
+      "answered_at": "2026-10-01 14:34:03.258658+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/wVclPOj.png",
+      "game_id": 163,
+      "mode": "quickfire"
+    },
+    {
       "ms": 1592,
       "answered_at": "2026-10-01 14:03:37.722045+00:00",
       "category": "Logos",
@@ -3775,15 +3784,6 @@
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/d45Kadf.png",
       "game_id": 156,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 1845,
-      "answered_at": "2026-10-01 13:41:25.908202+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/Y9KIfY6.png",
-      "game_id": 159,
       "mode": "quickfire"
     }
   ]
