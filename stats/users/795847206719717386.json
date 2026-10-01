@@ -2,39 +2,39 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 47,
-    "xp_into_level": 47489,
+    "xp_into_level": 68099,
     "xp_for_level": 76000,
-    "progress": 0.6248552631578947,
+    "progress": 0.8960394736842106,
     "maxed": false
   },
-  "total_xp": 1292989,
+  "total_xp": 1313599,
   "period_stats": {
-    "daily_points": 1803,
-    "daily_correct": 784,
-    "weekly_points": 3891,
-    "weekly_correct": 1779,
-    "monthly_points": 9482,
-    "monthly_correct": 5002,
-    "yearly_points": 9657,
-    "yearly_correct": 5093,
-    "alltime_points": 9657,
-    "alltime_correct": 5093
+    "daily_points": 1967,
+    "daily_correct": 848,
+    "weekly_points": 4055,
+    "weekly_correct": 1843,
+    "monthly_points": 9599,
+    "monthly_correct": 5044,
+    "yearly_points": 9821,
+    "yearly_correct": 5157,
+    "alltime_points": 9821,
+    "alltime_correct": 5157
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 6630,
-    "questions_right": 2066,
+    "total_points": 6764,
+    "questions_right": 2100,
     "questions_wrong": 0,
-    "wins": 2066,
-    "current_streak": 4,
+    "wins": 2100,
+    "current_streak": 34,
     "best_streak": 56,
-    "games_played": 113,
-    "insane_guesses": 2073,
+    "games_played": 115,
+    "insane_guesses": 2103,
     "day_streak": 6,
     "last_played_date": "2026-10-01",
-    "total_xp": 1292989,
-    "game_wins": 74,
+    "total_xp": 1313599,
+    "game_wins": 76,
     "achievement_best_streak": 56
   },
   "best_streak": 56,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 1855,
-    "correct": 483
+    "points": 1989,
+    "correct": 517
   },
   "best_insane_round": {
     "question_text": "Name all countries",
     "category": "Geography",
     "guesses": 31
   },
-  "total_insane_correct": 3027,
-  "average_guess_ms": 16883.169893514038,
+  "total_insane_correct": 3057,
+  "average_guess_ms": 16685.09238095238,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 3987,
-    "total": 4494
+    "exact_count": 4034,
+    "total": 4558
   },
   "achievements": {
     "catalog": [
@@ -2222,7 +2222,8 @@
       "duel_rival_slayer": "2026-10-01 00:47:39.961167+00:00",
       "streak_50": "2026-10-01 11:17:12.757243+00:00",
       "play_100_games": "2026-10-01 11:54:14.234047+00:00",
-      "videogames_50": "2026-10-01 14:29:02.620186+00:00"
+      "videogames_50": "2026-10-01 14:29:02.620186+00:00",
+      "wins_75": "2026-10-01 19:37:09.789490+00:00"
     },
     "baselines": {
       "points": 1991,
@@ -2232,7 +2233,7 @@
     "category_counts": {
       "disney": 90,
       "entertainment": 16,
-      "geo": 485,
+      "geo": 490,
       "gk": 371,
       "got": 91,
       "marvel": 98,
@@ -3671,30 +3672,30 @@
   "xp_sources": {
     "level": {
       "duel": 12450,
-      "achievement": 891250,
-      "game": 349289,
+      "achievement": 906250,
+      "game": 354899,
       "mission": 40000
     },
     "game_layers": {
-      "base": 68762,
-      "replay": 2882,
-      "boost": 39338,
+      "base": 71268,
+      "replay": 3181,
+      "boost": 42143,
       "daily": 8817,
       "hardcore": 4750
     },
     "pass": {
       "season_0": {
-        "game": 27058,
+        "game": 28158,
         "duel": 1950,
-        "pumpkin": 1306,
+        "pumpkin": 1460,
         "mission": 2000
       }
     },
     "pumpkins": {
       "season_0": {
-        "smashed": 8,
+        "smashed": 9,
         "missed": 0,
-        "xp": 1306,
+        "xp": 1460,
         "best": 241
       }
     }
@@ -3746,6 +3747,15 @@
       "mode": "quickfire"
     },
     {
+      "ms": 1541,
+      "answered_at": "2026-10-01 19:34:07.153754+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/T2ezauw.png",
+      "game_id": 168,
+      "mode": "quickfire"
+    },
+    {
       "ms": 1559,
       "answered_at": "2026-10-01 01:32:26.668748+00:00",
       "category": "Logos",
@@ -3779,15 +3789,6 @@
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/PTCYB9x.png",
       "game_id": 161,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 1642,
-      "answered_at": "2026-10-01 11:11:12.445986+00:00",
-      "category": "World Flags",
-      "question_text": "What country is represented by this flag?",
-      "image_url": "https://i.imgur.com/5IRTv2m.png",
-      "game_id": 147,
       "mode": "quickfire"
     }
   ]
