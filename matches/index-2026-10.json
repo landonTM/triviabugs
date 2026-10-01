@@ -49,6 +49,90 @@
       "opponent_score": 0,
       "decided_by_tiebreaker": false,
       "ended_at": "2026-10-01 00:47:39.385718+00:00"
+    },
+    {
+      "id": 107,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 15,
+      "rounds_played": 8,
+      "categories": [
+        "slogans"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-10-01 01:00:23.856630+00:00",
+      "ended_at": "2026-10-01 01:06:35.350319+00:00",
+      "end_reason": "stopped"
+    },
+    {
+      "id": 108,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 16,
+      "rounds_played": 16,
+      "categories": [
+        "world flags",
+        "logos"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-10-01 01:06:50.937085+00:00",
+      "ended_at": "2026-10-01 01:13:15.851868+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 109,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 16,
+      "rounds_played": 16,
+      "categories": [
+        "world flags",
+        "logos"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-10-01 01:13:18.609280+00:00",
+      "ended_at": "2026-10-01 01:21:44.750397+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 110,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 16,
+      "rounds_played": 16,
+      "categories": [
+        "world flags",
+        "logos"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-10-01 01:21:52.688651+00:00",
+      "ended_at": "2026-10-01 01:29:52.102416+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 111,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 16,
+      "rounds_played": 0,
+      "categories": [
+        "world flags",
+        "logos"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": null,
+      "started_at": "2026-10-01 01:29:59.544927+00:00",
+      "ended_at": "2026-10-01 01:30:06.466678+00:00",
+      "end_reason": "stopped"
     }
   ]
 }
