@@ -1091,7 +1091,9 @@
             "794420965387403265",
             "795847206719717386"
           ],
-          "equipped": []
+          "equipped": [
+            "795847206719717386"
+          ]
         },
         {
           "key": "lolcat",
@@ -1255,9 +1257,7 @@
             "734768348201615400",
             "795847206719717386"
           ],
-          "equipped": [
-            "795847206719717386"
-          ]
+          "equipped": []
         },
         {
           "key": "scoobydoo",
@@ -3001,7 +3001,9 @@
             "quote": "WAZZZZZUPPP!",
             "gif": "https://media.giphy.com/media/DAlZhp0uCQTvpTjBXI/giphy.gif"
           },
-          "owners": [],
+          "owners": [
+            "795847206719717386"
+          ],
           "equipped": []
         },
         {
