@@ -348,6 +348,26 @@ const B = (() => {
     return btn;
   }
 
+  // ---------- fastest answers ----------
+  // One row per answer: rank, time, category / mode / date, the question (never the answer) and its image, linking to
+  // the replay when the game has one (from Sep 22 on). Used by a player's top 10 (stats.html) and the leaderboard's
+  // all-time top 50, which passes withPlayer so each row also says whose answer it was.
+  const FAST_MODE = { standard: "TRIVIA", quickfire: "QUICKFIRE", hardcore: "HARDCORE", daily: "DAILY TRIVIA" };
+  function fastestRow(f, i, withPlayer = false) {
+    const meta = `${(f.category || "").toUpperCase()} · ${f.mode ? FAST_MODE[f.mode] || f.mode.toUpperCase() : "TRIVIA · BEFORE SEP 22"} · ${day(f.answered_at)}`;
+    const inner = [
+      el("span", { class: "fr" }, `#${i + 1}`),
+      el("span", { class: "ft" }, secs(f.ms)),
+      el("span", { class: "fq" },
+        withPlayer ? el("span", { class: "fwho" }, avatar(f.user_id, "sm"), name(f.user_id)) : null,
+        el("span", { class: "fmeta" }, meta),
+        el("span", {}, f.question_text || "")),
+      f.image_url ? el("img", { class: "fimg", src: f.image_url, alt: "Question image", loading: "lazy" }) : null,
+    ];
+    return f.game_id ? el("a", { class: "frow", href: `replay.html?game=${f.game_id}`, style: { "--c": rankColor(i) } }, inner)
+      : el("div", { class: "frow", style: { "--c": rankColor(i) } }, inner);
+  }
+
   // ---------- tables on phones ----------
   // On narrow screens (arcade.css) each table row becomes a card; its cells need their column's name to label the
   // numbers, so every table.scores / table.grid gets data-label on each cell, and the name cell a .cell-who class.
@@ -413,6 +433,6 @@ const B = (() => {
     json, el, $, fmt, secs, pct, ts, when, time, day, dur, ordinal, rankColor, loadPlayers, name, avatar, playerHref,
     playerLink, colorFor, emoji, md, XP_SOURCES, XP_LAYERS, XP_LAYERS_SHORT, METRICS, METRIC, GROUPS, PERIODS, categoryMetric, allCategories, ranking, rankOf,
     COSMETIC_TYPE, cosmeticCard, showMore, allMatches, matchHref, matchKind, matchTitle, fightCard, topbar, footer, fail, param, periodButtons,
-    secondsToDaily, clock, MODE_COLORS,
+    secondsToDaily, clock, MODE_COLORS, fastestRow,
   };
 })();

@@ -304,3 +304,20 @@ code { font-family: var(--term); color: var(--cyan); background: var(--panel-2);
   .tile .value { font-size: 28px; }
   .tile .sub { font-size: 17px; }
 }
+
+/* ---------- fastest answers (B.fastestRow: a player's top 10, the leaderboard's all-time top 50) ---------- */
+.fastlist { display: flex; flex-direction: column; gap: 8px; }
+.frow { display: grid; grid-template-columns: 48px 110px 1fr auto; gap: 6px 14px; align-items: center; border: 3px solid var(--line-dim);
+  border-left: 6px solid var(--c); background: var(--panel); padding: 10px 14px; color: var(--text); }
+a.frow:hover { border-color: var(--line); border-left-color: var(--c); text-decoration: none; color: var(--text); }
+.frow .fr { font: 11px/1 var(--pixel); color: var(--c); }
+.frow .ft { font: 16px/1 var(--pixel); color: var(--c); }
+.frow .fq { display: flex; flex-direction: column; gap: 4px; min-width: 0; font-size: 22px; line-height: 1.1; overflow-wrap: anywhere; }
+.frow .fwho { display: flex; align-items: center; gap: 8px; font-size: 22px; color: var(--text); }
+.frow .fmeta { font: 8px/1.6 var(--pixel); color: var(--muted); }
+.frow .fimg { width: 64px; height: 48px; object-fit: contain; background: #fff; border: 2px solid var(--line-dim); }
+@media (max-width: 620px) {
+  .frow { grid-template-columns: auto 1fr auto; }
+  .frow .fq { grid-column: 1 / -1; grid-row: 2; }
+  .frow .fimg { grid-row: 1; grid-column: 3; }
+}
