@@ -3553,5 +3553,16 @@
     }
   },
   "rivals": [],
-  "xp_sources": null
+  "xp_sources": null,
+  "fastest_answers": [
+    {
+      "ms": 52794,
+      "answered_at": "2026-09-06 16:37:00.368289+00:00",
+      "category": "NBA",
+      "question_text": "What division are the Washington Wizards in?",
+      "image_url": null,
+      "game_id": null,
+      "mode": null
+    }
+  ]
 }
