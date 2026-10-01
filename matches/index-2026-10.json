@@ -780,6 +780,23 @@
       "started_at": "2026-10-01 11:57:34.997586+00:00",
       "ended_at": "2026-10-01 11:59:17.151623+00:00",
       "end_reason": "stopped"
+    },
+    {
+      "id": 152,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 30,
+      "rounds_played": 2,
+      "categories": [
+        "Logos",
+        "World Flags"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-10-01 12:01:19.038288+00:00",
+      "ended_at": "2026-10-01 12:02:39.678264+00:00",
+      "end_reason": "stopped"
     }
   ]
 }
