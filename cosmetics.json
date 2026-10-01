@@ -969,7 +969,9 @@
             "streak": "<:mysterymachine:1553490677202157711>",
             "speed": "<:shaggy:1295894146640511019>"
           },
-          "owners": [],
+          "owners": [
+            "795847206719717386"
+          ],
           "equipped": []
         }
       ]
@@ -1091,9 +1093,7 @@
             "794420965387403265",
             "795847206719717386"
           ],
-          "equipped": [
-            "795847206719717386"
-          ]
+          "equipped": []
         },
         {
           "key": "lolcat",
@@ -1276,8 +1276,12 @@
               "👍 Reah! **Poo** is on a streak of **5** — a rew personal best, rou rot it! Rooby-Dooby-Doo!"
             ]
           },
-          "owners": [],
-          "equipped": []
+          "owners": [
+            "795847206719717386"
+          ],
+          "equipped": [
+            "795847206719717386"
+          ]
         }
       ]
     },
@@ -2984,6 +2988,7 @@
             "gif": "https://media.giphy.com/media/evhhXX0wfoWHApbZKE/giphy.gif"
           },
           "owners": [
+            "433990857063137282",
             "795847206719717386"
           ],
           "equipped": []
@@ -3019,7 +3024,9 @@
             "quote": "{user}: I got a call here for a Mister Doo? I got a call for Mister Doo.\n{loser}: Uh, Melvin Doo?\n{user}: Nah. Scooby.",
             "gif": "https://media.giphy.com/media/lwWyu3L1xwI61U19zP/giphy.gif"
           },
-          "owners": [],
+          "owners": [
+            "795847206719717386"
+          ],
           "equipped": []
         }
       ]
