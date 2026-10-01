@@ -1,0 +1,137 @@
+{
+  "game": {
+    "id": 127,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "864342930076860426",
+    "total_rounds": 5,
+    "rounds_played": 5,
+    "categories": [
+      "World Flags"
+    ],
+    "started_by": "184456115927384065",
+    "winner_id": "184456115927384065",
+    "started_at": "2026-10-01 03:25:02.436988+00:00",
+    "ended_at": "2026-10-01 03:27:57.480857+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 6634,
+      "mode": "standard",
+      "started_at": "2026-10-01 03:25:03.023022+00:00",
+      "ended_at": "2026-10-01 03:25:26.528977+00:00",
+      "winner_id": "184456115927384065",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/kj2Rl6U.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 22893,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-01 03:25:26.525339+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6635,
+      "mode": "standard",
+      "started_at": "2026-10-01 03:25:36.886121+00:00",
+      "ended_at": "2026-10-01 03:26:02.472895+00:00",
+      "winner_id": "184456115927384065",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/uW7bNGe.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 24976,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-01 03:26:02.469466+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6636,
+      "mode": "standard",
+      "started_at": "2026-10-01 03:26:12.768870+00:00",
+      "ended_at": "2026-10-01 03:27:08.045344+00:00",
+      "winner_id": "184456115927384065",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/eDocaIL.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 52903,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 03:27:08.041310+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6637,
+      "mode": "standard",
+      "started_at": "2026-10-01 03:27:18.266304+00:00",
+      "ended_at": "2026-10-01 03:27:21.583785+00:00",
+      "winner_id": "184456115927384065",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/QclX66O.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 2764,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 03:27:21.580217+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6638,
+      "mode": "standard",
+      "started_at": "2026-10-01 03:27:31.800868+00:00",
+      "ended_at": "2026-10-01 03:27:47.305691+00:00",
+      "winner_id": "184456115927384065",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/j7Ig3Bu.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 15150,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 03:27:47.302242+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "184456115927384065": 361
+  },
+  "xp_layers": {
+    "184456115927384065": {
+      "base": 361
+    }
+  },
+  "pass_xp": {
+    "184456115927384065": {
+      "season_key": "season_0",
+      "total": 361,
+      "uncapped": 361,
+      "game": 361,
+      "emoji": "🎃"
+    }
+  }
+}
