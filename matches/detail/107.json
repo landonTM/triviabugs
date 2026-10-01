@@ -1,0 +1,202 @@
+{
+  "game": {
+    "id": 107,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 15,
+    "rounds_played": 8,
+    "categories": [
+      "slogans"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-10-01 01:00:23.856630+00:00",
+    "ended_at": "2026-10-01 01:06:35.350319+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 6455,
+      "mode": "standard",
+      "started_at": "2026-10-01 01:00:24.163819+00:00",
+      "ended_at": "2026-10-01 01:00:28.460086+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Slogans",
+      "question_text": "Milk's Favorite Cookie.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3974,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 01:00:28.455700+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6456,
+      "mode": "standard",
+      "started_at": "2026-10-01 01:00:38.652298+00:00",
+      "ended_at": "2026-10-01 01:01:04.353621+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Slogans",
+      "question_text": "____ your pleasure, ____ your fun.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 25502,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-10-01 01:01:04.350111+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6457,
+      "mode": "standard",
+      "started_at": "2026-10-01 01:01:14.997528+00:00",
+      "ended_at": "2026-10-01 01:02:04.004749+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Slogans",
+      "question_text": "Very Funny",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 48695,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 01:02:04.001154+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6458,
+      "mode": "standard",
+      "started_at": "2026-10-01 01:02:14.272413+00:00",
+      "ended_at": "2026-10-01 01:02:39.155807+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Slogans",
+      "question_text": "Live Mas",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 23880,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-01 01:02:39.152085+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6459,
+      "mode": "standard",
+      "started_at": "2026-10-01 01:02:49.486750+00:00",
+      "ended_at": "2026-10-01 01:03:20.730368+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Slogans",
+      "question_text": "Every kiss begins with kay.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 30909,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-10-01 01:03:20.726966+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6460,
+      "mode": "standard",
+      "started_at": "2026-10-01 01:03:31.806115+00:00",
+      "ended_at": "2026-10-01 01:04:15.467036+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Slogans",
+      "question_text": "When you care enough to send the very best",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 43079,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 01:04:15.462716+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6461,
+      "mode": "standard",
+      "started_at": "2026-10-01 01:04:26.040867+00:00",
+      "ended_at": "2026-10-01 01:05:10.128302+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Slogans",
+      "question_text": "Please don't squeeze the ____.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 43841,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 01:05:10.123435+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6462,
+      "mode": "standard",
+      "started_at": "2026-10-01 01:05:20.391115+00:00",
+      "ended_at": "2026-10-01 01:06:20.623988+00:00",
+      "winner_id": null,
+      "category": "Slogans",
+      "question_text": "There are some things money can't buy. For everything else, there's ____.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 6463,
+      "mode": "standard",
+      "started_at": "2026-10-01 01:06:30.839022+00:00",
+      "ended_at": "2026-10-01 01:06:35.066076+00:00",
+      "winner_id": null,
+      "category": "Slogans",
+      "question_text": "The Few. The Proud.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    }
+  ],
+  "xp": {
+    "795847206719717386": 768
+  },
+  "xp_layers": {
+    "795847206719717386": {
+      "base": 384,
+      "boost": 384
+    }
+  },
+  "pass_xp": {
+    "795847206719717386": {
+      "season_key": "season_0",
+      "total": 384,
+      "uncapped": 384,
+      "game": 384,
+      "emoji": "🎃"
+    }
+  }
+}
