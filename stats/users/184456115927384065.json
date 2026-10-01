@@ -2,39 +2,39 @@
   "user_id": "184456115927384065",
   "level": {
     "level": 42,
-    "xp_into_level": 50415,
+    "xp_into_level": 51011,
     "xp_for_level": 61000,
-    "progress": 0.8264754098360656,
+    "progress": 0.8362459016393443,
     "maxed": false
   },
-  "total_xp": 960915,
+  "total_xp": 961511,
   "period_stats": {
-    "daily_points": 452,
-    "daily_correct": 144,
-    "weekly_points": 1669,
-    "weekly_correct": 649,
-    "monthly_points": 3096,
-    "monthly_correct": 1479,
-    "yearly_points": 3102,
-    "yearly_correct": 1481,
-    "alltime_points": 3102,
-    "alltime_correct": 1481
+    "daily_points": 480,
+    "daily_correct": 154,
+    "weekly_points": 1693,
+    "weekly_correct": 658,
+    "monthly_points": 3124,
+    "monthly_correct": 1489,
+    "yearly_points": 3130,
+    "yearly_correct": 1491,
+    "alltime_points": 3130,
+    "alltime_correct": 1491
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 2382,
-    "questions_right": 761,
+    "total_points": 2407,
+    "questions_right": 768,
     "questions_wrong": 0,
-    "wins": 761,
-    "current_streak": 43,
+    "wins": 768,
+    "current_streak": 7,
     "best_streak": 43,
-    "games_played": 130,
-    "insane_guesses": 549,
+    "games_played": 131,
+    "insane_guesses": 552,
     "day_streak": 17,
     "last_played_date": "2026-10-01",
-    "total_xp": 960915,
-    "game_wins": 80,
+    "total_xp": 961511,
+    "game_wins": 81,
     "achievement_best_streak": 43
   },
   "best_streak": 43,
@@ -53,15 +53,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 720,
-  "average_guess_ms": 19838.917214191853,
+  "total_insane_correct": 723,
+  "average_guess_ms": 19744.00390625,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 27
   },
   "spelling_accuracy": {
-    "exact_count": 1286,
-    "total": 1389
+    "exact_count": 1296,
+    "total": 1399
   },
   "achievements": {
     "catalog": [
@@ -2225,8 +2225,8 @@
     "category_counts": {
       "disney": 22,
       "entertainment": 1,
-      "geo": 241,
-      "gk": 137,
+      "geo": 248,
+      "gk": 140,
       "got": 1,
       "marvel": 12,
       "movies": 22,
@@ -3651,20 +3651,20 @@
     "level": {
       "achievement": 729250,
       "mission": 15000,
-      "game": 188915,
+      "game": 189511,
       "duel": 27750
     },
     "game_layers": {
       "replay": 65,
       "daily": 2113,
       "hardcore": 2982,
-      "base": 18088
+      "base": 18684
     },
     "pass": {
       "season_0": {
         "mission": 750,
         "duel": 1250,
-        "game": 16126
+        "game": 16676
       }
     }
   },
@@ -3893,8 +3893,8 @@
     ],
     [
       "2026-10-01",
-      452,
-      144
+      480,
+      154
     ]
   ]
 }
