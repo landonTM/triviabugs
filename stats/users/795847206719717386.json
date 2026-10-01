@@ -2,39 +2,39 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 46,
-    "xp_into_level": 17083,
+    "xp_into_level": 25843,
     "xp_for_level": 73000,
-    "progress": 0.234013698630137,
+    "progress": 0.354013698630137,
     "maxed": false
   },
-  "total_xp": 1189583,
+  "total_xp": 1198343,
   "period_stats": {
-    "daily_points": 105,
-    "daily_correct": 54,
-    "weekly_points": 2225,
-    "weekly_correct": 1066,
-    "monthly_points": 7853,
-    "monthly_correct": 4304,
-    "yearly_points": 7959,
-    "yearly_correct": 4363,
-    "alltime_points": 7959,
-    "alltime_correct": 4363
+    "daily_points": 320,
+    "daily_correct": 151,
+    "weekly_points": 2421,
+    "weekly_correct": 1152,
+    "monthly_points": 8068,
+    "monthly_correct": 4401,
+    "yearly_points": 8174,
+    "yearly_correct": 4460,
+    "alltime_points": 8174,
+    "alltime_correct": 4460
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 5286,
-    "questions_right": 1690,
+    "total_points": 5455,
+    "questions_right": 1741,
     "questions_wrong": 0,
-    "wins": 1690,
-    "current_streak": 3,
+    "wins": 1741,
+    "current_streak": 1,
     "best_streak": 38,
-    "games_played": 88,
-    "insane_guesses": 1719,
+    "games_played": 92,
+    "insane_guesses": 1765,
     "day_streak": 5,
     "last_played_date": "2026-09-30",
-    "total_xp": 1189583,
-    "game_wins": 52,
+    "total_xp": 1198343,
+    "game_wins": 56,
     "achievement_best_streak": 38
   },
   "best_streak": 38,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Wrestling",
-    "points": 1012,
-    "correct": 745
+    "points": 1019,
+    "correct": 752
   },
   "best_insane_round": {
     "question_text": "Name all countries",
     "category": "Geography",
     "guesses": 30
   },
-  "total_insane_correct": 2673,
-  "average_guess_ms": 18546.22721893491,
+  "total_insane_correct": 2719,
+  "average_guess_ms": 18356.18724870764,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 3340,
-    "total": 3764
+    "exact_count": 3435,
+    "total": 3861
   },
   "achievements": {
     "catalog": [
@@ -2229,16 +2229,16 @@
     "category_counts": {
       "disney": 87,
       "entertainment": 10,
-      "geo": 314,
-      "gk": 254,
+      "geo": 373,
+      "gk": 259,
       "got": 80,
       "marvel": 79,
       "movies": 25,
-      "music": 18,
+      "music": 23,
       "pokemon": 31,
       "sports": 28,
       "videogames": 61,
-      "wrestling": 349,
+      "wrestling": 356,
       "duelwins": 8,
       "duelstreak": 3
     }
@@ -2666,8 +2666,8 @@
       "key": "scooby",
       "label": "Scooby Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "theme",
@@ -2770,8 +2770,8 @@
       "key": "scoobydoo",
       "label": "Scooby Doo Response Theme",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "embedcolor",
@@ -3602,8 +3602,8 @@
       "key": "melvindoo",
       "label": "Melvin Doo MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     }
   ],
   "equipped": {
@@ -3620,8 +3620,8 @@
       "speed": "🕸️"
     },
     "theme": {
-      "key": "cowboy",
-      "label": "Cowboy Response Theme"
+      "key": "scoobydoo",
+      "label": "Scooby Doo Response Theme"
     },
     "embedcolor": {
       "key": "teal",
@@ -3669,29 +3669,29 @@
     "level": {
       "duel": 12450,
       "achievement": 856250,
-      "game": 280883,
+      "game": 289643,
       "mission": 40000
     },
     "game_layers": {
-      "base": 39266,
-      "replay": 76,
-      "boost": 5135,
+      "base": 43326,
+      "replay": 396,
+      "boost": 9515,
       "daily": 6916,
       "hardcore": 4750
     },
     "pass": {
       "season_0": {
-        "game": 14626,
+        "game": 16826,
         "duel": 1950,
-        "pumpkin": 515,
+        "pumpkin": 620,
         "mission": 2000
       }
     },
     "pumpkins": {
       "season_0": {
-        "smashed": 3,
+        "smashed": 4,
         "missed": 0,
-        "xp": 515,
+        "xp": 620,
         "best": 184
       }
     }
@@ -3707,6 +3707,24 @@
       "mode": "quickfire"
     },
     {
+      "ms": 1559,
+      "answered_at": "2026-10-01 01:32:26.668748+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/T2ezauw.png",
+      "game_id": 112,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 1699,
+      "answered_at": "2026-10-01 01:22:42.841742+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoNBC.png",
+      "game_id": 110,
+      "mode": "quickfire"
+    },
+    {
       "ms": 1730,
       "answered_at": "2026-10-01 01:07:42.808020+00:00",
       "category": "World Flags",
@@ -3716,75 +3734,57 @@
       "mode": "quickfire"
     },
     {
-      "ms": 2039,
-      "answered_at": "2026-10-01 00:26:05.180335+00:00",
+      "ms": 1785,
+      "answered_at": "2026-10-01 01:30:18.231128+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/sbIamVK.png",
+      "game_id": 112,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 1896,
+      "answered_at": "2026-10-01 01:20:45.933973+00:00",
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
-      "image_url": "https://i.imgur.com/FoEC4xl.png",
-      "game_id": 106,
+      "image_url": "https://i.imgur.com/RgnmHkX.png",
+      "game_id": 109,
       "mode": "quickfire"
     },
     {
-      "ms": 2234,
-      "answered_at": "2026-10-01 01:06:54.899554+00:00",
+      "ms": 1913,
+      "answered_at": "2026-10-01 01:33:15.466934+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/m4g0EUL.png",
+      "game_id": 112,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 1934,
+      "answered_at": "2026-10-01 01:24:50.773419+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/LTuJD9s.png",
+      "game_id": 110,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2024,
+      "answered_at": "2026-10-01 01:13:57.272084+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoRolex.png",
+      "game_id": 109,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2030,
+      "answered_at": "2026-10-01 01:19:41.929444+00:00",
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
-      "image_url": "https://i.imgur.com/LgwBULL.png",
-      "game_id": 108,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 2279,
-      "answered_at": "2026-09-30 00:19:18.677312+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/kTEVdLZ.png",
-      "game_id": 91,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 2295,
-      "answered_at": "2026-09-29 23:36:33.497564+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/fuHXqh2.png",
-      "game_id": 87,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 2301,
-      "answered_at": "2026-09-29 23:38:55.689835+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/58KgUiA.png",
-      "game_id": 88,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 2351,
-      "answered_at": "2026-09-29 23:50:19.566942+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/PTCYB9x.png",
-      "game_id": 88,
-      "mode": "quickfire"
-    },
-    {
-      "ms": 2366,
-      "answered_at": "2026-09-29 00:11:35.543678+00:00",
-      "category": "Slogans",
-      "question_text": "Just Do It.",
-      "image_url": null,
-      "game_id": 62,
-      "mode": "hardcore"
-    },
-    {
-      "ms": 2366,
-      "answered_at": "2026-10-01 00:27:05.138007+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://berthabot.me/logos/logoBeats.png",
-      "game_id": 106,
+      "image_url": "https://i.imgur.com/BqwHKYv.png",
+      "game_id": 109,
       "mode": "quickfire"
     }
   ]
