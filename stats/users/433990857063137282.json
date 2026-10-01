@@ -3609,20 +3609,20 @@
   ],
   "equipped": {
     "footer": {
-      "key": "cursed",
-      "label": "Cursed Footer",
-      "template": "Cursed by {user} 🔮"
+      "key": "nightmare",
+      "label": "Nightmare Footer",
+      "template": "A nightmare by {user} 🎃"
     },
     "emoji": {
-      "key": "jeopardybot",
-      "label": "Jeopardy Bot Emoji Pack",
-      "correct": "🤯",
-      "streak": "😱",
-      "speed": "⏳"
+      "key": "fnaf",
+      "label": "FNAF Emoji Pack",
+      "correct": "<:freddy:1553490697942995014>",
+      "streak": "<:chica:1553490713143025724>",
+      "speed": "<:glitchtrap:1553490638392266922>"
     },
     "theme": {
-      "key": "zombie",
-      "label": "Zombie Response Theme"
+      "key": "scoobydoo",
+      "label": "Scooby Doo Response Theme"
     },
     "embedcolor": {
       "key": "mint",
@@ -3630,10 +3630,10 @@
       "hex": "#5CE1B0"
     },
     "mvp": {
-      "key": "stupidbitch",
-      "label": "Stupid Bitch MVP",
-      "quote": "YOU STUPID BITCH, YOU FILTHY SLUT! I'LL TEACH YOU TO FUCK WITH ME!",
-      "gif": "https://media.giphy.com/media/0cbbW3i8kzCahcvxmb/giphy.gif"
+      "key": "comeback",
+      "label": "Come Back MVP",
+      "quote": "I always come back.",
+      "gif": "https://media.giphy.com/media/1SIgCBVYCbFdv5RqDS/giphy.gif"
     }
   },
   "rivals": [
