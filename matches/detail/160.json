@@ -1,0 +1,111 @@
+{
+  "game": {
+    "id": 160,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 30,
+    "rounds_played": 3,
+    "categories": [
+      "World Flags",
+      "Logos"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-10-01 13:52:06.869151+00:00",
+    "ended_at": "2026-10-01 13:53:48.423358+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 6966,
+      "mode": "standard",
+      "started_at": "2026-10-01 13:52:07.168803+00:00",
+      "ended_at": "2026-10-01 13:52:34.750055+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/uaJ6QQD.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 27164,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-01 13:52:34.745706+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6967,
+      "mode": "standard",
+      "started_at": "2026-10-01 13:52:45.054497+00:00",
+      "ended_at": "2026-10-01 13:52:47.264966+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoSkype.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 1688,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 13:52:47.261107+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6968,
+      "mode": "standard",
+      "started_at": "2026-10-01 13:52:57.684312+00:00",
+      "ended_at": "2026-10-01 13:53:31.424849+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/kj2Rl6U.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 31322,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-01 13:53:31.421116+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6969,
+      "mode": "standard",
+      "started_at": "2026-10-01 13:53:41.789262+00:00",
+      "ended_at": "2026-10-01 13:53:48.104543+00:00",
+      "winner_id": null,
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/Xd2tgrz.png",
+      "answer_count": 1,
+      "answers": []
+    }
+  ],
+  "xp": {
+    "795847206719717386": 398
+  },
+  "xp_layers": {
+    "795847206719717386": {
+      "base": 199,
+      "boost": 199
+    }
+  },
+  "pass_xp": {
+    "795847206719717386": {
+      "season_key": "season_0",
+      "total": 199,
+      "uncapped": 199,
+      "game": 199,
+      "emoji": "🎃"
+    }
+  }
+}
