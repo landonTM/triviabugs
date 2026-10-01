@@ -71,18 +71,18 @@
           "achievements": 7
         },
         "weekly": {
-          "points": 4004,
-          "correct": 1814,
-          "standard_correct": 807,
-          "insane_finds": 1007,
-          "avg_guess_ms": 10991.885997521686,
+          "points": 3983,
+          "correct": 1797,
+          "standard_correct": 804,
+          "insane_finds": 993,
+          "avg_guess_ms": 10938.440298507463,
           "fastest_ms": 919,
           "under_5s": 430,
-          "exact_spelling": 1640,
-          "spelled": 1814,
+          "exact_spelling": 1625,
+          "spelled": 1797,
           "best_streak": 56,
-          "active_days": 7,
-          "games_played": 66,
+          "active_days": 6,
+          "games_played": 64,
           "categories_played": 43,
           "best_insane_round": 31,
           "best_game_points": 163,
@@ -98,18 +98,18 @@
           "played_daily": 6,
           "played_hardcore": 8,
           "played_quickfire": 46,
-          "played_standard": 6,
+          "played_standard": 4,
           "wins_quickfire": 39,
           "game_wins": 51,
           "wins_daily": 3,
           "wins_hardcore": 6,
           "wins_standard": 3,
           "xp_duel": 7950,
-          "xp": 682349,
-          "xp_achievement": 279500,
+          "xp": 677349,
+          "xp_achievement": 274500,
           "xp_game": 354899,
           "xp_mission": 40000,
-          "achievements": 20,
+          "achievements": 19,
           "missions": 4
         },
         "monthly": {
@@ -362,8 +362,8 @@
             14
           ],
           "General Knowledge": [
-            247,
-            287
+            244,
+            284
           ],
           "Game of Thrones": [
             34,
@@ -482,8 +482,8 @@
             15
           ],
           "Wrestling": [
-            260,
-            305
+            249,
+            294
           ],
           "Whos That Pokemon (Gen 3)": [
             1,
@@ -506,8 +506,8 @@
             94
           ],
           "Geography": [
-            151,
-            181
+            148,
+            174
           ],
           "A Knight of the Seven Kingdoms": [
             1,
@@ -1184,18 +1184,18 @@
           "xp": 2142
         },
         "weekly": {
-          "points": 1805,
-          "correct": 893,
-          "standard_correct": 318,
-          "insane_finds": 575,
-          "avg_guess_ms": 10205.783018867925,
+          "points": 1746,
+          "correct": 855,
+          "standard_correct": 311,
+          "insane_finds": 544,
+          "avg_guess_ms": 10306.225080385851,
           "fastest_ms": 2161,
-          "under_5s": 137,
-          "exact_spelling": 744,
-          "spelled": 893,
+          "under_5s": 134,
+          "exact_spelling": 710,
+          "spelled": 855,
           "best_streak": 45,
-          "active_days": 8,
-          "games_played": 33,
+          "active_days": 7,
+          "games_played": 31,
           "categories_played": 36,
           "best_insane_round": 25,
           "best_game_points": 232,
@@ -1211,11 +1211,10 @@
           "played_daily": 7,
           "played_hardcore": 8,
           "played_quickfire": 13,
-          "played_standard": 5,
+          "played_standard": 3,
           "wins_hardcore": 2,
-          "game_wins": 16,
+          "game_wins": 14,
           "wins_daily": 3,
-          "wins_standard": 2,
           "wins_quickfire": 9,
           "xp_achievement": 261750,
           "xp": 539833,
@@ -1484,24 +1483,24 @@
             1
           ],
           "Sports": [
-            49,
-            214
+            43,
+            190
           ],
           "General Knowledge": [
-            154,
-            177
+            150,
+            173
           ],
           "World Cup": [
             25,
             36
           ],
           "Wrestling": [
-            207,
-            333
+            180,
+            306
           ],
           "Geography": [
-            105,
-            136
+            104,
+            132
           ],
           "Logos": [
             18,
@@ -3165,22 +3164,22 @@
           "missions": 1
         },
         "weekly": {
-          "points": 1693,
-          "correct": 658,
-          "standard_correct": 428,
-          "insane_finds": 230,
-          "avg_guess_ms": 17753.45093457944,
+          "points": 1665,
+          "correct": 644,
+          "standard_correct": 421,
+          "insane_finds": 223,
+          "avg_guess_ms": 17761.344418052257,
           "fastest_ms": 1145,
-          "under_5s": 95,
-          "exact_spelling": 620,
-          "spelled": 658,
+          "under_5s": 93,
+          "exact_spelling": 606,
+          "spelled": 644,
           "best_streak": 43,
-          "active_days": 7,
-          "games_played": 77,
+          "active_days": 6,
+          "games_played": 76,
           "categories_played": 26,
           "best_insane_round": 16,
           "best_game_points": 88,
-          "games_started": 68,
+          "games_started": 67,
           "duels_played": 34,
           "duel_wins": 12,
           "duel_losses": 22,
@@ -3192,7 +3191,7 @@
           "played_daily": 6,
           "played_hardcore": 15,
           "played_quickfire": 52,
-          "played_standard": 4,
+          "played_standard": 3,
           "wins_standard": 2,
           "game_wins": 63,
           "wins_quickfire": 49,
@@ -3401,8 +3400,8 @@
             496
           ],
           "Geography": [
-            42,
-            72
+            40,
+            66
           ],
           "History": [
             4,
@@ -3417,8 +3416,8 @@
             3
           ],
           "Wrestling": [
-            93,
-            123
+            86,
+            116
           ],
           "What Links": [
             1,
@@ -3429,8 +3428,8 @@
             4
           ],
           "Sports": [
-            177,
-            691
+            173,
+            680
           ],
           "Music": [
             12,
