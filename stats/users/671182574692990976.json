@@ -3553,5 +3553,25 @@
     }
   },
   "rivals": [],
-  "xp_sources": null
+  "xp_sources": null,
+  "fastest_answers": [
+    {
+      "ms": 6078,
+      "answered_at": "2026-09-07 19:10:50.576168+00:00",
+      "category": "Movies",
+      "question_text": "In The Devil Wears Prada, who plays Andy Sachs?",
+      "image_url": null,
+      "game_id": null,
+      "mode": null
+    },
+    {
+      "ms": 47189,
+      "answered_at": "2026-09-07 19:09:59.859253+00:00",
+      "category": "World Capitals",
+      "question_text": "What is the capital of Papua New Guinea?",
+      "image_url": null,
+      "game_id": null,
+      "mode": null
+    }
+  ]
 }
