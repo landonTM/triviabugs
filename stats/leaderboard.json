@@ -113,13 +113,13 @@
           "missions": 4
         },
         "monthly": {
-          "points": 9599,
-          "correct": 5044,
-          "standard_correct": 2024,
-          "insane_finds": 3020,
-          "avg_guess_ms": 16340.766304347826,
+          "points": 9567,
+          "correct": 5026,
+          "standard_correct": 2016,
+          "insane_finds": 3010,
+          "avg_guess_ms": 16321.57142857143,
           "fastest_ms": 919,
-          "under_5s": 621,
+          "under_5s": 620,
           "exact_spelling": 4034,
           "spelled": 4558,
           "best_streak": 56,
@@ -528,8 +528,8 @@
             161
           ],
           "NBA": [
-            78,
-            119
+            69,
+            110
           ],
           "Marvel": [
             227,
@@ -576,8 +576,8 @@
             198
           ],
           "Slogans": [
-            58,
-            112
+            57,
+            110
           ],
           "US State Flags": [
             17,
@@ -620,8 +620,8 @@
             434
           ],
           "Music": [
-            83,
-            155
+            82,
+            151
           ],
           "Harry Potter": [
             182,
@@ -676,12 +676,12 @@
             5
           ],
           "Lord of the Rings": [
-            9,
-            17
+            5,
+            9
           ],
           "Wrestling": [
-            790,
-            1041
+            789,
+            1037
           ],
           "Sports": [
             81,
@@ -712,8 +712,8 @@
             333
           ],
           "Geography": [
-            566,
-            651
+            565,
+            650
           ],
           "A Knight of the Seven Kingdoms": [
             6,
@@ -1227,11 +1227,11 @@
           "bug_reports": 2
         },
         "monthly": {
-          "points": 6614,
-          "correct": 3601,
-          "standard_correct": 1245,
-          "insane_finds": 2356,
-          "avg_guess_ms": 14361.999196787148,
+          "points": 6592,
+          "correct": 3588,
+          "standard_correct": 1239,
+          "insane_finds": 2349,
+          "avg_guess_ms": 14329.303470540759,
           "fastest_ms": 2161,
           "under_5s": 337,
           "exact_spelling": 2505,
@@ -1622,16 +1622,16 @@
             8
           ],
           "NBA": [
-            112,
-            195
+            107,
+            190
           ],
           "Elements": [
             6,
             22
           ],
           "Music": [
-            120,
-            202
+            119,
+            200
           ],
           "Quotes": [
             4,
@@ -1650,8 +1650,8 @@
             206
           ],
           "Entertainment": [
-            60,
-            165
+            57,
+            160
           ],
           "Greek Mythology": [
             21,
@@ -1666,8 +1666,8 @@
             8
           ],
           "Sports": [
-            280,
-            775
+            279,
+            771
           ],
           "General Knowledge": [
             536,
@@ -1686,8 +1686,8 @@
             1
           ],
           "Geography": [
-            556,
-            698
+            554,
+            696
           ],
           "Whos That Pokemon (Gen 6)": [
             1,
@@ -1714,8 +1714,8 @@
             23
           ],
           "Harry Potter": [
-            20,
-            45
+            19,
+            41
           ],
           "World Flags": [
             156,
@@ -2231,11 +2231,11 @@
           "bug_reports": 7
         },
         "monthly": {
-          "points": 4653,
-          "correct": 2125,
-          "standard_correct": 900,
-          "insane_finds": 1225,
-          "avg_guess_ms": 14798.157777777778,
+          "points": 4645,
+          "correct": 2121,
+          "standard_correct": 898,
+          "insane_finds": 1223,
+          "avg_guess_ms": 14797.730512249444,
           "fastest_ms": 134,
           "under_5s": 303,
           "exact_spelling": 1790,
@@ -2578,8 +2578,8 @@
             122
           ],
           "Geography": [
-            181,
-            225
+            180,
+            224
           ],
           "Whos That Pokemon (Gen 1)": [
             1,
@@ -2598,8 +2598,8 @@
             7
           ],
           "General Knowledge": [
-            411,
-            513
+            410,
+            511
           ],
           "World Cup": [
             18,
@@ -2686,8 +2686,8 @@
             41
           ],
           "US States (Map)": [
-            11,
-            40
+            10,
+            36
           ],
           "World Map": [
             8,
@@ -2718,8 +2718,8 @@
             76
           ],
           "NBA": [
-            17,
-            26
+            16,
+            25
           ],
           "The Simpsons": [
             3,
