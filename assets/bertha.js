@@ -417,6 +417,34 @@ const B = (() => {
     e.viewTransition.types.add(traverse || (from >= 0 && to >= 0 && to < from) ? "back" : "forward");
   });
 
+  // ---------- share ----------
+  // A SHARE button for a replay or player page. It shares the page's link-preview twin (r/165, p/<id> -- the bot's
+  // utils/share_cards.py draws its card) so Discord shows that match or player instead of the generic Bertha card.
+  // Phones get the native share sheet; elsewhere the link is copied. Until the bot has drawn a card (older replays
+  // fill in over a few hours), the normal page link is shared instead.
+  function shareButton(sharePath, title) {
+    const btn = el("button", { class: "btn share", type: "button" }, "↗ SHARE");
+    btn.addEventListener("click", async () => {
+      let url = location.href;
+      try {
+        const r = await fetch(`${sharePath}.html`, { method: "HEAD", cache: "no-cache" });
+        if (r.ok) url = new URL(sharePath, location.href).href;
+      } catch (e) { /* offline or blocked: share the page itself */ }
+      if (navigator.share && matchMedia("(pointer: coarse)").matches) {
+        try { await navigator.share({ title, url }); } catch (e) { /* closed the sheet */ }
+        return;
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        btn.textContent = "✓ LINK COPIED";
+      } catch (e) {
+        window.prompt("Copy this link:", url);
+      }
+      setTimeout(() => { btn.textContent = "↗ SHARE"; }, 2000);
+    });
+    return btn;
+  }
+
   // ---------- chrome ----------
   function topbar(active) {
     const nav = el("nav", { "aria-label": "Site", id: "sitenav" },
@@ -603,6 +631,6 @@ const B = (() => {
     json, el, $, fmt, secs, pct, ts, when, time, day, calDay, hash, dur, ordinal, rankColor, loadPlayers, name, avatar, playerHref,
     playerLink, colorFor, emoji, md, XP_SOURCES, XP_LAYERS, XP_LAYERS_SHORT, METRICS, METRIC, GROUPS, PERIODS, categoryMetric, allCategories, ranking, rankOf,
     COSMETIC_TYPE, cosmeticCard, showMore, allMatches, matchHref, matchKind, matchTitle, fightCard, topbar, footer, fail, param, periodButtons,
-    secondsToDaily, clock, MODE_COLORS, fastestRow, icon, barChart, dayRange, shortDay, etIso, matchRow, ago,
+    secondsToDaily, clock, MODE_COLORS, fastestRow, shareButton, icon, barChart, dayRange, shortDay, etIso, matchRow, ago,
   };
 })();

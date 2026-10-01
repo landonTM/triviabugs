@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20261001e">
-<script src="assets/bertha.js?v=20261001e"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20261001f">
+<script src="assets/bertha.js?v=20261001f"></script>
 <style>
   /* momentum strip: one block per round, in the colour of whoever won it */
   .strip-read { min-height: 2.4em; font-size: 22px; line-height: 1.2; margin-bottom: 10px; }
@@ -257,6 +257,7 @@
     app.replaceChildren(...[
       el("div", { class: "btn-row-label", style: { color: k.color, marginTop: "40px" } }, k.label),
       el("h1", { class: "page-title", style: { color: "var(--text)", marginTop: "8px" } }, B.matchTitle(g)),
+      el("div", { class: "btns", style: { marginBottom: "8px" } }, B.shareButton(`r/${encodeURIComponent(g.id)}`, `${B.matchTitle(g)} · Bertha`)),
       el("p", { class: "page-sub" },
         `${B.when(g.started_at)} ET · ${B.dur((B.ts(g.ended_at) || 0) - (B.ts(g.started_at) || 0))} · ${g.rounds_played} of ${g.total_rounds} rounds · `,
         REASONS[g.end_reason] || g.end_reason,
@@ -311,6 +312,7 @@
       el("div", { class: "btn-row-label", style: { color: B.MODE_COLORS.duel, marginTop: "40px" } }, `DUEL · ${(m.format_label || "").toUpperCase()}`),
       el("h1", { class: "page-title", style: { color: "var(--text)", marginTop: "8px" } }, B.matchTitle(m)),
       el("p", { class: "page-sub" }, `${B.when(m.ended_at)} ET${m.decided_by_tiebreaker ? " · decided by an insane-round tiebreaker" : ""}`),
+      el("div", { class: "btns", style: { marginBottom: "16px" } }, B.shareButton(`r/duel-${encodeURIComponent(m.id)}`, `${B.matchTitle(m)} · Bertha`)),
       B.fightCard(m, levels),
       xpLine,
       ...duelMomentum(),
