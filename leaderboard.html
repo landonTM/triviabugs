@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20261001a">
-<script src="assets/bertha.js?v=20261001a"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20261001b">
+<script src="assets/bertha.js?v=20261001b"></script>
 </head>
 <body>
 <div class="wrap">
@@ -53,7 +53,7 @@
   const metricFor = key => (key && key.startsWith("cat:") ? B.categoryMetric(key.slice(4)) : B.METRIC[key]);
   let mKey, period;
   function readHash() {
-    [mKey, period] = decodeURIComponent(location.hash.slice(1)).split("|");
+    [mKey, period] = B.hash().split("|");
     if (!metricFor(mKey) || (mKey.startsWith("cat:") && !cats.includes(mKey.slice(4)))) mKey = "total_xp";
     if (!B.PERIODS.some(([k]) => k === period)) period = "weekly";
   }

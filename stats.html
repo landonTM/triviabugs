@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20261001a">
-<script src="assets/bertha.js?v=20261001a"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20261001b">
+<script src="assets/bertha.js?v=20261001b"></script>
 <style>
   .hero { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; margin-top: 32px; }
   .hero .info { flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
@@ -125,7 +125,7 @@
         el("span", { style: { width: `${lvl.maxed ? 100 : 100 * (lvl.progress || 0)}%` } })),
       el("div", { class: "meta" }, lvl.maxed ? "MAX LEVEL" : `${B.fmt(lvl.xp_into_level)} / ${B.fmt(lvl.xp_for_level)} XP to LV ${lvl.level + 1} · ${B.fmt(me.total_xp)} XP total`),
       u.activity && u.activity.first_answered_at
-        ? el("div", { class: "meta" }, `Playing since ${B.day(u.activity.first_answered_at)}${me.current.last_played ? ` · last played ${me.current.last_played}` : ""}`) : null,
+        ? el("div", { class: "meta" }, `Playing since ${B.day(u.activity.first_answered_at)}${me.current.last_played ? ` · last played ${B.calDay(me.current.last_played)}` : ""}`) : null,
       el("div", { class: "btns" }, switcher, el("a", { class: "btn", href: `compare.html?ids=${encodeURIComponent(id)}` }, "⚔ COMPARE"))));
 
   const body = el("div");
@@ -264,7 +264,7 @@
       out.push(el("div", { class: "mlist" }, mine.map(m => {
         const k = B.matchKind(m);
         let res = null;
-        if (m.kind === "duel" && (m.challenger_score || m.opponent_score)) {
+        if (m.kind === "duel") {  // a 0-0 duel won on the tiebreaker still has a winner and a loser
           res = m.is_tie ? ["TIE", "res-t"] : !m.winner_id ? null : m.winner_id === id ? ["WIN", "res-w"] : ["LOSS", "res-l"];
         } else if (m.winner_id === id) res = ["WIN", "res-w"];
         return el("a", { class: "mrow", href: B.matchHref(m), style: { "--c": k.color } },

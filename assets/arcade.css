@@ -307,7 +307,7 @@ code { font-family: var(--term); color: var(--cyan); background: var(--panel-2);
 
 /* ---------- fastest answers (B.fastestRow: a player's top 10, the leaderboard's all-time top 50) ---------- */
 .fastlist { display: flex; flex-direction: column; gap: 8px; }
-.frow { display: grid; grid-template-columns: 48px 110px 1fr auto; gap: 6px 14px; align-items: center; border: 3px solid var(--line-dim);
+.frow { display: grid; grid-template-columns: 48px 130px 1fr auto; gap: 6px 14px; align-items: center; border: 3px solid var(--line-dim);
   border-left: 6px solid var(--c); background: var(--panel); padding: 10px 14px; color: var(--text); }
 a.frow:hover { border-color: var(--line); border-left-color: var(--c); text-decoration: none; color: var(--text); }
 .frow .fr { font: 11px/1 var(--pixel); color: var(--c); }

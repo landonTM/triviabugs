@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20261001a">
-<script src="assets/bertha.js?v=20261001a"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20261001b">
+<script src="assets/bertha.js?v=20261001b"></script>
 </head>
 <body>
 <div class="wrap">
@@ -140,11 +140,14 @@
         REASONS[g.end_reason] || g.end_reason,
         g.started_by ? el("span", {}, " · started by ", B.playerLink(g.started_by)) : null),
       el("h2", { class: "section" }, "FINAL SCORES"), table,
-      hasXp ? null : el("p", { class: "page-sub" }, "XP per match is recorded for games played from Sep 28, 2026."),
+      hasXp || !beforeXpLog(g.started_at) ? null : el("p", { class: "page-sub" }, "XP per match is recorded for games played from Sep 28, 2026."),
       el("h2", { class: "section" }, `ROUND BY ROUND · ${rounds.length}`),
       ...roundList(cards),
     ].filter(Boolean));
   }
+
+  // Per-match XP is only logged from Sep 28, 2026 (midnight ET) -- a newer match with no XP just had nobody earn any.
+  const beforeXpLog = t => (B.ts(t) || 0) < Date.parse("2026-09-28T04:00:00Z");
 
   function drawDuel() {
     const m = data.match;
@@ -152,11 +155,14 @@
     const score = { [m.challenger_id]: 0, [m.opponent_id]: 0 };
     const cards = (data.rounds || []).map(r => {
       const w = r.winner_id != null ? String(r.winner_id) : null;
-      if (w) score[w] = (score[w] || 0) + 1;
+      // The insane-round tiebreaker decides the duel but isn't part of the score (the title and card say 1–1).
+      const tiebreak = r.mode === "insane";
+      if (w && !tiebreak) score[w] = (score[w] || 0) + 1;
       const running = `${score[m.challenger_id]}–${score[m.opponent_id]}`;
       const result = w
-        ? el("span", {}, el("span", { style: { color: "var(--neon)" } }, "✓ "), B.playerLink(w), ` in ${B.secs(r.response_time_ms)} · score ${running}`)
-        : el("span", { style: { color: "var(--muted)" } }, `✗ NOBODY GOT IT · score ${running}`);
+        ? el("span", {}, el("span", { style: { color: "var(--neon)" } }, "✓ "), B.playerLink(w),
+            ` in ${B.secs(r.response_time_ms)} · ${tiebreak ? "wins the tiebreaker" : `score ${running}`}`)
+        : el("span", { style: { color: "var(--muted)" } }, `✗ NOBODY GOT IT · ${tiebreak ? "tiebreaker" : `score ${running}`}`);
       return roundCard(r.round_number, r, result);
     });
     const xpLine = hasXp
@@ -164,7 +170,7 @@
           [m.challenger_id, m.opponent_id].map(id => el("span", {}, B.playerLink(id), el("b", {}, xp[id] ? ` +${B.fmt(xp[id])}` : " +0"),
             pass[id] ? el("span", { style: { color: "var(--yellow)" } }, ` · +${B.fmt(pass[id].total)} ${pass[id].emoji}`,
               passNotes(pass[id]).length ? el("span", { class: "xpsub" }, ` (${passNotes(pass[id]).join(", ")})`) : null) : null)))
-      : el("p", { class: "page-sub" }, "XP per match is recorded for duels played from Sep 28, 2026.");
+      : beforeXpLog(m.ended_at) ? el("p", { class: "page-sub" }, "XP per match is recorded for duels played from Sep 28, 2026.") : null;
     app.replaceChildren(...[
       el("div", { class: "btn-row-label", style: { color: B.MODE_COLORS.duel, marginTop: "40px" } }, `DUEL · ${(m.format_label || "").toUpperCase()}`),
       el("h1", { class: "page-title", style: { color: "var(--text)", marginTop: "8px" } }, B.matchTitle(m)),

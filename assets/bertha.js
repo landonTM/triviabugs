@@ -101,6 +101,14 @@ const B = (() => {
   const when = s => { const d = ts(s); return d ? ET.format(d) : "—"; };
   const time = s => { const d = ts(s); return d ? ET_TIME.format(d) : "—"; };
   const day = s => { const d = ts(s); return d ? ET_DATE.format(d) : "—"; };
+  const CAL_DATE = new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric", year: "numeric" });
+  // A plain calendar date ("2026-10-01", e.g. last_played) -- shown as that day, not shifted into ET like a timestamp.
+  const calDay = s => { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || ""); return m ? CAL_DATE.format(new Date(Date.UTC(+m[1], m[2] - 1, +m[3]))) : day(s); };
+  // The page's #hash, decoded -- a mangled shared link ("#100%") used to throw and leave the page on LOADING for good.
+  function hash() {
+    const raw = location.hash.slice(1);
+    try { return decodeURIComponent(raw); } catch (e) { return raw; }
+  }
   // Exact to the second: "1h 04m 23s", "4m 07s", "23s" (days as hours: "31h 02m 00s").
   function dur(ms) {
     if (ms == null || ms < 0) return "—";
@@ -269,11 +277,15 @@ const B = (() => {
   }
   function matchTitle(m) {
     if (m.kind === "duel") {
-      if (!m.challenger_score && !m.opponent_score) return `${name(m.challenger_id)} vs ${name(m.opponent_id)} · no contest`;
       if (m.is_tie) return `${name(m.challenger_id)} and ${name(m.opponent_id)} tie ${m.challenger_score}–${m.opponent_score}`;
-      if (!m.winner_id) return `${name(m.challenger_id)} vs ${name(m.opponent_id)} · no result`;
+      if (!m.winner_id) {
+        return !m.challenger_score && !m.opponent_score ? `${name(m.challenger_id)} vs ${name(m.opponent_id)} · no contest`
+          : `${name(m.challenger_id)} vs ${name(m.opponent_id)} · no result`;
+      }
       const loser = m.winner_id === m.challenger_id ? m.opponent_id : m.challenger_id;
       const hi = Math.max(m.challenger_score, m.opponent_score), lo = Math.min(m.challenger_score, m.opponent_score);
+      // Level after the main rounds, then won on the insane-round tiebreaker (which isn't part of the score).
+      if (m.decided_by_tiebreaker) return `${name(m.winner_id)} def. ${name(loser)} on the tiebreaker · ${hi}–${lo}`;
       return `${name(m.winner_id)} def. ${name(loser)} ${hi}–${lo}`;
     }
     if (m.winner_id) return `${name(m.winner_id)} wins · ${m.rounds_played} rounds`;
@@ -364,8 +376,9 @@ const B = (() => {
         el("span", {}, f.question_text || "")),
       f.image_url ? el("img", { class: "fimg", src: f.image_url, alt: "Question image", loading: "lazy" }) : null,
     ];
-    return f.game_id ? el("a", { class: "frow", href: `replay.html?game=${f.game_id}`, style: { "--c": rankColor(i) } }, inner)
-      : el("div", { class: "frow", style: { "--c": rankColor(i) } }, inner);
+    const c = i < 5 ? rankColor(i) : "var(--text)";  // rank colours repeat every 5, so only the top 5 get one
+    return f.game_id ? el("a", { class: "frow", href: `replay.html?game=${f.game_id}`, style: { "--c": c } }, inner)
+      : el("div", { class: "frow", style: { "--c": c } }, inner);
   }
 
   // ---------- tables on phones ----------
@@ -398,7 +411,7 @@ const B = (() => {
     document.querySelector(".wrap").prepend(bar);
     json("stats/leaderboard.json").then(lb => {
       const top = lb.players[0];
-      if (top && top.total_xp) $("#hiscore").textContent = `HI-SCORE ${top.total_xp}`;
+      if (top && top.total_xp) $("#hiscore").textContent = `HI-SCORE ${fmt(top.total_xp)}`;
     }).catch(() => {});
   }
   function footer(text) {
@@ -430,7 +443,7 @@ const B = (() => {
   }
 
   return {
-    json, el, $, fmt, secs, pct, ts, when, time, day, dur, ordinal, rankColor, loadPlayers, name, avatar, playerHref,
+    json, el, $, fmt, secs, pct, ts, when, time, day, calDay, hash, dur, ordinal, rankColor, loadPlayers, name, avatar, playerHref,
     playerLink, colorFor, emoji, md, XP_SOURCES, XP_LAYERS, XP_LAYERS_SHORT, METRICS, METRIC, GROUPS, PERIODS, categoryMetric, allCategories, ranking, rankOf,
     COSMETIC_TYPE, cosmeticCard, showMore, allMatches, matchHref, matchKind, matchTitle, fightCard, topbar, footer, fail, param, periodButtons,
     secondsToDaily, clock, MODE_COLORS, fastestRow,

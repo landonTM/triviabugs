@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20261001a">
-<script src="assets/bertha.js?v=20261001a"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20261001b">
+<script src="assets/bertha.js?v=20261001b"></script>
 </head>
 <body>
 <div class="wrap">
@@ -60,7 +60,7 @@
       el("thead", {}, el("tr", {}, el("th", {}, "RANK"), el("th", { class: "num" }, "XP"), el("th", {}, "NAME"), el("th", { class: "num" }, "LV"))),
       el("tbody", {}, board.map(({ p }, i) => el("tr", { class: "row", style: { color: B.rankColor(i) }, onclick: () => (location.href = B.playerHref(p.user_id)) },
         el("td", { class: "rank" }, B.ordinal(i + 1)),
-        el("td", { class: "big num" }, String(p.total_xp)),
+        el("td", { class: "big num" }, B.fmt(p.total_xp)),
         el("td", {}, el("div", { class: "who" }, B.avatar(p.user_id), B.playerLink(p.user_id))),
         el("td", { class: "big num" }, String(p.level.level))))))));
     app.append(el("p", { class: "center" }, el("a", { href: "leaderboard.html", style: { font: "11px var(--pixel)" } }, "EVERY LEADERBOARD ▸")));
