@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-30T21:10:42.990422+00:00",
+  "generated_at": "2026-10-01T18:28:49.499057+00:00",
   "reports": [
+    {
+      "id": 87,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1555285290552266763",
+      "reported_by": "433990857063137282",
+      "reported_by_name": "landon",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-10-01T18:28:49.494053+00:00",
+      "fixed_at": null,
+      "category": "Star Wars",
+      "question_type": "standard",
+      "question_text": "Why must the payload during the assault on the first Death Star be Proton Torpedoes?",
+      "correct_answers": [
+        "mzD6ufCVj+sN2DKmwKT+AgvNpStVvKcodAbxtJTSZNg="
+      ]
+    },
     {
       "id": 86,
       "guild_id": "861055530638114836",
@@ -87,9 +105,9 @@
         "nD3+7eGBgg==",
         "iz3r6/qEkw==",
         "gCrz+PuJiA==",
-        "nzDw/PuEnw==",
+        "iDT69/GMi+8=",
         "jizz+PuZhg==",
-        "gjH+9Pw=",
+        "gjH+9PzNoOsKzyPoww==",
         "ijns7bW/kv4QzjTg37no",
         "gT3oudqfi+8ZxTU=",
         "nDnx7fTNpOYZ2Sc=",
