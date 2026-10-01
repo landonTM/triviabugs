@@ -1,0 +1,71 @@
+{
+  "game": {
+    "id": 152,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 30,
+    "rounds_played": 2,
+    "categories": [
+      "Logos",
+      "World Flags"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-10-01 12:01:19.038288+00:00",
+    "ended_at": "2026-10-01 12:02:39.678264+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 6901,
+      "mode": "standard",
+      "started_at": "2026-10-01 12:01:19.598943+00:00",
+      "ended_at": "2026-10-01 12:01:24.055930+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoNbaMilwaukeeBucks.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3839,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 12:01:24.051352+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6902,
+      "mode": "standard",
+      "started_at": "2026-10-01 12:01:34.375644+00:00",
+      "ended_at": "2026-10-01 12:02:34.808256+00:00",
+      "winner_id": null,
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/iO3sAPy.png",
+      "answer_count": 1,
+      "answers": []
+    }
+  ],
+  "xp": {
+    "795847206719717386": 684
+  },
+  "xp_layers": {
+    "795847206719717386": {
+      "base": 342,
+      "boost": 342
+    }
+  },
+  "pass_xp": {
+    "795847206719717386": {
+      "season_key": "season_0",
+      "total": 342,
+      "uncapped": 342,
+      "game": 342,
+      "emoji": "🎃"
+    }
+  }
+}
