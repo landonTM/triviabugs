@@ -2,44 +2,44 @@
   "user_id": "184456115927384065",
   "level": {
     "level": 42,
-    "xp_into_level": 15688,
+    "xp_into_level": 19316,
     "xp_for_level": 61000,
-    "progress": 0.2571803278688525,
+    "progress": 0.316655737704918,
     "maxed": false
   },
-  "total_xp": 926188,
+  "total_xp": 929816,
   "period_stats": {
-    "daily_points": 101,
-    "daily_correct": 20,
-    "weekly_points": 1353,
-    "weekly_correct": 547,
-    "monthly_points": 2751,
-    "monthly_correct": 1357,
-    "yearly_points": 2751,
-    "yearly_correct": 1357,
-    "alltime_points": 2751,
-    "alltime_correct": 1357
+    "daily_points": 250,
+    "daily_correct": 72,
+    "weekly_points": 1502,
+    "weekly_correct": 599,
+    "monthly_points": 2900,
+    "monthly_correct": 1409,
+    "yearly_points": 2900,
+    "yearly_correct": 1409,
+    "alltime_points": 2900,
+    "alltime_correct": 1409
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 2035,
-    "questions_right": 641,
+    "total_points": 2184,
+    "questions_right": 693,
     "questions_wrong": 0,
-    "wins": 641,
-    "current_streak": 6,
-    "best_streak": 21,
-    "games_played": 104,
+    "wins": 693,
+    "current_streak": 13,
+    "best_streak": 24,
+    "games_played": 115,
     "insane_guesses": 545,
     "day_streak": 16,
     "last_played_date": "2026-09-30",
-    "total_xp": 926188,
-    "game_wins": 55,
-    "achievement_best_streak": 21
+    "total_xp": 929816,
+    "game_wins": 66,
+    "achievement_best_streak": 24
   },
-  "best_streak": 21,
+  "best_streak": 24,
   "fastest_guess": {
-    "response_time_ms": 2393,
+    "response_time_ms": 2293,
     "question_text": "What country is represented by this flag?",
     "category": "World Flags"
   },
@@ -54,14 +54,14 @@
     "guesses": 16
   },
   "total_insane_correct": 716,
-  "average_guess_ms": 20176.90171606864,
+  "average_guess_ms": 20102.50505050505,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 27
   },
   "spelling_accuracy": {
-    "exact_count": 1165,
-    "total": 1265
+    "exact_count": 1216,
+    "total": 1317
   },
   "achievements": {
     "catalog": [
@@ -2223,7 +2223,7 @@
     "category_counts": {
       "disney": 22,
       "entertainment": 1,
-      "geo": 117,
+      "geo": 169,
       "gk": 137,
       "got": 1,
       "marvel": 12,
@@ -2380,8 +2380,8 @@
       "key": "summoned",
       "label": "Summoned Footer",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "footer",
@@ -2644,16 +2644,16 @@
       "key": "spoopy",
       "label": "Spoopy Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
       "key": "fnaf",
       "label": "FNAF Emoji Pack",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "emoji",
@@ -2756,8 +2756,8 @@
       "key": "dracula",
       "label": "Dracula Response Theme",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "theme",
@@ -3540,24 +3540,24 @@
       "key": "cancelled",
       "label": "Cancelled MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
       "key": "phil",
       "label": "Phil MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
       "key": "comeback",
       "label": "Come Back MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3649,24 +3649,33 @@
     "level": {
       "achievement": 704250,
       "mission": 15000,
-      "game": 179188,
+      "game": 182816,
       "duel": 27750
     },
     "game_layers": {
       "replay": 65,
       "daily": 1635,
       "hardcore": 2982,
-      "base": 8839
+      "base": 12467
     },
     "pass": {
       "season_0": {
         "mission": 750,
         "duel": 1250,
-        "game": 6877
+        "game": 10505
       }
     }
   },
   "fastest_answers": [
+    {
+      "ms": 2293,
+      "answered_at": "2026-10-01 03:19:09.366760+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/uZ5WnBU.png",
+      "game_id": 124,
+      "mode": "quickfire"
+    },
     {
       "ms": 2393,
       "answered_at": "2026-10-01 02:59:10.187664+00:00",
@@ -3713,6 +3722,15 @@
       "mode": "quickfire"
     },
     {
+      "ms": 2612,
+      "answered_at": "2026-10-01 03:19:22.645850+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/kB3rCke.png",
+      "game_id": 124,
+      "mode": "quickfire"
+    },
+    {
       "ms": 2641,
       "answered_at": "2026-10-01 03:02:54.905765+00:00",
       "category": "World Flags",
@@ -3731,31 +3749,13 @@
       "mode": "quickfire"
     },
     {
-      "ms": 2766,
-      "answered_at": "2026-09-30 22:30:30.214315+00:00",
+      "ms": 2764,
+      "answered_at": "2026-10-01 03:27:21.580217+00:00",
       "category": "World Flags",
       "question_text": "What country is represented by this flag?",
-      "image_url": "https://i.imgur.com/o8tYKMr.png",
-      "game_id": 104,
-      "mode": "hardcore"
-    },
-    {
-      "ms": 2807,
-      "answered_at": "2026-09-15 22:58:16.675247+00:00",
-      "category": "World Flags",
-      "question_text": "What country is represented by this flag?",
-      "image_url": "https://i.imgur.com/RgnmHkX.png",
-      "game_id": null,
-      "mode": null
-    },
-    {
-      "ms": 2826,
-      "answered_at": "2026-10-01 02:50:27.568080+00:00",
-      "category": "World Flags",
-      "question_text": "What country is represented by this flag?",
-      "image_url": "https://i.imgur.com/UzHuET8.png",
-      "game_id": 115,
-      "mode": "hardcore"
+      "image_url": "https://i.imgur.com/QclX66O.png",
+      "game_id": 127,
+      "mode": "quickfire"
     }
   ]
 }
