@@ -2,51 +2,51 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 43,
-    "xp_into_level": 27509,
+    "xp_into_level": 29118,
     "xp_for_level": 64000,
-    "progress": 0.429828125,
+    "progress": 0.45496875,
     "maxed": false
   },
-  "total_xp": 999009,
+  "total_xp": 1000618,
   "period_stats": {
-    "daily_points": 32,
-    "daily_correct": 11,
-    "weekly_points": 1189,
-    "weekly_correct": 505,
-    "monthly_points": 4310,
-    "monthly_correct": 1990,
-    "yearly_points": 4484,
-    "yearly_correct": 2083,
-    "alltime_points": 4484,
-    "alltime_correct": 2083
+    "daily_points": 123,
+    "daily_correct": 38,
+    "weekly_points": 1280,
+    "weekly_correct": 532,
+    "monthly_points": 4401,
+    "monthly_correct": 2017,
+    "yearly_points": 4575,
+    "yearly_correct": 2110,
+    "alltime_points": 4575,
+    "alltime_correct": 2110
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3286,
-    "questions_right": 882,
+    "total_points": 3377,
+    "questions_right": 909,
     "questions_wrong": 0,
-    "wins": 882,
-    "current_streak": 1,
+    "wins": 909,
+    "current_streak": 27,
     "best_streak": 27,
-    "games_played": 121,
+    "games_played": 124,
     "insane_guesses": 897,
-    "day_streak": 8,
-    "last_played_date": "2026-09-30",
-    "total_xp": 999009,
-    "game_wins": 36,
+    "day_streak": 9,
+    "last_played_date": "2026-10-01",
+    "total_xp": 1000618,
+    "game_wins": 39,
     "achievement_best_streak": 27
   },
   "best_streak": 27,
   "fastest_guess": {
-    "response_time_ms": 2190,
+    "response_time_ms": 1901,
     "question_text": "What logo is this?",
     "category": "Logos"
   },
   "best_category": {
     "category": "Logos",
-    "points": 898,
-    "correct": 164
+    "points": 989,
+    "correct": 191
   },
   "best_insane_round": {
     "question_text": "Minecraft Block Types",
@@ -54,14 +54,14 @@
     "guesses": 18
   },
   "total_insane_correct": 1202,
-  "average_guess_ms": 16397.919409761635,
+  "average_guess_ms": 16246.204845814978,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 1642,
-    "total": 1869
+    "exact_count": 1666,
+    "total": 1896
   },
   "achievements": {
     "catalog": [
@@ -3670,10 +3670,10 @@
       "duel": 39150,
       "mission": 30000,
       "achievement": 718500,
-      "game": 211359
+      "game": 212968
     },
     "game_layers": {
-      "base": 15761,
+      "base": 17370,
       "daily": 3491,
       "replay": 161,
       "hardcore": 2627
@@ -3681,7 +3681,7 @@
     "pass": {
       "season_0": {
         "pumpkin": 577,
-        "game": 12929,
+        "game": 14477,
         "duel": 2350,
         "mission": 1500
       }
@@ -3697,12 +3697,75 @@
   },
   "fastest_answers": [
     {
+      "ms": 1901,
+      "answered_at": "2026-10-01 13:17:09.020267+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/UQpfmrn.png",
+      "game_id": 153,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 1917,
+      "answered_at": "2026-10-01 13:22:44.249034+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/t8VZeqI.png",
+      "game_id": 155,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 1932,
+      "answered_at": "2026-10-01 13:22:31.295734+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/PeXL8b9.png",
+      "game_id": 155,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2014,
+      "answered_at": "2026-10-01 13:19:28.634731+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/ZDogDwv.png",
+      "game_id": 154,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2080,
+      "answered_at": "2026-10-01 13:15:28.736168+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/y9BtOaq.png",
+      "game_id": 153,
+      "mode": "quickfire"
+    },
+    {
       "ms": 2190,
       "answered_at": "2026-10-01 01:34:49.237165+00:00",
       "category": "Logos",
       "question_text": "What logo is this?",
       "image_url": "https://i.imgur.com/tkhiKuQ.png",
       "game_id": 112,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2202,
+      "answered_at": "2026-10-01 13:25:17.263074+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/hCmBTKI.png",
+      "game_id": 155,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2205,
+      "answered_at": "2026-10-01 13:19:41.509530+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/dvLF7Yq.png",
+      "game_id": 154,
       "mode": "quickfire"
     },
     {
@@ -3722,69 +3785,6 @@
       "image_url": "https://i.imgur.com/UQpfmrn.png",
       "game_id": 104,
       "mode": "hardcore"
-    },
-    {
-      "ms": 2355,
-      "answered_at": "2026-09-20 03:12:23.125447+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/gKA8Jjn.png",
-      "game_id": null,
-      "mode": null
-    },
-    {
-      "ms": 2374,
-      "answered_at": "2026-09-29 19:32:12.482250+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/JGOXLNo.png",
-      "game_id": 72,
-      "mode": "hardcore"
-    },
-    {
-      "ms": 2423,
-      "answered_at": "2026-09-26 04:50:55.576389+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/UdkF1wf.png",
-      "game_id": 28,
-      "mode": "hardcore"
-    },
-    {
-      "ms": 2465,
-      "answered_at": "2026-09-26 04:22:26.066286+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/aEEqZy7.png",
-      "game_id": 28,
-      "mode": "hardcore"
-    },
-    {
-      "ms": 2470,
-      "answered_at": "2026-09-19 04:34:47.397486+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/tkhiKuQ.png",
-      "game_id": null,
-      "mode": null
-    },
-    {
-      "ms": 2477,
-      "answered_at": "2026-09-17 03:02:35.381756+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/GqsFG5y.png",
-      "game_id": null,
-      "mode": null
-    },
-    {
-      "ms": 2481,
-      "answered_at": "2026-09-29 23:49:51.608837+00:00",
-      "category": "Logos",
-      "question_text": "What logo is this?",
-      "image_url": "https://i.imgur.com/UdkF1wf.png",
-      "game_id": 88,
-      "mode": "quickfire"
     }
   ]
 }
