@@ -112,11 +112,11 @@
           "missions": 4
         },
         "monthly": {
-          "points": 9373,
-          "correct": 4965,
-          "standard_correct": 1988,
+          "points": 9356,
+          "correct": 4958,
+          "standard_correct": 1981,
           "insane_finds": 2977,
-          "avg_guess_ms": 16815.5523138833,
+          "avg_guess_ms": 16776.60070671378,
           "fastest_ms": 919,
           "under_5s": 577,
           "exact_spelling": 3926,
@@ -571,8 +571,8 @@
             31
           ],
           "Entertainment": [
-            98,
-            213
+            95,
+            206
           ],
           "Greek Mythology": [
             20,
@@ -615,8 +615,8 @@
             2
           ],
           "Computers": [
-            13,
-            21
+            12,
+            19
           ],
           "Whos That Pokemon (Gen 7)": [
             1,
@@ -627,8 +627,8 @@
             102
           ],
           "Art and Literature": [
-            9,
-            20
+            6,
+            12
           ],
           "Acronyms and Abbreviations": [
             32,
