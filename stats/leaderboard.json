@@ -112,11 +112,11 @@
           "missions": 4
         },
         "monthly": {
-          "points": 9356,
-          "correct": 4958,
-          "standard_correct": 1981,
+          "points": 9347,
+          "correct": 4955,
+          "standard_correct": 1978,
           "insane_finds": 2977,
-          "avg_guess_ms": 16776.60070671378,
+          "avg_guess_ms": 16770.319514661274,
           "fastest_ms": 919,
           "under_5s": 577,
           "exact_spelling": 3926,
@@ -571,8 +571,8 @@
             31
           ],
           "Entertainment": [
-            95,
-            206
+            94,
+            205
           ],
           "Greek Mythology": [
             20,
@@ -599,8 +599,8 @@
             5
           ],
           "Elements": [
-            4,
-            16
+            2,
+            8
           ],
           "Chemistry": [
             47,
