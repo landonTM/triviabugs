@@ -9,28 +9,28 @@
   },
   "total_xp": 1281565,
   "period_stats": {
-    "daily_points": 1625,
-    "daily_correct": 715,
-    "weekly_points": 3726,
-    "weekly_correct": 1716,
-    "monthly_points": 9347,
-    "monthly_correct": 4955,
-    "yearly_points": 9479,
-    "yearly_correct": 5024,
-    "alltime_points": 9479,
-    "alltime_correct": 5024
+    "daily_points": 1667,
+    "daily_correct": 733,
+    "weekly_points": 3764,
+    "weekly_correct": 1731,
+    "monthly_points": 9389,
+    "monthly_correct": 4973,
+    "yearly_points": 9521,
+    "yearly_correct": 5042,
+    "alltime_points": 9521,
+    "alltime_correct": 5042
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 6479,
-    "questions_right": 2024,
+    "total_points": 6516,
+    "questions_right": 2037,
     "questions_wrong": 0,
-    "wins": 2024,
-    "current_streak": 2,
+    "wins": 2037,
+    "current_streak": 3,
     "best_streak": 56,
     "games_played": 110,
-    "insane_guesses": 2046,
+    "insane_guesses": 2051,
     "day_streak": 6,
     "last_played_date": "2026-10-01",
     "total_xp": 1281565,
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 31
   },
-  "total_insane_correct": 3000,
-  "average_guess_ms": 17015.177371541504,
+  "total_insane_correct": 3005,
+  "average_guess_ms": 17050.6293568974,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 3926,
-    "total": 4425
+    "exact_count": 3941,
+    "total": 4443
   },
   "achievements": {
     "catalog": [
@@ -2230,14 +2230,14 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 88,
+      "disney": 90,
       "entertainment": 10,
-      "geo": 484,
-      "gk": 358,
+      "geo": 485,
+      "gk": 359,
       "got": 91,
-      "marvel": 97,
-      "movies": 38,
-      "music": 23,
+      "marvel": 98,
+      "movies": 43,
+      "music": 24,
       "pokemon": 31,
       "sports": 37,
       "videogames": 68,
