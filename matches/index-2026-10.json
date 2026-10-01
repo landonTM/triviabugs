@@ -695,6 +695,40 @@
       "started_at": "2026-10-01 10:48:20.646675+00:00",
       "ended_at": "2026-10-01 11:00:05.453719+00:00",
       "end_reason": "stopped"
+    },
+    {
+      "id": 147,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 30,
+      "rounds_played": 29,
+      "categories": [
+        "Logos",
+        "World Flags"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-10-01 11:00:08.832898+00:00",
+      "ended_at": "2026-10-01 11:11:32.602218+00:00",
+      "end_reason": "stopped"
+    },
+    {
+      "id": 148,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "861424168875982848",
+      "total_rounds": 30,
+      "rounds_played": 20,
+      "categories": [
+        "Logos",
+        "World Flags"
+      ],
+      "started_by": "795847206719717386",
+      "winner_id": "795847206719717386",
+      "started_at": "2026-10-01 11:11:35.698500+00:00",
+      "ended_at": "2026-10-01 11:23:36.406967+00:00",
+      "end_reason": "inactivity_timeout"
     }
   ]
 }
