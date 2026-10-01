@@ -3664,5 +3664,97 @@
         "game": 5239
       }
     }
-  }
+  },
+  "fastest_answers": [
+    {
+      "ms": 2416,
+      "answered_at": "2026-09-26 03:24:00.334264+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/UEZ2xiH.png",
+      "game_id": 22,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2452,
+      "answered_at": "2026-09-30 22:18:10.033554+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/h9YUraD.png",
+      "game_id": 104,
+      "mode": "hardcore"
+    },
+    {
+      "ms": 2516,
+      "answered_at": "2026-09-30 22:01:46.473192+00:00",
+      "category": "Sports",
+      "question_text": "_________ Red Sox (MLB)",
+      "image_url": null,
+      "game_id": 103,
+      "mode": "hardcore"
+    },
+    {
+      "ms": 2651,
+      "answered_at": "2026-09-26 03:23:47.622418+00:00",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/T2ezauw.png",
+      "game_id": 22,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2766,
+      "answered_at": "2026-09-30 22:30:30.214315+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/o8tYKMr.png",
+      "game_id": 104,
+      "mode": "hardcore"
+    },
+    {
+      "ms": 2807,
+      "answered_at": "2026-09-15 22:58:16.675247+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/RgnmHkX.png",
+      "game_id": null,
+      "mode": null
+    },
+    {
+      "ms": 2867,
+      "answered_at": "2026-09-30 22:21:33.896325+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/LbQj8rK.png",
+      "game_id": 104,
+      "mode": "hardcore"
+    },
+    {
+      "ms": 2943,
+      "answered_at": "2026-09-26 04:14:31.465347+00:00",
+      "category": "Sports",
+      "question_text": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+      "image_url": null,
+      "game_id": 27,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 3142,
+      "answered_at": "2026-09-29 21:50:53.138074+00:00",
+      "category": "Sports",
+      "question_text": "How many soccer players should be on the field at the same time?",
+      "image_url": null,
+      "game_id": 73,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 3186,
+      "answered_at": "2026-09-26 03:02:47.549130+00:00",
+      "category": "Sports",
+      "question_text": "How many points is a three-point shot worth in basketball?",
+      "image_url": null,
+      "game_id": 18,
+      "mode": "quickfire"
+    }
+  ]
 }
