@@ -3680,5 +3680,97 @@
         "best": 216
       }
     }
-  }
+  },
+  "fastest_answers": [
+    {
+      "ms": 2161,
+      "answered_at": "2026-09-30 20:56:39.370249+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/4ExD2Ub.png",
+      "game_id": 101,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2223,
+      "answered_at": "2026-09-30 20:54:59.060661+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/GUUtDv6.png",
+      "game_id": 101,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2232,
+      "answered_at": "2026-09-30 21:01:08.498027+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/BTYy0J0.png",
+      "game_id": 101,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2242,
+      "answered_at": "2026-09-30 21:01:37.972456+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/V0y3m1h.png",
+      "game_id": 101,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2269,
+      "answered_at": "2026-09-30 20:54:14.122060+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/kj2Rl6U.png",
+      "game_id": 101,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2280,
+      "answered_at": "2026-09-30 21:03:32.155178+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/hY4fbYf.png",
+      "game_id": 101,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2282,
+      "answered_at": "2026-09-30 21:05:03.968413+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/SUTmKC3.png",
+      "game_id": 101,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2302,
+      "answered_at": "2026-09-30 21:05:17.787841+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/5E9Hkzb.png",
+      "game_id": 101,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2303,
+      "answered_at": "2026-09-30 20:54:27.043177+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/8F5aqVG.png",
+      "game_id": 101,
+      "mode": "quickfire"
+    },
+    {
+      "ms": 2337,
+      "answered_at": "2026-09-30 20:59:51.356430+00:00",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/524Qfs3.png",
+      "game_id": 101,
+      "mode": "quickfire"
+    }
+  ]
 }
