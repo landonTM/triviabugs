@@ -2,19 +2,19 @@
   "user_id": "734768348201615400",
   "level": {
     "level": 45,
-    "xp_into_level": 35841,
+    "xp_into_level": 37983,
     "xp_for_level": 70000,
-    "progress": 0.5120142857142858,
+    "progress": 0.5426142857142857,
     "maxed": false
   },
-  "total_xp": 1138341,
+  "total_xp": 1140483,
   "period_stats": {
     "daily_points": 19,
     "daily_correct": 14,
     "weekly_points": 1855,
     "weekly_correct": 919,
-    "monthly_points": 6695,
-    "monthly_correct": 3637,
+    "monthly_points": 6644,
+    "monthly_correct": 3615,
     "yearly_points": 6906,
     "yearly_correct": 3785,
     "alltime_points": 6906,
@@ -29,11 +29,11 @@
     "wins": 1297,
     "current_streak": 1,
     "best_streak": 45,
-    "games_played": 75,
+    "games_played": 76,
     "insane_guesses": 1559,
-    "day_streak": 16,
-    "last_played_date": "2026-09-30",
-    "total_xp": 1138341,
+    "day_streak": 17,
+    "last_played_date": "2026-10-01",
+    "total_xp": 1140483,
     "game_wins": 38,
     "achievement_best_streak": 45
   },
@@ -3652,7 +3652,7 @@
   ],
   "xp_sources": {
     "level": {
-      "game": 249791,
+      "game": 251933,
       "achievement": 860750,
       "duel": 7800,
       "mission": 20000
@@ -3661,13 +3661,13 @@
       "replay": 78,
       "boost": 4063,
       "hardcore": 2896,
-      "daily": 6164,
-      "base": 28045
+      "daily": 7235,
+      "base": 29116
     },
     "pass": {
       "season_0": {
         "pumpkin": 304,
-        "game": 10328,
+        "game": 10878,
         "duel": 550,
         "mission": 1000
       }
