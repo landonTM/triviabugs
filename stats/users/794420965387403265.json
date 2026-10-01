@@ -1,39 +1,39 @@
 {
   "user_id": "794420965387403265",
   "level": {
-    "level": 31,
-    "xp_into_level": 12035,
-    "xp_for_level": 37000,
-    "progress": 0.3252702702702703,
+    "level": 32,
+    "xp_into_level": 35261,
+    "xp_for_level": 39000,
+    "progress": 0.9041282051282051,
     "maxed": false
   },
-  "total_xp": 404535,
+  "total_xp": 464761,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 328,
-    "weekly_correct": 146,
-    "monthly_points": 1137,
-    "monthly_correct": 537,
-    "yearly_points": 1137,
-    "yearly_correct": 537,
-    "alltime_points": 1137,
-    "alltime_correct": 537
+    "daily_points": 5,
+    "daily_correct": 2,
+    "weekly_points": 333,
+    "weekly_correct": 148,
+    "monthly_points": 1142,
+    "monthly_correct": 539,
+    "yearly_points": 1142,
+    "yearly_correct": 539,
+    "alltime_points": 1142,
+    "alltime_correct": 539
   },
   "stats_row": {
     "user_id": "794420965387403265",
     "guild_id": "861055530638114836",
-    "total_points": 865,
-    "questions_right": 265,
+    "total_points": 869,
+    "questions_right": 266,
     "questions_wrong": 0,
-    "wins": 265,
+    "wins": 266,
     "current_streak": 1,
     "best_streak": 18,
-    "games_played": 31,
-    "insane_guesses": 203,
-    "day_streak": 3,
-    "last_played_date": "2026-09-30",
-    "total_xp": 404535,
+    "games_played": 32,
+    "insane_guesses": 204,
+    "day_streak": 4,
+    "last_played_date": "2026-10-01",
+    "total_xp": 464761,
     "game_wins": 10,
     "achievement_best_streak": 18
   },
@@ -53,15 +53,15 @@
     "category": "General Knowledge",
     "guesses": 14
   },
-  "total_insane_correct": 272,
-  "average_guess_ms": 17336.603773584906,
+  "total_insane_correct": 273,
+  "average_guess_ms": 17292.218045112782,
   "activity": {
     "first_answered_at": "2026-09-08 22:30:21.511683+00:00",
-    "active_days": 14
+    "active_days": 15
   },
   "spelling_accuracy": {
-    "exact_count": 436,
-    "total": 537
+    "exact_count": 438,
+    "total": 539
   },
   "achievements": {
     "catalog": [
@@ -2189,7 +2189,8 @@
       "streak_10": "2026-09-30 01:58:14.771475+00:00",
       "streak_15": "2026-09-30 02:00:43.760738+00:00",
       "marvel_50": "2026-09-30 02:01:17.322890+00:00",
-      "gk_50": "2026-09-30 18:18:55.429529+00:00"
+      "gk_50": "2026-09-30 18:18:55.429529+00:00",
+      "points_750": "2026-10-01 14:21:57.478344+00:00"
     },
     "baselines": {
       "points": 118,
@@ -2208,7 +2209,7 @@
       "pokemon": 23,
       "sports": 1,
       "videogames": 12,
-      "wrestling": 16,
+      "wrestling": 17,
       "duelwins": 3,
       "duelstreak": 2
     }
@@ -2268,8 +2269,8 @@
       "key": "courtesy",
       "label": "Courtesy Footer",
       "unlock_level": 32,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "footer",
@@ -2444,8 +2445,8 @@
       "key": "sweettooth",
       "label": "Sweet Tooth Emoji Pack",
       "unlock_level": 32,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "emoji",
@@ -3624,17 +3625,17 @@
   "xp_sources": {
     "level": {
       "duel": 3750,
-      "game": 39035,
-      "achievement": 361750
+      "game": 39261,
+      "achievement": 421750
     },
     "game_layers": {
-      "base": 6944,
+      "base": 7170,
       "replay": 147,
       "daily": 1028
     },
     "pass": {
       "season_0": {
-        "game": 3300
+        "game": 3526
       }
     }
   },
