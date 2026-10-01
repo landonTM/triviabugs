@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Play · Bertha</title>
+<!-- site-meta -->
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#7cff6b">
+<meta name="description" content="How Bertha works: game modes, scoring, hints, duels, XP, missions, seasons and every command.">
+<meta property="og:site_name" content="Bertha">
+<meta property="og:type" content="website">
+<meta property="og:title" content="How to Play · Bertha">
+<meta property="og:description" content="How Bertha works: game modes, scoring, hints, duels, XP, missions, seasons and every command.">
+<meta property="og:url" content="https://berthabot.me/howtoplay.html">
+<meta property="og:image" content="https://berthabot.me/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-meta -->
+<link rel="stylesheet" href="assets/arcade.css?v=20261001e">
+<script src="assets/bertha.js?v=20261001e"></script>
+<style>
+  /* Every rule on this page comes from the bot's own code -- keep it in step when a rule changes there:
+     config.py (timers, rounds), utils/scoring.py, utils/hints.py, utils/leveling.py (XP), cogs/duel.py +
+     utils/duel_formats.py, utils/challenges.py (missions), utils/seasons.py. Commands come from commands.json,
+     which the bot builds from cogs/help.py. */
+  .jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 8px; }
+  .jump a { font: 9px/1 var(--pixel); color: var(--muted); border: 2px solid var(--line-dim); padding: 9px 10px; background: var(--panel); }
+  .jump a:hover { color: var(--text); border-color: var(--line); text-decoration: none; }
+  h2.section { scroll-margin-top: 16px; }
+  .lead { font-size: 24px; line-height: 1.3; margin: 0 0 16px; }
+  .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); counter-reset: s; }
+  .steps li { counter-increment: s; border: 3px solid var(--line-dim); background: var(--panel); padding: 14px 16px 14px 62px; position: relative;
+    box-shadow: 4px 4px 0 rgba(59, 26, 143, .55); font-size: 22px; line-height: 1.25; }
+  .steps li::before { content: counter(s); position: absolute; left: 14px; top: 12px; width: 34px; height: 34px; display: grid; place-items: center;
+    font: 14px/1 var(--pixel); color: var(--bg); background: var(--neon); }
+  .steps b { color: var(--neon); font-weight: 400; }
+  .modes { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+  .mode { border: 4px solid var(--c); background: var(--panel); padding: 16px 18px; display: flex; flex-direction: column; gap: 10px;
+    box-shadow: 5px 5px 0 color-mix(in srgb, var(--c) 28%, transparent); }
+  .mode h3 { margin: 0; font: 14px/1.4 var(--pixel); color: var(--c); font-weight: 400; display: flex; align-items: center; gap: 10px; }
+  .mode h3 .px-icon { width: 16px; height: 16px; }
+  .mode p { margin: 0; font-size: 22px; line-height: 1.25; }
+  .facts { display: flex; flex-wrap: wrap; gap: 6px; }
+  .facts span { font: 8px/1 var(--pixel); padding: 6px 7px; border: 2px solid var(--line-dim); color: var(--text); background: var(--panel-2); }
+  ul.rules { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  ul.rules li { position: relative; padding-left: 26px; font-size: 22px; line-height: 1.25; }
+  ul.rules li::before { content: ""; position: absolute; left: 4px; top: .45em; width: 10px; height: 10px; background: var(--c, var(--cyan)); }
+  ul.rules b { color: var(--c, var(--cyan)); font-weight: 400; }
+  .panel { box-shadow: 6px 6px 0 var(--shadow); }
+  .panel + .panel { margin-top: 16px; }
+  .panel h3 { margin: 0 0 12px; font: 11px/1.6 var(--pixel); color: var(--c, var(--yellow)); font-weight: 400; }
+  .hintgrid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  .hint { border: 3px solid var(--line-dim); background: var(--panel-2); padding: 10px 12px; display: flex; flex-direction: column; gap: 6px; }
+  .hint .n { font: 9px/1.6 var(--pixel); color: var(--yellow); }
+  .hint code { font-size: 22px; align-self: flex-start; }
+  .hint .d { font-size: 19px; line-height: 1.2; color: var(--muted); }
+  .tile .value.sm { font-size: 26px; white-space: normal; }
+  .cmds { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+  .cmdcat { border: 3px solid var(--line-dim); background: var(--panel); padding: 14px 16px; box-shadow: 4px 4px 0 rgba(59, 26, 143, .55); }
+  .cmdcat h3 { margin: 0 0 4px; font: 11px/1.6 var(--pixel); color: var(--cyan); font-weight: 400; }
+  .cmdcat .blurb { color: var(--muted); font-size: 20px; margin-bottom: 10px; }
+  .cmdcat dl { margin: 0; display: flex; flex-direction: column; gap: 10px; }
+  .cmdcat dt { font-size: 22px; } .cmdcat dt code { font-size: 22px; }
+  .cmdcat dd { margin: 2px 0 0; color: var(--muted); font-size: 20px; line-height: 1.2; }
+  @media (max-width: 620px) {
+    .steps li, .mode p, ul.rules li { font-size: 21px; }
+    .cmds { grid-template-columns: 1fr; }
+    .hintgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .hint { padding: 8px 10px; }
+    .hint code { font-size: 19px; overflow-wrap: anywhere; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 class="page-title">HOW TO PLAY</h1>
+  <p class="page-sub">Everything Bertha does, in one place. Type <code>/help</code> in Discord for the same command list.</p>
+  <nav class="jump" aria-label="Jump to section">
+    <a href="#basics">BASICS</a><a href="#scoring">SCORING</a><a href="#modes">MODES</a><a href="#hints">HINTS</a>
+    <a href="#duels">DUELS</a><a href="#xp">XP &amp; LEVELS</a><a href="#missions">MISSIONS</a><a href="#seasons">SEASONS</a>
+    <a href="#extras">EXTRAS</a><a href="#commands">COMMANDS</a>
+  </nav>
+
+  <main>
+    <h2 class="section" id="basics">THE BASICS</h2>
+    <ol class="steps">
+      <li>Start a game with <b>/trivia start</b> (or join one already running). Bertha posts a question.</li>
+      <li>Type your answer straight into the chat. No command needed, and you can guess as often as you like.</li>
+      <li>The <b>first correct answer</b> wins the round. You have <b>60 seconds</b>, with a hint at 20s and another at 40s.</li>
+      <li>Spelling is forgiving: <b>one typo</b> is fine on answers of 4+ letters, and accents and capitals don't matter.</li>
+      <li>Every <b>10th round is an insane round</b>: name as many answers to one question as you can.</li>
+      <li>Most points at the end wins. Everyone who played earns <b>XP</b> toward their level.</li>
+    </ol>
+    <p class="page-sub" style="margin-top:14px">A game ends early if nobody types anything in the channel for 3 minutes 30 seconds.</p>
+
+    <h2 class="section" id="scoring">SCORING</h2>
+    <div class="tiles">
+      <div class="tile" style="--c: var(--neon)"><span class="label">BEFORE ANY HINT</span><span class="value">4 PTS</span><span class="sub">Answered in the first 20 seconds</span></div>
+      <div class="tile" style="--c: var(--yellow)"><span class="label">AFTER HINT 1</span><span class="value">2 PTS</span><span class="sub">20 to 40 seconds</span></div>
+      <div class="tile" style="--c: var(--pink)"><span class="label">AFTER HINT 2</span><span class="value">1 PT</span><span class="sub">The last 20 seconds</span></div>
+      <div class="tile" style="--c: var(--purple)"><span class="label">INSANE ROUND</span><span class="value">1 PT EACH</span><span class="sub">Every answer you find</span></div>
+      <div class="tile" style="--c: #ff8a3d"><span class="label">HARDCORE</span><span class="value">6 PTS</span><span class="sub">Flat, every round, no hints</span></div>
+      <div class="tile" style="--c: var(--cyan)"><span class="label">SPOTLIGHT CATEGORY</span><span class="value">1.5×</span><span class="sub">During a season, 3 categories pay 1.5× (rounded up)</span></div>
+    </div>
+    <div class="panel" style="--c: var(--cyan); margin-top: 18px">
+      <h3>STREAKS</h3>
+      <ul class="rules" style="--c: var(--cyan)">
+        <li>Win rounds back to back to build a <b>streak</b>. It carries over into your next game in the same channel.</li>
+        <li>It ends when someone else wins a round, or a round goes by with nobody getting it.</li>
+        <li>A longer streak means more XP at the end of the game (see <a href="#xp">XP</a>).</li>
+      </ul>
+    </div>
+
+    <h2 class="section" id="modes">GAME MODES</h2>
+    <div class="modes">
+      <section class="mode" style="--c: var(--cyan)">
+        <h3 data-icon="joystick">TRIVIA</h3>
+        <p>The classic game. Questions from every enabled category, or pick your own.</p>
+        <div class="facts"><span>/TRIVIA START</span><span>30 ROUNDS (1–100)</span><span>30S BETWEEN ROUNDS</span></div>
+      </section>
+      <section class="mode" style="--c: var(--neon)">
+        <h3 data-icon="bolt">QUICKFIRE</h3>
+        <p>The same game with only a short pause between questions, so it moves fast.</p>
+        <div class="facts"><span>/QUICKFIRE</span><span>10S BETWEEN ROUNDS</span></div>
+      </section>
+      <section class="mode" style="--c: var(--pink)">
+        <h3 data-icon="fire">HARDCORE</h3>
+        <p>20 seconds per question and no hints. Every correct answer is worth 6 points, XP is 1.5×, and everyone's cosmetics are switched off for maximum competitiveness.</p>
+        <div class="facts"><span>/HARDCORE</span><span>5–50 ROUNDS</span><span>1.5× XP</span></div>
+      </section>
+      <section class="mode" style="--c: var(--yellow)">
+        <h3 data-icon="star">DAILY TRIVIA</h3>
+        <p>Bertha starts it herself every day at 2 PM Eastern: 50 questions for double XP. There's no inactivity timeout, so join whenever. React 🧠 on the warning message to get (or drop) the TRIVIA role ping.</p>
+        <div class="facts"><span>2 PM ET DAILY</span><span>50 ROUNDS</span><span>2× XP</span></div>
+      </section>
+      <section class="mode" style="--c: var(--purple)">
+        <h3 data-icon="grid">INSANE ROUNDS</h3>
+        <p>Rounds 10, 20, 30 and so on. One question with a long list of answers ("every country in Europe"). Everyone guesses at once for 60 seconds, and every answer you find is a point. Repeats don't count.</p>
+        <div class="facts"><span>EVERY 10TH ROUND</span><span>60 SECONDS</span><span>1 PT PER ANSWER</span></div>
+      </section>
+      <section class="mode" style="--c: var(--purple)">
+        <h3 data-icon="swords">DUELS</h3>
+        <p>1v1 against one other player, with category bans, a rematch button and a duel rating each season. Full rules below.</p>
+        <div class="facts"><span>/DUEL CHALLENGE</span><span>BEST OF / FIRST TO</span></div>
+      </section>
+    </div>
+
+    <h2 class="section" id="hints">HINTS</h2>
+    <p class="lead">Two hints per question, at 20 and 40 seconds (hardcore has none). Each one is a different kind. Here they are for <b style="color:var(--yellow);font-weight:400">Toronto</b>:</p>
+    <div class="hintgrid">
+      <div class="hint"><span class="n">SCRAMBLED</span><code>otnroot</code></div>
+      <div class="hint"><span class="n">PIG LATIN</span><code>orontotay</code></div>
+      <div class="hint"><span class="n">MASKED LETTERS</span><code>T######</code></div>
+      <div class="hint"><span class="n">PARTIAL REVEAL (HINT 2)</span><code>T##o###</code></div>
+      <div class="hint"><span class="n">LETTER COUNT</span><code>7 letters long and contains 3 vowels.</code></div>
+      <div class="hint"><span class="n">FUN FACT</span><span class="d">Often takes one hint slot: a fact about the answer.</span></div>
+    </div>
+    <p class="page-sub" style="margin-top:14px">Number answers get number hints instead: binary, hexadecimal or Roman numerals, or a fun fact about that number.</p>
+
+    <h2 class="section" id="duels">DUELS</h2>
+    <div class="panel" style="--c: var(--purple)">
+      <h3>HOW A DUEL WORKS</h3>
+      <ul class="rules" style="--c: var(--purple)">
+        <li><b>/duel challenge</b> someone and pick a length: <b>Best of 3, 5, 7, 9 or 10</b>, or <b>First to 3, 5, 7 or 10</b>.</li>
+        <li>Before it starts, each of you chooses whether to <b>ban categories</b> (2 or 3 each, taking turns).</li>
+        <li>30 seconds per question, with one hint at 15 seconds. First correct answer takes the point.</li>
+        <li>Best of: it ends as soon as the leader can't be caught. A tie at the end goes to a <b>sudden-death insane-round tiebreaker</b>.</li>
+        <li>First to: no question limit. If you both go quiet for 5 questions in a row, it ends as a tie.</li>
+        <li>The winner gets <b>1,500 XP</b>; the loser gets 150 XP for every question they won. Hit <b>Rematch</b> to go again.</li>
+        <li>Every season has a <b>duel rating</b> (ELO). Longer duels move it more, and the top 3 at the end of a season win XP.</li>
+      </ul>
+    </div>
+
+    <h2 class="section" id="xp">XP &amp; LEVELS</h2>
+    <p class="lead">There are 100 levels. Each level unlocks rewards: cosmetics, and XP Boosts at levels 15, 30, 45, 60, 75 and 90. Check yours with <code>/rank</code>.</p>
+    <div class="panel" style="--c: var(--neon)">
+      <h3>WHAT EARNS MORE XP IN A GAME</h3>
+      <ul class="rules" style="--c: var(--neon)">
+        <li><b>Longer games:</b> more rounds, more XP.</li>
+        <li><b>Correct answers:</b> the biggest factor, measured against whoever answered the most that game.</li>
+        <li><b>Speed:</b> fast answers are worth up to 10% more, slow ones up to 10% less.</li>
+        <li><b>Your best streak:</b> +2% for every answer in your best streak that game, with no cap.</li>
+        <li><b>More players:</b> 4 players is normal; fewer earns less, and 5, 6 or 7+ earn more.</li>
+        <li><b>More categories:</b> mixing categories is worth up to 10% more.</li>
+      </ul>
+    </div>
+    <div class="panel" style="--c: var(--yellow)">
+      <h3>BONUSES</h3>
+      <ul class="rules" style="--c: var(--yellow)">
+        <li><b>Replay bonus:</b> join another game within 10 minutes of your last one ending for +5% XP, up to +25% (games of 5+ rounds).</li>
+        <li><b>Double XP weekends:</b> every Saturday and Sunday (UTC), all game XP is doubled.</li>
+        <li><b>Daily Trivia</b> is always 2×, and <b>hardcore</b> is 1.5×.</li>
+        <li><b>XP Boosts</b> (<code>/boost</code>): 2× XP just for you. They only use up time while you're actually in a game, and you can pause them.</li>
+        <li><b>Achievements</b> and <b>missions</b> pay XP too. Check yours with <code>/achievements</code>.</li>
+      </ul>
+    </div>
+
+    <h2 class="section" id="missions">MISSIONS</h2>
+    <p class="lead">Five weekly missions, the same for everyone, reset every <b style="color:var(--yellow);font-weight:400">Monday at 10 AM Eastern</b>. Check them with <code>/challenges</code> or on the <a href="index.html">home page</a>.</p>
+    <div class="tiles">
+      <div class="tile" style="--c: var(--neon)"><span class="label">2 EASY</span><span class="value">5,000 XP</span><span class="sub">+250 season pass XP</span></div>
+      <div class="tile" style="--c: var(--yellow)"><span class="label">2 MEDIUM</span><span class="value">10,000 XP</span><span class="sub">+500 season pass XP</span></div>
+      <div class="tile" style="--c: var(--pink)"><span class="label">1 HARD</span><span class="value">20,000 XP</span><span class="sub">+1,000 season pass XP</span></div>
+    </div>
+
+    <h2 class="section" id="seasons">SEASONS</h2>
+    <div class="panel" style="--c: var(--yellow)">
+      <ul class="rules" style="--c: var(--yellow)">
+        <li>A season runs for several weeks, Monday to Monday. <b>Season 0</b> ends Monday, November 2 at 10 AM Eastern, when <b>Season 1</b> begins.</li>
+        <li>Games and duels fill your <b>season pass</b> (<code>/pass</code>), which unlocks seasonal cosmetics tier by tier. Double XP and boosts don't speed it up; hardcore's 1.5× does.</li>
+        <li>The <b>top 3 in points</b> over the season win 50,000 / 25,000 / 10,000 XP. The <b>top 3 duel ratings</b> win 20,000 / 10,000 / 5,000.</li>
+        <li>Each season has 3 <b>Spotlight</b> categories worth 1.5× points.</li>
+        <li>Season 0 is solo. Season 1&#39;s format (Duos, Trios, Squads, 6v6 or Round Robin) is drawn on November 2. See <code>/team view</code>.</li>
+      </ul>
+      <p style="margin:14px 0 0"><a href="season.html" style="font: 11px var(--pixel)">STANDINGS &amp; PASS ▸</a></p>
+    </div>
+
+    <h2 class="section" id="extras">EXTRAS</h2>
+    <div class="modes">
+      <section class="mode" style="--c: var(--purple)">
+        <h3 data-icon="shirt">COSMETICS</h3>
+        <p>Footers, emoji packs, response themes, embed colors and MVP cards change how Bertha's messages look for you. Unlock them by leveling up or through a season pass, then <code>/equip</code> them. <code>/preview</code> shows any of them first.</p>
+        <p><a href="cosmetics.html" style="font: 11px var(--pixel)">SEE THEM ALL ▸</a></p>
+      </section>
+      <section class="mode" style="--c: var(--yellow)">
+        <h3 data-icon="medal">ACHIEVEMENTS</h3>
+        <p>One-off achievements plus ladders for points, wins, streaks and more. Each one pays XP. <code>/achievements</code> shows your progress.</p>
+      </section>
+      <section class="mode" style="--c: var(--pink)">
+        <h3 data-icon="crown">THE KIRKENING</h3>
+        <p>Every September 10th the Kirkening role jumps between whoever's chatting. Whoever holds it at midnight keeps it for the year. <code>/kirkening</code> shows who has it now.</p>
+        <p><a href="kirkening.html" style="font: 11px var(--pixel)">KIRKENING HISTORY ▸</a></p>
+      </section>
+      <section class="mode" style="--c: var(--neon)">
+        <h3 data-icon="bug">REPORT A BAD QUESTION</h3>
+        <p>Wrong answer or a typo? React 🐛 to the question, or long-press it (right-click on desktop) and pick <b style="font-weight:400;color:var(--neon)">Apps → Report Bugged Question</b>. Every report is tracked publicly.</p>
+        <p><a href="bugs.html" style="font: 11px var(--pixel)">BUG TRACKER ▸</a></p>
+      </section>
+    </div>
+
+    <h2 class="section" id="commands">COMMANDS</h2>
+    <div id="cmds" class="cmds"><div class="loading">LOADING…</div></div>
+  </main>
+</div>
+
+<script>
+(async () => {
+  const { el } = B;
+  B.topbar("howtoplay.html");
+  // Pixel icons on the mode cards (data-icon), in front of their titles.
+  for (const h of document.querySelectorAll("h3[data-icon]")) h.prepend(B.icon(h.dataset.icon));
+
+  // The command list is the bot's own /help (cogs/help.py), published as commands.json.
+  const box = B.$("#cmds");
+  try {
+    const { categories } = await B.json("commands.json");
+    box.replaceChildren(...categories.map(c => el("section", { class: "cmdcat" },
+      el("h3", {}, `${c.emoji} ${c.label.toUpperCase()}`),
+      el("div", { class: "blurb" }, c.blurb),
+      el("dl", {}, c.commands.flatMap(([names, desc]) => [
+        el("dt", {}, names.flatMap((n, i) => [i ? ", " : null, el("code", {}, `/${n}`)])),
+        el("dd", {}, desc),
+      ])))));
+  } catch (e) {
+    box.replaceChildren(el("p", { class: "page-sub" }, "Type /help in Discord for the full command list."));
+  }
+  B.footer();
+})();
+</script>
+</body>
+</html>

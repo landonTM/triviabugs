@@ -10,7 +10,7 @@ const B = (() => {
   const MODE_LABELS = { standard: "TRIVIA", quickfire: "QUICKFIRE", hardcore: "HARDCORE", daily: "DAILY TRIVIA" };
   const MODE_COLORS = { standard: "#5ef2ff", quickfire: "#7cff6b", hardcore: "#ff4fa3", daily: "#ffd23f", duel: "#c79bff" };
   const NAV = [
-    ["index.html", "HOME"], ["leaderboard.html", "LEADERBOARD"], ["stats.html", "STATS"], ["season.html", "SEASON"],
+    ["index.html", "HOME"], ["howtoplay.html", "HOW TO PLAY"], ["leaderboard.html", "LEADERBOARD"], ["stats.html", "STATS"], ["season.html", "SEASON"],
     ["replays.html", "REPLAYS"], ["cosmetics.html", "COSMETICS"], ["kirkening.html", "KIRKENING"],
     ["changelog.html", "CHANGELOG"], ["bugs.html", "BUGS"],
   ];
@@ -485,6 +485,7 @@ const B = (() => {
     grid: "###.###.|###.###.|###.###.|........|###.###.|###.###.|###.###.|........",
     xp: "...##...|..####..|.##..##.|##.##.##|.##..##.|..####..|...##...|........",
     shirt: ".##..##.|########|########|.######.|.######.|.######.|.######.|........",
+    help: ".######.|##....##|......##|....###.|...##...|...##...|........|...##...",
     clock: ".######.|#...#..#|#...#..#|#...###.|#......#|#......#|#......#|.######.",
   };
   const iconPaths = {};
@@ -505,7 +506,7 @@ const B = (() => {
     svg.append(path);
     return svg;
   }
-  const NAV_ICONS = { "index.html": "home", "leaderboard.html": "trophy", "stats.html": "chart", "season.html": "star",
+  const NAV_ICONS = { "index.html": "home", "howtoplay.html": "help", "leaderboard.html": "trophy", "stats.html": "chart", "season.html": "star",
     "replays.html": "play", "cosmetics.html": "gem", "kirkening.html": "crown", "changelog.html": "scroll", "bugs.html": "bug" };
   // Section headings get an icon from their wording (first match wins), so no page has to pick one by hand.
   const SECTION_ICONS = [
@@ -514,6 +515,7 @@ const B = (() => {
     [/HALL OF FAME|RECORD|SEASON|TIER|SPOTLIGHT/, "star"], [/KIRK|CROWNING/, "crown"], [/ACTIVITY|MOMENTUM|SCORE RACE/, "chart"], [/REPLAY|MATCH|ROUND/, "play"],
     [/XP|LEVEL/, "xp"], [/POINT/, "coin"], [/GAME/, "joystick"], [/CATEGOR/, "grid"], [/COSMETIC|LOADOUT/, "shirt"],
     [/BUG|COMMUNITY|REPORT/, "bug"], [/KIRK|CROWN|REIGN/, "crown"], [/CHANGE|UPDATE/, "scroll"], [/PUMPKIN/, "fire"],
+    [/BASIC|HOW TO/, "help"], [/SCORING/, "coin"], [/HINT/, "target"], [/EXTRA/, "gem"], [/COMMAND/, "scroll"],
   ];
   function decorateSection(h) {
     if (h.dataset.ic) return;
