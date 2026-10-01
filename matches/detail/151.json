@@ -1,0 +1,151 @@
+{
+  "game": {
+    "id": 151,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 30,
+    "rounds_played": 5,
+    "categories": [
+      "Logos",
+      "World Flags"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-10-01 11:57:34.997586+00:00",
+    "ended_at": "2026-10-01 11:59:17.151623+00:00",
+    "end_reason": "stopped"
+  },
+  "rounds": [
+    {
+      "round_id": 6895,
+      "mode": "standard",
+      "started_at": "2026-10-01 11:57:35.299636+00:00",
+      "ended_at": "2026-10-01 11:57:41.844535+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/bo6LJR0.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3510,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 11:57:41.840405+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6896,
+      "mode": "standard",
+      "started_at": "2026-10-01 11:57:52.163363+00:00",
+      "ended_at": "2026-10-01 11:58:24.146526+00:00",
+      "winner_id": "795847206719717386",
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/nKgkQci.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 31531,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-01 11:58:24.143097+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6897,
+      "mode": "standard",
+      "started_at": "2026-10-01 11:58:34.454671+00:00",
+      "ended_at": "2026-10-01 11:58:39.268240+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoConverse.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4327,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 11:58:39.264036+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6898,
+      "mode": "standard",
+      "started_at": "2026-10-01 11:58:49.617308+00:00",
+      "ended_at": "2026-10-01 11:58:53.338882+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/wVclPOj.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3129,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 11:58:53.335421+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6899,
+      "mode": "standard",
+      "started_at": "2026-10-01 11:59:03.686403+00:00",
+      "ended_at": "2026-10-01 11:59:06.159779+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/GqsFG5y.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 919,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 11:59:06.156265+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 6900,
+      "mode": "standard",
+      "started_at": "2026-10-01 11:59:16.504526+00:00",
+      "ended_at": "2026-10-01 11:59:16.737826+00:00",
+      "winner_id": null,
+      "category": "World Flags",
+      "question_text": "What country is represented by this flag?",
+      "image_url": "https://i.imgur.com/mAgkfeH.png",
+      "answer_count": 1,
+      "answers": []
+    }
+  ],
+  "xp": {
+    "795847206719717386": 1112
+  },
+  "xp_layers": {
+    "795847206719717386": {
+      "base": 556,
+      "boost": 556
+    }
+  },
+  "pass_xp": {
+    "795847206719717386": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 556,
+      "game": 550,
+      "emoji": "🎃"
+    }
+  }
+}
