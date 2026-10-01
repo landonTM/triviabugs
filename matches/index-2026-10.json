@@ -229,6 +229,198 @@
       "started_at": "2026-10-01 03:01:09.765711+00:00",
       "ended_at": "2026-10-01 03:04:39.855134+00:00",
       "end_reason": "completed"
+    },
+    {
+      "id": 118,
+      "kind": "game",
+      "mode": "hardcore",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 1,
+      "categories": [
+        "World Flags"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": null,
+      "started_at": "2026-10-01 03:04:43.256645+00:00",
+      "ended_at": "2026-10-01 03:05:45.416732+00:00",
+      "end_reason": "stopped"
+    },
+    {
+      "id": 119,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "World Flags"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-10-01 03:05:58.315686+00:00",
+      "ended_at": "2026-10-01 03:07:34.444956+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 120,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "World Flags"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-10-01 03:07:38.087144+00:00",
+      "ended_at": "2026-10-01 03:09:16.818012+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 121,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "World Flags"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-10-01 03:09:19.598517+00:00",
+      "ended_at": "2026-10-01 03:12:25.747589+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 122,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "World Flags"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-10-01 03:12:43.781021+00:00",
+      "ended_at": "2026-10-01 03:16:10.951306+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 123,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "World Flags"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-10-01 03:16:14.297587+00:00",
+      "ended_at": "2026-10-01 03:18:46.387356+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 124,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "World Flags"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-10-01 03:18:50.169673+00:00",
+      "ended_at": "2026-10-01 03:20:02.656233+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 125,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "World Flags"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-10-01 03:20:05.850102+00:00",
+      "ended_at": "2026-10-01 03:22:06.765634+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 126,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "World Flags"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-10-01 03:22:19.901891+00:00",
+      "ended_at": "2026-10-01 03:24:36.346785+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 127,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "World Flags"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-10-01 03:25:02.436988+00:00",
+      "ended_at": "2026-10-01 03:27:57.480857+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 128,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "World Flags"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-10-01 03:28:01.819180+00:00",
+      "ended_at": "2026-10-01 03:31:44.186033+00:00",
+      "end_reason": "completed"
+    },
+    {
+      "id": 129,
+      "kind": "game",
+      "mode": "quickfire",
+      "channel_id": "864342930076860426",
+      "total_rounds": 5,
+      "rounds_played": 5,
+      "categories": [
+        "World Flags"
+      ],
+      "started_by": "184456115927384065",
+      "winner_id": "184456115927384065",
+      "started_at": "2026-10-01 03:31:47.136110+00:00",
+      "ended_at": "2026-10-01 03:34:35.095456+00:00",
+      "end_reason": "completed"
     }
   ]
 }
