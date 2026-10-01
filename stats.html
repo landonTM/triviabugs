@@ -44,6 +44,20 @@
   .jump .chip { flex: 0 0 auto; font: 9px/1 var(--pixel); color: var(--muted); border: 2px solid var(--line-dim); padding: 8px 10px; white-space: nowrap; }
   .jump .chip:hover { color: var(--text); border-color: var(--line); text-decoration: none; }
   #app h2.section { scroll-margin-top: 150px; }
+  .fastlist { display: flex; flex-direction: column; gap: 8px; }
+  .frow { display: grid; grid-template-columns: 48px 110px 1fr auto; gap: 6px 14px; align-items: center; border: 3px solid var(--line-dim);
+    border-left: 6px solid var(--c); background: var(--panel); padding: 10px 14px; color: var(--text); }
+  a.frow:hover { border-color: var(--line); border-left-color: var(--c); text-decoration: none; color: var(--text); }
+  .frow .fr { font: 11px/1 var(--pixel); color: var(--c); }
+  .frow .ft { font: 16px/1 var(--pixel); color: var(--c); }
+  .frow .fq { display: flex; flex-direction: column; gap: 4px; min-width: 0; font-size: 22px; line-height: 1.1; overflow-wrap: anywhere; }
+  .frow .fmeta { font: 8px/1.6 var(--pixel); color: var(--muted); }
+  .frow .fimg { width: 64px; height: 48px; object-fit: contain; background: #fff; border: 2px solid var(--line-dim); }
+  @media (max-width: 620px) {
+    .frow { grid-template-columns: auto 1fr auto; }
+    .frow .fq { grid-column: 1 / -1; grid-row: 2; }
+    .frow .fimg { grid-row: 1; grid-column: 3; }
+  }
   .tile .rank { font: 9px/1.6 var(--pixel); color: var(--muted); }
   .tile .rank.top { color: var(--yellow); }
   table.grid { border-collapse: collapse; width: 100%; }
@@ -185,6 +199,27 @@
         el("span", { class: "label" }, l), el("span", { class: "value" }, v), el("span", { class: "sub" }, s)))));
     }
 
+    // top 10 fastest answers (standard rounds of Trivia / Quickfire / Hardcore / Daily; never the answer itself)
+    const fast = u.fastest_answers || [];
+    if (fast.length) {
+      const MODE = { standard: "TRIVIA", quickfire: "QUICKFIRE", hardcore: "HARDCORE", daily: "DAILY TRIVIA" };
+      out.push(el("h2", { class: "section" }, `TOP ${fast.length} FASTEST ANSWERS`,
+        el("span", { class: "pill", style: { color: "var(--muted)" } }, "ALL-TIME")));
+      out.push(el("div", { class: "fastlist" }, fast.map((f, i) => {
+        const inner = [
+          el("span", { class: "fr" }, `#${i + 1}`),
+          el("span", { class: "ft" }, B.secs(f.ms)),
+          el("span", { class: "fq" },
+            el("span", { class: "fmeta" }, `${(f.category || "").toUpperCase()} · ${f.mode ? MODE[f.mode] || f.mode.toUpperCase() : "TRIVIA · BEFORE SEP 22"} · ${B.day(f.answered_at)}`),
+            el("span", {}, f.question_text || "")),
+          f.image_url ? el("img", { class: "fimg", src: f.image_url, alt: "Question image", loading: "lazy" }) : null,
+        ];
+        // A game from Sep 22 on has a replay to jump to; older answers don't.
+        return f.game_id ? el("a", { class: "frow", href: `replay.html?game=${f.game_id}`, style: { "--c": B.rankColor(i) } }, inner)
+          : el("div", { class: "frow", style: { "--c": B.rankColor(i) } }, inner);
+      })));
+    }
+
     // where the XP came from -- all-time, not per period (xp_log / season_xp_log / pumpkin_log)
     const xs = u.xp_sources;
     if (xs) {
@@ -306,9 +341,10 @@
     // Jump chips in the sticky bar, one per section, so a long profile doesn't mean scrolling through all of it.
     const SHORT = { "XP & LEVEL": "XP", "WHERE THE XP CAME FROM": "XP SOURCES", "HEAD TO HEAD": "RIVALS", "RECENT MATCHES": "MATCHES",
       "MISSIONS & ACHIEVEMENTS": "MISSIONS" };
+    const SHORT_PREFIX = [["TOP ", "FASTEST"]];
     const chips = [...body.querySelectorAll("h2.section")].map((h, i) => {
       const full = (h.firstChild && h.firstChild.textContent || "").trim();
-      const text = SHORT[full] || full.replace(/\s*[·\d/].*$/, "").split(" & ")[0];
+      const text = SHORT[full] || (SHORT_PREFIX.find(([p]) => full.startsWith(p)) || [])[1] || full.replace(/\s*[·\d/].*$/, "").split(" & ")[0];
       h.id = `sec-${i}`;
       return el("a", { class: "chip", href: `#sec-${i}`, onclick: e => { e.preventDefault(); h.scrollIntoView({ behavior: "smooth" }); } }, text);
     });
