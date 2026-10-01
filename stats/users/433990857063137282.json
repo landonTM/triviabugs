@@ -2,23 +2,23 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 43,
-    "xp_into_level": 50201,
+    "xp_into_level": 50324,
     "xp_for_level": 64000,
-    "progress": 0.784390625,
+    "progress": 0.7863125,
     "maxed": false
   },
-  "total_xp": 1021701,
+  "total_xp": 1021824,
   "period_stats": {
-    "daily_points": 437,
-    "daily_correct": 182,
-    "weekly_points": 1589,
-    "weekly_correct": 671,
-    "monthly_points": 4661,
-    "monthly_correct": 2130,
-    "yearly_points": 4889,
-    "yearly_correct": 2254,
-    "alltime_points": 4889,
-    "alltime_correct": 2254
+    "daily_points": 438,
+    "daily_correct": 183,
+    "weekly_points": 1590,
+    "weekly_correct": 672,
+    "monthly_points": 4653,
+    "monthly_correct": 2125,
+    "yearly_points": 4890,
+    "yearly_correct": 2255,
+    "alltime_points": 4890,
+    "alltime_correct": 2255
   },
   "stats_row": {
     "user_id": "433990857063137282",
@@ -29,11 +29,11 @@
     "wins": 972,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 135,
-    "insane_guesses": 978,
+    "games_played": 136,
+    "insane_guesses": 979,
     "day_streak": 9,
     "last_played_date": "2026-10-01",
-    "total_xp": 1021701,
+    "total_xp": 1021824,
     "game_wins": 43,
     "achievement_best_streak": 27
   },
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 20
   },
-  "total_insane_correct": 1283,
+  "total_insane_correct": 1284,
   "average_guess_ms": 15695.076210092688,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 31
   },
   "spelling_accuracy": {
-    "exact_count": 1789,
-    "total": 2040
+    "exact_count": 1790,
+    "total": 2041
   },
   "achievements": {
     "catalog": [
@@ -3671,10 +3671,10 @@
       "duel": 39150,
       "mission": 30000,
       "achievement": 728500,
-      "game": 224051
+      "game": 224174
     },
     "game_layers": {
-      "base": 25118,
+      "base": 25241,
       "daily": 6586,
       "replay": 401,
       "hardcore": 2627
@@ -3682,7 +3682,7 @@
     "pass": {
       "season_0": {
         "pumpkin": 577,
-        "game": 19430,
+        "game": 19553,
         "duel": 2350,
         "mission": 1500
       }
