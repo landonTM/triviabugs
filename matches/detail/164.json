@@ -1,0 +1,994 @@
+{
+  "game": {
+    "id": 164,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 30,
+    "rounds_played": 30,
+    "categories": [
+      "Logos"
+    ],
+    "started_by": "795847206719717386",
+    "winner_id": "795847206719717386",
+    "started_at": "2026-10-01 14:36:03.485872+00:00",
+    "ended_at": "2026-10-01 14:47:52.611631+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 7060,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:36:03.762560+00:00",
+      "ended_at": "2026-10-01 14:36:06.284888+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoUmbro.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 2049,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:36:06.281267+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7061,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:36:16.550089+00:00",
+      "ended_at": "2026-10-01 14:36:18.918006+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/LNPIiEa.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 1963,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:36:18.912569+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7062,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:36:29.195888+00:00",
+      "ended_at": "2026-10-01 14:36:31.441442+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/UQpfmrn.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 1481,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:36:31.436859+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7063,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:36:41.671151+00:00",
+      "ended_at": "2026-10-01 14:36:43.617643+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/ZDogDwv.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 1562,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:36:43.614246+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7064,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:36:54.033978+00:00",
+      "ended_at": "2026-10-01 14:37:36.652957+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoKodak.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 42051,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:37:36.646880+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7065,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:37:46.907435+00:00",
+      "ended_at": "2026-10-01 14:37:49.412510+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/JGOXLNo.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 1014,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:37:49.409221+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7066,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:37:59.688303+00:00",
+      "ended_at": "2026-10-01 14:38:05.768082+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/y9BtOaq.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5362,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:38:05.764671+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7067,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:38:16.003669+00:00",
+      "ended_at": "2026-10-01 14:38:18.383626+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/aEEqZy7.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 1881,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:38:18.378258+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7068,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:38:28.653034+00:00",
+      "ended_at": "2026-10-01 14:38:55.844890+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoNbaNewOrleansPelicans.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 26769,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-10-01 14:38:55.841430+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7069,
+      "mode": "insane",
+      "started_at": "2026-10-01 14:39:06.245276+00:00",
+      "ended_at": "2026-10-01 14:40:06.501724+00:00",
+      "winner_id": null,
+      "category": "Geography",
+      "question_text": "Name all countries",
+      "image_url": null,
+      "answer_count": 200,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 2526,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:09.027581+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3334,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:09.835637+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 6176,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:12.677344+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 7177,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:13.678558+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 8290,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:14.791388+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9077,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:15.578078+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9999,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:16.499940+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 11877,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:18.378381+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 12521,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:19.022311+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 17038,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:23.539555+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 19507,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:26.007863+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 21321,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:27.821754+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 22735,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:29.236508+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 23499,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:30.000077+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 25429,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:31.930233+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 26274,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:32.775157+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 29130,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:35.631576+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 30205,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:36.706182+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 31678,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:38.179435+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 33712,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:40.213644+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 36839,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:43.340140+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 39465,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:45.966586+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 40272,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:46.772861+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 41116,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:47.617196+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 42063,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:48.564008+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 44576,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:51.077090+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 47428,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:53.929559+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 50098,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:56.598856+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 52190,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:58.691067+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 53089,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:39:59.590368+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 58273,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:40:04.773930+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7070,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:40:17.021008+00:00",
+      "ended_at": "2026-10-01 14:40:23.579318+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/Y5c28vw.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5021,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:40:23.575350+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7071,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:40:33.863843+00:00",
+      "ended_at": "2026-10-01 14:40:36.129795+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/Yx3fpUD.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 1111,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:40:36.126218+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7072,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:40:46.440317+00:00",
+      "ended_at": "2026-10-01 14:40:48.797067+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/LTuJD9s.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 1870,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:40:48.793764+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7073,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:40:59.083155+00:00",
+      "ended_at": "2026-10-01 14:41:01.601324+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/AmVBoVw.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 2064,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:41:01.596275+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7074,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:41:11.854239+00:00",
+      "ended_at": "2026-10-01 14:41:34.924300+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoCBS.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 22465,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-01 14:41:34.920658+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7075,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:41:45.139018+00:00",
+      "ended_at": "2026-10-01 14:41:50.031166+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/PeXL8b9.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 4255,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:41:50.025700+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7076,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:42:00.498337+00:00",
+      "ended_at": "2026-10-01 14:42:03.264405+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/LC4Xma0.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 2392,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:42:03.261218+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7077,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:42:13.681481+00:00",
+      "ended_at": "2026-10-01 14:42:17.591975+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/OAyZgKF.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3529,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:42:17.588573+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7078,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:42:27.892664+00:00",
+      "ended_at": "2026-10-01 14:42:31.660211+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoMrClean.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3207,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:42:31.656692+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7079,
+      "mode": "insane",
+      "started_at": "2026-10-01 14:42:41.916155+00:00",
+      "ended_at": "2026-10-01 14:43:42.075521+00:00",
+      "winner_id": null,
+      "category": "Disney",
+      "question_text": "Every Pixar movie",
+      "image_url": null,
+      "answer_count": 31,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 3488,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:42:45.563523+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 6065,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:42:48.139991+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 11352,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:42:53.427155+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 13348,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:42:55.423832+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 16192,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:42:58.267445+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 18762,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:43:00.837525+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 25644,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:43:07.719124+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 26659,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:43:08.734487+00:00"
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 44820,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:43:26.894958+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 59376,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:43:41.451647+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7080,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:43:52.665230+00:00",
+      "ended_at": "2026-10-01 14:43:55.451858+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoITunes.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 2263,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:43:55.447351+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7081,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:44:05.687676+00:00",
+      "ended_at": "2026-10-01 14:44:10.312670+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoFruitOfTheLoom.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 3858,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:44:10.309175+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7082,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:44:20.631532+00:00",
+      "ended_at": "2026-10-01 14:44:25.250110+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoNBC.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3937,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:44:25.245405+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7083,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:44:35.572195+00:00",
+      "ended_at": "2026-10-01 14:44:37.760196+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/fuHXqh2.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 1645,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:44:37.756810+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7084,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:44:48.035547+00:00",
+      "ended_at": "2026-10-01 14:44:52.676235+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoING.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 4272,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:44:52.671545+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7085,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:45:03.010607+00:00",
+      "ended_at": "2026-10-01 14:45:07.515601+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoSEAT.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 3807,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:45:07.511695+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7086,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:45:17.794214+00:00",
+      "ended_at": "2026-10-01 14:45:43.994460+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://berthabot.me/logos/logoNbaPortlandTrailBlazers.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 25377,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-01 14:45:43.990434+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7087,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:45:55.253802+00:00",
+      "ended_at": "2026-10-01 14:45:58.047982+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/mi7krCf.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 2099,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-01 14:45:58.043383+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7088,
+      "mode": "standard",
+      "started_at": "2026-10-01 14:46:08.287007+00:00",
+      "ended_at": "2026-10-01 14:46:30.811808+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/KO02t1X.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 21871,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-01 14:46:30.808295+00:00"
+        }
+      ]
+    },
+    {
+      "round_id": 7089,
+      "mode": "insane",
+      "started_at": "2026-10-01 14:46:40.996187+00:00",
+      "ended_at": "2026-10-01 14:47:42.044354+00:00",
+      "winner_id": null,
+      "category": "Game of Thrones",
+      "question_text": "Every Targaryen King of the Seven Kingdoms",
+      "image_url": null,
+      "answer_count": 17,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 5737,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:46:47.781188+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9901,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:46:51.945779+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 13519,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:46:55.563062+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 17183,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:46:59.227252+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 20271,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:47:02.315843+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 24227,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:47:06.271652+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 27463,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:47:09.507338+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 35388,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:47:17.432492+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 38945,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:47:20.990476+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 45634,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:47:27.678350+00:00"
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 56886,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-01 14:47:38.930785+00:00"
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 683,
+    "795847206719717386": 3508
+  },
+  "xp_layers": {
+    "795847206719717386": {
+      "base": 1525,
+      "boost": 1754,
+      "replay": 229
+    },
+    "433990857063137282": {
+      "base": 621,
+      "replay": 62
+    }
+  },
+  "pass_xp": {
+    "795847206719717386": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 1525,
+      "game": 550,
+      "emoji": "🎃"
+    },
+    "433990857063137282": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 621,
+      "game": 550,
+      "emoji": "🎃"
+    }
+  }
+}
