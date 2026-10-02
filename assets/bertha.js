@@ -394,9 +394,47 @@ const B = (() => {
       });
     }
   }
+  // ---------- even grids ----------
+  // A box grid whose last row comes up short (7 tiles, 4 per row) stretches that row's boxes to fill it, so no grid
+  // ends with a gap -- at any width, since how many fit per row changes with the screen. It re-lays the grid on a
+  // finer column count: 4 per row + 3 left over -> 12 columns, full rows span 3 each, the last row 4 each.
+  const EVEN_GRIDS = ".tiles, .missions, .cats";
+  const gcd = (a, b) => (b ? gcd(b, a % b) : a);
+  function evenGrid(g) {
+    const kids = [...g.children];
+    g.style.gridTemplateColumns = "";
+    for (const k of kids) k.style.gridColumn = "";
+    const cs = getComputedStyle(g);
+    if (cs.display !== "grid" || !kids.length) return;
+    const cols = cs.gridTemplateColumns.split(" ").filter(Boolean).length;
+    const rem = kids.length % cols;
+    if (cols < 2 || !rem) return;
+    const fine = (cols * rem) / gcd(cols, rem);
+    g.style.gridTemplateColumns = `repeat(${fine}, minmax(0, 1fr))`;
+    kids.forEach((k, i) => { k.style.gridColumn = `span ${fine / (i >= kids.length - rem ? rem : cols)}`; });
+  }
+  function watchGrid(g) {
+    if (g.dataset.even) return;
+    g.dataset.even = "1";
+    let width = 0;
+    new ResizeObserver(([entry]) => {
+      const w = Math.round(entry.contentRect.width);
+      if (w !== width) { width = w; evenGrid(g); }
+    }).observe(g);
+    new MutationObserver(() => evenGrid(g)).observe(g, { childList: true });
+    evenGrid(g);
+  }
+  // A second trigger besides each grid's ResizeObserver, which only reports on a painted frame.
+  let evenTimer = null;
+  window.addEventListener("resize", () => {
+    clearTimeout(evenTimer);
+    evenTimer = setTimeout(() => document.querySelectorAll("[data-even]").forEach(evenGrid), 120);
+  });
+
   new MutationObserver(() => {
     document.querySelectorAll("table.scores, table.grid").forEach(labelTable);
     document.querySelectorAll("h2.section:not([data-ic])").forEach(decorateSection);
+    document.querySelectorAll(EVEN_GRIDS).forEach(watchGrid);
   })
     .observe(document.documentElement, { childList: true, subtree: true });
 

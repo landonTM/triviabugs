@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20261002h">
-<script src="assets/bertha.js?v=20261002h"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20261002j">
+<script src="assets/bertha.js?v=20261002j"></script>
 <style>
   .how { border: 3px dashed var(--line-dim); padding: 14px 18px; color: var(--muted); margin: 8px 0 28px; }
   .how b { color: var(--text); font-weight: 400; }
@@ -194,16 +194,12 @@
   function drawStats() {
     const fixTimes = fixedReports.map(r => (B.ts(r.fixed_at) || 0) - (B.ts(r.reported_at) || 0)).filter(ms => ms > 0).sort((a, b) => a - b);
     const median = fixTimes.length ? fixTimes[Math.floor(fixTimes.length / 2)] : null;
-    const hunters = {};
-    for (const r of reports) hunters[r.reported_by] = (hunters[r.reported_by] || 0) + 1;
-    const top = Object.entries(hunters).sort((a, b) => b[1] - a[1])[0];
     const tiles = [
       ["OPEN", String(open.length), "waiting for a fix", "var(--pink)"],
       ["FIXED REPORTS", String(fixedReports.length), `of ${reports.length} ever filed`, "var(--neon)"],
       ["TYPICAL FIX TIME", median ? B.dur(median) : "—", "median, report to fix", "var(--cyan)"],
       ["AUDIT FIXES", fixedFindings ? B.fmt(fixedFindings.length) : "…", "question-bank findings resolved", "var(--yellow)"],
     ];
-    if (top) tiles.push(["TOP BUG HUNTER", B.playerLink(top[0]), `${top[1]} reports filed`, "var(--purple)"]);
     B.$("#stats").replaceChildren(...tiles.map(([l, v, s, c]) => el("div", { class: "tile", style: { "--c": c } },
       el("span", { class: "label" }, l), el("span", { class: "value" }, v), el("span", { class: "sub" }, s))));
   }

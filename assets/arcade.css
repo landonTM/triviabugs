@@ -423,10 +423,7 @@ a.mrow:active, a.frow:active, a.pcard:active { transform: translate(4px, 4px); b
 .dim { color: var(--muted); }
 .tile .label .px-icon { width: 11px; height: 11px; vertical-align: -1px; margin-right: 2px; }
 
-/* ---------- a lone last box in a two-column grid spans both columns, so both sides stay even (phones) ---------- */
-@media (max-width: 620px) {
-  .tiles > :last-child:nth-child(odd) { grid-column: 1 / -1; }
-}
+/* (box grids with a short last row are evened out by bertha.js evenGrid, at every width) */
 @media (max-width: 719px) {
   .topbar nav a:last-child:nth-child(odd) { grid-column: 1 / -1; }
 }
