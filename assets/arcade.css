@@ -49,6 +49,14 @@ a:hover { color: #b8fbff; text-decoration: underline; text-underline-offset: 4px
 .topbar nav a[aria-current="page"] { color: var(--neon); }
 .topbar .hiscore { color: var(--yellow); }
 .topbar .menu-btn { display: none; }
+/* Desktop: all ten links on one row spread across the full width (11px needed ~1,220px, the page is 1,088px wide);
+   narrower desktop windows get two even rows of five instead of a ragged wrap. */
+@media (min-width: 720px) {
+  .topbar nav { width: 100%; justify-content: space-between; gap: 8px 12px; font-size: 10px; }
+}
+@media (min-width: 720px) and (max-width: 1119px) {
+  .topbar nav { display: grid; grid-template-columns: repeat(5, auto); }
+}
 @media (max-width: 719px) {
   .topbar { padding: 16px 0 4px; gap: 10px 14px; }
   .topbar .menu-btn {
