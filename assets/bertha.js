@@ -565,7 +565,8 @@ const B = (() => {
     const pick = (btn, c) => {
       if (picked) picked.classList.remove("on");
       picked = btn; btn.classList.add("on");
-      readout.replaceChildren(...[].concat(opts.readout ? opts.readout(c) : c.label));
+      // a readout may leave a part out with null ("no matches" days); replaceChildren would print that as "null"
+      readout.replaceChildren(...[].concat(opts.readout ? opts.readout(c) : c.label).filter(x => x != null && x !== false));
     };
     cols.forEach((c, i) => {
       const total = c.segs.reduce((a, s) => a + s.v, 0);

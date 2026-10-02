@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20261002c">
-<script src="assets/bertha.js?v=20261002c"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20261002d">
+<script src="assets/bertha.js?v=20261002d"></script>
 <style>
   .added { display: grid; gap: 12px; }
   .add-day { border: 4px solid var(--line); background: var(--panel); padding: 12px 16px; box-shadow: 6px 6px 0 var(--shadow); }
@@ -32,6 +32,11 @@
 
   .add-day .more { padding: 4px 10px; font-size: 9px; }
   @media (max-width: 719px) { .btns.sorts { display: grid; grid-template-columns: 1fr 1fr; } .btns.sorts .btn { text-align: center; } }
+  /* six boxes: 2 per row on phones (3 even rows); 4 per row wider, with the last two stretched to fill their row */
+  @media (min-width: 720px) {
+    .tiles.six { grid-template-columns: repeat(4, 1fr); }
+    .tiles.six > :nth-child(5), .tiles.six > :nth-child(6) { grid-column: span 2; }
+  }
   .bank-tools { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin-bottom: 16px; }
   .bank-tools input { font: 20px var(--body, inherit); color: var(--text); background: var(--panel); border: 3px solid var(--line-dim);
     padding: 6px 10px; min-width: 0; flex: 1 1 220px; }
@@ -99,7 +104,7 @@
     ["SEEN SO FAR", B.pct(asked, questions), `${B.fmt(asked)} of ${B.fmt(questions)} have come up here`, "var(--neon)", "target"],
     ["LAST 30 DAYS", `+${B.fmt(recentQ + recentI)}`, [recentQ ? plural(recentQ, "new question") : "", recentI ? plural(recentI, "new insane round") : ""].filter(Boolean).join(" · ") || "nothing new yet", "var(--pink)", "gem"],
   ];
-  app.append(el("div", { class: "tiles", style: { marginTop: "8px" } }, tiles.map(([label, value, sub, c, ic]) =>
+  app.append(el("div", { class: "tiles six", style: { marginTop: "8px" } }, tiles.map(([label, value, sub, c, ic]) =>
     el("div", { class: "tile", style: { "--c": c } },
       el("span", { class: "label" }, B.icon(ic), ` ${label}`), el("span", { class: "value" }, value), el("span", { class: "sub" }, sub)))));
 
@@ -173,7 +178,7 @@
     else if (c.first_added !== c.last_added && daysAgo(c.last_added) <= 7) tags.push(el("span", { class: "tag", style: { color: "var(--neon)" } }, "UPDATED"));
     if (c.pictures) tags.push(el("span", { class: "tag", style: { color: "var(--purple)" } }, c.pictures === c.questions ? "ALL PICTURES" : "PICTURES"));
     if (c.insane_rounds) tags.push(el("span", { class: "tag", style: { color: "var(--pink)" } }, "INSANE"));
-    if (c.off) tags.push(el("span", { class: "tag", style: { color: "var(--muted)" } }, "OFF IN THIS SERVER"));
+    if (c.off) tags.push(el("span", { class: "tag", style: { color: "var(--muted)" } }, "DISABLED IN THIS SERVER"));
     const facts = [];
     if (c.insane_rounds) facts.push([el("b", {}, plural(c.insane_rounds, "insane round")), ` (${B.fmt(c.insane_answers)} answers)`]);
     if (c.fun_facts) facts.push([el("b", {}, plural(c.fun_facts, "Fun Fact")), c.fun_facts === c.questions ? " (every question)" : ""]);
