@@ -156,18 +156,18 @@
         },
         {
           "user_id": "734768348201615400",
-          "points": 1302,
-          "correct": 615
+          "points": 1345,
+          "correct": 653
         },
         {
           "user_id": "433990857063137282",
-          "points": 1118,
-          "correct": 453
+          "points": 1122,
+          "correct": 454
         },
         {
           "user_id": "184456115927384065",
-          "points": 733,
-          "correct": 261
+          "points": 743,
+          "correct": 267
         },
         {
           "user_id": "794420965387403265",
@@ -192,11 +192,11 @@
         },
         {
           "user_id": "433990857063137282",
-          "xp": 24202,
+          "xp": 24520,
           "sources": {
             "mission": 1500,
             "pumpkin": 577,
-            "game": 19775,
+            "game": 20093,
             "duel": 2350
           },
           "level": 15,
@@ -206,28 +206,28 @@
         },
         {
           "user_id": "184456115927384065",
-          "xp": 18676,
+          "xp": 19162,
           "sources": {
             "mission": 750,
-            "game": 16676,
+            "game": 17162,
             "duel": 1250
           },
-          "level": 13,
-          "xp_into_level": 1516,
-          "xp_for_level": 1810,
+          "level": 14,
+          "xp_into_level": 192,
+          "xp_for_level": 1880,
           "completed": false
         },
         {
           "user_id": "734768348201615400",
-          "xp": 12852,
+          "xp": 13402,
           "sources": {
             "duel": 550,
             "mission": 1000,
             "pumpkin": 424,
-            "game": 10878
+            "game": 11428
           },
           "level": 10,
-          "xp_into_level": 702,
+          "xp_into_level": 1252,
           "xp_for_level": 1600,
           "completed": false
         },
