@@ -1,1 +1,1390 @@
-{"categories": [{"name": "General Knowledge", "questions": 1174, "insane_rounds": 46, "insane_answers": 2981, "fun_facts": 67, "pictures": 0, "asked": 406, "insane_asked": 35, "first_added": "2026-07-19", "last_added": "2026-10-01", "off": false}, {"name": "Video Games", "questions": 947, "insane_rounds": 12, "insane_answers": 1611, "fun_facts": 121, "pictures": 0, "asked": 287, "insane_asked": 7, "first_added": "2026-07-19", "last_added": "2026-10-01", "off": false}, {"name": "Disney", "questions": 948, "insane_rounds": 7, "insane_answers": 225, "fun_facts": 3, "pictures": 0, "asked": 167, "insane_asked": 6, "first_added": "2026-07-19", "last_added": "2026-10-01", "off": false}, {"name": "Entertainment", "questions": 702, "insane_rounds": 2, "insane_answers": 109, "fun_facts": 702, "pictures": 0, "asked": 298, "insane_asked": 1, "first_added": "2026-07-19", "last_added": "2026-10-01", "off": false}, {"name": "Movies", "questions": 620, "insane_rounds": 5, "insane_answers": 305, "fun_facts": 128, "pictures": 0, "asked": 169, "insane_asked": 4, "first_added": "2026-09-06", "last_added": "2026-10-01", "off": false}, {"name": "Music", "questions": 546, "insane_rounds": 4, "insane_answers": 358, "fun_facts": 546, "pictures": 0, "asked": 179, "insane_asked": 3, "first_added": "2026-07-19", "last_added": "2026-10-01", "off": false}, {"name": "Sports", "questions": 544, "insane_rounds": 4, "insane_answers": 112, "fun_facts": 21, "pictures": 0, "asked": 533, "insane_asked": 4, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "Wrestling", "questions": 508, "insane_rounds": 27, "insane_answers": 788, "fun_facts": 128, "pictures": 0, "asked": 378, "insane_asked": 27, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "Conundrums", "questions": 500, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 500, "pictures": 0, "asked": 151, "insane_asked": 0, "first_added": "2026-09-15", "last_added": "2026-09-15", "off": false}, {"name": "Marvel", "questions": 464, "insane_rounds": 3, "insane_answers": 992, "fun_facts": 123, "pictures": 0, "asked": 315, "insane_asked": 3, "first_added": "2026-09-06", "last_added": "2026-09-19", "off": false}, {"name": "Art and Literature", "questions": 449, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 449, "pictures": 0, "asked": 95, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "Geography", "questions": 358, "insane_rounds": 25, "insane_answers": 931, "fun_facts": 358, "pictures": 0, "asked": 173, "insane_asked": 16, "first_added": "2026-07-19", "last_added": "2026-10-01", "off": false}, {"name": "Pokemon", "questions": 328, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 33, "asked": 49, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": false}, {"name": "Slogans", "questions": 309, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 20, "pictures": 0, "asked": 134, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-09-17", "off": false}, {"name": "Star Wars", "questions": 262, "insane_rounds": 1, "insane_answers": 40, "fun_facts": 0, "pictures": 0, "asked": 45, "insane_asked": 1, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "Game of Thrones", "questions": 249, "insane_rounds": 4, "insane_answers": 177, "fun_facts": 64, "pictures": 0, "asked": 130, "insane_asked": 4, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "Harry Potter", "questions": 249, "insane_rounds": 4, "insane_answers": 90, "fun_facts": 0, "pictures": 0, "asked": 137, "insane_asked": 4, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "NBA", "questions": 234, "insane_rounds": 2, "insane_answers": 51, "fun_facts": 0, "pictures": 0, "asked": 102, "insane_asked": 2, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "Computers", "questions": 215, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 0, "asked": 34, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "House of the Dragon", "questions": 211, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 61, "pictures": 0, "asked": 102, "insane_asked": 0, "first_added": "2026-09-06", "last_added": "2026-09-06", "off": false}, {"name": "History", "questions": 203, "insane_rounds": 3, "insane_answers": 119, "fun_facts": 0, "pictures": 0, "asked": 26, "insane_asked": 0, "first_added": "2026-09-19", "last_added": "2026-10-01", "off": false}, {"name": "World Cup", "questions": 200, "insane_rounds": 4, "insane_answers": 51, "fun_facts": 0, "pictures": 0, "asked": 40, "insane_asked": 4, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "Lord of the Rings", "questions": 203, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 0, "asked": 35, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "Acronyms and Abbreviations", "questions": 197, "insane_rounds": 1, "insane_answers": 26, "fun_facts": 65, "pictures": 0, "asked": 57, "insane_asked": 1, "first_added": "2026-09-06", "last_added": "2026-09-16", "off": false}, {"name": "World Map", "questions": 196, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 196, "asked": 108, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": false}, {"name": "World Flags", "questions": 195, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 195, "asked": 195, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": false}, {"name": "World Capitals", "questions": 190, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 0, "asked": 98, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": false}, {"name": "Chemistry", "questions": 182, "insane_rounds": 1, "insane_answers": 118, "fun_facts": 0, "pictures": 0, "asked": 25, "insane_asked": 1, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "Phobias", "questions": 173, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 173, "pictures": 0, "asked": 17, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-09-26", "off": false}, {"name": "Greek Mythology", "questions": 171, "insane_rounds": 1, "insane_answers": 59, "fun_facts": 0, "pictures": 0, "asked": 29, "insane_asked": 1, "first_added": "2026-07-19", "last_added": "2026-09-06", "off": false}, {"name": "Logos", "questions": 160, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 160, "asked": 160, "insane_asked": 0, "first_added": "2026-09-06", "last_added": "2026-09-29", "off": false}, {"name": "Whos That Pokemon (Gen 5)", "questions": 156, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 156, "asked": 22, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": true}, {"name": "Whos That Pokemon (Gen 1)", "questions": 149, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 149, "asked": 38, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": false}, {"name": "Whos That Pokemon (Gen 3)", "questions": 134, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 134, "asked": 31, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": false}, {"name": "Space", "questions": 129, "insane_rounds": 3, "insane_answers": 158, "fun_facts": 47, "pictures": 0, "asked": 26, "insane_asked": 2, "first_added": "2026-07-19", "last_added": "2026-10-01", "off": false}, {"name": "Elements", "questions": 129, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 0, "asked": 25, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "Quotes", "questions": 127, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 20, "pictures": 0, "asked": 19, "insane_asked": 0, "first_added": "2026-09-21", "last_added": "2026-09-21", "off": false}, {"name": "Whos That Pokemon (Gen 4)", "questions": 107, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 107, "asked": 12, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": true}, {"name": "The Simpsons", "questions": 105, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 16, "pictures": 0, "asked": 33, "insane_asked": 0, "first_added": "2026-09-06", "last_added": "2026-09-19", "off": false}, {"name": "US State Abbreviations", "questions": 100, "insane_rounds": 1, "insane_answers": 50, "fun_facts": 0, "pictures": 0, "asked": 41, "insane_asked": 1, "first_added": "2026-07-19", "last_added": "2026-09-15", "off": false}, {"name": "A Knight of the Seven Kingdoms", "questions": 100, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 15, "pictures": 0, "asked": 20, "insane_asked": 0, "first_added": "2026-09-06", "last_added": "2026-09-06", "off": false}, {"name": "K-Pop", "questions": 100, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 0, "asked": 0, "insane_asked": 0, "first_added": "2026-09-30", "last_added": "2026-09-30", "off": false}, {"name": "Stranger Things", "questions": 100, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 15, "pictures": 0, "asked": 40, "insane_asked": 0, "first_added": "2026-09-06", "last_added": "2026-09-06", "off": false}, {"name": "What Links", "questions": 100, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 0, "asked": 53, "insane_asked": 0, "first_added": "2026-09-06", "last_added": "2026-09-06", "off": false}, {"name": "Whos That Pokemon (Gen 2)", "questions": 100, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 100, "asked": 19, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": false}, {"name": "Family Guy", "questions": 96, "insane_rounds": 1, "insane_answers": 77, "fun_facts": 15, "pictures": 0, "asked": 20, "insane_asked": 1, "first_added": "2026-09-06", "last_added": "2026-09-19", "off": false}, {"name": "Whos That Pokemon (Gen 8)", "questions": 96, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 96, "asked": 15, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": true}, {"name": "MLB", "questions": 89, "insane_rounds": 2, "insane_answers": 55, "fun_facts": 0, "pictures": 0, "asked": 14, "insane_asked": 2, "first_added": "2026-07-19", "last_added": "2026-09-19", "off": false}, {"name": "Whos That Pokemon (Gen 7)", "questions": 88, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 88, "asked": 7, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": true}, {"name": "Whos That Pokemon (Gen 6)", "questions": 72, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 72, "asked": 7, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": true}, {"name": "US State Flags", "questions": 55, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 55, "asked": 28, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": false}, {"name": "US States (Map)", "questions": 55, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 55, "asked": 31, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": false}, {"name": "US State Capitals", "questions": 53, "insane_rounds": 0, "insane_answers": 0, "fun_facts": 0, "pictures": 0, "asked": 26, "insane_asked": 0, "first_added": "2026-07-19", "last_added": "2026-07-19", "off": false}], "added": [{"day": "2026-07-19", "categories": [["Disney", 931, 3], ["Entertainment", 597, 0], ["General Knowledge", 587, 0], ["Art and Literature", 409, 0], ["Pokemon", 328, 0], ["Wrestling", 260, 15], ["Star Wars", 257, 0], ["Harry Potter", 242, 4], ["Slogans", 246, 0], ["Music", 233, 0], ["Video Games", 232, 0], ["NBA", 229, 2], ["Sports", 217, 0], ["World Cup", 197, 4], ["Lord of the Rings", 197, 0], ["World Map", 196, 0], ["World Flags", 195, 0], ["World Capitals", 190, 0], ["Chemistry", 172, 1], ["Greek Mythology", 171, 0], ["Whos That Pokemon (Gen 5)", 156, 0], ["Computers", 153, 0], ["Whos That Pokemon (Gen 1)", 149, 0], ["Whos That Pokemon (Gen 3)", 134, 0], ["Elements", 116, 0], ["Whos That Pokemon (Gen 4)", 107, 0], ["US State Abbreviations", 100, 0], ["Whos That Pokemon (Gen 2)", 100, 0], ["Whos That Pokemon (Gen 8)", 96, 0], ["Geography", 85, 7], ["Whos That Pokemon (Gen 7)", 88, 0], ["Whos That Pokemon (Gen 6)", 72, 0], ["Game of Thrones", 59, 3], ["US State Flags", 55, 0], ["US States (Map)", 55, 0], ["US State Capitals", 53, 0], ["MLB", 41, 2], ["Space", 20, 0], ["Phobias", 4, 0]]}, {"day": "2026-09-01", "categories": [["Video Games", 236, 1], ["Wrestling", 204, 0], ["Game of Thrones", 185, 0], ["Sports", 167, 0], ["Geography", 147, 3], ["MLB", 46, 0], ["General Knowledge", 0, 7], ["Space", 3, 1], ["Disney", 0, 3], ["Star Wars", 0, 1]]}, {"day": "2026-09-06", "categories": [["Movies", 474, 0], ["Marvel", 460, 3], ["House of the Dragon", 211, 0], ["A Knight of the Seven Kingdoms", 100, 0], ["Stranger Things", 100, 0], ["What Links", 100, 0], ["Logos", 99, 0], ["The Simpsons", 99, 0], ["Acronyms and Abbreviations", 97, 0], ["Family Guy", 94, 1], ["General Knowledge", 0, 11], ["Wrestling", 0, 8], ["Video Games", 0, 5], ["Geography", 0, 2], ["Music", 0, 2], ["Greek Mythology", 0, 1], ["Sports", 0, 1]]}, {"day": "2026-09-08", "categories": [["Wrestling", 43, 0]]}, {"day": "2026-09-12", "categories": [["Space", 90, 1]]}, {"day": "2026-09-15", "categories": [["Conundrums", 500, 0], ["General Knowledge", 0, 15], ["Wrestling", 0, 4], ["Geography", 0, 3], ["Movies", 0, 3], ["Sports", 0, 3], ["Acronyms and Abbreviations", 0, 1], ["Game of Thrones", 0, 1], ["Music", 0, 1], ["US State Abbreviations", 0, 1], ["Video Games", 0, 1]]}, {"day": "2026-09-16", "categories": [["Acronyms and Abbreviations", 100, 0]]}, {"day": "2026-09-17", "categories": [["General Knowledge", 287, 0], ["Sports", 97, 0], ["Slogans", 63, 0]]}, {"day": "2026-09-18", "categories": [["Video Games", 478, 0], ["General Knowledge", 39, 0]]}, {"day": "2026-09-19", "categories": [["Music", 313, 0], ["General Knowledge", 261, 0], ["History", 203, 0], ["Movies", 146, 0], ["Geography", 126, 0], ["Entertainment", 105, 0], ["Sports", 63, 0], ["Computers", 62, 0], ["Art and Literature", 40, 0], ["Disney", 17, 0], ["Space", 16, 0], ["Elements", 13, 0], ["Chemistry", 10, 0], ["Harry Potter", 7, 0], ["Lord of the Rings", 6, 0], ["Phobias", 6, 0], ["The Simpsons", 6, 0], ["Game of Thrones", 5, 0], ["NBA", 5, 0], ["Star Wars", 5, 0], ["Marvel", 4, 0], ["World Cup", 3, 0], ["Family Guy", 2, 0], ["MLB", 2, 0], ["Video Games", 1, 0], ["Wrestling", 1, 0]]}, {"day": "2026-09-21", "categories": [["Quotes", 127, 0]]}, {"day": "2026-09-26", "categories": [["Phobias", 163, 0]]}, {"day": "2026-09-29", "categories": [["Logos", 61, 0]]}, {"day": "2026-09-30", "categories": [["K-Pop", 100, 0]]}, {"day": "2026-10-01", "categories": [["General Knowledge", 0, 13], ["Geography", 0, 10], ["Video Games", 0, 5], ["History", 0, 3], ["Entertainment", 0, 2], ["Movies", 0, 2], ["Disney", 0, 1], ["Music", 0, 1], ["Space", 0, 1]]}]}
+{
+  "categories": [
+    {
+      "name": "General Knowledge",
+      "questions": 1174,
+      "insane_rounds": 46,
+      "insane_answers": 2981,
+      "fun_facts": 67,
+      "pictures": 0,
+      "asked": 406,
+      "insane_asked": 35,
+      "first_added": "2026-07-19",
+      "last_added": "2026-10-01",
+      "off": false
+    },
+    {
+      "name": "Video Games",
+      "questions": 947,
+      "insane_rounds": 12,
+      "insane_answers": 1611,
+      "fun_facts": 121,
+      "pictures": 0,
+      "asked": 287,
+      "insane_asked": 7,
+      "first_added": "2026-07-19",
+      "last_added": "2026-10-01",
+      "off": false
+    },
+    {
+      "name": "Disney",
+      "questions": 948,
+      "insane_rounds": 7,
+      "insane_answers": 225,
+      "fun_facts": 3,
+      "pictures": 0,
+      "asked": 167,
+      "insane_asked": 6,
+      "first_added": "2026-07-19",
+      "last_added": "2026-10-01",
+      "off": false
+    },
+    {
+      "name": "Entertainment",
+      "questions": 702,
+      "insane_rounds": 2,
+      "insane_answers": 109,
+      "fun_facts": 702,
+      "pictures": 0,
+      "asked": 298,
+      "insane_asked": 1,
+      "first_added": "2026-07-19",
+      "last_added": "2026-10-01",
+      "off": false
+    },
+    {
+      "name": "Movies",
+      "questions": 620,
+      "insane_rounds": 5,
+      "insane_answers": 305,
+      "fun_facts": 128,
+      "pictures": 0,
+      "asked": 169,
+      "insane_asked": 4,
+      "first_added": "2026-09-06",
+      "last_added": "2026-10-01",
+      "off": false
+    },
+    {
+      "name": "Music",
+      "questions": 546,
+      "insane_rounds": 4,
+      "insane_answers": 358,
+      "fun_facts": 546,
+      "pictures": 0,
+      "asked": 179,
+      "insane_asked": 3,
+      "first_added": "2026-07-19",
+      "last_added": "2026-10-01",
+      "off": false
+    },
+    {
+      "name": "Sports",
+      "questions": 544,
+      "insane_rounds": 4,
+      "insane_answers": 112,
+      "fun_facts": 21,
+      "pictures": 0,
+      "asked": 533,
+      "insane_asked": 4,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Wrestling",
+      "questions": 508,
+      "insane_rounds": 27,
+      "insane_answers": 788,
+      "fun_facts": 128,
+      "pictures": 0,
+      "asked": 378,
+      "insane_asked": 27,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Conundrums",
+      "questions": 500,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 500,
+      "pictures": 0,
+      "asked": 151,
+      "insane_asked": 0,
+      "first_added": "2026-09-15",
+      "last_added": "2026-09-15",
+      "off": false
+    },
+    {
+      "name": "Marvel",
+      "questions": 464,
+      "insane_rounds": 3,
+      "insane_answers": 992,
+      "fun_facts": 123,
+      "pictures": 0,
+      "asked": 315,
+      "insane_asked": 3,
+      "first_added": "2026-09-06",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Art and Literature",
+      "questions": 449,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 449,
+      "pictures": 0,
+      "asked": 95,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Geography",
+      "questions": 358,
+      "insane_rounds": 25,
+      "insane_answers": 931,
+      "fun_facts": 358,
+      "pictures": 0,
+      "asked": 173,
+      "insane_asked": 16,
+      "first_added": "2026-07-19",
+      "last_added": "2026-10-01",
+      "off": false
+    },
+    {
+      "name": "Pokemon",
+      "questions": 328,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 33,
+      "asked": 49,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": false
+    },
+    {
+      "name": "Slogans",
+      "questions": 309,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 20,
+      "pictures": 0,
+      "asked": 134,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-17",
+      "off": false
+    },
+    {
+      "name": "Star Wars",
+      "questions": 262,
+      "insane_rounds": 1,
+      "insane_answers": 40,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 45,
+      "insane_asked": 1,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Game of Thrones",
+      "questions": 249,
+      "insane_rounds": 4,
+      "insane_answers": 177,
+      "fun_facts": 64,
+      "pictures": 0,
+      "asked": 130,
+      "insane_asked": 4,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Harry Potter",
+      "questions": 249,
+      "insane_rounds": 4,
+      "insane_answers": 90,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 137,
+      "insane_asked": 4,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "NBA",
+      "questions": 234,
+      "insane_rounds": 2,
+      "insane_answers": 51,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 102,
+      "insane_asked": 2,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Computers",
+      "questions": 215,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 34,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "House of the Dragon",
+      "questions": 211,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 61,
+      "pictures": 0,
+      "asked": 102,
+      "insane_asked": 0,
+      "first_added": "2026-09-06",
+      "last_added": "2026-09-06",
+      "off": false
+    },
+    {
+      "name": "History",
+      "questions": 203,
+      "insane_rounds": 3,
+      "insane_answers": 119,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 26,
+      "insane_asked": 0,
+      "first_added": "2026-09-19",
+      "last_added": "2026-10-01",
+      "off": false
+    },
+    {
+      "name": "World Cup",
+      "questions": 200,
+      "insane_rounds": 4,
+      "insane_answers": 51,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 40,
+      "insane_asked": 4,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Lord of the Rings",
+      "questions": 203,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 35,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Acronyms and Abbreviations",
+      "questions": 197,
+      "insane_rounds": 1,
+      "insane_answers": 26,
+      "fun_facts": 65,
+      "pictures": 0,
+      "asked": 57,
+      "insane_asked": 1,
+      "first_added": "2026-09-06",
+      "last_added": "2026-09-16",
+      "off": false
+    },
+    {
+      "name": "World Map",
+      "questions": 196,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 196,
+      "asked": 108,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": false
+    },
+    {
+      "name": "World Flags",
+      "questions": 195,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 195,
+      "asked": 195,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": false
+    },
+    {
+      "name": "World Capitals",
+      "questions": 190,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 98,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": false
+    },
+    {
+      "name": "Chemistry",
+      "questions": 182,
+      "insane_rounds": 1,
+      "insane_answers": 118,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 25,
+      "insane_asked": 1,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Phobias",
+      "questions": 173,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 173,
+      "pictures": 0,
+      "asked": 17,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-26",
+      "off": false
+    },
+    {
+      "name": "Greek Mythology",
+      "questions": 171,
+      "insane_rounds": 1,
+      "insane_answers": 59,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 29,
+      "insane_asked": 1,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-06",
+      "off": false
+    },
+    {
+      "name": "Logos",
+      "questions": 160,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 160,
+      "asked": 160,
+      "insane_asked": 0,
+      "first_added": "2026-09-06",
+      "last_added": "2026-09-29",
+      "off": false
+    },
+    {
+      "name": "Whos That Pokemon (Gen 5)",
+      "questions": 156,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 156,
+      "asked": 22,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": true
+    },
+    {
+      "name": "Whos That Pokemon (Gen 1)",
+      "questions": 149,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 149,
+      "asked": 38,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": false
+    },
+    {
+      "name": "Whos That Pokemon (Gen 3)",
+      "questions": 134,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 134,
+      "asked": 31,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": false
+    },
+    {
+      "name": "Space",
+      "questions": 129,
+      "insane_rounds": 3,
+      "insane_answers": 158,
+      "fun_facts": 47,
+      "pictures": 0,
+      "asked": 26,
+      "insane_asked": 2,
+      "first_added": "2026-07-19",
+      "last_added": "2026-10-01",
+      "off": false
+    },
+    {
+      "name": "Elements",
+      "questions": 129,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 25,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Quotes",
+      "questions": 127,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 20,
+      "pictures": 0,
+      "asked": 19,
+      "insane_asked": 0,
+      "first_added": "2026-09-21",
+      "last_added": "2026-09-21",
+      "off": false
+    },
+    {
+      "name": "Whos That Pokemon (Gen 4)",
+      "questions": 107,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 107,
+      "asked": 12,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": true
+    },
+    {
+      "name": "The Simpsons",
+      "questions": 105,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 16,
+      "pictures": 0,
+      "asked": 33,
+      "insane_asked": 0,
+      "first_added": "2026-09-06",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "US State Abbreviations",
+      "questions": 100,
+      "insane_rounds": 1,
+      "insane_answers": 50,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 41,
+      "insane_asked": 1,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-15",
+      "off": false
+    },
+    {
+      "name": "A Knight of the Seven Kingdoms",
+      "questions": 100,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 15,
+      "pictures": 0,
+      "asked": 20,
+      "insane_asked": 0,
+      "first_added": "2026-09-06",
+      "last_added": "2026-09-06",
+      "off": false
+    },
+    {
+      "name": "K-Pop",
+      "questions": 100,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 0,
+      "insane_asked": 0,
+      "first_added": "2026-09-30",
+      "last_added": "2026-09-30",
+      "off": false
+    },
+    {
+      "name": "Stranger Things",
+      "questions": 100,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 15,
+      "pictures": 0,
+      "asked": 40,
+      "insane_asked": 0,
+      "first_added": "2026-09-06",
+      "last_added": "2026-09-06",
+      "off": false
+    },
+    {
+      "name": "What Links",
+      "questions": 100,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 53,
+      "insane_asked": 0,
+      "first_added": "2026-09-06",
+      "last_added": "2026-09-06",
+      "off": false
+    },
+    {
+      "name": "Whos That Pokemon (Gen 2)",
+      "questions": 100,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 100,
+      "asked": 19,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": false
+    },
+    {
+      "name": "Family Guy",
+      "questions": 96,
+      "insane_rounds": 1,
+      "insane_answers": 77,
+      "fun_facts": 15,
+      "pictures": 0,
+      "asked": 20,
+      "insane_asked": 1,
+      "first_added": "2026-09-06",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Whos That Pokemon (Gen 8)",
+      "questions": 96,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 96,
+      "asked": 15,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": true
+    },
+    {
+      "name": "MLB",
+      "questions": 89,
+      "insane_rounds": 2,
+      "insane_answers": 55,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 14,
+      "insane_asked": 2,
+      "first_added": "2026-07-19",
+      "last_added": "2026-09-19",
+      "off": false
+    },
+    {
+      "name": "Whos That Pokemon (Gen 7)",
+      "questions": 88,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 88,
+      "asked": 7,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": true
+    },
+    {
+      "name": "Whos That Pokemon (Gen 6)",
+      "questions": 72,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 72,
+      "asked": 7,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": true
+    },
+    {
+      "name": "US State Flags",
+      "questions": 55,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 55,
+      "asked": 28,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": false
+    },
+    {
+      "name": "US States (Map)",
+      "questions": 55,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 55,
+      "asked": 31,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": false
+    },
+    {
+      "name": "US State Capitals",
+      "questions": 53,
+      "insane_rounds": 0,
+      "insane_answers": 0,
+      "fun_facts": 0,
+      "pictures": 0,
+      "asked": 26,
+      "insane_asked": 0,
+      "first_added": "2026-07-19",
+      "last_added": "2026-07-19",
+      "off": false
+    }
+  ],
+  "added": [
+    {
+      "day": "2026-07-19",
+      "categories": [
+        [
+          "Disney",
+          931,
+          3
+        ],
+        [
+          "Entertainment",
+          597,
+          0
+        ],
+        [
+          "General Knowledge",
+          587,
+          0
+        ],
+        [
+          "Art and Literature",
+          409,
+          0
+        ],
+        [
+          "Pokemon",
+          328,
+          0
+        ],
+        [
+          "Wrestling",
+          260,
+          15
+        ],
+        [
+          "Star Wars",
+          257,
+          0
+        ],
+        [
+          "Harry Potter",
+          242,
+          4
+        ],
+        [
+          "Slogans",
+          246,
+          0
+        ],
+        [
+          "Music",
+          233,
+          0
+        ],
+        [
+          "Video Games",
+          232,
+          0
+        ],
+        [
+          "NBA",
+          229,
+          2
+        ],
+        [
+          "Sports",
+          217,
+          0
+        ],
+        [
+          "World Cup",
+          197,
+          4
+        ],
+        [
+          "Lord of the Rings",
+          197,
+          0
+        ],
+        [
+          "World Map",
+          196,
+          0
+        ],
+        [
+          "World Flags",
+          195,
+          0
+        ],
+        [
+          "World Capitals",
+          190,
+          0
+        ],
+        [
+          "Chemistry",
+          172,
+          1
+        ],
+        [
+          "Greek Mythology",
+          171,
+          0
+        ],
+        [
+          "Whos That Pokemon (Gen 5)",
+          156,
+          0
+        ],
+        [
+          "Computers",
+          153,
+          0
+        ],
+        [
+          "Whos That Pokemon (Gen 1)",
+          149,
+          0
+        ],
+        [
+          "Whos That Pokemon (Gen 3)",
+          134,
+          0
+        ],
+        [
+          "Elements",
+          116,
+          0
+        ],
+        [
+          "Whos That Pokemon (Gen 4)",
+          107,
+          0
+        ],
+        [
+          "US State Abbreviations",
+          100,
+          0
+        ],
+        [
+          "Whos That Pokemon (Gen 2)",
+          100,
+          0
+        ],
+        [
+          "Whos That Pokemon (Gen 8)",
+          96,
+          0
+        ],
+        [
+          "Geography",
+          85,
+          7
+        ],
+        [
+          "Whos That Pokemon (Gen 7)",
+          88,
+          0
+        ],
+        [
+          "Whos That Pokemon (Gen 6)",
+          72,
+          0
+        ],
+        [
+          "Game of Thrones",
+          59,
+          3
+        ],
+        [
+          "US State Flags",
+          55,
+          0
+        ],
+        [
+          "US States (Map)",
+          55,
+          0
+        ],
+        [
+          "US State Capitals",
+          53,
+          0
+        ],
+        [
+          "MLB",
+          41,
+          2
+        ],
+        [
+          "Space",
+          20,
+          0
+        ],
+        [
+          "Phobias",
+          4,
+          0
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-01",
+      "categories": [
+        [
+          "Video Games",
+          236,
+          1
+        ],
+        [
+          "Wrestling",
+          204,
+          0
+        ],
+        [
+          "Game of Thrones",
+          185,
+          0
+        ],
+        [
+          "Sports",
+          167,
+          0
+        ],
+        [
+          "Geography",
+          147,
+          3
+        ],
+        [
+          "MLB",
+          46,
+          0
+        ],
+        [
+          "General Knowledge",
+          0,
+          7
+        ],
+        [
+          "Space",
+          3,
+          1
+        ],
+        [
+          "Disney",
+          0,
+          3
+        ],
+        [
+          "Star Wars",
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-06",
+      "categories": [
+        [
+          "Movies",
+          474,
+          0
+        ],
+        [
+          "Marvel",
+          460,
+          3
+        ],
+        [
+          "House of the Dragon",
+          211,
+          0
+        ],
+        [
+          "A Knight of the Seven Kingdoms",
+          100,
+          0
+        ],
+        [
+          "Stranger Things",
+          100,
+          0
+        ],
+        [
+          "What Links",
+          100,
+          0
+        ],
+        [
+          "Logos",
+          99,
+          0
+        ],
+        [
+          "The Simpsons",
+          99,
+          0
+        ],
+        [
+          "Acronyms and Abbreviations",
+          97,
+          0
+        ],
+        [
+          "Family Guy",
+          94,
+          1
+        ],
+        [
+          "General Knowledge",
+          0,
+          11
+        ],
+        [
+          "Wrestling",
+          0,
+          8
+        ],
+        [
+          "Video Games",
+          0,
+          5
+        ],
+        [
+          "Geography",
+          0,
+          2
+        ],
+        [
+          "Music",
+          0,
+          2
+        ],
+        [
+          "Greek Mythology",
+          0,
+          1
+        ],
+        [
+          "Sports",
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-08",
+      "categories": [
+        [
+          "Wrestling",
+          43,
+          0
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-12",
+      "categories": [
+        [
+          "Space",
+          90,
+          1
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-15",
+      "categories": [
+        [
+          "Conundrums",
+          500,
+          0
+        ],
+        [
+          "General Knowledge",
+          0,
+          15
+        ],
+        [
+          "Wrestling",
+          0,
+          4
+        ],
+        [
+          "Geography",
+          0,
+          3
+        ],
+        [
+          "Movies",
+          0,
+          3
+        ],
+        [
+          "Sports",
+          0,
+          3
+        ],
+        [
+          "Acronyms and Abbreviations",
+          0,
+          1
+        ],
+        [
+          "Game of Thrones",
+          0,
+          1
+        ],
+        [
+          "Music",
+          0,
+          1
+        ],
+        [
+          "US State Abbreviations",
+          0,
+          1
+        ],
+        [
+          "Video Games",
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-16",
+      "categories": [
+        [
+          "Acronyms and Abbreviations",
+          100,
+          0
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-17",
+      "categories": [
+        [
+          "General Knowledge",
+          287,
+          0
+        ],
+        [
+          "Sports",
+          97,
+          0
+        ],
+        [
+          "Slogans",
+          63,
+          0
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-18",
+      "categories": [
+        [
+          "Video Games",
+          478,
+          0
+        ],
+        [
+          "General Knowledge",
+          39,
+          0
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-19",
+      "categories": [
+        [
+          "Music",
+          313,
+          0
+        ],
+        [
+          "General Knowledge",
+          261,
+          0
+        ],
+        [
+          "History",
+          203,
+          0
+        ],
+        [
+          "Movies",
+          146,
+          0
+        ],
+        [
+          "Geography",
+          126,
+          0
+        ],
+        [
+          "Entertainment",
+          105,
+          0
+        ],
+        [
+          "Sports",
+          63,
+          0
+        ],
+        [
+          "Computers",
+          62,
+          0
+        ],
+        [
+          "Art and Literature",
+          40,
+          0
+        ],
+        [
+          "Disney",
+          17,
+          0
+        ],
+        [
+          "Space",
+          16,
+          0
+        ],
+        [
+          "Elements",
+          13,
+          0
+        ],
+        [
+          "Chemistry",
+          10,
+          0
+        ],
+        [
+          "Harry Potter",
+          7,
+          0
+        ],
+        [
+          "Lord of the Rings",
+          6,
+          0
+        ],
+        [
+          "Phobias",
+          6,
+          0
+        ],
+        [
+          "The Simpsons",
+          6,
+          0
+        ],
+        [
+          "Game of Thrones",
+          5,
+          0
+        ],
+        [
+          "NBA",
+          5,
+          0
+        ],
+        [
+          "Star Wars",
+          5,
+          0
+        ],
+        [
+          "Marvel",
+          4,
+          0
+        ],
+        [
+          "World Cup",
+          3,
+          0
+        ],
+        [
+          "Family Guy",
+          2,
+          0
+        ],
+        [
+          "MLB",
+          2,
+          0
+        ],
+        [
+          "Video Games",
+          1,
+          0
+        ],
+        [
+          "Wrestling",
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-21",
+      "categories": [
+        [
+          "Quotes",
+          127,
+          0
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-26",
+      "categories": [
+        [
+          "Phobias",
+          163,
+          0
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-29",
+      "categories": [
+        [
+          "Logos",
+          61,
+          0
+        ]
+      ]
+    },
+    {
+      "day": "2026-09-30",
+      "categories": [
+        [
+          "K-Pop",
+          100,
+          0
+        ]
+      ]
+    },
+    {
+      "day": "2026-10-01",
+      "categories": [
+        [
+          "General Knowledge",
+          0,
+          13
+        ],
+        [
+          "Geography",
+          0,
+          10
+        ],
+        [
+          "Video Games",
+          0,
+          5
+        ],
+        [
+          "History",
+          0,
+          3
+        ],
+        [
+          "Entertainment",
+          0,
+          2
+        ],
+        [
+          "Movies",
+          0,
+          2
+        ],
+        [
+          "Disney",
+          0,
+          1
+        ],
+        [
+          "Music",
+          0,
+          1
+        ],
+        [
+          "Space",
+          0,
+          1
+        ]
+      ]
+    }
+  ]
+}
