@@ -527,6 +527,7 @@ const B = (() => {
     help: ".######.|##....##|......##|....###.|...##...|...##...|........|...##...",
     clock: ".######.|#...#..#|#...#..#|#...###.|#......#|#......#|#......#|.######.",
     qblock: "########|#..##..#|#.#..#.#|#....#.#|#...#..#|#......#|#...#..#|########",
+    pumpkin: "...##...|.######.|########|##.##.##|########|#.#.#.##|########|.######.",
   };
   const iconPaths = {};
   function icon(key, cls = "") {
@@ -553,7 +554,7 @@ const B = (() => {
     [/FASTEST|SPEED|QUICK/, "bolt"], [/STREAK|COMBO/, "fire"], [/FIGHT|DUEL|HEAD TO HEAD|RIVAL|VERSUS/, "swords"],
     [/MISSION/, "target"], [/ACHIEVEMENT|BADGE/, "medal"], [/HIGH SCORE|LEADERBOARD|STANDING|FINAL SCORE|PODIUM|CHAMPION|PRIZE/, "trophy"],
     [/HALL OF FAME|RECORD|SEASON|TIER|SPOTLIGHT/, "star"], [/KIRK|CROWNING/, "crown"], [/ACTIVITY|MOMENTUM|SCORE RACE/, "chart"], [/REPLAY|MATCH|ROUND/, "play"],
-    [/XP|LEVEL/, "xp"], [/POINT/, "coin"], [/GAME/, "joystick"], [/CATEGOR/, "grid"], [/BANK|ADDED/, "qblock"], [/COSMETIC|LOADOUT/, "shirt"],
+    [/XP|LEVEL/, "xp"], [/POINT/, "coin"], [/GAME/, "joystick"], [/CATEGOR/, "grid"], [/BANK|ADDED/, "qblock"], [/COMING UP/, "clock"], [/LIVE NOW/, "play"], [/COSMETIC|LOADOUT/, "shirt"],
     [/BUG|COMMUNITY|REPORT/, "bug"], [/KIRK|CROWN|REIGN/, "crown"], [/CHANGE|UPDATE/, "scroll"], [/PUMPKIN/, "fire"],
     [/BASIC|HOW TO/, "help"], [/SCORING/, "coin"], [/HINT/, "target"], [/EXTRA/, "gem"], [/COMMAND/, "scroll"],
   ];

@@ -1,0 +1,100 @@
+{
+  "events": [
+    {
+      "key": "daily-2026-10-02",
+      "kind": "daily",
+      "title": "Daily Trivia",
+      "detail": "50 questions, double XP",
+      "start": "2026-10-02T18:00:00+00:00",
+      "end": null
+    },
+    {
+      "key": "dxp-2026-10-03",
+      "kind": "double_xp",
+      "title": "Double XP Weekend",
+      "detail": "Every game is worth double XP",
+      "start": "2026-10-03T00:00:00+00:00",
+      "end": "2026-10-05T00:00:00+00:00"
+    },
+    {
+      "key": "daily-2026-10-03",
+      "kind": "daily",
+      "title": "Daily Trivia",
+      "detail": "50 questions, double XP",
+      "start": "2026-10-03T18:00:00+00:00",
+      "end": null
+    },
+    {
+      "key": "daily-2026-10-04",
+      "kind": "daily",
+      "title": "Daily Trivia",
+      "detail": "50 questions, double XP",
+      "start": "2026-10-04T18:00:00+00:00",
+      "end": null
+    },
+    {
+      "key": "recap-2026-10-05",
+      "kind": "recap",
+      "title": "Weekly Recap",
+      "detail": "Last week's top scorer, busiest category and hardest question",
+      "start": "2026-10-05T14:00:00+00:00",
+      "end": null
+    },
+    {
+      "key": "dxp-2026-10-10",
+      "kind": "double_xp",
+      "title": "Double XP Weekend",
+      "detail": "Every game is worth double XP",
+      "start": "2026-10-10T00:00:00+00:00",
+      "end": "2026-10-12T00:00:00+00:00"
+    },
+    {
+      "key": "recap-2026-10-12",
+      "kind": "recap",
+      "title": "Weekly Recap",
+      "detail": "Last week's top scorer, busiest category and hardest question",
+      "start": "2026-10-12T14:00:00+00:00",
+      "end": null
+    },
+    {
+      "key": "dxp-2026-10-17",
+      "kind": "double_xp",
+      "title": "Double XP Weekend",
+      "detail": "Every game is worth double XP",
+      "start": "2026-10-17T00:00:00+00:00",
+      "end": "2026-10-19T00:00:00+00:00"
+    },
+    {
+      "key": "recap-2026-10-19",
+      "kind": "recap",
+      "title": "Weekly Recap",
+      "detail": "Last week's top scorer, busiest category and hardest question",
+      "start": "2026-10-19T14:00:00+00:00",
+      "end": null
+    },
+    {
+      "key": "halloween-daily",
+      "kind": "halloween",
+      "title": "Halloween Daily Trivia",
+      "detail": "All 50 questions are Halloween, at 3x XP (6x with Double XP Weekend)",
+      "start": "2026-10-31T18:00:00+00:00",
+      "end": null
+    },
+    {
+      "key": "halloween-category",
+      "kind": "halloween",
+      "title": "Halloween category opens",
+      "detail": "Pick Halloween in /trivia start like any other category",
+      "start": "2026-11-01T04:00:00+00:00",
+      "end": null
+    },
+    {
+      "key": "season-season_0-end",
+      "kind": "season",
+      "title": "Season 0 ends · Season 1 begins",
+      "detail": "Season 0's final standings lock",
+      "start": "2026-11-02T15:00:00+00:00",
+      "end": null
+    }
+  ]
+}

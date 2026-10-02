@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20261002f">
-<script src="assets/bertha.js?v=20261002f"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20261002h">
+<script src="assets/bertha.js?v=20261002h"></script>
 <style>
   .tagline { font-size: clamp(9px, 2.6vw, 12px); letter-spacing: clamp(1px, .6vw, 3px); }
   .marquee {
@@ -75,11 +75,12 @@
 
   try {
     await B.loadPlayers();
-    const [lb, matches, bugs, missions] = await Promise.all([
+    const [lb, matches, bugs, missions, events] = await Promise.all([
       B.json("stats/leaderboard.json"),
       B.allMatches(),
       B.json("bug-reports.json").catch(() => ({ reports: [] })),
       B.json("missions.json").catch(() => ({ week: null })),
+      B.json("events.json").catch(() => ({ events: [] })),
     ]);
     const levels = Object.fromEntries(lb.players.map(p => [p.user_id, p.level.level]));
     app.replaceChildren();
@@ -119,6 +120,54 @@
       app.append(el("h2", { class: "section" }, "LAST FIGHT", el("a", { href: "replays.html#duels" }, `ALL ${duels.length} DUELS ▸`)));
       app.append(B.fightCard(fight, levels));
       app.append(el("p", { class: "center" }, el("a", { href: B.matchHref(fight), style: { font: "11px var(--pixel)" } }, "WATCH THE REPLAY ▸")));
+    }
+
+    // ---------- COMING UP (events.json, from the bot's own schedule: site_metrics.build_events) ----------
+    // Whatever's on right now, then the next of each repeating thing and every one-off, soonest first.
+    const KINDS = {
+      daily: ["var(--yellow)", "clock"], double_xp: ["var(--neon)", "xp"], recap: ["var(--cyan)", "scroll"],
+      season: ["var(--purple)", "star"], halloween: ["var(--pink)", "pumpkin"],
+    };
+    function comingUp() {
+      const now = Date.now();
+      const live = [], next = [], seen = new Set();
+      for (const e of (events.events || [])) {
+        const start = Date.parse(e.start), end = e.end ? Date.parse(e.end) : null;
+        if ((end || start) <= now) continue;
+        if (start <= now) { live.push(e); continue; }
+        // repeating events: only the next one of each
+        if (["daily", "double_xp", "recap"].includes(e.kind)) { if (seen.has(e.kind)) continue; seen.add(e.kind); }
+        next.push(e);
+      }
+      return [...live.map(e => [e, true]), ...next.map(e => [e, false])].slice(0, 6);
+    }
+    const WHEN = new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    const upList = el("div", { class: "upcoming" });
+    function drawUp() {
+      const rows = comingUp();
+      upList.replaceChildren(...rows.map(([e, on]) => {
+        const [c, ic] = KINDS[e.kind] || ["var(--cyan)", "star"];
+        const target = Date.parse(on ? e.end : e.start);
+        return el("div", { class: `up${on ? " on" : ""}`, style: { "--c": c } },
+          el("span", { class: "ic" }, B.icon(ic)),
+          el("span", { class: "what" }, el("b", {}, e.title), el("small", {}, e.detail)),
+          el("span", { class: "when" },
+            el("span", { class: "cd", "data-to": target }, `${on ? "ENDS IN " : "IN "}${B.clock((target - Date.now()) / 1000)}`),
+            el("small", {}, on ? "ON NOW" : `${WHEN.format(new Date(e.start))} ET`)));
+      }));
+    }
+    if (comingUp().length) {
+      app.append(el("h2", { class: "section" }, "COMING UP"));
+      drawUp();
+      app.append(upList);
+      setInterval(() => {
+        // something just started or finished: rebuild; otherwise just tick the countdowns
+        const due = [...upList.querySelectorAll("[data-to]")].some(t => +t.dataset.to <= Date.now());
+        if (due) { drawUp(); return; }
+        for (const t of upList.querySelectorAll("[data-to]")) {
+          t.textContent = `${t.closest(".up").classList.contains("on") ? "ENDS IN " : "IN "}${B.clock((+t.dataset.to - Date.now()) / 1000)}`;
+        }
+      }, 1000);
     }
 
     // ---------- THIS WEEK'S MISSIONS ----------

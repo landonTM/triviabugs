@@ -433,6 +433,23 @@ a.mrow:active, a.frow:active, a.pcard:active { transform: translate(4px, 4px); b
 /* a player's name as a tile's value wraps instead of being cut off ("obdrispook...") */
 .tile .value:has(a) { white-space: normal; overflow-wrap: anywhere; line-height: 1.05; }
 
+/* ---------- COMING UP (index.html, events.json) ---------- */
+.upcoming { display: grid; gap: 10px; }
+.up { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 14px; align-items: center; border: 4px solid var(--line-dim);
+  border-left-color: var(--c); background: var(--panel); padding: 12px 16px; }
+.up.on { border-color: var(--c); box-shadow: 0 0 14px color-mix(in srgb, var(--c) 35%, transparent); }
+.up .ic { color: var(--c); font-size: 22px; display: flex; }
+.up .what { display: flex; flex-direction: column; min-width: 0; }
+.up .what b { font: 11px/1.6 var(--pixel); color: var(--c); font-weight: 400; }
+.up .what small, .up .when small { color: var(--muted); font-size: 19px; line-height: 1.2; }
+.up .when { display: flex; flex-direction: column; align-items: flex-end; text-align: right; gap: 2px; }
+.up .cd { font: 11px/1.6 var(--pixel); color: var(--text); white-space: nowrap; }
+.up.on .when small { color: var(--c); font: 9px/1.8 var(--pixel); }
+@media (max-width: 620px) {
+  .up { grid-template-columns: auto minmax(0, 1fr); }
+  .up .when { grid-column: 2; align-items: flex-start; text-align: left; flex-direction: row; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+}
+
 /* ---------- LIVE NOW (replays.html, from the bot's /live) ---------- */
 .live-dot { display: inline-block; width: .7em; height: .7em; background: var(--pink); margin-right: 8px; animation: live-blink 1s steps(2, end) infinite; }
 @keyframes live-blink { 50% { opacity: .25; } }
