@@ -2,38 +2,38 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 43,
-    "xp_into_level": 50546,
+    "xp_into_level": 51182,
     "xp_for_level": 64000,
-    "progress": 0.78978125,
+    "progress": 0.79971875,
     "maxed": false
   },
-  "total_xp": 1022046,
+  "total_xp": 1022682,
   "period_stats": {
-    "daily_points": 4,
-    "daily_correct": 1,
-    "weekly_points": 1596,
+    "daily_points": 8,
+    "daily_correct": 2,
+    "weekly_points": 1599,
     "weekly_correct": 674,
-    "monthly_points": 4606,
-    "monthly_correct": 2093,
-    "yearly_points": 4896,
-    "yearly_correct": 2257,
-    "alltime_points": 4896,
-    "alltime_correct": 2257
+    "monthly_points": 4610,
+    "monthly_correct": 2094,
+    "yearly_points": 4900,
+    "yearly_correct": 2258,
+    "alltime_points": 4900,
+    "alltime_correct": 2258
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3616,
-    "questions_right": 974,
+    "total_points": 3620,
+    "questions_right": 975,
     "questions_wrong": 0,
-    "wins": 974,
+    "wins": 975,
     "current_streak": 1,
     "best_streak": 27,
-    "games_played": 138,
+    "games_played": 139,
     "insane_guesses": 979,
-    "day_streak": 9,
-    "last_played_date": "2026-10-01",
-    "total_xp": 1022046,
+    "day_streak": 10,
+    "last_played_date": "2026-10-02",
+    "total_xp": 1022682,
     "game_wins": 43,
     "achievement_best_streak": 27
   },
@@ -54,14 +54,14 @@
     "guesses": 20
   },
   "total_insane_correct": 1284,
-  "average_guess_ms": 15690.549845837617,
+  "average_guess_ms": 15680.29979466119,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 32
   },
   "spelling_accuracy": {
-    "exact_count": 1791,
-    "total": 2043
+    "exact_count": 1792,
+    "total": 2044
   },
   "achievements": {
     "catalog": [
@@ -3671,18 +3671,18 @@
       "duel": 39150,
       "mission": 30000,
       "achievement": 728500,
-      "game": 224396
+      "game": 225032
     },
     "game_layers": {
-      "base": 25463,
-      "daily": 6586,
+      "base": 25781,
+      "daily": 6904,
       "replay": 401,
       "hardcore": 2627
     },
     "pass": {
       "season_0": {
         "pumpkin": 577,
-        "game": 19775,
+        "game": 20093,
         "duel": 2350,
         "mission": 1500
       }
@@ -3946,8 +3946,8 @@
     ],
     [
       "2026-10-02",
-      4,
-      1
+      8,
+      2
     ]
   ]
 }
