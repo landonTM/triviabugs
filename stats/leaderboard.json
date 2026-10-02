@@ -1036,21 +1036,39 @@
         "cosmetics_owned": 76
       },
       "periods": {
-        "daily": {},
+        "daily": {
+          "points": 25,
+          "correct": 12,
+          "standard_correct": 5,
+          "insane_finds": 7,
+          "avg_guess_ms": 14940.2,
+          "fastest_ms": 3956,
+          "under_5s": 2,
+          "exact_spelling": 11,
+          "spelled": 12,
+          "best_streak": 3,
+          "active_days": 1,
+          "games_played": 1,
+          "categories_played": 6,
+          "best_insane_round": 7,
+          "best_game_points": 25,
+          "played_daily": 1,
+          "bug_reports": 1
+        },
         "weekly": {
-          "points": 1746,
-          "correct": 855,
-          "standard_correct": 311,
-          "insane_finds": 544,
-          "avg_guess_ms": 10306.225080385851,
+          "points": 1718,
+          "correct": 836,
+          "standard_correct": 304,
+          "insane_finds": 532,
+          "avg_guess_ms": 9912.404605263158,
           "fastest_ms": 2161,
-          "under_5s": 134,
-          "exact_spelling": 710,
-          "spelled": 855,
+          "under_5s": 135,
+          "exact_spelling": 698,
+          "spelled": 836,
           "best_streak": 45,
-          "active_days": 7,
-          "games_played": 31,
-          "categories_played": 36,
+          "active_days": 8,
+          "games_played": 32,
+          "categories_played": 37,
           "best_insane_round": 25,
           "best_game_points": 232,
           "games_started": 7,
@@ -1062,7 +1080,7 @@
           "duel_rounds_won": 7,
           "duel_avg_ms": 16867.428571428572,
           "duel_fastest_ms": 5933,
-          "played_daily": 7,
+          "played_daily": 8,
           "played_hardcore": 8,
           "played_quickfire": 13,
           "played_standard": 3,
@@ -1077,22 +1095,22 @@
           "xp_game": 251933,
           "achievements": 16,
           "missions": 3,
-          "bug_reports": 2
+          "bug_reports": 3
         },
         "monthly": {
-          "points": 6467,
-          "correct": 3514,
-          "standard_correct": 1221,
-          "insane_finds": 2293,
-          "avg_guess_ms": 14397.875511875513,
+          "points": 6492,
+          "correct": 3526,
+          "standard_correct": 1226,
+          "insane_finds": 2300,
+          "avg_guess_ms": 14400.087275693311,
           "fastest_ms": 2161,
-          "under_5s": 331,
-          "exact_spelling": 2505,
-          "spelled": 3003,
+          "under_5s": 333,
+          "exact_spelling": 2516,
+          "spelled": 3015,
           "best_streak": 45,
-          "active_days": 29,
-          "games_played": 43,
-          "categories_played": 49,
+          "active_days": 30,
+          "games_played": 44,
+          "categories_played": 50,
           "best_insane_round": 26,
           "best_game_points": 232,
           "games_started": 11,
@@ -1104,7 +1122,7 @@
           "duel_rounds_won": 14,
           "duel_avg_ms": 13501.642857142857,
           "duel_fastest_ms": 3268,
-          "played_daily": 10,
+          "played_daily": 11,
           "played_hardcore": 8,
           "played_quickfire": 16,
           "played_standard": 9,
@@ -1120,23 +1138,23 @@
           "xp_mission": 20000,
           "achievements": 73,
           "missions": 3,
-          "bug_reports": 7,
+          "bug_reports": 8,
           "bugs_fixed": 4
         },
         "yearly": {
-          "points": 6906,
-          "correct": 3785,
-          "standard_correct": 1297,
-          "insane_finds": 2488,
-          "avg_guess_ms": 14506.427139552814,
+          "points": 6931,
+          "correct": 3797,
+          "standard_correct": 1302,
+          "insane_finds": 2495,
+          "avg_guess_ms": 14508.092933947773,
           "fastest_ms": 2161,
-          "under_5s": 345,
-          "exact_spelling": 2505,
-          "spelled": 3003,
+          "under_5s": 347,
+          "exact_spelling": 2516,
+          "spelled": 3015,
           "best_streak": 45,
-          "active_days": 33,
-          "games_played": 43,
-          "categories_played": 49,
+          "active_days": 34,
+          "games_played": 44,
+          "categories_played": 50,
           "best_insane_round": 26,
           "best_game_points": 232,
           "games_started": 11,
@@ -1148,7 +1166,7 @@
           "duel_rounds_won": 14,
           "duel_avg_ms": 13501.642857142857,
           "duel_fastest_ms": 3268,
-          "played_daily": 10,
+          "played_daily": 11,
           "played_hardcore": 8,
           "played_quickfire": 16,
           "played_standard": 9,
@@ -1164,23 +1182,23 @@
           "xp_mission": 20000,
           "achievements": 73,
           "missions": 3,
-          "bug_reports": 7,
+          "bug_reports": 8,
           "bugs_fixed": 4
         },
         "alltime": {
-          "points": 6906,
-          "correct": 3785,
-          "standard_correct": 1297,
-          "insane_finds": 2488,
-          "avg_guess_ms": 14506.427139552814,
+          "points": 6931,
+          "correct": 3797,
+          "standard_correct": 1302,
+          "insane_finds": 2495,
+          "avg_guess_ms": 14508.092933947773,
           "fastest_ms": 2161,
-          "under_5s": 345,
-          "exact_spelling": 2505,
-          "spelled": 3003,
+          "under_5s": 347,
+          "exact_spelling": 2516,
+          "spelled": 3015,
           "best_streak": 45,
-          "active_days": 33,
+          "active_days": 34,
           "games_played": 76,
-          "categories_played": 49,
+          "categories_played": 50,
           "best_insane_round": 26,
           "best_game_points": 232,
           "games_started": 11,
@@ -1192,7 +1210,7 @@
           "duel_rounds_won": 14,
           "duel_avg_ms": 13501.642857142857,
           "duel_fastest_ms": 3268,
-          "played_daily": 10,
+          "played_daily": 11,
           "played_hardcore": 8,
           "played_quickfire": 16,
           "played_standard": 9,
@@ -1208,36 +1226,61 @@
           "xp_mission": 20000,
           "achievements": 73,
           "missions": 3,
-          "bug_reports": 7,
+          "bug_reports": 8,
           "bugs_fixed": 4
         }
       },
       "categories": {
-        "daily": {},
+        "daily": {
+          "General Knowledge": [
+            7,
+            7
+          ],
+          "Geography": [
+            1,
+            2
+          ],
+          "Halloween": [
+            1,
+            4
+          ],
+          "Phobias": [
+            1,
+            2
+          ],
+          "What Links": [
+            1,
+            6
+          ],
+          "Whos That Pokemon (Gen 1)": [
+            1,
+            4
+          ]
+        },
         "weekly": {
           "The Simpsons": [
             1,
             4
           ],
           "What Links": [
-            1,
-            6
+            2,
+            12
           ],
           "Phobias": [
-            2,
-            6
+            3,
+            8
           ],
           "US State Abbreviations": [
             9,
             12
           ],
           "Conundrums": [
-            4,
-            13
+            3,
+            12
           ],
           "Video Games": [
-            47,
-            63
+            45,
+            55
           ],
           "Pokemon": [
             2,
@@ -1256,36 +1299,40 @@
             2
           ],
           "Disney": [
-            20,
-            24
+            19,
+            20
           ],
           "Art and Literature": [
-            4,
-            8
+            3,
+            6
           ],
           "Chemistry": [
             1,
             4
           ],
           "Star Wars": [
-            2,
-            3
+            1,
+            1
           ],
           "Space": [
             3,
             3
           ],
           "Whos That Pokemon (Gen 1)": [
+            2,
+            8
+          ],
+          "NBA": [
+            20,
+            32
+          ],
+          "Elements": [
             1,
             4
           ],
-          "NBA": [
-            21,
-            36
-          ],
-          "Elements": [
-            2,
-            6
+          "Halloween": [
+            1,
+            4
           ],
           "Music": [
             30,
@@ -1308,8 +1355,8 @@
             6
           ],
           "Entertainment": [
-            6,
-            20
+            5,
+            18
           ],
           "Game of Thrones": [
             1,
@@ -1320,28 +1367,28 @@
             190
           ],
           "General Knowledge": [
-            150,
-            173
+            156,
+            176
           ],
           "World Cup": [
             25,
             36
           ],
           "Wrestling": [
-            180,
-            306
+            161,
+            287
           ],
           "Geography": [
             104,
-            132
+            130
           ],
           "Logos": [
             18,
             86
           ],
           "Movies": [
-            11,
-            15
+            10,
+            14
           ],
           "Acronyms and Abbreviations": [
             10,
@@ -1374,12 +1421,12 @@
             9
           ],
           "What Links": [
-            7,
-            28
+            8,
+            34
           ],
           "Phobias": [
-            3,
-            7
+            4,
+            9
           ],
           "US State Abbreviations": [
             77,
@@ -1446,8 +1493,8 @@
             34
           ],
           "Whos That Pokemon (Gen 1)": [
-            2,
-            8
+            3,
+            12
           ],
           "NBA": [
             92,
@@ -1456,6 +1503,10 @@
           "Elements": [
             6,
             22
+          ],
+          "Halloween": [
+            1,
+            4
           ],
           "Music": [
             119,
@@ -1498,8 +1549,8 @@
             763
           ],
           "General Knowledge": [
-            525,
-            768
+            532,
+            775
           ],
           "World Cup": [
             86,
@@ -1514,8 +1565,8 @@
             1
           ],
           "Geography": [
-            534,
-            673
+            535,
+            675
           ],
           "Whos That Pokemon (Gen 6)": [
             1,
@@ -1572,12 +1623,12 @@
             11
           ],
           "What Links": [
-            7,
-            28
+            8,
+            34
           ],
           "Phobias": [
-            3,
-            7
+            4,
+            9
           ],
           "US State Abbreviations": [
             78,
@@ -1644,8 +1695,8 @@
             38
           ],
           "Whos That Pokemon (Gen 1)": [
-            3,
-            10
+            4,
+            14
           ],
           "NBA": [
             127,
@@ -1654,6 +1705,10 @@
           "Elements": [
             9,
             34
+          ],
+          "Halloween": [
+            1,
+            4
           ],
           "Music": [
             120,
@@ -1696,8 +1751,8 @@
             783
           ],
           "General Knowledge": [
-            543,
-            802
+            550,
+            809
           ],
           "World Cup": [
             92,
@@ -1712,8 +1767,8 @@
             1
           ],
           "Geography": [
-            570,
-            712
+            571,
+            714
           ],
           "Whos That Pokemon (Gen 6)": [
             1,
@@ -1770,12 +1825,12 @@
             11
           ],
           "What Links": [
-            7,
-            28
+            8,
+            34
           ],
           "Phobias": [
-            3,
-            7
+            4,
+            9
           ],
           "US State Abbreviations": [
             78,
@@ -1842,8 +1897,8 @@
             38
           ],
           "Whos That Pokemon (Gen 1)": [
-            3,
-            10
+            4,
+            14
           ],
           "NBA": [
             127,
@@ -1852,6 +1907,10 @@
           "Elements": [
             9,
             34
+          ],
+          "Halloween": [
+            1,
+            4
           ],
           "Music": [
             120,
@@ -1894,8 +1953,8 @@
             783
           ],
           "General Knowledge": [
-            543,
-            802
+            550,
+            809
           ],
           "World Cup": [
             92,
@@ -1910,8 +1969,8 @@
             1
           ],
           "Geography": [
-            570,
-            712
+            571,
+            714
           ],
           "Whos That Pokemon (Gen 6)": [
             1,
