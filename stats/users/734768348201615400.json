@@ -9,28 +9,28 @@
   },
   "total_xp": 1140483,
   "period_stats": {
-    "daily_points": 25,
-    "daily_correct": 12,
-    "weekly_points": 1718,
-    "weekly_correct": 836,
-    "monthly_points": 6492,
-    "monthly_correct": 3526,
-    "yearly_points": 6931,
-    "yearly_correct": 3797,
-    "alltime_points": 6931,
-    "alltime_correct": 3797
+    "daily_points": 52,
+    "daily_correct": 25,
+    "weekly_points": 1708,
+    "weekly_correct": 822,
+    "monthly_points": 6519,
+    "monthly_correct": 3539,
+    "yearly_points": 6958,
+    "yearly_correct": 3810,
+    "alltime_points": 6958,
+    "alltime_correct": 3810
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 4436,
-    "questions_right": 1302,
+    "total_points": 4457,
+    "questions_right": 1309,
     "questions_wrong": 0,
-    "wins": 1302,
-    "current_streak": 1,
+    "wins": 1309,
+    "current_streak": 2,
     "best_streak": 45,
     "games_played": 76,
-    "insane_guesses": 1566,
+    "insane_guesses": 1572,
     "day_streak": 17,
     "last_played_date": "2026-10-01",
     "total_xp": 1140483,
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2495,
-  "average_guess_ms": 14508.092933947773,
+  "total_insane_correct": 2501,
+  "average_guess_ms": 14526.284950343774,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 34
   },
   "spelling_accuracy": {
-    "exact_count": 2516,
-    "total": 3015
+    "exact_count": 2526,
+    "total": 3028
   },
   "achievements": {
     "catalog": [
@@ -2228,8 +2228,8 @@
     "category_counts": {
       "disney": 50,
       "entertainment": 11,
-      "geo": 423,
-      "gk": 276,
+      "geo": 431,
+      "gk": 277,
       "got": 1,
       "marvel": 28,
       "movies": 13,
@@ -3666,7 +3666,7 @@
     },
     "pass": {
       "season_0": {
-        "pumpkin": 304,
+        "pumpkin": 424,
         "game": 10878,
         "duel": 550,
         "mission": 1000
@@ -3674,9 +3674,9 @@
     },
     "pumpkins": {
       "season_0": {
-        "smashed": 2,
+        "smashed": 3,
         "missed": 0,
-        "xp": 304,
+        "xp": 424,
         "best": 216
       }
     }
@@ -3941,8 +3941,8 @@
     ],
     [
       "2026-10-02",
-      25,
-      12
+      52,
+      25
     ]
   ]
 }
