@@ -4,7 +4,7 @@ The website for Bertha, the Discord trivia bot: high scores, player profiles,
 round-by-round match replays, and the question bug tracker.
 
 Static pages, no build step. Every data file (`players.json`, `stats/`,
-`matches/`, `kirkening.json`, `missions.json`, `season.json`, `bug-reports.json`, `fixed-findings.json`) is published into this
+`matches/`, `missions.json`, `season.json`, `bank.json`, `bug-reports.json`, `fixed-findings.json`) is published into this
 repo by the bot itself every 30 minutes (`cogs/site_export.py` and
 `utils/github_reports.py` in the bot repo), so a local clone is usually behind:
 pull before trusting it.
@@ -12,7 +12,7 @@ pull before trusting it.
 - `index.html` home · `leaderboard.html` every stat ranked · `stats.html?id=` everything about one player
 - `replays.html` match list · `replay.html?game=` / `?duel=` replays (never show answers)
 - `compare.html?ids=a,b,c,d` up to four players side by side · `season.html` the current season
-- `kirkening.html` the Kirkening · `bugs.html` the bug tracker (formerly `index.html`)
+- `bank.html` the question bank (counts only) · `bugs.html` the bug tracker (formerly `index.html`)
 - `404.html` Game Over page · `assets/og.png` link-preview card · `assets/favicon.png`
 - `assets/arcade.css` shared theme · `assets/bertha.js` shared data, helpers and the stat catalog
 

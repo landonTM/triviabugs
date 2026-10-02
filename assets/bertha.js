@@ -2,7 +2,7 @@
 // All data is static JSON the bot publishes into this repo every 30 minutes
 // (cogs/site_export.py + utils/site_metrics.py in the bot repo): players.json,
 // stats/leaderboard.json, stats/users/<id>.json, matches/index*.json,
-// matches/detail/*.json, kirkening.json, missions.json, bug-reports.json.
+// matches/detail/*.json, kirkening.json, missions.json, bank.json, bug-reports.json.
 "use strict";
 
 const B = (() => {
@@ -11,7 +11,7 @@ const B = (() => {
   const MODE_COLORS = { standard: "#5ef2ff", quickfire: "#7cff6b", hardcore: "#ff4fa3", daily: "#ffd23f", duel: "#c79bff" };
   const NAV = [
     ["index.html", "HOME"], ["howtoplay.html", "HOW TO PLAY"], ["leaderboard.html", "LEADERBOARD"], ["stats.html", "STATS"], ["season.html", "SEASON"],
-    ["replays.html", "REPLAYS"], ["cosmetics.html", "COSMETICS"], ["kirkening.html", "KIRKENING"],
+    ["replays.html", "REPLAYS"], ["cosmetics.html", "COSMETICS"], ["bank.html", "QUESTIONS"],
     ["changelog.html", "CHANGELOG"], ["bugs.html", "BUGS"],
   ];
   const PERIODS = [["daily", "TODAY"], ["weekly", "WEEK"], ["monthly", "MONTH"], ["yearly", "YEAR"], ["alltime", "ALL-TIME"]];
@@ -509,6 +509,7 @@ const B = (() => {
     shirt: ".##..##.|########|########|.######.|.######.|.######.|.######.|........",
     help: ".######.|##....##|......##|....###.|...##...|...##...|........|...##...",
     clock: ".######.|#...#..#|#...#..#|#...###.|#......#|#......#|#......#|.######.",
+    qblock: "########|#..##..#|#.#..#.#|#....#.#|#...#..#|#......#|#...#..#|########",
   };
   const iconPaths = {};
   function icon(key, cls = "") {
@@ -529,13 +530,13 @@ const B = (() => {
     return svg;
   }
   const NAV_ICONS = { "index.html": "home", "howtoplay.html": "help", "leaderboard.html": "trophy", "stats.html": "chart", "season.html": "star",
-    "replays.html": "play", "cosmetics.html": "gem", "kirkening.html": "crown", "changelog.html": "scroll", "bugs.html": "bug" };
+    "replays.html": "play", "cosmetics.html": "gem", "bank.html": "qblock", "changelog.html": "scroll", "bugs.html": "bug" };
   // Section headings get an icon from their wording (first match wins), so no page has to pick one by hand.
   const SECTION_ICONS = [
     [/FASTEST|SPEED|QUICK/, "bolt"], [/STREAK|COMBO/, "fire"], [/FIGHT|DUEL|HEAD TO HEAD|RIVAL|VERSUS/, "swords"],
     [/MISSION/, "target"], [/ACHIEVEMENT|BADGE/, "medal"], [/HIGH SCORE|LEADERBOARD|STANDING|FINAL SCORE|PODIUM|CHAMPION|PRIZE/, "trophy"],
     [/HALL OF FAME|RECORD|SEASON|TIER|SPOTLIGHT/, "star"], [/KIRK|CROWNING/, "crown"], [/ACTIVITY|MOMENTUM|SCORE RACE/, "chart"], [/REPLAY|MATCH|ROUND/, "play"],
-    [/XP|LEVEL/, "xp"], [/POINT/, "coin"], [/GAME/, "joystick"], [/CATEGOR/, "grid"], [/COSMETIC|LOADOUT/, "shirt"],
+    [/XP|LEVEL/, "xp"], [/POINT/, "coin"], [/GAME/, "joystick"], [/CATEGOR/, "grid"], [/BANK|ADDED/, "qblock"], [/COSMETIC|LOADOUT/, "shirt"],
     [/BUG|COMMUNITY|REPORT/, "bug"], [/KIRK|CROWN|REIGN/, "crown"], [/CHANGE|UPDATE/, "scroll"], [/PUMPKIN/, "fire"],
     [/BASIC|HOW TO/, "help"], [/SCORING/, "coin"], [/HINT/, "target"], [/EXTRA/, "gem"], [/COMMAND/, "scroll"],
   ];
