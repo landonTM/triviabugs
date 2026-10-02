@@ -1,0 +1,58 @@
+{
+  "game": {
+    "id": 172,
+    "kind": "game",
+    "mode": "quickfire",
+    "channel_id": "861424168875982848",
+    "total_rounds": 1,
+    "rounds_played": 1,
+    "categories": [
+      "Logos"
+    ],
+    "started_by": "433990857063137282",
+    "winner_id": "433990857063137282",
+    "started_at": "2026-10-02 00:13:43.321647+00:00",
+    "ended_at": "2026-10-02 00:13:56.930851+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 7219,
+      "mode": "standard",
+      "started_at": "2026-10-02 00:13:43.777884+00:00",
+      "ended_at": "2026-10-02 00:13:46.368398+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Logos",
+      "question_text": "What logo is this?",
+      "image_url": "https://i.imgur.com/PpTFsMY.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 2033,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-02 00:13:46.364115+00:00",
+          "hint_window": 0
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "433990857063137282": 126
+  },
+  "xp_layers": {
+    "433990857063137282": {
+      "base": 126
+    }
+  },
+  "pass_xp": {
+    "433990857063137282": {
+      "season_key": "season_0",
+      "total": 126,
+      "uncapped": 126,
+      "game": 126,
+      "emoji": "🎃"
+    }
+  }
+}
