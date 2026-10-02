@@ -430,7 +430,10 @@ const B = (() => {
       let url = location.href;
       try {
         const live = await fetch("https://cards.berthabot.me/health", { cache: "no-store" });
-        if (live.ok) url = `https://cards.berthabot.me/${sharePath}`;
+        // Discord remembers a link's preview and reuses it whenever the exact same link is posted again, so a player's
+        // link gets a fresh tag each time (the server ignores it) -- otherwise a re-share shows yesterday's numbers.
+        // Replays never change, so theirs stay plain.
+        if (live.ok) url = `https://cards.berthabot.me/${sharePath}${sharePath.startsWith("p/") ? `?s=${Date.now().toString(36)}` : ""}`;
       } catch (e) { /* card server unreachable */ }
       if (url === location.href) {
         try {
