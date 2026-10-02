@@ -79,17 +79,17 @@
           "missions": 4
         },
         "monthly": {
-          "points": 9485,
-          "correct": 4976,
-          "standard_correct": 2000,
-          "insane_finds": 2976,
-          "avg_guess_ms": 16325.394,
+          "points": 9474,
+          "correct": 4969,
+          "standard_correct": 1998,
+          "insane_finds": 2971,
+          "avg_guess_ms": 16326.496496496497,
           "fastest_ms": 919,
           "under_5s": 618,
           "exact_spelling": 4034,
           "spelled": 4558,
           "best_streak": 56,
-          "active_days": 28,
+          "active_days": 27,
           "games_played": 72,
           "categories_played": 51,
           "best_insane_round": 31,
@@ -421,8 +421,8 @@
             4
           ],
           "Game of Thrones": [
-            207,
-            440
+            202,
+            435
           ],
           "Star Wars": [
             36,
@@ -473,8 +473,8 @@
             43
           ],
           "Entertainment": [
-            97,
-            207
+            95,
+            201
           ],
           "Greek Mythology": [
             22,
@@ -2156,17 +2156,17 @@
           "bug_reports": 7
         },
         "monthly": {
-          "points": 4610,
-          "correct": 2094,
+          "points": 4606,
+          "correct": 2090,
           "standard_correct": 890,
-          "insane_finds": 1204,
+          "insane_finds": 1200,
           "avg_guess_ms": 14655.233707865169,
           "fastest_ms": 134,
           "under_5s": 303,
           "exact_spelling": 1792,
           "spelled": 2044,
           "best_streak": 27,
-          "active_days": 29,
+          "active_days": 28,
           "games_played": 78,
           "categories_played": 46,
           "best_insane_round": 20,
@@ -2423,8 +2423,8 @@
         },
         "monthly": {
           "Game of Thrones": [
-            30,
-            42
+            26,
+            38
           ],
           "Lord of the Rings": [
             1,
