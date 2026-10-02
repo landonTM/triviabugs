@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-10-01T18:28:49.499057+00:00",
+  "generated_at": "2026-10-02T18:03:32.082140+00:00",
   "reports": [
+    {
+      "id": 88,
+      "guild_id": "861055530638114836",
+      "channel_id": "864342930076860426",
+      "message_id": "1555641262621589566",
+      "reported_by": "734768348201615400",
+      "reported_by_name": "ɯoʇdǝɟ",
+      "method": "reaction",
+      "status": "open",
+      "reported_at": "2026-10-02T18:03:32.075661+00:00",
+      "fixed_at": null,
+      "category": "Video Games",
+      "question_type": "standard",
+      "question_text": "What is the 5-digit model number of the Motorola CPU used as the main processor in the Sega Mega Drive / Genesis?",
+      "correct_answers": [
+        "+WCvqaU="
+      ]
+    },
     {
       "id": 87,
       "guild_id": "861055530638114836",
