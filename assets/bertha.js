@@ -425,11 +425,19 @@ const B = (() => {
   function shareButton(sharePath, title) {
     const btn = el("button", { class: "btn share", type: "button" }, "↗ SHARE");
     btn.addEventListener("click", async () => {
+      // The live card server (cards.berthabot.me, the bot's cogs/card_server.py) draws the preview from the numbers as
+      // they are right now. If it's down, fall back to the 30-minute share page here, then to the page itself.
       let url = location.href;
       try {
-        const r = await fetch(`${sharePath}.html`, { method: "HEAD", cache: "no-cache" });
-        if (r.ok) url = new URL(sharePath, location.href).href;
-      } catch (e) { /* offline or blocked: share the page itself */ }
+        const live = await fetch("https://cards.berthabot.me/health", { cache: "no-store" });
+        if (live.ok) url = `https://cards.berthabot.me/${sharePath}`;
+      } catch (e) { /* card server unreachable */ }
+      if (url === location.href) {
+        try {
+          const r = await fetch(`${sharePath}.html`, { method: "HEAD", cache: "no-cache" });
+          if (r.ok) url = new URL(sharePath, location.href).href;
+        } catch (e) { /* offline or blocked: share the page itself */ }
+      }
       if (navigator.share && matchMedia("(pointer: coarse)").matches) {
         try { await navigator.share({ title, url }); } catch (e) { /* closed the sheet */ }
         return;
