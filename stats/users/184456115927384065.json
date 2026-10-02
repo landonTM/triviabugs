@@ -1,39 +1,39 @@
 {
   "user_id": "184456115927384065",
   "level": {
-    "level": 42,
-    "xp_into_level": 51011,
-    "xp_for_level": 61000,
-    "progress": 0.8362459016393443,
+    "level": 43,
+    "xp_into_level": 40983,
+    "xp_for_level": 64000,
+    "progress": 0.640359375,
     "maxed": false
   },
-  "total_xp": 961511,
+  "total_xp": 1012483,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 1665,
-    "weekly_correct": 644,
-    "monthly_points": 3124,
-    "monthly_correct": 1489,
-    "yearly_points": 3130,
-    "yearly_correct": 1491,
-    "alltime_points": 3130,
-    "alltime_correct": 1491
+    "daily_points": 10,
+    "daily_correct": 6,
+    "weekly_points": 1675,
+    "weekly_correct": 650,
+    "monthly_points": 3134,
+    "monthly_correct": 1495,
+    "yearly_points": 3140,
+    "yearly_correct": 1497,
+    "alltime_points": 3140,
+    "alltime_correct": 1497
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 2407,
-    "questions_right": 768,
+    "total_points": 2415,
+    "questions_right": 772,
     "questions_wrong": 0,
-    "wins": 768,
-    "current_streak": 7,
+    "wins": 772,
+    "current_streak": 2,
     "best_streak": 43,
-    "games_played": 131,
-    "insane_guesses": 552,
-    "day_streak": 17,
-    "last_played_date": "2026-10-01",
-    "total_xp": 961511,
+    "games_played": 132,
+    "insane_guesses": 554,
+    "day_streak": 18,
+    "last_played_date": "2026-10-02",
+    "total_xp": 1012483,
     "game_wins": 81,
     "achievement_best_streak": 43
   },
@@ -53,15 +53,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 723,
-  "average_guess_ms": 19744.00390625,
+  "total_insane_correct": 725,
+  "average_guess_ms": 19803.87694300518,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
-    "active_days": 27
+    "active_days": 28
   },
   "spelling_accuracy": {
-    "exact_count": 1296,
-    "total": 1399
+    "exact_count": 1301,
+    "total": 1405
   },
   "achievements": {
     "catalog": [
@@ -2215,7 +2215,8 @@
       "play_100_games": "2026-09-30 22:49:17.790736+00:00",
       "geo_100": "2026-10-01 02:50:27.745000+00:00",
       "streak_25": "2026-10-01 03:44:36.921332+00:00",
-      "wins_75": "2026-10-01 04:07:16.036515+00:00"
+      "wins_75": "2026-10-01 04:07:16.036515+00:00",
+      "geo_250": "2026-10-02 18:51:13.747132+00:00"
     },
     "baselines": {
       "points": 231,
@@ -2224,12 +2225,12 @@
     },
     "category_counts": {
       "disney": 22,
-      "entertainment": 1,
-      "geo": 248,
+      "entertainment": 2,
+      "geo": 250,
       "gk": 140,
       "got": 1,
       "marvel": 12,
-      "movies": 22,
+      "movies": 23,
       "music": 15,
       "pokemon": 4,
       "sports": 249,
@@ -2494,8 +2495,8 @@
       "key": "jeopardybot",
       "label": "Jeopardy Bot Emoji Pack",
       "unlock_level": 43,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "emoji",
@@ -3590,8 +3591,8 @@
       "key": "wassup",
       "label": "WASSUP MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3649,22 +3650,22 @@
   ],
   "xp_sources": {
     "level": {
-      "achievement": 729250,
+      "achievement": 779250,
       "mission": 15000,
-      "game": 189511,
+      "game": 190483,
       "duel": 27750
     },
     "game_layers": {
       "replay": 65,
-      "daily": 2113,
+      "daily": 2599,
       "hardcore": 2982,
-      "base": 18684
+      "base": 19170
     },
     "pass": {
       "season_0": {
         "mission": 750,
         "duel": 1250,
-        "game": 16676
+        "game": 17162
       }
     }
   },
@@ -3895,6 +3896,11 @@
       "2026-10-01",
       480,
       154
+    ],
+    [
+      "2026-10-02",
+      10,
+      6
     ]
   ]
 }
