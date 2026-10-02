@@ -400,23 +400,6 @@ const B = (() => {
   })
     .observe(document.documentElement, { childList: true, subtree: true });
 
-  // ---------- page-to-page slide (arcade.css @view-transition) ----------
-  // Moving to a tab further right in the menu slides the new page in from the right; further left (or the browser's
-  // back button) slides it in from the left. The page you came from is remembered for this one hop only.
-  const tabIndex = file => NAV.findIndex(([href]) => href === file);
-  const thisFile = () => location.pathname.split("/").pop() || "index.html";
-  function rememberTab(file) {
-    try { sessionStorage.setItem("bertha-from-tab", String(tabIndex(file))); } catch (e) { /* private mode: no direction */ }
-  }
-  window.addEventListener("pagereveal", e => {
-    if (!e.viewTransition) return;
-    let from = -1;
-    try { from = Number(sessionStorage.getItem("bertha-from-tab") ?? -1); sessionStorage.removeItem("bertha-from-tab"); } catch (err) { /* ignore */ }
-    const to = tabIndex(thisFile());
-    const traverse = window.navigation && navigation.activation && navigation.activation.navigationType === "traverse";
-    e.viewTransition.types.add(traverse || (from >= 0 && to >= 0 && to < from) ? "back" : "forward");
-  });
-
   // ---------- share ----------
   // A SHARE button for a replay or player page. It shares the page's link-preview twin (r/165, p/<id> -- the bot's
   // utils/share_cards.py draws its card) so Discord shows that match or player instead of the generic Bertha card.
@@ -459,8 +442,8 @@ const B = (() => {
   // ---------- chrome ----------
   function topbar(active) {
     const nav = el("nav", { "aria-label": "Site", id: "sitenav" },
-      NAV.map(([href, label], i) => el("a", { href, "aria-current": href === active ? "page" : null, style: { "--i": i },
-        onclick: () => rememberTab(active) }, icon(NAV_ICONS[href]), label)));
+      NAV.map(([href, label], i) => el("a", { href, "aria-current": href === active ? "page" : null, style: { "--i": i } },
+        icon(NAV_ICONS[href]), label)));
     // Phones get a menu button (the current page's name) that opens the links as a grid; desktop shows them inline.
     const here = (NAV.find(([href]) => href === active) || [null, "MENU"])[1];
     const setOpen = open => { bar.classList.toggle("open", open); toggle.setAttribute("aria-expanded", String(open)); };
