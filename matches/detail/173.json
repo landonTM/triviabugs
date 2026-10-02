@@ -1,0 +1,1245 @@
+{
+  "game": {
+    "id": 173,
+    "kind": "game",
+    "mode": "daily",
+    "channel_id": "864342930076860426",
+    "total_rounds": 50,
+    "rounds_played": 50,
+    "categories": null,
+    "started_by": null,
+    "winner_id": "734768348201615400",
+    "started_at": "2026-10-02 18:00:07.361920+00:00",
+    "ended_at": "2026-10-02 19:02:39.626313+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 7220,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:00:09.929778+00:00",
+      "ended_at": "2026-10-02 18:00:38.235983+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Geography",
+      "question_text": "What is the most densely populated country on Earth?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 28015,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-02 18:00:38.228015+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7221,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:01:08.522227+00:00",
+      "ended_at": "2026-10-02 18:01:12.720315+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Halloween",
+      "question_text": "Along with black, what is the other traditional color of Halloween?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3956,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-10-02 18:01:12.715021+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7222,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:01:43.337767+00:00",
+      "ended_at": "2026-10-02 18:01:48.277669+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Whos That Pokemon (Gen 1)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/hWxoVFP.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4387,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-02 18:01:48.273882+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7223,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:02:18.930013+00:00",
+      "ended_at": "2026-10-02 18:03:19.316560+00:00",
+      "winner_id": null,
+      "category": "Video Games",
+      "question_text": "What is the 5-digit model number of the Motorola CPU used as the main processor in the Sega Mega Drive / Genesis?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7224,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:03:49.750048+00:00",
+      "ended_at": "2026-10-02 18:04:50.278030+00:00",
+      "winner_id": null,
+      "category": "Whos That Pokemon (Gen 3)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/3G7MOz5.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7225,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:05:20.795715+00:00",
+      "ended_at": "2026-10-02 18:06:21.019287+00:00",
+      "winner_id": null,
+      "category": "Art and Literature",
+      "question_text": "This is the choice and arrangement of words and phrases in a literary work. It is the vocabulary that the author, poet or playwright uses to create style and effect in a piece of writing?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7226,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:06:51.455340+00:00",
+      "ended_at": "2026-10-02 18:07:51.984059+00:00",
+      "winner_id": null,
+      "category": "Marvel",
+      "question_text": "Who captures Thor on Sakaar, going by the designation Scrapper 142?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7227,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:08:22.468938+00:00",
+      "ended_at": "2026-10-02 18:09:22.685106+00:00",
+      "winner_id": null,
+      "category": "History",
+      "question_text": "What did the first vending machines in 1880s London dispense?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7228,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:09:53.151478+00:00",
+      "ended_at": "2026-10-02 18:10:02.836773+00:00",
+      "winner_id": "734768348201615400",
+      "category": "What Links",
+      "question_text": "What word links Note, Text, Store",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9422,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-10-02 18:10:02.831868+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7229,
+      "mode": "insane",
+      "started_at": "2026-10-02 18:10:33.022434+00:00",
+      "ended_at": "2026-10-02 18:11:06.902554+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "The seven traditional colors of the rainbow",
+      "image_url": null,
+      "answer_count": 7,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 16266,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:10:49.878232+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 18476,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:10:52.087852+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 19621,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:10:53.233296+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 21385,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:10:54.997233+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 24906,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:10:58.517878+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 31522,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:11:05.134337+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 33284,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:11:06.895899+00:00",
+          "hint_window": null
+        }
+      ]
+    },
+    {
+      "round_id": 7230,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:11:37.561013+00:00",
+      "ended_at": "2026-10-02 18:12:37.819909+00:00",
+      "winner_id": null,
+      "category": "Game of Thrones",
+      "question_text": "What region of Westeros is ruled by House Tully, crossed by many rivers?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7231,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:13:08.191588+00:00",
+      "ended_at": "2026-10-02 18:14:08.472500+00:00",
+      "winner_id": null,
+      "category": "Halloween",
+      "question_text": "In the first Five Nights at Freddy's, which animatronic hides behind the curtains of Pirate Cove?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7232,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:14:39.831228+00:00",
+      "ended_at": "2026-10-02 18:15:40.045978+00:00",
+      "winner_id": null,
+      "category": "Disney",
+      "question_text": "Who was the first Disney Princess to be animated with having Dimples?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7233,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:16:10.550175+00:00",
+      "ended_at": "2026-10-02 18:17:10.864949+00:00",
+      "winner_id": null,
+      "category": "NBA",
+      "question_text": "Who is the youngest player to reach 25,000 career points?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7234,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:17:41.479758+00:00",
+      "ended_at": "2026-10-02 18:18:44.116473+00:00",
+      "winner_id": null,
+      "category": "Harry Potter",
+      "question_text": "Which late actor played Albus Dumbledore in the first two Harry potter films?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7235,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:19:14.586552+00:00",
+      "ended_at": "2026-10-02 18:19:44.643457+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Phobias",
+      "question_text": "If you have Ergophobia, what are you afraid of?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 28921,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-02 18:19:44.639314+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7236,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:20:15.082629+00:00",
+      "ended_at": "2026-10-02 18:20:35.363454+00:00",
+      "winner_id": "734768348201615400",
+      "category": "The Simpsons",
+      "question_text": "In The Simpsons, which war did Seymour Skinner serve in as a Green Beret in the US Army? (one word)",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 20103,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-02 18:20:35.359030+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7237,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:21:05.857146+00:00",
+      "ended_at": "2026-10-02 18:22:06.228321+00:00",
+      "winner_id": null,
+      "category": "Art and Literature",
+      "question_text": "What other name does Stephen King write under?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7238,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:22:36.665599+00:00",
+      "ended_at": "2026-10-02 18:22:45.369521+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Halloween",
+      "question_text": "What is the surname of the author who created the tentacled cosmic entity Cthulhu?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 7949,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-02 18:22:45.364710+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7239,
+      "mode": "insane",
+      "started_at": "2026-10-02 18:23:15.859396+00:00",
+      "ended_at": "2026-10-02 18:24:16.164284+00:00",
+      "winner_id": null,
+      "category": "Geography",
+      "question_text": "Countries that border Russia (by land)",
+      "image_url": null,
+      "answer_count": 14,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5230,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:23:21.386028+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 11463,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:23:27.618754+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 14123,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:23:30.279120+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 16139,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:23:32.295012+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 18676,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:23:34.832039+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 42833,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:23:58.988726+00:00",
+          "hint_window": null
+        }
+      ]
+    },
+    {
+      "round_id": 7240,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:24:46.969314+00:00",
+      "ended_at": "2026-10-02 18:24:54.455502+00:00",
+      "winner_id": "734768348201615400",
+      "category": "General Knowledge",
+      "question_text": "The famous self-styled anarchist web-hacking group founded in 2003 is called...?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 7268,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-10-02 18:24:54.452302+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7241,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:25:25.223437+00:00",
+      "ended_at": "2026-10-02 18:26:25.427448+00:00",
+      "winner_id": null,
+      "category": "Video Games",
+      "question_text": "What is the full name of the Overwatch hero Lúcio?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7242,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:26:55.952316+00:00",
+      "ended_at": "2026-10-02 18:27:56.564110+00:00",
+      "winner_id": null,
+      "category": "Music",
+      "question_text": "What is the frontman's name of the metal band Megadeth?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7243,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:28:27.270969+00:00",
+      "ended_at": "2026-10-02 18:28:31.865289+00:00",
+      "winner_id": "734768348201615400",
+      "category": "US State Abbreviations",
+      "question_text": "What state is WI?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4372,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-10-02 18:28:31.861093+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7244,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:29:02.378829+00:00",
+      "ended_at": "2026-10-02 18:30:02.662509+00:00",
+      "winner_id": null,
+      "category": "Disney",
+      "question_text": "What is the name of the little girl from Finding Nemo with the braces?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7245,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:30:33.291382+00:00",
+      "ended_at": "2026-10-02 18:31:33.998787+00:00",
+      "winner_id": null,
+      "category": "Stranger Things",
+      "question_text": "What is Kali's experiment number?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7246,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:32:04.503467+00:00",
+      "ended_at": "2026-10-02 18:33:04.758090+00:00",
+      "winner_id": null,
+      "category": "Star Wars",
+      "question_text": "What was the name of the radical government group on Mandalore?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7247,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:33:35.025763+00:00",
+      "ended_at": "2026-10-02 18:34:35.285614+00:00",
+      "winner_id": null,
+      "category": "Halloween",
+      "question_text": "In Buffy the Vampire Slayer, what is the name of the California town that sits on a Hellmouth?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7248,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:35:05.759646+00:00",
+      "ended_at": "2026-10-02 18:35:11.013341+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Phobias",
+      "question_text": "If you have Trypophobia, you're afraid of clusters of what?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4990,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-02 18:35:11.008519+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7249,
+      "mode": "insane",
+      "started_at": "2026-10-02 18:35:41.314111+00:00",
+      "ended_at": "2026-10-02 18:36:41.776912+00:00",
+      "winner_id": null,
+      "category": "Entertainment",
+      "question_text": "The Office (US) characters (mostly first names)",
+      "image_url": null,
+      "answer_count": 61,
+      "answers": []
+    },
+    {
+      "round_id": 7250,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:37:12.745026+00:00",
+      "ended_at": "2026-10-02 18:38:12.988600+00:00",
+      "winner_id": null,
+      "category": "Computers",
+      "question_text": "[Acronyms]What does SDLC stand for in Networking protocol?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7251,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:38:43.470654+00:00",
+      "ended_at": "2026-10-02 18:39:43.728829+00:00",
+      "winner_id": null,
+      "category": "Disney",
+      "question_text": "In Hercules, by what nickname does Hades refer to Hercules as when he is an infant?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7252,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:40:14.522383+00:00",
+      "ended_at": "2026-10-02 18:41:14.723079+00:00",
+      "winner_id": null,
+      "category": "Star Wars",
+      "question_text": "Who framed Ahsoka Tano?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7253,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:41:45.472718+00:00",
+      "ended_at": "2026-10-02 18:42:45.806664+00:00",
+      "winner_id": null,
+      "category": "Acronyms and Abbreviations",
+      "question_text": "These letters define what - SWAT",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7254,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:43:16.502571+00:00",
+      "ended_at": "2026-10-02 18:44:17.002392+00:00",
+      "winner_id": null,
+      "category": "Phobias",
+      "question_text": "If you have Selenophobia, what are you afraid of?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7255,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:44:47.502966+00:00",
+      "ended_at": "2026-10-02 18:45:47.931351+00:00",
+      "winner_id": null,
+      "category": "Video Games",
+      "question_text": "What is the name of the first boss the player encounters in the 2017 game, \"Little Nightmares\"?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7256,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:46:18.697050+00:00",
+      "ended_at": "2026-10-02 18:46:46.249469+00:00",
+      "winner_id": "734768348201615400",
+      "category": "K-Pop",
+      "question_text": "Which girl group released \"ASAP\" and \"Stereotype\" in 2021?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 27158,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-02 18:46:46.245382+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7257,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:47:16.724263+00:00",
+      "ended_at": "2026-10-02 18:48:10.935155+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Map",
+      "question_text": "What country is highlighted on this map?",
+      "image_url": "https://i.imgur.com/6EiH9ia.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 53530,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:48:10.929380+00:00",
+          "hint_window": 2
+        }
+      ]
+    },
+    {
+      "round_id": 7258,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:48:41.630588+00:00",
+      "ended_at": "2026-10-02 18:49:42.165357+00:00",
+      "winner_id": null,
+      "category": "Game of Thrones",
+      "question_text": "What region of Westeros has a warm climate and distinct culture, ruled by House Martell?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7259,
+      "mode": "insane",
+      "started_at": "2026-10-02 18:50:12.399335+00:00",
+      "ended_at": "2026-10-02 18:51:12.715662+00:00",
+      "winner_id": null,
+      "category": "Geography",
+      "question_text": "Every country in Europe (incl. Russia; not Turkey or Cyprus)",
+      "image_url": null,
+      "answer_count": 44,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4579,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:17.294108+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5923,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:18.638169+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 7372,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:20.087050+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 8628,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:21.342502+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 10234,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:22.948486+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 11268,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:23.983258+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 12453,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:25.168179+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 13670,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:26.385091+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 16068,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:28.783132+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 17412,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:30.126424+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 19185,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:31.899451+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 21936,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:34.651113+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 24202,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:36.917199+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 25363,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:38.078220+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 26759,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:39.474272+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 29208,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:41.923245+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 32583,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:45.297459+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 33898,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:46.613203+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 35194,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:47.908604+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 37254,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:49.968579+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 39518,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:52.233259+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 40544,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:50:53.259113+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 48154,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:51:00.868787+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 49199,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:51:01.914218+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 51050,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:51:03.764945+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 55094,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:51:07.809063+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 58702,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:51:11.416729+00:00",
+          "hint_window": null
+        }
+      ]
+    },
+    {
+      "round_id": 7260,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:51:43.995416+00:00",
+      "ended_at": "2026-10-02 18:51:50.430027+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Halloween",
+      "question_text": "In vampire lore, vampires famously cast no what in a mirror?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 5707,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-02 18:51:50.425198+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7261,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:52:20.952252+00:00",
+      "ended_at": "2026-10-02 18:52:35.002317+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Space",
+      "question_text": "Which planet in our solar system has the highest average density?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 13558,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-02 18:52:34.998835+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7262,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:53:05.444250+00:00",
+      "ended_at": "2026-10-02 18:53:27.214433+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Disney",
+      "question_text": "What language was The Lion King translated into making it a first for Disney Films?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 21574,
+          "exact_match": true,
+          "points_awarded": 3,
+          "answered_at": "2026-10-02 18:53:27.210974+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7263,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:53:57.698180+00:00",
+      "ended_at": "2026-10-02 18:54:22.384920+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Movies",
+      "question_text": "In The Wizard of Oz, what is Dorothy's last name?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 24240,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-02 18:54:22.381316+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7264,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:54:52.904739+00:00",
+      "ended_at": "2026-10-02 18:55:53.320475+00:00",
+      "winner_id": null,
+      "category": "Computers",
+      "question_text": "[Acronyms]What does CD-RW stand for?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7265,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:56:23.795854+00:00",
+      "ended_at": "2026-10-02 18:57:07.430245+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Entertainment",
+      "question_text": "What was Eric Clapton's nickname?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 43445,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:57:07.426144+00:00",
+          "hint_window": 2
+        }
+      ]
+    },
+    {
+      "round_id": 7266,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:57:37.831671+00:00",
+      "ended_at": "2026-10-02 18:58:22.164223+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Slogans",
+      "question_text": "Zoom Zoom.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 43955,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:58:22.160815+00:00",
+          "hint_window": 2
+        }
+      ]
+    },
+    {
+      "round_id": 7267,
+      "mode": "standard",
+      "started_at": "2026-10-02 18:58:52.636837+00:00",
+      "ended_at": "2026-10-02 18:59:50.086894+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Art and Literature",
+      "question_text": "Which author wrote the 'Just So Stories'?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 57234,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 18:59:50.077474+00:00",
+          "hint_window": 2
+        }
+      ]
+    },
+    {
+      "round_id": 7268,
+      "mode": "standard",
+      "started_at": "2026-10-02 19:00:20.626327+00:00",
+      "ended_at": "2026-10-02 19:00:38.099456+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Music",
+      "question_text": "Which artist collaborated with Justin Bieber on the 2010 song \"Eenie Meenie\"?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 14576,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-02 19:00:38.095929+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7269,
+      "mode": "insane",
+      "started_at": "2026-10-02 19:01:08.364465+00:00",
+      "ended_at": "2026-10-02 19:02:08.982071+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "Zodiac Signs",
+      "image_url": null,
+      "answer_count": 12,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3642,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 19:01:12.620010+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 4987,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 19:01:13.964785+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 8247,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 19:01:17.224855+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 10911,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 19:01:19.888443+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 14039,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 19:01:23.017241+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 15216,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 19:01:24.193657+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 20639,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 19:01:29.616647+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 30526,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 19:01:39.503662+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 34558,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 19:01:43.535395+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 46002,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-02 19:01:54.979634+00:00",
+          "hint_window": null
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "184456115927384065": 972,
+    "433990857063137282": 636,
+    "734768348201615400": 5538
+  },
+  "xp_layers": {
+    "734768348201615400": {
+      "base": 2769,
+      "daily": 2769
+    },
+    "184456115927384065": {
+      "base": 486,
+      "daily": 486
+    },
+    "433990857063137282": {
+      "base": 318,
+      "daily": 318
+    }
+  },
+  "pass_xp": {
+    "734768348201615400": {
+      "season_key": "season_0",
+      "total": 670,
+      "uncapped": 2769,
+      "pumpkin": 120,
+      "game": 550,
+      "emoji": "🎃"
+    },
+    "184456115927384065": {
+      "season_key": "season_0",
+      "total": 486,
+      "uncapped": 486,
+      "game": 486,
+      "emoji": "🎃"
+    },
+    "433990857063137282": {
+      "season_key": "season_0",
+      "total": 318,
+      "uncapped": 318,
+      "game": 318,
+      "emoji": "🎃"
+    }
+  }
+}
