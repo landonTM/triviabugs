@@ -19,13 +19,14 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20261002e">
-<script src="assets/bertha.js?v=20261002e"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20261002f">
+<script src="assets/bertha.js?v=20261002f"></script>
 </head>
 <body>
 <div class="wrap">
   <h1 class="page-title">REPLAYS</h1>
   <p class="page-sub">Every game and duel since September 22, 2026, round by round.</p>
+  <section id="live" hidden></section>
   <div class="btns" id="filters" role="group" aria-label="Filter"></div>
   <main id="app" style="margin-top:24px"><div class="loading">LOADING…</div></main>
 </div>
@@ -74,6 +75,95 @@
   }
   render();
   B.footer();
+  live();
+
+  // ---------- LIVE NOW: what's running this second, straight from the bot (cards.berthabot.me/live) ----------
+  // Scores, the round, its category and who won the last few rounds -- never the question or the answer, since
+  // people may have this open while they play. Checks every 5 seconds while something's on, every 30 when not;
+  // hidden entirely when the bot can't be reached.
+  function live() {
+    const box = B.$("#live");
+    let data = null, gotAt = 0, timer = null;
+    const ago = () => (Date.now() - gotAt) / 1000;
+    const fmtLeft = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+    const modeColor = m => B.MODE_COLORS[m] || "var(--cyan)";
+
+    function gameCard(g) {
+      const c = modeColor(g.mode);
+      const pct = g.total ? Math.min(100, (100 * g.round) / g.total) : 0;
+      let now = el("div", { class: "now", style: { color: "var(--muted)" } }, "Between rounds…");
+      if (g.now) {
+        const left = Math.max(0, g.now.seconds_left - ago());
+        now = g.now.mode === "insane"
+          ? el("div", { class: "now" }, el("span", { class: "ins" }, "INSANE ROUND"), ` · ${g.now.category} · `,
+            el("b", {}, `${B.fmt(g.now.found)} of ${B.fmt(g.now.to_find)} found`), el("span", { class: "t", "data-left": g.now.seconds_left }, fmtLeft(left)))
+          : el("div", { class: "now" }, `Round ${g.now.number} · ${g.now.category}`, el("span", { class: "t", "data-left": g.now.seconds_left }, fmtLeft(left)));
+      }
+      const board = g.scores.length
+        ? el("div", { class: "lb" }, g.scores.slice(0, 6).map(([id, pts], i) =>
+          el("div", { class: "row" }, el("span", { class: "r", style: { color: B.rankColor(i) } }, B.ordinal(i + 1)), B.avatar(id),
+            el("span", { class: "nm" }, B.playerLink(id)), el("span", { class: "pts" }, `${B.fmt(pts)} PTS`))))
+        : el("div", { class: "sub" }, "NO POINTS YET");
+      const extra = [];
+      if (g.scores.length > 6) extra.push(`+${g.scores.length - 6} MORE`);
+      if (g.others.players) extra.push(`${g.others.players} ${g.others.players === 1 ? "GUEST" : "GUESTS"} · ${B.fmt(g.others.points)} PTS`);
+      const feed = g.recent.length ? el("div", { class: "feed" }, el("div", { class: "sub" }, "LAST ROUNDS"), g.recent.map(r =>
+        el("div", {}, `${r.mode === "insane" ? "Insane · " : ""}${r.category} — `,
+          r.mode === "insane" ? el("b", {}, `${B.fmt(r.found)} found`)
+            : r.winner_id ? [el("b", {}, B.name(r.winner_id)), ` ${B.secs(r.ms)}${r.points ? ` · +${r.points}` : ""}`]
+            : r.winner_other ? el("b", {}, "a guest") : "nobody"))) : null;
+      return el("div", { class: "live", style: { "--c": c } },
+        el("div", { class: "hd" }, el("span", { class: "k" }, el("span", { class: "live-dot" }), B.MODE_LABELS[g.mode] || "TRIVIA"),
+          el("span", { class: "ch" }, [g.channel ? `#${g.channel}` : "", `ROUND ${g.round} OF ${g.total}`].filter(Boolean).join(" · "))),
+        el("div", { class: "prog" }, el("span", { style: { width: `${pct}%` } })),
+        now, board, extra.length ? el("div", { class: "sub" }, extra.join(" · ")) : null, feed,
+        el("div", { class: "sub" }, `STARTED ${B.ago(g.started_at).toUpperCase()}${g.started_by ? ` BY ${B.name(g.started_by).toUpperCase()}` : ""}`));
+    }
+
+    function duelCard(d) {
+      const c = B.MODE_COLORS.duel;
+      const side = (id, p2) => el("div", { class: `side${p2 ? " p2" : ""}` }, B.avatar(id), el("span", { class: "nm" }, B.playerLink(id)));
+      return el("div", { class: "live", style: { "--c": c } },
+        el("div", { class: "hd" }, el("span", { class: "k" }, el("span", { class: "live-dot" }), `DUEL · ${d.format.toUpperCase()}`),
+          el("span", { class: "ch" }, [d.channel ? `#${d.channel}` : "", `QUESTION ${d.rounds_played + 1}`].join(" · "))),
+        el("div", { class: "duel" }, side(d.challenger_id), el("span", { class: "sc" }, `${d.challenger_score}–${d.opponent_score}`), side(d.opponent_id, true)),
+        d.recent.length ? el("div", { class: "strip", title: "Last questions, newest first" }, d.recent.map(r =>
+          el("i", { style: { background: r.winner_id ? B.colorFor(r.winner_id) : "transparent" }, title: r.winner_id ? `${B.name(r.winner_id)} ${B.secs(r.ms)}` : "Nobody" }))) : null,
+        el("div", { class: "sub" }, `STARTED ${B.ago(d.started_at).toUpperCase()}`));
+    }
+
+    function draw() {
+      if (!data) { box.hidden = true; return; }
+      box.hidden = false;
+      const n = data.games.length + data.duels.length;
+      if (!n) {
+        box.replaceChildren(el("div", { class: "live-idle" }, "NOTHING LIVE RIGHT NOW · NEXT DAILY TRIVIA IN ",
+          el("b", { id: "live-daily" }, B.clock(B.secondsToDaily()))));
+      } else {
+        box.replaceChildren(
+          el("h2", { class: "section", style: { marginTop: "8px" } }, "LIVE NOW", el("span", { class: "pill", style: { color: "var(--pink)" } }, `${n} RUNNING`)),
+          el("div", { class: "live-list" }, data.games.map(gameCard), data.duels.map(duelCard)),
+          el("h2", { class: "section" }, "PAST MATCHES"));
+      }
+    }
+
+    async function poll(first) {
+      clearTimeout(timer);
+      if (!first && document.hidden) { timer = setTimeout(poll, 5000); return; }
+      const next = await B.botJson("/live");
+      if (next) { data = next; gotAt = Date.now(); } else { data = null; }
+      draw();
+      timer = setTimeout(poll, data && data.games.length + data.duels.length ? 5000 : 30000);
+    }
+    // Round timers and the Daily Trivia countdown tick between checks.
+    setInterval(() => {
+      for (const t of box.querySelectorAll("[data-left]")) t.textContent = fmtLeft(Math.max(0, +t.dataset.left - ago()));
+      const d = B.$("#live-daily");
+      if (d) d.textContent = B.clock(B.secondsToDaily());
+    }, 1000);
+    document.addEventListener("visibilitychange", () => { if (!document.hidden) poll(); });
+    poll(true);
+  }
 })();
 </script>
 </body>

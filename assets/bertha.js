@@ -400,6 +400,23 @@ const B = (() => {
   })
     .observe(document.documentElement, { childList: true, subtree: true });
 
+  // ---------- the bot's own server (cards.berthabot.me, cogs/card_server.py) ----------
+  // Live JSON straight from the running bot: /live (games and duels right now) and /status. Resolves null when it
+  // can't be reached -- which, since it runs inside the bot, also means the bot is down.
+  const CARDS = "https://cards.berthabot.me";
+  async function botJson(path, timeoutMs = 6000) {
+    const ctl = new AbortController();
+    const t = setTimeout(() => ctl.abort(), timeoutMs);
+    try {
+      const r = await fetch(`${CARDS}${path}`, { cache: "no-store", signal: ctl.signal });
+      return r.ok ? await r.json() : null;
+    } catch (e) {
+      return null;
+    } finally {
+      clearTimeout(t);
+    }
+  }
+
   // ---------- share ----------
   // A SHARE button for a replay or player page. It shares the page's link-preview twin (r/165, p/<id> -- the bot's
   // utils/share_cards.py draws its card) so Discord shows that match or player instead of the generic Bertha card.
@@ -627,6 +644,6 @@ const B = (() => {
     json, el, $, fmt, secs, pct, ts, when, time, day, calDay, hash, dur, ordinal, rankColor, loadPlayers, name, avatar, playerHref,
     playerLink, colorFor, emoji, md, XP_SOURCES, XP_LAYERS, XP_LAYERS_SHORT, METRICS, METRIC, GROUPS, PERIODS, categoryMetric, allCategories, ranking, rankOf,
     COSMETIC_TYPE, cosmeticCard, showMore, allMatches, matchHref, matchKind, matchTitle, fightCard, topbar, footer, fail, param, periodButtons,
-    secondsToDaily, clock, MODE_COLORS, fastestRow, shareButton, icon, barChart, dayRange, shortDay, etIso, matchRow, ago,
+    secondsToDaily, clock, MODE_COLORS, MODE_LABELS, fastestRow, shareButton, botJson, icon, barChart, dayRange, shortDay, etIso, matchRow, ago,
   };
 })();

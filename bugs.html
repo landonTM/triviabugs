@@ -19,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-meta -->
-<link rel="stylesheet" href="assets/arcade.css?v=20261002e">
-<script src="assets/bertha.js?v=20261002e"></script>
+<link rel="stylesheet" href="assets/arcade.css?v=20261002f">
+<script src="assets/bertha.js?v=20261002f"></script>
 <style>
   .how { border: 3px dashed var(--line-dim); padding: 14px 18px; color: var(--muted); margin: 8px 0 28px; }
   .how b { color: var(--text); font-weight: 400; }
@@ -51,6 +51,15 @@
   .lock { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-left: auto; }
   .lock input { font: 20px var(--term); color: var(--text); background: var(--panel); border: 3px solid var(--line-dim); padding: 6px 10px; min-height: 44px; width: 170px; }
   .hidden-ans { color: var(--muted); letter-spacing: 2px; }
+  .status { border: 4px solid var(--c, var(--line-dim)); background: var(--panel); padding: 14px 16px; margin: 0 0 24px;
+    box-shadow: 6px 6px 0 var(--shadow); display: grid; grid-template-columns: auto repeat(4, minmax(0, 1fr)); gap: 10px 24px; align-items: center; }
+  .status:empty { display: none; }
+  .status .big { font: 14px/1.4 var(--pixel); color: var(--c, var(--muted)); white-space: nowrap; }
+  .status .cell { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .status .cell .k { font: 9px/1.6 var(--pixel); color: var(--muted); }
+  .status .cell .v { font-size: 24px; line-height: 1.1; overflow-wrap: anywhere; }
+  .status .msg { grid-column: 2 / -1; color: var(--muted); }
+  @media (max-width: 719px) { .status { grid-template-columns: 1fr 1fr; } .status .big, .status .msg { grid-column: 1 / -1; } }
   @media (max-width: 620px) { .bug-who { margin-left: 0; } .bug-row { flex-direction: column; gap: 2px; } .bug-row .k { flex: none; } .lock { margin-left: 0; } }
 </style>
 </head>
@@ -59,6 +68,7 @@
   <h1 class="page-title">BUG TRACKER</h1>
   <div class="how">Spot a wrong answer or a broken question? <b>React to it with 🐛</b> in Discord, or right-click the message and choose
     <b>Apps → Report Bugged Question</b>. It shows up here within a minute or two, and moves to Fixed once it's sorted.</div>
+  <section class="status" id="status" aria-live="polite"></section>
   <div class="tiles" id="stats"></div>
   <div class="toolbar" style="margin-top:32px">
     <div class="btns" id="tabs" role="tablist" aria-label="Tracker sections"></div>
@@ -74,6 +84,46 @@
   const { el } = B;
   B.topbar("bugs.html");
   await B.loadPlayers();
+  botStatus();
+
+  // ---------- BOT STATUS, straight from the bot (cards.berthabot.me/status runs inside it) ----------
+  // Checked every 30 seconds; "up for" ticks every second in between.
+  function botStatus() {
+    const box = B.$("#status");
+    let st = null;
+    const cell = (k, v, id) => el("div", { class: "cell" }, el("span", { class: "k" }, k), el("span", { class: "v", id }, v));
+    function draw() {
+      if (!st || !st.online) {
+        box.style.setProperty("--c", "var(--pink)");
+        box.replaceChildren(el("div", { class: "big" }, el("span", { class: "status-led off" }), st ? "STARTING UP" : "OFFLINE"),
+          el("div", { class: "msg" }, st ? "Bertha is restarting -- back in a moment."
+            : "Bertha isn't answering right now. If it lasts more than a few minutes, let Landon know."));
+        return;
+      }
+      box.style.setProperty("--c", "var(--neon)");
+      const live = st.games + st.duels;
+      box.replaceChildren(el("div", { class: "big" }, el("span", { class: "status-led on" }), "ONLINE"),
+        cell("UP FOR", B.dur(Date.now() - Date.parse(st.started_at)), "status-up"),
+        cell("PING", st.ping_ms != null ? `${st.ping_ms} ms` : "—"),
+        cell("LAST UPDATE", st.updated_at ? B.when(st.updated_at) : "—"),
+        cell("PLAYING NOW", live ? el("a", { href: "replays.html" }, `${live} LIVE ▸`) : "Nothing"));
+    }
+    let timer = null;
+    async function poll(first) {
+      clearTimeout(timer);
+      if (first || !document.hidden) {
+        st = await B.botJson("/status");
+        draw();
+      }
+      timer = setTimeout(poll, 30000);
+    }
+    document.addEventListener("visibilitychange", () => { if (!document.hidden) poll(); });
+    setInterval(() => {
+      const up = B.$("#status-up");
+      if (up && st) up.textContent = B.dur(Date.now() - Date.parse(st.started_at));
+    }, 1000);
+    poll(true);
+  }
 
   // ---------- answer spoiler gate (scrambling: bot utils/answer_lock.py) ----------
   const PASSWORD_HASH = "cf589f9995ede78a78ab4686b0cb8c762ba4d60b27ddde05076e98d1f8b601bc";
