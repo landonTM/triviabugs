@@ -166,8 +166,8 @@
         },
         {
           "user_id": "184456115927384065",
-          "points": 751,
-          "correct": 270
+          "points": 759,
+          "correct": 276
         },
         {
           "user_id": "794420965387403265",
@@ -206,14 +206,14 @@
         },
         {
           "user_id": "184456115927384065",
-          "xp": 19162,
+          "xp": 19712,
           "sources": {
             "mission": 750,
-            "game": 17162,
+            "game": 17712,
             "duel": 1250
           },
           "level": 14,
-          "xp_into_level": 192,
+          "xp_into_level": 742,
           "xp_for_level": 1880,
           "completed": false
         },
