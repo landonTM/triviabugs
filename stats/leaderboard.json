@@ -2941,21 +2941,21 @@
     },
     {
       "user_id": "184456115927384065",
-      "total_xp": 1012483,
+      "total_xp": 1014019,
       "level": {
         "level": 43,
-        "xp_into_level": 40983,
+        "xp_into_level": 42519,
         "xp_for_level": 64000,
-        "progress": 0.640359375,
+        "progress": 0.664359375,
         "maxed": false
       },
       "current": {
-        "current_streak": 1,
+        "current_streak": 2,
         "day_streak": 18,
         "last_played": "2026-10-02",
         "duel_streak": 0,
         "duel_best_streak": 2,
-        "season_xp": 19162,
+        "season_xp": 19712,
         "season_level": 14,
         "elo": 977,
         "elo_peak": 1017,
@@ -2966,37 +2966,42 @@
       },
       "periods": {
         "daily": {
-          "points": 8,
-          "correct": 3,
-          "standard_correct": 3,
-          "insane_finds": 0,
-          "avg_guess_ms": 18497.666666666668,
+          "points": 16,
+          "correct": 9,
+          "standard_correct": 6,
+          "insane_finds": 3,
+          "avg_guess_ms": 25169.333333333332,
           "fastest_ms": 4390,
           "under_5s": 1,
-          "exact_spelling": 3,
-          "spelled": 3,
-          "best_streak": 1,
+          "exact_spelling": 9,
+          "spelled": 9,
+          "best_streak": 2,
           "active_days": 1,
           "games_played": 1,
-          "categories_played": 3,
-          "best_game_points": 8,
+          "categories_played": 6,
+          "best_insane_round": 3,
+          "best_game_points": 16,
           "games_started": 1,
-          "played_standard": 1
+          "played_standard": 1,
+          "wins_standard": 1,
+          "game_wins": 1,
+          "xp_game": 1536,
+          "xp": 1536
         },
         "weekly": {
-          "points": 1683,
-          "correct": 653,
-          "standard_correct": 428,
-          "insane_finds": 225,
-          "avg_guess_ms": 17893.030373831774,
+          "points": 1691,
+          "correct": 659,
+          "standard_correct": 431,
+          "insane_finds": 228,
+          "avg_guess_ms": 17990.11600928074,
           "fastest_ms": 1145,
           "under_5s": 94,
-          "exact_spelling": 614,
-          "spelled": 653,
+          "exact_spelling": 620,
+          "spelled": 659,
           "best_streak": 43,
           "active_days": 8,
           "games_played": 78,
-          "categories_played": 29,
+          "categories_played": 31,
           "best_insane_round": 16,
           "best_game_points": 88,
           "games_started": 68,
@@ -3012,32 +3017,32 @@
           "played_hardcore": 15,
           "played_quickfire": 52,
           "played_standard": 4,
-          "wins_standard": 2,
-          "game_wins": 63,
+          "wins_standard": 3,
+          "game_wins": 64,
           "wins_quickfire": 49,
           "wins_hardcore": 12,
           "xp_mission": 15000,
-          "xp": 602333,
-          "xp_game": 190483,
+          "xp": 603869,
+          "xp_game": 192019,
           "xp_duel": 23100,
           "xp_achievement": 373750,
           "achievements": 22,
           "missions": 2
         },
         "monthly": {
-          "points": 3142,
-          "correct": 1498,
-          "standard_correct": 773,
-          "insane_finds": 725,
-          "avg_guess_ms": 19798.460543337646,
+          "points": 3150,
+          "correct": 1504,
+          "standard_correct": 776,
+          "insane_finds": 728,
+          "avg_guess_ms": 19845.01675257732,
           "fastest_ms": 1145,
           "under_5s": 142,
-          "exact_spelling": 1304,
-          "spelled": 1408,
+          "exact_spelling": 1310,
+          "spelled": 1414,
           "best_streak": 43,
           "active_days": 28,
           "games_played": 84,
-          "categories_played": 43,
+          "categories_played": 44,
           "best_insane_round": 16,
           "best_game_points": 88,
           "games_started": 70,
@@ -3053,33 +3058,33 @@
           "played_hardcore": 15,
           "played_quickfire": 52,
           "played_standard": 8,
-          "wins_standard": 2,
-          "game_wins": 63,
+          "wins_standard": 3,
+          "game_wins": 64,
           "wins_quickfire": 49,
           "wins_hardcore": 12,
           "xp_achievement": 779250,
-          "xp": 1012483,
+          "xp": 1014019,
           "xp_mission": 15000,
-          "xp_game": 190483,
+          "xp_game": 192019,
           "xp_duel": 27750,
           "achievements": 71,
           "missions": 2,
           "bug_reports": 1
         },
         "yearly": {
-          "points": 3148,
-          "correct": 1500,
-          "standard_correct": 775,
-          "insane_finds": 725,
-          "avg_guess_ms": 19798.82064516129,
+          "points": 3156,
+          "correct": 1506,
+          "standard_correct": 778,
+          "insane_finds": 728,
+          "avg_guess_ms": 19845.255784061697,
           "fastest_ms": 1145,
           "under_5s": 142,
-          "exact_spelling": 1304,
-          "spelled": 1408,
+          "exact_spelling": 1310,
+          "spelled": 1414,
           "best_streak": 43,
           "active_days": 29,
           "games_played": 84,
-          "categories_played": 43,
+          "categories_played": 44,
           "best_insane_round": 16,
           "best_game_points": 88,
           "games_started": 70,
@@ -3095,33 +3100,33 @@
           "played_hardcore": 15,
           "played_quickfire": 52,
           "played_standard": 8,
-          "wins_standard": 2,
-          "game_wins": 63,
+          "wins_standard": 3,
+          "game_wins": 64,
           "wins_quickfire": 49,
           "wins_hardcore": 12,
           "xp_achievement": 779250,
-          "xp": 1012483,
+          "xp": 1014019,
           "xp_mission": 15000,
-          "xp_game": 190483,
+          "xp_game": 192019,
           "xp_duel": 27750,
           "achievements": 71,
           "missions": 2,
           "bug_reports": 1
         },
         "alltime": {
-          "points": 3148,
-          "correct": 1500,
-          "standard_correct": 775,
-          "insane_finds": 725,
-          "avg_guess_ms": 19798.82064516129,
+          "points": 3156,
+          "correct": 1506,
+          "standard_correct": 778,
+          "insane_finds": 728,
+          "avg_guess_ms": 19845.255784061697,
           "fastest_ms": 1145,
           "under_5s": 142,
-          "exact_spelling": 1304,
-          "spelled": 1408,
+          "exact_spelling": 1310,
+          "spelled": 1414,
           "best_streak": 43,
           "active_days": 29,
-          "games_played": 132,
-          "categories_played": 43,
+          "games_played": 133,
+          "categories_played": 44,
           "best_insane_round": 16,
           "best_game_points": 88,
           "games_started": 70,
@@ -3137,14 +3142,14 @@
           "played_hardcore": 15,
           "played_quickfire": 52,
           "played_standard": 8,
-          "wins_standard": 2,
-          "game_wins": 81,
+          "wins_standard": 3,
+          "game_wins": 82,
           "wins_quickfire": 49,
           "wins_hardcore": 12,
           "xp_achievement": 779250,
-          "xp": 1012483,
+          "xp": 1014019,
           "xp_mission": 15000,
-          "xp_game": 190483,
+          "xp_game": 192019,
           "xp_duel": 27750,
           "achievements": 71,
           "missions": 2,
@@ -3157,7 +3162,19 @@
             1,
             4
           ],
+          "Elements": [
+            1,
+            2
+          ],
           "General Knowledge": [
+            2,
+            3
+          ],
+          "Geography": [
+            3,
+            3
+          ],
+          "US State Capitals": [
             1,
             2
           ],
@@ -3183,6 +3200,10 @@
             4,
             8
           ],
+          "US State Capitals": [
+            1,
+            2
+          ],
           "Greek Mythology": [
             1,
             2
@@ -3200,8 +3221,8 @@
             22
           ],
           "General Knowledge": [
-            77,
-            80
+            78,
+            81
           ],
           "Marvel": [
             4,
@@ -3220,8 +3241,8 @@
             496
           ],
           "Geography": [
-            42,
-            68
+            45,
+            71
           ],
           "Slogans": [
             1,
@@ -3279,6 +3300,10 @@
             16,
             32
           ],
+          "Elements": [
+            1,
+            2
+          ],
           "MLB": [
             5,
             5
@@ -3314,8 +3339,8 @@
             26
           ],
           "US State Capitals": [
-            2,
-            2
+            3,
+            4
           ],
           "Stranger Things": [
             2,
@@ -3358,8 +3383,8 @@
             2
           ],
           "General Knowledge": [
-            217,
-            268
+            218,
+            269
           ],
           "Marvel": [
             13,
@@ -3382,8 +3407,8 @@
             4
           ],
           "Geography": [
-            167,
-            207
+            170,
+            210
           ],
           "Slogans": [
             5,
@@ -3453,6 +3478,10 @@
             4,
             13
           ],
+          "Elements": [
+            1,
+            2
+          ],
           "MLB": [
             5,
             5
@@ -3488,8 +3517,8 @@
             26
           ],
           "US State Capitals": [
-            2,
-            2
+            3,
+            4
           ],
           "Stranger Things": [
             2,
@@ -3532,8 +3561,8 @@
             2
           ],
           "General Knowledge": [
-            217,
-            268
+            218,
+            269
           ],
           "Marvel": [
             13,
@@ -3556,8 +3585,8 @@
             4
           ],
           "Geography": [
-            167,
-            207
+            170,
+            210
           ],
           "Slogans": [
             5,
@@ -3626,6 +3655,10 @@
           "World Capitals": [
             4,
             13
+          ],
+          "Elements": [
+            1,
+            2
           ],
           "MLB": [
             5,
@@ -3662,8 +3695,8 @@
             26
           ],
           "US State Capitals": [
-            2,
-            2
+            3,
+            4
           ],
           "Stranger Things": [
             2,
@@ -3706,8 +3739,8 @@
             2
           ],
           "General Knowledge": [
-            217,
-            268
+            218,
+            269
           ],
           "Marvel": [
             13,
@@ -3730,8 +3763,8 @@
             4
           ],
           "Geography": [
-            167,
-            207
+            170,
+            210
           ],
           "Slogans": [
             5,
@@ -3800,6 +3833,10 @@
           "World Capitals": [
             4,
             13
+          ],
+          "Elements": [
+            1,
+            2
           ],
           "MLB": [
             5,
