@@ -1,0 +1,1456 @@
+{
+  "game": {
+    "id": 180,
+    "kind": "game",
+    "mode": "daily",
+    "channel_id": "864342930076860426",
+    "total_rounds": 50,
+    "rounds_played": 50,
+    "categories": null,
+    "started_by": null,
+    "winner_id": "734768348201615400",
+    "started_at": "2026-10-03 18:00:08.384587+00:00",
+    "ended_at": "2026-10-03 18:56:47.012697+00:00",
+    "end_reason": "completed"
+  },
+  "rounds": [
+    {
+      "round_id": 7343,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:00:08.781290+00:00",
+      "ended_at": "2026-10-03 18:01:09.044322+00:00",
+      "winner_id": null,
+      "category": "Video Games",
+      "question_text": "What team-based mechanic allows two or more heroes to combine abilities for bonus effects in Marvel Rivals?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7344,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:01:39.481369+00:00",
+      "ended_at": "2026-10-03 18:02:39.765194+00:00",
+      "winner_id": null,
+      "category": "Computers",
+      "question_text": "How many logical drives is it possible to fit onto a physical disk?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7345,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:03:10.407240+00:00",
+      "ended_at": "2026-10-03 18:03:35.704173+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Capitals",
+      "question_text": "What is the capital of Afghanistan?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 25089,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-03 18:03:35.699044+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7346,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:04:06.309325+00:00",
+      "ended_at": "2026-10-03 18:05:06.818487+00:00",
+      "winner_id": null,
+      "category": "Whos That Pokemon (Gen 2)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/rMgYSAy.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7347,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:05:37.243673+00:00",
+      "ended_at": "2026-10-03 18:05:43.590515+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Marvel",
+      "question_text": "What color does Bruce Banner warn people he becomes when angry?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6057,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:05:43.585500+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7348,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:06:14.116081+00:00",
+      "ended_at": "2026-10-03 18:07:14.307648+00:00",
+      "winner_id": null,
+      "category": "Sports",
+      "question_text": "In what year was the first official international football (soccer) match played, between Scotland and England?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7349,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:07:44.789287+00:00",
+      "ended_at": "2026-10-03 18:08:45.147901+00:00",
+      "winner_id": null,
+      "category": "Lord of the Rings",
+      "question_text": "In \"The Fellowship of the Ring\", Frodo and Sam run into Merry and Pippin while fleeing farmer Maggot's place. What do they find shortly after that?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7350,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:09:15.920108+00:00",
+      "ended_at": "2026-10-03 18:10:16.118440+00:00",
+      "winner_id": null,
+      "category": "House of the Dragon",
+      "question_text": "What is the title of Season 3, Episode 2?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7351,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:10:46.579066+00:00",
+      "ended_at": "2026-10-03 18:10:53.079228+00:00",
+      "winner_id": "734768348201615400",
+      "category": "World Cup",
+      "question_text": "Which German stadium hosted the 2006 FIFA World Cup final?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6299,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:10:53.075099+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7352,
+      "mode": "insane",
+      "started_at": "2026-10-03 18:11:23.333679+00:00",
+      "ended_at": "2026-10-03 18:12:23.537636+00:00",
+      "winner_id": null,
+      "category": "General Knowledge",
+      "question_text": "Units of measurement (not time)",
+      "image_url": null,
+      "answer_count": 97,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3346,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:26.882245+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5562,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:29.098128+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 9244,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:32.780383+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9977,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:33.513375+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 15281,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:38.818624+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 18538,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:42.073651+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 21635,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:45.171234+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 22880,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:46.415849+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 23155,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:46.690572+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 25206,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:48.741844+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 26900,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:50.436079+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 27882,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:51.418121+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 28432,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:51.968344+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 33174,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:56.709874+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 34183,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:11:57.718635+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 40091,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:12:03.627506+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 41050,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:12:04.585932+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 42887,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:12:06.423019+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 47562,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:12:11.097869+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 47601,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:12:11.136759+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 47701,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:12:11.237041+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 49159,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:12:12.695572+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 52724,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:12:16.259925+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 53982,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:12:17.518140+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 58004,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:12:21.539961+00:00",
+          "hint_window": null
+        }
+      ]
+    },
+    {
+      "round_id": 7353,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:12:54.018593+00:00",
+      "ended_at": "2026-10-03 18:13:40.827723+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Halloween",
+      "question_text": "What is the name of the vampire Bella falls in love with in Twilight?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 46625,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:13:40.824390+00:00",
+          "hint_window": 2
+        }
+      ]
+    },
+    {
+      "round_id": 7354,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:14:11.279976+00:00",
+      "ended_at": "2026-10-03 18:14:38.680846+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Music",
+      "question_text": "\"Lift Your Spirit\" is an album by which artist?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 26977,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-03 18:14:38.677619+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7355,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:15:09.140791+00:00",
+      "ended_at": "2026-10-03 18:15:53.882242+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Video Games",
+      "question_text": "What was the last Mortal Kombat game for sixth generation consoles?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 44530,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:15:53.877334+00:00",
+          "hint_window": 2
+        }
+      ]
+    },
+    {
+      "round_id": 7356,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:16:24.720949+00:00",
+      "ended_at": "2026-10-03 18:16:51.260059+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Disney",
+      "question_text": "What is the name of Mulan's horse?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 26186,
+          "exact_match": true,
+          "points_awarded": 3,
+          "answered_at": "2026-10-03 18:16:51.256384+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7357,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:17:22.028827+00:00",
+      "ended_at": "2026-10-03 18:18:22.387368+00:00",
+      "winner_id": null,
+      "category": "A Knight of the Seven Kingdoms",
+      "question_text": "Who orders the dam built across the Chequy Water?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7358,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:18:52.839614+00:00",
+      "ended_at": "2026-10-03 18:18:59.250190+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Computers",
+      "question_text": "[Input/Output]Keyboard?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6166,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:18:59.246669+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7359,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:19:29.531490+00:00",
+      "ended_at": "2026-10-03 18:20:29.771645+00:00",
+      "winner_id": null,
+      "category": "Halloween",
+      "question_text": "In the 1999 film The Blair Witch Project, the student filmmakers go missing in the woods near which Maryland town?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7360,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:21:00.213661+00:00",
+      "ended_at": "2026-10-03 18:21:35.559998+00:00",
+      "winner_id": "795847206719717386",
+      "category": "General Knowledge",
+      "question_text": "What anticoagulant drug, sold as Coumadin, was originally used as rat poison?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 35062,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-03 18:21:35.555962+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7361,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:22:06.165705+00:00",
+      "ended_at": "2026-10-03 18:22:13.103943+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Geography",
+      "question_text": "What body of water separates southern England from northern France?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6751,
+          "exact_match": false,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:22:13.099330+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7362,
+      "mode": "insane",
+      "started_at": "2026-10-03 18:22:43.567532+00:00",
+      "ended_at": "2026-10-03 18:23:44.828480+00:00",
+      "winner_id": null,
+      "category": "Marvel",
+      "question_text": "Marvel Shows",
+      "image_url": null,
+      "answer_count": 31,
+      "answers": []
+    },
+    {
+      "round_id": 7363,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:24:15.598525+00:00",
+      "ended_at": "2026-10-03 18:25:02.197551+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Video Games",
+      "question_text": "In Spyro the Dragon, what is Spyro's dragonfly friend called?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 46268,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:25:02.194022+00:00",
+          "hint_window": 2
+        }
+      ]
+    },
+    {
+      "round_id": 7364,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:25:32.767967+00:00",
+      "ended_at": "2026-10-03 18:26:11.660454+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Music",
+      "question_text": "Which singer released the 2010 hit 'Perfect', originally titled \"F**kin' Perfect\"?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 38653,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-03 18:26:11.656946+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7365,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:26:42.161531+00:00",
+      "ended_at": "2026-10-03 18:26:59.752306+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Game of Thrones",
+      "question_text": "What is Varys' nickname, referencing his network of informants?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 17365,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:26:59.747963+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7366,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:27:30.195198+00:00",
+      "ended_at": "2026-10-03 18:28:30.374527+00:00",
+      "winner_id": null,
+      "category": "Slogans",
+      "question_text": "There's no equal.",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7367,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:29:00.884963+00:00",
+      "ended_at": "2026-10-03 18:29:26.507782+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Greek Mythology",
+      "question_text": "Which goddess was associated with the spirit of divine retribution against those who succumb to hubris?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 25334,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-03 18:29:26.504309+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7368,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:29:56.997884+00:00",
+      "ended_at": "2026-10-03 18:30:44.654554+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Whos That Pokemon (Gen 3)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/nyjUtDq.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 46955,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:30:44.650219+00:00",
+          "hint_window": 2
+        }
+      ]
+    },
+    {
+      "round_id": 7369,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:31:15.090934+00:00",
+      "ended_at": "2026-10-03 18:32:15.319219+00:00",
+      "winner_id": null,
+      "category": "Pokemon",
+      "question_text": "What is the max IV a Pokémon can have in a stat?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7370,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:32:46.020868+00:00",
+      "ended_at": "2026-10-03 18:33:27.751852+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Sports: NCAA",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 41513,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:33:27.747605+00:00",
+          "hint_window": 2
+        }
+      ]
+    },
+    {
+      "round_id": 7371,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:33:58.335179+00:00",
+      "ended_at": "2026-10-03 18:34:03.619657+00:00",
+      "winner_id": "734768348201615400",
+      "category": "General Knowledge",
+      "question_text": "In the British sci-fi show \"Doctor Who\", what's the name of the spaceship that can travel through space and time?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 5078,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:34:03.616204+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7372,
+      "mode": "insane",
+      "started_at": "2026-10-03 18:34:33.884252+00:00",
+      "ended_at": "2026-10-03 18:35:34.061388+00:00",
+      "winner_id": null,
+      "category": "Geography",
+      "question_text": "The Original US Colonies",
+      "image_url": null,
+      "answer_count": 13,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 5797,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:34:39.857764+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 6544,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:34:40.604348+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 8941,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:34:43.001654+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 9021,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:34:43.081554+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 10888,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:34:44.947801+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 13754,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:34:47.814182+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 14241,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:34:48.301390+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 17382,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:34:51.442115+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 21170,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:34:55.230565+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 31805,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:35:05.865045+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 34241,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:35:08.301457+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 58748,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:35:32.807958+00:00",
+          "hint_window": null
+        }
+      ]
+    },
+    {
+      "round_id": 7373,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:36:04.424512+00:00",
+      "ended_at": "2026-10-03 18:36:34.157093+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Halloween",
+      "question_text": "In Stephen King's novel Cujo, what breed of dog is the rabid Cujo?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 29507,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-03 18:36:34.153790+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7374,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:37:04.790962+00:00",
+      "ended_at": "2026-10-03 18:37:49.564511+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Music",
+      "question_text": "Which record label did Sam Phillips sell Elvis Presley to in 1955?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 44480,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:37:49.559766+00:00",
+          "hint_window": 2
+        }
+      ]
+    },
+    {
+      "round_id": 7375,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:38:19.993217+00:00",
+      "ended_at": "2026-10-03 18:38:27.857161+00:00",
+      "winner_id": "734768348201615400",
+      "category": "Disney",
+      "question_text": "What character actually appeared in color before Mickey Mouse?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 7509,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-10-03 18:38:27.852868+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7376,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:38:58.290834+00:00",
+      "ended_at": "2026-10-03 18:39:58.455994+00:00",
+      "winner_id": null,
+      "category": "Video Games",
+      "question_text": "In Monopoly, what is the rental on Boardwalk with one house?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7377,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:40:28.940198+00:00",
+      "ended_at": "2026-10-03 18:40:45.987629+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Game of Thrones",
+      "question_text": "What is the name of the battle between Stark/wildling forces and House Bolton at Winterfell?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 16886,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:40:45.983964+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7378,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:41:16.459006+00:00",
+      "ended_at": "2026-10-03 18:41:20.527130+00:00",
+      "winner_id": "734768348201615400",
+      "category": "General Knowledge",
+      "question_text": "The \"Tibia\" is found in which part of the body?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3819,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:41:20.523685+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7379,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:41:50.814074+00:00",
+      "ended_at": "2026-10-03 18:42:51.056948+00:00",
+      "winner_id": null,
+      "category": "Halloween",
+      "question_text": "In pre-Islamic Arabian folklore, what shape-shifting desert demon haunts graveyards and feeds on the dead?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7380,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:43:21.822247+00:00",
+      "ended_at": "2026-10-03 18:43:26.026312+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Acronyms and Abbreviations",
+      "question_text": "Transportation: MPH",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 4034,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:43:26.022042+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7381,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:43:56.711887+00:00",
+      "ended_at": "2026-10-03 18:44:23.716550+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Star Wars",
+      "question_text": "What system was blown up by StarKiller Base?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 26695,
+          "exact_match": false,
+          "points_awarded": 2,
+          "answered_at": "2026-10-03 18:44:23.712523+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7382,
+      "mode": "insane",
+      "started_at": "2026-10-03 18:44:53.908329+00:00",
+      "ended_at": "2026-10-03 18:45:54.115574+00:00",
+      "winner_id": null,
+      "category": "History",
+      "question_text": "British Monarchs after William I",
+      "image_url": null,
+      "answer_count": 42,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 12348,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:06.462414+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 18306,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:12.420983+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 20180,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:14.294829+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 20318,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:14.432374+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 24201,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:18.315320+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 26372,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:20.486610+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 30485,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:24.599222+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 32170,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:26.284756+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 34151,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:28.265252+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 36036,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:30.150877+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 38069,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:32.183747+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 39735,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:33.849158+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 40213,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:34.327036+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 42680,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:36.794760+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 44936,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:39.050525+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 48377,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:42.491489+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 49484,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:43.598807+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 53084,
+          "exact_match": false,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:47.198566+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 59087,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:45:53.201278+00:00",
+          "hint_window": null
+        }
+      ]
+    },
+    {
+      "round_id": 7383,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:46:24.899948+00:00",
+      "ended_at": "2026-10-03 18:46:32.666339+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Marvel",
+      "question_text": "What city is the primary setting of Cloak & Dagger?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 7544,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:46:32.661924+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7384,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:47:03.434150+00:00",
+      "ended_at": "2026-10-03 18:47:12.351091+00:00",
+      "winner_id": "433990857063137282",
+      "category": "Disney",
+      "question_text": "One Jump is a song from which Disney film?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 8663,
+          "exact_match": true,
+          "points_awarded": 6,
+          "answered_at": "2026-10-03 18:47:12.346416+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7385,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:47:42.600671+00:00",
+      "ended_at": "2026-10-03 18:48:42.809304+00:00",
+      "winner_id": null,
+      "category": "Halloween",
+      "question_text": "What is the name of the sleepwalker controlled by the doctor in the 1920 silent film The Cabinet of Dr. Caligari?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7386,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:49:13.276386+00:00",
+      "ended_at": "2026-10-03 18:50:13.828325+00:00",
+      "winner_id": null,
+      "category": "Whos That Pokemon (Gen 3)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/mAmoShp.png",
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7387,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:50:44.259804+00:00",
+      "ended_at": "2026-10-03 18:51:44.578524+00:00",
+      "winner_id": null,
+      "category": "Star Wars",
+      "question_text": "What is the name of the Imperial pilot who defected to the Rebels in Rogue One?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7388,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:52:15.172553+00:00",
+      "ended_at": "2026-10-03 18:52:24.054935+00:00",
+      "winner_id": "184456115927384065",
+      "category": "General Knowledge",
+      "question_text": "The Almeria region, driest in Europe, used for filming many famous Cowboy/Western films, is in what country?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 8715,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:52:24.050955+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7389,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:52:54.475489+00:00",
+      "ended_at": "2026-10-03 18:53:07.241020+00:00",
+      "winner_id": "795847206719717386",
+      "category": "Whos That Pokemon (Gen 1)",
+      "question_text": "Who's that Pokémon?",
+      "image_url": "https://cdn.discord.red/i/F8uPBoY.png",
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "795847206719717386",
+          "response_time_ms": 12000,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:53:07.237671+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7390,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:53:37.743657+00:00",
+      "ended_at": "2026-10-03 18:54:06.221477+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Disney",
+      "question_text": "In Mulan before Mushu comes to life, what type of object is he?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 28234,
+          "exact_match": true,
+          "points_awarded": 3,
+          "answered_at": "2026-10-03 18:54:06.217834+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7391,
+      "mode": "standard",
+      "started_at": "2026-10-03 18:54:36.687253+00:00",
+      "ended_at": "2026-10-03 18:54:45.693646+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Video Games",
+      "question_text": "What Nintendo console, released in 1985, revitalized the video game industry after the 1983 crash?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 8828,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 18:54:45.690480+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7392,
+      "mode": "insane",
+      "started_at": "2026-10-03 18:55:15.844072+00:00",
+      "ended_at": "2026-10-03 18:56:16.479890+00:00",
+      "winner_id": null,
+      "category": "Space",
+      "question_text": "Constellations",
+      "image_url": null,
+      "answer_count": 88,
+      "answers": [
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 3376,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:55:19.854099+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 8082,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:55:24.560143+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 13145,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:55:29.622445+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 14419,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:55:30.897155+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 17286,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:55:33.764318+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "734768348201615400",
+          "response_time_ms": 18938,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:55:35.416238+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "433990857063137282",
+          "response_time_ms": 25839,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 18:55:42.317203+00:00",
+          "hint_window": null
+        }
+      ]
+    }
+  ],
+  "xp": {
+    "184456115927384065": 3772,
+    "433990857063137282": 4176,
+    "734768348201615400": 11456,
+    "795847206719717386": 7592
+  },
+  "xp_layers": {
+    "734768348201615400": {
+      "base": 2864,
+      "daily": 5728,
+      "double_xp_weekend": 2864
+    },
+    "795847206719717386": {
+      "base": 949,
+      "boost": 3796,
+      "daily": 1898,
+      "double_xp_weekend": 949
+    },
+    "184456115927384065": {
+      "base": 943,
+      "daily": 1886,
+      "double_xp_weekend": 943
+    },
+    "433990857063137282": {
+      "base": 1044,
+      "daily": 2088,
+      "double_xp_weekend": 1044
+    }
+  },
+  "pass_xp": {
+    "433990857063137282": {
+      "season_key": "season_0",
+      "total": 744,
+      "uncapped": 1044,
+      "pumpkin": 194,
+      "game": 550,
+      "emoji": "🎃"
+    },
+    "734768348201615400": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 2864,
+      "game": 550,
+      "emoji": "🎃"
+    },
+    "795847206719717386": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 949,
+      "game": 550,
+      "emoji": "🎃"
+    },
+    "184456115927384065": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 943,
+      "game": 550,
+      "emoji": "🎃"
+    }
+  }
+}
