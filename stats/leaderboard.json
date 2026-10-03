@@ -2985,22 +2985,22 @@
           "xp": 1536
         },
         "weekly": {
-          "points": 1247,
-          "correct": 493,
-          "standard_correct": 316,
+          "points": 1223,
+          "correct": 489,
+          "standard_correct": 312,
           "insane_finds": 177,
-          "avg_guess_ms": 18289.813291139242,
+          "avg_guess_ms": 18380.30769230769,
           "fastest_ms": 1145,
           "under_5s": 76,
-          "exact_spelling": 467,
-          "spelled": 493,
+          "exact_spelling": 463,
+          "spelled": 489,
           "best_streak": 43,
           "active_days": 8,
           "games_played": 59,
           "categories_played": 30,
           "best_insane_round": 16,
           "best_game_points": 88,
-          "games_started": 50,
+          "games_started": 49,
           "duels_played": 25,
           "duel_wins": 7,
           "duel_losses": 18,
@@ -3269,8 +3269,8 @@
             1
           ],
           "Sports": [
-            89,
-            401
+            85,
+            377
           ],
           "Music": [
             9,
