@@ -1,6 +1,33 @@
 {
   "releases": [
     {
+      "title": "Bertha Update 10/3/26",
+      "intro": [],
+      "sections": [
+        {
+          "name": "Added",
+          "items": [
+            {
+              "text": "**Pick your pace:** `/trivia start` and `/quickfire` have a new `gap` option for the seconds between questions: 15, 20, 30, 45 or 60 for Trivia (default 30), and 5, 10 or 15 for Quickfire (default 10).",
+              "level": 0
+            },
+            {
+              "text": "**Insane rounds on or off:** a new `insane` option on `/trivia start` and `/quickfire`. Set it to Off and every question is a regular one. It's On by default.",
+              "level": 0
+            },
+            {
+              "text": "Anything you change shows on the game's start card, and Play Again keeps your settings.",
+              "level": 0
+            },
+            {
+              "text": "Hardcore is unchanged.",
+              "level": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Bertha Update 9/30/26",
       "intro": [],
       "sections": [
