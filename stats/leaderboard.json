@@ -1018,7 +1018,7 @@
         "maxed": false
       },
       "current": {
-        "current_streak": 2,
+        "current_streak": 1,
         "day_streak": 18,
         "last_played": "2026-10-02",
         "duel_streak": 0,
@@ -1036,20 +1036,36 @@
         "cosmetics_owned": 76
       },
       "periods": {
-        "daily": {},
+        "daily": {
+          "points": 2,
+          "correct": 1,
+          "standard_correct": 1,
+          "insane_finds": 0,
+          "avg_guess_ms": 25089,
+          "fastest_ms": 25089,
+          "under_5s": 0,
+          "exact_spelling": 1,
+          "spelled": 1,
+          "best_streak": 1,
+          "active_days": 1,
+          "games_played": 1,
+          "categories_played": 1,
+          "best_game_points": 2,
+          "played_daily": 1
+        },
         "weekly": {
-          "points": 1751,
+          "points": 1752,
           "correct": 860,
           "standard_correct": 308,
           "insane_finds": 552,
-          "avg_guess_ms": 10068.08116883117,
+          "avg_guess_ms": 10005.116883116883,
           "fastest_ms": 2161,
           "under_5s": 137,
           "exact_spelling": 722,
           "spelled": 860,
           "best_streak": 45,
-          "active_days": 7,
-          "games_played": 31,
+          "active_days": 8,
+          "games_played": 32,
           "categories_played": 38,
           "best_insane_round": 25,
           "best_game_points": 232,
@@ -1062,7 +1078,7 @@
           "duel_rounds_won": 7,
           "duel_avg_ms": 16867.428571428572,
           "duel_fastest_ms": 5933,
-          "played_daily": 7,
+          "played_daily": 8,
           "played_hardcore": 8,
           "played_quickfire": 13,
           "played_standard": 3,
@@ -1080,18 +1096,18 @@
           "bug_reports": 3
         },
         "monthly": {
-          "points": 6491,
-          "correct": 3544,
-          "standard_correct": 1218,
+          "points": 6493,
+          "correct": 3545,
+          "standard_correct": 1219,
           "insane_finds": 2326,
-          "avg_guess_ms": 14400.665845648604,
+          "avg_guess_ms": 14409.433962264151,
           "fastest_ms": 2161,
           "under_5s": 332,
-          "exact_spelling": 2562,
-          "spelled": 3066,
+          "exact_spelling": 2563,
+          "spelled": 3067,
           "best_streak": 45,
-          "active_days": 29,
-          "games_played": 44,
+          "active_days": 30,
+          "games_played": 45,
           "categories_played": 51,
           "best_insane_round": 26,
           "best_game_points": 232,
@@ -1104,7 +1120,7 @@
           "duel_rounds_won": 14,
           "duel_avg_ms": 13501.642857142857,
           "duel_fastest_ms": 3268,
-          "played_daily": 11,
+          "played_daily": 12,
           "played_hardcore": 8,
           "played_quickfire": 16,
           "played_standard": 9,
@@ -1124,18 +1140,18 @@
           "bugs_fixed": 4
         },
         "yearly": {
-          "points": 7001,
-          "correct": 3848,
-          "standard_correct": 1312,
+          "points": 7003,
+          "correct": 3849,
+          "standard_correct": 1313,
           "insane_finds": 2536,
-          "avg_guess_ms": 14564.24618902439,
+          "avg_guess_ms": 14572.261995430312,
           "fastest_ms": 2161,
           "under_5s": 349,
-          "exact_spelling": 2562,
-          "spelled": 3066,
+          "exact_spelling": 2563,
+          "spelled": 3067,
           "best_streak": 45,
-          "active_days": 34,
-          "games_played": 44,
+          "active_days": 35,
+          "games_played": 45,
           "categories_played": 51,
           "best_insane_round": 26,
           "best_game_points": 232,
@@ -1148,7 +1164,7 @@
           "duel_rounds_won": 14,
           "duel_avg_ms": 13501.642857142857,
           "duel_fastest_ms": 3268,
-          "played_daily": 11,
+          "played_daily": 12,
           "played_hardcore": 8,
           "played_quickfire": 16,
           "played_standard": 9,
@@ -1168,17 +1184,17 @@
           "bugs_fixed": 4
         },
         "alltime": {
-          "points": 7001,
-          "correct": 3848,
-          "standard_correct": 1312,
+          "points": 7003,
+          "correct": 3849,
+          "standard_correct": 1313,
           "insane_finds": 2536,
-          "avg_guess_ms": 14564.24618902439,
+          "avg_guess_ms": 14572.261995430312,
           "fastest_ms": 2161,
           "under_5s": 349,
-          "exact_spelling": 2562,
-          "spelled": 3066,
+          "exact_spelling": 2563,
+          "spelled": 3067,
           "best_streak": 45,
-          "active_days": 34,
+          "active_days": 35,
           "games_played": 77,
           "categories_played": 51,
           "best_insane_round": 26,
@@ -1192,7 +1208,7 @@
           "duel_rounds_won": 14,
           "duel_avg_ms": 13501.642857142857,
           "duel_fastest_ms": 3268,
-          "played_daily": 11,
+          "played_daily": 12,
           "played_hardcore": 8,
           "played_quickfire": 16,
           "played_standard": 9,
@@ -1213,7 +1229,12 @@
         }
       },
       "categories": {
-        "daily": {},
+        "daily": {
+          "World Capitals": [
+            1,
+            2
+          ]
+        },
         "weekly": {
           "The Simpsons": [
             2,
@@ -1244,8 +1265,8 @@
             2
           ],
           "Pokemon": [
-            2,
-            3
+            1,
+            2
           ],
           "Family Guy": [
             1,
@@ -1312,8 +1333,8 @@
             19
           ],
           "World Capitals": [
-            2,
-            6
+            3,
+            8
           ],
           "Entertainment": [
             5,
@@ -1490,8 +1511,8 @@
             40
           ],
           "World Capitals": [
-            55,
-            190
+            56,
+            192
           ],
           "Entertainment": [
             56,
@@ -1696,8 +1717,8 @@
             40
           ],
           "World Capitals": [
-            61,
-            214
+            62,
+            216
           ],
           "Entertainment": [
             69,
@@ -1902,8 +1923,8 @@
             40
           ],
           "World Capitals": [
-            61,
-            214
+            62,
+            216
           ],
           "Entertainment": [
             69,
