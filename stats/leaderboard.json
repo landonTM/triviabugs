@@ -1101,22 +1101,22 @@
           "missions": 1
         },
         "weekly": {
-          "points": 1762,
-          "correct": 874,
-          "standard_correct": 308,
+          "points": 1732,
+          "correct": 866,
+          "standard_correct": 300,
           "insane_finds": 566,
-          "avg_guess_ms": 10310.538961038961,
+          "avg_guess_ms": 10394.25,
           "fastest_ms": 2161,
-          "under_5s": 134,
-          "exact_spelling": 732,
-          "spelled": 874,
+          "under_5s": 130,
+          "exact_spelling": 724,
+          "spelled": 866,
           "best_streak": 45,
           "active_days": 8,
           "games_played": 31,
           "categories_played": 40,
           "best_insane_round": 25,
           "best_game_points": 232,
-          "games_started": 7,
+          "games_started": 6,
           "duels_played": 3,
           "duel_wins": 2,
           "duel_losses": 1,
@@ -1444,8 +1444,8 @@
             1
           ],
           "Sports": [
-            42,
-            186
+            40,
+            178
           ],
           "General Knowledge": [
             159,
@@ -1456,8 +1456,8 @@
             38
           ],
           "Wrestling": [
-            145,
-            271
+            139,
+            249
           ],
           "Geography": [
             134,
