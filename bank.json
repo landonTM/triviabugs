@@ -8,7 +8,7 @@
       "fun_facts": 67,
       "pictures": 0,
       "asked": 407,
-      "insane_asked": 36,
+      "insane_asked": 37,
       "first_added": "2026-07-19",
       "last_added": "2026-10-01",
       "off": false
@@ -21,7 +21,7 @@
       "fun_facts": 121,
       "pictures": 0,
       "asked": 290,
-      "insane_asked": 7,
+      "insane_asked": 8,
       "first_added": "2026-07-19",
       "last_added": "2026-10-01",
       "off": false
@@ -151,7 +151,7 @@
       "fun_facts": 358,
       "pictures": 0,
       "asked": 174,
-      "insane_asked": 18,
+      "insane_asked": 19,
       "first_added": "2026-07-19",
       "last_added": "2026-10-01",
       "off": false
@@ -392,12 +392,12 @@
     },
     {
       "name": "Logos",
-      "questions": 160,
+      "questions": 159,
       "insane_rounds": 0,
       "insane_answers": 0,
       "fun_facts": 0,
-      "pictures": 160,
-      "asked": 160,
+      "pictures": 159,
+      "asked": 159,
       "insane_asked": 0,
       "first_added": "2026-09-06",
       "last_added": "2026-09-29",
@@ -1321,7 +1321,7 @@
       "categories": [
         [
           "Logos",
-          61,
+          60,
           0
         ]
       ]
