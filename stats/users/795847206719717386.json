@@ -2,38 +2,38 @@
   "user_id": "795847206719717386",
   "level": {
     "level": 47,
-    "xp_into_level": 68099,
+    "xp_into_level": 75691,
     "xp_for_level": 76000,
-    "progress": 0.8960394736842106,
+    "progress": 0.9959342105263158,
     "maxed": false
   },
-  "total_xp": 1313599,
+  "total_xp": 1321191,
   "period_stats": {
-    "daily_points": 19,
-    "daily_correct": 13,
-    "weekly_points": 3904,
-    "weekly_correct": 1780,
-    "monthly_points": 9493,
-    "monthly_correct": 4982,
-    "yearly_points": 9840,
-    "yearly_correct": 5170,
-    "alltime_points": 9840,
-    "alltime_correct": 5170
+    "daily_points": 23,
+    "daily_correct": 14,
+    "weekly_points": 3889,
+    "weekly_correct": 1767,
+    "monthly_points": 9497,
+    "monthly_correct": 4983,
+    "yearly_points": 9844,
+    "yearly_correct": 5171,
+    "alltime_points": 9844,
+    "alltime_correct": 5171
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 6774,
-    "questions_right": 2104,
+    "total_points": 6778,
+    "questions_right": 2105,
     "questions_wrong": 0,
-    "wins": 2104,
+    "wins": 2105,
     "current_streak": 1,
     "best_streak": 56,
-    "games_played": 115,
+    "games_played": 116,
     "insane_guesses": 2112,
-    "day_streak": 6,
-    "last_played_date": "2026-10-01",
-    "total_xp": 1313599,
+    "day_streak": 1,
+    "last_played_date": "2026-10-03",
+    "total_xp": 1321191,
     "game_wins": 76,
     "achievement_best_streak": 56
   },
@@ -54,14 +54,14 @@
     "guesses": 31
   },
   "total_insane_correct": 3066,
-  "average_guess_ms": 16712.725760456273,
+  "average_guess_ms": 16710.486935866982,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
     "active_days": 32
   },
   "spelling_accuracy": {
-    "exact_count": 4046,
-    "total": 4571
+    "exact_count": 4047,
+    "total": 4572
   },
   "achievements": {
     "catalog": [
@@ -2239,7 +2239,7 @@
       "marvel": 98,
       "movies": 43,
       "music": 24,
-      "pokemon": 31,
+      "pokemon": 32,
       "sports": 37,
       "videogames": 69,
       "wrestling": 400,
@@ -3673,19 +3673,20 @@
     "level": {
       "duel": 12450,
       "achievement": 906250,
-      "game": 354899,
+      "game": 362491,
       "mission": 40000
     },
     "game_layers": {
-      "base": 71268,
+      "base": 72217,
       "replay": 3181,
-      "boost": 42143,
-      "daily": 8817,
+      "double_xp_weekend": 949,
+      "boost": 45939,
+      "daily": 10715,
       "hardcore": 4750
     },
     "pass": {
       "season_0": {
-        "game": 28158,
+        "game": 28708,
         "duel": 1950,
         "pumpkin": 1460,
         "mission": 2000
@@ -3950,8 +3951,8 @@
     ],
     [
       "2026-10-03",
-      19,
-      13
+      23,
+      14
     ]
   ]
 }
