@@ -2038,22 +2038,22 @@
           "xp": 14176
         },
         "weekly": {
-          "points": 1647,
-          "correct": 639,
-          "standard_correct": 289,
+          "points": 1599,
+          "correct": 631,
+          "standard_correct": 281,
           "insane_finds": 350,
-          "avg_guess_ms": 10186.131487889274,
+          "avg_guess_ms": 10288.875444839858,
           "fastest_ms": 134,
-          "under_5s": 133,
-          "exact_spelling": 568,
-          "spelled": 639,
+          "under_5s": 130,
+          "exact_spelling": 560,
+          "spelled": 631,
           "best_streak": 27,
           "active_days": 8,
           "games_played": 62,
           "categories_played": 29,
           "best_insane_round": 20,
           "best_game_points": 255,
-          "games_started": 19,
+          "games_started": 18,
           "duels_played": 29,
           "duel_wins": 18,
           "duel_losses": 10,
@@ -2259,8 +2259,8 @@
             5
           ],
           "Wrestling": [
-            70,
-            140
+            68,
+            128
           ],
           "Harry Potter": [
             2,
@@ -2307,8 +2307,8 @@
             6
           ],
           "Logos": [
-            176,
-            799
+            174,
+            787
           ],
           "Star Wars": [
             3,
@@ -2351,8 +2351,8 @@
             62
           ],
           "Marvel": [
-            33,
-            137
+            30,
+            119
           ],
           "US State Abbreviations": [
             3,
