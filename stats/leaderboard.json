@@ -1101,15 +1101,15 @@
           "missions": 1
         },
         "weekly": {
-          "points": 1490,
-          "correct": 756,
+          "points": 1486,
+          "correct": 752,
           "standard_correct": 258,
-          "insane_finds": 498,
+          "insane_finds": 494,
           "avg_guess_ms": 10398.348837209302,
           "fastest_ms": 2161,
           "under_5s": 117,
-          "exact_spelling": 630,
-          "spelled": 756,
+          "exact_spelling": 626,
+          "spelled": 752,
           "best_streak": 45,
           "active_days": 8,
           "games_played": 26,
@@ -1456,8 +1456,8 @@
             38
           ],
           "Wrestling": [
-            104,
-            129
+            100,
+            125
           ],
           "Geography": [
             114,
@@ -2441,13 +2441,13 @@
             59,
             67
           ],
-          "Video Games": [
-            37,
-            47
-          ],
           "Greek Mythology": [
             3,
             4
+          ],
+          "Video Games": [
+            37,
+            47
           ],
           "General Knowledge": [
             114,
@@ -2457,12 +2457,12 @@
             2,
             6
           ],
-          "World Cup": [
-            3,
-            5
-          ],
           "Movies": [
             2,
+            5
+          ],
+          "World Cup": [
+            3,
             5
           ],
           "What Links": [
@@ -3161,22 +3161,22 @@
           "xp": 5308
         },
         "weekly": {
-          "points": 1116,
-          "correct": 447,
-          "standard_correct": 290,
-          "insane_finds": 157,
-          "avg_guess_ms": 18281.613793103446,
+          "points": 1087,
+          "correct": 434,
+          "standard_correct": 280,
+          "insane_finds": 154,
+          "avg_guess_ms": 17976.060714285715,
           "fastest_ms": 1145,
-          "under_5s": 76,
-          "exact_spelling": 420,
-          "spelled": 447,
+          "under_5s": 75,
+          "exact_spelling": 408,
+          "spelled": 434,
           "best_streak": 43,
           "active_days": 8,
           "games_played": 55,
           "categories_played": 31,
           "best_insane_round": 15,
-          "best_game_points": 88,
-          "games_started": 46,
+          "best_game_points": 73,
+          "games_started": 45,
           "duels_played": 25,
           "duel_wins": 7,
           "duel_losses": 18,
@@ -3194,11 +3194,11 @@
           "wins_quickfire": 33,
           "wins_hardcore": 8,
           "xp_mission": 15000,
-          "xp": 408891,
+          "xp": 383891,
           "xp_game": 195791,
           "xp_duel": 15600,
-          "xp_achievement": 182500,
-          "achievements": 11,
+          "xp_achievement": 157500,
+          "achievements": 10,
           "missions": 2
         },
         "monthly": {
@@ -3409,8 +3409,8 @@
             4
           ],
           "Conundrums": [
-            5,
-            10
+            4,
+            9
           ],
           "Halloween": [
             1,
@@ -3437,8 +3437,8 @@
             496
           ],
           "Geography": [
-            31,
-            36
+            29,
+            31
           ],
           "Slogans": [
             1,
@@ -3449,20 +3449,20 @@
             5
           ],
           "History": [
-            8,
-            11
+            7,
+            9
           ],
           "Movies": [
-            15,
-            35
+            13,
+            30
           ],
           "NBA": [
             3,
             3
           ],
           "Wrestling": [
-            50,
-            50
+            47,
+            47
           ],
           "What Links": [
             1,
@@ -3473,12 +3473,12 @@
             5
           ],
           "Sports": [
-            73,
-            309
+            72,
+            305
           ],
           "Music": [
-            9,
-            20
+            6,
+            11
           ],
           "Phobias": [
             2,
