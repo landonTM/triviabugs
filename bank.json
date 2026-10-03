@@ -135,7 +135,7 @@
       "questions": 449,
       "insane_rounds": 0,
       "insane_answers": 0,
-      "fun_facts": 449,
+      "fun_facts": 342,
       "pictures": 0,
       "asked": 97,
       "insane_asked": 0,
@@ -145,10 +145,10 @@
     },
     {
       "name": "Geography",
-      "questions": 358,
+      "questions": 357,
       "insane_rounds": 25,
       "insane_answers": 931,
-      "fun_facts": 358,
+      "fun_facts": 311,
       "pictures": 0,
       "asked": 174,
       "insane_asked": 20,
@@ -1186,7 +1186,7 @@
         ],
         [
           "Geography",
-          126,
+          125,
           0
         ],
         [
