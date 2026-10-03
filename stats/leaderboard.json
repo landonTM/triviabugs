@@ -2038,22 +2038,22 @@
           "xp": 14176
         },
         "weekly": {
-          "points": 1796,
-          "correct": 696,
-          "standard_correct": 311,
+          "points": 1778,
+          "correct": 690,
+          "standard_correct": 305,
           "insane_finds": 385,
-          "avg_guess_ms": 10190.372990353699,
+          "avg_guess_ms": 9931.28524590164,
           "fastest_ms": 134,
-          "under_5s": 145,
-          "exact_spelling": 622,
-          "spelled": 696,
+          "under_5s": 144,
+          "exact_spelling": 616,
+          "spelled": 690,
           "best_streak": 27,
           "active_days": 8,
-          "games_played": 68,
-          "categories_played": 30,
+          "games_played": 64,
+          "categories_played": 29,
           "best_insane_round": 20,
           "best_game_points": 255,
-          "games_started": 21,
+          "games_started": 20,
           "duels_played": 31,
           "duel_wins": 19,
           "duel_losses": 11,
@@ -2064,19 +2064,19 @@
           "duel_fastest_ms": 1792,
           "played_daily": 5,
           "played_hardcore": 16,
-          "played_quickfire": 44,
+          "played_quickfire": 40,
           "played_standard": 3,
           "wins_daily": 1,
-          "game_wins": 20,
+          "game_wins": 19,
           "wins_standard": 1,
+          "wins_quickfire": 11,
           "wins_hardcore": 6,
-          "wins_quickfire": 12,
           "xp_mission": 30000,
-          "xp": 422858,
-          "xp_achievement": 123500,
+          "xp": 421358,
+          "xp_achievement": 122000,
           "xp_game": 239208,
           "xp_duel": 30150,
-          "achievements": 18,
+          "achievements": 17,
           "missions": 4,
           "bug_reports": 6,
           "bugs_fixed": 1
@@ -2291,8 +2291,8 @@
             4
           ],
           "Movies": [
-            3,
-            6
+            2,
+            5
           ],
           "World Cup": [
             3,
@@ -2307,12 +2307,8 @@
             6
           ],
           "Logos": [
-            184,
-            843
-          ],
-          "Acronyms and Abbreviations": [
-            2,
-            8
+            182,
+            835
           ],
           "Star Wars": [
             3,
@@ -2339,8 +2335,8 @@
             14
           ],
           "Art and Literature": [
-            2,
-            2
+            1,
+            1
           ],
           "Slogans": [
             1,
@@ -2989,22 +2985,22 @@
           "xp": 1536
         },
         "weekly": {
-          "points": 1471,
-          "correct": 570,
-          "standard_correct": 366,
+          "points": 1422,
+          "correct": 554,
+          "standard_correct": 350,
           "insane_finds": 204,
-          "avg_guess_ms": 17860.562841530056,
+          "avg_guess_ms": 17900.19142857143,
           "fastest_ms": 1145,
-          "under_5s": 85,
-          "exact_spelling": 538,
-          "spelled": 570,
+          "under_5s": 82,
+          "exact_spelling": 524,
+          "spelled": 554,
           "best_streak": 43,
           "active_days": 8,
-          "games_played": 72,
+          "games_played": 66,
           "categories_played": 31,
           "best_insane_round": 16,
           "best_game_points": 88,
-          "games_started": 61,
+          "games_started": 57,
           "duels_played": 27,
           "duel_wins": 8,
           "duel_losses": 19,
@@ -3015,18 +3011,18 @@
           "duel_fastest_ms": 3003,
           "played_daily": 7,
           "played_hardcore": 15,
-          "played_quickfire": 46,
+          "played_quickfire": 40,
           "played_standard": 4,
           "wins_standard": 3,
-          "game_wins": 58,
-          "wins_quickfire": 43,
+          "game_wins": 53,
+          "wins_quickfire": 38,
           "wins_hardcore": 12,
           "xp_mission": 15000,
-          "xp": 508619,
+          "xp": 506619,
           "xp_game": 192019,
           "xp_duel": 17100,
-          "xp_achievement": 284500,
-          "achievements": 17,
+          "xp_achievement": 282500,
+          "achievements": 16,
           "missions": 2
         },
         "monthly": {
@@ -3193,8 +3189,8 @@
             7
           ],
           "Logos": [
-            4,
-            18
+            1,
+            6
           ],
           "World Cup": [
             2,
@@ -3213,12 +3209,12 @@
             1
           ],
           "Acronyms and Abbreviations": [
-            2,
-            6
+            1,
+            2
           ],
           "Conundrums": [
-            9,
-            22
+            5,
+            10
           ],
           "General Knowledge": [
             75,
@@ -3257,8 +3253,8 @@
             7
           ],
           "Movies": [
-            21,
-            51
+            16,
+            36
           ],
           "NBA": [
             3,
@@ -3297,8 +3293,8 @@
             8
           ],
           "Art and Literature": [
-            16,
-            32
+            13,
+            26
           ],
           "Elements": [
             1,
