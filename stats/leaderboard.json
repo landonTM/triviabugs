@@ -1101,18 +1101,18 @@
           "missions": 1
         },
         "weekly": {
-          "points": 1532,
-          "correct": 771,
-          "standard_correct": 265,
-          "insane_finds": 506,
-          "avg_guess_ms": 10377.181132075471,
+          "points": 1496,
+          "correct": 757,
+          "standard_correct": 259,
+          "insane_finds": 498,
+          "avg_guess_ms": 10371.185328185327,
           "fastest_ms": 2161,
           "under_5s": 118,
-          "exact_spelling": 645,
-          "spelled": 771,
+          "exact_spelling": 631,
+          "spelled": 757,
           "best_streak": 45,
           "active_days": 8,
-          "games_played": 29,
+          "games_played": 27,
           "categories_played": 40,
           "best_insane_round": 25,
           "best_game_points": 232,
@@ -1126,19 +1126,19 @@
           "duel_avg_ms": 16867.428571428572,
           "duel_fastest_ms": 5933,
           "played_daily": 7,
-          "played_hardcore": 7,
-          "played_quickfire": 12,
+          "played_hardcore": 6,
+          "played_quickfire": 11,
           "played_standard": 3,
           "wins_hardcore": 1,
           "game_wins": 12,
           "wins_daily": 3,
           "wins_quickfire": 8,
-          "xp_achievement": 173500,
-          "xp": 485427,
+          "xp_achievement": 168500,
+          "xp": 480427,
           "xp_duel": 3000,
           "xp_mission": 40000,
           "xp_game": 268927,
-          "achievements": 11,
+          "achievements": 10,
           "missions": 4,
           "bug_reports": 3
         },
@@ -1444,8 +1444,8 @@
             1
           ],
           "Sports": [
-            32,
-            150
+            30,
+            140
           ],
           "General Knowledge": [
             146,
@@ -1456,12 +1456,12 @@
             38
           ],
           "Wrestling": [
-            112,
-            137
+            104,
+            129
           ],
           "Geography": [
-            117,
-            143
+            114,
+            131
           ],
           "Logos": [
             18,
@@ -3161,22 +3161,22 @@
           "xp": 5308
         },
         "weekly": {
-          "points": 1211,
-          "correct": 486,
-          "standard_correct": 310,
-          "insane_finds": 176,
-          "avg_guess_ms": 18307.987096774195,
+          "points": 1128,
+          "correct": 453,
+          "standard_correct": 296,
+          "insane_finds": 157,
+          "avg_guess_ms": 18543.5,
           "fastest_ms": 1145,
-          "under_5s": 77,
-          "exact_spelling": 459,
-          "spelled": 486,
+          "under_5s": 76,
+          "exact_spelling": 426,
+          "spelled": 453,
           "best_streak": 43,
           "active_days": 8,
-          "games_played": 58,
+          "games_played": 57,
           "categories_played": 31,
-          "best_insane_round": 16,
+          "best_insane_round": 15,
           "best_game_points": 88,
-          "games_started": 48,
+          "games_started": 47,
           "duels_played": 25,
           "duel_wins": 7,
           "duel_losses": 18,
@@ -3186,13 +3186,13 @@
           "duel_avg_ms": 8424.767857142857,
           "duel_fastest_ms": 3003,
           "played_daily": 7,
-          "played_hardcore": 11,
+          "played_hardcore": 10,
           "played_quickfire": 37,
           "played_standard": 3,
           "wins_standard": 2,
-          "game_wins": 46,
+          "game_wins": 45,
           "wins_quickfire": 35,
-          "wins_hardcore": 9,
+          "wins_hardcore": 8,
           "xp_mission": 15000,
           "xp": 408891,
           "xp_game": 195791,
@@ -3417,8 +3417,8 @@
             1
           ],
           "General Knowledge": [
-            58,
-            64
+            55,
+            61
           ],
           "Marvel": [
             4,
@@ -3437,8 +3437,8 @@
             496
           ],
           "Geography": [
-            37,
-            52
+            32,
+            38
           ],
           "Slogans": [
             1,
@@ -3461,8 +3461,8 @@
             3
           ],
           "Wrestling": [
-            66,
-            66
+            50,
+            50
           ],
           "What Links": [
             1,
@@ -3473,8 +3473,8 @@
             5
           ],
           "Sports": [
-            82,
-            359
+            73,
+            309
           ],
           "Music": [
             9,
