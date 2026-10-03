@@ -56,18 +56,18 @@
           "xp": 7592
         },
         "weekly": {
-          "points": 3889,
-          "correct": 1767,
+          "points": 3880,
+          "correct": 1758,
           "standard_correct": 788,
-          "insane_finds": 979,
+          "insane_finds": 970,
           "avg_guess_ms": 10916.022842639593,
           "fastest_ms": 919,
           "under_5s": 423,
-          "exact_spelling": 1602,
-          "spelled": 1767,
+          "exact_spelling": 1597,
+          "spelled": 1758,
           "best_streak": 56,
-          "active_days": 7,
-          "games_played": 62,
+          "active_days": 6,
+          "games_played": 61,
           "categories_played": 43,
           "best_insane_round": 31,
           "best_game_points": 163,
@@ -83,7 +83,7 @@
           "played_daily": 6,
           "played_hardcore": 6,
           "played_quickfire": 46,
-          "played_standard": 4,
+          "played_standard": 3,
           "wins_quickfire": 39,
           "game_wins": 50,
           "wins_daily": 3,
@@ -267,8 +267,8 @@
             32
           ],
           "Marvel": [
-            45,
-            49
+            36,
+            40
           ],
           "World Map": [
             5,
@@ -1101,18 +1101,18 @@
           "missions": 1
         },
         "weekly": {
-          "points": 1486,
-          "correct": 752,
-          "standard_correct": 258,
-          "insane_finds": 494,
-          "avg_guess_ms": 10398.348837209302,
+          "points": 1454,
+          "correct": 730,
+          "standard_correct": 253,
+          "insane_finds": 477,
+          "avg_guess_ms": 10253.422924901186,
           "fastest_ms": 2161,
-          "under_5s": 117,
-          "exact_spelling": 626,
-          "spelled": 752,
+          "under_5s": 116,
+          "exact_spelling": 605,
+          "spelled": 730,
           "best_streak": 45,
-          "active_days": 8,
-          "games_played": 26,
+          "active_days": 7,
+          "games_played": 25,
           "categories_played": 40,
           "best_insane_round": 25,
           "best_game_points": 232,
@@ -1128,7 +1128,7 @@
           "played_daily": 7,
           "played_hardcore": 5,
           "played_quickfire": 11,
-          "played_standard": 3,
+          "played_standard": 2,
           "wins_hardcore": 1,
           "game_wins": 12,
           "wins_daily": 3,
@@ -1348,8 +1348,8 @@
             16
           ],
           "Conundrums": [
-            2,
-            8
+            1,
+            4
           ],
           "Video Games": [
             44,
@@ -1416,8 +1416,8 @@
             8
           ],
           "History": [
-            16,
-            19
+            15,
+            18
           ],
           "Marvel": [
             1,
@@ -1444,12 +1444,12 @@
             1
           ],
           "Sports": [
-            30,
-            140
+            28,
+            132
           ],
           "General Knowledge": [
-            146,
-            169
+            129,
+            152
           ],
           "World Cup": [
             25,
@@ -1460,8 +1460,8 @@
             125
           ],
           "Geography": [
-            114,
-            131
+            113,
+            129
           ],
           "Logos": [
             17,
@@ -3161,15 +3161,15 @@
           "xp": 5308
         },
         "weekly": {
-          "points": 1087,
-          "correct": 434,
-          "standard_correct": 280,
-          "insane_finds": 154,
-          "avg_guess_ms": 17976.060714285715,
+          "points": 1046,
+          "correct": 409,
+          "standard_correct": 266,
+          "insane_finds": 143,
+          "avg_guess_ms": 17378.898496240603,
           "fastest_ms": 1145,
           "under_5s": 75,
-          "exact_spelling": 408,
-          "spelled": 434,
+          "exact_spelling": 384,
+          "spelled": 409,
           "best_streak": 43,
           "active_days": 8,
           "games_played": 55,
@@ -3194,11 +3194,11 @@
           "wins_quickfire": 33,
           "wins_hardcore": 8,
           "xp_mission": 15000,
-          "xp": 383891,
+          "xp": 358891,
           "xp_game": 195791,
           "xp_duel": 15600,
-          "xp_achievement": 157500,
-          "achievements": 10,
+          "xp_achievement": 132500,
+          "achievements": 9,
           "missions": 2
         },
         "monthly": {
@@ -3409,20 +3409,20 @@
             4
           ],
           "Conundrums": [
-            4,
-            9
+            3,
+            7
           ],
           "Halloween": [
             1,
             1
           ],
           "General Knowledge": [
-            55,
-            61
+            45,
+            51
           ],
           "Marvel": [
-            4,
-            4
+            3,
+            3
           ],
           "World Map": [
             1,
@@ -3437,8 +3437,8 @@
             496
           ],
           "Geography": [
-            29,
-            31
+            28,
+            29
           ],
           "Slogans": [
             1,
@@ -3449,12 +3449,12 @@
             5
           ],
           "History": [
-            7,
-            9
+            5,
+            6
           ],
           "Movies": [
-            13,
-            30
+            9,
+            19
           ],
           "NBA": [
             3,
@@ -3473,12 +3473,12 @@
             5
           ],
           "Sports": [
-            72,
-            305
+            71,
+            301
           ],
           "Music": [
-            6,
-            11
+            3,
+            6
           ],
           "Phobias": [
             2,
