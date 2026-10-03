@@ -2,38 +2,38 @@
   "user_id": "184456115927384065",
   "level": {
     "level": 43,
-    "xp_into_level": 42519,
+    "xp_into_level": 46291,
     "xp_for_level": 64000,
-    "progress": 0.664359375,
+    "progress": 0.723296875,
     "maxed": false
   },
-  "total_xp": 1014019,
+  "total_xp": 1017791,
   "period_stats": {
-    "daily_points": 20,
-    "daily_correct": 13,
-    "weekly_points": 1208,
-    "weekly_correct": 485,
-    "monthly_points": 3154,
-    "monthly_correct": 1508,
-    "yearly_points": 3160,
-    "yearly_correct": 1510,
-    "alltime_points": 3160,
-    "alltime_correct": 1510
+    "daily_points": 40,
+    "daily_correct": 22,
+    "weekly_points": 1217,
+    "weekly_correct": 487,
+    "monthly_points": 3174,
+    "monthly_correct": 1517,
+    "yearly_points": 3180,
+    "yearly_correct": 1519,
+    "alltime_points": 3180,
+    "alltime_correct": 1519
   },
   "stats_row": {
     "user_id": "184456115927384065",
     "guild_id": "861055530638114836",
-    "total_points": 2429,
-    "questions_right": 779,
+    "total_points": 2444,
+    "questions_right": 783,
     "questions_wrong": 0,
-    "wins": 779,
-    "current_streak": 1,
+    "wins": 783,
+    "current_streak": 2,
     "best_streak": 43,
-    "games_played": 133,
-    "insane_guesses": 560,
-    "day_streak": 18,
-    "last_played_date": "2026-10-02",
-    "total_xp": 1014019,
+    "games_played": 134,
+    "insane_guesses": 565,
+    "day_streak": 19,
+    "last_played_date": "2026-10-03",
+    "total_xp": 1017791,
     "game_wins": 82,
     "achievement_best_streak": 43
   },
@@ -53,15 +53,15 @@
     "category": "Wrestling",
     "guesses": 16
   },
-  "total_insane_correct": 731,
-  "average_guess_ms": 19879.632862644416,
+  "total_insane_correct": 736,
+  "average_guess_ms": 19841.69220945083,
   "activity": {
     "first_answered_at": "2026-09-01 19:48:23.350004+00:00",
     "active_days": 29
   },
   "spelling_accuracy": {
-    "exact_count": 1314,
-    "total": 1418
+    "exact_count": 1322,
+    "total": 1427
   },
   "achievements": {
     "catalog": [
@@ -2224,17 +2224,17 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 22,
+      "disney": 23,
       "entertainment": 2,
       "geo": 254,
-      "gk": 145,
+      "gk": 146,
       "got": 1,
       "marvel": 12,
       "movies": 23,
       "music": 15,
       "pokemon": 4,
       "sports": 249,
-      "videogames": 5,
+      "videogames": 6,
       "wrestling": 155,
       "duelwins": 15,
       "duelstreak": 2
@@ -3652,21 +3652,21 @@
     "level": {
       "achievement": 779250,
       "mission": 15000,
-      "game": 192019,
+      "game": 195791,
       "duel": 27750
     },
     "game_layers": {
       "replay": 65,
-      "daily": 2599,
+      "daily": 4485,
       "hardcore": 2982,
-      "base": 19938,
-      "double_xp_weekend": 768
+      "base": 20881,
+      "double_xp_weekend": 1711
     },
     "pass": {
       "season_0": {
         "mission": 750,
         "duel": 1250,
-        "game": 17712
+        "game": 18262
       }
     }
   },
@@ -3905,8 +3905,8 @@
     ],
     [
       "2026-10-03",
-      20,
-      13
+      40,
+      22
     ]
   ]
 }
