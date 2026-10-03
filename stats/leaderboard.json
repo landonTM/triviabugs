@@ -2038,18 +2038,18 @@
           "xp": 14176
         },
         "weekly": {
-          "points": 1835,
-          "correct": 730,
-          "standard_correct": 318,
+          "points": 1829,
+          "correct": 728,
+          "standard_correct": 316,
           "insane_finds": 412,
-          "avg_guess_ms": 10715.110062893082,
+          "avg_guess_ms": 10690.617088607594,
           "fastest_ms": 134,
           "under_5s": 145,
-          "exact_spelling": 651,
-          "spelled": 730,
+          "exact_spelling": 650,
+          "spelled": 728,
           "best_streak": 27,
           "active_days": 8,
-          "games_played": 73,
+          "games_played": 71,
           "categories_played": 30,
           "best_insane_round": 20,
           "best_game_points": 255,
@@ -2064,7 +2064,7 @@
           "duel_fastest_ms": 1792,
           "played_daily": 5,
           "played_hardcore": 16,
-          "played_quickfire": 49,
+          "played_quickfire": 47,
           "played_standard": 3,
           "wins_daily": 1,
           "game_wins": 20,
@@ -2267,8 +2267,8 @@
             2
           ],
           "Sports": [
-            20,
-            62
+            18,
+            56
           ],
           "Geography": [
             55,
@@ -2989,22 +2989,22 @@
           "xp": 1536
         },
         "weekly": {
-          "points": 1635,
-          "correct": 637,
-          "standard_correct": 414,
-          "insane_finds": 223,
-          "avg_guess_ms": 17973.384057971012,
+          "points": 1532,
+          "correct": 594,
+          "standard_correct": 386,
+          "insane_finds": 208,
+          "avg_guess_ms": 18004.992227979274,
           "fastest_ms": 1145,
-          "under_5s": 93,
-          "exact_spelling": 599,
-          "spelled": 637,
+          "under_5s": 88,
+          "exact_spelling": 560,
+          "spelled": 594,
           "best_streak": 43,
           "active_days": 8,
-          "games_played": 77,
+          "games_played": 75,
           "categories_played": 31,
           "best_insane_round": 16,
           "best_game_points": 88,
-          "games_started": 66,
+          "games_started": 64,
           "duels_played": 27,
           "duel_wins": 8,
           "duel_losses": 19,
@@ -3015,18 +3015,18 @@
           "duel_fastest_ms": 3003,
           "played_daily": 7,
           "played_hardcore": 15,
-          "played_quickfire": 51,
+          "played_quickfire": 49,
           "played_standard": 4,
           "wins_standard": 3,
-          "game_wins": 63,
-          "wins_quickfire": 48,
+          "game_wins": 61,
+          "wins_quickfire": 46,
           "wins_hardcore": 12,
           "xp_mission": 15000,
-          "xp": 533619,
+          "xp": 508619,
           "xp_game": 192019,
           "xp_duel": 17100,
-          "xp_achievement": 309500,
-          "achievements": 18,
+          "xp_achievement": 284500,
+          "achievements": 17,
           "missions": 2
         },
         "monthly": {
@@ -3197,8 +3197,8 @@
             18
           ],
           "World Cup": [
-            4,
-            8
+            2,
+            6
           ],
           "US State Capitals": [
             1,
@@ -3241,8 +3241,8 @@
             496
           ],
           "Geography": [
-            45,
-            71
+            42,
+            64
           ],
           "Slogans": [
             1,
@@ -3265,8 +3265,8 @@
             3
           ],
           "Wrestling": [
-            86,
-            116
+            73,
+            103
           ],
           "What Links": [
             1,
@@ -3277,8 +3277,8 @@
             2
           ],
           "Sports": [
-            156,
-            629
+            132,
+            550
           ],
           "Music": [
             12,
