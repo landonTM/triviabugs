@@ -2038,18 +2038,18 @@
           "xp": 14176
         },
         "weekly": {
-          "points": 1829,
-          "correct": 728,
-          "standard_correct": 316,
-          "insane_finds": 412,
-          "avg_guess_ms": 10690.617088607594,
+          "points": 1796,
+          "correct": 696,
+          "standard_correct": 311,
+          "insane_finds": 385,
+          "avg_guess_ms": 10190.372990353699,
           "fastest_ms": 134,
           "under_5s": 145,
-          "exact_spelling": 650,
-          "spelled": 728,
+          "exact_spelling": 622,
+          "spelled": 696,
           "best_streak": 27,
           "active_days": 8,
-          "games_played": 71,
+          "games_played": 68,
           "categories_played": 30,
           "best_insane_round": 20,
           "best_game_points": 255,
@@ -2064,7 +2064,7 @@
           "duel_fastest_ms": 1792,
           "played_daily": 5,
           "played_hardcore": 16,
-          "played_quickfire": 47,
+          "played_quickfire": 44,
           "played_standard": 3,
           "wins_daily": 1,
           "game_wins": 20,
@@ -2078,7 +2078,7 @@
           "xp_duel": 30150,
           "achievements": 18,
           "missions": 4,
-          "bug_reports": 7,
+          "bug_reports": 6,
           "bugs_fixed": 1
         },
         "monthly": {
@@ -2267,24 +2267,24 @@
             2
           ],
           "Sports": [
-            18,
-            56
+            15,
+            53
           ],
           "Geography": [
-            55,
-            64
+            53,
+            61
           ],
           "Greek Mythology": [
             3,
             4
           ],
           "Video Games": [
-            80,
-            90
+            63,
+            73
           ],
           "General Knowledge": [
-            143,
-            152
+            140,
+            149
           ],
           "Halloween": [
             1,
@@ -2351,8 +2351,8 @@
             10
           ],
           "Disney": [
-            39,
-            69
+            32,
+            62
           ],
           "Marvel": [
             33,
@@ -2989,22 +2989,22 @@
           "xp": 1536
         },
         "weekly": {
-          "points": 1532,
-          "correct": 594,
-          "standard_correct": 386,
-          "insane_finds": 208,
-          "avg_guess_ms": 18004.992227979274,
+          "points": 1471,
+          "correct": 570,
+          "standard_correct": 366,
+          "insane_finds": 204,
+          "avg_guess_ms": 17860.562841530056,
           "fastest_ms": 1145,
-          "under_5s": 88,
-          "exact_spelling": 560,
-          "spelled": 594,
+          "under_5s": 85,
+          "exact_spelling": 538,
+          "spelled": 570,
           "best_streak": 43,
           "active_days": 8,
-          "games_played": 75,
+          "games_played": 72,
           "categories_played": 31,
           "best_insane_round": 16,
           "best_game_points": 88,
-          "games_started": 64,
+          "games_started": 61,
           "duels_played": 27,
           "duel_wins": 8,
           "duel_losses": 19,
@@ -3015,11 +3015,11 @@
           "duel_fastest_ms": 3003,
           "played_daily": 7,
           "played_hardcore": 15,
-          "played_quickfire": 49,
+          "played_quickfire": 46,
           "played_standard": 4,
           "wins_standard": 3,
-          "game_wins": 61,
-          "wins_quickfire": 46,
+          "game_wins": 58,
+          "wins_quickfire": 43,
           "wins_hardcore": 12,
           "xp_mission": 15000,
           "xp": 508619,
@@ -3241,8 +3241,8 @@
             496
           ],
           "Geography": [
-            42,
-            64
+            39,
+            54
           ],
           "Slogans": [
             1,
@@ -3277,8 +3277,8 @@
             2
           ],
           "Sports": [
-            132,
-            550
+            115,
+            503
           ],
           "Music": [
             12,
@@ -3293,8 +3293,8 @@
             5
           ],
           "Disney": [
-            10,
-            12
+            6,
+            8
           ],
           "Art and Literature": [
             16,
