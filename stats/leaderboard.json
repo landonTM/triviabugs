@@ -2173,18 +2173,18 @@
           "achievements": 1
         },
         "weekly": {
-          "points": 1440,
-          "correct": 579,
+          "points": 1431,
+          "correct": 570,
           "standard_correct": 264,
-          "insane_finds": 315,
+          "insane_finds": 306,
           "avg_guess_ms": 10961.481060606062,
           "fastest_ms": 134,
           "under_5s": 124,
-          "exact_spelling": 514,
-          "spelled": 579,
+          "exact_spelling": 505,
+          "spelled": 570,
           "best_streak": 27,
           "active_days": 8,
-          "games_played": 59,
+          "games_played": 57,
           "categories_played": 31,
           "best_insane_round": 20,
           "best_game_points": 255,
@@ -2198,9 +2198,9 @@
           "duel_avg_ms": 8818.03488372093,
           "duel_fastest_ms": 1792,
           "played_daily": 6,
-          "played_hardcore": 12,
+          "played_hardcore": 11,
           "played_quickfire": 38,
-          "played_standard": 3,
+          "played_standard": 2,
           "wins_daily": 1,
           "game_wins": 16,
           "wins_standard": 1,
@@ -2450,8 +2450,8 @@
             47
           ],
           "General Knowledge": [
-            114,
-            123
+            108,
+            117
           ],
           "Halloween": [
             2,
@@ -2506,8 +2506,8 @@
             10
           ],
           "Family Guy": [
-            14,
-            14
+            11,
+            11
           ],
           "Art and Literature": [
             1,
@@ -3161,22 +3161,22 @@
           "xp": 5308
         },
         "weekly": {
-          "points": 1046,
-          "correct": 409,
-          "standard_correct": 266,
-          "insane_finds": 143,
-          "avg_guess_ms": 17378.898496240603,
+          "points": 964,
+          "correct": 369,
+          "standard_correct": 247,
+          "insane_finds": 122,
+          "avg_guess_ms": 16970.777327935222,
           "fastest_ms": 1145,
-          "under_5s": 75,
-          "exact_spelling": 384,
-          "spelled": 409,
+          "under_5s": 74,
+          "exact_spelling": 347,
+          "spelled": 369,
           "best_streak": 43,
           "active_days": 8,
-          "games_played": 55,
-          "categories_played": 31,
+          "games_played": 52,
+          "categories_played": 30,
           "best_insane_round": 15,
           "best_game_points": 73,
-          "games_started": 45,
+          "games_started": 42,
           "duels_played": 25,
           "duel_wins": 7,
           "duel_losses": 18,
@@ -3186,19 +3186,19 @@
           "duel_avg_ms": 8424.767857142857,
           "duel_fastest_ms": 3003,
           "played_daily": 7,
-          "played_hardcore": 10,
-          "played_quickfire": 35,
-          "played_standard": 3,
-          "wins_standard": 2,
-          "game_wins": 43,
-          "wins_quickfire": 33,
-          "wins_hardcore": 8,
+          "played_hardcore": 9,
+          "played_quickfire": 34,
+          "played_standard": 2,
+          "wins_standard": 1,
+          "game_wins": 40,
+          "wins_quickfire": 32,
+          "wins_hardcore": 7,
           "xp_mission": 15000,
-          "xp": 358891,
+          "xp": 353891,
           "xp_game": 195791,
           "xp_duel": 15600,
-          "xp_achievement": 132500,
-          "achievements": 9,
+          "xp_achievement": 127500,
+          "achievements": 8,
           "missions": 2
         },
         "monthly": {
@@ -3384,10 +3384,6 @@
             1,
             2
           ],
-          "Family Guy": [
-            7,
-            7
-          ],
           "World Cup": [
             2,
             6
@@ -3417,8 +3413,8 @@
             1
           ],
           "General Knowledge": [
-            45,
-            51
+            36,
+            42
           ],
           "Marvel": [
             3,
@@ -3437,8 +3433,8 @@
             496
           ],
           "Geography": [
-            28,
-            29
+            27,
+            27
           ],
           "Slogans": [
             1,
@@ -3449,12 +3445,12 @@
             5
           ],
           "History": [
-            5,
-            6
+            4,
+            4
           ],
           "Movies": [
-            9,
-            19
+            3,
+            10
           ],
           "NBA": [
             3,
@@ -3473,12 +3469,12 @@
             5
           ],
           "Sports": [
-            71,
-            301
+            56,
+            249
           ],
           "Music": [
-            3,
-            6
+            2,
+            5
           ],
           "Phobias": [
             2,
