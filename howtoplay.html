@@ -91,7 +91,7 @@
       <li>Type your answer straight into the chat. No command needed, and you can guess as often as you like.</li>
       <li>The <b>first correct answer</b> wins the round. You have <b>60 seconds</b>, with a hint at 20s and another at 40s.</li>
       <li>Spelling is forgiving: <b>one typo</b> is fine on answers of 4+ letters, and accents and capitals don't matter.</li>
-      <li>Every <b>10th round is an insane round</b>: name as many answers to one question as you can.</li>
+      <li>Every <b>10th round is an insane round</b>: name as many answers to one question as you can. Trivia and Quickfire games can turn them off (<code>insane: Off</code>).</li>
       <li>Most points at the end wins. Everyone who played earns <b>XP</b> toward their level.</li>
     </ol>
     <p class="page-sub" style="margin-top:14px">A game ends early if nobody types anything in the channel for 3 minutes 30 seconds.</p>
@@ -119,12 +119,12 @@
       <section class="mode" style="--c: var(--cyan)">
         <h3 data-icon="joystick">TRIVIA</h3>
         <p>The classic game. Questions from every enabled category, or pick your own.</p>
-        <div class="facts"><span>/TRIVIA START</span><span>30 ROUNDS (1–100)</span><span>30S BETWEEN ROUNDS</span></div>
+        <div class="facts"><span>/TRIVIA START</span><span>30 ROUNDS (1–100)</span><span>15–60S BETWEEN ROUNDS</span></div>
       </section>
       <section class="mode" style="--c: var(--neon)">
         <h3 data-icon="bolt">QUICKFIRE</h3>
-        <p>The same game with only a short pause between questions, so it moves fast.</p>
-        <div class="facts"><span>/QUICKFIRE</span><span>10S BETWEEN ROUNDS</span></div>
+        <p>The same game with only a short pause between questions, so it moves fast. Both modes let you pick the pause with the <code>gap</code> option.</p>
+        <div class="facts"><span>/QUICKFIRE</span><span>5–15S BETWEEN ROUNDS</span></div>
       </section>
       <section class="mode" style="--c: var(--pink)">
         <h3 data-icon="fire">HARDCORE</h3>
