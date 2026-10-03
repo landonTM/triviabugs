@@ -9,28 +9,28 @@
   },
   "total_xp": 1313599,
   "period_stats": {
-    "daily_points": 0,
-    "daily_correct": 0,
-    "weekly_points": 3890,
-    "weekly_correct": 1769,
-    "monthly_points": 9474,
-    "monthly_correct": 4969,
-    "yearly_points": 9821,
-    "yearly_correct": 5157,
-    "alltime_points": 9821,
-    "alltime_correct": 5157
+    "daily_points": 19,
+    "daily_correct": 13,
+    "weekly_points": 3904,
+    "weekly_correct": 1780,
+    "monthly_points": 9493,
+    "monthly_correct": 4982,
+    "yearly_points": 9840,
+    "yearly_correct": 5170,
+    "alltime_points": 9840,
+    "alltime_correct": 5170
   },
   "stats_row": {
     "user_id": "795847206719717386",
     "guild_id": "861055530638114836",
-    "total_points": 6764,
-    "questions_right": 2100,
+    "total_points": 6774,
+    "questions_right": 2104,
     "questions_wrong": 0,
-    "wins": 2100,
-    "current_streak": 34,
+    "wins": 2104,
+    "current_streak": 1,
     "best_streak": 56,
     "games_played": 115,
-    "insane_guesses": 2103,
+    "insane_guesses": 2112,
     "day_streak": 6,
     "last_played_date": "2026-10-01",
     "total_xp": 1313599,
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 31
   },
-  "total_insane_correct": 3057,
-  "average_guess_ms": 16685.09238095238,
+  "total_insane_correct": 3066,
+  "average_guess_ms": 16712.725760456273,
   "activity": {
     "first_answered_at": "2026-07-19 17:50:18.462812+00:00",
-    "active_days": 31
+    "active_days": 32
   },
   "spelling_accuracy": {
-    "exact_count": 4034,
-    "total": 4558
+    "exact_count": 4046,
+    "total": 4571
   },
   "achievements": {
     "catalog": [
@@ -2231,17 +2231,17 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 90,
+      "disney": 91,
       "entertainment": 16,
       "geo": 490,
-      "gk": 371,
-      "got": 91,
+      "gk": 381,
+      "got": 92,
       "marvel": 98,
       "movies": 43,
       "music": 24,
       "pokemon": 31,
       "sports": 37,
-      "videogames": 68,
+      "videogames": 69,
       "wrestling": 400,
       "duelwins": 8,
       "duelstreak": 3
@@ -3947,6 +3947,11 @@
       "2026-10-01",
       1967,
       848
+    ],
+    [
+      "2026-10-03",
+      19,
+      13
     ]
   ]
 }
