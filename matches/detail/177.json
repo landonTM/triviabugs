@@ -1,0 +1,331 @@
+{
+  "game": {
+    "id": 177,
+    "kind": "game",
+    "mode": "standard",
+    "channel_id": "864342930076860426",
+    "total_rounds": 50,
+    "rounds_played": 18,
+    "categories": null,
+    "started_by": "184456115927384065",
+    "winner_id": "184456115927384065",
+    "started_at": "2026-10-03 01:07:13.195829+00:00",
+    "ended_at": "2026-10-03 01:31:13.824659+00:00",
+    "end_reason": "inactivity_timeout"
+  },
+  "rounds": [
+    {
+      "round_id": 7322,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:07:13.596319+00:00",
+      "ended_at": "2026-10-03 01:08:13.829254+00:00",
+      "winner_id": null,
+      "category": "Movies",
+      "question_text": "In Dune (2021), who plays Paul Atreides?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7323,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:08:44.272120+00:00",
+      "ended_at": "2026-10-03 01:09:11.997412+00:00",
+      "winner_id": "184456115927384065",
+      "category": "General Knowledge",
+      "question_text": "What does a milliner make and sell?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 27355,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-03 01:09:11.993038+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7324,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:09:42.550375+00:00",
+      "ended_at": "2026-10-03 01:10:42.770106+00:00",
+      "winner_id": null,
+      "category": "Stranger Things",
+      "question_text": "Who is the boys' science teacher in Season 1?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7325,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:11:13.152349+00:00",
+      "ended_at": "2026-10-03 01:11:17.722321+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Conundrums",
+      "question_text": "Firefly",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 4390,
+          "exact_match": true,
+          "points_awarded": 4,
+          "answered_at": "2026-10-03 01:11:17.718669+00:00",
+          "hint_window": 0
+        }
+      ]
+    },
+    {
+      "round_id": 7326,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:11:48.195838+00:00",
+      "ended_at": "2026-10-03 01:12:48.471667+00:00",
+      "winner_id": null,
+      "category": "Video Games",
+      "question_text": "Who is the voice for 3DO's Gex?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7327,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:13:18.667678+00:00",
+      "ended_at": "2026-10-03 01:14:18.890090+00:00",
+      "winner_id": null,
+      "category": "Halloween",
+      "question_text": "What sweet bread, often topped with dough shaped like bones, is baked in Mexico for the Day of the Dead?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7328,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:14:49.473725+00:00",
+      "ended_at": "2026-10-03 01:15:13.375432+00:00",
+      "winner_id": "184456115927384065",
+      "category": "World Cup",
+      "question_text": "Which country was the host of the 2006 World Cup?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 23748,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-03 01:15:13.370359+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7329,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:15:43.930253+00:00",
+      "ended_at": "2026-10-03 01:16:44.308036+00:00",
+      "winner_id": null,
+      "category": "Space",
+      "question_text": "What scientific discipline studies celestial objects and the universe?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7330,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:17:14.496411+00:00",
+      "ended_at": "2026-10-03 01:18:14.667724+00:00",
+      "winner_id": null,
+      "category": "Halloween",
+      "question_text": "What vampire rabbit, known for draining vegetables of their juice, first appeared in a 1979 children's book by Deborah and James Howe?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7331,
+      "mode": "insane",
+      "started_at": "2026-10-03 01:18:44.880184+00:00",
+      "ended_at": "2026-10-03 01:19:45.227700+00:00",
+      "winner_id": null,
+      "category": "Geography",
+      "question_text": "New York City Boroughs",
+      "image_url": null,
+      "answer_count": 5,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 8653,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 01:18:53.878716+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 10838,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 01:18:56.063266+00:00",
+          "hint_window": null
+        },
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 35804,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 01:19:21.029570+00:00",
+          "hint_window": null
+        }
+      ]
+    },
+    {
+      "round_id": 7332,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:20:15.939046+00:00",
+      "ended_at": "2026-10-03 01:21:16.295315+00:00",
+      "winner_id": null,
+      "category": "Disney",
+      "question_text": "In Finding Nemo, what was the name of Nemo's mom?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7333,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:21:46.926974+00:00",
+      "ended_at": "2026-10-03 01:22:12.043372+00:00",
+      "winner_id": "184456115927384065",
+      "category": "US State Capitals",
+      "question_text": "What is the USA state capital of South Dakota?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 24785,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-03 01:22:12.039460+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7334,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:22:42.489670+00:00",
+      "ended_at": "2026-10-03 01:23:42.658379+00:00",
+      "winner_id": null,
+      "category": "Star Wars",
+      "question_text": "What does Darth Vader disallow the assembled bounty hunters to do in their pursuit of the Millenium Falcon and its crew?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7335,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:24:13.094383+00:00",
+      "ended_at": "2026-10-03 01:25:13.395313+00:00",
+      "winner_id": null,
+      "category": "Entertainment",
+      "question_text": "Name the band: songs include \"Psycho Killer, Road To Nowhere\"?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7336,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:25:43.924123+00:00",
+      "ended_at": "2026-10-03 01:26:28.887627+00:00",
+      "winner_id": "184456115927384065",
+      "category": "General Knowledge",
+      "question_text": "Down Syndrome is usually caused by an extra copy of which chromosome?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 44557,
+          "exact_match": true,
+          "points_awarded": 1,
+          "answered_at": "2026-10-03 01:26:28.883860+00:00",
+          "hint_window": 2
+        }
+      ]
+    },
+    {
+      "round_id": 7337,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:26:59.337508+00:00",
+      "ended_at": "2026-10-03 01:27:25.770082+00:00",
+      "winner_id": "184456115927384065",
+      "category": "Elements",
+      "question_text": "Curium is named after which scientific family's surname?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": [
+        {
+          "user_id": "184456115927384065",
+          "response_time_ms": 26181,
+          "exact_match": true,
+          "points_awarded": 2,
+          "answered_at": "2026-10-03 01:27:25.766097+00:00",
+          "hint_window": 1
+        }
+      ]
+    },
+    {
+      "round_id": 7338,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:27:56.180516+00:00",
+      "ended_at": "2026-10-03 01:28:56.363565+00:00",
+      "winner_id": null,
+      "category": "Video Games",
+      "question_text": "In Fallout 4, which type of power armor is first encountered in the early mission \"When Freedom Calls\" in a crashed Vertibird?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    },
+    {
+      "round_id": 7339,
+      "mode": "standard",
+      "started_at": "2026-10-03 01:29:26.786774+00:00",
+      "ended_at": "2026-10-03 01:30:27.122960+00:00",
+      "winner_id": null,
+      "category": "Music",
+      "question_text": "What is the name of the 2016 mixtape released by Venezuelan electronic producer Arca?",
+      "image_url": null,
+      "answer_count": 1,
+      "answers": []
+    }
+  ],
+  "xp": {
+    "184456115927384065": 1536
+  },
+  "xp_layers": {
+    "184456115927384065": {
+      "base": 768,
+      "double_xp_weekend": 768
+    }
+  },
+  "pass_xp": {
+    "184456115927384065": {
+      "season_key": "season_0",
+      "total": 550,
+      "uncapped": 768,
+      "game": 550,
+      "emoji": "🎃"
+    }
+  }
+}
