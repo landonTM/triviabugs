@@ -9,28 +9,28 @@
   },
   "total_xp": 1022682,
   "period_stats": {
-    "daily_points": 8,
-    "daily_correct": 2,
-    "weekly_points": 1599,
-    "weekly_correct": 674,
-    "monthly_points": 4606,
-    "monthly_correct": 2090,
-    "yearly_points": 4900,
-    "yearly_correct": 2258,
-    "alltime_points": 4900,
-    "alltime_correct": 2258
+    "daily_points": 74,
+    "daily_correct": 19,
+    "weekly_points": 1673,
+    "weekly_correct": 693,
+    "monthly_points": 4680,
+    "monthly_correct": 2109,
+    "yearly_points": 4974,
+    "yearly_correct": 2277,
+    "alltime_points": 4974,
+    "alltime_correct": 2277
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3620,
-    "questions_right": 975,
+    "total_points": 3686,
+    "questions_right": 986,
     "questions_wrong": 0,
-    "wins": 975,
-    "current_streak": 1,
+    "wins": 986,
+    "current_streak": 2,
     "best_streak": 27,
     "games_played": 139,
-    "insane_guesses": 979,
+    "insane_guesses": 987,
     "day_streak": 10,
     "last_played_date": "2026-10-02",
     "total_xp": 1022682,
@@ -45,23 +45,23 @@
   },
   "best_category": {
     "category": "Logos",
-    "points": 1189,
-    "correct": 244
+    "points": 1255,
+    "correct": 255
   },
   "best_insane_round": {
     "question_text": "Name every US state",
     "category": "Geography",
     "guesses": 20
   },
-  "total_insane_correct": 1284,
-  "average_guess_ms": 15680.29979466119,
+  "total_insane_correct": 1292,
+  "average_guess_ms": 15562.950253807106,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
-    "active_days": 32
+    "active_days": 33
   },
   "spelling_accuracy": {
-    "exact_count": 1792,
-    "total": 2044
+    "exact_count": 1809,
+    "total": 2063
   },
   "achievements": {
     "catalog": [
@@ -2235,7 +2235,7 @@
       "got": 13,
       "marvel": 74,
       "movies": 3,
-      "music": 12,
+      "music": 20,
       "pokemon": 10,
       "sports": 33,
       "videogames": 88,
@@ -3948,6 +3948,11 @@
       "2026-10-02",
       8,
       2
+    ],
+    [
+      "2026-10-03",
+      74,
+      19
     ]
   ]
 }
