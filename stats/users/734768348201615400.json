@@ -1,40 +1,40 @@
 {
   "user_id": "734768348201615400",
   "level": {
-    "level": 45,
-    "xp_into_level": 43521,
-    "xp_for_level": 70000,
-    "progress": 0.6217285714285714,
+    "level": 46,
+    "xp_into_level": 4977,
+    "xp_for_level": 73000,
+    "progress": 0.06817808219178083,
     "maxed": false
   },
-  "total_xp": 1146021,
+  "total_xp": 1177477,
   "period_stats": {
-    "daily_points": 38,
-    "daily_correct": 22,
-    "weekly_points": 1751,
-    "weekly_correct": 856,
-    "monthly_points": 6529,
-    "monthly_correct": 3566,
-    "yearly_points": 7039,
-    "yearly_correct": 3870,
-    "alltime_points": 7039,
-    "alltime_correct": 3870
+    "daily_points": 78,
+    "daily_correct": 51,
+    "weekly_points": 1762,
+    "weekly_correct": 874,
+    "monthly_points": 6569,
+    "monthly_correct": 3595,
+    "yearly_points": 7079,
+    "yearly_correct": 3899,
+    "alltime_points": 7079,
+    "alltime_correct": 3899
   },
   "stats_row": {
     "user_id": "734768348201615400",
     "guild_id": "861055530638114836",
-    "total_points": 4490,
-    "questions_right": 1321,
+    "total_points": 4505,
+    "questions_right": 1325,
     "questions_wrong": 0,
-    "wins": 1321,
-    "current_streak": 2,
+    "wins": 1325,
+    "current_streak": 1,
     "best_streak": 45,
-    "games_played": 77,
-    "insane_guesses": 1620,
-    "day_streak": 18,
-    "last_played_date": "2026-10-02",
-    "total_xp": 1146021,
-    "game_wins": 39,
+    "games_played": 78,
+    "insane_guesses": 1645,
+    "day_streak": 19,
+    "last_played_date": "2026-10-03",
+    "total_xp": 1177477,
+    "game_wins": 40,
     "achievement_best_streak": 45
   },
   "best_streak": 45,
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 26
   },
-  "total_insane_correct": 2549,
-  "average_guess_ms": 14607.54882664648,
+  "total_insane_correct": 2574,
+  "average_guess_ms": 14609.402264150944,
   "activity": {
     "first_answered_at": "2026-07-19 19:05:16.357008+00:00",
     "active_days": 35
   },
   "spelling_accuracy": {
-    "exact_count": 2579,
-    "total": 3088
+    "exact_count": 2607,
+    "total": 3117
   },
   "achievements": {
     "catalog": [
@@ -2226,14 +2226,14 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 51,
+      "disney": 52,
       "entertainment": 11,
-      "geo": 458,
-      "gk": 300,
+      "geo": 464,
+      "gk": 302,
       "got": 1,
       "marvel": 29,
       "movies": 13,
-      "music": 38,
+      "music": 39,
       "pokemon": 11,
       "sports": 112,
       "videogames": 56,
@@ -2905,8 +2905,8 @@
       "key": "teal",
       "label": "Teal Embed",
       "unlock_level": 46,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "level"
     },
     {
       "cosmetic_type": "embedcolor",
@@ -3569,8 +3569,8 @@
       "key": "forgettosmile",
       "label": "Forget to Smile MVP",
       "unlock_level": null,
-      "unlocked": false,
-      "source": null
+      "unlocked": true,
+      "source": "grant"
     },
     {
       "cosmetic_type": "mvp",
@@ -3652,24 +3652,25 @@
   ],
   "xp_sources": {
     "level": {
-      "game": 257471,
+      "game": 268927,
       "achievement": 860750,
       "duel": 7800,
-      "mission": 20000
+      "mission": 40000
     },
     "game_layers": {
       "replay": 78,
       "boost": 4063,
       "hardcore": 2896,
-      "daily": 10004,
-      "base": 31885
+      "daily": 15732,
+      "base": 34749,
+      "double_xp_weekend": 2864
     },
     "pass": {
       "season_0": {
         "pumpkin": 424,
-        "game": 11428,
+        "game": 11978,
         "duel": 550,
-        "mission": 1000
+        "mission": 2000
       }
     },
     "pumpkins": {
@@ -3946,8 +3947,8 @@
     ],
     [
       "2026-10-03",
-      38,
-      22
+      78,
+      51
     ]
   ]
 }
