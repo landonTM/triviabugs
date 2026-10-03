@@ -2,38 +2,38 @@
   "user_id": "433990857063137282",
   "level": {
     "level": 44,
-    "xp_into_level": 26358,
+    "xp_into_level": 30534,
     "xp_for_level": 67000,
-    "progress": 0.39340298507462684,
+    "progress": 0.4557313432835821,
     "maxed": false
   },
-  "total_xp": 1061858,
+  "total_xp": 1066034,
   "period_stats": {
-    "daily_points": 257,
-    "daily_correct": 77,
-    "weekly_points": 1439,
-    "weekly_correct": 586,
-    "monthly_points": 4863,
-    "monthly_correct": 2167,
-    "yearly_points": 5157,
-    "yearly_correct": 2335,
-    "alltime_points": 5157,
-    "alltime_correct": 2335
+    "daily_points": 283,
+    "daily_correct": 90,
+    "weekly_points": 1465,
+    "weekly_correct": 599,
+    "monthly_points": 4889,
+    "monthly_correct": 2180,
+    "yearly_points": 5183,
+    "yearly_correct": 2348,
+    "alltime_points": 5183,
+    "alltime_correct": 2348
   },
   "stats_row": {
     "user_id": "433990857063137282",
     "guild_id": "861055530638114836",
-    "total_points": 3838,
-    "questions_right": 1013,
+    "total_points": 3856,
+    "questions_right": 1018,
     "questions_wrong": 0,
-    "wins": 1013,
-    "current_streak": 1,
+    "wins": 1018,
+    "current_streak": 3,
     "best_streak": 27,
-    "games_played": 140,
-    "insane_guesses": 1018,
-    "day_streak": 10,
-    "last_played_date": "2026-10-02",
-    "total_xp": 1061858,
+    "games_played": 141,
+    "insane_guesses": 1026,
+    "day_streak": 11,
+    "last_played_date": "2026-10-03",
+    "total_xp": 1066034,
     "game_wins": 44,
     "achievement_best_streak": 27
   },
@@ -53,15 +53,15 @@
     "category": "Geography",
     "guesses": 20
   },
-  "total_insane_correct": 1323,
-  "average_guess_ms": 15379.933794466402,
+  "total_insane_correct": 1331,
+  "average_guess_ms": 15392.12192723697,
   "activity": {
     "first_answered_at": "2026-07-19 17:08:55.821787+00:00",
     "active_days": 33
   },
   "spelling_accuracy": {
-    "exact_count": 1862,
-    "total": 2121
+    "exact_count": 1874,
+    "total": 2134
   },
   "achievements": {
     "catalog": [
@@ -2229,12 +2229,12 @@
       "insane": 0
     },
     "category_counts": {
-      "disney": 56,
+      "disney": 57,
       "entertainment": 2,
-      "geo": 142,
+      "geo": 148,
       "gk": 247,
-      "got": 13,
-      "marvel": 74,
+      "got": 14,
+      "marvel": 75,
       "movies": 3,
       "music": 20,
       "pokemon": 10,
@@ -3672,29 +3672,29 @@
       "duel": 39150,
       "mission": 30000,
       "achievement": 753500,
-      "game": 239208
+      "game": 243384
     },
     "game_layers": {
-      "base": 28144,
-      "daily": 6904,
+      "base": 29188,
+      "daily": 8992,
       "boost": 7088,
-      "double_xp_weekend": 3544,
+      "double_xp_weekend": 4588,
       "replay": 401,
       "hardcore": 3808
     },
     "pass": {
       "season_0": {
-        "pumpkin": 577,
-        "game": 20643,
+        "pumpkin": 771,
+        "game": 21193,
         "duel": 2350,
         "mission": 1500
       }
     },
     "pumpkins": {
       "season_0": {
-        "smashed": 4,
+        "smashed": 5,
         "missed": 1,
-        "xp": 577,
+        "xp": 771,
         "best": 207
       }
     }
@@ -3954,8 +3954,8 @@
     ],
     [
       "2026-10-03",
-      257,
-      77
+      283,
+      90
     ]
   ]
 }
