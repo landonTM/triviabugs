@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:03:32.082140+00:00",
+  "generated_at": "2026-10-03T00:43:51.076066+00:00",
   "reports": [
     {
       "id": 88,
@@ -63,15 +63,13 @@
       "reported_by": "433990857063137282",
       "reported_by_name": "landon",
       "method": "reaction",
-      "status": "open",
+      "status": "fixed",
       "reported_at": "2026-09-30T15:40:00.512601+00:00",
-      "fixed_at": null,
-      "category": "Logos",
-      "question_type": "standard",
-      "question_text": "What logo is this?",
-      "correct_answers": [
-        "jTnt+vmMnvk="
-      ]
+      "fixed_at": "2026-10-03T00:43:51.072278+00:00",
+      "category": null,
+      "question_type": null,
+      "question_text": null,
+      "correct_answers": null
     },
     {
       "id": 84,
