@@ -2038,22 +2038,22 @@
           "xp": 14176
         },
         "weekly": {
-          "points": 1778,
-          "correct": 690,
-          "standard_correct": 305,
-          "insane_finds": 385,
-          "avg_guess_ms": 9931.28524590164,
+          "points": 1677,
+          "correct": 659,
+          "standard_correct": 291,
+          "insane_finds": 368,
+          "avg_guess_ms": 10166.982817869415,
           "fastest_ms": 134,
-          "under_5s": 144,
-          "exact_spelling": 616,
-          "spelled": 690,
+          "under_5s": 134,
+          "exact_spelling": 588,
+          "spelled": 659,
           "best_streak": 27,
           "active_days": 8,
           "games_played": 64,
           "categories_played": 29,
           "best_insane_round": 20,
           "best_game_points": 255,
-          "games_started": 20,
+          "games_started": 19,
           "duels_played": 31,
           "duel_wins": 19,
           "duel_losses": 11,
@@ -2078,7 +2078,7 @@
           "xp_duel": 30150,
           "achievements": 17,
           "missions": 4,
-          "bug_reports": 6,
+          "bug_reports": 5,
           "bugs_fixed": 1
         },
         "monthly": {
@@ -2259,16 +2259,16 @@
             5
           ],
           "Wrestling": [
-            77,
-            182
+            71,
+            146
           ],
           "Harry Potter": [
             2,
             2
           ],
           "Sports": [
-            15,
-            53
+            13,
+            41
           ],
           "Geography": [
             53,
@@ -2279,12 +2279,12 @@
             4
           ],
           "Video Games": [
-            63,
-            73
+            55,
+            65
           ],
           "General Knowledge": [
-            140,
-            149
+            133,
+            142
           ],
           "Halloween": [
             1,
@@ -2307,8 +2307,8 @@
             6
           ],
           "Logos": [
-            182,
-            835
+            177,
+            805
           ],
           "Star Wars": [
             3,
@@ -2319,8 +2319,8 @@
             4
           ],
           "Music": [
-            19,
-            20
+            17,
+            18
           ],
           "Space": [
             7,
@@ -2985,19 +2985,19 @@
           "xp": 1536
         },
         "weekly": {
-          "points": 1386,
-          "correct": 537,
-          "standard_correct": 338,
-          "insane_finds": 199,
-          "avg_guess_ms": 17769.198224852073,
+          "points": 1321,
+          "correct": 512,
+          "standard_correct": 330,
+          "insane_finds": 182,
+          "avg_guess_ms": 18024.163636363635,
           "fastest_ms": 1145,
-          "under_5s": 80,
-          "exact_spelling": 509,
-          "spelled": 537,
+          "under_5s": 78,
+          "exact_spelling": 486,
+          "spelled": 512,
           "best_streak": 43,
           "active_days": 8,
           "games_played": 64,
-          "categories_played": 31,
+          "categories_played": 30,
           "best_insane_round": 16,
           "best_game_points": 88,
           "games_started": 55,
@@ -3188,10 +3188,6 @@
             7,
             7
           ],
-          "Logos": [
-            1,
-            6
-          ],
           "World Cup": [
             2,
             6
@@ -3217,8 +3213,8 @@
             10
           ],
           "General Knowledge": [
-            70,
-            73
+            57,
+            60
           ],
           "Marvel": [
             4,
@@ -3261,24 +3257,24 @@
             3
           ],
           "Wrestling": [
-            73,
-            103
+            70,
+            85
           ],
           "What Links": [
             1,
             3
           ],
           "Video Games": [
-            2,
-            2
+            1,
+            1
           ],
           "Sports": [
-            104,
-            476
+            100,
+            452
           ],
           "Music": [
-            12,
-            23
+            9,
+            20
           ],
           "Phobias": [
             2,
