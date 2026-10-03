@@ -37,15 +37,15 @@
       "periods": {
         "daily": {},
         "weekly": {
-          "points": 3983,
-          "correct": 1797,
-          "standard_correct": 804,
-          "insane_finds": 993,
-          "avg_guess_ms": 10938.440298507463,
+          "points": 3949,
+          "correct": 1788,
+          "standard_correct": 799,
+          "insane_finds": 989,
+          "avg_guess_ms": 10958.153942428034,
           "fastest_ms": 919,
-          "under_5s": 430,
-          "exact_spelling": 1625,
-          "spelled": 1797,
+          "under_5s": 428,
+          "exact_spelling": 1616,
+          "spelled": 1788,
           "best_streak": 56,
           "active_days": 6,
           "games_played": 64,
@@ -227,16 +227,16 @@
             32
           ],
           "Marvel": [
-            46,
-            55
+            45,
+            49
           ],
           "World Map": [
             5,
             14
           ],
           "General Knowledge": [
-            244,
-            284
+            243,
+            283
           ],
           "Game of Thrones": [
             34,
@@ -263,8 +263,8 @@
             1
           ],
           "Disney": [
-            33,
-            55
+            30,
+            52
           ],
           "Slogans": [
             10,
@@ -355,8 +355,8 @@
             15
           ],
           "Wrestling": [
-            249,
-            294
+            247,
+            282
           ],
           "Whos That Pokemon (Gen 3)": [
             1,
@@ -367,8 +367,8 @@
             46
           ],
           "Logos": [
-            506,
-            1931
+            504,
+            1919
           ],
           "World Capitals": [
             2,
@@ -2038,15 +2038,15 @@
           "xp": 14176
         },
         "weekly": {
-          "points": 1599,
-          "correct": 631,
-          "standard_correct": 281,
-          "insane_finds": 350,
-          "avg_guess_ms": 10288.875444839858,
+          "points": 1440,
+          "correct": 587,
+          "standard_correct": 258,
+          "insane_finds": 329,
+          "avg_guess_ms": 10556.20542635659,
           "fastest_ms": 134,
-          "under_5s": 130,
-          "exact_spelling": 560,
-          "spelled": 631,
+          "under_5s": 124,
+          "exact_spelling": 521,
+          "spelled": 587,
           "best_streak": 27,
           "active_days": 8,
           "games_played": 62,
@@ -2072,13 +2072,13 @@
           "wins_quickfire": 11,
           "wins_hardcore": 5,
           "xp_mission": 30000,
-          "xp": 407358,
-          "xp_achievement": 109500,
+          "xp": 397358,
+          "xp_achievement": 99500,
           "xp_game": 239208,
           "xp_duel": 28650,
-          "achievements": 15,
+          "achievements": 14,
           "missions": 4,
-          "bug_reports": 5,
+          "bug_reports": 4,
           "bugs_fixed": 1
         },
         "monthly": {
@@ -2259,16 +2259,16 @@
             5
           ],
           "Wrestling": [
-            68,
-            128
+            60,
+            80
           ],
           "Harry Potter": [
             2,
             2
           ],
           "Sports": [
-            13,
-            41
+            10,
+            38
           ],
           "Geography": [
             53,
@@ -2283,8 +2283,8 @@
             65
           ],
           "General Knowledge": [
-            117,
-            126
+            114,
+            123
           ],
           "Halloween": [
             1,
@@ -2307,8 +2307,8 @@
             6
           ],
           "Logos": [
-            174,
-            787
+            170,
+            763
           ],
           "Star Wars": [
             3,
@@ -2319,8 +2319,8 @@
             2
           ],
           "Music": [
-            17,
-            18
+            10,
+            11
           ],
           "Space": [
             7,
@@ -2347,12 +2347,12 @@
             10
           ],
           "Disney": [
-            32,
-            62
+            24,
+            54
           ],
           "Marvel": [
-            30,
-            119
+            19,
+            53
           ],
           "US State Abbreviations": [
             3,
