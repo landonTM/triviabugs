@@ -2985,22 +2985,22 @@
           "xp": 1536
         },
         "weekly": {
-          "points": 1422,
-          "correct": 554,
-          "standard_correct": 350,
-          "insane_finds": 204,
-          "avg_guess_ms": 17900.19142857143,
+          "points": 1386,
+          "correct": 537,
+          "standard_correct": 338,
+          "insane_finds": 199,
+          "avg_guess_ms": 17769.198224852073,
           "fastest_ms": 1145,
-          "under_5s": 82,
-          "exact_spelling": 524,
-          "spelled": 554,
+          "under_5s": 80,
+          "exact_spelling": 509,
+          "spelled": 537,
           "best_streak": 43,
           "active_days": 8,
-          "games_played": 66,
+          "games_played": 64,
           "categories_played": 31,
           "best_insane_round": 16,
           "best_game_points": 88,
-          "games_started": 57,
+          "games_started": 55,
           "duels_played": 27,
           "duel_wins": 8,
           "duel_losses": 19,
@@ -3011,18 +3011,18 @@
           "duel_fastest_ms": 3003,
           "played_daily": 7,
           "played_hardcore": 15,
-          "played_quickfire": 40,
+          "played_quickfire": 38,
           "played_standard": 4,
           "wins_standard": 3,
-          "game_wins": 53,
-          "wins_quickfire": 38,
+          "game_wins": 51,
+          "wins_quickfire": 36,
           "wins_hardcore": 12,
           "xp_mission": 15000,
-          "xp": 506619,
+          "xp": 416619,
           "xp_game": 192019,
           "xp_duel": 17100,
-          "xp_achievement": 282500,
-          "achievements": 16,
+          "xp_achievement": 192500,
+          "achievements": 13,
           "missions": 2
         },
         "monthly": {
@@ -3217,8 +3217,8 @@
             10
           ],
           "General Knowledge": [
-            75,
-            78
+            70,
+            73
           ],
           "Marvel": [
             4,
@@ -3273,8 +3273,8 @@
             2
           ],
           "Sports": [
-            115,
-            503
+            104,
+            476
           ],
           "Music": [
             12,
