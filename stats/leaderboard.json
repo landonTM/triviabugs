@@ -37,22 +37,22 @@
       "periods": {
         "daily": {},
         "weekly": {
-          "points": 3945,
-          "correct": 1784,
-          "standard_correct": 799,
-          "insane_finds": 985,
-          "avg_guess_ms": 10958.153942428034,
+          "points": 3890,
+          "correct": 1769,
+          "standard_correct": 791,
+          "insane_finds": 978,
+          "avg_guess_ms": 10995.225031605563,
           "fastest_ms": 919,
-          "under_5s": 428,
-          "exact_spelling": 1614,
-          "spelled": 1784,
+          "under_5s": 425,
+          "exact_spelling": 1602,
+          "spelled": 1769,
           "best_streak": 56,
           "active_days": 6,
-          "games_played": 63,
+          "games_played": 62,
           "categories_played": 43,
           "best_insane_round": 31,
           "best_game_points": 163,
-          "games_started": 51,
+          "games_started": 50,
           "duels_played": 4,
           "duel_wins": 3,
           "duel_losses": 1,
@@ -62,20 +62,20 @@
           "duel_avg_ms": 10921.454545454544,
           "duel_fastest_ms": 2133,
           "played_daily": 6,
-          "played_hardcore": 7,
+          "played_hardcore": 6,
           "played_quickfire": 46,
           "played_standard": 4,
           "wins_quickfire": 39,
-          "game_wins": 51,
+          "game_wins": 50,
           "wins_daily": 3,
-          "wins_hardcore": 6,
+          "wins_hardcore": 5,
           "wins_standard": 3,
           "xp_duel": 4800,
-          "xp": 672199,
-          "xp_achievement": 272500,
+          "xp": 669699,
+          "xp_achievement": 270000,
           "xp_game": 354899,
           "xp_mission": 40000,
-          "achievements": 18,
+          "achievements": 17,
           "missions": 4
         },
         "monthly": {
@@ -235,8 +235,8 @@
             14
           ],
           "General Knowledge": [
-            243,
-            283
+            236,
+            276
           ],
           "Game of Thrones": [
             30,
@@ -375,8 +375,8 @@
             10
           ],
           "House of the Dragon": [
-            17,
-            94
+            11,
+            58
           ],
           "Geography": [
             148,
@@ -2985,18 +2985,18 @@
           "xp": 1536
         },
         "weekly": {
-          "points": 1223,
-          "correct": 489,
-          "standard_correct": 312,
-          "insane_finds": 177,
-          "avg_guess_ms": 18380.30769230769,
+          "points": 1208,
+          "correct": 484,
+          "standard_correct": 310,
+          "insane_finds": 174,
+          "avg_guess_ms": 18424.690322580645,
           "fastest_ms": 1145,
           "under_5s": 76,
-          "exact_spelling": 463,
-          "spelled": 489,
+          "exact_spelling": 458,
+          "spelled": 484,
           "best_streak": 43,
           "active_days": 8,
-          "games_played": 59,
+          "games_played": 58,
           "categories_played": 30,
           "best_insane_round": 16,
           "best_game_points": 88,
@@ -3010,13 +3010,13 @@
           "duel_avg_ms": 8424.767857142857,
           "duel_fastest_ms": 3003,
           "played_daily": 7,
-          "played_hardcore": 12,
+          "played_hardcore": 11,
           "played_quickfire": 37,
           "played_standard": 3,
           "wins_standard": 2,
-          "game_wins": 47,
+          "game_wins": 46,
           "wins_quickfire": 35,
-          "wins_hardcore": 10,
+          "wins_hardcore": 9,
           "xp_mission": 15000,
           "xp": 405119,
           "xp_game": 192019,
@@ -3269,8 +3269,8 @@
             1
           ],
           "Sports": [
-            85,
-            377
+            83,
+            365
           ],
           "Music": [
             9,
@@ -3281,8 +3281,8 @@
             4
           ],
           "Star Wars": [
-            4,
-            5
+            1,
+            2
           ],
           "Disney": [
             6,
