@@ -2036,18 +2036,18 @@
       "periods": {
         "daily": {},
         "weekly": {
-          "points": 1410,
-          "correct": 549,
+          "points": 1405,
+          "correct": 544,
           "standard_correct": 263,
-          "insane_finds": 286,
+          "insane_finds": 281,
           "avg_guess_ms": 10800.794676806085,
           "fastest_ms": 134,
           "under_5s": 124,
-          "exact_spelling": 489,
-          "spelled": 549,
+          "exact_spelling": 484,
+          "spelled": 544,
           "best_streak": 27,
-          "active_days": 7,
-          "games_played": 55,
+          "active_days": 6,
+          "games_played": 54,
           "categories_played": 30,
           "best_insane_round": 20,
           "best_game_points": 255,
@@ -2062,7 +2062,7 @@
           "duel_fastest_ms": 2700,
           "played_daily": 6,
           "played_hardcore": 11,
-          "played_quickfire": 36,
+          "played_quickfire": 35,
           "played_standard": 2,
           "wins_daily": 1,
           "game_wins": 16,
@@ -2070,9 +2070,9 @@
           "wins_quickfire": 11,
           "wins_hardcore": 3,
           "xp_mission": 30000,
-          "xp": 379134,
+          "xp": 189815,
           "xp_achievement": 96000,
-          "xp_game": 243384,
+          "xp_game": 54065,
           "xp_duel": 9750,
           "achievements": 8,
           "missions": 4,
@@ -2256,8 +2256,8 @@
             47
           ],
           "General Knowledge": [
-            96,
-            105
+            91,
+            100
           ],
           "Halloween": [
             2,
@@ -2940,18 +2940,18 @@
       "periods": {
         "daily": {},
         "weekly": {
-          "points": 831,
-          "correct": 325,
+          "points": 825,
+          "correct": 319,
           "standard_correct": 212,
-          "insane_finds": 113,
+          "insane_finds": 107,
           "avg_guess_ms": 17325.485849056604,
           "fastest_ms": 1145,
           "under_5s": 66,
-          "exact_spelling": 307,
-          "spelled": 325,
+          "exact_spelling": 301,
+          "spelled": 319,
           "best_streak": 43,
           "active_days": 7,
-          "games_played": 47,
+          "games_played": 46,
           "categories_played": 30,
           "best_insane_round": 15,
           "best_game_points": 73,
@@ -2966,11 +2966,11 @@
           "duel_fastest_ms": 3432,
           "played_daily": 7,
           "played_hardcore": 8,
-          "played_quickfire": 30,
+          "played_quickfire": 29,
           "played_standard": 2,
           "wins_standard": 1,
-          "game_wins": 35,
-          "wins_quickfire": 28,
+          "game_wins": 34,
+          "wins_quickfire": 27,
           "wins_hardcore": 6,
           "xp_mission": 15000,
           "xp": 336041,
@@ -3143,8 +3143,8 @@
             1
           ],
           "General Knowledge": [
-            36,
-            42
+            30,
+            36
           ],
           "Marvel": [
             3,
