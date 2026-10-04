@@ -35,26 +35,7 @@
         "cosmetics_owned": 86
       },
       "periods": {
-        "daily": {
-          "points": 23,
-          "correct": 14,
-          "standard_correct": 5,
-          "insane_finds": 9,
-          "avg_guess_ms": 27376.2,
-          "fastest_ms": 12000,
-          "under_5s": 0,
-          "exact_spelling": 13,
-          "spelled": 14,
-          "best_streak": 1,
-          "active_days": 1,
-          "games_played": 1,
-          "categories_played": 5,
-          "best_insane_round": 9,
-          "best_game_points": 23,
-          "played_daily": 1,
-          "xp_game": 7592,
-          "xp": 7592
-        },
+        "daily": {},
         "weekly": {
           "points": 3880,
           "correct": 1758,
@@ -231,28 +212,7 @@
         }
       },
       "categories": {
-        "daily": {
-          "Disney": [
-            1,
-            3
-          ],
-          "Game of Thrones": [
-            1,
-            4
-          ],
-          "General Knowledge": [
-            10,
-            11
-          ],
-          "Video Games": [
-            1,
-            1
-          ],
-          "Whos That Pokemon (Gen 1)": [
-            1,
-            4
-          ]
-        },
+        "daily": {},
         "weekly": {
           "Video Games": [
             54,
@@ -1076,30 +1036,7 @@
         "cosmetics_owned": 78
       },
       "periods": {
-        "daily": {
-          "points": 78,
-          "correct": 51,
-          "standard_correct": 13,
-          "insane_finds": 38,
-          "avg_guess_ms": 19166.69230769231,
-          "fastest_ms": 3819,
-          "under_5s": 1,
-          "exact_spelling": 45,
-          "spelled": 51,
-          "best_streak": 2,
-          "active_days": 1,
-          "games_played": 1,
-          "categories_played": 12,
-          "best_insane_round": 14,
-          "best_game_points": 78,
-          "played_daily": 1,
-          "wins_daily": 1,
-          "game_wins": 1,
-          "xp_game": 11456,
-          "xp": 31456,
-          "xp_mission": 20000,
-          "missions": 1
-        },
+        "daily": {},
         "weekly": {
           "points": 1454,
           "correct": 730,
@@ -1276,56 +1213,7 @@
         }
       },
       "categories": {
-        "daily": {
-          "Computers": [
-            1,
-            4
-          ],
-          "Disney": [
-            1,
-            6
-          ],
-          "General Knowledge": [
-            15,
-            21
-          ],
-          "Geography": [
-            7,
-            10
-          ],
-          "Greek Mythology": [
-            1,
-            2
-          ],
-          "History": [
-            14,
-            14
-          ],
-          "Marvel": [
-            1,
-            4
-          ],
-          "Music": [
-            3,
-            5
-          ],
-          "Space": [
-            5,
-            5
-          ],
-          "Whos That Pokemon (Gen 3)": [
-            1,
-            1
-          ],
-          "World Capitals": [
-            1,
-            2
-          ],
-          "World Cup": [
-            1,
-            4
-          ]
-        },
+        "daily": {},
         "weekly": {
           "The Simpsons": [
             2,
@@ -2146,60 +2034,35 @@
         "cosmetics_owned": 84
       },
       "periods": {
-        "daily": {
-          "points": 283,
-          "correct": 90,
-          "standard_correct": 43,
-          "insane_finds": 47,
-          "avg_guess_ms": 8864.558139534884,
-          "fastest_ms": 1507,
-          "under_5s": 18,
-          "exact_spelling": 82,
-          "spelled": 90,
-          "best_streak": 17,
-          "active_days": 1,
-          "games_played": 2,
-          "categories_played": 14,
-          "best_insane_round": 11,
-          "best_game_points": 255,
-          "games_started": 1,
-          "played_daily": 1,
-          "played_hardcore": 1,
-          "wins_hardcore": 1,
-          "game_wins": 1,
-          "xp_achievement": 25000,
-          "xp": 43352,
-          "xp_game": 18352,
-          "achievements": 1
-        },
+        "daily": {},
         "weekly": {
-          "points": 1431,
-          "correct": 570,
+          "points": 1426,
+          "correct": 565,
           "standard_correct": 264,
-          "insane_finds": 306,
+          "insane_finds": 301,
           "avg_guess_ms": 10961.481060606062,
           "fastest_ms": 134,
           "under_5s": 124,
-          "exact_spelling": 505,
-          "spelled": 570,
+          "exact_spelling": 500,
+          "spelled": 565,
           "best_streak": 27,
-          "active_days": 8,
-          "games_played": 57,
+          "active_days": 7,
+          "games_played": 56,
           "categories_played": 31,
           "best_insane_round": 20,
           "best_game_points": 255,
           "games_started": 17,
-          "duels_played": 29,
-          "duel_wins": 18,
+          "duels_played": 28,
+          "duel_wins": 17,
           "duel_losses": 10,
           "duel_ties": 1,
-          "duels_started": 7,
-          "duel_rounds_won": 86,
-          "duel_avg_ms": 8818.03488372093,
+          "duels_started": 6,
+          "duel_rounds_won": 84,
+          "duel_avg_ms": 8722.07142857143,
           "duel_fastest_ms": 1792,
           "played_daily": 6,
           "played_hardcore": 11,
-          "played_quickfire": 38,
+          "played_quickfire": 37,
           "played_standard": 2,
           "wins_daily": 1,
           "game_wins": 16,
@@ -2207,10 +2070,10 @@
           "wins_quickfire": 11,
           "wins_hardcore": 3,
           "xp_mission": 30000,
-          "xp": 419034,
+          "xp": 417534,
           "xp_achievement": 117000,
           "xp_game": 243384,
-          "xp_duel": 28650,
+          "xp_duel": 27150,
           "achievements": 14,
           "missions": 4,
           "bug_reports": 4,
@@ -2350,64 +2213,7 @@
         }
       },
       "categories": {
-        "daily": {
-          "Acronyms and Abbreviations": [
-            1,
-            1
-          ],
-          "Disney": [
-            1,
-            6
-          ],
-          "Game of Thrones": [
-            1,
-            4
-          ],
-          "General Knowledge": [
-            11,
-            11
-          ],
-          "Geography": [
-            11,
-            11
-          ],
-          "Halloween": [
-            1,
-            2
-          ],
-          "History": [
-            1,
-            1
-          ],
-          "Logos": [
-            35,
-            210
-          ],
-          "Marvel": [
-            1,
-            4
-          ],
-          "Music": [
-            8,
-            8
-          ],
-          "Space": [
-            1,
-            1
-          ],
-          "Sports": [
-            4,
-            4
-          ],
-          "Star Wars": [
-            1,
-            2
-          ],
-          "Video Games": [
-            12,
-            12
-          ]
-        },
+        "daily": {},
         "weekly": {
           "Game of Thrones": [
             9,
@@ -2450,8 +2256,8 @@
             47
           ],
           "General Knowledge": [
-            108,
-            117
+            103,
+            112
           ],
           "Halloween": [
             2,
@@ -3136,63 +2942,40 @@
         "cosmetics_owned": 79
       },
       "periods": {
-        "daily": {
-          "points": 40,
-          "correct": 22,
-          "standard_correct": 11,
-          "insane_finds": 11,
-          "avg_guess_ms": 22495.636363636364,
-          "fastest_ms": 4034,
-          "under_5s": 2,
-          "exact_spelling": 21,
-          "spelled": 22,
-          "best_streak": 2,
-          "active_days": 1,
-          "games_played": 2,
-          "categories_played": 12,
-          "best_insane_round": 4,
-          "best_game_points": 24,
-          "games_started": 1,
-          "played_daily": 1,
-          "played_standard": 1,
-          "wins_standard": 1,
-          "game_wins": 1,
-          "xp_game": 5308,
-          "xp": 5308
-        },
+        "daily": {},
         "weekly": {
-          "points": 964,
-          "correct": 369,
-          "standard_correct": 247,
+          "points": 911,
+          "correct": 356,
+          "standard_correct": 234,
           "insane_finds": 122,
-          "avg_guess_ms": 16970.777327935222,
+          "avg_guess_ms": 17271.465811965812,
           "fastest_ms": 1145,
-          "under_5s": 74,
-          "exact_spelling": 347,
-          "spelled": 369,
+          "under_5s": 71,
+          "exact_spelling": 335,
+          "spelled": 356,
           "best_streak": 43,
-          "active_days": 8,
-          "games_played": 52,
+          "active_days": 7,
+          "games_played": 49,
           "categories_played": 30,
           "best_insane_round": 15,
           "best_game_points": 73,
-          "games_started": 42,
-          "duels_played": 25,
+          "games_started": 40,
+          "duels_played": 24,
           "duel_wins": 7,
-          "duel_losses": 18,
+          "duel_losses": 17,
           "duel_ties": 0,
           "duels_started": 20,
           "duel_rounds_won": 56,
           "duel_avg_ms": 8424.767857142857,
           "duel_fastest_ms": 3003,
           "played_daily": 7,
-          "played_hardcore": 9,
-          "played_quickfire": 34,
+          "played_hardcore": 8,
+          "played_quickfire": 32,
           "played_standard": 2,
           "wins_standard": 1,
-          "game_wins": 40,
-          "wins_quickfire": 32,
-          "wins_hardcore": 7,
+          "game_wins": 37,
+          "wins_quickfire": 30,
+          "wins_hardcore": 6,
           "xp_mission": 15000,
           "xp": 353891,
           "xp_game": 195791,
@@ -3329,56 +3112,7 @@
         }
       },
       "categories": {
-        "daily": {
-          "Acronyms and Abbreviations": [
-            1,
-            4
-          ],
-          "Conundrums": [
-            1,
-            4
-          ],
-          "Disney": [
-            1,
-            3
-          ],
-          "Elements": [
-            1,
-            2
-          ],
-          "General Knowledge": [
-            6,
-            10
-          ],
-          "Geography": [
-            3,
-            3
-          ],
-          "Halloween": [
-            1,
-            1
-          ],
-          "History": [
-            4,
-            4
-          ],
-          "Space": [
-            1,
-            1
-          ],
-          "US State Capitals": [
-            1,
-            2
-          ],
-          "Video Games": [
-            1,
-            4
-          ],
-          "World Cup": [
-            1,
-            2
-          ]
-        },
+        "daily": {},
         "weekly": {
           "Whos That Pokemon (Gen 5)": [
             1,
@@ -3469,8 +3203,8 @@
             5
           ],
           "Sports": [
-            56,
-            249
+            43,
+            196
           ],
           "Music": [
             2,
