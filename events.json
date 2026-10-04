@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "key": "dxp-2026-10-03",
-      "kind": "double_xp",
-      "title": "Double XP Weekend",
-      "detail": "Every game is worth double XP",
-      "start": "2026-10-03T00:00:00+00:00",
-      "end": "2026-10-05T00:00:00+00:00"
-    },
-    {
       "key": "daily-2026-10-04",
       "kind": "daily",
       "title": "Daily Trivia",
@@ -41,12 +33,12 @@
       "end": null
     },
     {
-      "key": "dxp-2026-10-10",
+      "key": "dxp-2026-10-09",
       "kind": "double_xp",
       "title": "Double XP Weekend",
       "detail": "Every game is worth double XP",
-      "start": "2026-10-10T00:00:00+00:00",
-      "end": "2026-10-12T00:00:00+00:00"
+      "start": "2026-10-09T00:00:00+00:00",
+      "end": "2026-10-11T00:00:00+00:00"
     },
     {
       "key": "recap-2026-10-12",
@@ -57,12 +49,12 @@
       "end": null
     },
     {
-      "key": "dxp-2026-10-17",
+      "key": "dxp-2026-10-16",
       "kind": "double_xp",
       "title": "Double XP Weekend",
       "detail": "Every game is worth double XP",
-      "start": "2026-10-17T00:00:00+00:00",
-      "end": "2026-10-19T00:00:00+00:00"
+      "start": "2026-10-16T00:00:00+00:00",
+      "end": "2026-10-18T00:00:00+00:00"
     },
     {
       "key": "recap-2026-10-19",
@@ -71,6 +63,14 @@
       "detail": "Last week's top scorer, busiest category and hardest question",
       "start": "2026-10-19T14:00:00+00:00",
       "end": null
+    },
+    {
+      "key": "dxp-2026-10-23",
+      "kind": "double_xp",
+      "title": "Double XP Weekend",
+      "detail": "Every game is worth double XP",
+      "start": "2026-10-23T00:00:00+00:00",
+      "end": "2026-10-25T00:00:00+00:00"
     },
     {
       "key": "halloween-daily",
